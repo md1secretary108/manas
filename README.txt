@@ -1,3 +1,8 @@
-Manas web — upload this folder as-is to any static host (GitHub Pages: repository root or docs/).
-index.html opens into Srila Prabhupada's Library (library-preload.json); gita-week.html is the Gita Week demo (preload.json); manas.html is the plain app.
-Files: index.html, gita-week.html, manas.html, library-preload.json, preload.json, stickers.js.
+Manas web — upload these files as-is to the repository root (GitHub Pages serves them).
+index.html        the app; first launch asks "What would you like to study?" (libraries.json)
+library.html      opens straight into Srila Prabhupada's Library (lib-prabhupada.json)
+medicine.html     opens straight into Medicine — Kenyan MBChB (lib-mbchb.json)
+gita-week.html    the Gita Week map (preload.json)
+manas.html        the plain app, no libraries
+stickers.js       cartoon picture library (OpenMoji)
+To add a new library: add its lib-<id>.json here and an entry in libraries.json.

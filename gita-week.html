@@ -69,6 +69,42 @@ mark{background:rgba(255,196,80,.55);color:inherit;border-radius:3px;padding:0 1
 .portal.lost{background:var(--danger)}
 me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 #back-btn.stacked{background:var(--ink);color:var(--paper)}
+
+/* study */
+#study{position:fixed;inset:0;z-index:70;background:var(--paper);color:var(--ink);display:flex;flex-direction:column;padding:calc(12px + env(safe-area-inset-top)) 16px calc(16px + env(safe-area-inset-bottom));gap:12px}
+#study .st-top{display:flex;align-items:center;gap:10px}
+#study .st-top b{flex:1;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#study .st-top span{font-size:13px;color:var(--muted)}
+#study .st-x{width:40px;height:40px;border-radius:50%;background:var(--surface);border:1px solid var(--line);font-size:24px;line-height:1;color:var(--ink)}
+#study .st-bar{height:5px;border-radius:3px;background:var(--line);overflow:hidden}
+#study .st-bar i{display:block;height:100%;background:var(--accent,#E8743B);transition:width .3s}
+#study .st-card{flex:1;min-height:0;overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:22px 20px;display:flex;flex-direction:column;justify-content:center;gap:16px;box-shadow:0 8px 30px rgba(0,0,0,.08)}
+#study .st-card.q{flex:0 0 auto;min-height:120px}
+#study .st-where{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+#study .st-front{font-size:21px;font-weight:700;line-height:1.3}
+#study .st-back{display:none;font-size:17px;line-height:1.45;border-top:1px dashed var(--line);padding-top:14px;white-space:normal}
+#study .st-card.done{align-items:center;text-align:center}
+#study .st-card.done .st-front{font-size:34px}
+#study .st-foot{display:flex;gap:8px}
+#study .st-foot .btn{flex:1;padding:14px 8px;font-size:15px}
+#study .st-opts{flex:1;overflow:auto;display:flex;flex-direction:column;gap:8px}
+#study .st-opt{text-align:left;background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:12px 14px;font-size:15px;line-height:1.35;color:var(--ink)}
+#study .st-opt.ok{border-color:#2BB3A3;background:rgba(43,179,163,.14)}
+#study .st-opt.bad{border-color:var(--danger);background:rgba(217,83,79,.12)}
+#study[hidden]{display:none!important}
+.menu button.on{outline:2px solid var(--ink);outline-offset:-2px}
+/* libraries */
+.libs{display:flex;flex-direction:column;gap:10px}
+.lib-row{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.lib-row.on{border-color:var(--ink)}
+.lib-ico{font-size:28px;width:40px;text-align:center;flex:none}
+.lib-txt{flex:1;display:flex;flex-direction:column;gap:2px;min-width:0}
+.lib-txt b{font-size:15.5px}
+.lib-txt small{font-size:12.5px;color:var(--muted);line-height:1.3}
+.lib-txt .lib-meta{font-size:11.5px;opacity:.85}
+.btn.small{padding:8px 12px;font-size:13.5px;flex:none}
+.btn.small.ghost{background:transparent;border:1px solid var(--line)}
+.btn.small svg{width:16px;height:16px}
 .icon-btn.small{width:38px;height:38px}.icon-btn.small svg{width:19px;height:19px}
 .topbar .title-btn{font-size:15px;padding:8px 8px}
 .new-map{margin-top:16px;width:100%;display:flex;align-items:center;gap:16px;text-align:left;padding:18px 20px;border-radius:var(--radius);background:var(--ink);color:var(--paper);box-shadow:var(--shadow)}
@@ -529,6 +565,7 @@ $('#home-menu-btn').addEventListener('click', () => sheet(`
     <button id="s-restore">${ico('upload')}<span>Restore from a backup file</span></button>
     <button id="s-paste">${ico('upload')}<span>Restore from pasted text</span></button>
     <hr>
+    <button id="s-libs" hidden>${ico('book')}<span>Libraries<br><small style="color:var(--muted)">Add or remove ready-made study libraries</small></span></button>
     <button id="s-tour">${ico('help')}<span>Take the tour<br><small style="color:var(--muted)">A one-minute walk through the app</small></span></button>
     <button id="s-help">${ico('help')}<span>How it works</span></button>
     <button id="s-guide">${ico('help')}<span>Open the guide map<br><small style="color:var(--muted)">"How to use Manas" — comes back if you deleted it</small></span></button>
@@ -546,6 +583,7 @@ $('#home-menu-btn').addEventListener('click', () => sheet(`
     $('#s-help',s).onclick = showHelp;
     $('#s-guide',s).onclick = () => { closeSheet(); openGuide(); };
     $('#s-tour',s).onclick = () => { closeSheet(); startTour(); };
+    if (CATALOG_SRC){ const lb = $('#s-libs',s); lb.hidden = false; lb.onclick = () => librariesSheet(false); }
     $('#s-reset',s).onclick = resetSheet;
     $('#s-about',s).onclick = aboutSheet;
     $('#s-feedback',s).onclick = feedbackSheet;
@@ -557,12 +595,14 @@ function mapOptions(id){
     <div class="menu">
       <button id="o-open">${ico('open')}<span>Open</span></button>
       <button id="o-rename">${ico('edit')}<span>Rename</span></button>
+      <button id="o-study">${ico('cap')}<span>Study this map<br><small style="color:var(--muted)">Flashcards and quiz, remembers what you know</small></span></button>
       <button id="o-dup">${ico('copy')}<span>Duplicate</span></button>
       ${originalOf(m) ? `<hr><button id="o-restore">${ico('undo')}<span>Restore the original<br><small style="color:var(--muted)">Puts this map back the way it came, discarding your edits</small></span></button>` : ''}
       <hr>
       <button id="o-del" class="danger">${ico('trash')}<span>Delete</span></button>
     </div>`, s => {
       const ro = $('#o-restore',s); if (ro) ro.onclick = () => confirmRestore(m);
+      $('#o-study',s).onclick = () => studySheet(m);
       $('h2',s).textContent = m.title || 'Untitled';
       $('#o-open',s).onclick = () => { closeSheet(); openMap(id); };
       $('#o-rename',s).onclick = () => renameMap(m, () => { renderHome(); });
@@ -594,13 +634,14 @@ let preloadList = [];
 function originalOf(m){
   if (m.title === GUIDE_TITLE || m.guide) return () => { const g = sampleMap(); g.id = m.id; return g; };
   const o = preloadList.find(x => x.id === m.id); if (o) return () => JSON.parse(JSON.stringify(o));
+  if (m.library && catalog){ const e = (catalog.libraries||[]).find(x => x.id === m.library && x.file); if (e) return async () => { const list = await fetchLibraryMaps(e); const f = list.find(x => x.id === m.id); if (f) f.library = e.id; return f; }; }
   return null;
 }
 function confirmRestore(m){
   sheet(`<h2>Restore the original?</h2><p class="sub">“${esc(m.title||'Untitled')}” goes back to the way it came with the app. Everything you changed in it is discarded. Duplicate it first if you want to keep your version.</p>
     <div class="row"><button class="btn" id="ro-no">Keep my version</button><button class="btn danger" id="ro-yes">Restore original</button></div>`, s => {
       $('#ro-no',s).onclick = closeSheet;
-      $('#ro-yes',s).onclick = () => { const fresh = originalOf(m)(); fresh.updated = Date.now(); fresh.touched = false; const i = maps.findIndex(x => x.id === m.id); if (i >= 0) maps[i] = fresh; saveMap(fresh); if (current && current.id === m.id) current = fresh; closeSheet(); renderHome(); toast('Original restored'); };
+      $('#ro-yes',s).onclick = async () => { let fresh; try { fresh = await Promise.resolve(originalOf(m)()); } catch(e){ fresh = null; } if (!fresh){ toast('Could not load the original right now'); return; } fresh.updated = Date.now(); fresh.touched = false; const i = maps.findIndex(x => x.id === m.id); if (i >= 0) maps[i] = fresh; saveMap(fresh); if (current && current.id === m.id) current = fresh; closeSheet(); renderHome(); toast('Original restored'); };
   });
 }
 function resetSheet(){
@@ -631,6 +672,7 @@ const TOUR = [
   { at:'#home-menu-btn', title:'Backups and help', text:'Back up all your maps to one file, restore them, reopen the guide map, or take this tour again.' },
   { open:true, at:'me-root', title:'Tap a bubble', text:'Tap a bubble to select it. Double-tap to change its words. Drag the map to move around; pinch to zoom.' },
   { at:'.dock', title:'The buttons follow you', text:'With a bubble selected: Child adds a branch under it, Sibling adds one next to it, then Words, Picture, Style, Move.' },
+  { at:'#a-study', title:'Study and remember', text:'Study turns any map into flashcards and a quick quiz, and brings each card back just before you would forget it.' },
   { at:'#undo-btn', title:'Mistakes are fine', text:'Undo and Redo are always here at the top. Nothing you do is final.' },
   { at:'#editor-menu-btn', title:'More in the menu', text:'Orbit (the 3D view), Stories, Connect and Merge, looks and layouts, and the map backup all live here.' },
 ];
@@ -823,15 +865,14 @@ function renderDock(){
   }
   const b = (id, label, icon, cls='') => `<button class="act ${cls}" id="${id}">${ico(icon)}<span>${label}</span></button>`;
   if (!sel){
-    d.innerHTML = b('a-add','Add idea','plus','primary') + b('a-undo','Undo','undo') + b('a-redo','Redo','redo') + b('a-center','Centre','center') + b('a-fit','Fit all','fit') + b('a-orbit','Orbit','orbit') + (ai?b('a-ai','AI','spark'):'') + b('a-help','Help','help');
+    d.innerHTML = b('a-add','Add idea','plus','primary') + b('a-study','Study','cap') + b('a-orbit','Orbit','orbit') + b('a-center','Centre','center') + b('a-fit','Fit all','fit') + (ai?b('a-ai','AI','spark'):'') + b('a-help','Help','help');
     $('#a-add').onclick = () => { const root = MindElixir.E(mind.nodeData.id); mind.selectNode(root); mind.addChild(root); };
-    $('#a-undo').onclick = () => { mind.undo(); scheduleSave(); setTimeout(applyDecor,0); };
-    $('#a-redo').onclick = () => { mind.redo(); scheduleSave(); setTimeout(applyDecor,0); };
     $('#a-center').onclick = () => mind.toCenter();
     $('#a-fit').onclick = () => mind.scaleFit();
     $('#a-help').onclick = showHelp;
     if (ai) $('#a-ai').onclick = () => aiSheet(null);
     $('#a-orbit').onclick = () => O.enter(false);
+    $('#a-study').onclick = () => studySheet(current);
   } else {
     const root = isRoot(sel);
     d.innerHTML = b('a-child','Child','branch','primary') + (root?'':b('a-sib','Sibling','sibling')) + b('a-edit','Words','edit') + b('a-pic','Picture','image') + b('a-style','Style','palette') + ((sel.nodeObj.manas||{}).map ? b('a-map','Open map','portal') : b('a-map','Map','portal')) + (root?'':b('a-move','Move','move')) + b('a-link','Connect','link') + (root?'':b('a-merge','Merge','merge')) + (ai?b('a-ai','AI','spark'):'') + (root?'':b('a-del','Delete','trash','danger'));
@@ -1490,6 +1531,7 @@ $('#editor-menu-btn').addEventListener('click', () => sheet(`
     <button id="m-orbit">${ico('orbit')}<span>View in 3D (Orbit)</span></button>
     <button id="m-present">${ico('present')}<span>Present in 3D<br><small style="color:var(--muted)">Full screen, one branch at a time</small></span></button>
     <button id="m-stories">${ico('story')}<span>Stories<br><small style="color:var(--muted)">${(current.stories||[]).length ? (current.stories.length + ' story' + (current.stories.length>1?'ies':'') + ' — ') : ''}a path through the map, in your telling order</small></span></button>
+    <button id="m-study">${ico('cap')}<span>Study this map<br><small style="color:var(--muted)">Flashcards and quiz</small></span></button>
     <button id="m-find">${ico('search')}<span>Find in this map</span></button>
     <button id="m-pic">${ico('image')}<span>Share as a picture</span></button>
     <button id="m-rename">${ico('edit')}<span>Rename</span></button>
@@ -1501,6 +1543,7 @@ $('#editor-menu-btn').addEventListener('click', () => sheet(`
     $('h2',s).textContent = current.title || 'Untitled';
     $('#m-pic',s).onclick = sharePicture;
     $('#m-find',s).onclick = findInMapSheet;
+    $('#m-study',s).onclick = () => studySheet(current);
     $('#m-orbit',s).onclick = () => { closeSheet(); O.enter(false); };
     $('#m-present',s).onclick = () => { closeSheet(); O.enter(true); };
     $('#m-stories',s).onclick = storiesSheet;
@@ -1574,6 +1617,8 @@ function showHelp(){
       <li><b>Undo</b> and <b>Redo</b> are always at the top of the map. Every change can be taken back.</li>
       <li><b>Tap</b> a bubble to select it. The buttons at the bottom change to what you can do with it.</li>
       <li><b>Double-tap</b> a bubble to change its words. Press Enter when done.</li>
+      <li><b>Study</b> (bottom of any map) makes flashcards from the bubbles and their notes, and a ten-question quiz. Tap “Knew it”, “Almost” or “Didn't know”; each card comes back just before you would forget it. Your progress stays on this phone.</li>
+      <li><b>Libraries</b> (home menu) are ready-made sets of maps — Srila Prabhupada's books, Medicine for Kenyan MBChB students, and more to come. Add one with a tap, remove it when you are done.</li>
       <li><b>Child</b> adds a branch under the selected idea. <b>Sibling</b> adds one beside it.</li>
       <li><b>Map</b> turns a bubble into a door to another map (new or existing). A small arrow appears on it; tap the arrow to go through, and Back brings you home to the map you came from. Search finds ideas in every map.</li>
       <li><b>Move an idea</b>: select it and drag the orange ring onto another bubble (drop on the middle to go under it, near the top or bottom edge to sit beside it). The <b>Move</b> button does the same with taps. Drag empty space to pan. Pinch to zoom.</li>
@@ -1601,6 +1646,8 @@ function ico(n){
   const P = { stroke:'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"' };
   const d = {
     plus:'<path d="M12 5v14M5 12h14"/>',
+    cap:'<path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/><path d="M22 9v6"/>',
+    book:'<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M8 7h7"/>',
     portal:'<rect x="3" y="3" width="12" height="12" rx="2"/><path d="M9 21h10a2 2 0 0 0 2-2V9M12 12l9-9M15 3h6v6"/>',
     search:'<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
     branch:'<circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 12h3c2 0 2.5-1 2.5-2.5V6M11.5 12c2 0 2.5 1 2.5 2.5V18"/>',
@@ -2040,6 +2087,151 @@ const O = (function(){
   return { enter, leave, back };
 })();
 
+
+/* ---------------- libraries shelf: ready-made study libraries, one tap to add ---------------- */
+const CATALOG_SRC = (document.querySelector('meta[name="manas-catalog"]') || {}).content || '';
+let catalog = null;
+function readFile(src){ return new Promise((res, rej) => {
+  if (location.protocol === 'file:'){ const x = new XMLHttpRequest(); x.open('GET', src); x.onload = () => (x.status === 0 || x.status === 200) ? res(x.responseText) : rej(x.status); x.onerror = rej; x.send(); }
+  else fetch(src, { cache: 'no-store' }).then(r => r.ok ? r.text() : Promise.reject(r.status)).then(res, rej); }); }
+async function loadCatalog(){ if (catalog || !CATALOG_SRC) return catalog; try { catalog = JSON.parse(await readFile(CATALOG_SRC)); DIAG.catalog = (catalog.libraries || []).length + ' libraries'; } catch(e){ catalog = null; DIAG.catalog = 'failed'; } return catalog; }
+async function fetchLibraryMaps(e){ const j = JSON.parse(await readFile(e.file)); return (Array.isArray(j) ? j : j.maps || []).filter(m => m && m.data && m.data.nodeData); }
+function libCount(id){ return maps.filter(m => m.library === id).length; }
+async function installLibrary(e){
+  toast('Adding ' + e.title + '…');
+  const list = await fetchLibraryMaps(e); let added = 0;
+  for (const m of list){ m.library = e.id; const i = maps.findIndex(x => x.id === m.id);
+    if (i < 0){ maps.push(m); saveMap(m); added++; } else if (!maps[i].touched){ maps[i] = m; saveMap(m); } }
+  const root = maps.find(x => x.id === e.root); if (root){ root.updated = Date.now(); saveMap(root); }
+  renderHome(); toast(`${e.title}: ${added || list.length} maps ready`); return root;
+}
+function removeLibrary(e, after){
+  const n = libCount(e.id); const edited = maps.filter(m => m.library === e.id && m.touched).length;
+  sheet(`<h2>Remove ${esc(e.title)}?</h2><p class="sub">Its ${n} maps leave this device${edited ? `, including ${edited} you have edited` : ''}. You can add the library again at any time.</p>
+    <div class="row"><button class="btn" id="rl-no">Keep it</button><button class="btn danger" id="rl-yes">Remove</button></div>`, s => {
+      $('#rl-no', s).onclick = () => librariesSheet(false);
+      $('#rl-yes', s).onclick = () => { for (const m of maps.filter(m => m.library === e.id)) deleteMap(m.id); maps = maps.filter(m => m.library !== e.id); renderHome(); toast('Removed'); after ? after() : librariesSheet(false); };
+  });
+}
+async function librariesSheet(first){
+  await loadCatalog(); if (!catalog){ toast('Libraries are not available here'); return; }
+  const libs = catalog.libraries || [];
+  const row = e => { const n = libCount(e.id); const ready = !!e.file;
+    return `<div class="lib-row${n ? ' on' : ''}" data-lib="${esc(e.id)}"><span class="lib-ico">${esc(e.icon || '📚')}</span><span class="lib-txt"><b>${esc(e.title)}</b><small>${esc(e.subtitle || '')}</small>${ready ? `<small class="lib-meta">${esc(e.meta || '')}</small>` : '<small class="lib-meta">Coming soon</small>'}</span>
+      ${ready ? (n ? `<button class="btn small" data-open="${esc(e.id)}">Open</button><button class="btn small ghost" data-rm="${esc(e.id)}" aria-label="Remove">${ico('trash')}</button>` : `<button class="btn primary small" data-add="${esc(e.id)}">Add</button>`) : ''}</div>`; };
+  sheet(`<h2>${first ? 'What would you like to study?' : 'Libraries'}</h2>
+    <p class="sub">${first ? 'Pick a ready-made library to start with. Each one is a set of linked maps with lectures, key facts and flashcards. You can add or remove libraries later from the menu.' : 'Ready-made sets of linked maps. Add one with a tap; remove it when you no longer need it.'}</p>
+    <div class="libs">${libs.map(row).join('')}</div>
+    <div class="row" style="margin-top:14px">${first ? '<button class="btn" id="lb-skip">Just the app for now</button>' : '<button class="btn" id="lb-close">Done</button>'}</div>`, s => {
+      const done = () => { if (first){ settings.libChosen = true; saveSettings(settings); closeSheet(); if (!settings.tourDone) setTimeout(startTour, 300); } else closeSheet(); };
+      const sk = $('#lb-skip', s); if (sk) sk.onclick = done;
+      const cl = $('#lb-close', s); if (cl) cl.onclick = done;
+      s.querySelectorAll('[data-add]').forEach(b => b.onclick = async () => { const e = libs.find(x => x.id === b.getAttribute('data-add')); b.disabled = true; b.textContent = 'Adding…';
+        try { await installLibrary(e); } catch(err){ toast('Could not load that library — check the connection'); }
+        if (first){ settings.libChosen = true; saveSettings(settings); closeSheet(); if (!settings.tourDone) setTimeout(startTour, 300); } else librariesSheet(false); });
+      s.querySelectorAll('[data-open]').forEach(b => b.onclick = () => { const e = libs.find(x => x.id === b.getAttribute('data-open')); closeSheet(); const r = maps.find(x => x.id === e.root) || maps.find(x => x.library === e.id); if (r) openMap(r.id, false); });
+      s.querySelectorAll('[data-rm]').forEach(b => b.onclick = () => removeLibrary(libs.find(x => x.id === b.getAttribute('data-rm'))));
+  });
+}
+
+/* ---------------- study: flashcards with spaced repetition, and a quick quiz ---------------- */
+const SRS_KEY = 'manas.srs.v1';
+let srs = {}; try { srs = JSON.parse(localStorage.getItem(SRS_KEY) || '{}'); } catch(e){ srs = {}; }
+let srsT; function saveSrs(){ clearTimeout(srsT); srsT = setTimeout(() => { try { localStorage.setItem(SRS_KEY, JSON.stringify(srs)); } catch(e){} }, 300); }
+const DAY = 86400000, INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64];
+const MEDIA = /^(🔊|🎬|📷|📖|📋|▶|🎥|🔗)/;
+function plain(t){ return String(t || '').replace(/<[^>]+>/g, '').trim(); }
+function cardsFrom(map, rootNode, seen, out){
+  seen = seen || new Set(); out = out || []; if (!map || seen.has(map.id) || out.length > 5000) return out; seen.add(map.id);
+  const start = rootNode || map.data.nodeData;
+  walkNodes(start, (n, parent) => {
+    const m = n.manas || {}; const topic = plain(n.topic);
+    if (m.map){ const t = maps.find(x => x.id === m.map); if (t) cardsFrom(t, null, seen, out); return; }
+    if (!topic || MEDIA.test(topic) || n === map.data.nodeData) return;
+    const kids = (n.children || []).filter(c => !MEDIA.test(plain(c.topic)) && !(c.manas && c.manas.map));
+    if (n.note && String(n.note).trim().length > 3) out.push({ id: map.id + ':' + n.id, front: m.q || topic, back: String(n.note), cue: topic, where: parent ? plain(parent.topic) : map.title, map: map.id, node: n.id });
+    else if (kids.length >= 2 && kids.length <= 9) out.push({ id: map.id + ':' + n.id + ':k', front: `What comes under “${topic}”?`, back: kids.map(c => '• ' + plain(c.topic)).join('\n'), cue: topic, where: parent ? plain(parent.topic) : map.title, map: map.id, node: n.id });
+  });
+  return out;
+}
+function cardStats(cards){ const now = Date.now(); let due = 0, fresh = 0, known = 0; for (const c of cards){ const r = srs[c.id]; if (!r) fresh++; else { if (r.due <= now) due++; if (r.box >= 3) known++; } } return { due, fresh, known, total: cards.length }; }
+function studySheet(map){
+  if (!map) return; const whole = cardsFrom(map);
+  if (!whole.length){ sheet(`<h2>Nothing to study yet</h2><p class="sub">Study makes flashcards from bubbles that have notes, and from bubbles with a few ideas under them. Add some ideas or notes, then come back.</p><div class="row"><button class="btn" id="st-x">OK</button></div>`, s => { $('#st-x', s).onclick = closeSheet; }); return; }
+  const root = map.data.nodeData;
+  const scopes = [{ label: 'Everything in this map', cards: whole }];
+  for (const c of (root.children || [])){ if (MEDIA.test(plain(c.topic))) continue; const cs = (c.manas && c.manas.map) ? cardsFrom(maps.find(x => x.id === c.manas.map)) : cardsFrom(map, c, new Set()); if (cs.length) scopes.push({ label: plain(c.topic), cards: cs }); }
+  const st = cardStats(whole);
+  const line = sc => { const t = cardStats(sc.cards); return `${t.total} cards · ${t.known} known${t.due ? ` · <b>${t.due} due</b>` : ''}`; };
+  sheet(`<h2>Study</h2><p class="sub">${esc(map.title || 'Untitled')} — ${st.total} cards, ${st.known} you know well${st.due ? `, ${st.due} due for review` : ''}. Manas brings back each card just before you would forget it.</p>
+    <div class="menu" id="st-scopes">${scopes.slice(0, 40).map((sc, i) => `<button data-sc="${i}" class="${i ? '' : 'on'}">${ico(i ? 'branch' : 'cap')}<span>${esc(sc.label)}<br><small style="color:var(--muted)">${line(sc)}</small></span></button>`).join('')}</div>
+    <div class="row" style="margin-top:12px"><button class="btn primary" id="st-cards">Flashcards</button><button class="btn" id="st-quiz">Quiz me</button></div>`, s => {
+      let pick = 0; s.querySelectorAll('[data-sc]').forEach(b => b.onclick = () => { pick = +b.getAttribute('data-sc'); s.querySelectorAll('[data-sc]').forEach(x => x.classList.toggle('on', x === b)); });
+      $('#st-cards', s).onclick = () => { closeSheet(); startFlashcards(scopes[pick].cards, scopes[pick].label); };
+      $('#st-quiz', s).onclick = () => { closeSheet(); startQuiz(scopes[pick].cards, scopes[pick].label); };
+  });
+}
+function studyBox(){ let el = $('#study'); if (!el){ el = document.createElement('div'); el.id = 'study'; document.body.appendChild(el); } el.hidden = false; return el; }
+function studyOpen(){ const el = $('#study'); return !!(el && !el.hidden); }
+function endStudy(){ const el = $('#study'); if (el){ el.hidden = true; el.innerHTML = ''; } if (current && mind) setTimeout(applyDecor, 0); else renderHome(); }
+function fmt(t){ return esc(t).replace(/\n/g, '<br>'); }
+function startFlashcards(cards, label){
+  const now = Date.now();
+  const due = cards.filter(c => srs[c.id] && srs[c.id].due <= now).sort((a, b) => srs[a.id].due - srs[b.id].due);
+  const fresh = cards.filter(c => !srs[c.id]);
+  let queue = due.slice(0, 30).concat(fresh.slice(0, Math.max(10, 20 - due.length)));
+  if (!queue.length){ const soon = cards.filter(c => srs[c.id]).sort((a, b) => srs[a.id].due - srs[b.id].due); queue = soon.slice(0, 15); }
+  const total = queue.length; let doneN = 0, right = 0;
+  const el = studyBox();
+  const show = () => {
+    const c = queue[0];
+    if (!c){ el.innerHTML = `<div class="st-top"><button class="st-x" aria-label="Close">×</button><b>${esc(label)}</b><span></span></div><div class="st-card done"><div class="st-front">Well done</div><div class="st-back" style="display:block">${doneN} cards reviewed · ${right} known.<br>Come back ${nextDueText(cards)}.</div></div><div class="st-foot"><button class="btn primary" id="st-end">Finish</button></div>`; el.querySelector('.st-x').onclick = endStudy; $('#st-end', el).onclick = endStudy; return; }
+    el.innerHTML = `<div class="st-top"><button class="st-x" aria-label="Close">×</button><b>${esc(label)}</b><span>${doneN + 1} / ${total}</span></div>
+      <div class="st-bar"><i style="width:${Math.round(100 * doneN / Math.max(1, total))}%"></i></div>
+      <div class="st-card"><small class="st-where">${esc(c.where || '')}</small><div class="st-front">${fmt(c.front)}</div><div class="st-back">${fmt(c.back)}</div></div>
+      <div class="st-foot" id="st-f"><button class="btn primary wide" id="st-show">Show answer</button></div>`;
+    el.querySelector('.st-x').onclick = endStudy;
+    const reveal = () => { el.querySelector('.st-back').style.display = 'block'; $('#st-f', el).innerHTML = `<button class="btn" data-r="0">Didn't know</button><button class="btn" data-r="1">Almost</button><button class="btn primary" data-r="2">Knew it</button>`; el.querySelectorAll('[data-r]').forEach(b => b.onclick = () => rate(+b.getAttribute('data-r'))); };
+    $('#st-show', el).onclick = reveal; el.querySelector('.st-card').onclick = () => { if (el.querySelector('.st-back').style.display !== 'block') reveal(); };
+  };
+  const rate = r => {
+    const c = queue.shift(); const rec = srs[c.id] || { box: 0, due: 0, seen: 0 };
+    rec.seen++; if (r === 0){ rec.box = 0; rec.due = Date.now() + 60000; if (queue.length > 2) queue.splice(3, 0, c); else queue.push(c); }
+    else { rec.box = Math.min(INTERVALS.length - 1, r === 2 ? rec.box + 1 : Math.max(1, rec.box)); rec.due = Date.now() + INTERVALS[rec.box] * DAY * (r === 1 ? 0.6 : 1) + (rec.box ? 0 : 600000); doneN++; if (r === 2) right++; }
+    srs[c.id] = rec; saveSrs(); show();
+  };
+  show();
+}
+function nextDueText(cards){ const t = cards.map(c => srs[c.id] && srs[c.id].due).filter(Boolean).sort((a, b) => a - b).find(d => d > Date.now()); if (!t) return 'any time to learn new cards'; const d = Math.round((t - Date.now()) / DAY); return d <= 0 ? 'later today for the next review' : d === 1 ? 'tomorrow for the next review' : `in ${d} days for the next review`; }
+function shuffle(a){ for (let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function startQuiz(cards, label){
+  const pool = cards.filter(c => c.back && c.back.length < 240 && !c.id.endsWith(':k'));
+  if (pool.length < 4){ toast('Not enough cards for a quiz here — try Flashcards'); return; }
+  const qs = shuffle(pool.slice()).slice(0, 10).map(c => {
+    const near = pool.filter(x => x !== c && x.where === c.where && x.back !== c.back); const far = pool.filter(x => x !== c && x.where !== c.where && x.back !== c.back);
+    const wrong = shuffle(near.slice()).concat(shuffle(far.slice())).slice(0, 3);
+    return { c, opts: shuffle([c].concat(wrong)) };
+  });
+  let i = 0, score = 0; const el = studyBox();
+  const show = () => {
+    const q = qs[i];
+    if (!q){ el.innerHTML = `<div class="st-top"><button class="st-x" aria-label="Close">×</button><b>${esc(label)}</b><span></span></div><div class="st-card done"><div class="st-front">${score} / ${qs.length}</div><div class="st-back" style="display:block">${score === qs.length ? 'Perfect.' : score >= qs.length * 0.7 ? 'Good work.' : 'The ones you missed will come back in your flashcards.'}</div></div><div class="st-foot"><button class="btn" id="st-again">Another quiz</button><button class="btn primary" id="st-end">Finish</button></div>`; el.querySelector('.st-x').onclick = endStudy; $('#st-end', el).onclick = endStudy; $('#st-again', el).onclick = () => startQuiz(cards, label); return; }
+    el.innerHTML = `<div class="st-top"><button class="st-x" aria-label="Close">×</button><b>${esc(label)}</b><span>${i + 1} / ${qs.length}</span></div>
+      <div class="st-bar"><i style="width:${Math.round(100 * i / qs.length)}%"></i></div>
+      <div class="st-card q"><small class="st-where">${esc(q.c.where || '')}</small><div class="st-front">${fmt(q.c.front)}</div></div>
+      <div class="st-opts">${q.opts.map((o, k) => `<button class="st-opt" data-k="${k}">${fmt(o.back)}</button>`).join('')}</div>
+      <div class="st-foot" id="st-f"></div>`;
+    el.querySelector('.st-x').onclick = endStudy;
+    el.querySelectorAll('.st-opt').forEach(b => b.onclick = () => {
+      if (el.querySelector('.st-opt.ok')) return; const pickd = q.opts[+b.getAttribute('data-k')]; const good = pickd === q.c;
+      el.querySelectorAll('.st-opt').forEach((x, k) => { if (q.opts[k] === q.c) x.classList.add('ok'); }); if (!good) b.classList.add('bad');
+      if (good) score++; else { srs[q.c.id] = { box: 0, due: Date.now(), seen: ((srs[q.c.id] || {}).seen || 0) + 1 }; saveSrs(); }
+      $('#st-f', el).innerHTML = `<button class="btn primary wide" id="st-next">${i < qs.length - 1 ? 'Next' : 'See score'}</button>`; $('#st-next', el).onclick = () => { i++; show(); };
+    });
+  };
+  show();
+}
+
 /* ---------------- lifecycle ---------------- */
 document.addEventListener('visibilitychange', () => { if (document.hidden) saveNow(); });
 window.addEventListener('pagehide', saveNow);
@@ -2070,6 +2262,7 @@ async function boot(){
     }
     // the guide map is seeded once on every device, even when a page ships its own preloaded map
     if ((!maps.length || !settings.guideSeeded) && !maps.some(m => m.title === GUIDE_TITLE)){ const sm = sampleMap(); if (preloadList.length){ sm.created = sm.updated = Date.now() - 86400000; } maps.push(sm); saveMap(sm); settings.guideSeeded = true; saveSettings(settings); }
+    if (CATALOG_SRC && !pre){ await loadCatalog(); if (catalog && !settings.libChosen){ renderHome(); setTimeout(() => librariesSheet(true), 300); return; } }
     if (!settings.tourDone){ renderHome(); if (pre) { settings.preloadOpened = true; saveSettings(settings); } setTimeout(startTour, 400); return; }
     if (pre && !settings.preloadOpened){ settings.preloadOpened = true; saveSettings(settings); renderHome(); openMap(pre.id, false); return; }
   } catch(e){
@@ -2079,7 +2272,7 @@ async function boot(){
   }
   renderHome();
 }
-const DIAG = { version: '6.3', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
+const DIAG = { version: '6.4', catalog: 'none', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
 window.addEventListener('error', e => { DIAG.lastError = String(e.message || e).slice(0, 200); });
 function pollBridge(){
   try {
@@ -2122,6 +2315,7 @@ function aboutSheet(){
 window.__manas_dev = { restoreText, openMap, goHome, maps: () => maps, orbit: O, countNodes, mind: () => mind };
 window.manasBack = function(){
   try {
+    if (studyOpen()){ endStudy(); return 'ok'; }
     if (!wrap.hidden){ closeSheet(); return 'ok'; }
     if (!orbitEl.hidden){ O.back(); return 'ok'; }
     if (!editorEl.hidden){ if (storyEdit) endStoryEdit(); else if (storyPlay) endStoryPlay(); else if (picking) endPick(); else if (connectFrom) endConnect(); else if (mergeSet) endMerge(); else if (mapStack.length) backOrHome(); else goHome(true); return 'ok'; }

@@ -1,0 +1,34 @@
+{
+ "libraries": [
+  {
+   "id": "prabhupada",
+   "title": "Srila Prabhupada's Library",
+   "subtitle": "Bhagavad-gita, Srimad-Bhagavatam, Caitanya-caritamrta and 19 more books, with chapter summaries, key verses, 1,593 recorded classes and Vanimedia video",
+   "icon": "🪷",
+   "file": "lib-prabhupada.json",
+   "root": "lib-root",
+   "meta": "25 maps · 6,130 ideas · 1.9 MB"
+  },
+  {
+   "id": "mbchb",
+   "title": "Medicine — Kenyan MBChB",
+   "subtitle": "All six years as taught at the University of Nairobi: 45 courses, 4,133 key facts as flashcards, free lectures and Kenya MoH guidelines",
+   "icon": "🩺",
+   "file": "lib-mbchb.json",
+   "root": "med-root",
+   "meta": "46 maps · 6,339 ideas · 1.6 MB"
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "subtitle": "Maths, physics, mechanics, electrical and civil foundations",
+   "icon": "⚙️"
+  },
+  {
+   "id": "it-ai",
+   "title": "IT and AI",
+   "subtitle": "Programming, data science, networks and machine learning",
+   "icon": "🤖"
+  }
+ ]
+}
