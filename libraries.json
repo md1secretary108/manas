@@ -7,28 +7,59 @@
    "icon": "🪷",
    "file": "lib-prabhupada.json",
    "root": "lib-root",
-   "meta": "25 maps · 6,130 ideas · 1.9 MB"
+   "meta": "25 maps · 6,130 ideas · 1.9 MB",
+   "about": {
+    "by": "His Divine Grace A. C. Bhaktivedanta Swami Prabhupada (books, classes); structure and links from vedabase.io and vanimedia.org",
+    "from": "Book structure, chapter titles and recordings on vedabase.io and vanimedia.org; summaries and verse notes written for Manas",
+    "review": "reviewed",
+    "date": "28 Sep 2026"
+   }
+  },
+  {
+   "id": "bdds",
+   "title": "HH Bhakti Dhira Damodara Swami",
+   "subtitle": "His classes as mind maps — series by series, class by class — with the recording, the transcript and the verse one tap away. Topics thread across the collection.",
+   "icon": "📿",
+   "file": "lib-bdds.json",
+   "root": "bdds-root",
+   "meta": "27 maps · 909 ideas · 973 KB · 1 series",
+   "parts": 1,
+   "about": {
+    "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
+    "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
+    "review": "more on the way",
+    "date": "6 Oct 2026"
+   }
   },
   {
    "id": "mbchb",
    "title": "Medicine — Kenyan MBChB",
-   "subtitle": "All six years as taught at the University of Nairobi: 45 courses, 4,133 key facts as flashcards, free lectures and Kenya MoH guidelines",
+   "subtitle": "All six years as taught at the University of Nairobi: 45 courses, 4,133 key facts as flashcards, free lectures and Kenya MoH guidelines. Study notes: AI-drafted and checked, doctor review in progress",
    "icon": "🩺",
    "file": "lib-mbchb.json",
    "root": "med-root",
-   "meta": "46 maps · 6,339 ideas · 1.6 MB"
+   "meta": "46 maps · 6,339 ideas · 1.6 MB",
+   "about": {
+    "by": "Manas, for Kenyan MBChB students (University of Nairobi course structure)",
+    "from": "Course list from the UoN programme; key facts drafted with AI and checked twice by AI; OpenStax, Kenya MoH and WHO links",
+    "review": "review in progress",
+    "date": "28 Sep 2026"
+   }
   },
   {
-   "id": "engineering",
-   "title": "Engineering",
-   "subtitle": "Maths, physics, mechanics, electrical and civil foundations",
-   "icon": "⚙️"
-  },
-  {
-   "id": "it-ai",
-   "title": "IT and AI",
-   "subtitle": "Programming, data science, networks and machine learning",
-   "icon": "🤖"
+   "id": "cpa31",
+   "title": "Leadership and Management — CPA Advanced (CA31)",
+   "subtitle": "KASNEB CPA Advanced Level paper CA31, topic by topic: the lists, models and definitions examiners ask for, each as a flashcard, with exam-style questions and how to answer them. Drafted with AI from tutorial notes; CPA review in progress",
+   "icon": "📊",
+   "file": "lib-cpa31.json",
+   "root": "cpa31-root",
+   "meta": "4 maps · 274 ideas · 206 flashcards · 153 KB · 3 of 10 topics",
+   "about": {
+    "by": "Manas, for KASNEB CPA Advanced candidates; tutorial notes from a practising accountant",
+    "from": "CA31 tutorial notes (Topics 5, 6, 7) restated in Manas’s own words; KASNEB paper structure",
+    "review": "review in progress",
+    "date": "6 Oct 2026"
+   }
   }
  ]
 }

@@ -1,0 +1,4298 @@
+{
+ "app": "manas",
+ "version": 1,
+ "library": "Leadership and Management — CPA Advanced (CA31)",
+ "source": "CA31 tutorial notes shared by the reviewer (Topics 5, 6, 7); explanations in our own words. KASNEB syllabus structure: kasneb.or.ke. © 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi.",
+ "maps": [
+  {
+   "id": "cpa31-root",
+   "title": "Leadership and Management — CPA Advanced (CA31)",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1791280019050,
+   "updated": 1791280019050,
+   "library": "cpa31",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "cpa31-root",
+     "topic": "Leadership and Management — CPA Advanced (CA31)",
+     "icons": [
+      "📊"
+     ],
+     "note": "Exam preparation for KASNEB CPA Advanced Level, paper CA31 Leadership and Management. Each topic bubble is a door (tap the arrow) into that topic's map: sections follow the tutorial notes, every point is a flashcard (Study → flashcards or quiz), and an Exam practice branch shows likely questions with how to structure the answer. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "children": [
+      {
+       "id": "cpa31-o01",
+       "topic": "Topic 1 · Introduction to leadership and management",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 1"
+        }
+       },
+       "note": "Coming — notes for this topic are being prepared."
+      },
+      {
+       "id": "cpa31-o02",
+       "topic": "Topic 2 · Management theories and functions",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 2"
+        }
+       },
+       "note": "Coming — notes for this topic are being prepared."
+      },
+      {
+       "id": "cpa31-o03",
+       "topic": "Topic 3 · Organisational structure and culture",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 3"
+        }
+       },
+       "note": "Coming — notes for this topic are being prepared."
+      },
+      {
+       "id": "cpa31-o04",
+       "topic": "Topic 4 · Strategic management",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 4"
+        }
+       },
+       "note": "Coming — notes for this topic are being prepared."
+      },
+      {
+       "id": "cpa31-o05",
+       "topic": "Topic 5 · Environmental Analysis",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 5"
+        },
+        "map": "cpa31-t05"
+       },
+       "icons": [
+        "🗺️"
+       ],
+       "note": "Open the arrow for this topic as a map, with flashcards and exam practice."
+      },
+      {
+       "id": "cpa31-o06",
+       "topic": "Topic 6 · Leadership approaches and strategy",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 6"
+        },
+        "map": "cpa31-t06"
+       },
+       "icons": [
+        "🗺️"
+       ],
+       "note": "Open the arrow for this topic as a map, with flashcards and exam practice."
+      },
+      {
+       "id": "cpa31-o07",
+       "topic": "Topic 7 · Enterprise Management",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 7"
+        },
+        "map": "cpa31-t07"
+       },
+       "icons": [
+        "🗺️"
+       ],
+       "note": "Open the arrow for this topic as a map, with flashcards and exam practice."
+      },
+      {
+       "id": "cpa31-o08",
+       "topic": "Topic 8 · Change management",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 8"
+        }
+       },
+       "note": "Coming — notes for this topic are being prepared."
+      },
+      {
+       "id": "cpa31-o09",
+       "topic": "Topic 9 · Human resource and talent management",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 9"
+        }
+       },
+       "note": "Coming — notes for this topic are being prepared."
+      },
+      {
+       "id": "cpa31-o10",
+       "topic": "Topic 10 · Governance, ethics and corporate social responsibility",
+       "manas": {
+        "orbit": {
+         "ref": "Topic 10"
+        }
+       },
+       "note": "Coming — notes for this topic are being prepared."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "cpa31-t05",
+   "title": "CA31 · Topic 5 · Environmental Analysis",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1791280019050,
+   "updated": 1791280019050,
+   "library": "cpa31",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "cpa31-t05-root",
+     "topic": "Topic 5 · Environmental Analysis",
+     "icons": [
+      "🔭"
+     ],
+     "note": "How an organisation reads the world around it: the nature and importance of the business environment, micro and macro factors, environmental scanning, and the analytical tools (SWOT, PESTEL, Porter's five forces and others). Examiners ask you to list and explain factors, apply SWOT, PESTEL and the five forces to a case, and advise on responding to each force. Structure follows the CA31 tutorial notes shared by the reviewer (Chapter 5); explanations are Manas's own words. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "children": [
+      {
+       "id": "cpa31-t05-s1",
+       "topic": "5.1 The business environment",
+       "note": "The business environment is everything outside the firm that can help or hurt it. Examiners ask for its characteristics and why studying it matters; learn six features and five benefits.",
+       "icons": [
+        "🌍"
+       ],
+       "expanded": true,
+       "children": [
+        {
+         "id": "cpa31-t05-s1-1",
+         "topic": "Definition",
+         "note": "All external forces that influence a firm's actions, decisions and strategies. Success depends on it, so a business must identify, appraise and respond to the threats and opportunities it presents.",
+         "manas": {
+          "q": "Define the business environment.",
+          "orbit": {
+           "ref": "5.1",
+           "tag": "Concept"
+          },
+          "topics": [
+           "Concept",
+           "Definition"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s1-2",
+         "topic": "Glueck and Jauch view",
+         "note": "The environment is the set of outside factors that create opportunities or threats; the most important are socioeconomic, technological, suppliers, competitors and government.",
+         "manas": {
+          "q": "Which five factors did Glueck and Jauch rank as most important in the environment?",
+          "orbit": {
+           "ref": "5.1",
+           "tag": "Concept"
+          },
+          "topics": [
+           "Concept",
+           "Glueck and Jauch view"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s1-3",
+         "topic": "Six features",
+         "note": "Six features: complex, dynamic, multi-faceted, far-reaching in impact, uncertain, and relative to place.",
+         "manas": {
+          "q": "State six characteristics of the business environment.",
+          "orbit": {
+           "ref": "5.1",
+           "tag": "Concept"
+          },
+          "topics": [
+           "Concept",
+           "Six features"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s1-4",
+         "topic": "Complex and dynamic",
+         "note": "Complex: so many factors from so many sources that it can be understood in parts but never fully. Dynamic: it keeps changing shape and character because of those many influences.",
+         "manas": {
+          "q": "Why can the environment never be understood in totality?",
+          "orbit": {
+           "ref": "5.1",
+           "tag": "Concept"
+          },
+          "topics": [
+           "Concept",
+           "Complex and dynamic"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s1-5",
+         "topic": "Multi-faceted and relative",
+         "note": "Multi-faceted: different observers read the same change differently, one sees an opportunity and another a threat. Relative: it depends on local conditions, so it differs between countries and even between places in one country.",
+         "manas": {
+          "q": "Why does one change look like an opportunity to some and a threat to others?",
+          "orbit": {
+           "ref": "5.1",
+           "tag": "Concept"
+          },
+          "topics": [
+           "Concept",
+           "Multi-faceted and relative"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s1-6",
+         "topic": "Impact and uncertainty",
+         "note": "Far-reaching: it affects growth and profitability, so firms adapt constantly. Uncertain: factors change quickly, so strategists must anticipate likely changes in advance.",
+         "manas": {
+          "q": "How should strategists deal with environmental uncertainty?",
+          "orbit": {
+           "ref": "5.1",
+           "tag": "Concept"
+          },
+          "topics": [
+           "Concept",
+           "Impact and uncertainty"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s1-7",
+         "topic": "Five benefits of study",
+         "note": "Five benefits: it reveals opportunities and threats, gives direction for growth, drives continuous learning by managers, builds the firm's image, and helps it meet competition.",
+         "manas": {
+          "q": "Explain five reasons for studying the business environment.",
+          "orbit": {
+           "ref": "5.1",
+           "tag": "Concept"
+          },
+          "topics": [
+           "Concept",
+           "Five benefits of study"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.1",
+         "tag": "Concept"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-s2",
+       "topic": "5.2 The micro (task) environment",
+       "note": "The micro environment is the immediate surrounding that touches the organisation regularly, hence the name task environment. Be able to list its elements and say why each matters.",
+       "icons": [
+        "🔬"
+       ],
+       "expanded": true,
+       "children": [
+        {
+         "id": "cpa31-t05-s2-1",
+         "topic": "Meaning",
+         "note": "The organisation's immediate periphery, which influences it directly and on a regular basis; also called the task environment. It must be monitored and analysed continuously.",
+         "manas": {
+          "q": "Why is the micro environment called the task environment?",
+          "orbit": {
+           "ref": "5.2",
+           "tag": "Micro"
+          },
+          "topics": [
+           "Micro",
+           "Meaning"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s2-2",
+         "topic": "Customers and consumers",
+         "note": "A customer buys the product; a consumer is the final user. They can be different people, so a firm tracks both changes in buying habits and in consumer tastes.",
+         "manas": {
+          "q": "Distinguish a customer from a consumer with an example.",
+          "orbit": {
+           "ref": "5.2",
+           "tag": "Micro"
+          },
+          "topics": [
+           "Micro",
+           "Customers and consumers"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s2-3",
+         "topic": "Competitors",
+         "note": "Organisations competing for resources and markets. Direct competitors do the same business (two shampoo makers); indirect competitors sell different products but chase the same spending (a luxury resort and a luxury car).",
+         "manas": {
+          "q": "Distinguish direct from indirect competitors.",
+          "orbit": {
+           "ref": "5.2",
+           "tag": "Micro"
+          },
+          "topics": [
+           "Micro",
+           "Competitors"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s2-4",
+         "topic": "The organisation itself",
+         "note": "Self-analysis of strengths, weaknesses, goals and resources. Internal players include owners (major shareholders), the board (elected by shareholders to oversee management) and employees (who must embrace the goals).",
+         "manas": {
+          "q": "Which internal groups form part of the organisation's micro environment?",
+          "orbit": {
+           "ref": "5.2",
+           "tag": "Micro"
+          },
+          "topics": [
+           "Micro",
+           "The organisation itself"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s2-5",
+         "topic": "The market",
+         "note": "More than the sum of customers: study its size, growth potential and attractiveness, plus cost structure, price sensitivity, technological structure, distribution system and maturity.",
+         "manas": {
+          "q": "List the market issues an organisation should study.",
+          "orbit": {
+           "ref": "5.2",
+           "tag": "Micro"
+          },
+          "topics": [
+           "Micro",
+           "The market"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s2-6",
+         "topic": "Suppliers",
+         "note": "They provide equipment and raw materials and can shape the industry's cost structure, which makes them a major force.",
+         "manas": {
+          "q": "Why are suppliers a major force in the micro environment?",
+          "orbit": {
+           "ref": "5.2",
+           "tag": "Micro"
+          },
+          "topics": [
+           "Micro",
+           "Suppliers"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s2-7",
+         "topic": "Intermediaries",
+         "note": "Retailers, department and chain stores and online stores stand between maker and buyer; most customers do not know who made what they buy, so intermediaries strongly influence sales.",
+         "manas": {
+          "q": "Why do intermediaries matter to a manufacturer?",
+          "orbit": {
+           "ref": "5.2",
+           "tag": "Micro"
+          },
+          "topics": [
+           "Micro",
+           "Intermediaries"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.2",
+         "tag": "Micro"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-s3",
+       "topic": "5.3 Macro environment: political-legal and social",
+       "note": "Macro factors lie outside the firm's immediate surroundings and cannot be controlled by it. This section covers the political-legal and social strands; the next covers technology, economy and demography.",
+       "icons": [
+        "🏛️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t05-s3-1",
+         "topic": "Macro environment",
+         "note": "External factors affecting a firm that are not part of its immediate surroundings and cannot be controlled by it; the economic environment is one such factor.",
+         "manas": {
+          "q": "What is the macro environment and can a firm control it?",
+          "orbit": {
+           "ref": "5.3",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Macro environment"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s3-2",
+         "topic": "Political-legal makeup",
+         "note": "A non-market factor shaped by the party in power, how politicised trade and industry are, government efficiency and policies, the legal framework and public attitude to the economy.",
+         "manas": {
+          "q": "What factors make up the political-legal environment?",
+          "orbit": {
+           "ref": "5.3",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Political-legal makeup"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s3-3",
+         "topic": "Three political-legal elements",
+         "note": "Three elements: government (decides fiscal, monetary and tax policy), legal (a sound system protecting consumers and producers), and political (stability and the influence of political groups).",
+         "manas": {
+          "q": "Name the three elements of the political-legal environment.",
+          "orbit": {
+           "ref": "5.3",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Three political-legal elements"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s3-4",
+         "topic": "Legal system",
+         "note": "A sound legal system equally protects consumers and manufacturers. Company law, patent and royalty law, intellectual property rights and international law all shape what a firm may do.",
+         "manas": {
+          "q": "Which areas of law influence business conduct?",
+          "orbit": {
+           "ref": "5.3",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Legal system"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s3-5",
+         "topic": "Political stability",
+         "note": "Stability underpins a steady economy and stock market; political groups and unions also exert influence on business.",
+         "manas": {
+          "q": "Why does political stability matter to business?",
+          "orbit": {
+           "ref": "5.3",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Political stability"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s3-6",
+         "topic": "Social environment",
+         "note": "Traditions, cultural influences, values, beliefs and social stratification. International firms study it before entering a market, or the offering may meet a backlash and losses.",
+         "manas": {
+          "q": "Why do firms study a country's culture before entering it?",
+          "orbit": {
+           "ref": "5.3",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Social environment"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s3-7",
+         "topic": "Social factors to watch",
+         "note": "Social concerns (pollution, corruption, consumerism, media effects); values, attitudes, rituals, religion and changing lifestyles; family values and structure; position of women and children; education, literacy, consumer awareness and protection.",
+         "manas": {
+          "q": "List the factors that shape the social environment.",
+          "orbit": {
+           "ref": "5.3",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Social factors to watch"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.3",
+         "tag": "Macro"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-s4",
+       "topic": "5.4 Technological, economic and demographic environments",
+       "note": "Three more macro strands. Technology is a double-edged sword; the economy sets purchasing power and market size; demography describes the population you serve.",
+       "icons": [
+        "📡"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t05-s4-1",
+         "topic": "Four technology factors",
+         "note": "Four factors: the pull of technological change, opportunities from new innovation, the risk of falling behind, and the role of national research and development.",
+         "manas": {
+          "q": "State four factors of the technological environment.",
+          "orbit": {
+           "ref": "5.4",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Four technology factors"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s4-2",
+         "topic": "Technological change",
+         "note": "Better ways of making products or delivering services improve quality, cut cost, beat rivals and raise capacity; firms that do not adopt them become obsolete quickly.",
+         "manas": {
+          "q": "What are the gains and risks of technological change?",
+          "orbit": {
+           "ref": "5.4",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Technological change"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s4-3",
+         "topic": "Innovation and risk",
+         "note": "Alert firms spot unexplored ideas and can become industry pioneers. Firms that do not track advances risk being outdated, forced out, or hit by new entrants.",
+         "manas": {
+          "q": "How can a firm become an industry pioneer through technology?",
+          "orbit": {
+           "ref": "5.4",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Innovation and risk"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s4-4",
+         "topic": "R and D role",
+         "note": "Technology and business depend on each other: national R and D reaches the public through businesses, improving quality of life and uplifting the economy.",
+         "manas": {
+          "q": "How does national R and D benefit society through business?",
+          "orbit": {
+           "ref": "5.4",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "R and D role"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s4-5",
+         "topic": "Technology audit questions",
+         "note": "Ask: which production and IT technology is used and how vital; what external technology is relied on and how reliable; how much invested and where; what rivals invest; what to withdraw; what future needs the goals demand.",
+         "manas": {
+          "q": "What questions help assess a firm's technological environment?",
+          "orbit": {
+           "ref": "5.4",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Technology audit questions"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s4-6",
+         "topic": "Economic environment",
+         "note": "The sum of economic conditions: the nature and direction of the economy, resource availability (labour, capital) and market conditions. It decides market size and customers' purchasing power through income, savings and credit.",
+         "manas": {
+          "q": "What does the economic environment determine for a firm?",
+          "orbit": {
+           "ref": "5.4",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Economic environment"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s4-7",
+         "topic": "Four demographic features",
+         "note": "Four demographic characteristics: population size, geographical distribution, ethnic mix and income distribution.",
+         "manas": {
+          "q": "Name four demographic characteristics strategists track.",
+          "orbit": {
+           "ref": "5.4",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Four demographic features"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s4-8",
+         "topic": "Population size and spread",
+         "note": "Size: birth rate, family size and overall growth change demand and strain resources. Distribution: if people shift regions, check the location is still attractive, the workforce quality, and adapt functions or relocate.",
+         "manas": {
+          "q": "How do shifts in population distribution affect a company?",
+          "orbit": {
+           "ref": "5.4",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Population size and spread"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s4-9",
+         "topic": "Ethnic mix and income",
+         "note": "Ethnic mix: may need modified or new products and a workforce ready for diversity. Income distribution: changes saving and spending patterns, so firms track it to spot opportunities.",
+         "manas": {
+          "q": "Why track ethnic mix and income distribution?",
+          "orbit": {
+           "ref": "5.4",
+           "tag": "Macro"
+          },
+          "topics": [
+           "Macro",
+           "Ethnic mix and income"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.4",
+         "tag": "Macro"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-s5",
+       "topic": "5.5 Environmental scanning and the organisation's environment",
+       "note": "Scanning is how an organisation collects and analyses environmental information to find opportunities and threats and then shapes strategy. Know the internal-external split, SWOT definitions and the four things scanning looks at.",
+       "icons": [
+        "📶"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t05-s5-1",
+         "topic": "Purpose of scanning",
+         "note": "To identify opportunities and threats by collecting environmental information and analysing it to forecast the effect of change, so managers decide with facts and build strategy that maximises opportunities and minimises threats.",
+         "manas": {
+          "q": "What is the purpose of environmental scanning?",
+          "orbit": {
+           "ref": "5.5",
+           "tag": "Scanning"
+          },
+          "topics": [
+           "Scanning",
+           "Purpose of scanning"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s5-2",
+         "topic": "Internal environment",
+         "note": "Elements inside the firm: value system, mission and objectives, structure, culture, quality of employees, labour unions and technological capabilities. It supplies strengths and weaknesses.",
+         "manas": {
+          "q": "List elements of an organisation's internal environment.",
+          "orbit": {
+           "ref": "5.5",
+           "tag": "Scanning"
+          },
+          "topics": [
+           "Scanning",
+           "Internal environment"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s5-3",
+         "topic": "External environment",
+         "note": "Factors outside the organisation's walls that affect its functions, because no firm operates in a vacuum. It supplies opportunities and threats.",
+         "manas": {
+          "q": "What does the external environment give a business?",
+          "orbit": {
+           "ref": "5.5",
+           "tag": "Scanning"
+          },
+          "topics": [
+           "Scanning",
+           "External environment"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s5-4",
+         "topic": "SWOT definitions",
+         "note": "Strength: an inherent capacity giving advantage over rivals. Weakness: an inherent limit creating disadvantage. Opportunity: a favourable outside condition that strengthens position. Threat: an unfavourable outside condition that causes damage.",
+         "manas": {
+          "q": "Define strength, weakness, opportunity and threat.",
+          "orbit": {
+           "ref": "5.5",
+           "tag": "Scanning"
+          },
+          "topics": [
+           "Scanning",
+           "SWOT definitions"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s5-5",
+         "topic": "Four scanning focuses",
+         "note": "Four things to consider: events (specific occurrences), trends (groups of related events moving in a direction, positive or negative), issues (concerns arising from them) and expectations (demands from groups concerned about the issues).",
+         "manas": {
+          "q": "Distinguish events, trends, issues and expectations in scanning.",
+          "orbit": {
+           "ref": "5.5",
+           "tag": "Scanning"
+          },
+          "topics": [
+           "Scanning",
+           "Four scanning focuses"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s5-6",
+         "topic": "Emerging issues",
+         "note": "Firms try to catch issues early and act before they grow, but this is hard; they usually begin with a shift in values or in how a concern is viewed.",
+         "manas": {
+          "q": "Why is identifying emerging issues difficult?",
+          "orbit": {
+           "ref": "5.5",
+           "tag": "Scanning"
+          },
+          "topics": [
+           "Scanning",
+           "Emerging issues"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.5",
+         "tag": "Scanning"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-s6",
+       "topic": "5.6 Organisation and environment: exchanges and responses",
+       "note": "The firm and its environment are in a continuous give-and-take. Learn the three exchanges, the 5 Ms and the three types of response.",
+       "icons": [
+        "🔄"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t05-s6-1",
+         "topic": "Three exchanges",
+         "note": "Three things pass between a firm and its environment: information, resources, and influence and power.",
+         "manas": {
+          "q": "What three things does an organisation exchange with its environment?",
+          "orbit": {
+           "ref": "5.6",
+           "tag": "Relationship"
+          },
+          "topics": [
+           "Relationship",
+           "Three exchanges"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s6-2",
+         "topic": "Exchanging information",
+         "note": "The firm gathers market, economic, technological, demographic, socio-political and competitor information for planning, decisions and control, which helps it cope with uncertainty and complexity. It also passes information out, willingly or not.",
+         "manas": {
+          "q": "Why does an organisation gather environmental information?",
+          "orbit": {
+           "ref": "5.6",
+           "tag": "Relationship"
+          },
+          "topics": [
+           "Relationship",
+           "Exchanging information"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s6-3",
+         "topic": "Exchanging resources: the 5 Ms",
+         "note": "Inputs are grouped as five Ms: men (manpower), money, method, machine and material. Securing them means interacting with markets, by competition or collaboration, to keep supply constant.",
+         "manas": {
+          "q": "List the 5 Ms of organisational resources.",
+          "orbit": {
+           "ref": "5.6",
+           "tag": "Relationship"
+          },
+          "topics": [
+           "Relationship",
+           "Exchanging resources: the 5 Ms"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s6-4",
+         "topic": "Selling to the environment",
+         "note": "The firm depends on the environment to sell its output, so it must perceive needs, develop products to meet them, and satisfy clients: consumers, employees, shareholders, creditors, suppliers, the local community and the general public.",
+         "manas": {
+          "q": "Name the client groups whose demands a firm must satisfy.",
+          "orbit": {
+           "ref": "5.6",
+           "tag": "Relationship"
+          },
+          "topics": [
+           "Relationship",
+           "Selling to the environment"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s6-5",
+         "topic": "Influence and power",
+         "note": "The environment is inclusive, controls needed resources and information, and offers both growth and constraints, so it can impose its will. A firm that commands resources and information gains autonomy and can set terms.",
+         "manas": {
+          "q": "Why does the environment hold power over a firm?",
+          "orbit": {
+           "ref": "5.6",
+           "tag": "Relationship"
+          },
+          "topics": [
+           "Relationship",
+           "Influence and power"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s6-6",
+         "topic": "Three responses",
+         "note": "Three types of response: administrative (proactive or reactive, redefining purpose and key tasks), competitive (actions to gain advantage over rivals) and collective (co-opting, bargaining, alliances).",
+         "manas": {
+          "q": "Describe the three ways an organisation responds to its environment.",
+          "orbit": {
+           "ref": "5.6",
+           "tag": "Relationship"
+          },
+          "topics": [
+           "Relationship",
+           "Three responses"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.6",
+         "tag": "Relationship"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-s7",
+       "topic": "5.7 SWOT analysis",
+       "note": "SWOT matches internal strengths and weaknesses with external opportunities and threats to shape strategy. Expect to apply it to a case, and to give five benefits or limitations.",
+       "icons": [
+        "🧩"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t05-s7-1",
+         "topic": "Core idea",
+         "note": "Use strengths to capitalise on opportunities, and avoid threats by reducing the effect of weaknesses.",
+         "manas": {
+          "q": "How does SWOT guide strategy?",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "Core idea"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s7-2",
+         "topic": "The four elements",
+         "note": "Strengths make the firm better than rivals (for example, leading technology). Weaknesses are areas needing improvement (high debt, lack of capital, weak supply chain). Opportunities are outside factors giving advantage (a change in import law). Threats can harm (a drought for a crop grower).",
+         "manas": {
+          "q": "Give an example of each element of SWOT.",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "The four elements"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s7-3",
+         "topic": "Scope of use",
+         "note": "It reveals core strengths and weaknesses plus opportunities and threats, and can be applied to specific areas such as production, marketing and sales.",
+         "manas": {
+          "q": "Can SWOT be applied to one department?",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "Scope of use"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s7-4",
+         "topic": "How to execute",
+         "note": "First build a company profile (what the business does and its customers), one per segment in large firms; outline initial items; then management populates the four boxes and brainstorms ways to grow opportunities and strengths.",
+         "manas": {
+          "q": "Outline the steps in carrying out a SWOT analysis.",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "How to execute"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s7-5",
+         "topic": "Quality of data",
+         "note": "The most important factor is accurate data. The analysis is only the start of change and improvement, a bird's-eye view of the current situation.",
+         "manas": {
+          "q": "What matters most for a useful SWOT?",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "Quality of data"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s7-6",
+         "topic": "Five benefits",
+         "note": "Five benefits: simple and practical; clear to understand; focuses on key internal and external factors; helps identify future goals; starts further analysis.",
+         "manas": {
+          "q": "State five benefits of SWOT analysis.",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "Five benefits"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s7-7",
+         "topic": "Five limitations",
+         "note": "Five flaws: excessively long lists; no prioritisation; factors too broad; factors often opinion not fact; no recognised method to tell strengths from weaknesses or opportunities from threats.",
+         "manas": {
+          "q": "Give five limitations of SWOT analysis.",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "Five limitations"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.7",
+         "tag": "SWOT"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-s8",
+       "topic": "5.8 PESTEL analysis",
+       "note": "PESTEL scans the macro environment, which the firm does not control. Know the six letters and the sample factors under each; a case question usually asks you to apply it.",
+       "icons": [
+        "🛰️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t05-s8-1",
+         "topic": "Definition and history",
+         "note": "A tool giving a high-level view of the macro environment: Political, Economic, Social, Technological, Environmental, Legal. It began as PEST, gained legal, and there is debate about adding ethics. It supports proactive decisions.",
+         "manas": {
+          "q": "What does PESTEL stand for and how did it evolve?",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Definition and history"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s8-2",
+         "topic": "Political",
+         "note": "Government's reach over the economy: political stability and ideology, taxation, regulation and governing bodies, term of government and expected change, influential leaders.",
+         "manas": {
+          "q": "List political factors to monitor in PESTEL.",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Political"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s8-3",
+         "topic": "Economic",
+         "note": "Economic growth, phase of the trade cycle, inflation, unemployment, interest rates, industry-specific factors and consumer spending potential.",
+         "manas": {
+          "q": "List economic factors in PESTEL.",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Economic"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s8-4",
+         "topic": "Social",
+         "note": "Market demographics, consumer buying patterns, religious and cultural factors, the state and influence of media, and lifestyle trends.",
+         "manas": {
+          "q": "List social factors in PESTEL.",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Social"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s8-5",
+         "topic": "Technological",
+         "note": "New production and manufacturing technology (more output, lower cost), new innovations, intellectual property and patents, and the maturity of technology.",
+         "manas": {
+          "q": "List technological factors in PESTEL.",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Technological"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s8-6",
+         "topic": "Legal",
+         "note": "Laws the firm must obey to keep operating: business law, environmental law, health and safety rules, international trade agreements and treaties, regional and local laws and circulars.",
+         "manas": {
+          "q": "List legal factors in PESTEL.",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Legal"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s8-7",
+         "topic": "Environmental",
+         "note": "Factors affecting industries' smooth functioning: environmental issues, energy and power consumption, insurance, safe waste disposal and dealing with hazardous material.",
+         "manas": {
+          "q": "List environmental factors in PESTEL.",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Environmental"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.8",
+         "tag": "PESTEL"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-s9",
+       "topic": "5.9 Porter's five forces",
+       "note": "Porter's five forces judge how competitive, and therefore how profitable, an industry is. This is the most heavily applied tool; the notes tie marked advice questions to each force, so prepare how to counter every force.",
+       "icons": [
+        "⚔️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t05-s9-1",
+         "topic": "The five forces",
+         "note": "Five forces: threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes, and rivalry among existing competitors.",
+         "manas": {
+          "q": "Name Porter's five forces.",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "The five forces"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-2",
+         "topic": "Overall logic",
+         "note": "Competition does not come only from rivals. The combined strength of the forces sets an industry's profit potential and attractiveness: intense forces (airlines) leave few firms with good returns; mild forces (soft drinks) leave room for more.",
+         "manas": {
+          "q": "What does the strength of the five forces tell you about an industry?",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "Overall logic"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-3",
+         "topic": "New entrants",
+         "note": "Entrants bring capacity and want share. The threat falls when barriers are high: economies of scale, brand loyalty, large capital needs, cumulative experience, government policy, limited distribution access. Exam: advise on defending market position (8 marks).",
+         "manas": {
+          "q": "List barriers to entry that protect existing firms.",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "New entrants"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-4",
+         "topic": "Supplier power",
+         "note": "Suppliers can raise prices or cut quality. Power rises when suppliers are few, substitutes scarce, switching costs high, distribution strong or the input differentiated. Many suppliers favour the buyer. Exam: advise on supplier selection (6 marks).",
+         "manas": {
+          "q": "What gives suppliers bargaining power?",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "Supplier power"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-5",
+         "topic": "Buyer power",
+         "note": "The market of outputs. Buyers are strong when few, with many alternatives and easy switching; weak when they buy small amounts, act alone and the product is distinctive. The internet empowers them. Counter with loyalty programmes and differentiation (6 marks).",
+         "manas": {
+          "q": "How can a firm reduce buyer power?",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "Buyer power"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-6",
+         "topic": "Substitutes",
+         "note": "Look beyond similar branded products to anything meeting the same need; an energy drink can replace coffee when prices rise. Substitutes cap industry profitability. Exam: how to deal with the threat of substitutes (6 marks).",
+         "manas": {
+          "q": "Why must a firm look beyond direct competitors for substitutes?",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "Substitutes"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-7",
+         "topic": "Rivalry",
+         "note": "High when many rivals are equal in size and power, growth is slow, switching is cheap and exit barriers are high (long-term loans, high fixed costs). A low concentration ratio signals fiercer rivalry, with advertising and price wars. Exam: advise on competing strategies.",
+         "manas": {
+          "q": "What conditions intensify rivalry among competitors?",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "Rivalry"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.9",
+         "tag": "Five forces"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-s10",
+       "topic": "5.10 Other analytical tools",
+       "note": "Five further tools get short treatment. Know what each is and its parts, especially the acronyms, which are easy marks.",
+       "icons": [
+        "🧰"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t05-s10-1",
+         "topic": "Global Competitiveness Index",
+         "note": "Combines macroeconomic and micro or business aspects of competitiveness into one index, assessing a country's ability to give citizens high prosperity, which depends on how productively it uses its resources.",
+         "manas": {
+          "q": "What does the Global Competitiveness Index measure?",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "Global Competitiveness Index"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-2",
+         "topic": "Scenario planning",
+         "note": "A technique that builds several plausible pictures of possible futures for a business.",
+         "manas": {
+          "q": "Define scenario planning.",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "Scenario planning"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-3",
+         "topic": "Critical success factor analysis",
+         "note": "Identifies the areas in which a business must succeed to achieve its objectives.",
+         "manas": {
+          "q": "What does critical success factor analysis identify?",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "Critical success factor analysis"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-4",
+         "topic": "MOST analysis",
+         "note": "An internal analysis tool; MOST means mission, objectives, strategies, tactics: where the business is heading, goals needed, the detailed plan and how it will be carried out.",
+         "manas": {
+          "q": "What does MOST stand for?",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "MOST analysis"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-5",
+         "topic": "Heptalysis",
+         "note": "Assesses a new venture at the start through seven elements: market opportunity, product or solution, execution plan, financial engine, human capital, potential return and margin of safety.",
+         "manas": {
+          "q": "List the seven elements of Heptalysis.",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "Heptalysis"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-6",
+         "topic": "CATWOE",
+         "note": "Forces brainstorming of goals in limited time through six factors: customers, actors, transformation process, world view, owners and environmental constraints.",
+         "manas": {
+          "q": "What does CATWOE stand for?",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "CATWOE"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "5.10",
+         "tag": "Tools"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t05-exam",
+       "topic": "Exam practice",
+       "icons": [
+        "📝"
+       ],
+       "expanded": false,
+       "note": "Questions in the style the examiners use for this topic, with how to structure a full-marks answer. Use Study for flashcards and the quiz.",
+       "children": [
+        {
+         "id": "cpa31-t05-exam-1",
+         "topic": "Discuss six characteristics of the business environment.",
+         "note": "Name complex, dynamic, multi-faceted, far-reaching, uncertain and relative, with one sentence of meaning each and a short example; add why a firm must scan continuously.",
+         "manas": {
+          "q": "Discuss six characteristics of the business environment.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t05-exam-2",
+         "topic": "Explain five reasons why an organisation should study its business environment.",
+         "note": "Give the five benefits: opportunities and threats, growth direction, continuous learning, image building, meeting competition; one illustrated sentence each.",
+         "manas": {
+          "q": "Explain five reasons why an organisation should study its business environment.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t05-exam-3",
+         "topic": "Distinguish the micro environment from the macro environment, and describe the elements of each.",
+         "note": "Define task environment versus uncontrollable external forces, then list customers, competitors, organisation, market, suppliers and intermediaries against political-legal, social, technological, economic and demographic factors.",
+         "manas": {
+          "q": "Distinguish the micro environment from the macro environment, and describe the elements of each.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t05-exam-4",
+         "topic": "Using the PESTEL framework, analyse the external environment facing a named organisation.",
+         "note": "Take the six letters in order, give two or three specific factors for each tied to the case, say whether each is an opportunity or threat, and end with a strategic implication.",
+         "manas": {
+          "q": "Using the PESTEL framework, analyse the external environment facing a named organisation.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t05-exam-5",
+         "topic": "Evaluate Porter's five forces as applied to an industry of your choice, and advise on how a firm can counter each force.",
+         "note": "One paragraph per force: what drives its strength, its level in the chosen industry, and a countermeasure; conclude on industry attractiveness.",
+         "manas": {
+          "q": "Evaluate Porter's five forces as applied to an industry of your choice, and advise on how a firm can counter each force.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t05-exam-6",
+         "topic": "Explain how SWOT analysis is executed, and discuss its benefits and limitations.",
+         "note": "Company profile, populate the four boxes, brainstorm; then five benefits and five limitations; stress data quality and prioritising.",
+         "manas": {
+          "q": "Explain how SWOT analysis is executed, and discuss its benefits and limitations.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t05-exam-7",
+         "topic": "Describe the interaction between an organisation and its environment, including how the organisation responds.",
+         "note": "Three exchanges (information, resources with the 5 Ms, influence and power), then the three responses: administrative, competitive, collective.",
+         "manas": {
+          "q": "Describe the interaction between an organisation and its environment, including how the organisation responds.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t05-exam-8",
+         "topic": "Explain the purpose of environmental scanning and the four factors considered before scanning.",
+         "note": "State the purpose of finding opportunities and threats, then define events, trends, issues and expectations with a linking example.",
+         "manas": {
+          "q": "Explain the purpose of environmental scanning and the four factors considered before scanning.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "cpa31-t06",
+   "title": "CA31 · Topic 6 · Leadership approaches and strategy",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1791280019050,
+   "updated": 1791280019050,
+   "library": "cpa31",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "cpa31-t06-root",
+     "topic": "Topic 6 · Leadership approaches and strategy",
+     "icons": [
+      "🧭"
+     ],
+     "note": "What makes a leader effective: the traits and skills examiners expect you to list, eight leadership styles with their features, strengths and weaknesses, how a leader sets strategic direction, transactional versus transformational leadership, conflict resolution and ethics. Structure follows the CA31 tutorial notes shared by the reviewer (Topic 6); explanations are Manas's own words. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "children": [
+      {
+       "id": "cpa31-t06-s1",
+       "topic": "6.1 Leadership traits",
+       "note": "Traits are the personal qualities that make someone effective at guiding others. The exam favourite is 'discuss six traits of an effective leader' — know six with a one-line explanation each and why traits matter.",
+       "icons": [
+        "🪪"
+       ],
+       "expanded": true,
+       "children": [
+        {
+         "id": "cpa31-t06-s1-1",
+         "topic": "Integrity",
+         "note": "Honesty and firm moral principles; it is what makes people trust a leader and sets the ethical tone for everyone below.",
+         "manas": {
+          "q": "Why is integrity listed first among leadership traits?",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Integrity"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s1-2",
+         "topic": "Self-confidence",
+         "note": "Belief in one's own judgement and decisions, which steadies followers when the situation is uncertain.",
+         "manas": {
+          "q": "How does a leader's self-confidence affect followers in uncertain times?",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Self-confidence"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s1-3",
+         "topic": "Decisiveness",
+         "note": "Making firm choices on time, so the team is not left waiting or confused.",
+         "manas": {
+          "q": "What is decisiveness and what does its absence cause?",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Decisiveness"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s1-4",
+         "topic": "Emotional intelligence",
+         "note": "Being aware of, and able to manage, one's own emotions and other people's; the basis of good working relationships.",
+         "manas": {
+          "q": "Define emotional intelligence as a leadership trait.",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Emotional intelligence"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s1-5",
+         "topic": "Vision",
+         "note": "A clear picture of where the organisation should be going, plus the ability to describe it in a way that moves people.",
+         "manas": {
+          "q": "What two things does the trait of 'vision' combine?",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Vision"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s1-6",
+         "topic": "Resilience",
+         "note": "The capacity to absorb setbacks and keep moving toward the goal.",
+         "manas": {
+          "q": "What is resilience in a leader?",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Resilience"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s1-7",
+         "topic": "Why traits matter",
+         "note": "Four effects to quote: they build trust and loyalty, foster a positive culture, improve decision-making and encourage consistent performance.",
+         "manas": {
+          "q": "State four reasons leadership traits matter to an organisation.",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Why traits matter"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "6.1",
+         "tag": "Traits"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t06-s2",
+       "topic": "6.2 Leadership styles",
+       "note": "A style is the typical way a leader behaves when directing and motivating people. Eight styles are examinable. For each, be able to give features, advantages, disadvantages and one illustration — questions often ask for six of each, so learn them in sixes.",
+       "icons": [
+        "🎛️"
+       ],
+       "expanded": true,
+       "children": [
+        {
+         "id": "cpa31-t06-s2-1",
+         "topic": "Autocratic",
+         "note": "The leader decides alone and controls closely. Features: centralised decisions, strict supervision, top-down communication, orders not suggestions, rigid hierarchy, rules first. Pros: fast decisions in emergencies, clear expectations, discipline, uniform output, suits repetitive low-skill work, few arguments. Cons: low morale, high turnover, no creativity, poor upward feedback, dependence on the leader, resistance to change. Picture: a military training camp.",
+         "manas": {
+          "q": "Give six features, six advantages and six disadvantages of autocratic leadership.",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Autocratic"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-2",
+         "topic": "Democratic (participative)",
+         "note": "The leader involves the team in decisions and listens, but keeps the final say. Features: inclusive decisions, two-way communication, empowerment, shared ownership, idea sharing, a supportive climate. Pros: motivation, better decisions, innovation, less resistance, cohesion, skills grow. Cons: slower, possible conflict, decision paralysis, needs a capable team, authority may erode, meetings eat time. Picture: a software team voting on features.",
+         "manas": {
+          "q": "Compare autocratic and democratic leadership on features, advantages and disadvantages.",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Democratic (participative)"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-3",
+         "topic": "Laissez-faire",
+         "note": "Maximum freedom: the leader sets goals and steps back. Features: minimal involvement, high autonomy, open access to resources, self-managed teams, rare intervention, trust. Pros: innovation, accountability, suits experts, no micromanagement, flexibility, develops leaders. Cons: lack of direction, low productivity for some, role confusion, weak coordination, inconsistent results, loss of control. Picture: a design studio where artists choose their own projects.",
+         "manas": {
+          "q": "When does laissez-faire leadership work well, and when does it fail?",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Laissez-faire"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-4",
+         "topic": "Transformational",
+         "note": "Inspires people to exceed themselves through a compelling vision and personal growth. Features: inspiring vision, charisma, individual attention, intellectual stimulation, high expectations, strong morals. Pros: motivation beyond self-interest, drives change, loyalty, grows future leaders, aligns goals, progressive image. Cons: burnout, dependence on charisma, unrealistic goals, slow to build, may neglect detail, resistance from the status quo. Picture: a CEO launching a green-energy division.",
+         "manas": {
+          "q": "List the six features of transformational leadership.",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Transformational"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-5",
+         "topic": "Transactional",
+         "note": "Manages routine performance through clear rewards and penalties. Features: rewards and penalties, performance targets, structured rules, active monitoring, short-term focus, formal authority. Pros: clear expectations, productivity, simple, suits large teams, fewer deviations, predictable. Cons: stifles creativity, only external motivation, little development, feels mechanical, resists change, morale fades. Picture: a call centre with daily quotas and bonuses.",
+         "manas": {
+          "q": "What are the advantages and disadvantages of transactional leadership?",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Transactional"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-6",
+         "topic": "Situational",
+         "note": "The leader adapts style to the follower's competence and commitment. Features: flexibility, task-specific, a mix of directing and supporting (telling, selling, participating, delegating), developmental aim, continuous assessment, strong feedback. Pros: custom fit, builds competence, flexibility, motivation, handles mixed skill levels, trust. Cons: needs skill to read situations, time, inconsistency can confuse, hard at scale, misjudgement, over-reliance on the leader. Picture: a sales manager who directs a recruit, then coaches, then delegates.",
+         "manas": {
+          "q": "Explain situational leadership and its four behaviours.",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Situational"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-7",
+         "topic": "Pacesetting",
+         "note": "The leader sets very high standards and models them, expecting the team to keep up. Features: high standards, leading by example, results focus, little guidance, intense pace, frequent checks. Pros: productivity, clear benchmarks, inspires high performers, exposes weak performers, efficiency, good for short projects. Cons: stress and burnout, demotivates average staff, no time to coach, morale, turnover, neglects strategy. Picture: a start-up founder demanding quick prototypes.",
+         "manas": {
+          "q": "Why is pacesetting leadership risky over the long term?",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Pacesetting"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-8",
+         "topic": "Charismatic",
+         "note": "Influence through personal charm, inspiration and persuasion. Features: magnetic personality, strong communication, emotional bonds, visionary thinking, role modelling, trust. Pros: motivation, loyalty, eases change, lifts morale, clear direction, distinct identity. Cons: over-dependence, succession problems, can be manipulative, personality overshadows the team, neglects systems, disillusionment if promises fail. Picture: a political leader who moves crowds with speeches.",
+         "manas": {
+          "q": "What are the dangers of charismatic leadership for an organisation?",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Charismatic"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "6.2",
+         "tag": "Styles"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t06-s3",
+       "topic": "6.3 Leadership skills",
+       "note": "Skills are learnable abilities, as opposed to traits which are qualities. Six are standard: communication, delegation, problem-solving, motivating others, team building and strategic thinking.",
+       "icons": [
+        "🛠️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t06-s3-1",
+         "topic": "Communication",
+         "note": "Putting ideas across clearly and persuasively, in writing and in person.",
+         "manas": {
+          "q": "Why is communication the first leadership skill?",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Communication"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s3-2",
+         "topic": "Delegation",
+         "note": "Matching tasks to people's strengths and letting go of them.",
+         "manas": {
+          "q": "What does good delegation involve?",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Delegation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s3-3",
+         "topic": "Problem-solving",
+         "note": "Finding practical, workable answers rather than perfect ones.",
+         "manas": {
+          "q": "Describe problem-solving as a leadership skill.",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Problem-solving"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s3-4",
+         "topic": "Motivational ability",
+         "note": "Inspiring and energising followers so effort continues without pressure.",
+         "manas": {
+          "q": "How does motivational ability differ from authority?",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Motivational ability"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s3-5",
+         "topic": "Team building",
+         "note": "Creating cooperation so that the group achieves more than its members would alone.",
+         "manas": {
+          "q": "What is the purpose of team building?",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Team building"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s3-6",
+         "topic": "Strategic thinking",
+         "note": "Seeing the long-term goal and planning backwards from it.",
+         "manas": {
+          "q": "Define strategic thinking.",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Strategic thinking"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "6.3",
+         "tag": "Skills"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t06-s4",
+       "topic": "6.4 Formulating strategic direction",
+       "note": "Six steps, in order: analyse the environment (SWOT, PESTEL), define vision and mission, set SMART objectives, formulate strategies, implement them with resources and responsibilities, then monitor and evaluate. The leader communicates the vision, aligns people and resources, wins commitment, and tracks progress.",
+       "icons": [
+        "🗺️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t06-s4-1",
+         "topic": "1 · Environmental analysis",
+         "note": "Internal strengths and weaknesses, external opportunities and threats (SWOT); political, economic, social, technological, environmental and legal forces (PESTEL).",
+         "manas": {
+          "q": "Which two tools are used for environmental analysis when setting strategic direction?",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "1 · Environmental analysis"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s4-2",
+         "topic": "2 · Vision and mission",
+         "note": "Vision is the aspiration, where the organisation wants to be; mission is its purpose, what it exists to do.",
+         "manas": {
+          "q": "Distinguish vision from mission.",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "2 · Vision and mission"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s4-3",
+         "topic": "3 · SMART objectives",
+         "note": "Specific, Measurable, Achievable, Relevant, Time-bound targets that turn the vision into something you can check.",
+         "manas": {
+          "q": "What does SMART stand for?",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "3 · SMART objectives"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s4-4",
+         "topic": "4 · Formulate strategies",
+         "note": "Decide the plans and routes by which the objectives will be reached.",
+         "manas": {
+          "q": "What happens at the strategy-formulation step?",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "4 · Formulate strategies"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s4-5",
+         "topic": "5 · Implement",
+         "note": "Allocate money, people and responsibilities so the plans are carried out.",
+         "manas": {
+          "q": "What does implementation require?",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "5 · Implement"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s4-6",
+         "topic": "6 · Monitor and evaluate",
+         "note": "Track performance against the objectives and adjust when results drift.",
+         "manas": {
+          "q": "Why is monitoring the last step and not an afterthought?",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "6 · Monitor and evaluate"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s4-7",
+         "topic": "The leader's role",
+         "note": "Four verbs: communicate the vision, align people and resources, motivate buy-in and commitment, monitor progress and steer through obstacles.",
+         "manas": {
+          "q": "State the leader's four roles in formulating strategic direction.",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "The leader's role"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "6.4",
+         "tag": "Strategy"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t06-s5",
+       "topic": "6.5 Transactional vs transformational",
+       "note": "A classic compare-and-contrast question. Answer it as a table with six aspects: focus, approach, time horizon, employee development, relationship, example.",
+       "icons": [
+        "⚖️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t06-s5-1",
+         "topic": "Focus",
+         "note": "Transactional: routine tasks and compliance. Transformational: vision, change and innovation.",
+         "manas": {
+          "q": "Contrast the focus of transactional and transformational leaders.",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Focus"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s5-2",
+         "topic": "Approach",
+         "note": "Transactional: rewards and punishments. Transformational: inspiration and motivation.",
+         "manas": {
+          "q": "How does each style get people to act?",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Approach"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s5-3",
+         "topic": "Time horizon",
+         "note": "Transactional: short-term goals. Transformational: long-term development.",
+         "manas": {
+          "q": "Which style has the longer time horizon?",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Time horizon"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s5-4",
+         "topic": "Employee development",
+         "note": "Transactional: minimal. Transformational: a high priority.",
+         "manas": {
+          "q": "How do the two styles treat employee development?",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Employee development"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s5-5",
+         "topic": "Relationship",
+         "note": "Transactional: formal and task-based. Transformational: emotional and trust-based.",
+         "manas": {
+          "q": "Describe the leader–follower relationship under each style.",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Relationship"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s5-6",
+         "topic": "Example",
+         "note": "Transactional: a call centre. Transformational: a start-up changing its industry.",
+         "manas": {
+          "q": "Give one organisation that fits each style.",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Example"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "6.5",
+         "tag": "Styles"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t06-s6",
+       "topic": "6.6 Conflict resolution mechanisms",
+       "note": "Six mechanisms, from the parties sorting it out themselves to a third party deciding for them: negotiation, mediation, arbitration, collaboration, accommodation, avoidance.",
+       "icons": [
+        "🤝"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t06-s6-1",
+         "topic": "Negotiation",
+         "note": "The parties reach agreement directly between themselves.",
+         "manas": {
+          "q": "What distinguishes negotiation from mediation?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Negotiation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-2",
+         "topic": "Mediation",
+         "note": "A neutral third party helps the sides find their own resolution but does not decide.",
+         "manas": {
+          "q": "What is the mediator's role?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Mediation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-3",
+         "topic": "Arbitration",
+         "note": "A neutral third party hears both sides and makes a binding decision.",
+         "manas": {
+          "q": "How does arbitration differ from mediation?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Arbitration"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-4",
+         "topic": "Collaboration",
+         "note": "Joint problem-solving aimed at a solution that satisfies both sides.",
+         "manas": {
+          "q": "Why is collaboration called a win–win method?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Collaboration"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-5",
+         "topic": "Accommodation",
+         "note": "One side gives way to keep the peace.",
+         "manas": {
+          "q": "When might accommodation be the right choice?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Accommodation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-6",
+         "topic": "Avoidance",
+         "note": "Postponing or sidestepping the conflict, useful only as a temporary measure.",
+         "manas": {
+          "q": "What is the risk of avoidance as a conflict strategy?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Avoidance"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "6.6",
+         "tag": "Conflict"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t06-s7",
+       "topic": "6.7 Ethics in leadership",
+       "note": "Six principles — honesty, integrity, fairness, accountability, respect, role modelling — and four reasons they matter: trust, reputation, avoiding legal and ethical trouble, and an ethical workplace culture.",
+       "icons": [
+        "🕊️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t06-s7-1",
+         "topic": "Honesty",
+         "note": "Truthful communication, even when the news is bad.",
+         "manas": {
+          "q": "Define honesty as an ethical principle of leadership.",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "Honesty"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s7-2",
+         "topic": "Integrity",
+         "note": "Consistent moral conduct whether or not anyone is watching.",
+         "manas": {
+          "q": "How is integrity different from honesty?",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "Integrity"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s7-3",
+         "topic": "Fairness",
+         "note": "Treating people equally and by the same rules.",
+         "manas": {
+          "q": "What does fairness require of a leader?",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "Fairness"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s7-4",
+         "topic": "Accountability",
+         "note": "Owning one's decisions and their consequences.",
+         "manas": {
+          "q": "Give an example of accountability in leadership.",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "Accountability"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s7-5",
+         "topic": "Respect",
+         "note": "Valuing the dignity of every stakeholder.",
+         "manas": {
+          "q": "Who is owed respect by an ethical leader?",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "Respect"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s7-6",
+         "topic": "Role modelling",
+         "note": "Demonstrating the standard you expect others to follow.",
+         "manas": {
+          "q": "Why is role modelling an ethical duty?",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "Role modelling"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s7-7",
+         "topic": "Why ethics matters",
+         "note": "It builds trust, protects reputation, prevents legal and ethical problems, and spreads an ethical culture through the workplace.",
+         "manas": {
+          "q": "State four reasons ethics matters in leadership.",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "Why ethics matters"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "6.7",
+         "tag": "Ethics"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t06-exam",
+       "topic": "Exam practice",
+       "icons": [
+        "📝"
+       ],
+       "expanded": false,
+       "note": "Questions in the style the examiners use for this topic, with how to structure a full-marks answer. Use Study for flashcards and the quiz.",
+       "children": [
+        {
+         "id": "cpa31-t06-exam-1",
+         "topic": "Discuss six traits that make an effective leader.",
+         "note": "Name six (integrity, self-confidence, decisiveness, emotional intelligence, vision, resilience), one sentence each on what it is and one on why it helps. Close with why traits matter.",
+         "manas": {
+          "q": "Discuss six traits that make an effective leader.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t06-exam-2",
+         "topic": "Compare autocratic and democratic leadership: six features, advantages and disadvantages for each.",
+         "note": "Two columns or two blocks, six points under each heading, then one sentence on when each suits — autocratic for emergencies and routine work, democratic for skilled teams and change.",
+         "manas": {
+          "q": "Compare autocratic and democratic leadership: six features, advantages and disadvantages for each.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t06-exam-3",
+         "topic": "Explain how a leader formulates an organisation's strategic direction.",
+         "note": "Walk the six steps in order with the tools (SWOT, PESTEL, SMART), then the leader's four roles.",
+         "manas": {
+          "q": "Explain how a leader formulates an organisation's strategic direction.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t06-exam-4",
+         "topic": "Differentiate transactional and transformational leadership with examples.",
+         "note": "The six-aspect table, then one example each; mention that effective leaders often blend both.",
+         "manas": {
+          "q": "Differentiate transactional and transformational leadership with examples.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t06-exam-5",
+         "topic": "Describe six conflict resolution mechanisms.",
+         "note": "Order them by how much control the parties keep: negotiation, mediation, arbitration, collaboration, accommodation, avoidance; one line each with when it fits.",
+         "manas": {
+          "q": "Describe six conflict resolution mechanisms.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t06-exam-6",
+         "topic": "Discuss the role of ethics in leadership with examples.",
+         "note": "Six principles with a workplace example each, then the four reasons ethics matters.",
+         "manas": {
+          "q": "Discuss the role of ethics in leadership with examples.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "cpa31-t07",
+   "title": "CA31 · Topic 7 · Enterprise Management",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1791280019050,
+   "updated": 1791280019050,
+   "library": "cpa31",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "cpa31-t07-root",
+     "topic": "Topic 7 · Enterprise Management",
+     "icons": [
+      "💡"
+     ],
+     "note": "How new ventures start and grow: entrepreneurs and their types, intrapreneurship, the entrepreneurial development process, creativity versus innovation, sourcing and generating business ideas, writing a business plan (structure and critical risks) and protecting ideas through intellectual property in Kenya. Examiners ask for lists of six, process steps, and compare-and-contrast answers. Structure follows the CA31 tutorial notes shared by the reviewer (Chapter 7); explanations are Manas's own words. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "children": [
+      {
+       "id": "cpa31-t07-s1",
+       "topic": "7.1 Concept and types of entrepreneurship",
+       "note": "Entrepreneurship is the readiness to start, organise and run a business and carry its uncertainty in pursuit of profit. Four types of entrepreneur are examinable: be ready to define each and give a short description.",
+       "icons": [
+        "🚀"
+       ],
+       "expanded": true,
+       "children": [
+        {
+         "id": "cpa31-t07-s1-1",
+         "topic": "Entrepreneurship defined",
+         "note": "The ability and willingness to develop, organise and run an enterprise with all its uncertainties in order to make a profit. Its clearest example is launching a new business; its vision is marked by discovery and risk-taking.",
+         "manas": {
+          "q": "Define entrepreneurship.",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Entrepreneurship defined"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s1-2",
+         "topic": "Entrepreneur defined",
+         "note": "A person with the ability and desire to set up, manage and succeed in a start-up, accepting the attached risk for profit. Entrepreneurs are often seen as innovators who replace the old with something new.",
+         "manas": {
+          "q": "Who is an entrepreneur?",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Entrepreneur defined"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s1-3",
+         "topic": "Innovative entrepreneur",
+         "note": "Introduces new ideas, products, production methods, markets or organisational structures. Has unusual foresight about demand, thrives on challenge and risk, and leads industries and economic development.",
+         "manas": {
+          "q": "Describe the innovative entrepreneur.",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Innovative entrepreneur"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s1-4",
+         "topic": "Imitating entrepreneur",
+         "note": "Quickly copies the technology, processes and methods pioneered by innovators without inventing anything. Typical where resources or an industrial base are lacking and new innovation is hard.",
+         "manas": {
+          "q": "What does an imitating entrepreneur do, and where is this type found?",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Imitating entrepreneur"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s1-5",
+         "topic": "Fabian entrepreneur",
+         "note": "Shows no initiative in visualising or applying new ideas; waits for developments to push them, often acting only when their survival is under threat. Described as shy, lazy and lethargic.",
+         "manas": {
+          "q": "Describe a Fabian entrepreneur.",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Fabian entrepreneur"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s1-6",
+         "topic": "Drone entrepreneur",
+         "note": "Dislikes change and is 'old school': sticks to traditional or orthodox production methods and systems, and takes pride in tradition even when the methods are outdated.",
+         "manas": {
+          "q": "Describe a drone entrepreneur.",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Drone entrepreneur"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s1-7",
+         "topic": "Four types",
+         "note": "Four types of entrepreneur: innovative, imitating, Fabian and drone. Only the innovative type actively creates change; imitating copies it, Fabian waits for it and drone resists it.",
+         "manas": {
+          "q": "Name the four types of entrepreneur.",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Four types"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.1",
+         "tag": "Entrepreneur"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s2",
+       "topic": "7.2 Characteristics, importance and traits",
+       "note": "Not every entrepreneur succeeds; certain characteristics separate those who do. Common questions: 'explain six characteristics' and 'discuss the importance of entrepreneurship'.",
+       "icons": [
+        "🎯"
+       ],
+       "expanded": true,
+       "children": [
+        {
+         "id": "cpa31-t07-s2-1",
+         "topic": "Six characteristics",
+         "note": "Six characteristics of successful entrepreneurship: ability to take risk, innovation, vision and leadership, open-mindedness, flexibility, and knowing your product.",
+         "manas": {
+          "q": "State six characteristics of successful entrepreneurship.",
+          "orbit": {
+           "ref": "7.2",
+           "tag": "Success factors"
+          },
+          "topics": [
+           "Success factors",
+           "Six characteristics"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s2-2",
+         "topic": "Risk and innovation",
+         "note": "Starting a venture carries real chance of failure, so courage and the skill to evaluate risk are essential. Innovation means a product new to the market or a cheaper, more efficient process.",
+         "manas": {
+          "q": "Why are risk-taking and innovation essential to an entrepreneur?",
+          "orbit": {
+           "ref": "7.2",
+           "tag": "Success factors"
+          },
+          "topics": [
+           "Success factors",
+           "Risk and innovation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s2-3",
+         "topic": "Vision and leadership",
+         "note": "A clear picture of the venture is needed, but turning it into reality takes people and resources, so the entrepreneur must lead and guide employees towards success.",
+         "manas": {
+          "q": "Why does an entrepreneur need leadership as well as vision?",
+          "orbit": {
+           "ref": "7.2",
+           "tag": "Success factors"
+          },
+          "topics": [
+           "Success factors",
+           "Vision and leadership"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s2-4",
+         "topic": "Open-minded and flexible",
+         "note": "Open-minded entrepreneurs treat every circumstance as a possible opportunity (Paytm exploited demonetisation). Flexible ones adapt products and services whenever conditions require.",
+         "manas": {
+          "q": "Distinguish open-mindedness from flexibility in an entrepreneur.",
+          "orbit": {
+           "ref": "7.2",
+           "tag": "Success factors"
+          },
+          "topics": [
+           "Success factors",
+           "Open-minded and flexible"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s2-5",
+         "topic": "Know your product",
+         "note": "Know what you offer and the latest market trends, check whether it still meets demand or needs tweaking, and be accountable enough to alter it.",
+         "manas": {
+          "q": "What does 'know your product' require of an entrepreneur?",
+          "orbit": {
+           "ref": "7.2",
+           "tag": "Success factors"
+          },
+          "topics": [
+           "Success factors",
+           "Know your product"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s2-6",
+         "topic": "Importance of entrepreneurship",
+         "note": "Five benefits: creates employment (entry jobs and training for the unskilled), drives innovation, develops society and community, raises living standards through income, and supports research and development.",
+         "manas": {
+          "q": "Outline five reasons entrepreneurship is important.",
+          "orbit": {
+           "ref": "7.2",
+           "tag": "Success factors"
+          },
+          "topics": [
+           "Success factors",
+           "Importance of entrepreneurship"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s2-7",
+         "topic": "Community and living standards",
+         "note": "A large, diversified job base brings higher spending on education, better sanitation, fewer slums and more home ownership. Higher incomes raise household consumption of goods and services.",
+         "manas": {
+          "q": "How does entrepreneurship improve community life and living standards?",
+          "orbit": {
+           "ref": "7.2",
+           "tag": "Success factors"
+          },
+          "topics": [
+           "Success factors",
+           "Community and living standards"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s2-8",
+         "topic": "Entrepreneurial traits",
+         "note": "Six traits: passion, risk-taking ability, persistence, innovativeness, leading from the front, and ethical behaviour.",
+         "manas": {
+          "q": "List six traits of an entrepreneur.",
+          "orbit": {
+           "ref": "7.2",
+           "tag": "Success factors"
+          },
+          "topics": [
+           "Success factors",
+           "Entrepreneurial traits"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s2-9",
+         "topic": "Driving economic development",
+         "note": "Seven ways: invest in needed products and services, provide jobs, promote commerce and regional integration, bring efficiency-raising technology, address environmental challenges, advance socio-economic aims through innovation, and spark competition-driven innovation.",
+         "manas": {
+          "q": "State seven ways entrepreneurs drive economic development.",
+          "orbit": {
+           "ref": "7.2",
+           "tag": "Success factors"
+          },
+          "topics": [
+           "Success factors",
+           "Driving economic development"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.2",
+         "tag": "Success factors"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s3",
+       "topic": "7.3 Intrapreneurship",
+       "note": "Intrapreneurship is entrepreneurship practised inside an existing firm. The exam usually asks you to distinguish it from entrepreneurship on four points.",
+       "icons": [
+        "🏢"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s3-1",
+         "topic": "Intrapreneurship defined",
+         "note": "A system in which entrepreneurial principles are applied within the boundaries of a firm. The intrapreneur takes responsibility for innovating new ideas, products or processes inside the organisation.",
+         "manas": {
+          "q": "Define intrapreneurship.",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Intrapreneurship defined"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s3-2",
+         "topic": "The intrapreneur",
+         "note": "Thinks outside the box, has leadership skills and is unafraid of risk, so shares the same traits as an entrepreneur but works as an employee.",
+         "manas": {
+          "q": "What traits does an intrapreneur share with an entrepreneur?",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "The intrapreneur"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s3-3",
+         "topic": "Nature of the activity",
+         "note": "Intrapreneurship is restorative: the firm encourages staff to act entrepreneurially to counter stagnation and turn slow growth into high growth. Entrepreneurship is developmental: someone creates what never existed.",
+         "manas": {
+          "q": "Contrast intrapreneurship and entrepreneurship in nature.",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Nature of the activity"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s3-4",
+         "topic": "Main obstacle",
+         "note": "For the intrapreneur the main hurdle is the company's own culture, corporate relationships and employee mindsets. For the entrepreneur the market is the main enemy and must be studied closely.",
+         "manas": {
+          "q": "What is the main challenge for each of them?",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Main obstacle"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s3-5",
+         "topic": "Resources",
+         "note": "The intrapreneur can draw on the firm's funds, production set-ups, marketing facilities and other support. The entrepreneur must raise own or borrowed funds and arrange all facilities.",
+         "manas": {
+          "q": "How do the two differ in access to resources?",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Resources"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s3-6",
+         "topic": "Ownership and independence",
+         "note": "The intrapreneur neither owns the new venture nor is free to decide alone. The entrepreneur is its sole owner and independent in every decision.",
+         "manas": {
+          "q": "Who owns the venture and who decides: intrapreneur or entrepreneur?",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Ownership and independence"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.3",
+         "tag": "Intrapreneur"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s4",
+       "topic": "7.4 Entrepreneurial development",
+       "note": "Entrepreneurship development means raising entrepreneurs' skills and knowledge in developing, managing and organising ventures. Two lists are tested: the six-step development programme and the six-stage process (an 8-mark question).",
+       "icons": [
+        "🌱"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s4-1",
+         "topic": "Development defined",
+         "note": "A process of strengthening entrepreneurs' skills and knowledge about developing, managing and organising a business, with the attached risks kept in mind. It is a strategic process using varied skill-building tools.",
+         "manas": {
+          "q": "Define entrepreneurship development.",
+          "orbit": {
+           "ref": "7.4",
+           "tag": "Process"
+          },
+          "topics": [
+           "Process",
+           "Development defined"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s4-2",
+         "topic": "Programme steps 1-3",
+         "note": "1) Set a clear objective, otherwise time, money and potential are lost. 2) Find experienced mentors or trainers, such as established entrepreneurs or qualified professionals. 3) Identify local talent and markets, where learning is applied fastest.",
+         "manas": {
+          "q": "What are the first three steps of an entrepreneurship development programme?",
+          "orbit": {
+           "ref": "7.4",
+           "tag": "Process"
+          },
+          "topics": [
+           "Process",
+           "Programme steps 1-3"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s4-3",
+         "topic": "Programme steps 4-6",
+         "note": "4) Choose a location that can attract many participants. 5) Tie up with NGOs, private institutions and universities for real-world exposure and networking. 6) Assess effectiveness and seek honest feedback for the next programme.",
+         "manas": {
+          "q": "State steps four to six of an entrepreneurship development programme.",
+          "orbit": {
+           "ref": "7.4",
+           "tag": "Process"
+          },
+          "topics": [
+           "Process",
+           "Programme steps 4-6"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s4-4",
+         "topic": "Discover and evaluate",
+         "note": "Discover: recognise and analyse opportunities, drawing on inputs from partners, staff, technical people and consumers. Evaluate: ask whether it is worth the investment, will attract customers, its advantages and risks, and whether it fits your skills and goals.",
+         "manas": {
+          "q": "What happens at the discover and evaluate stages?",
+          "orbit": {
+           "ref": "7.4",
+           "tag": "Process"
+          },
+          "topics": [
+           "Process",
+           "Discover and evaluate"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s4-5",
+         "topic": "Plan and resources",
+         "note": "Develop a complete business plan, the key step that sets standards and criteria to judge progress. Then identify sources of finance and human resources, and look for investors.",
+         "manas": {
+          "q": "What do the business-plan and resources stages involve?",
+          "orbit": {
+           "ref": "7.4",
+           "tag": "Process"
+          },
+          "topics": [
+           "Process",
+           "Plan and resources"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s4-6",
+         "topic": "Manage and harvest",
+         "note": "Manage: start operations and set a management structure to resolve operating problems. Harvest: compare actual with projected growth, then secure the business or extend it.",
+         "manas": {
+          "q": "Explain the managing and harvesting stages.",
+          "orbit": {
+           "ref": "7.4",
+           "tag": "Process"
+          },
+          "topics": [
+           "Process",
+           "Manage and harvest"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s4-7",
+         "topic": "Six-stage process",
+         "note": "In order: discover, evaluation, developing a plan, resources, managing the company, harvesting.",
+         "manas": {
+          "q": "List, in order, the six stages of the entrepreneurial development process.",
+          "orbit": {
+           "ref": "7.4",
+           "tag": "Process"
+          },
+          "topics": [
+           "Process",
+           "Six-stage process"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.4",
+         "tag": "Process"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s5",
+       "topic": "7.5 Creativity and innovation",
+       "note": "Creativity generates ideas; innovation puts them to commercial use. Expect 'distinguish creativity from innovation', barriers to creativity and ways to encourage it.",
+       "icons": [
+        "✨"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s5-1",
+         "topic": "Creativity",
+         "note": "Using imagination to produce new ideas and possibilities nobody has thought of. It is original to the thinker, limited only by willingness to think outside the norm, and is developed through learning, not inherited.",
+         "manas": {
+          "q": "Define creativity and say whether it is inborn.",
+          "orbit": {
+           "ref": "7.5",
+           "tag": "Creativity"
+          },
+          "topics": [
+           "Creativity",
+           "Creativity"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s5-2",
+         "topic": "Innovation",
+         "note": "Turning creative ideas into commercial and financial success. It may be a physical object or a concept for a better process, created to solve a problem or make life more convenient.",
+         "manas": {
+          "q": "Define innovation.",
+          "orbit": {
+           "ref": "7.5",
+           "tag": "Creativity"
+          },
+          "topics": [
+           "Creativity",
+           "Innovation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s5-3",
+         "topic": "Creativity versus innovation",
+         "note": "Creativity expresses an idea and has no value until made real; innovation applies the idea to solve a problem. They are linked and work in tandem: innovation is applied creativity.",
+         "manas": {
+          "q": "Distinguish creativity from innovation.",
+          "orbit": {
+           "ref": "7.5",
+           "tag": "Creativity"
+          },
+          "topics": [
+           "Creativity",
+           "Creativity versus innovation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s5-4",
+         "topic": "Six barriers to creativity",
+         "note": "Six barriers: fear, poor leadership and weak commitment to innovation, bureaucratic policies and red tape, silos and turfs, pressure for immediate results, and personal biases in beliefs, attitudes and values.",
+         "manas": {
+          "q": "State six barriers to creativity in organisations.",
+          "orbit": {
+           "ref": "7.5",
+           "tag": "Creativity"
+          },
+          "topics": [
+           "Creativity",
+           "Six barriers to creativity"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s5-5",
+         "topic": "Six ways to inspire creativity",
+         "note": "Six ways: inclusive team environment, creative office design, freedom and flexibility in how work is done, space for knowledge sharing, self-reflection, and support for creative risk-taking.",
+         "manas": {
+          "q": "Suggest six ways of inspiring creativity at work.",
+          "orbit": {
+           "ref": "7.5",
+           "tag": "Creativity"
+          },
+          "topics": [
+           "Creativity",
+           "Six ways to inspire creativity"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.5",
+         "tag": "Creativity"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s6",
+       "topic": "7.6 Business ideas and their sources",
+       "note": "An idea is only a business idea when it can earn money. Know its five qualities and eight sources.",
+       "icons": [
+        "🔦"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s6-1",
+         "topic": "Idea versus business idea",
+         "note": "An idea is an abstract concept. A business idea can be used for financial gain, usually a product or service offered for money; it is the first milestone and spark of entrepreneurship.",
+         "manas": {
+          "q": "Distinguish an idea from a business idea.",
+          "orbit": {
+           "ref": "7.6",
+           "tag": "Ideas"
+          },
+          "topics": [
+           "Ideas",
+           "Idea versus business idea"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s6-2",
+         "topic": "Five qualities",
+         "note": "A promising business idea is innovative, unique, problem-solving, profitable and understandable.",
+         "manas": {
+          "q": "State five characteristics of a promising business idea.",
+          "orbit": {
+           "ref": "7.6",
+           "tag": "Ideas"
+          },
+          "topics": [
+           "Ideas",
+           "Five qualities"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s6-3",
+         "topic": "Value proposition",
+         "note": "A business idea is tied to its creator, who must identify its value proposition to reach the market and build competitive advantage.",
+         "manas": {
+          "q": "Why must a creator identify a value proposition?",
+          "orbit": {
+           "ref": "7.6",
+           "tag": "Ideas"
+          },
+          "topics": [
+           "Ideas",
+           "Value proposition"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s6-4",
+         "topic": "Innovation in business",
+         "note": "Means new ideas, new products through research and development, or improved services. Innovation-focused firms tend to be more efficient, cost-effective and productive, and can become market leaders if built into strategy and culture.",
+         "manas": {
+          "q": "What benefits come to a firm that builds innovation into its strategy?",
+          "orbit": {
+           "ref": "7.6",
+           "tag": "Ideas"
+          },
+          "topics": [
+           "Ideas",
+           "Innovation in business"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s6-5",
+         "topic": "Eight sources of ideas",
+         "note": "Past work experience, hobbies and interests, strengths and abilities, friends and family, distribution channels, travel, books and magazines, and current trends.",
+         "manas": {
+          "q": "List eight sources of business ideas.",
+          "orbit": {
+           "ref": "7.6",
+           "tag": "Ideas"
+          },
+          "topics": [
+           "Ideas",
+           "Eight sources of ideas"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.6",
+         "tag": "Ideas"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s7",
+       "topic": "7.7 Methods of generating business ideas",
+       "note": "The notes list focus groups, brainstorming, problem inventory analysis, creative problem solving, reverse brainstorming, synectics and the Gordon method, and explain several in detail. Learn how each works and the brainstorming rules.",
+       "icons": [
+        "🧠"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s7-1",
+         "topic": "Focus group",
+         "note": "A moderator leads 8 to 14 participants in an open, in-depth discussion, directive or not, with members stimulating each other. Excellent for first-stage screening of ideas and concepts.",
+         "manas": {
+          "q": "How does a focus group work and how many participants does it have?",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Focus group"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s7-2",
+         "topic": "Brainstorming",
+         "note": "A group is stimulated by interacting. Rules: no criticism, encourage quantity, wilder ideas are better, and combine and improve ideas. Most ideas are unusable, but focusing on a product or market raises the chance of a good one.",
+         "manas": {
+          "q": "State the rules for successful brainstorming.",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Brainstorming"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s7-3",
+         "topic": "Reverse brainstorming",
+         "note": "Criticism is allowed: the group asks 'in how many ways can this idea fail?'. Useful before other creative techniques, since criticising is easier than inventing; morale must be kept up.",
+         "manas": {
+          "q": "How does reverse brainstorming differ from brainstorming?",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Reverse brainstorming"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s7-4",
+         "topic": "Problem inventory analysis",
+         "note": "Consumers get a list of problems in a general product category and say which products have them. Linking known products to problems yields new product ideas; best for improving existing products.",
+         "manas": {
+          "q": "Explain problem inventory analysis.",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Problem inventory analysis"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s7-5",
+         "topic": "Checklist method",
+         "note": "The entrepreneur uses a list of questions or statements to steer the development of new ideas or to focus on particular idea areas.",
+         "manas": {
+          "q": "What is the checklist method of idea generation?",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Checklist method"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s7-6",
+         "topic": "Collective notebook",
+         "note": "Participants get a pocket notebook with the problem statement, blank pages and background data, and record ideas daily. At week's end the best ideas are compiled with suggestions.",
+         "manas": {
+          "q": "Describe the collective notebook method.",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Collective notebook"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s7-7",
+         "topic": "Improving a session",
+         "note": "Ten tips: brief the team in advance, assemble a diverse team, facilitate, zoom in on a focus, keep it brief, be open-minded, encourage everyone to take part, prioritise ideas, follow up on them, and appoint a facilitator.",
+         "manas": {
+          "q": "How would you improve a focus group or brainstorming session?",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Improving a session"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.7",
+         "tag": "Techniques"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s8",
+       "topic": "7.8 Types and areas of innovation",
+       "note": "Innovation is the introduction of something new that brings commercial benefit. Know the three types, five areas, and how newness is judged from the customer's and the company's viewpoint.",
+       "icons": [
+        "🔧"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s8-1",
+         "topic": "Innovation defined",
+         "note": "Luecke and Katz: the successful introduction of a new thing or method, combining knowledge into original, relevant, valued products, processes or services. Baregheh et al.: a multi-stage process turning ideas into new or improved offerings to compete and differentiate.",
+         "manas": {
+          "q": "Give the two definitions of innovation in the notes.",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Innovation defined"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-2",
+         "topic": "Breakthrough innovation",
+         "note": "Leads to major scientific breakthroughs and forms the platform for later innovation. Few exist; examples are the computer, the aeroplane and the internet.",
+         "manas": {
+          "q": "What is breakthrough innovation? Give examples.",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Breakthrough innovation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-3",
+         "topic": "Technological innovation",
+         "note": "Advances products and markets but is not at the level of scientific discovery. Examples: the jet plane, personal computer, voice and text messaging.",
+         "manas": {
+          "q": "What is technological innovation?",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Technological innovation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-4",
+         "topic": "Ordinary innovation",
+         "note": "The most frequent type. Arises from market analysis and extends a technological innovation into a better or more appealing product; market pull is stronger than technology pull.",
+         "manas": {
+          "q": "What is ordinary innovation and what drives it?",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Ordinary innovation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-5",
+         "topic": "Five areas of innovation",
+         "note": "Product improvement, process improvement, new business models, market extension, and socio-organisational innovation (new human relationships such as alliances and value networks).",
+         "manas": {
+          "q": "Name the five areas of innovation in business.",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Five areas of innovation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-6",
+         "topic": "Product and process",
+         "note": "Product: make it more efficient, user-friendly, integrated and valuable. Process: make it simpler, faster, more accurate, more reliable, cheaper and more integrated.",
+         "manas": {
+          "q": "How can product and process improvement be achieved?",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Product and process"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-7",
+         "topic": "Defining 'new'",
+         "note": "Something need not be wholly new: a fresh delivery or design can make it new (the can for soft drinks). Customer view: how much behavioural change or learning is needed. Company view: degree of new market and new technology.",
+         "manas": {
+          "q": "How can a product be classified as new, from two viewpoints?",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Defining 'new'"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-8",
+         "topic": "Highest risk",
+         "note": "When a company combines new technology with a new market, it faces its highest risk and needs a carefully planned marketing strategy.",
+         "manas": {
+          "q": "Which combination carries the greatest risk for a company?",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Highest risk"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.8",
+         "tag": "Innovation"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s9",
+       "topic": "7.9 The business plan: purpose and key statements",
+       "note": "A business plan sets out the business, its market, operations and financial outlook. Questions ask for its purpose, the five presentation components and the executive summary's topics.",
+       "icons": [
+        "📝"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s9-1",
+         "topic": "Business plan defined",
+         "note": "A document describing a present or planned business: product or service, industry, market, operations (production, marketing, management) and financial outlook. It states goals, why they are attainable and how to reach them.",
+         "manas": {
+          "q": "Define a business plan.",
+          "orbit": {
+           "ref": "7.9",
+           "tag": "Business plan"
+          },
+          "topics": [
+           "Business plan",
+           "Business plan defined"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s9-2",
+         "topic": "Two needs for a plan",
+         "note": "External legitimacy: outsiders such as investors, bankers, consultants, agencies and partners expect one. Internal legitimacy: it gives partners, staff and customers the same clear understanding of the business.",
+         "manas": {
+          "q": "State the two circumstances where a business plan is necessary.",
+          "orbit": {
+           "ref": "7.9",
+           "tag": "Business plan"
+          },
+          "topics": [
+           "Business plan",
+           "Two needs for a plan"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s9-3",
+         "topic": "Five planning components",
+         "note": "Five components: vision statement, mission statement, elevator pitch, executive summary, appendices.",
+         "manas": {
+          "q": "List the five basic sections and presentations of a business plan.",
+          "orbit": {
+           "ref": "7.9",
+           "tag": "Business plan"
+          },
+          "topics": [
+           "Business plan",
+           "Five planning components"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s9-4",
+         "topic": "Vision statement",
+         "note": "A short 5-10 word tagline expressing the business's core idea or goal; it must be a single concept that is inspiring, motivating, overarching and long term (Microsoft: a computer on every desk).",
+         "manas": {
+          "q": "Describe a good vision statement.",
+          "orbit": {
+           "ref": "7.9",
+           "tag": "Business plan"
+          },
+          "topics": [
+           "Business plan",
+           "Vision statement"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s9-5",
+         "topic": "Mission statement",
+         "note": "Takes the vision's goal and adds the competitive-advantage information from strategy. It speaks of what will make a difference to customers or the industry, rarely mentions profit, and often names the entry wedge.",
+         "manas": {
+          "q": "How does a mission statement differ from a vision statement?",
+          "orbit": {
+           "ref": "7.9",
+           "tag": "Business plan"
+          },
+          "topics": [
+           "Business plan",
+           "Mission statement"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s9-6",
+         "topic": "Elevator pitch",
+         "note": "An action-oriented description, a little longer than a tagline, which someone can repeat to others. It covers the main components in a one-on-one setting and can be expanded when more detail is asked.",
+         "manas": {
+          "q": "What is an elevator pitch?",
+          "orbit": {
+           "ref": "7.9",
+           "tag": "Business plan"
+          },
+          "topics": [
+           "Business plan",
+           "Elevator pitch"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s9-7",
+         "topic": "Executive summary",
+         "note": "One to two pages (250-500 words), formal and non-technical, read first by everyone and widely circulated. Includes numbers backed by credible sources. Many write it first as a guide.",
+         "manas": {
+          "q": "Describe the executive summary's length, style and importance.",
+          "orbit": {
+           "ref": "7.9",
+           "tag": "Business plan"
+          },
+          "topics": [
+           "Business plan",
+           "Executive summary"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s9-8",
+         "topic": "Six summary topics",
+         "note": "Six short paragraphs: product, market, competitive advantages, management, business (stage and milestones), and finance (the deal offered to investors and payout schedule). The order is not fixed.",
+         "manas": {
+          "q": "List six topics in an executive summary.",
+          "orbit": {
+           "ref": "7.9",
+           "tag": "Business plan"
+          },
+          "topics": [
+           "Business plan",
+           "Six summary topics"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.9",
+         "tag": "Business plan"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s10",
+       "topic": "7.10 Business plan structure",
+       "note": "The notes walk through the plan's parts in order: front matter, company, product and industry, market, marketing strategy, organisation and financials. Know what each part contains.",
+       "icons": [
+        "🗂️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s10-1",
+         "topic": "Length of a plan",
+         "note": "The classic plan runs to about 25 pages of text and 15 of financials and appendices, needed for new or revolutionary businesses or inexperienced entrepreneurs. Imitative, well-known businesses can shrink to around ten pages, but finance keeps its length.",
+         "manas": {
+          "q": "How long should a business plan be, and when can it be shorter?",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Length of a plan"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s10-2",
+         "topic": "Front matter",
+         "note": "Cover letter (one page on letterhead introducing the plan). Title page: company name, contacts, date, proprietary statement, optional securities disclaimer and copyright or trademark notice. Table of contents with page numbers throughout.",
+         "manas": {
+          "q": "What goes on the title page of a business plan?",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Front matter"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s10-3",
+         "topic": "Company section",
+         "note": "Vision, mission and goals, then company background: age, location, markets, current status and last milestone, and competitive advantage and business model, in positive language with supporting numbers.",
+         "manas": {
+          "q": "What does the company description section contain?",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Company section"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s10-4",
+         "topic": "Product, service and industry",
+         "note": "Describes what is sold and how it meets customer needs, with value benefits such as quality, delivery and brand. Mentions patent, trademark or copyright protection, plus industry and projected profit margins.",
+         "manas": {
+          "q": "What is covered under product or service and industry?",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Product, service and industry"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s10-5",
+         "topic": "Market and target customer",
+         "note": "Market: total customers and firms, by size and scope (local to global). Target customer: demographics, use (own, gift, resale), purchase frequency, past experience and wants; multiple audiences are described separately.",
+         "manas": {
+          "q": "How are the market and target customers described?",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Market and target customer"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s10-6",
+         "topic": "Competition section",
+         "note": "A table of main competitors by name and location, with product, market share, price, strengths and weaknesses, plus text on your competitive advantage and how it wins sales.",
+         "manas": {
+          "q": "What information goes in the competition section?",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Competition section"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s10-7",
+         "topic": "Marketing strategy",
+         "note": "Three ideas: the overall strategy (differentiation, cost, focus), the sales plan showing how sales are secured (backed by pilots, pre-sales, named customers), and the longer-term competitive plan, including patents, partners and R&D or growth plan.",
+         "manas": {
+          "q": "State the three ideas in a marketing strategy section.",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Marketing strategy"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s10-8",
+         "topic": "Organisation section",
+         "note": "Legal form and registration and organisational structure; key personnel, selling the entrepreneur's accomplishments; related service providers (bank, lawyer, accountant, suppliers, advisers); and location, with ownership or lease status.",
+         "manas": {
+          "q": "What four subsections make up the organisation section?",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Organisation section"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s10-9",
+         "topic": "Financial section",
+         "note": "For investors: critical risks and the deal offered. Always: income statement, cash flow and balance sheet with assumptions, conservative and sourced. Start-ups give 3 years (5 if slow to profit); income and cash flow monthly, then quarterly, then annual.",
+         "manas": {
+          "q": "What financial statements does a business plan need and for what period?",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Financial section"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s10-10",
+         "topic": "Appendixes",
+         "note": "The owner's resume is most popular. Others: product pictures or specifications, signed contracts or letters of intent, marketing study results, industry reports, price lists, floor plans, advertising copy, testimonials, and IP attorneys' opinions.",
+         "manas": {
+          "q": "Give examples of appendixes in a business plan.",
+          "orbit": {
+           "ref": "7.10",
+           "tag": "Structure"
+          },
+          "topics": [
+           "Structure",
+           "Appendixes"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.10",
+         "tag": "Structure"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s11",
+       "topic": "7.11 Critical risks in a business plan",
+       "note": "Six risks commonly make readers judge a plan negatively. Learn all six with how each is handled; a favourite 'discuss six' question.",
+       "icons": [
+        "⚠️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s11-1",
+         "topic": "Six critical risks",
+         "note": "Six risks: overstated numbers, uncertain sales (conversion rates), overlooked competition, experience deficits, inadequate cushion, and inadequate payback.",
+         "manas": {
+          "q": "State the six critical risks a business plan must address.",
+          "orbit": {
+           "ref": "7.11",
+           "tag": "Risk"
+          },
+          "topics": [
+           "Risk",
+           "Six critical risks"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s11-2",
+         "topic": "Overstated numbers",
+         "note": "Figures that look too good to be true draw negative attention: optimistic sales or profits and high salaries for a young firm. Give the most likely, not the most optimistic, numbers; owners take minimal pay at start.",
+         "manas": {
+          "q": "How should overstated numbers be avoided?",
+          "orbit": {
+           "ref": "7.11",
+           "tag": "Risk"
+          },
+          "topics": [
+           "Risk",
+           "Overstated numbers"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s11-3",
+         "topic": "Uncertain sales",
+         "note": "The conversion (hit) rate is the percentage of those approached who buy. Test it by test marketing in a limited area and time, or pre-selling for later delivery; readers may apply only 50-75 percent of your claimed rate.",
+         "manas": {
+          "q": "What is a conversion rate and how is it tested?",
+          "orbit": {
+           "ref": "7.11",
+           "tag": "Risk"
+          },
+          "topics": [
+           "Risk",
+           "Uncertain sales"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s11-4",
+         "topic": "Overlooked competition",
+         "note": "You must know every competitor, including substitutes and potential entrants. Claiming 'no competitors' (as with the Bluetooth headset student) causes rejection.",
+         "manas": {
+          "q": "Why is claiming there is no competition a risk?",
+          "orbit": {
+           "ref": "7.11",
+           "tag": "Risk"
+          },
+          "topics": [
+           "Risk",
+           "Overlooked competition"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s11-5",
+         "topic": "Experience deficits",
+         "note": "Four types: in the line of business, in the industry, in the locality, and in managing. Fill gaps yourself or hire them through partners, employees or consultants.",
+         "manas": {
+          "q": "Name the four experience deficits and how to fix them.",
+          "orbit": {
+           "ref": "7.11",
+           "tag": "Risk"
+          },
+          "topics": [
+           "Risk",
+           "Experience deficits"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s11-6",
+         "topic": "Inadequate cushion",
+         "note": "Lack of money is the commonest cause of closure: late-paying customers, unexpected costs, accidents and mistakes. Having cash to survive about three months helps.",
+         "manas": {
+          "q": "Why is a financial cushion needed and how big?",
+          "orbit": {
+           "ref": "7.11",
+           "tag": "Risk"
+          },
+          "topics": [
+           "Risk",
+           "Inadequate cushion"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s11-7",
+         "topic": "Inadequate payback",
+         "note": "Readers want different returns: bankers want loan repayment (cash flow, collateral), investors want growth and margins, key employees want their future. A plan that does not state paybacks fails to sell.",
+         "manas": {
+          "q": "What paybacks do bankers, investors and key employees expect?",
+          "orbit": {
+           "ref": "7.11",
+           "tag": "Risk"
+          },
+          "topics": [
+           "Risk",
+           "Inadequate payback"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.11",
+         "tag": "Risk"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-s12",
+       "topic": "7.12 Intellectual property",
+       "note": "IP rights give owners exclusive rights over creations. The notes stress the Kenyan setting: consumer protection, competition law, and trademarks. Expect 'distinguish trademark, patent and copyright' and the trademark rules.",
+       "icons": [
+        "🛡️"
+       ],
+       "expanded": false,
+       "children": [
+        {
+         "id": "cpa31-t07-s12-1",
+         "topic": "IP rights defined",
+         "note": "Property rights granted through trademarks, patents, industrial designs, copyrights, geographical indications and others, giving the owner a monopoly over the subject. They protect creativity, promote competition and link consumers to producers.",
+         "manas": {
+          "q": "Define intellectual property rights.",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "IP rights defined"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-2",
+         "topic": "Kenyan legal footing",
+         "note": "The Constitution defines property to include any right in IP and gives everyone the right to own property, so IP is subject to Kenya's consumer protection laws. Trademark law is written from the consumer's viewpoint, e.g. confusing similarity.",
+         "manas": {
+          "q": "How does the Constitution treat IP in Kenya?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Kenyan legal footing"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-3",
+         "topic": "Curbing anti-competitive use",
+         "note": "IP law has strict pre-grant examination, opposition proceedings and cancellation or expungement. The Competition Act also prohibits restrictive agreements and abuse of dominant position.",
+         "manas": {
+          "q": "What mechanisms curb anti-competitive use of IP?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Curbing anti-competitive use"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-4",
+         "topic": "Restrictive IP practices",
+         "note": "Examples: territorial restrictions on licensees, undue quality control, grant-backs and patent pools, tie-in arrangements, vertical price-fixing, and royalties on unpatented information.",
+         "manas": {
+          "q": "Give examples of restrictive trade agreements involving IP.",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Restrictive IP practices"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-5",
+         "topic": "Exempt arrangements",
+         "note": "Exempt: arrangements exercising an IP right under Kenyan law; those between non-competitors with insignificant shares; licensing with no risk of creating dominance; and refusal to deal that does not lessen competition.",
+         "manas": {
+          "q": "Which IP arrangements are exempt from competition rules?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Exempt arrangements"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-6",
+         "topic": "Quality and goodwill",
+         "note": "Consumers have a constitutional right to goods of reasonable quality. IP marks signal source and quality, so consumers expect consistent standards and can seek legal remedies when they are not met (Agility Logistics case).",
+         "manas": {
+          "q": "How do IP rights link to consumer expectations of quality?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Quality and goodwill"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-7",
+         "topic": "Trademark",
+         "note": "Any word, name, symbol or design, or combination, used to identify the goods of one seller and show their source. Lasts indefinitely if renewed every ten years; can be licensed or sold; registration allows suing infringers and using the registered symbol.",
+         "manas": {
+          "q": "Define a trademark and state its renewal period.",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Trademark"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-8",
+         "topic": "Trademark versus logo",
+         "note": "A logo is a graphic mark identifying a company; trademarks may include logos, slogans and designs but not all have a logo. A logo is protected only if it qualifies as a unique mark registered as a trademark.",
+         "manas": {
+          "q": "Distinguish a trademark from a logo.",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Trademark versus logo"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-9",
+         "topic": "Trademark, patent, copyright",
+         "note": "Trademark protects brand names and logos; a patent protects an invention; copyright protects original art, literature or music. For a new vacuum cleaner: patent the machine, trademark its name, copyright the TV advert.",
+         "manas": {
+          "q": "Distinguish trademark, patent and copyright with an example.",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Trademark, patent, copyright"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-10",
+         "topic": "What can and cannot be registered",
+         "note": "Allowed: unique logos, words, sounds, colours, letters, shapes, labels, signatures, tickets or combinations. Not allowed: marks that describe the goods, are offensive, misleading, a 3-D shape of the goods, non-distinctive, or look like national symbols.",
+         "manas": {
+          "q": "State six kinds of mark that cannot be a trademark.",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "What can and cannot be registered"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-11",
+         "topic": "Why register a mark",
+         "note": "Registration is not compulsory; unregistered marks rely on common-law passing off. Registration gives total control rather than reliance on judges, protects market share, can be licensed to franchisees or sold, and can help raise equity.",
+         "manas": {
+          "q": "Why register a trademark when it is not compulsory?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Why register a mark"
+          ]
+         }
+        }
+       ],
+       "manas": {
+        "orbit": {
+         "ref": "7.12",
+         "tag": "IP"
+        }
+       }
+      },
+      {
+       "id": "cpa31-t07-exam",
+       "topic": "Exam practice",
+       "icons": [
+        "📝"
+       ],
+       "expanded": false,
+       "note": "Questions in the style the examiners use for this topic, with how to structure a full-marks answer. Use Study for flashcards and the quiz.",
+       "children": [
+        {
+         "id": "cpa31-t07-exam-1",
+         "topic": "Distinguish the four types of entrepreneur and explain six characteristics of successful entrepreneurship.",
+         "note": "Define innovative, imitating, Fabian and drone entrepreneurs in a sentence or two each, then six characteristics (risk, innovation, vision and leadership, open-mindedness, flexibility, product knowledge) with one line each.",
+         "manas": {
+          "q": "Distinguish the four types of entrepreneur and explain six characteristics of successful entrepreneurship.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t07-exam-2",
+         "topic": "Distinguish between entrepreneurship and intrapreneurship.",
+         "note": "Define both, then compare on four points: restorative versus developmental, obstacle (culture versus market), resources, and ownership and independence. Use a table.",
+         "manas": {
+          "q": "Distinguish between entrepreneurship and intrapreneurship.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t07-exam-3",
+         "topic": "Discuss the process of entrepreneurial development. (8 marks)",
+         "note": "Walk the six stages in order (discover, evaluation, plan, resources, managing, harvesting) with one sentence each; roughly one mark per stage plus a short intro.",
+         "manas": {
+          "q": "Discuss the process of entrepreneurial development. (8 marks)",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t07-exam-4",
+         "topic": "Distinguish creativity from innovation, and discuss barriers to creativity and ways of inspiring it.",
+         "note": "Definition and contrast first, then six barriers, then six enabling practices; tie innovation to commercial use.",
+         "manas": {
+          "q": "Distinguish creativity from innovation, and discuss barriers to creativity and ways of inspiring it.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t07-exam-5",
+         "topic": "Describe the techniques used to generate business ideas. How would you improve a brainstorming session? (8 marks)",
+         "note": "Cover focus groups, brainstorming (with its rules), reverse brainstorming, problem inventory analysis, checklist and collective notebook, each with how it works; then pick eight of the ten improvement tips.",
+         "manas": {
+          "q": "Describe the techniques used to generate business ideas. How would you improve a brainstorming session? (8 marks)",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t07-exam-6",
+         "topic": "Explain the components of a business plan and the circumstances in which one is necessary.",
+         "note": "Give the two legitimacy reasons, then the structure: front matter, executive summary, company, product, market, marketing strategy, organisation, financials, appendixes.",
+         "manas": {
+          "q": "Explain the components of a business plan and the circumstances in which one is necessary.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t07-exam-7",
+         "topic": "Discuss six critical risks that a business plan should address.",
+         "note": "Name each risk, say why readers see it as a danger and give the remedy (conservative numbers, test marketing or pre-selling, knowing competitors, filling experience gaps, a three-month cushion, stating paybacks).",
+         "manas": {
+          "q": "Discuss six critical risks that a business plan should address.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t07-exam-8",
+         "topic": "Distinguish trademarks, patents and copyrights, and explain the benefits of registering a trademark in Kenya.",
+         "note": "One definition and example each, then the benefits: exclusive rights and power to sue, licensing or sale, passing-off weakness without registration, ten-year renewal; mention items that cannot be registered.",
+         "manas": {
+          "q": "Distinguish trademarks, patents and copyrights, and explain the benefits of registering a trademark in Kenya.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ]
+}
