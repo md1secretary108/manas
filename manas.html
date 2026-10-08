@@ -1,9 +1,11 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <!-- Manas mind maps. © 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved. Concept and direction: Kewal Bhatt. Orbit 3D concept: his father. Engine: Mind Elixir (MIT). Cartoons: OpenMoji (CC BY-SA 4.0). -->
 <title>Manas Mind Maps</title>
 <meta name="author" content="Kewal Bhatt (Kaivalya Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.0-9343502860e2c2361c3d2934"><meta name="theme-color" content="#22203A">
+<meta name="manas-stamp" content="7.5-7306ea77199520619f09e182"><meta name="theme-color" content="#22203A">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -26,12 +28,12 @@
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --ink:#ECE9F7; --paper:#16152A; --surface:#221F3A; --muted:#A39FBF; --line:#332F52;
-    --shadow:0 8px 28px rgba(0,0,0,.45); --bar:rgba(34,31,58,.94); color-scheme:dark;
+    --shadow:0 8px 28px rgba(0,0,0,.45); --bar:rgba(34,31,58,.94); --hl:rgba(240,160,48,.22); color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
   --ink:#ECE9F7; --paper:#16152A; --surface:#221F3A; --muted:#A39FBF; --line:#332F52;
-  --shadow:0 8px 28px rgba(0,0,0,.45); --bar:rgba(34,31,58,.94); color-scheme:dark;
+  --shadow:0 8px 28px rgba(0,0,0,.45); --bar:rgba(34,31,58,.94); --hl:rgba(240,160,48,.22); color-scheme:dark;
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -224,7 +226,7 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 .act.danger{color:var(--danger)}
 .act[disabled]{opacity:.35}
 .peek{position:absolute;left:12px;right:12px;bottom:calc(104px + env(safe-area-inset-bottom));z-index:29;background:var(--paper);color:var(--ink);border-radius:18px;padding:12px 14px;box-shadow:0 8px 28px rgba(0,0,0,.22);max-width:560px;margin:0 auto;font-size:14px;line-height:1.4}.peek[hidden]{display:none}.peek-note{white-space:pre-wrap;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.peek.open .peek-note{display:block;max-height:45vh;overflow:auto}.peek-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.peek-links:empty{display:none}.peek-links button{font:inherit;font-size:13px;font-weight:600;padding:7px 12px;border-radius:999px;border:1.5px solid var(--ink);background:transparent;color:var(--ink)}.peek-links button.primary{background:var(--ink);color:var(--paper)}
-.shelf{display:flex;flex-direction:column;gap:10px;margin:8px 0 6px}.shelf-card{display:flex;align-items:center;gap:14px;width:100%;text-align:left;font:inherit;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:var(--surface);color:var(--ink);box-shadow:var(--shadow-sm,0 1px 3px rgba(0,0,0,.06))}.shelf-card .shelf-ico{font-size:26px;width:40px;text-align:center;flex:none}.shelf-card .shelf-txt{flex:1;display:flex;flex-direction:column;gap:2px}.shelf-card b{font-size:16px;font-weight:600}.shelf-card small{color:var(--muted);font-size:13px}.shelf-card svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;color:var(--muted)}.shelf-card.add{border-style:dashed;background:transparent}.shelf-card.add .shelf-ico svg{width:24px;height:24px;stroke:currentColor}.prov{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:6px 0 2px}.prov:first-child{margin-top:0}.rlist{display:flex;flex-direction:column;gap:6px}.rl{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:6px 0;border-bottom:1px solid var(--line)}.rl.hl{background:var(--hl,rgba(255,243,176,.5));border-radius:10px}.rl-go{flex:1 1 100%;text-align:left;font:inherit;background:transparent;border:0;color:var(--ink);padding:4px 0;display:flex;flex-direction:column;gap:2px}.rl-go b{font-size:15px;font-weight:600}.rl-go span{font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.shelf{display:flex;flex-direction:column;gap:10px;margin:8px 0 6px}.shelf-card{display:flex;align-items:center;gap:14px;width:100%;text-align:left;font:inherit;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:var(--surface);color:var(--ink);box-shadow:var(--shadow-sm,0 1px 3px rgba(0,0,0,.06))}.shelf-card .shelf-ico{font-size:26px;width:40px;text-align:center;flex:none}.shelf-card .shelf-txt{flex:1;display:flex;flex-direction:column;gap:2px}.shelf-card b{font-size:16px;font-weight:600}.shelf-card small{color:var(--muted);font-size:13px}.shelf-card svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;color:var(--muted)}.shelf-card.add{border-style:dashed;background:transparent}.shelf-card.add .shelf-ico svg{width:24px;height:24px;stroke:currentColor}.shelf-pair{display:flex;gap:8px;align-items:stretch}.shelf-pair .shelf-card{flex:1;min-width:0}.shelf-toc{flex:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;width:74px;font:inherit;font-size:12px;border:1px solid var(--line);border-radius:18px;background:var(--surface);color:var(--ink)}.shelf-toc svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2}.toc{display:flex;flex-direction:column}.toc-group{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:16px 0 4px}.toc-group .toc-go{font:inherit;color:inherit;background:none;border:0;padding:0;text-align:left;letter-spacing:inherit;text-transform:inherit}.toc-row{display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--line);min-height:46px}.toc-row.hl{background:var(--hl,rgba(255,243,176,.5));border-radius:10px}.toc-row.dim .toc-t{color:var(--muted)}.toc-t{flex:1;min-width:0;text-align:left;font:inherit;font-size:15px;background:none;border:0;color:var(--ink);padding:10px 0}.toc-tag{font-size:12px;color:var(--muted);flex:none}.toc-more{flex:none;font:inherit;font-size:13px;color:var(--muted);background:none;border:1px solid var(--line);border-radius:999px;padding:4px 10px}.toc-points{display:flex;flex-direction:column;margin:2px 0 8px}.toc-pt{text-align:left;font:inherit;font-size:14px;background:none;border:0;border-left:2px solid var(--line);color:var(--ink);padding:7px 10px}.home-btns{display:flex;gap:10px;flex:none}.seg{display:flex;gap:6px;padding:6px 8px 10px}.seg button{flex:1;padding:10px 6px;border-radius:12px;border:1.5px solid var(--line);font-size:14px;font-weight:600;justify-content:center}.seg button.on{border-color:var(--ink);background:var(--ink);color:var(--paper)}html.shell-boot body>*{visibility:hidden}html.shell-boot body::before{content:'Manas';position:fixed;inset:0;display:grid;place-items:center;background:var(--paper);color:var(--muted);font-family:var(--font-ui);font-size:28px;font-weight:700;z-index:999}.lib-row{flex-wrap:wrap}.lib-row .lib-txt{flex:1 1 calc(100% - 64px);min-width:0}.peek{background:var(--surface);border:1px solid var(--line)}.trail{position:absolute;left:12px;right:12px;top:calc(62px + env(safe-area-inset-top,0px));z-index:30;display:flex;flex-wrap:nowrap;align-items:center;gap:4px;overflow-x:auto;scrollbar-width:none;font-size:12.5px;font-family:var(--font-ui);pointer-events:auto}.trail::-webkit-scrollbar{display:none}.trail button,.trail b,.trail span{flex:none;padding:5px 10px;border-radius:999px;background:var(--bar);border:1px solid var(--line);color:var(--ink);font-weight:600;white-space:nowrap;backdrop-filter:blur(8px)}.trail b{background:var(--ink);color:var(--paper);border-color:var(--ink)}.trail i{font-style:normal;color:var(--muted)}#orbit .cap-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;pointer-events:auto}#orbit .cap-links .caplink{margin-top:0}#orbit .o-trail{display:block;font-size:11.5px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#orbit .bubble.kin{box-shadow:0 0 0 2px #F0A030,0 0 18px 2px rgba(240,160,48,.7)}#map.narrow-lib me-main>me-wrapper{margin-left:22px!important;margin-right:22px!important}#map.narrow-lib me-root me-tpc{font-size:17px!important;max-width:150px;white-space:normal!important;padding:8px 14px!important;line-height:1.25}#map.narrow-lib me-main>me-wrapper>me-parent>me-tpc{max-width:230px;white-space:normal}.toc-pt.toc-deep{color:var(--ink);background:rgba(240,160,48,.18);border-left-color:#F0A030;font-weight:600;margin-left:14px}.prov{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:6px 0 2px}.prov:first-child{margin-top:0}.rlist{display:flex;flex-direction:column;gap:6px}.rl{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:6px 0;border-bottom:1px solid var(--line)}.rl.hl{background:var(--hl,rgba(255,243,176,.5));border-radius:10px}.rl-go{flex:1 1 100%;text-align:left;font:inherit;background:transparent;border:0;color:var(--ink);padding:4px 0;display:flex;flex-direction:column;gap:2px}.rl-go b{font-size:15px;font-weight:600}.rl-go span{font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .hint{position:absolute;left:50%;bottom:calc(96px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:29;background:var(--ink);color:var(--paper);font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;opacity:0;transition:opacity .25s;pointer-events:none;white-space:nowrap}
 .hint.show{opacity:.92}
 
@@ -300,7 +302,7 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 #orbit .bubble small{display:block;font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c,#fff);margin-bottom:2px;opacity:.95}
 #orbit .bubble.l0{max-width:220px;font-size:15.5px;padding:13px 20px;background:rgba(255,255,255,.1)}
 #orbit .bubble.l0 small{font-size:10px}
-#orbit .bubble.l2{max-width:150px;font-size:11.5px;padding:7px 11px;background:rgba(20,18,42,.72)}
+#orbit .bubble.l2{max-width:150px;font-size:12.5px;padding:7px 11px;background:rgba(20,18,42,.72)}
 #orbit .bubble.sel{box-shadow:0 0 0 3px var(--c,#fff),0 0 24px 2px var(--c,#fff)}
 #orbit .bubble .kids.stepno{background:#F0A030;color:#2A1B00;top:-10px;left:-10px;right:auto;min-width:24px;height:24px;font-size:12px;box-shadow:0 0 0 2px #fff}
 #orbit .bubble .kids{position:absolute;top:-8px;right:-8px;min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:var(--c,#fff);color:#15132a;font-size:10.5px;font-weight:800;display:grid;place-items:center}
@@ -348,9 +350,10 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
   <div class="home-inner">
     <div class="home-top">
       <h1 class="brand">Manas<small>A study library, and beyond</small></h1>
+      <span class="home-btns"><button class="icon-btn" id="theme-toggle" aria-label="Dark or light"></button>
       <button class="icon-btn" id="home-menu-btn" aria-label="Settings and backup">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="19" r="1.2" fill="currentColor"/></svg>
-      </button>
+      </button></span>
     </div>
     <button class="new-map" id="new-map-btn">
       <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
@@ -379,6 +382,7 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
     <button class="icon-btn tb" id="theme-btn" aria-label="Look and layout"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="8.5" cy="10" r="1.3" fill="currentColor"/><circle cx="12.5" cy="7.5" r="1.3" fill="currentColor"/><circle cx="16" cy="10.5" r="1.3" fill="currentColor"/><path d="M12 21c-1.5 0-2.5-1-2.5-2.3 0-1.4 1.1-1.7 1.1-2.7 0-.8-.6-1-1.6-1H8"/></svg></button>
     <button class="icon-btn tb" id="editor-menu-btn" aria-label="More"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="5" r="1.4" fill="currentColor"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/><circle cx="12" cy="19" r="1.4" fill="currentColor"/></svg></button>
   </div>
+  <div class="trail" id="trail" hidden></div>
   <div class="peek" id="peek" hidden><div class="peek-note" id="peek-note"></div><div class="peek-links" id="peek-links"></div></div>
   <div class="hint" id="hint"></div>
   <div class="story-cap" id="story-cap" hidden><b></b><span></span></div>
@@ -390,18 +394,18 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 <div class="screen" id="orbit" hidden>
   <div class="oscene" id="o-scene"><svg class="edges" id="o-edges"></svg><div id="o-layer"></div></div>
   <div class="otop">
-    <button class="ctrl" id="o-flat" aria-label="Back to the flat map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>Flat</button>
-    <button class="ctrl" id="o-back" hidden aria-label="Back to the level above"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>Up</button>
-    <div class="otitle"><b id="o-name"></b><span id="o-path"></span></div>
-    <button class="ctrl" id="o-view">View</button>
-    <button class="ctrl accent" id="o-present">Present</button>
+    <button class="ctrl" id="o-flat" aria-label="Back to the flat map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><span id="o-flat-t">Flat</span></button>
+    <button class="ctrl" id="o-back" hidden aria-label="Back to the level above"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg><span id="o-back-t">Up</span></button>
+    <div class="otitle"><span id="o-trail" class="o-trail" hidden></span><b id="o-name"></b><span id="o-path"></span></div>
+    <button class="ctrl" id="o-view"><span id="o-view-t">View</span></button>
+    <button class="ctrl accent" id="o-present"><span id="o-present-t">Present</span></button>
   </div>
   <div class="olegend" id="o-legend" hidden></div>
   <div class="ocaption"><div class="cap-inner">
     <div class="cap-meta" id="o-cap-meta"></div>
     <div class="cap-title" id="o-cap-title"></div>
     <div class="cap-desc" id="o-cap-desc"></div>
-    <a class="ctrl caplink" id="o-cap-link" hidden target="_blank" rel="noopener">Read the full verse ↗</a>
+    <div class="cap-links" id="o-cap-links" hidden></div>
   </div></div>
   <div class="dock odock"><div class="dock-inner" id="o-dock"></div></div>
   <div class="dock opbar" id="o-pbar" hidden><div class="dock-inner">
@@ -482,6 +486,7 @@ const idb = {
   all(){ return new Promise((res,rej)=>{ const r = this.tx('readonly').getAll(); r.onsuccess=()=>res(r.result||[]); r.onerror=()=>rej(r.error); }); },
   put(m){ return new Promise((res,rej)=>{ const r = this.tx('readwrite').put(m); r.onsuccess=()=>res(); r.onerror=()=>rej(r.error); }); },
   del(id){ return new Promise((res,rej)=>{ const r = this.tx('readwrite').delete(id); r.onsuccess=()=>res(); r.onerror=()=>rej(r.error); }); },
+  putAll(list){ return new Promise((res,rej)=>{ const tx = this.db.transaction('maps', 'readwrite', { durability: 'strict' }); const st = tx.objectStore('maps'); for (const m of list) st.put(JSON.parse(JSON.stringify(m))); tx.oncomplete = () => res(); tx.onerror = tx.onabort = () => rej(tx.error); }); },
 };
 let maps = [];
 function saveMap(m){ idb.put(JSON.parse(JSON.stringify(m))).catch(()=>toast(t('Could not save on this device'))); }
@@ -491,15 +496,24 @@ function loadSettings(){ try{ return JSON.parse(localStorage.getItem(SETTINGS_KE
 function saveSettings(s){ try{ localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); }catch(e){} }
 const uid = () => Math.random().toString(36).slice(2,10) + Date.now().toString(36).slice(-4);
 let settings = Object.assign({ lastLook:'sunrise', lastLayout:'side', seenHelp:false }, loadSettings());
+/* Light / dark: one tap on the home screen (sun/moon), or Light · Dark · Phone in the menu. Saved on the device. */
+const DARK_MQ = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+function themeNow(){ return settings.theme === 'dark' || settings.theme === 'light' ? settings.theme : (DARK_MQ && DARK_MQ.matches ? 'dark' : 'light'); }
+function applyTheme(){ const r = document.documentElement; if (settings.theme === 'dark' || settings.theme === 'light') r.setAttribute('data-theme', settings.theme); else r.removeAttribute('data-theme');
+  const dark = themeNow() === 'dark'; const tc = document.querySelector('meta[name="theme-color"]'); if (tc){ if (!tc.dataset.light) tc.dataset.light = tc.content; tc.content = dark ? '#16152A' : tc.dataset.light; }
+  const b = document.getElementById('theme-toggle'); if (b){ b.innerHTML = dark ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>' : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>';
+    b.setAttribute('aria-label', dark ? t('Light mode') : t('Dark mode')); b.title = b.getAttribute('aria-label'); } }
+function setTheme(v){ settings.theme = v; saveSettings(settings); applyTheme(); }
+if (DARK_MQ && DARK_MQ.addEventListener) DARK_MQ.addEventListener('change', () => { if (!settings.theme || settings.theme === 'auto') applyTheme(); });
 /* ---------------- languages: English keys, translations by table (src/lang-*.json, merged at build) ---------------- */
-const LANG_TABLES = /* __LANGS__ */ {"hi": {"\"How to use Manas\" — comes back if you deleted it": "\"Manas का तरीक़ा\" — हटा दिया हो तो वापस आ जाएगा", "A little cartoon, your own drawing, or a photo.": "एक छोटा कार्टून, आपका अपना चित्र, या एक फ़ोटो।", "A new map begins with one idea in the middle. Everything else grows out of it.": "नया नक्शा बीच के एक विचार से शुरू होता है। बाक़ी सब उसी से उगता है।", "A one-minute walk through the app": "ऐप की एक मिनट की सैर", "A word from any bubble": "किसी भी बुलबुले से एक शब्द", "A word or two on the line. Leave it empty for a plain arrow.": "रेखा पर एक-दो शब्द लिखें। सादा तीर चाहिए तो खाली छोड़ दें।", "AI": "AI", "AI is not available here": "यहाँ AI उपलब्ध नहीं है", "About Manas": "Manas के बारे में", "About and diagnostics": "जानकारी और जाँच", "Add": "जोड़ें", "Add idea": "विचार जोड़ें", "Add or remove ready-made study libraries": "तैयार अध्ययन पुस्तकालय जोड़ें या हटाएँ", "Add selected": "चुने हुए जोड़ें", "Add to Home Screen": "होम स्क्रीन पर जोड़ें", "Add to Home screen": "होम स्क्रीन पर जोड़ें", "Added": "जुड़ गया", "Another quiz": "एक और प्रश्नोत्तरी", "Apply": "लागू करें", "Applying…": "लागू हो रहा है…", "Back": "वापस", "Back returns to the map you came from": "वापस जाने पर आप उसी नक्शे में लौटेंगे जहाँ से आए थे", "Back up": "बैकअप", "Back up all maps": "सारे नक्शों का बैकअप", "Back up all maps first": "पहले सारे नक्शों का बैकअप लें", "Back up all your maps to one file, restore them, reopen the guide map, or take this tour again.": "अपने सारे नक्शों का एक फ़ाइल में बैकअप लें, उन्हें वापस लाएँ, गाइड नक्शा फिर खोलें, या यह सैर दोबारा करें।", "Back up first": "पहले बैकअप लें", "Backups and help": "बैकअप और मदद", "Branch colour": "शाखा का रंग", "Buttons, menus and messages. Library notes stay in the language they were written in.": "बटन, मेन्यू और संदेश। पुस्तकालय के नोट उसी भाषा में रहेंगे जिसमें लिखे गए थे।", "Cancel": "रद्द करें", "Cannot move an idea under its own branch": "किसी विचार को उसी की अपनी शाखा के नीचे नहीं ले जा सकते", "Centre": "केंद्र", "Change where this idea sits. Its own branches move with it.": "इस विचार की जगह बदलें। इसकी अपनी शाखाएँ साथ चलेंगी।", "Child": "उप-शाखा", "Choose the steps": "चरण चुनें", "Clear": "साफ़ करें", "Close": "बंद करें", "Colour": "रंग", "Colours for the whole map.": "पूरे नक्शे के रंग।", "Connect": "जोड़ें", "Connected": "जुड़ा हुआ", "Continue": "आगे बढ़ें", "Could not load that library — check the connection": "वह पुस्तकालय नहीं खुल सका — कनेक्शन देखें", "Could not load that part": "वह भाग नहीं खुल सका", "Could not load that part — check the connection": "वह भाग नहीं खुल सका — कनेक्शन देखें", "Could not load the original right now": "अभी मूल प्रति नहीं खुल सकी", "Could not make the picture on this browser": "इस ब्राउज़र में चित्र नहीं बन सका", "Could not save on this device": "इस डिवाइस पर सेव नहीं हो सका", "Delete": "हटाएँ", "Delete story": "कथा-क्रम हटाएँ", "Delete this map": "यह नक्शा हटाएँ", "Delete this map?": "यह नक्शा हटाएँ?", "Deleted": "हट गया", "Done": "हो गया", "Done ✓": "हो गया ✓", "Done ✨": "हो गया ✨", "Double-tap": "दो बार टैप करें", "Download": "डाउनलोड करें", "Drag this ring onto another bubble": "इस घेरे को किसी दूसरे बुलबुले पर खींचें", "Drag to spin · pinch to zoom · tap a bubble twice to fly in": "घुमाने के लिए खींचें · ज़ूम के लिए चुटकी भरें · अंदर जाने के लिए बुलबुले को दो बार टैप करें", "Draw": "बनाएँ", "Draw it": "बनाएँ", "Draw something first": "पहले कुछ बनाएँ", "Drawing added": "चित्र जुड़ गया", "Duplicate": "प्रतिलिपि बनाएँ", "Duplicated": "प्रतिलिपि बन गई", "Email": "ईमेल", "Emoji": "इमोजी", "Every map you make lives here, on this device. Tap one to open it; the three dots give rename, duplicate, delete.": "आपके बनाए हर नक्शे यहीं, इसी डिवाइस पर रहते हैं। खोलने के लिए एक पर टैप करें; तीन बिंदुओं से नाम बदलें, प्रतिलिपि बनाएँ या हटाएँ।", "Everything you need, nothing you don't.": "जो चाहिए, बस वही — और कुछ नहीं।", "Exit": "बाहर निकलें", "Find a map by name": "नाम से नक्शा खोजें", "Find in this map": "इस नक्शे में खोजें", "Finish": "पूरा करें", "Fit": "समाएँ", "Fit all": "सब समाएँ", "Five short sub-ideas, pick the ones you like": "पाँच छोटे उप-विचार, जो पसंद आएँ वे चुन लें", "Flashcards": "फ़्लैशकार्ड", "Flashcards and quiz": "फ़्लैशकार्ड और प्रश्नोत्तरी", "Flashcards and quiz, remembers what you know": "फ़्लैशकार्ड और प्रश्नोत्तरी, आपका याद किया हुआ भी याद रखता है", "Flat ring (2D)": "सपाट घेरा (2D)", "Full screen, one branch at a time": "पूरी स्क्रीन, एक बार में एक शाखा", "Got it": "समझ गया", "Guide map added": "गाइड नक्शा जुड़ गया", "Help": "मदद", "How it works": "यह कैसे चलता है", "How the branches are drawn.": "शाखाएँ कैसे बनाई जाती हैं।", "How to use Manas": "Manas का तरीक़ा", "I understand": "मैं समझ गया", "Install app": "ऐप इंस्टॉल करें", "Install as an app": "ऐप की तरह इंस्टॉल करें", "Just the app for now": "अभी सिर्फ़ ऐप", "Keep": "रखें", "Keep it": "रख लें", "Keep my version": "मेरा संस्करण रखें", "Keep only the parts you are studying; a removed part can be added again at any time, and its door stays in the top map.": "सिर्फ़ वही भाग रखें जिन्हें आप पढ़ रहे हैं; हटाया हुआ भाग कभी भी फिर जोड़ा जा सकता है, और उसका द्वार ऊपर वाले नक्शे में बना रहता है।", "Label": "नाम", "Language": "भाषा", "Language changed": "भाषा बदल गई", "Later": "बाद में", "Libraries": "पुस्तकालय", "Libraries are not available here": "यहाँ पुस्तकालय उपलब्ध नहीं हैं", "Linked — tap the arrow to open it": "जुड़ा हुआ — खोलने के लिए तीर पर टैप करें", "Links": "लिंक", "Look": "रूप", "Make it a task": "काम बनाएँ", "Make the map": "नक्शा बनाएँ", "Making the picture…": "चित्र बन रहा है…", "Manas": "Manas", "Manas backup": "Manas बैकअप", "Manas is on your home screen": "Manas आपकी होम स्क्रीन पर है", "Map": "नक्शा", "Map from your words": "आपके शब्दों से नक्शा", "Medium": "मध्यम", "Merge": "मिलाएँ", "Merged": "मिल गया", "Mistakes are fine": "ग़लतियाँ ठीक हैं", "More in the menu": "मेन्यू में और भी", "Move": "ले जाएँ", "Move an idea": "विचार ले जाएँ", "Move down": "नीचे ले जाएँ", "Move it out one level": "एक स्तर बाहर ले जाएँ", "Move up": "ऊपर ले जाएँ", "Name this map": "इस नक्शे को नाम दें", "Name this story": "इस कथा-क्रम को नाम दें", "New story": "नया कथा-क्रम", "Next": "आगे", "No account, no sign-in.": "कोई खाता नहीं, कोई साइन-इन नहीं।", "No maps yet. Tap “New mind map” to begin.": "अभी कोई नक्शा नहीं है। शुरू करने के लिए “नया विचार-नक्शा” पर टैप करें।", "No other maps yet.": "अभी कोई और नक्शा नहीं है।", "No store and no download needed — the web version installs itself onto your home screen.": "न स्टोर, न डाउनलोड — वेब संस्करण अपने आप आपकी होम स्क्रीन पर इंस्टॉल हो जाता है।", "No, keep my maps": "नहीं, मेरे नक्शे रहने दें", "Not enough cards for a quiz here — try Flashcards": "यहाँ प्रश्नोत्तरी के लिए पर्याप्त कार्ड नहीं हैं — फ़्लैशकार्ड आज़माएँ", "Not now": "अभी नहीं", "Note": "नोट", "Nothing else on this topic yet": "इस विषय पर अभी और कुछ नहीं है", "Nothing to study yet": "अभी पढ़ने के लिए कुछ नहीं है", "Nothing with that word here.": "इस शब्द वाला यहाँ कुछ नहीं मिला।", "Nothing with that word in any map.": "इस शब्द वाला किसी भी नक्शे में कुछ नहीं मिला।", "Now tap the bubble it should go under": "अब उस बुलबुले पर टैप करें जिसके नीचे इसे जाना है", "Now tap the bubble it should point to": "अब उस बुलबुले पर टैप करें जिसकी ओर इसे इशारा करना है", "OK": "ठीक है", "Only bubbles on the same branch, side by side": "सिर्फ़ उसी शाखा के बुलबुले, अगल-बगल", "Open": "खोलें", "Open Manas from its new icon. It works offline and Safari is much less likely to clear your maps.": "Manas को उसके नए आइकन से खोलें। यह ऑफ़लाइन भी चलता है और Safari आपके नक्शे मिटाए, इसकी संभावना बहुत कम रहती है।", "Open Manas from its new icon. It works offline.": "Manas को उसके नए आइकन से खोलें। यह ऑफ़लाइन भी चलता है।", "Open all branches": "सभी शाखाएँ खोलें", "Open another map from here": "यहीं से दूसरा नक्शा खोलें", "Open link ↗": "लिंक खोलें ↗", "Open map": "नक्शा खोलें", "Open the backup file in any text viewer, select all, copy, and paste it here.": "बैकअप फ़ाइल किसी भी टेक्स्ट व्यूअर में खोलें, सब चुनें, कॉपी करें और यहाँ पेस्ट करें।", "Open the guide map": "गाइड नक्शा खोलें", "Or an existing map": "या कोई मौजूदा नक्शा", "Orbit": "ऑर्बिट", "Orbit (3D)": "ऑर्बिट (3D)", "Orbit (the 3D view), Stories, Connect and Merge, looks and layouts, and the map backup all live here.": "ऑर्बिट (3D दृश्य), कथा-क्रम, जोड़ें और मिलाएँ, रूप और लेआउट, और नक्शों का बैकअप — सब यहीं हैं।", "Orbit view": "ऑर्बिट दृश्य", "Original restored": "मूल प्रति वापस आ गई", "Outline copied": "रूपरेखा कॉपी हो गई", "Parents show how much of the branch is done": "ऊपर वाले विचार दिखाते हैं कि शाखा का कितना हिस्सा पूरा हुआ", "Paste a backup": "बैकअप पेस्ट करें", "Photo": "फ़ोटो", "Photo added": "फ़ोटो जुड़ गई", "Picture": "चित्र", "Present": "प्रस्तुत करें", "Present in 3D": "3D में प्रस्तुत करें", "Privacy and your data": "गोपनीयता और आपका डेटा", "Put back": "वापस रखें", "Put it back": "वापस रख दें", "Put it under another bubble": "किसी दूसरे बुलबुले के नीचे रखें", "Puts this map back the way it came, discarding your edits": "इस नक्शे को वैसा ही वापस कर देता है जैसा आया था, आपके बदलाव हटाकर", "Quiz me": "मुझसे प्रश्न पूछें", "Really remove everything?": "सच में सब कुछ हटाना है?", "Redo": "फिर करें", "Remove": "हटाएँ", "Remove everything and go back to first-install": "सब कुछ हटाकर पहली बार इंस्टॉल वाली स्थिति में लौटें", "Remove last": "आख़िरी हटाएँ", "Removed": "हट गया", "Rename": "नाम बदलें", "Rename theme": "विषय का नाम बदलें", "Renames this theme on every bubble that uses it.": "जिन भी बुलबुलों में यह विषय है, उन सब पर इसका नाम बदल देता है।", "Report": "रिपोर्ट", "Report a mistake": "ग़लती बताएँ", "Reports and feedback": "रिपोर्ट और सुझाव", "Restore": "वापस लाएँ", "Restore from a backup file": "बैकअप फ़ाइल से वापस लाएँ", "Restore from pasted text": "पेस्ट किए पाठ से वापस लाएँ", "Restore original": "मूल प्रति वापस लाएँ", "Restore the original": "मूल प्रति वापस लाएँ", "Restore the original?": "मूल प्रति वापस लाएँ?", "Save": "सेव करें", "Saved": "सेव हो गया", "Search cartoons, e.g. money, doctor, star": "कार्टून खोजें, जैसे पैसा, डॉक्टर, तारा", "Send by email": "ईमेल से भेजें", "Send feedback": "सुझाव भेजें", "Shape": "आकार", "Shape, size, colour and what the bubble carries.": "आकार, साइज़, रंग और बुलबुला क्या-क्या साथ रखता है।", "Share": "साझा करें", "Share as a picture": "चित्र के रूप में साझा करें", "Share as an outline": "रूपरेखा के रूप में साझा करें", "Shares one file you can keep or send yourself": "एक फ़ाइल साझा करता है जिसे आप रख सकते हैं या ख़ुद को भेज सकते हैं", "Sharing is not available here": "यहाँ साझा करना उपलब्ध नहीं है", "Short and memorable works best.": "छोटा और यादगार सबसे अच्छा रहता है।", "Shorter wording, fixed spelling, a cartoon and shape per idea": "छोटे शब्द, सही वर्तनी, हर विचार के लिए एक कार्टून और आकार", "Show answer": "उत्तर दिखाएँ", "Shown at the bottom when the bubble is tapped": "बुलबुले पर टैप करने पर नीचे दिखता है", "Sibling": "समान स्तर", "Size": "साइज़", "Skip": "छोड़ें", "Small label (optional)": "छोटा लेबल (वैकल्पिक)", "Speak": "बोलें", "Start fresh": "नए सिरे से शुरू करें", "Start fresh?": "नए सिरे से शुरू करें?", "Start here": "यहाँ से शुरू करें", "Starts with this bubble's words in the middle": "इस बुलबुले के शब्दों को बीच में रखकर शुरू होता है", "Stay": "रुकें", "Still": "स्थिर", "Stop": "रोकें", "Storage is limited in this browser": "इस ब्राउज़र में स्टोरेज सीमित है", "Stories": "कथा-क्रम", "Story deleted": "कथा-क्रम हट गया", "Structure": "बनावट", "Study": "अध्ययन", "Study and remember": "अध्ययन करें और याद रखें", "Study makes flashcards from bubbles that have notes, and from bubbles with a few ideas under them. Add some ideas or notes, then come back.": "जिन बुलबुलों में नोट हैं, और जिनके नीचे कुछ विचार हैं, उनसे अध्ययन फ़्लैशकार्ड बनाता है। कुछ विचार या नोट जोड़ें, फिर लौट आएँ।", "Study progress": "अध्ययन की प्रगति", "Study this map": "इस नक्शे का अध्ययन करें", "Study turns any map into flashcards and a quick quiz, and brings each card back just before you would forget it.": "अध्ययन किसी भी नक्शे को फ़्लैशकार्ड और छोटी प्रश्नोत्तरी में बदल देता है, और हर कार्ड को आपके भूलने से ठीक पहले वापस लाता है।", "Style": "शैली", "Style this idea": "इस विचार की शैली बदलें", "Suggest ideas under this bubble": "इस बुलबुले के नीचे विचार सुझाएँ", "Suggested": "सुझाए गए", "Take the tour": "सैर करें", "Tap": "टैप करें", "Tap a bubble": "बुलबुले पर टैप करें", "Tap a bubble to select it. Double-tap to change its words. Drag the map to move around; pinch to zoom.": "बुलबुले को चुनने के लिए टैप करें। शब्द बदलने के लिए दो बार टैप करें। नक्शे में घूमने के लिए उसे खींचें; ज़ूम के लिए चुटकी भरें।", "Tap a bubble, then use the buttons below": "बुलबुले पर टैप करें, फिर नीचे के बटन इस्तेमाल करें", "Tap bubbles in order · tap again to remove": "बुलबुलों को क्रम से टैप करें · हटाने के लिए फिर टैप करें", "Tap bubbles in the order you'd explain them. The map stays as it is; the story is the path through it.": "बुलबुलों को उसी क्रम में टैप करें जिसमें आप समझाएँगे। नक्शा जैसा है वैसा ही रहता है; कथा-क्रम उसके बीच का रास्ता है।", "Tap the neighbouring bubbles to include, then Done": "शामिल करने के लिए पास के बुलबुलों पर टैप करें, फिर “हो गया”", "Thank you": "धन्यवाद", "Thank you — reports go to the people who look after this library. Say what is wrong and, if you can, where the right answer comes from.": "धन्यवाद — रिपोर्ट इस पुस्तकालय की देखरेख करने वालों तक जाती हैं। बताएँ कि क्या ग़लत है और हो सके तो सही उत्तर कहाँ से मिलता है।", "That is not a Manas backup": "यह Manas का बैकअप नहीं है", "That is the same bubble": "यह वही बुलबुला है", "That map is gone": "वह नक्शा अब नहीं है", "That picture could not be read": "वह चित्र पढ़ा नहीं जा सका", "The bubble just above it": "उसके ठीक ऊपर वाला बुलबुला", "The buttons follow you": "बटन आपके साथ-साथ चलते हैं", "The map this bubble opened has been deleted. Remove the door?": "जिस नक्शे को यह बुलबुला खोलता था वह हट चुका है। द्वार हटा दें?", "Theme": "विषय", "Theme renamed": "विषय का नाम बदल गया", "Thick": "मोटा", "Thin": "पतला", "Thinking…": "सोच रहा है…", "Thinking… this can take up to a minute.": "सोच रहा है… इसमें एक मिनट तक लग सकता है।", "This bubble becomes a door: tap its little arrow and the other map opens. Back brings you here again.": "यह बुलबुला एक द्वार बन जाता है: उसके छोटे तीर पर टैप करें तो दूसरा नक्शा खुल जाता है। वापस जाने पर आप यहीं लौट आते हैं।", "This library has no separate parts": "इस पुस्तकालय में अलग-अलग भाग नहीं हैं", "This map is large — beautify works on maps up to 160 ideas": "यह नक्शा बड़ा है — सजावट 160 विचारों तक के नक्शों पर काम करती है", "This removes every map and setting on this device and puts Manas back exactly as it was on first install. It cannot be undone. Back up first if anything here matters.": "इससे इस डिवाइस के सारे नक्शे और सेटिंग हट जाएँगे, और Manas पहली बार इंस्टॉल करने जैसा हो जाएगा। इसे वापस नहीं किया जा सकता। यहाँ कुछ भी ज़रूरी हो तो पहले बैकअप लें।", "Tick box on this bubble": "इस बुलबुले पर टिक बॉक्स", "Tidy and beautify": "सँवारें और सजाएँ", "Tidy and beautify the whole map": "पूरे नक्शे को सँवारें और सजाएँ", "Tidy and beautify with AI": "AI से सँवारें और सजाएँ", "Topics": "विषय", "Turning": "घूम रहा है", "Type a few words first": "पहले कुछ शब्द लिखें", "Type a theme, or tap one above": "कोई विषय लिखें, या ऊपर से एक चुनें", "Type or speak a few sentences — the messier the better. Claude turns it into a map.": "कुछ वाक्य लिखें या बोलें — जितना बिखरा हो उतना अच्छा। Claude उसे नक्शा बना देता है।", "Type your main idea, then press Enter": "अपना मुख्य विचार लिखें, फिर Enter दबाएँ", "Undo": "पूर्ववत", "Undo and Redo are always here at the top. Nothing you do is final.": "पूर्ववत और फिर करें हमेशा ऊपर रहते हैं। आपका किया कुछ भी अंतिम नहीं है।", "Undone": "पूर्ववत हो गया", "Use this drawing": "यह चित्र इस्तेमाल करें", "Use your finger. Keep it simple — small doodles read best.": "अपनी उँगली से बनाएँ। सादा रखें — छोटे आड़े-तिरछे चित्र सबसे अच्छे दिखते हैं।", "View in 3D (Orbit)": "3D में देखें (ऑर्बिट)", "Walk through it here": "यहीं सैर करें", "What annoyed you, what you wished it did, what broke. Short is fine.": "आपको क्या खटका, आप क्या चाहते थे, क्या अटका। छोटा लिखना भी चलेगा।", "What is this idea?": "यह विचार क्या है?", "WhatsApp": "WhatsApp", "Which way the branches grow.": "शाखाएँ किस ओर बढ़ें।", "With a bubble selected: Child adds a branch under it, Sibling adds one next to it, then Words, Picture, Style, Move.": "किसी बुलबुले को चुनकर: उप-शाखा उसके नीचे शाखा जोड़ती है, समान स्तर उसके बगल में, फिर शब्द, चित्र, शैली, ले जाएँ।", "Words": "शब्द", "Works offline and keeps your maps safer": "ऑफ़लाइन चलता है और आपके नक्शे ज़्यादा सुरक्षित रखता है", "Yes, start fresh (3)": "हाँ, नए सिरे से शुरू करें (3)", "You tap the bubble it should go under": "आप उस बुलबुले पर टैप करते हैं जिसके नीचे इसे जाना है", "Your map as a picture": "आपका नक्शा, एक चित्र के रूप में", "Your map has been tidied. Not what you wanted?": "आपका नक्शा सँवार दिया गया है। जैसा चाहा था वैसा नहीं?", "Your maps": "आपके नक्शे", "Your maps are stored on this device.": "आपके नक्शे इसी डिवाइस पर सेव हैं।", "Your maps stay on this device.": "आपके नक्शे इसी डिवाइस पर रहते हैं।", "e.g. 3 or 50k": "जैसे 3 या 50k", "e.g. Clinic expansion 2027": "जैसे क्लिनिक विस्तार 2027", "e.g. Couldn't find how to move a bubble": "जैसे बुलबुला हिलाने का तरीक़ा नहीं मिला", "e.g. Next quarter I want the lab and radiology busier. Ideas: corporate wellness packages, a referral deal with two GPs nearby, evening hours twice a week, a WhatsApp results service…": "जैसे अगली तिमाही में मैं चाहता हूँ कि लैब और रेडियोलॉजी में काम बढ़े। विचार: कॉर्पोरेट वेलनेस पैकेज, पास के दो GP के साथ रेफ़रल सौदा, हफ़्ते में दो बार शाम का समय, WhatsApp पर रिज़ल्ट सेवा…", "e.g. The dose is out of date — Kenya 2024 guideline says …": "जैसे खुराक पुरानी है — केन्या 2024 की गाइडलाइन कहती है …", "e.g. Together these give steady growth": "जैसे इन सबसे मिलकर लगातार वृद्धि होती है", "e.g. a verse number, a date, Step 3": "जैसे श्लोक संख्या, कोई तारीख़, चरण 3", "e.g. leads to": "जैसे की ओर ले जाता है", "saves automatically": "अपने आप सेव होता है", "▶ Hear this moment": "▶ यह क्षण सुनें", "📖 Read the verse": "📖 श्लोक पढ़ें", "Arrow label": "तीर का नाम", "Coming soon": "जल्द आ रहा है", "Draw arrow": "तीर बनाएँ", "Good work.": "बहुत अच्छा।", "Leave Manas?": "Manas से बाहर जाएँ?", "Open YouTube": "YouTube खोलें", "Open this video?": "यह वीडियो खोलें?", "Parts": "भाग", "Press and hold the picture to save it.": "चित्र सहेजने के लिए उसे दबाकर रखें।", "Refresh": "रीफ़्रेश करें", "See score": "अंक देखें", "Share it to WhatsApp, email or your gallery.": "इसे WhatsApp, ईमेल या अपनी गैलरी में भेजें।", "Tap to add this part": "यह भाग जोड़ने के लिए टैप करें", "The ones you missed will come back in your flashcards.": "जो छूट गए, वे आपके फ़्लैशकार्ड में फिर आएँगे।", "What does this arrow mean?": "इस तीर का क्या अर्थ है?", "What would you like to study?": "आप क्या पढ़ना चाहेंगे?", "🔁 Also in {n} other places": "🔁 {n} अन्य स्थानों पर भी", "Find a map or an idea": "नक्शा या विचार खोजें", "Settings and backup": "सेटिंग और बैकअप", "Back to your maps": "अपने नक्शों पर लौटें", "Look and layout": "रूप और ढाँचा", "More": "और", "Back to the flat map": "सपाट नक्शे पर लौटें", "Back to the level above": "ऊपर के स्तर पर लौटें", "📝 Read what Maharaj says": "📝 महाराज के शब्द पढ़ें", "📝 Full transcript": "📝 पूरा प्रतिलेख", "Ideas": "विचार", "Last backup": "पिछला बैकअप", "your own maps and study progress": "आपके अपने नक्शे और अध्ययन की प्रगति", "Keep your maps safe.": "अपने नक्शे सुरक्षित रखें।", "Mind maps": "विचार-नक्शे", "{n} places in {m} maps": "{m} नक्शों में {n} स्थान", "{n} places in {m} maps. Tap ▶ to hear that moment, or the words to go to the bubble.": "{m} नक्शों में {n} स्थान। वह क्षण सुनने के लिए ▶ टैप करें, या बुलबुले पर जाने के लिए शब्दों पर।", "maps": "नक्शे", "Add a library": "पुस्तकालय जोड़ें", "Ready-made study libraries from the Manas shelf": "Manas की शेल्फ़ से तैयार अध्ययन पुस्तकालय", "Your own maps will appear here. Tap “New mind map” to begin.": "आपके अपने नक्शे यहाँ दिखेंगे। शुरू करने के लिए “नया नक्शा” टैप करें।", "Summary · Manas": "सारांश · Manas", "From the recording · automatic transcript, unverified": "रिकॉर्डिंग से · स्वचालित प्रतिलेख, अपुष्ट", "Content by": "सामग्री", "Built from": "स्रोत", "Review status": "समीक्षा की स्थिति", "Last updated": "अंतिम अद्यतन", "On this device": "इस डिवाइस पर", "About this library": "इस पुस्तकालय के बारे में", "Notes in this library are Manas’s own summaries, not the original texts or recordings; every bubble links to its source. Spot a mistake? Select the bubble and tap Report.": "इस पुस्तकालय के नोट Manas के अपने सारांश हैं, मूल पाठ या रिकॉर्डिंग नहीं; हर बुलबुला अपने स्रोत से जुड़ा है। कोई गलती दिखे? बुलबुला चुनकर रिपोर्ट टैप करें।", "my copy": "मेरी प्रति", "This is your copy — edit freely": "यह आपकी प्रति है — बेझिझक बदलें", "Read as list": "सूची की तरह पढ़ें", "Copy to edit": "बदलने के लिए प्रति बनाएँ", "Make my copy": "मेरी प्रति बनाएँ", "Library maps stay as published so updates can reach you. A copy is yours to change, and keeps all the links.": "पुस्तकालय के नक्शे जैसे प्रकाशित हुए वैसे ही रहते हैं ताकि अद्यतन आप तक पहुँच सकें। प्रति आपकी है, उसमें बदलाव करें; सभी लिंक बने रहते हैं।", "Zoomed to stay readable — pinch to see more": "पढ़ने लायक ज़ूम रखा गया — और देखने के लिए पिंच करें", "ideas": "विचार", "tap a line to go to that bubble": "उस बुलबुले पर जाने के लिए पंक्ति टैप करें", "Every bubble as text, with its links": "हर बुलबुला पाठ के रूप में, लिंक सहित", "That map is not on this device yet": "वह नक्शा अभी इस डिवाइस पर नहीं है", "review in progress": "समीक्षा जारी", "reviewed": "समीक्षित", "more on the way": "और आ रहा है", "A study library, and beyond": "एक अध्ययन पुस्तकालय, और उससे आगे"}};
+const LANG_TABLES = /* __LANGS__ */ {"hi": {"\"How to use Manas\" — comes back if you deleted it": "\"Manas का तरीक़ा\" — हटा दिया हो तो वापस आ जाएगा", "A little cartoon, your own drawing, or a photo.": "एक छोटा कार्टून, आपका अपना चित्र, या एक फ़ोटो।", "A new map begins with one idea in the middle. Everything else grows out of it.": "नया नक्शा बीच के एक विचार से शुरू होता है। बाक़ी सब उसी से उगता है।", "A one-minute walk through the app": "ऐप की एक मिनट की सैर", "A word from any bubble": "किसी भी बुलबुले से एक शब्द", "A word or two on the line. Leave it empty for a plain arrow.": "रेखा पर एक-दो शब्द लिखें। सादा तीर चाहिए तो खाली छोड़ दें।", "AI": "AI", "AI is not available here": "यहाँ AI उपलब्ध नहीं है", "About Manas": "Manas के बारे में", "About and diagnostics": "जानकारी और जाँच", "Add": "जोड़ें", "Add idea": "विचार जोड़ें", "Add or remove ready-made study libraries": "तैयार अध्ययन पुस्तकालय जोड़ें या हटाएँ", "Add selected": "चुने हुए जोड़ें", "Add to Home Screen": "होम स्क्रीन पर जोड़ें", "Add to Home screen": "होम स्क्रीन पर जोड़ें", "Added": "जुड़ गया", "Another quiz": "एक और प्रश्नोत्तरी", "Apply": "लागू करें", "Applying…": "लागू हो रहा है…", "Back": "वापस", "Back returns to the map you came from": "वापस जाने पर आप उसी नक्शे में लौटेंगे जहाँ से आए थे", "Back up": "बैकअप", "Back up all maps": "सारे नक्शों का बैकअप", "Back up all maps first": "पहले सारे नक्शों का बैकअप लें", "Back up all your maps to one file, restore them, reopen the guide map, or take this tour again.": "अपने सारे नक्शों का एक फ़ाइल में बैकअप लें, उन्हें वापस लाएँ, गाइड नक्शा फिर खोलें, या यह सैर दोबारा करें।", "Back up first": "पहले बैकअप लें", "Backups and help": "बैकअप और मदद", "Branch colour": "शाखा का रंग", "Buttons, menus and messages. Library notes stay in the language they were written in.": "बटन, मेन्यू और संदेश। पुस्तकालय के नोट उसी भाषा में रहेंगे जिसमें लिखे गए थे।", "Cancel": "रद्द करें", "Cannot move an idea under its own branch": "किसी विचार को उसी की अपनी शाखा के नीचे नहीं ले जा सकते", "Centre": "केंद्र", "Change where this idea sits. Its own branches move with it.": "इस विचार की जगह बदलें। इसकी अपनी शाखाएँ साथ चलेंगी।", "Child": "उप-शाखा", "Choose the steps": "चरण चुनें", "Clear": "साफ़ करें", "Close": "बंद करें", "Colour": "रंग", "Colours for the whole map.": "पूरे नक्शे के रंग।", "Connect": "जोड़ें", "Connected": "जुड़ा हुआ", "Continue": "आगे बढ़ें", "Could not load that library — check the connection": "वह पुस्तकालय नहीं खुल सका — कनेक्शन देखें", "Could not load that part": "वह भाग नहीं खुल सका", "Could not load that part — check the connection": "वह भाग नहीं खुल सका — कनेक्शन देखें", "Could not load the original right now": "अभी मूल प्रति नहीं खुल सकी", "Could not make the picture on this browser": "इस ब्राउज़र में चित्र नहीं बन सका", "Could not save on this device": "इस डिवाइस पर सेव नहीं हो सका", "Delete": "हटाएँ", "Delete story": "कथा-क्रम हटाएँ", "Delete this map": "यह नक्शा हटाएँ", "Delete this map?": "यह नक्शा हटाएँ?", "Deleted": "हट गया", "Done": "हो गया", "Done ✓": "हो गया ✓", "Done ✨": "हो गया ✨", "Double-tap": "दो बार टैप करें", "Download": "डाउनलोड करें", "Drag this ring onto another bubble": "इस घेरे को किसी दूसरे बुलबुले पर खींचें", "Drag to spin · pinch to zoom · tap a bubble twice to fly in": "घुमाने के लिए खींचें · ज़ूम के लिए चुटकी भरें · अंदर जाने के लिए बुलबुले को दो बार टैप करें", "Draw": "बनाएँ", "Draw it": "बनाएँ", "Draw something first": "पहले कुछ बनाएँ", "Drawing added": "चित्र जुड़ गया", "Duplicate": "प्रतिलिपि बनाएँ", "Duplicated": "प्रतिलिपि बन गई", "Email": "ईमेल", "Emoji": "इमोजी", "Every map you make lives here, on this device. Tap one to open it; the three dots give rename, duplicate, delete.": "आपके बनाए हर नक्शे यहीं, इसी डिवाइस पर रहते हैं। खोलने के लिए एक पर टैप करें; तीन बिंदुओं से नाम बदलें, प्रतिलिपि बनाएँ या हटाएँ।", "Everything you need, nothing you don't.": "जो चाहिए, बस वही — और कुछ नहीं।", "Exit": "बाहर निकलें", "Find a map by name": "नाम से नक्शा खोजें", "Find in this map": "इस नक्शे में खोजें", "Finish": "पूरा करें", "Fit": "समाएँ", "Fit all": "सब समाएँ", "Five short sub-ideas, pick the ones you like": "पाँच छोटे उप-विचार, जो पसंद आएँ वे चुन लें", "Flashcards": "फ़्लैशकार्ड", "Flashcards and quiz": "फ़्लैशकार्ड और प्रश्नोत्तरी", "Flashcards and quiz, remembers what you know": "फ़्लैशकार्ड और प्रश्नोत्तरी, आपका याद किया हुआ भी याद रखता है", "Flat ring (2D)": "सपाट घेरा (2D)", "Full screen, one branch at a time": "पूरी स्क्रीन, एक बार में एक शाखा", "Got it": "समझ गया", "Guide map added": "गाइड नक्शा जुड़ गया", "Help": "मदद", "How it works": "यह कैसे चलता है", "How the branches are drawn.": "शाखाएँ कैसे बनाई जाती हैं।", "How to use Manas": "Manas का तरीक़ा", "I understand": "मैं समझ गया", "Install app": "ऐप इंस्टॉल करें", "Install as an app": "ऐप की तरह इंस्टॉल करें", "Just the app for now": "अभी सिर्फ़ ऐप", "Keep": "रखें", "Keep it": "रख लें", "Keep my version": "मेरा संस्करण रखें", "Keep only the parts you are studying; a removed part can be added again at any time, and its door stays in the top map.": "सिर्फ़ वही भाग रखें जिन्हें आप पढ़ रहे हैं; हटाया हुआ भाग कभी भी फिर जोड़ा जा सकता है, और उसका द्वार ऊपर वाले नक्शे में बना रहता है।", "Label": "नाम", "Language": "भाषा", "Language changed": "भाषा बदल गई", "Later": "बाद में", "Libraries": "पुस्तकालय", "Libraries are not available here": "यहाँ पुस्तकालय उपलब्ध नहीं हैं", "Linked — tap the arrow to open it": "जुड़ा हुआ — खोलने के लिए तीर पर टैप करें", "Links": "लिंक", "Look": "रूप", "Make it a task": "काम बनाएँ", "Make the map": "नक्शा बनाएँ", "Making the picture…": "चित्र बन रहा है…", "Manas": "Manas", "Manas backup": "Manas बैकअप", "Manas is on your home screen": "Manas आपकी होम स्क्रीन पर है", "Map": "नक्शा", "Map from your words": "आपके शब्दों से नक्शा", "Medium": "मध्यम", "Merge": "मिलाएँ", "Merged": "मिल गया", "Mistakes are fine": "ग़लतियाँ ठीक हैं", "More in the menu": "मेन्यू में और भी", "Move": "ले जाएँ", "Move an idea": "विचार ले जाएँ", "Move down": "नीचे ले जाएँ", "Move it out one level": "एक स्तर बाहर ले जाएँ", "Move up": "ऊपर ले जाएँ", "Name this map": "इस नक्शे को नाम दें", "Name this story": "इस कथा-क्रम को नाम दें", "New story": "नया कथा-क्रम", "Next": "आगे", "No account, no sign-in.": "कोई खाता नहीं, कोई साइन-इन नहीं।", "No maps yet. Tap “New mind map” to begin.": "अभी कोई नक्शा नहीं है। शुरू करने के लिए “नया विचार-नक्शा” पर टैप करें।", "No other maps yet.": "अभी कोई और नक्शा नहीं है।", "No store and no download needed — the web version installs itself onto your home screen.": "न स्टोर, न डाउनलोड — वेब संस्करण अपने आप आपकी होम स्क्रीन पर इंस्टॉल हो जाता है।", "No, keep my maps": "नहीं, मेरे नक्शे रहने दें", "Not enough cards for a quiz here — try Flashcards": "यहाँ प्रश्नोत्तरी के लिए पर्याप्त कार्ड नहीं हैं — फ़्लैशकार्ड आज़माएँ", "Not now": "अभी नहीं", "Note": "नोट", "Nothing else on this topic yet": "इस विषय पर अभी और कुछ नहीं है", "Nothing to study yet": "अभी पढ़ने के लिए कुछ नहीं है", "Nothing with that word here.": "इस शब्द वाला यहाँ कुछ नहीं मिला।", "Nothing with that word in any map.": "इस शब्द वाला किसी भी नक्शे में कुछ नहीं मिला।", "Now tap the bubble it should go under": "अब उस बुलबुले पर टैप करें जिसके नीचे इसे जाना है", "Now tap the bubble it should point to": "अब उस बुलबुले पर टैप करें जिसकी ओर इसे इशारा करना है", "OK": "ठीक है", "Only bubbles on the same branch, side by side": "सिर्फ़ उसी शाखा के बुलबुले, अगल-बगल", "Open": "खोलें", "Open Manas from its new icon. It works offline and Safari is much less likely to clear your maps.": "Manas को उसके नए आइकन से खोलें। यह ऑफ़लाइन भी चलता है और Safari आपके नक्शे मिटाए, इसकी संभावना बहुत कम रहती है।", "Open Manas from its new icon. It works offline.": "Manas को उसके नए आइकन से खोलें। यह ऑफ़लाइन भी चलता है।", "Open all branches": "सभी शाखाएँ खोलें", "Open another map from here": "यहीं से दूसरा नक्शा खोलें", "Open link ↗": "लिंक खोलें ↗", "Open map": "नक्शा खोलें", "Open the backup file in any text viewer, select all, copy, and paste it here.": "बैकअप फ़ाइल किसी भी टेक्स्ट व्यूअर में खोलें, सब चुनें, कॉपी करें और यहाँ पेस्ट करें।", "Open the guide map": "गाइड नक्शा खोलें", "Or an existing map": "या कोई मौजूदा नक्शा", "Orbit": "ऑर्बिट", "Orbit (3D)": "ऑर्बिट (3D)", "Orbit (the 3D view), Stories, Connect and Merge, looks and layouts, and the map backup all live here.": "ऑर्बिट (3D दृश्य), कथा-क्रम, जोड़ें और मिलाएँ, रूप और लेआउट, और नक्शों का बैकअप — सब यहीं हैं।", "Orbit view": "ऑर्बिट दृश्य", "Original restored": "मूल प्रति वापस आ गई", "Outline copied": "रूपरेखा कॉपी हो गई", "Parents show how much of the branch is done": "ऊपर वाले विचार दिखाते हैं कि शाखा का कितना हिस्सा पूरा हुआ", "Paste a backup": "बैकअप पेस्ट करें", "Photo": "फ़ोटो", "Photo added": "फ़ोटो जुड़ गई", "Picture": "चित्र", "Present": "प्रस्तुत करें", "Present in 3D": "3D में प्रस्तुत करें", "Privacy and your data": "गोपनीयता और आपका डेटा", "Put back": "वापस रखें", "Put it back": "वापस रख दें", "Put it under another bubble": "किसी दूसरे बुलबुले के नीचे रखें", "Puts this map back the way it came, discarding your edits": "इस नक्शे को वैसा ही वापस कर देता है जैसा आया था, आपके बदलाव हटाकर", "Quiz me": "मुझसे प्रश्न पूछें", "Really remove everything?": "सच में सब कुछ हटाना है?", "Redo": "फिर करें", "Remove": "हटाएँ", "Remove everything and go back to first-install": "सब कुछ हटाकर पहली बार इंस्टॉल वाली स्थिति में लौटें", "Remove last": "आख़िरी हटाएँ", "Removed": "हट गया", "Rename": "नाम बदलें", "Rename theme": "विषय का नाम बदलें", "Renames this theme on every bubble that uses it.": "जिन भी बुलबुलों में यह विषय है, उन सब पर इसका नाम बदल देता है।", "Report": "रिपोर्ट", "Report a mistake": "ग़लती बताएँ", "Reports and feedback": "रिपोर्ट और सुझाव", "Restore": "वापस लाएँ", "Restore from a backup file": "बैकअप फ़ाइल से वापस लाएँ", "Restore from pasted text": "पेस्ट किए पाठ से वापस लाएँ", "Restore original": "मूल प्रति वापस लाएँ", "Restore the original": "मूल प्रति वापस लाएँ", "Restore the original?": "मूल प्रति वापस लाएँ?", "Save": "सेव करें", "Saved": "सेव हो गया", "Search cartoons, e.g. money, doctor, star": "कार्टून खोजें, जैसे पैसा, डॉक्टर, तारा", "Send by email": "ईमेल से भेजें", "Send feedback": "सुझाव भेजें", "Shape": "आकार", "Shape, size, colour and what the bubble carries.": "आकार, साइज़, रंग और बुलबुला क्या-क्या साथ रखता है।", "Share": "साझा करें", "Share as a picture": "चित्र के रूप में साझा करें", "Share as an outline": "रूपरेखा के रूप में साझा करें", "Shares one file you can keep or send yourself": "एक फ़ाइल साझा करता है जिसे आप रख सकते हैं या ख़ुद को भेज सकते हैं", "Sharing is not available here": "यहाँ साझा करना उपलब्ध नहीं है", "Short and memorable works best.": "छोटा और यादगार सबसे अच्छा रहता है।", "Shorter wording, fixed spelling, a cartoon and shape per idea": "छोटे शब्द, सही वर्तनी, हर विचार के लिए एक कार्टून और आकार", "Show answer": "उत्तर दिखाएँ", "Shown at the bottom when the bubble is tapped": "बुलबुले पर टैप करने पर नीचे दिखता है", "Sibling": "समान स्तर", "Size": "साइज़", "Skip": "छोड़ें", "Small label (optional)": "छोटा लेबल (वैकल्पिक)", "Speak": "बोलें", "Start fresh": "नए सिरे से शुरू करें", "Start fresh?": "नए सिरे से शुरू करें?", "Start here": "यहाँ से शुरू करें", "Starts with this bubble's words in the middle": "इस बुलबुले के शब्दों को बीच में रखकर शुरू होता है", "Stay": "रुकें", "Still": "स्थिर", "Stop": "रोकें", "Storage is limited in this browser": "इस ब्राउज़र में स्टोरेज सीमित है", "Stories": "कथा-क्रम", "Story deleted": "कथा-क्रम हट गया", "Structure": "बनावट", "Study": "अध्ययन", "Study and remember": "अध्ययन करें और याद रखें", "Study makes flashcards from bubbles that have notes, and from bubbles with a few ideas under them. Add some ideas or notes, then come back.": "जिन बुलबुलों में नोट हैं, और जिनके नीचे कुछ विचार हैं, उनसे अध्ययन फ़्लैशकार्ड बनाता है। कुछ विचार या नोट जोड़ें, फिर लौट आएँ।", "Study progress": "अध्ययन की प्रगति", "Study this map": "इस नक्शे का अध्ययन करें", "Study turns any map into flashcards and a quick quiz, and brings each card back just before you would forget it.": "अध्ययन किसी भी नक्शे को फ़्लैशकार्ड और छोटी प्रश्नोत्तरी में बदल देता है, और हर कार्ड को आपके भूलने से ठीक पहले वापस लाता है।", "Style": "शैली", "Style this idea": "इस विचार की शैली बदलें", "Suggest ideas under this bubble": "इस बुलबुले के नीचे विचार सुझाएँ", "Suggested": "सुझाए गए", "Take the tour": "सैर करें", "Tap": "टैप करें", "Tap a bubble": "बुलबुले पर टैप करें", "Tap a bubble to select it. Double-tap to change its words. Drag the map to move around; pinch to zoom.": "बुलबुले को चुनने के लिए टैप करें। शब्द बदलने के लिए दो बार टैप करें। नक्शे में घूमने के लिए उसे खींचें; ज़ूम के लिए चुटकी भरें।", "Tap a bubble, then use the buttons below": "बुलबुले पर टैप करें, फिर नीचे के बटन इस्तेमाल करें", "Tap bubbles in order · tap again to remove": "बुलबुलों को क्रम से टैप करें · हटाने के लिए फिर टैप करें", "Tap bubbles in the order you'd explain them. The map stays as it is; the story is the path through it.": "बुलबुलों को उसी क्रम में टैप करें जिसमें आप समझाएँगे। नक्शा जैसा है वैसा ही रहता है; कथा-क्रम उसके बीच का रास्ता है।", "Tap the neighbouring bubbles to include, then Done": "शामिल करने के लिए पास के बुलबुलों पर टैप करें, फिर “हो गया”", "Thank you": "धन्यवाद", "Thank you — reports go to the people who look after this library. Say what is wrong and, if you can, where the right answer comes from.": "धन्यवाद — रिपोर्ट इस पुस्तकालय की देखरेख करने वालों तक जाती हैं। बताएँ कि क्या ग़लत है और हो सके तो सही उत्तर कहाँ से मिलता है।", "That is not a Manas backup": "यह Manas का बैकअप नहीं है", "That is the same bubble": "यह वही बुलबुला है", "That map is gone": "वह नक्शा अब नहीं है", "That picture could not be read": "वह चित्र पढ़ा नहीं जा सका", "The bubble just above it": "उसके ठीक ऊपर वाला बुलबुला", "The buttons follow you": "बटन आपके साथ-साथ चलते हैं", "The map this bubble opened has been deleted. Remove the door?": "जिस नक्शे को यह बुलबुला खोलता था वह हट चुका है। द्वार हटा दें?", "Theme": "विषय", "Theme renamed": "विषय का नाम बदल गया", "Thick": "मोटा", "Thin": "पतला", "Thinking…": "सोच रहा है…", "Thinking… this can take up to a minute.": "सोच रहा है… इसमें एक मिनट तक लग सकता है।", "This bubble becomes a door: tap its little arrow and the other map opens. Back brings you here again.": "यह बुलबुला एक द्वार बन जाता है: उसके छोटे तीर पर टैप करें तो दूसरा नक्शा खुल जाता है। वापस जाने पर आप यहीं लौट आते हैं।", "This library has no separate parts": "इस पुस्तकालय में अलग-अलग भाग नहीं हैं", "This map is large — beautify works on maps up to 160 ideas": "यह नक्शा बड़ा है — सजावट 160 विचारों तक के नक्शों पर काम करती है", "This removes every map and setting on this device and puts Manas back exactly as it was on first install. It cannot be undone. Back up first if anything here matters.": "इससे इस डिवाइस के सारे नक्शे और सेटिंग हट जाएँगे, और Manas पहली बार इंस्टॉल करने जैसा हो जाएगा। इसे वापस नहीं किया जा सकता। यहाँ कुछ भी ज़रूरी हो तो पहले बैकअप लें।", "Tick box on this bubble": "इस बुलबुले पर टिक बॉक्स", "Tidy and beautify": "सँवारें और सजाएँ", "Tidy and beautify the whole map": "पूरे नक्शे को सँवारें और सजाएँ", "Tidy and beautify with AI": "AI से सँवारें और सजाएँ", "Topics": "विषय", "Turning": "घूम रहा है", "Type a few words first": "पहले कुछ शब्द लिखें", "Type a theme, or tap one above": "कोई विषय लिखें, या ऊपर से एक चुनें", "Type or speak a few sentences — the messier the better. Claude turns it into a map.": "कुछ वाक्य लिखें या बोलें — जितना बिखरा हो उतना अच्छा। Claude उसे नक्शा बना देता है।", "Type your main idea, then press Enter": "अपना मुख्य विचार लिखें, फिर Enter दबाएँ", "Undo": "पूर्ववत", "Undo and Redo are always here at the top. Nothing you do is final.": "पूर्ववत और फिर करें हमेशा ऊपर रहते हैं। आपका किया कुछ भी अंतिम नहीं है।", "Undone": "पूर्ववत हो गया", "Use this drawing": "यह चित्र इस्तेमाल करें", "Use your finger. Keep it simple — small doodles read best.": "अपनी उँगली से बनाएँ। सादा रखें — छोटे आड़े-तिरछे चित्र सबसे अच्छे दिखते हैं।", "View in 3D (Orbit)": "3D में देखें (ऑर्बिट)", "Walk through it here": "यहीं सैर करें", "What annoyed you, what you wished it did, what broke. Short is fine.": "आपको क्या खटका, आप क्या चाहते थे, क्या अटका। छोटा लिखना भी चलेगा।", "What is this idea?": "यह विचार क्या है?", "WhatsApp": "WhatsApp", "Which way the branches grow.": "शाखाएँ किस ओर बढ़ें।", "With a bubble selected: Child adds a branch under it, Sibling adds one next to it, then Words, Picture, Style, Move.": "किसी बुलबुले को चुनकर: उप-शाखा उसके नीचे शाखा जोड़ती है, समान स्तर उसके बगल में, फिर शब्द, चित्र, शैली, ले जाएँ।", "Words": "शब्द", "Works offline and keeps your maps safer": "ऑफ़लाइन चलता है और आपके नक्शे ज़्यादा सुरक्षित रखता है", "Yes, start fresh (3)": "हाँ, नए सिरे से शुरू करें (3)", "You tap the bubble it should go under": "आप उस बुलबुले पर टैप करते हैं जिसके नीचे इसे जाना है", "Your map as a picture": "आपका नक्शा, एक चित्र के रूप में", "Your map has been tidied. Not what you wanted?": "आपका नक्शा सँवार दिया गया है। जैसा चाहा था वैसा नहीं?", "Your maps": "आपके नक्शे", "Your maps are stored on this device.": "आपके नक्शे इसी डिवाइस पर सेव हैं।", "Your maps stay on this device.": "आपके नक्शे इसी डिवाइस पर रहते हैं।", "e.g. 3 or 50k": "जैसे 3 या 50k", "e.g. Clinic expansion 2027": "जैसे क्लिनिक विस्तार 2027", "e.g. Couldn't find how to move a bubble": "जैसे बुलबुला हिलाने का तरीक़ा नहीं मिला", "e.g. Next quarter I want the lab and radiology busier. Ideas: corporate wellness packages, a referral deal with two GPs nearby, evening hours twice a week, a WhatsApp results service…": "जैसे अगली तिमाही में मैं चाहता हूँ कि लैब और रेडियोलॉजी में काम बढ़े। विचार: कॉर्पोरेट वेलनेस पैकेज, पास के दो GP के साथ रेफ़रल सौदा, हफ़्ते में दो बार शाम का समय, WhatsApp पर रिज़ल्ट सेवा…", "e.g. The dose is out of date — Kenya 2024 guideline says …": "जैसे खुराक पुरानी है — केन्या 2024 की गाइडलाइन कहती है …", "e.g. Together these give steady growth": "जैसे इन सबसे मिलकर लगातार वृद्धि होती है", "e.g. a verse number, a date, Step 3": "जैसे श्लोक संख्या, कोई तारीख़, चरण 3", "e.g. leads to": "जैसे की ओर ले जाता है", "saves automatically": "अपने आप सेव होता है", "▶ Hear this moment": "▶ यह क्षण सुनें", "📖 Read the verse": "📖 श्लोक पढ़ें", "Arrow label": "तीर का नाम", "Coming soon": "जल्द आ रहा है", "Draw arrow": "तीर बनाएँ", "Good work.": "बहुत अच्छा।", "Leave Manas?": "Manas से बाहर जाएँ?", "Open YouTube": "YouTube खोलें", "Open this video?": "यह वीडियो खोलें?", "Parts": "भाग", "Press and hold the picture to save it.": "चित्र सहेजने के लिए उसे दबाकर रखें।", "Refresh": "रीफ़्रेश करें", "See score": "अंक देखें", "Share it to WhatsApp, email or your gallery.": "इसे WhatsApp, ईमेल या अपनी गैलरी में भेजें।", "Tap to add this part": "यह भाग जोड़ने के लिए टैप करें", "The ones you missed will come back in your flashcards.": "जो छूट गए, वे आपके फ़्लैशकार्ड में फिर आएँगे।", "What does this arrow mean?": "इस तीर का क्या अर्थ है?", "What would you like to study?": "आप क्या पढ़ना चाहेंगे?", "🔁 Also in {n} other places": "🔁 {n} अन्य स्थानों पर भी", "Find a map or an idea": "नक्शा या विचार खोजें", "Settings and backup": "सेटिंग और बैकअप", "Back to your maps": "अपने नक्शों पर लौटें", "Look and layout": "रूप और ढाँचा", "More": "और", "Back to the flat map": "सपाट नक्शे पर लौटें", "Back to the level above": "ऊपर के स्तर पर लौटें", "📝 Read what Maharaj says": "📝 महाराज के शब्द पढ़ें", "📝 Full transcript": "📝 पूरा प्रतिलेख", "Ideas": "विचार", "Last backup": "पिछला बैकअप", "your own maps and study progress": "आपके अपने नक्शे और अध्ययन की प्रगति", "Keep your maps safe.": "अपने नक्शे सुरक्षित रखें।", "Mind maps": "विचार-नक्शे", "{n} places in {m} maps": "{m} नक्शों में {n} स्थान", "{n} places in {m} maps. Tap ▶ to hear that moment, or the words to go to the bubble.": "{m} नक्शों में {n} स्थान। वह क्षण सुनने के लिए ▶ टैप करें, या बुलबुले पर जाने के लिए शब्दों पर।", "maps": "नक्शे", "Add a library": "पुस्तकालय जोड़ें", "Ready-made study libraries from the Manas shelf": "Manas की शेल्फ़ से तैयार अध्ययन पुस्तकालय", "Your own maps will appear here. Tap “New mind map” to begin.": "आपके अपने नक्शे यहाँ दिखेंगे। शुरू करने के लिए “नया नक्शा” टैप करें।", "Summary · Manas": "सारांश · Manas", "From the recording · automatic transcript, unverified": "रिकॉर्डिंग से · स्वचालित प्रतिलेख, अपुष्ट", "Content by": "सामग्री", "Built from": "स्रोत", "Review status": "समीक्षा की स्थिति", "Last updated": "अंतिम अद्यतन", "On this device": "इस डिवाइस पर", "About this library": "इस पुस्तकालय के बारे में", "Notes in this library are Manas’s own summaries, not the original texts or recordings; every bubble links to its source. Spot a mistake? Select the bubble and tap Report.": "इस पुस्तकालय के नोट Manas के अपने सारांश हैं, मूल पाठ या रिकॉर्डिंग नहीं; हर बुलबुला अपने स्रोत से जुड़ा है। कोई गलती दिखे? बुलबुला चुनकर रिपोर्ट टैप करें।", "my copy": "मेरी प्रति", "This is your copy — edit freely": "यह आपकी प्रति है — बेझिझक बदलें", "Read as list": "सूची की तरह पढ़ें", "Copy to edit": "बदलने के लिए प्रति बनाएँ", "Make my copy": "मेरी प्रति बनाएँ", "Library maps stay as published so updates can reach you. A copy is yours to change, and keeps all the links.": "पुस्तकालय के नक्शे जैसे प्रकाशित हुए वैसे ही रहते हैं ताकि अद्यतन आप तक पहुँच सकें। प्रति आपकी है, उसमें बदलाव करें; सभी लिंक बने रहते हैं।", "Zoomed to stay readable — pinch to see more": "पढ़ने लायक ज़ूम रखा गया — और देखने के लिए पिंच करें", "ideas": "विचार", "tap a line to go to that bubble": "उस बुलबुले पर जाने के लिए पंक्ति टैप करें", "Every bubble as text, with its links": "हर बुलबुला पाठ के रूप में, लिंक सहित", "That map is not on this device yet": "वह नक्शा अभी इस डिवाइस पर नहीं है", "review in progress": "समीक्षा जारी", "reviewed": "समीक्षित", "more on the way": "और आ रहा है", "A study library, and beyond": "एक अध्ययन पुस्तकालय, और उससे आगे", "Contents": "विषय-सूची", "in order — tap a line to open it": "क्रम से — खोलने के लिए किसी पंक्ति पर टैप करें", "Coming": "जल्द आ रहा है", "Not on this device": "इस डिवाइस पर नहीं", "Main points": "मुख्य बिंदु", "The whole library in order, like a book": "पूरी लाइब्रेरी क्रम से, एक किताब की तरह", "Adding…": "जोड़ा जा रहा है…", "Dark mode": "डार्क मोड", "Light mode": "लाइट मोड", "Appearance": "रूप-रंग", "Light": "हल्का", "Dark": "गहरा", "Follow phone": "फ़ोन के अनुसार", "Dark or light": "गहरा या हल्का", "Manas could not open. Please connect to the internet once, then tap Try again.": "मानस नहीं खुल सका। कृपया एक बार इंटरनेट से जुड़ें, फिर 'फिर से कोशिश करें' दबाएँ।", "Try again": "फिर से कोशिश करें", "Your maps are here. Manas now updates itself.": "आपके नक्शे यहाँ हैं। मानस अब अपने-आप अपडेट होता है।", "{a} of {b}": "{b} में से {a}", "New mind map": "नया माइंड मैप", "Start with one idea in the middle": "बीच में एक विचार से शुरू करें", "Open link": "लिंक खोलें", "This page could not open the link by itself. Tap it below, or copy it.": "यह पेज लिंक अपने-आप नहीं खोल सका। नीचे टैप करें, या कॉपी करें।", "Copy link": "लिंक कॉपी करें", "Copied": "कॉपी हो गया", "Could not copy": "कॉपी नहीं हो सका", "Change the words": "शब्द बदलें", "Make it a door to another map": "इसे दूसरे नक्शे का दरवाज़ा बनाएँ", "A copy of this map that is yours to change": "इस नक्शे की आपकी अपनी प्रति, बदलने के लिए", "Copy the words": "शब्द कॉपी करें", "Bubble": "बबल", "Fly into this map": "इस नक्शे में उड़ें", "Library maps stay as published — use Copy to edit": "लाइब्रेरी के नक्शे जैसे प्रकाशित हैं वैसे ही रहते हैं — बदलने के लिए कॉपी करें", "This viewer blocks links. Tap it below, or copy it and paste it into your browser.": "यह व्यूअर लिंक रोकता है। नीचे टैप करें, या कॉपी करके अपने ब्राउज़र में चिपकाएँ।", "Undo brings it back while you are in 3D.": "जब तक आप 3D में हैं, 'वापस लें' इसे लौटा देता है।", "Tap a bubble to open it.": "खोलने के लिए किसी बबल पर टैप करें।", "Tap a bubble to select it, tap again to open it.": "चुनने के लिए बबल पर टैप करें, खोलने के लिए फिर टैप करें।", "No sub-ideas yet.": "अभी कोई उप-विचार नहीं।", "Tap again to open its {n} ideas.": "इसके {n} विचार खोलने के लिए फिर टैप करें।", "By theme": "विषय के अनुसार", "Flat": "सपाट", "Up": "ऊपर", "View": "दृश्य", "{lib}: {n} new maps": "{lib}: {n} नए नक्शे", "{lib} is up to date": "{lib} पूरी तरह अपडेट है", "New in {lib}": "{lib} में नया", "Update": "अपडेट करें", "Updating…": "अपडेट हो रहा है…", "In depth": "विस्तार से"}};
 const LANG_NAMES = { en: 'English', hi: 'हिन्दी (beta)' };
 let LANG = (loadSettings().lang) || ((navigator.language || '').toLowerCase().startsWith('hi') ? 'hi' : 'en');
 function t(s){ const tb = LANG_TABLES[LANG]; return (tb && tb[s]) || s; }
 function setLang(l){ LANG = LANG_NAMES[l] ? l : 'en'; settings.lang = LANG; saveSettings(settings); document.documentElement.lang = LANG; applyStaticI18n(); }
 function applyStaticI18n(){
-  const map = [['#maps-label', 'text', 'Your maps'], ['.brand small', 'text', 'A study library, and beyond'], ['#home-search', 'placeholder', 'Find a map or an idea'], ['#home-menu-btn', 'aria-label', 'Settings and backup'], ['#back-btn', 'aria-label', 'Back to your maps'],
-    ['#undo-btn', 'aria-label', 'Undo'], ['#redo-btn', 'aria-label', 'Redo'], ['#theme-btn', 'aria-label', 'Look and layout'], ['#editor-menu-btn', 'aria-label', 'More'], ['#o-flat', 'aria-label', 'Back to the flat map'], ['#o-back', 'aria-label', 'Back to the level above']];
+  const map = [['#maps-label', 'text', 'Your maps'], ['#new-map-btn b', 'text', 'New mind map'], ['#new-map-btn b + span', 'text', 'Start with one idea in the middle'], ['.brand small', 'text', 'A study library, and beyond'], ['#home-search', 'placeholder', 'Find a map or an idea'], ['#home-menu-btn', 'aria-label', 'Settings and backup'], ['#back-btn', 'aria-label', 'Back to your maps'],
+    ['#undo-btn', 'aria-label', 'Undo'], ['#redo-btn', 'aria-label', 'Redo'], ['#theme-btn', 'aria-label', 'Look and layout'], ['#editor-menu-btn', 'aria-label', 'More'], ['#o-flat', 'aria-label', 'Back to the flat map'], ['#o-flat-t', 'text', 'Flat'], ['#o-back-t', 'text', 'Up'], ['#o-view-t', 'text', 'View'], ['#o-present-t', 'text', 'Present'], ['#o-back', 'aria-label', 'Back to the level above']];
   for (const [sel, how, key] of map){ const el = document.querySelector(sel); if (!el) continue; if (how === 'text') el.textContent = t(key); else el.setAttribute(how, t(key)); }
 }
 function languageSheet(){
@@ -548,9 +562,11 @@ function renderHome(){
   $('#maps-label').textContent = maps.length ? `${t('Your maps')} · ${maps.length}` : t('Your maps');
   const bn = $('#home-banner'); if (bn){ let html = '';
     if (updateInfo) html += `<div class="banner up"><span>✨ Manas ${esc(updateInfo.version)} is ready${updateInfo.note ? ' — ' + esc(updateInfo.note) : ''}.</span><button class="btn small primary" id="bn-up">${location.protocol === 'file:' ? t('Download') : t('Refresh')}</button></div>`;
+    for (const e of pendingLibUpdates().slice(0, 3)) html += `<div class="banner up"><span>📚 ${esc(t('New in {lib}').replace('{lib}', e.title))}${e.whatsNew ? ' — ' + esc(e.whatsNew) : ''}</span><button class="btn small primary" data-libup="${esc(e.id)}">${t('Update')}</button></div>`;
     if (needsBackup()) html += `<div class="banner"><span>🛟 ${t('Keep your maps safe.')} ${t('Last backup')}: <b>${backupAge()}</b>.</span><button class="btn small primary" id="bn-bk">${t('Back up')}</button><button class="btn small ghost" id="bn-later">${t('Later')}</button></div>`;
     bn.innerHTML = html; bn.hidden = !html;
     const u = $('#bn-up', bn); if (u) u.onclick = () => applyUpdate();
+    bn.querySelectorAll('[data-libup]').forEach(b => b.onclick = () => { const e = pendingLibUpdates().find(x => x.id === b.getAttribute('data-libup')); if (e){ b.disabled = true; b.textContent = t('Updating…'); updateLibrary(e); } });
     const k = $('#bn-bk', bn); if (k) k.onclick = backupAll;
     const l = $('#bn-later', bn); if (l) l.onclick = () => { settings.backupSnooze = Date.now() + 3 * 86400000; saveSettings(settings); renderHome(); };
   }
@@ -571,7 +587,9 @@ function renderHome(){
     for (const id of libIds){ const r = libRootOf(id); if (!r) continue; const e = ((catalog && catalog.libraries) || []).find(l => l.id === id) || {}; const n = maps.filter(m => m.library === id).length;
       const b = document.createElement('button'); b.className = 'shelf-card'; b.setAttribute('data-id', r.id);
       b.innerHTML = `<span class="shelf-ico">${esc(e.icon || '📚')}</span><span class="shelf-txt"><b></b><small>${n} ${t('maps')}${e.about && e.about.review ? ' · ' + esc(t(e.about.review)) : ''}</small></span>${ico('chev')}`;
-      b.querySelector('b').textContent = e.title || r.title; b.onclick = () => openMap(r.id, false); shelf.appendChild(b); }
+      b.querySelector('b').textContent = e.title || r.title; b.onclick = () => openMap(r.id, false);
+      const wrapC = document.createElement('div'); wrapC.className = 'shelf-pair'; const tc = document.createElement('button'); tc.className = 'shelf-toc'; tc.setAttribute('aria-label', t('Contents')); tc.innerHTML = `${ico('book')}<span>${t('Contents')}</span>`; tc.onclick = () => contentsSheet(id, null);
+      wrapC.appendChild(b); wrapC.appendChild(tc); shelf.appendChild(wrapC); }
     const add = document.createElement('button'); add.className = 'shelf-card add'; add.innerHTML = `<span class="shelf-ico">${ico('plus')}</span><span class="shelf-txt"><b>${t('Add a library')}</b><small>${t('Ready-made study libraries from the Manas shelf')}</small></span>`; add.onclick = () => librariesSheet(false); shelf.appendChild(add);
     let host = $('#shelf-home'); if (!host){ host = document.createElement('div'); host.id = 'shelf-home'; $('#maps-label').parentNode.insertBefore(host, $('#maps-label')); } host.innerHTML = '';
     const lbl = document.createElement('div'); lbl.className = 'section-label'; lbl.style.marginTop = '22px'; lbl.textContent = t('Libraries'); host.appendChild(lbl); host.appendChild(shelf);
@@ -620,6 +638,8 @@ $('#new-map-btn').addEventListener('click', () => {
   openMap(m.id, true);
 });
 $('#home-search').addEventListener('input', renderHome);
+$('#theme-toggle').addEventListener('click', () => { setTheme(themeNow() === 'dark' ? 'light' : 'dark'); toast(themeNow() === 'dark' ? t('Dark mode') : t('Light mode')); });
+applyTheme();
 $('#home-menu-btn').addEventListener('click', () => sheet(`
   <h2>${t('Manas')}</h2><p class="sub">${t('Your maps are stored on this device.')}</p>
   <div class="menu">
@@ -632,6 +652,7 @@ $('#home-menu-btn').addEventListener('click', () => sheet(`
     <button id="s-tour">${ico('help')}<span>${t('Take the tour')}<br><small style="color:var(--muted)">${t('A one-minute walk through the app')}</small></span></button>
     <button id="s-help">${ico('help')}<span>${t('How it works')}</span></button>
     <button id="s-guide">${ico('help')}<span>${t('Open the guide map')}<br><small style="color:var(--muted)">${t('"How to use Manas" — comes back if you deleted it')}</small></span></button>
+    <div class="lbl" style="margin:10px 8px 4px">${t('Appearance')}</div><div class="seg">${[['light','Light'],['dark','Dark'],['auto','Follow phone']].map(([k,v]) => `<button data-theme-pick="${k}" class="${(settings.theme || 'auto') === k ? 'on' : ''}">${t(v)}</button>`).join('')}</div>
     <button id="s-lang">${ico('globe')}<span>${t('Language')} · ${LANG_NAMES[LANG]}</span></button>
     <button id="s-feedback">${ico('link')}<span>${t('Send feedback')}</span></button>
     <button id="s-privacy">${ico('shield')}<span>${t('Privacy and your data')}</span></button>
@@ -647,6 +668,7 @@ $('#home-menu-btn').addEventListener('click', () => sheet(`
       $('#rp-no',s2).onclick = closeSheet; $('#rp-ok',s2).onclick = () => restoreText($('#rp-in',s2).value); });
     $('#s-help',s).onclick = showHelp;
     $('#s-lang',s).onclick = languageSheet;
+    s.querySelectorAll('[data-theme-pick]').forEach(b => b.onclick = () => { setTheme(b.getAttribute('data-theme-pick')); s.querySelectorAll('[data-theme-pick]').forEach(x => x.classList.toggle('on', x === b)); });
     $('#s-guide',s).onclick = () => { closeSheet(); openGuide(); };
     $('#s-tour',s).onclick = () => { closeSheet(); startTour(); };
     const ins = $('#s-install',s); if (canInstall()){ ins.hidden = false; ins.onclick = installSheet; }
@@ -763,8 +785,8 @@ function placeTour(st){
   if (!el){ return tourNext(); }
   const r = el.getBoundingClientRect(); const pad = 6; const spot = $('.spot', box);
   spot.style.left = (r.left - pad) + 'px'; spot.style.top = (r.top - pad) + 'px'; spot.style.width = (r.width + pad*2) + 'px'; spot.style.height = (r.height + pad*2) + 'px';
-  const card = $('.tcard', box); $('h3', card).textContent = st.title; $('p', card).textContent = st.text; $('.step', card).textContent = `${tourStep+1} of ${TOUR.length}`;
-  $('#t-next', box).textContent = tourStep === TOUR.length - 1 ? 'Done' : 'Next';
+  const card = $('.tcard', box); $('h3', card).textContent = st.title; $('p', card).textContent = st.text; $('.step', card).textContent = t('{a} of {b}').replace('{a}', tourStep + 1).replace('{b}', TOUR.length);
+  $('#t-next', box).textContent = tourStep === TOUR.length - 1 ? t('Done') : t('Next');
   card.style.bottom = ''; card.style.top = '0px';
   const H = window.innerHeight, ch = card.offsetHeight + 16;
   let top;
@@ -851,7 +873,18 @@ async function openLinkedMap(tpc){
   await openMap(id, false); updateBackLabel();
   toast(t('Back returns to the map you came from'));
 }
-function updateBackLabel(){ const b = $('#back-btn'); b.setAttribute('aria-label', mapStack.length ? 'Back to previous map' : 'Home'); b.classList.toggle('stacked', mapStack.length > 0); }
+function updateBackLabel(){ const b = $('#back-btn'); b.setAttribute('aria-label', mapStack.length ? 'Back to previous map' : 'Home'); b.classList.toggle('stacked', mapStack.length > 0); renderTrail(); }
+/* you are here: the maps you came through, each one a tap away */
+function renderTrail(){
+  const tr = $('#trail'); if (!tr) return;
+  const chain = mapStack.map(id => maps.find(m => m.id === id)).filter(Boolean);
+  if (!chain.length || !current){ tr.hidden = true; tr.innerHTML = ''; return; }
+  const short = s => { s = String(s || '').replace(/^.*? · /, ''); return s.length > 22 ? s.slice(0, 21) + '…' : s; };
+  const shown = chain.slice(-3), skipped = chain.length - shown.length;
+  tr.innerHTML = (skipped ? '<span>…</span><i>›</i>' : '') + shown.map((m, k) => `<button data-k="${chain.length - shown.length + k}">${esc(short(m.title))}</button><i>›</i>`).join('') + `<b>${esc(short(current.title))}</b>`;
+  tr.hidden = false; setTimeout(() => { tr.scrollLeft = tr.scrollWidth; }, 0);
+  tr.querySelectorAll('[data-k]').forEach(bt => bt.onclick = async () => { const k = +bt.getAttribute('data-k'); const target = mapStack[k]; mapStack = mapStack.slice(0, k); saveNow(); await openMap(target, false); updateBackLabel(); });
+}
 async function backOrHome(){
   if (mapStack.length){ const prev = mapStack.pop(); if (maps.find(m => m.id === prev)){ saveNow(); await openMap(prev, false); updateBackLabel(); return; } }
   mapStack = []; updateBackLabel(); goHome(true);
@@ -863,6 +896,9 @@ function copyToEdit(){ if (!current) return; const c = JSON.parse(JSON.stringify
   const stamp = (n) => { n.id = n.id + '-c'; for (const k of (n.children || [])) stamp(k); }; stamp(c.data.nodeData); maps.push(c); saveMap(c); closeSheet(); openMap(c.id, false); toast(t('This is your copy — edit freely')); }
 const editorEl = $('#editor'), homeEl = $('#home');
 
+/* library maps on a phone grow to the right only, so the branches fit the narrow screen */
+function alignLeft(){ try { if (!mind || mapDir() !== LAYOUTS.right.dir || !current || !current.library) return; const rt = mind.map.querySelector('me-root'); if (!rt) return; const r = rt.getBoundingClientRect(); if (r.left < 8 || r.left > 40) mind.move(16 - r.left, 0); } catch(e){} }
+function mapDir(){ return (readOnly && current && current.library && innerWidth < 600) ? LAYOUTS.right.dir : LAYOUTS[current.layout||'side'].dir; }
 async function openMap(id, isNew){
   current = maps.find(x=>x.id===id); if(!current) return;
   if (current.library && LIB_NOTICE[current.library] && !(settings.notices || {})[current.library]) setTimeout(() => libNotice(current.library), 900);
@@ -872,9 +908,10 @@ async function openMap(id, isNew){
   if (mind){ try{ mind.destroy(); }catch(e){} $('#map').innerHTML=''; }
   const look = LOOKS[current.look] || LOOKS.sunrise;
   readOnly = !!(current.library && !current.touched);
-  mind = new MindElixir({ el:'#map', direction: LAYOUTS[current.layout||'side'].dir, toolBar:false, contextMenu:false, keypress: !readOnly, editable: !readOnly,
+  $('#map').classList.toggle('narrow-lib', !!(readOnly && current.library && innerWidth < 600));
+  mind = new MindElixir({ el:'#map', direction: mapDir(), toolBar:false, contextMenu:false, keypress: !readOnly, editable: !readOnly,
     theme: themeFor(current), newTopicName:'New idea', scaleMin:0.3, scaleMax:2.5, alignment:'nodes', mobileMultiSelect:false, imageProxy: resolveImage });
-  const data = JSON.parse(JSON.stringify(current.data)); data.direction = LAYOUTS[current.layout||'side'].dir; delete data.theme;
+  const data = JSON.parse(JSON.stringify(current.data)); data.direction = mapDir(); delete data.theme;
   // big maps: fold everything below the second level so the screen stays quick; tap a bubble's + to open it
   const total = countNodes(data.nodeData); let folded = 0;
   if (total > BIG_MAP && !current.unfolded){ (function fold(n, d){ for (const c of (n.children||[])){ if (d >= 2 && c.children && c.children.length && c.expanded !== false){ c.expanded = false; folded++; } fold(c, d+1); } })(data.nodeData, 1); }
@@ -892,7 +929,7 @@ async function openMap(id, isNew){
   mind.bus.addListener('unselectNodes', renderDock);
   ['selectArrow','unselectArrow','selectSummary','unselectSummary'].forEach(ev => mind.bus.addListener(ev, () => setTimeout(renderDock, 0)));
   renderDock();
-  requestAnimationFrame(() => { if (isNew) mind.toCenter(); else { try{ mind.scaleFit(); if (mind.scaleVal < 0.9){ mind.scale(0.9); } mind.toCenter(); }catch(e){ mind.toCenter(); } } });
+  requestAnimationFrame(() => { if (isNew) mind.toCenter(); else { const lo = mapDir() === LAYOUTS.right.dir && current.library ? 0.65 : 0.9; try{ mind.scaleFit(); if (mind.scaleVal < lo){ mind.scale(lo); } mind.toCenter(); }catch(e){ mind.toCenter(); } alignLeft(); } });
   if (isNew){ setTimeout(() => { const root = MindElixir.E(mind.nodeData.id); mind.selectNode(root); mind.beginEdit(root); hint(t('Type your main idea, then press Enter')); }, 250); }
   else if (!settings.seenHelp){ hint(t('Tap a bubble, then use the buttons below')); settings.seenHelp=true; saveSettings(settings); }
 }
@@ -915,6 +952,44 @@ function goHome(save=true){
   current = null; editorEl.hidden = true; homeEl.hidden = false; renderHome();
 }
 $('#back-btn').addEventListener('click', backOrHome);
+/* press and hold a bubble: a small menu of what can be done with it */
+(function(){
+  const host = $('#map'); let tm = null, sx = 0, sy = 0, el = null, held = false;
+  const cancel = () => { clearTimeout(tm); tm = null; };
+  let swallowUntil = 0;
+  ['pointerup','pointercancel'].forEach(k => host.addEventListener(k, () => { if (held) swallowUntil = Date.now() + 450; }, true));
+  document.addEventListener('click', e => { if (Date.now() < swallowUntil){ swallowUntil = 0; e.stopPropagation(); e.preventDefault(); } }, true);
+  host.addEventListener('pointerdown', e => { if (e.pointerType === 'mouse') return; const tp = e.target.closest && e.target.closest('me-tpc'); if (!tp || !tp.nodeObj || e.button > 0) return; el = tp; sx = e.clientX; sy = e.clientY; held = false; cancel();
+    tm = setTimeout(() => { tm = null; if (!el || !el.isConnected) return; held = true; try { navigator.vibrate && navigator.vibrate(12); } catch(err){} holdSheet(el); }, 550); }, true);
+  host.addEventListener('pointermove', e => { if (tm && Math.hypot(e.clientX - sx, e.clientY - sy) > 9) cancel(); }, true);
+  ['pointerup', 'pointercancel', 'pointerleave'].forEach(k => host.addEventListener(k, () => { cancel(); if (held) setTimeout(() => { held = false; }, 400); }, true));
+  host.addEventListener('click', e => { if (held){ held = false; e.stopPropagation(); e.preventDefault(); } }, true);
+  host.addEventListener('contextmenu', e => { const tp = e.target.closest && e.target.closest('me-tpc'); if (!tp) return; e.preventDefault(); if (tp.nodeObj && !held) holdSheet(tp); held = false; });
+})();
+function holdSheet(tp){
+  const n = tp.nodeObj, m = n.manas || {}; const links = bubbleLinks(n); const nT = threadCount(n);
+  const rows = [];
+  const add = (id, icon, label, sub) => rows.push(`<button id="${id}">${ico(icon)}<span>${label}${sub ? `<br><small style="color:var(--muted)">${sub}</small>` : ''}</span></button>`);
+  links.forEach((l, i) => add('hl-l' + i, 'link', esc(l.label)));
+  if (nT) add('hl-thread', 'link', t('🔁 Also in {n} other places').replace('{n}', nT));
+  if (m.map) add('hl-door', 'portal', t('Open map'));
+  if (!readOnly){ add('hl-edit', 'edit', t('Change the words')); if (!m.map) add('hl-mkdoor', 'portal', t('Make it a door to another map')); }
+  else add('hl-copy', 'edit', t('Copy to edit'), t('A copy of this map that is yours to change'));
+  add('hl-words', 'save', t('Copy the words'));
+  if (current && current.library) add('hl-report', 'flag', t('Report a mistake'));
+  sheet(`<h2></h2><div class="menu">${rows.join('')}</div>`, s => {
+    $('h2', s).textContent = plain(n.topic) || t('Bubble');
+    links.forEach((l, i) => { $('#hl-l' + i, s).onclick = () => { closeSheet(); openHref(l.url); }; });
+    const on = (id, fn) => { const b = $('#' + id, s); if (b) b.onclick = fn; };
+    on('hl-thread', () => threadSheet(topicsOf(n), n.id));
+    on('hl-door', () => { closeSheet(); openLinkedMap(tp); });
+    on('hl-edit', () => { closeSheet(); mind.beginEdit(tp); });
+    on('hl-mkdoor', () => mapLinkSheet(tp));
+    on('hl-copy', () => { closeSheet(); copyToEdit(); });
+    on('hl-words', async () => { const txt = plain(n.topic) + (n.note ? '\n\n' + String(n.note).split(/\n\n(?=🎙)/)[0] : ''); try { await navigator.clipboard.writeText(txt); toast(t('Copied')); } catch(e){ const b = window.ManasBridge; if (b && b.shareText){ b.shareText(plain(n.topic), txt); } else toast(t('Could not copy')); } closeSheet(); });
+    on('hl-report', () => reportSheet(current, n));
+  });
+}
 $('#undo-btn').addEventListener('click', () => { if (!mind) return; mind.undo(); scheduleSave(); setTimeout(() => { applyDecor(); renderDock(); }, 0); });
 $('#redo-btn').addEventListener('click', () => { if (!mind) return; mind.redo(); scheduleSave(); setTimeout(() => { applyDecor(); renderDock(); }, 0); });
 $('#title-btn').addEventListener('click', () => renameMap(current, () => { $('#title-btn').textContent = current.title || 'Untitled — tap to name'; }));
@@ -974,18 +1049,90 @@ function listSheet(map, focusId){
       if (focusId){ const el = s.querySelector('#rl-' + CSS.escape(focusId)); if (el){ el.classList.add('hl'); el.scrollIntoView({ block: 'center' }); } }
   });
 }
+/* Contents: a whole library as one ordered page, like a book's contents — another way in besides the doors. Order = the order of the bubbles in the library's top maps. */
+async function contentsSheet(libId, here){
+  const e = (await catalogFor(libId)) || {};
+  const byId = id => maps.find(m => m.id === id);
+  let root = byId(e.root); if (!root){ const mine = maps.filter(m => m.library === libId); const linked = new Set(); for (const m of mine) walkNodes(m.data && m.data.nodeData, n => { if (n.manas && n.manas.map) linked.add(n.manas.map); }); root = mine.find(m => !linked.has(m.id)) || mine[0]; }
+  if (!root){ toast(t('That map is not on this device yet')); return; }
+  const rows = []; const seen = new Set();
+  const isDeep = id => { const t = byId(id); return !!(t && t.deepOf); };          // in-depth maps hang off a point; they are not chapters of their own
+  const hasDoor = n => (n.children || []).some(c => (c.manas && c.manas.map && !isDeep(c.manas.map)) || hasDoor(c));
+  const isHub = m => !!(m && m.data && hasDoor(m.data.nodeData));
+  const walkHub = (map, depth) => {
+    seen.add(map.id);
+    const visit = (n, d) => { const m = n.manas || {};
+      if (m.map && !isDeep(m.map)){ const tgt = byId(m.map);
+        if (!tgt){ rows.push({ kind: 'missing', depth: d, title: plain(n.topic), part: m.part }); return; }
+        if (seen.has(tgt.id)) return;
+        if (isHub(tgt)){ rows.push({ kind: 'group', depth: d, title: plain(n.topic) || tgt.title, map: tgt }); walkHub(tgt, d + 1); }
+        else { seen.add(tgt.id); rows.push({ kind: 'map', depth: d, title: plain(n.topic) || tgt.title, map: tgt, points: (tgt.data.nodeData.children || []).map(c => ({ id: c.id, title: plain(c.topic), deep: c.manas && c.manas.map && isDeep(c.manas.map) ? c.manas.map : null })) }); }
+        return; }
+      if (hasDoor(n)){ rows.push({ kind: 'group', depth: d, title: plain(n.topic) }); for (const c of (n.children || [])) visit(c, d + 1); return; }
+      const coming = /^coming\b/i.test(String(n.note || '').trim());
+      rows.push({ kind: coming ? 'coming' : 'node', depth: d, title: plain(n.topic), map, id: n.id });
+    };
+    for (const c of (map.data.nodeData.children || [])) visit(c, depth);
+  };
+  walkHub(root, 0);
+  const title = e.title || root.title;
+  const nMaps = rows.filter(r => r.kind === 'map').length;
+  const row = (r, i) => { const pad = `style="padding-left:${Math.min(r.depth, 4) * 14}px"`;
+    if (r.kind === 'group') return `<div class="toc-group" ${pad}>${r.map ? `<button class="toc-go" data-i="${i}">${esc(r.title)}</button>` : esc(r.title)}</div>`;
+    if (r.kind === 'coming') return `<div class="toc-row dim" ${pad}><span class="toc-t">${esc(r.title)}</span><span class="toc-tag">${t('Coming')}</span></div>`;
+    if (r.kind === 'missing') return `<div class="toc-row dim" ${pad}><span class="toc-t">${esc(r.title)}</span>${r.part ? `<button class="btn small primary" data-addpart="${esc(r.part)}">${t('Add')}</button>` : `<span class="toc-tag">${t('Not on this device')}</span>`}</div>`;
+    if (r.kind === 'node') return `<div class="toc-row" ${pad}><button class="toc-go toc-t" data-i="${i}">${esc(r.title)}</button></div>`;
+    const cur = here && r.map.id === here;
+    return `<div class="toc-row${cur ? ' hl' : ''}" ${pad} id="toc-${i}"><button class="toc-go toc-t" data-i="${i}">${esc(r.title)}</button>${r.points.length ? `<button class="toc-more" data-x="${i}" aria-expanded="${cur}" aria-label="${t('Main points')}">${r.points.length} ▾</button>` : ''}</div>
+      <div class="toc-points" id="tp-${i}" ${cur ? '' : 'hidden'} style="padding-left:${Math.min(r.depth, 4) * 14 + 16}px">${r.points.map((p, j) => `<button class="toc-pt" data-i="${i}" data-j="${j}">${esc(p.title)}</button>` + (p.deep ? `<button class="toc-pt toc-deep" data-deep="${esc(p.deep)}">🔎 ${t('In depth')} ↗</button>` : '')).join('')}</div>`; };
+  sheet(`<h2>${t('Contents')}</h2><p class="sub">${esc(title)} · ${nMaps} ${t('maps')} · ${t('in order — tap a line to open it')}</p><div class="toc">${rows.map(row).join('')}</div>
+    <div class="row" style="margin-top:14px"><button class="btn" id="toc-close">${t('Close')}</button></div>`, s => {
+      const go = (map, id) => { closeSheet(); if (current && current.id !== map.id){ saveNow(); mapStack.push(current.id); }
+        if (id) jumpTo({ map, id }).then(updateBackLabel); else if (!current || current.id !== map.id){ openMap(map.id, false); updateBackLabel(); } };
+      s.querySelectorAll('.toc-go').forEach(b => b.onclick = () => { const r = rows[+b.getAttribute('data-i')]; go(r.map, r.kind === 'node' ? r.id : null); });
+      s.querySelectorAll('.toc-pt').forEach(b => b.onclick = () => { const r = rows[+b.getAttribute('data-i')]; go(r.map, r.points[+b.getAttribute('data-j')].id); });
+      s.querySelectorAll('[data-deep]').forEach(b => b.onclick = () => { const m = byId(b.getAttribute('data-deep')); if (m) go(m, null); });
+      s.querySelectorAll('.toc-more').forEach(b => b.onclick = () => { const p = $('#tp-' + b.getAttribute('data-x'), s); p.hidden = !p.hidden; b.setAttribute('aria-expanded', String(!p.hidden)); });
+      s.querySelectorAll('[data-addpart]').forEach(b => b.onclick = async () => { b.disabled = true; b.textContent = t('Adding…'); try { await installLibrary(e, [b.getAttribute('data-addpart')]); } catch(err){ toast(t('Could not load that part')); } contentsSheet(libId, here); });
+      $('#toc-close', s).onclick = closeSheet;
+      const hl = s.querySelector('.toc-row.hl'); if (hl) setTimeout(() => hl.scrollIntoView({ block: 'center' }), 50);
+  });
+}
 /* peek card: a tapped bubble's note and its links (hear it, read the transcript, read the verse…). Generic: any bubble may carry manas.links = [{label, url}]. */
 function linkLabel(href){ return /youtube\.com|youtu\.be/.test(href) ? t('▶ Hear this moment') : /vedabase/.test(href) ? t('📖 Read the verse') : t('Open link ↗'); }
 function openHref(href){ href = resolveUrl(href, current); let same = false; try { const u = new URL(href, location.href); same = u.origin === location.origin || href.startsWith(SITE); } catch(e){}
-  if (same || !/^https?:/i.test(href)){ const w = window.open(href, '_blank', 'noopener'); if (!w) location.href = href; return; }
-  confirmExternal(href, () => { const w = window.open(href, '_blank', 'noopener'); if (!w) location.href = href; }); }
+  if (same || !/^https?:/i.test(href)){ openOut(href, true); return; }
+  confirmExternal(href, () => openOut(href, false)); }
+/* one place that opens links: inside the Android app, Manas pages stay in the app and other sites go to the phone's browser; in a browser, a new tab */
+function openOut(href, same){
+  if (window.ManasBridge){ if (same){ if (current){ settings.resume = { id: current.id, t: Date.now() }; saveSettings(settings); } location.href = href; return; } const b = window.ManasBridge; try { if (b.openUrl && b.openUrl(href)) return; } catch(e){} location.href = href; return; }
+  let w = null; try { w = window.open(href, '_blank'); } catch(e){}
+  if (w){ try { w.opener = null; } catch(e){} return; }
+  if (same){ if (current){ settings.resume = { id: current.id, t: Date.now() }; saveSettings(settings); } location.href = href; return; }
+  // the browser (or a page viewer) blocked the new tab: offer a plain link the person taps themselves, and a copy
+  sheet(`<h2>${t('Open link')}</h2><p class="sub">${t('This viewer blocks links. Tap it below, or copy it and paste it into your browser.')}</p><p style="word-break:break-all"><a data-direct="1" href="${esc(href)}" target="_blank" rel="noopener">${esc(href)}</a></p><input class="field" id="ol-url" readonly value="${esc(href)}" style="font-size:13px"><div class="row"><button class="btn" id="ol-copy">${t('Copy link')}</button><button class="btn primary" id="ol-ok">${t('Done')}</button></div>`, s2 => {
+    $('#ol-ok', s2).onclick = closeSheet;
+    $('#ol-copy', s2).onclick = async () => { try { await navigator.clipboard.writeText(href); } catch(e){ const i = $('#ol-url', s2); i.select(); let ok = false; try { ok = document.execCommand('copy'); } catch(e2){} if (!ok){ toast(t('Could not copy')); return; } } toast(t('Copied')); }; }); }
+/* any plain web link on screen (the 🔗 on a bubble, links inside sheets) goes through the same route */
+document.addEventListener('click', e => {
+  const a = e.target && e.target.closest ? e.target.closest('a[href]') : null; if (!a || a.dataset.direct) return;
+  const href = a.getAttribute('href') || ''; if (!/^(https?:|\.\/|[a-z0-9_-]+\.html)/i.test(href)) return;
+  e.preventDefault(); e.stopImmediatePropagation(); openHref(href);
+}, true);
+/* every link a bubble carries, in one list — the peek card, the 3D caption and the hold menu all use it */
+function bubbleLinks(n){
+  const m = (n && n.manas) || {}; const links = [];
+  if (n && n.hyperLink) links.push({ label: linkLabel(n.hyperLink), url: n.hyperLink, primary: true });
+  for (const l of (Array.isArray(m.links) ? m.links : [])) if (l && l.url && !links.some(x => x.url === l.url)) links.push({ label: t(l.label || linkLabel(l.url)), url: l.url });
+  if (n) for (const tp of topicsOf(n)){ const su = scriptureUrl(tp); if (su && !links.some(x => x.url === su)) links.push({ label: '📖 ' + tp, url: su }); }
+  return links;
+}
+function threadCount(n){ const thread = n ? threadFor(n) : []; return new Set(thread.flatMap(e => e.hits.map(h => h.map.id + ':' + h.id))).size; }
 function renderPeek(sel){
   const pk = $('#peek'); if (!pk) return;
   const n = sel && sel.nodeObj; const m = (n && n.manas) || {};
-  const links = []; if (n && n.hyperLink) links.push({ label: linkLabel(n.hyperLink), url: n.hyperLink, primary: true });
-  for (const l of (Array.isArray(m.links) ? m.links : [])) if (l && l.url && !links.some(x => x.url === l.url)) links.push({ label: t(l.label || linkLabel(l.url)), url: l.url });
-  if (n) for (const t of topicsOf(n)){ const su = scriptureUrl(t); if (su && !links.some(x => x.url === su)) links.push({ label: '📖 ' + t, url: su }); }
-  const thread = n ? threadFor(n) : []; const nThread = new Set(thread.flatMap(e => e.hits.map(h => h.map.id + ':' + h.id))).size;
+  const links = bubbleLinks(n);
+  const nThread = threadCount(n);
   const note = n ? String(n.note || '').trim() : '';
   const busy = typeof picking !== 'undefined' && (picking || connectFrom || mergeSet || storyEdit || storyPlay);
   if (!n || (!note && !links.length) || busy){ pk.hidden = true; pk.classList.remove('open'); return; }
@@ -1021,11 +1168,12 @@ function renderDock(){
   }
   const b = (id, label, icon, cls='') => `<button class="act ${cls}" id="${id}">${ico(icon)}<span>${label}</span></button>`;
   if (!sel){
-    d.innerHTML = (readOnly ? b('a-study',t('Study'),'cap','primary') + b('a-list',t('Read as list'),'list') : b('a-add',t('Add idea'),'plus','primary') + b('a-study',t('Study'),'cap')) + b('a-orbit',t('Orbit'),'orbit') + b('a-center',t('Centre'),'center') + b('a-fit',t('Fit all'),'fit') + (ai && !readOnly ? b('a-ai',t('AI'),'spark') : '') + b('a-help',t('Help'),'help');
+    d.innerHTML = (readOnly ? b('a-study',t('Study'),'cap','primary') + (current && current.library ? b('a-toc',t('Contents'),'book') : '') + b('a-list',t('Read as list'),'list') : b('a-add',t('Add idea'),'plus','primary') + b('a-study',t('Study'),'cap')) + b('a-orbit',t('Orbit'),'orbit') + b('a-center',t('Centre'),'center') + b('a-fit',t('Fit all'),'fit') + (ai && !readOnly ? b('a-ai',t('AI'),'spark') : '') + b('a-help',t('Help'),'help');
     const ad = $('#a-add'); if (ad) ad.onclick = () => { const root = MindElixir.E(mind.nodeData.id); mind.selectNode(root); mind.addChild(root); };
     const ls = $('#a-list'); if (ls) ls.onclick = () => listSheet(current, null);
-    $('#a-center').onclick = () => mind.toCenter();
-    $('#a-fit').onclick = () => { try { mind.scaleFit(); if (mind.scaleVal < 0.55){ mind.scale(0.55); mind.toCenter(); hint(t('Zoomed to stay readable — pinch to see more')); } } catch(e){ mind.scaleFit(); } };
+    const tc = $('#a-toc'); if (tc) tc.onclick = () => contentsSheet(current.library, current.id);
+    $('#a-center').onclick = () => { mind.toCenter(); alignLeft(); };
+    $('#a-fit').onclick = () => { try { mind.scaleFit(); if (mind.scaleVal < 0.55){ mind.scale(0.55); mind.toCenter(); hint(t('Zoomed to stay readable — pinch to see more')); } } catch(e){ mind.scaleFit(); } alignLeft(); };
     $('#a-help').onclick = showHelp;
     if (ai && !readOnly) $('#a-ai').onclick = () => aiSheet(null);
     $('#a-orbit').onclick = () => O.enter(false);
@@ -1697,6 +1845,7 @@ $('#editor-menu-btn').addEventListener('click', () => sheet(`
     <button id="m-present">${ico('present')}<span>${t('Present in 3D')}<br><small style="color:var(--muted)">${t('Full screen, one branch at a time')}</small></span></button>
     <button id="m-stories">${ico('story')}<span>${t('Stories')}<br><small style="color:var(--muted)">${(current.stories||[]).length ? (current.stories.length + ' story' + (current.stories.length>1?'ies':'') + ' — ') : ''}a path through the map, in your telling order</small></span></button>
     <button id="m-study">${ico('cap')}<span>${t('Study this map')}<br><small style="color:var(--muted)">${t('Flashcards and quiz')}</small></span></button>
+    ${current.library ? `<button id="m-toc">${ico('book')}<span>${t('Contents')}<br><small style="color:var(--muted)">${t('The whole library in order, like a book')}</small></span></button>` : ''}
     <button id="m-list">${ico('list')}<span>${t('Read as list')}<br><small style="color:var(--muted)">${t('Every bubble as text, with its links')}</small></span></button>
     <button id="m-find">${ico('search')}<span>${t('Find in this map')}</span></button>
     <button id="m-pic">${ico('image')}<span>${t('Share as a picture')}</span></button>
@@ -1708,7 +1857,7 @@ $('#editor-menu-btn').addEventListener('click', () => sheet(`
   </div>`, s => {
     $('h2',s).textContent = current.title || 'Untitled';
     $('#m-pic',s).onclick = sharePicture;
-    $('#m-find',s).onclick = findInMapSheet; $('#m-list', s).onclick = () => listSheet(current, selected() ? selected().nodeObj.id : null);
+    { const tc = $('#m-toc', s); if (tc) tc.onclick = () => contentsSheet(current.library, current.id); } $('#m-find',s).onclick = findInMapSheet; $('#m-list', s).onclick = () => listSheet(current, selected() ? selected().nodeObj.id : null);
     $('#m-study',s).onclick = () => studySheet(current);
     $('#m-orbit',s).onclick = () => { closeSheet(); O.enter(false); };
     $('#m-present',s).onclick = () => { closeSheet(); O.enter(true); };
@@ -1762,8 +1911,8 @@ async function backupAll(){
     try { await navigator.share({ files:[file], title:t('Manas backup') }); done(''); return; } catch(e){ if (e.name==='AbortError') return; }
   }
   const b = window.ManasBridge;
-  if (b && b.shareText && json.length < 400000){ try { if (b.shareText('Manas backup ' + name.slice(14, 24), json)){ done('Choose where to keep it — Drive, Gmail or WhatsApp to yourself'); return; } } catch(e){} }
-  if (location.protocol !== 'file:'){ try { const a = document.createElement('a'); a.href = URL.createObjectURL(file); a.download = name; document.body.appendChild(a); a.click(); a.remove(); done('Backup saved to Downloads'); return; } catch(e){} }
+  if (b && b.shareText && json.length < 400000){ try { if (b.shareText('Manas backup ' + name.slice(13, 23), json)){ done('Choose where to keep it — Drive, Gmail or WhatsApp to yourself'); return; } } catch(e){} }
+  if (location.protocol !== 'file:' && !window.ManasBridge){ try { const a = document.createElement('a'); a.href = URL.createObjectURL(file); a.download = name; document.body.appendChild(a); a.click(); a.remove(); done('Backup saved to Downloads'); return; } catch(e){} }
   try { await navigator.clipboard.writeText(json); done('Backup copied — paste it somewhere safe'); }
   catch(e){ toast(t('Sharing is not available here')); }
 }
@@ -1778,14 +1927,44 @@ function restoreFrom(file){
 function restoreText(text){
   {
     try {
-      const obj = JSON.parse(text); const incoming = Array.isArray(obj) ? obj : obj.maps;
+      const obj = JSON.parse(text);
+      if (obj && obj.kind === 'move'){ if (location.protocol !== 'file:') receiveMove(obj); return; }   // the app's own hand-off: only the website copy takes it
+      const incoming = Array.isArray(obj) ? obj : obj.maps;
       if (obj && obj.srs && typeof obj.srs === 'object'){ for (const [k, v] of Object.entries(obj.srs)){ if (!srs[k] || (v.seen || 0) > (srs[k].seen || 0)) srs[k] = v; } saveSrs(); }
       if (!Array.isArray(incoming)) throw 0;
       let added=0, updated=0;
       for (const m of incoming){ if (!m || !m.data || !m.data.nodeData) continue; const i = maps.findIndex(x=>x.id===m.id);
-        if (i<0){ maps.push(m); saveMap(m); added++; } else if ((m.updated||0) > (maps[i].updated||0)){ maps[i]=m; saveMap(m); updated++; } } renderHome(); closeSheet(); toast(`Restored: ${added} new, ${updated} updated`);
+        if (i<0){ maps.push(m); saveMap(m); added++; } else if ((m.updated||0) > (maps[i].updated||0)){ maps[i]=m; saveMap(m); updated++; } }
+      renderHome(); closeSheet(); toast(`Restored: ${added} new, ${updated} updated`);
     } catch(e){ toast(t('That is not a Manas backup')); }
   }
+}
+
+/* the phone's maps arriving from the copy inside the app (once, when the app first opens from the website) */
+async function receiveMove(obj){
+  const s = (obj.settings && typeof obj.settings === 'object') ? obj.settings : {};
+  const incoming = (obj.maps || []).filter(m => m && m.data && m.data.nodeData), write = [];
+  const libsIn = (obj.libraries || []).map(l => typeof l === 'string' ? { id: l, parts: null } : l).filter(l => l && l.id);
+  const returning = incoming.length > 0 || libsIn.length > 0 || Object.keys(obj.srs || {}).length > 0;   // a phone that was used: no first-run picker or tour over its maps
+  Object.assign(settings, s, { moveLibs: libsIn }, returning ? { libChosen: true, tourDone: true } : {});
+  saveSettings(settings); if (s.lang) setLang(s.lang); applyTheme(); if (returning) closeSheet();
+  for (const m of incoming){ const i = maps.findIndex(x => x.id === m.id);
+    if (i < 0){ maps.push(m); write.push(m); } else if ((m.updated || 0) > (maps[i].updated || 0)){ maps[i] = m; write.push(m); } }
+  try { await idb.putAll(write); } catch(e){ toast(t('Could not save on this device')); return; }      // 'moved' stays unset: the app sends everything again next time
+  if (obj.srs && typeof obj.srs === 'object'){ for (const [k, v] of Object.entries(obj.srs)){ if (!srs[k] || (v.seen || 0) > (srs[k].seen || 0)) srs[k] = v; } try { localStorage.setItem(SRS_KEY, JSON.stringify(srs)); } catch(e){ return; } }
+  try { const b = window.ManasBridge; if (b && b.setPref) b.setPref('moved', '1'); } catch(e){}
+  renderHome(); if (incoming.length || settings.moveLibs.length) toast(t('Your maps are here. Manas now updates itself.'));
+  resumeMoveLibs();
+}
+/* libraries that were on the phone come back from the shelf; the list is kept until each one is in, so closing the app halfway loses nothing */
+let moveLibsBusy = false;
+async function resumeMoveLibs(){
+  if (moveLibsBusy || !(settings.moveLibs || []).length) return; moveLibsBusy = true;
+  try { await loadCatalog(); const libs = (catalog && catalog.libraries) || [];
+    for (const l of [...settings.moveLibs]){ const e = libs.find(x => x.id === l.id);
+      if (e){ try { await installLibrary(e, l.parts || null); } catch(err){ continue; } }
+      settings.moveLibs = settings.moveLibs.filter(x => x.id !== l.id); saveSettings(settings); }
+    renderHome(); } finally { moveLibsBusy = false; }
 }
 
 /* ---------------- help ---------------- */
@@ -1926,6 +2105,7 @@ const O = (function(){
 
   /* --- state --- */
   let focusId = null, selectedId = null, presenting = false, tour = [], step = 0, running = false;
+  let capReserve = 190;   // room kept for the caption at the bottom; grows to the tallest caption seen so the view does not jump
   const FOCAL = 640; let rotX = -0.22, rotY = 0.5, zoom = 0.8, zoomTarget = 1, panX = 0, panY = 0;
   let autoRotate = !reduceMotion, dragging = false;
   const SPEEDS = [0.5, 1, 2];
@@ -1935,12 +2115,12 @@ const O = (function(){
   const cross = (a,b) => ({x:a.y*b.z-a.z*b.y, y:a.z*b.x-a.x*b.z, z:a.x*b.y-a.y*b.x});
   const norm = a => { const l = Math.hypot(a.x,a.y,a.z) || 1; return {x:a.x/l, y:a.y/l, z:a.z/l}; };
   let yStretch = 1;
-  function fib(i, n){ if (n === 1) return {x:1,y:0,z:0}; const y = 1 - 2*(i+0.5)/n, r = Math.sqrt(1-y*y), ph = i*2.399963; return {x:Math.cos(ph)*r, y:y*yStretch, z:Math.sin(ph)*r}; }
+  function fib(i, n){ const y0 = n === 1 ? -1 : 1 - 2*(i+0.5)/n; const y = (y0 === 0 ? (i%2 ? -1 : 1) : Math.sign(y0)) * (0.38 + Math.abs(y0)*0.62); const r = Math.sqrt(Math.max(0, 1-y*y)), ph = i*2.399963; return {x:Math.cos(ph)*r, y:y*yStretch, z:Math.sin(ph)*r}; }
   function basis(d){ const up = Math.abs(d.y) < 0.9 ? {x:0,y:1,z:0} : {x:1,y:0,z:0}; const u = norm(cross(d, up)); return [u, norm(cross(d, u))]; }
 
   function computeTargets(){
-    const sw = scene.clientWidth || 400, sh = Math.max(200, (scene.clientHeight || 700) - 260);
-    yStretch = clamp(sh / sw, 0.8, 1.7);
+    const sw = scene.clientWidth || 400, sh = Math.max(200, (scene.clientHeight || 700) - 70 - capReserve);
+    yStretch = clamp((sh/2 - 45) / Math.max(1, sw/2 - 60), 0.8, 2.3);
     const F = idx[focusId].n, set = {}, order = [];
     const put = (id, p, level) => { set[id] = {x:p.x, y:p.y, z:p.z, level}; order.push(id); };
     put(F.id, {x:0,y:0,z:0}, 0);
@@ -1949,13 +2129,13 @@ const O = (function(){
       // the story as a thread: current step in the centre, earlier steps above, later steps below, receding into the distance
       const cur = tour.indexOf(focusId);
       tour.forEach((id, k) => { if (id === focusId || !idx[id]) return; const d = k - cur; put(id, { x: Math.sin(d * 0.9) * 110, y: d * 130, z: -Math.abs(d) * 110 }, 1); });
-      const m = F.children.length, rr = 95 + m * 10;
-      F.children.forEach((g, j) => { const a = j * 2 * Math.PI / m; put(g.id, { x: Math.cos(a) * rr, y: Math.sin(a) * 34, z: Math.sin(a) * rr * 0.6 + 40 }, 2); });
+      const ring = F.children.filter(g => tour.indexOf(g.id) < 0), m = ring.length, rr = 95 + m * 10;
+      ring.forEach((g, j) => { const a = j * 2 * Math.PI / m; put(g.id, { x: Math.cos(a) * rr, y: Math.sin(a) * 34, z: Math.sin(a) * rr * 0.6 + 40 }, 2); });
       return { set, order, showG: false, story: true };
     }
     const kids = F.children, n = kids.length;
     const gcount = kids.reduce((s,k) => s + k.children.length, 0);
-    const showG = gcount > 0 && gcount <= 36;
+    const showG = gcount > 0 && gcount <= ((scene.clientWidth || 400) < 600 ? 14 : 36);   // on a phone, grandchildren show only when there is room to read them
     kids.forEach((k, i) => {
       let p, d;
       if (view.mode === '3d'){
@@ -1998,7 +2178,7 @@ const O = (function(){
       const stepNo = t.story ? tour.indexOf(id) : -1;
       const key = [n.label, n.ref, hidden, tg.level, colorOf[id], id === selectedId, stepNo].join('|');
       if (key !== it.key){
-        it.key = key;
+        it.key = key; it.w = 0;
         it.el.className = 'bubble l' + tg.level + (id === selectedId ? ' sel' : '');
         it.el.style.setProperty('--c', colorOf[id]);
         it.el.innerHTML = (n.ref ? '<small>' + esc(n.ref) + '</small>' : '') + '<span>' + esc(n.label) + '</span>' + (stepNo >= 0 ? '<b class="kids stepno">' + (stepNo + 1) + '</b>' : hidden ? '<b class="kids">+' + hidden + '</b>' : '');
@@ -2007,8 +2187,8 @@ const O = (function(){
     });
     let mx = 0, my = 0;
     t.order.forEach(id => { const p = set[id]; mx = Math.max(mx, view.mode === '3d' ? Math.hypot(p.x, p.z) : Math.abs(p.x)); my = Math.max(my, view.mode === '3d' ? Math.hypot(p.y, Math.abs(p.z)*0.4) : Math.abs(p.y)); });
-    const w = scene.clientWidth, h = scene.clientHeight - 70 - 190, pf = view.mode === '3d' ? 1.2 : 1.05;
-    const zx = mx > 0 ? (w/2 - 60) / (mx*pf) : 9, zy = my > 0 ? (h/2 - 20) / (my*pf) : 9;
+    const w = scene.clientWidth, h = scene.clientHeight - 70 - capReserve, pf = view.mode === '3d' ? 1.2 : 1.05;
+    const zx = mx > 0 ? (w/2 - 60) / (mx*pf) : 9, zy = my > 0 ? (h/2 - 45) / (my*pf) : 9;
     zoomTarget = t.story ? clamp(Math.min(1, (scene.clientHeight - 260) / 520), 0.55, 1) : (mx || my) ? clamp(Math.min(zx, zy), 0.38, 1.25) : 1;
     panX = 0; panY = 0;
     updateUI();
@@ -2023,11 +2203,11 @@ const O = (function(){
   function frame(){
     if (!running) return;
     const w = scene.clientWidth, h = scene.clientHeight;
-    if (view.mode === '3d'){ if (autoRotate && !dragging) rotY += 0.0022 * SPEEDS[view.speed]; }
+    if (view.mode === '3d'){ if (autoRotate && !dragging && !selectedId) rotY += 0.0015 * SPEEDS[view.speed]; }
     else { const tY = Math.round(rotY/(2*Math.PI))*2*Math.PI; rotY += (tY - rotY)*0.12; rotX += (0 - rotX)*0.12; }
     zoom += (zoomTarget - zoom) * (reduceMotion ? 1 : 0.1);
     const k = reduceMotion ? 1 : 0.13;
-    const cx0 = w/2 + panX, cy0 = 70 + (h - 70 - 190)/2 + panY;
+    const cx0 = w/2 + panX, cy0 = 70 + (h - 70 - capReserve)/2 + panY;
     svg.setAttribute('viewBox', '0 0 ' + w + ' ' + h);
     const ids = Object.keys(items);
     ids.forEach(id => {
@@ -2035,12 +2215,17 @@ const O = (function(){
       it.x += (it.tx - it.x)*k; it.y += (it.ty - it.y)*k; it.z += (it.tz - it.z)*k; it.o += (it.to - it.o)*k;
       const pr = project(it); it.px = cx0 + pr.x; it.py = cy0 + pr.y; it.pz = pr.z;
       const depth = view.mode === '3d' ? clamp((pr.z + 320)/640, 0, 1) : 1;
-      it.alpha = it.o * (it.level === 0 ? 1 : 0.5 + depth*0.5);
-      it.el.style.transform = 'translate(' + it.px.toFixed(1) + 'px,' + it.py.toFixed(1) + 'px) translate(-50%,-50%) scale(' + clamp(pr.s, 0.42, 1.8).toFixed(3) + ')';
+      it.alpha = id === selectedId ? it.o : it.o * (it.level === 0 ? 1 : 0.5 + depth*0.5);
+      it.el.style.transform = 'translate(' + it.px.toFixed(1) + 'px,' + it.py.toFixed(1) + 'px) translate(-50%,-50%) scale(' + clamp(pr.s, scene.clientWidth < 600 ? 0.62 : 0.42, 1.8).toFixed(3) + ')';
       it.el.style.opacity = it.alpha.toFixed(3);
-      it.el.style.zIndex = Math.round(1000 + pr.z);
+      it.el.style.zIndex = id === selectedId ? 5000 : Math.round(1000 + pr.z);
       it.el.style.pointerEvents = it.leaving ? 'none' : 'auto';
     });
+    { const boxes = []; ids.map(id => items[id]).filter(it => !it.leaving && it.o > 0.3).sort((a, b) => b.pz - a.pz).forEach(it => {
+        if (!it.w){ it.w = it.el.offsetWidth; it.h = it.el.offsetHeight; }
+        const sc = parseFloat(it.el.style.transform.split('scale(')[1]) || 1, bw = it.w*sc, bh = it.h*sc, bx = { l: it.px-bw/2, r: it.px+bw/2, t: it.py-bh/2, b: it.py+bh/2 };
+        const hit = boxes.some(o => Math.max(0, Math.min(o.r,bx.r)-Math.max(o.l,bx.l)) * Math.max(0, Math.min(o.b,bx.b)-Math.max(o.t,bx.t)) > 0.3*bw*bh);
+        if (hit && it.el.dataset.id !== selectedId && it.level) it.el.style.opacity = (it.alpha*0.3).toFixed(3); boxes.push(bx); }); }
     ids.forEach(id => {
       const it = items[id], p = it.parentId && items[it.parentId];
       if (p){ it.line.setAttribute('x1', p.px.toFixed(1)); it.line.setAttribute('y1', p.py.toFixed(1)); it.line.setAttribute('x2', it.px.toFixed(1)); it.line.setAttribute('y2', it.py.toFixed(1));
@@ -2048,6 +2233,10 @@ const O = (function(){
       else it.line.style.opacity = 0;
       if (it.leaving && it.o < 0.03){ it.el.remove(); it.line.remove(); delete items[id]; }
     });
+    { let kg = svg.querySelector('.o-kin'); const from = selectedId && items[selectedId];
+      if (from && kin.length){ if (!kg){ kg = document.createElementNS('http://www.w3.org/2000/svg','path'); kg.setAttribute('class','o-kin'); kg.setAttribute('fill','none'); kg.setAttribute('stroke','#F0A030'); kg.setAttribute('stroke-width','1.6'); kg.setAttribute('stroke-dasharray','3 6'); svg.appendChild(kg); }
+        let d = ''; kin.forEach(id => { const it = items[id]; if (it && !it.leaving) d += 'M ' + from.px.toFixed(1) + ' ' + from.py.toFixed(1) + ' L ' + it.px.toFixed(1) + ' ' + it.py.toFixed(1) + ' '; }); kg.setAttribute('d', d); kg.style.opacity = '.75'; }
+      else if (kg) kg.remove(); }
     let sp = svg.querySelector('.o-storypath');
     if (presenting && customTour && tour.length > 1){
       if (!sp){ sp = document.createElementNS('http://www.w3.org/2000/svg','path'); sp.setAttribute('class','o-storypath'); sp.setAttribute('fill','none'); sp.setAttribute('stroke','#F0A030'); sp.setAttribute('stroke-width','2.5'); sp.setAttribute('stroke-dasharray','2 9'); sp.setAttribute('stroke-linecap','round'); svg.appendChild(sp); }
@@ -2060,7 +2249,16 @@ const O = (function(){
 
   /* --- navigation --- */
   function openNode(id){ if (!idx[id]) return; focusId = id; selectedId = null; applyTargets(); }
-  function goUp(){ const p = idx[focusId].parent; if (!p) return; const was = focusId; focusId = p.id; selectedId = was; applyTargets(); }
+  function goUp(){ const p = idx[focusId].parent; if (!p){ if (mapStack.length) flyOut(); return; } const was = focusId; focusId = p.id; selectedId = was; applyTargets(); }
+  /* doors in 3D: fly into the map a bubble opens, and back out again */
+  async function flyDoor(real){ const target = real.manas && real.manas.map; leave(); await openLinkedMap({ nodeObj: real }); if (current && current.id === target && wrap.hidden) enter(false); }
+  async function flyOut(){ leave(); await backOrHome(); if (current && !editorEl.hidden) enter(false); }
+  function sel0(){ return selectedId && idx[selectedId] && !idx[selectedId].n.virtual ? idx[selectedId].n.real : null; }
+  /* constellation: bubbles in this map that share a topic with the selected one light up and are joined */
+  let kin = [];
+  function kinFor(real){ kin = []; if (!real) return; const tp = new Set(topicsOf(real)); if (!tp.size) return;
+    Object.keys(items).forEach(id => { const info = idx[id]; if (!info || id === real.id || info.n.virtual || !info.n.real) return; if (topicsOf(info.n.real).some(x => tp.has(x))) kin.push(id); });
+    Object.keys(items).forEach(id => items[id].el.classList.toggle('kin', kin.indexOf(id) >= 0)); }
   function select(id){ selectedId = id; applyTargets(); }
   function handleTap(id){
     if (!idx[id]) return;
@@ -2104,8 +2302,9 @@ const O = (function(){
     $('#o-name').textContent = current.title || 'Untitled';
     const path = []; let p = idx[focusId];
     while (p && p.parent){ path.unshift(p.n.label); p = idx[p.parent.id]; }
-    $('#o-path').textContent = (view.group === 'tag' ? 'By theme' : 'Orbit') + (path.length ? ' › ' + path.join(' › ') : '') + (view.mode === '2d' ? ' · flat' : '');
-    $('#o-back').hidden = !idx[focusId].parent;
+    $('#o-path').textContent = (view.group === 'tag' ? t('By theme') : t('Orbit')) + (path.length ? ' › ' + path.join(' › ') : '') + (view.mode === '2d' ? ' · flat' : '');
+    $('#o-back').hidden = !idx[focusId].parent && !mapStack.length;
+    { const trail = mapStack.map(id => maps.find(m => m.id === id)).filter(Boolean).slice(-2).map(m => String(m.title || '').replace(/^.*? · /, '').slice(0, 18)); $('#o-trail').textContent = trail.length ? trail.join(' › ') + ' ›' : ''; $('#o-trail').hidden = !trail.length; }
     const lg = $('#o-legend');
     if (view.group === 'tag' && focusId === dispRoot.id){ lg.hidden = false; lg.innerHTML = dispRoot.children.map(c => '<span style="--c:' + colorOf[c.id] + '"><i></i>' + esc(c.label) + '</span>').join(''); }
     else lg.hidden = true;
@@ -2115,13 +2314,31 @@ const O = (function(){
     if (s.tag && !s.virtual && view.group !== 'tag') meta += '<span class="pill" style="--c:' + (THEME_COL[s.tag] || 'var(--muted)') + '">' + esc(s.tag) + '</span>';
     $('#o-cap-meta').innerHTML = meta; $('#o-cap-title').textContent = s.label;
     let desc = s.note || '';
-    if (!selectedId){ const nk = s.children.length; desc = (desc ? desc + ' ' : '') + (nk ? (presenting ? 'Tap a bubble to open it.' : 'Tap a bubble to select it, tap again to open it.') : (presenting ? '' : 'No sub-ideas yet.')); }
-    else if (s.children.length && sid !== focusId){ desc = (desc ? desc + ' ' : '') + (presenting ? '' : 'Tap again to open its ' + s.children.length + ' ideas.'); }
+    if (!selectedId){ const nk = s.children.length; desc = (desc ? desc + ' ' : '') + (nk ? (presenting ? t('Tap a bubble to open it.') : t('Tap a bubble to select it, tap again to open it.')) : (presenting ? '' : t('No sub-ideas yet.'))); }
+    else if (s.children.length && sid !== focusId){ desc = (desc ? desc + ' ' : '') + (presenting ? '' : t('Tap again to open its {n} ideas.').replace('{n}', s.children.length)); }
     $('#o-cap-desc').textContent = desc;
-    const lk = $('#o-cap-link'); const href = s.real && s.real.hyperLink; if (href){ lk.hidden = false; lk.href = href; lk.textContent = /youtu\.?be/.test(href) ? 'Watch this moment ↗' : /vedabase/.test(href) ? 'Read the full verse ↗' : 'Open link ↗'; } else lk.hidden = true;
+    // the same buttons as the flat map's peek card: hear, transcript, verse, other places, and doors to other maps
+    const capL = $('#o-cap-links'); const real = s.real && !s.virtual ? s.real : null; const lks = real ? bubbleLinks(real) : []; const nT = real ? threadCount(real) : 0; const door = real && real.manas && real.manas.map;
+    capL.innerHTML = lks.map((l, i) => `<button class="ctrl caplink${l.primary ? ' accent' : ''}" data-l="${i}">${esc(l.label)}</button>`).join('') + (nT ? `<button class="ctrl caplink" id="o-thread">${esc(t('🔁 Also in {n} other places').replace('{n}', nT))}</button>` : '') + (door ? `<button class="ctrl caplink accent" id="o-door">${esc(t('Fly into this map'))} →</button>` : '');
+    capL.hidden = !capL.innerHTML;
+    capL.querySelectorAll('[data-l]').forEach(b => b.onclick = ev => { ev.stopPropagation(); openHref(lks[+b.getAttribute('data-l')].url); });
+    const ot = $('#o-thread'); if (ot) ot.onclick = ev => { ev.stopPropagation(); threadSheet(topicsOf(real), real.id); };
+    const od = $('#o-door'); if (od) od.onclick = ev => { ev.stopPropagation(); flyDoor(real); };
+    kinFor(sel0());
+    { const oc = document.querySelector('#orbit .ocaption'); const need = Math.max(190, (oc && oc.offsetHeight) ? oc.offsetHeight - 30 : 190); if (need > capReserve + 8){ capReserve = Math.min(need, (scene.clientHeight || 700) * 0.5); setTimeout(applyTargets, 0); } }
 
     const sel = selectedId && idx[selectedId] ? idx[selectedId].n : null;
     const tagMode = view.group === 'tag';
+    if (readOnly){   // library maps are view-only in 3D too
+      const canOpenR = sel && selectedId !== focusId && sel.children.length;
+      const b = (id, label, icon, cls='') => `<button class="act ${cls}" id="${id}">${ico(icon)}<span>${label}</span></button>`;
+      $('#o-dock').innerHTML = (view.mode === '3d' ? b('o-rot', t(autoRotate ? 'Turning' : 'Still'), 'redo', autoRotate ? 'on' : '') : b('o-fit', t('Fit'), 'fit')) +
+        (canOpenR ? b('o-open', t('Open'), 'target', 'primary') : '') + b('o-study', t('Study'), 'cap', canOpenR ? '' : 'primary') + b('o-toc', t('Contents'), 'book') + b('o-copy', t('Copy to edit'), 'edit');
+      const bind = (id, fn) => { const el = document.getElementById(id); if (el) el.onclick = fn; };
+      bind('o-rot', () => { autoRotate = !autoRotate; updateUI(); }); bind('o-fit', applyTargets); bind('o-open', () => openNode(selectedId));
+      bind('o-study', () => studySheet(current)); bind('o-toc', () => { const lib = current.library; leave(); contentsSheet(lib, current.id); });
+      bind('o-copy', () => { leave(); copyToEdit(); });
+    } else {
     const canOpen = sel && selectedId !== focusId && sel.children.length;
     const canDel = sel && !sel.virtual && realIdx[sel.real.id] && realIdx[sel.real.id].parent;
     const b = (id, label, icon, cls='', dis=false) => `<button class="act ${cls}" id="${id}" ${dis?'disabled':''}>${ico(icon)}<span>${label}</span></button>`;
@@ -2142,6 +2359,7 @@ const O = (function(){
     bind('o-sib', () => { const rp = realIdx[sel.real.id]; if (rp && rp.parent) editSheet(null, rp.parent); });
     bind('o-edit', () => editSheet(sel || idx[focusId].n));
     bind('o-del', () => { if (sel) deleteSheet(sel); });
+    }
     if (presenting){
       $('#o-prot').innerHTML = ico('redo') + '<span>' + t(autoRotate ? 'Turning' : 'Still') + '</span>';
       $('#o-prot').className = 'act' + (autoRotate ? ' on' : ''); $('#o-prot').disabled = view.mode !== '3d';
@@ -2157,6 +2375,7 @@ const O = (function(){
   function changed(){ current.updated = Date.now(); saveMap(current); reindex(); applyTargets(); }
   function setOrbit(nd, patch){ nd.manas = nd.manas || {}; nd.manas.orbit = Object.assign({}, nd.manas.orbit || {}, patch); }
   function editSheet(node, parentNd){
+    if (readOnly){ toast(t('Library maps stay as published — use Copy to edit')); return; }
     const isNew = !node;
     if (node && node.virtual){
       sheet(`<h2>${t('Rename theme')}</h2><p class="sub">${t('Renames this theme on every bubble that uses it.')}</p><input class="field" id="f-label" value="${esc(node.label)}"><div class="row"><button class="btn" id="f-cancel">${t('Cancel')}</button><button class="btn primary" id="f-save">${t('Save')}</button></div>`, s => {
@@ -2199,8 +2418,9 @@ const O = (function(){
       });
   }
   function deleteSheet(node){
+    if (readOnly) return;
     const r = node.real, k = count(r) - 1;
-    sheet(`<h2>Delete “${esc(r.topic||'')}”?</h2><p class="sub">${k ? 'Its ' + k + ' sub-idea' + (k > 1 ? 's' : '') + ' will be deleted too. ' : ''}You can undo this back in the flat view.</p><div class="row"><button class="btn" id="f-cancel">${t('Keep it')}</button><button class="btn danger" id="f-del">${t('Delete')}</button></div>`, s => {
+    sheet(`<h2>Delete “${esc(r.topic||'')}”?</h2><p class="sub">${k ? 'Its ' + k + ' sub-idea' + (k > 1 ? 's' : '') + ' will be deleted too. ' : ''}${t('Undo brings it back while you are in 3D.')}</p><div class="row"><button class="btn" id="f-cancel">${t('Keep it')}</button><button class="btn danger" id="f-del">${t('Delete')}</button></div>`, s => {
       $('#f-cancel',s).onclick = closeSheet;
       $('#f-del',s).onclick = () => { const info = realIdx[r.id]; if (!info || !info.parent) return; snapshot();
         let inside = false; walk(r, n => { if (n.id === focusId) inside = true; });
@@ -2235,7 +2455,7 @@ const O = (function(){
     applyTargets();
   }
   function exitPresent(){
-    presenting = false; customTour = null; orbitEl.classList.remove('presenting'); $('#o-pbar').hidden = true;
+    presenting = false; customTour = null; orbitEl.classList.remove('presenting'); $('#o-pbar').hidden = true; focusId = dispRoot.id; selectedId = null; autoRotate = !reduceMotion;
     try { if (document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(()=>{}); } catch(e){}
     applyTargets();
   }
@@ -2264,11 +2484,11 @@ const O = (function(){
   function leave(){
     if (presenting) exitPresent();
     running = false; orbitEl.hidden = true; editorEl.hidden = false;
-    const data = JSON.parse(JSON.stringify(current.data)); data.direction = LAYOUTS[current.layout||'side'].dir; delete data.theme;
-    mind.refresh(data); mind.clearHistory && mind.clearHistory(); applyDecor(); renderDock(); setTimeout(() => mind.toCenter(), 30);
+    const data = JSON.parse(JSON.stringify(current.data)); data.direction = mapDir(); delete data.theme;
+    mind.refresh(data); mind.clearHistory && mind.clearHistory(); applyDecor(); renderDock(); setTimeout(() => { mind.toCenter(); alignLeft(); }, 30);
   }
   function back(){ if (!wrap.hidden){ closeSheet(); return; } if (presenting) exitPresent(); else leave(); }
-  return { enter, leave, back };
+  return { enter, leave, back, isOn: () => running };
 })();
 
 
@@ -2277,12 +2497,41 @@ const O = (function(){
 const SITE = 'https://md1secretary108.github.io/manas/';
 let updateInfo = null, installEvt = null;
 const IS_APP = location.protocol === 'file:';
+/* Self-updating Android app (7.3+): the app opens Manas from the website, so every upload to GitHub reaches phones without a new install.
+   The copy inside the APK only hands over: it moves the phone's maps across once (through the app's bridge), then opens the site.
+   The site keeps an offline copy (service worker). If neither the site nor its copy can open, the app shows a Retry screen. */
+const IN_SHELL = !!window.ManasBridge;
+const SHELL_HOME = SITE + 'index.html';
+const SHELL_BOOT = IS_APP && IN_SHELL && location.hash !== '#offline';
+function bridgePref(k){ try { const b = window.ManasBridge; return b && b.pref ? String(b.pref(k) || '') : ''; } catch(e){ return ''; } }
+function shellPayload(){
+  const libs = [...new Set(maps.filter(m => m.library).map(m => m.library))].map(id => { const parts = [...new Set(maps.filter(m => m.library === id && m.part).map(m => m.part))]; return { id, parts: parts.length ? parts : null }; });
+  let srsData = {}; try { srsData = JSON.parse(localStorage.getItem('manas.srs.v1') || '{}'); } catch(e){}
+  return JSON.stringify({ app:'manas', version:1, kind:'move', copyright: COPYRIGHT, exported: new Date().toISOString(), settings: Object.assign({}, settings, { guideSeeded: false }), srs: srsData, libraries: libs, maps: backupMaps() });
+}
+async function shellHandOff(){
+  const b = window.ManasBridge; if (!b || !b.stash || !b.pref) return false;           // an older app shell: stay as before
+  if (bridgePref('moved') !== '1'){ try { const prev = b.takeImport && b.takeImport();          // after the move, a shared file stays waiting for the website copy
+    if (prev && prev.length > 2 && !/"kind"\s*:\s*"move"/.test(prev.slice(0, 400))){ b.stash(prev); document.documentElement.classList.remove('shell-boot'); return false; } } catch(e){} }   // a file shared before the move: open it here; the move waits for the next launch
+  let siteOk = false;
+  try { const c = new AbortController(); const tm = setTimeout(() => c.abort(), 6000); const r = await fetch(SITE + 'version.json?t=' + Date.now(), { cache: 'no-store', signal: c.signal }); clearTimeout(tm);
+    if (r.ok){ const v = await r.json(); siteOk = !!(v && v.version && cmpVer(v.version, '7.3') >= 0); } } catch(e){}
+  const moved = bridgePref('moved') === '1';
+  if (!siteOk && !moved){ document.documentElement.classList.remove('shell-boot'); return false; }   // offline on first open, or site not ready: run the copy inside the app
+  if (siteOk && !moved){ try { b.stash(shellPayload()); } catch(e){ document.documentElement.classList.remove('shell-boot'); return false; } }
+  location.replace(SHELL_HOME); return true;                                                         // offline after the move: the site's saved copy opens
+}
+function shellOfflineScreen(){
+  document.documentElement.classList.remove('shell-boot');
+  document.body.innerHTML = `<div style="position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:32px;text-align:center;background:var(--paper);color:var(--ink);font-family:var(--font-ui)"><div style="font-size:30px;font-weight:700">Manas</div><p style="max-width:320px;color:var(--muted);margin:0">${t('Manas could not open. Please connect to the internet once, then tap Try again.')}</p><button class="btn primary" style="flex:none;padding:14px 28px" id="sh-retry">${t('Try again')}</button></div>`;
+  document.getElementById('sh-retry').onclick = () => location.replace(SHELL_HOME);
+}
 const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
 async function keepStorage(){
   try { if (navigator.storage && navigator.storage.persist){ const already = await navigator.storage.persisted(); DIAG.persist = already ? 'yes' : ((await navigator.storage.persist()) ? 'yes' : 'not yet (install the app to help)'); } else DIAG.persist = IS_APP ? 'yes (installed app)' : 'not supported'; } catch(e){ DIAG.persist = 'unknown'; }
 }
-function canInstall(){ return !IS_APP && !STANDALONE && (/^https:/.test(location.protocol) && /github\.io$/.test(location.hostname) || location.hostname === 'localhost'); }
+function canInstall(){ return !IS_APP && !IN_SHELL && !STANDALONE && (/^https:/.test(location.protocol) && /github\.io$/.test(location.hostname) || location.hostname === 'localhost'); }
 window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); installEvt = e; });
 function installSheet(){
   if (installEvt){ installEvt.prompt(); installEvt.userChoice.then(r => { if (r.outcome === 'accepted') toast(t('Manas is on your home screen')); installEvt = null; }); closeSheet(); return; }
@@ -2291,7 +2540,7 @@ function installSheet(){
     : '<li>Tap the <b>⋮</b> menu at the top right of Chrome.</li><li>Tap <b>' + t('Add to Home screen') + '</b> or <b>' + t('Install app') + '</b>.</li><li>' + t('Open Manas from its new icon. It works offline.') + '</li>';
   sheet(`<h2>${t('Install as an app')}</h2><p class="sub">${t('No store and no download needed — the web version installs itself onto your home screen.')}</p><ul class="tips">${steps}</ul><div class="row"><button class="btn primary" id="in-ok">${t('OK')}</button></div>`, s => { $('#in-ok', s).onclick = closeSheet; });
 }
-if ('serviceWorker' in navigator && canInstall()){ window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').then(reg => { reg.addEventListener('updatefound', () => { const w = reg.installing; if (w) w.addEventListener('statechange', () => { if (w.state === 'installed' && navigator.serviceWorker.controller){ updateInfo = updateInfo || { version: 'A new version', note: '' }; renderHome(); } }); }); }).catch(() => {}); }); }
+if ('serviceWorker' in navigator && (canInstall() || (IN_SHELL && (location.protocol === 'https:' || location.hostname === 'localhost')))){ window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').then(reg => { reg.addEventListener('updatefound', () => { const w = reg.installing; if (w) w.addEventListener('statechange', () => { if (w.state === 'installed' && navigator.serviceWorker.controller){ updateInfo = updateInfo || { version: 'A new version', note: '' }; renderHome(); } }); }); }).catch(() => {}); }); }
 function cmpVer(a, b){ const x = String(a).split('.').map(Number), y = String(b).split('.').map(Number); for (let i = 0; i < Math.max(x.length, y.length); i++){ const d = (x[i] || 0) - (y[i] || 0); if (d) return d; } return 0; }
 async function checkUpdate(){
   if (!navigator.onLine) return;
@@ -2345,7 +2594,7 @@ const CATALOG_BASE = (() => { try { return new URL(CATALOG_SRC || '.', location.
 function libUrl(file){ try { return new URL(file, CATALOG_BASE).href; } catch(e){ return file; } }
 function libBase(e){ const u = libUrl(e.file); return u.slice(0, u.lastIndexOf('/') + 1); }
 function resolveUrl(href, map){ if (!href || /^[a-z][a-z0-9+.-]*:/i.test(href) || href.startsWith('#')) return href; const b = (map && map.base) || null; try { return b ? new URL(href, b).href : href; } catch(e){ return href; } }
-async function fetchLibrary(e){ if (!libCache[e.id]) libCache[e.id] = JSON.parse(await readFile(libUrl(e.file))); return libCache[e.id]; }
+async function fetchLibrary(e){ if (!libCache[e.id]) libCache[e.id] = JSON.parse(await readFile(libUrl(e.file) + (e.v ? '?v=' + e.v : ''))); return libCache[e.id]; }
 async function fetchLibraryMaps(e, parts){ const j = await fetchLibrary(e); return (Array.isArray(j) ? j : j.maps || []).filter(m => m && m.data && m.data.nodeData && (!parts || !m.part || parts.includes(m.part))); }
 function libCount(id, part){ return maps.filter(m => m.library === id && (!part || m.part === part)).length; }
 async function catalogFor(id){ await loadCatalog(); return ((catalog && catalog.libraries) || []).find(l => l.id === id); }
@@ -2370,14 +2619,31 @@ function removePart(e, p, after){
       $('#rp-no', s).onclick = after; $('#rp-yes', s).onclick = () => { for (const m of mine) deleteMap(m.id); maps = maps.filter(m => !(m.library === e.id && m.part === p.id)); renderHome(); toast(t('Removed')); after(); };
   });
 }
-async function installLibrary(e, parts){
-  toast('Adding ' + e.title + '…');
+/* library updates: each catalogue entry carries a number v that grows whenever its maps change.
+   Installed libraries remember the v they have; a bigger v on the shelf shows an Update banner on the home screen. */
+function libV(id){ return ((settings.libV || {})[id]) || 0; }
+function setLibV(e){ settings.libV = settings.libV || {}; settings.libV[e.id] = e.v || 0; saveSettings(settings); }
+function pendingLibUpdates(){ const libs = (catalog && catalog.libraries) || []; return libs.filter(e => e.file && e.v && libCount(e.id) && e.v > libV(e.id)); }
+let libCheckAt = 0;
+async function checkLibUpdates(force){
+  if (!CATALOG_SRC || (!force && Date.now() - libCheckAt < 3600000)) return; libCheckAt = Date.now();
+  try { const fresh = JSON.parse(await readFile(CATALOG_SRC + (CATALOG_SRC.includes('?') ? '&' : '?') + 't=' + Date.now())); if (fresh && fresh.libraries){ catalog = fresh; renderHome(); } } catch(e){}
+}
+async function updateLibrary(e){
+  const parts = [...new Set(maps.filter(m => m.library === e.id && m.part).map(m => m.part))];
+  delete libCache[e.id]; const before = new Set(maps.filter(m => m.library === e.id).map(m => m.id));
+  try { await installLibrary(e, parts.length ? parts : null, true); } catch(err){ toast(t('Could not load that library — check the connection')); return; }
+  const added = maps.filter(m => m.library === e.id && !before.has(m.id)).length;
+  setLibV(e); renderHome(); toast(added ? t('{lib}: {n} new maps').replace('{lib}', e.title).replace('{n}', added) : t('{lib} is up to date').replace('{lib}', e.title));
+}
+async function installLibrary(e, parts, quiet){
+  if (!quiet) toast('Adding ' + e.title + '…');
   const list = await fetchLibraryMaps(e, parts || null); let added = 0;
   const base = libBase(e);
   for (const m of list){ m.library = e.id; m.base = base; const i = maps.findIndex(x => x.id === m.id);
     if (i < 0){ maps.push(m); saveMap(m); added++; } else if (!maps[i].touched){ maps[i] = m; saveMap(m); } }
   const root = maps.find(x => x.id === e.root); if (root){ root.updated = Date.now(); saveMap(root); }
-  renderHome(); toast(`${e.title}: ${added || list.length} maps ready`); return root;
+  if (!quiet){ setLibV(e); renderHome(); toast(`${e.title}: ${added || list.length} maps ready`); } return root;
 }
 function libraryAboutSheet(e, back){
   const a = e.about || {}; const n = libCount(e.id);
@@ -2431,6 +2697,7 @@ function cardsFrom(map, rootNode, seen, out){
     const m = n.manas || {}; const topic = plain(n.topic);
     if (m.map){ const t = maps.find(x => x.id === m.map); if (t) cardsFrom(t, null, seen, out); return; }
     if (!topic || MEDIA.test(topic) || n === map.data.nodeData) return;
+    if (/^coming\b/i.test(String(n.note || '').trim())) return;
     const kids = (n.children || []).filter(c => !MEDIA.test(plain(c.topic)) && !(c.manas && c.manas.map));
     if (n.note && String(n.note).trim().length > 3) out.push({ id: map.id + ':' + n.id, front: m.q || topic, back: String(n.note), cue: topic, where: parent ? plain(parent.topic) : map.title, map: map.id, node: n.id });
     else if (kids.length >= 2 && kids.length <= 9) out.push({ id: map.id + ':' + n.id + ':k', front: `What comes under “${topic}”?`, back: kids.map(c => '• ' + plain(c.topic)).join('\n'), cue: topic, where: parent ? plain(parent.topic) : map.title, map: map.id, node: n.id });
@@ -2456,7 +2723,7 @@ function studySheet(map){
 }
 function studyBox(){ let el = $('#study'); if (!el){ el = document.createElement('div'); el.id = 'study'; document.body.appendChild(el); } el.hidden = false; return el; }
 function studyOpen(){ const el = $('#study'); return !!(el && !el.hidden); }
-function endStudy(){ const el = $('#study'); if (el){ el.hidden = true; el.innerHTML = ''; } if (current && mind) setTimeout(applyDecor, 0); else renderHome(); }
+function endStudy(){ const el = $('#study'); if (el){ el.hidden = true; el.innerHTML = ''; } if (current && mind){ if (!editorEl.hidden) setTimeout(applyDecor, 0); } else renderHome(); }
 function fmt(t){ return esc(t).replace(/\n/g, '<br>'); }
 function startFlashcards(cards, label){
   const now = Date.now();
@@ -2535,11 +2802,16 @@ async function preload(){
     return first || (list[0] && maps.find(x => x.id === list[0].id)) || null;
   } catch(e){ DIAG.preload = 'failed: ' + (e && (e.message || e)); return null; }
 }
+let booted = false;
 async function boot(){
+  if (IS_APP && IN_SHELL && location.hash === '#offline' && bridgePref('moved') === '1'){ shellOfflineScreen(); return; }
+  if (SHELL_BOOT) document.documentElement.classList.add('shell-boot');
   document.documentElement.lang = LANG; applyStaticI18n();
   keepStorage(); setTimeout(checkUpdate, 4000);
   try {
     await idb.open(); maps = await idb.all(); DIAG.storage = 'IndexedDB';
+    if (SHELL_BOOT && await shellHandOff()) return;
+    booted = true; pollBridge(); resumeMoveLibs();
     const pre = await preload();
     if (!maps.length){
       let legacy = []; try { legacy = JSON.parse(localStorage.getItem(STORE_KEY)||'[]'); } catch(e){}
@@ -2547,25 +2819,28 @@ async function boot(){
     }
     // the guide map is seeded once on every device, even when a page ships its own preloaded map
     if ((!maps.length || !settings.guideSeeded) && !maps.some(m => m.title === GUIDE_TITLE)){ const sm = sampleMap(); if (preloadList.length){ sm.created = sm.updated = Date.now() - 86400000; } maps.push(sm); saveMap(sm); settings.guideSeeded = true; saveSettings(settings); }
-    if (CATALOG_SRC && !pre){ await loadCatalog(); if (catalog && !settings.libChosen){ renderHome(); setTimeout(() => librariesSheet(true), 300); return; } }
+    if (CATALOG_SRC){ await loadCatalog(); setTimeout(() => checkLibUpdates(true), 2500); }
+    if (CATALOG_SRC && !pre){ if (catalog && !settings.libChosen){ renderHome(); setTimeout(() => librariesSheet(true), 300); return; } }
     if (!settings.tourDone){ renderHome(); if (pre) { settings.preloadOpened = true; saveSettings(settings); } setTimeout(startTour, 400); return; }
     if (pre && !settings.preloadOpened){ settings.preloadOpened = true; saveSettings(settings); renderHome(); openMap(pre.id, false); return; }
+    if (settings.resume && Date.now() - settings.resume.t < 600000){ const r = settings.resume; delete settings.resume; saveSettings(settings); if (maps.some(m => m.id === r.id)){ renderHome(); openMap(r.id, false); return; } }
   } catch(e){
+    document.documentElement.classList.remove('shell-boot'); booted = true;
     try { maps = JSON.parse(localStorage.getItem(STORE_KEY)||'[]'); } catch(e2){ maps = []; }
     if (!maps.length) maps = [sampleMap()];
     DIAG.storage = 'memory only'; toast(t('Storage is limited in this browser'));
   }
   renderHome();
 }
-const DIAG = { version: '7.0', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
+const DIAG = { version: '7.5', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
 window.addEventListener('error', e => { DIAG.lastError = String(e.message || e).slice(0, 200); });
 function pollBridge(){
   try {
-    const b = window.ManasBridge; if (!b) return; DIAG.bridge = true;
+    const b = window.ManasBridge; if (!b || !booted) return; DIAG.bridge = true; try { DIAG.shell = b.version ? String(b.version()) : ''; } catch(e){}
     const t = b.takeImport && b.takeImport(); if (t && t.length > 2){ DIAG.imports++; restoreText(String(t)); }
   } catch(e){ DIAG.lastError = 'bridge: ' + e; }
 }
-setInterval(pollBridge, 1200); document.addEventListener('visibilitychange', () => { if (!document.hidden) pollBridge(); });
+setInterval(pollBridge, 1200); document.addEventListener('visibilitychange', () => { if (!document.hidden){ pollBridge(); checkLibUpdates(false); } });
 const FEEDBACK_EMAIL = 'kewal@halcyonhealthcareltd.com';
 function feedbackSheet(){
   sheet(`<h2>${t('Send feedback')}</h2><p class="sub">${t('What annoyed you, what you wished it did, what broke. Short is fine.')}</p>
@@ -2584,12 +2859,6 @@ function confirmExternal(href, then){
       $('#ex-no',s).onclick = closeSheet; $('#ex-ok',s).onclick = () => { closeSheet(); then(); };
   });
 }
-document.addEventListener('click', e => {
-  const a = e.target.closest && e.target.closest('a[href]'); if (!a) return;
-  const href = a.getAttribute('href') || ''; if (!/^https?:/i.test(href)) return;
-  e.preventDefault(); e.stopPropagation();
-  confirmExternal(href, () => { const w = window.open(href, '_blank', 'noopener'); if (!w) location.href = href; });
-}, true);
 function aboutSheet(){
   sheet(`<h2>${t('About Manas')}</h2><p class="sub">Version ${DIAG.version} · ${location.protocol === 'file:' ? 'installed app' : 'web'}</p>
     <p class="tips" style="margin:0 0 12px;font-size:12px">${esc(COPYRIGHT)} Engine: Mind Elixir (MIT). Cartoons: OpenMoji (CC BY-SA 4.0).</p>
