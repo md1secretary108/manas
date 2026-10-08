@@ -5,7 +5,7 @@
 <meta name="author" content="Kewal Bhatt (Kaivalya Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.7-fd3c7787b525caf69629fe11"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="libraries.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
+<meta name="manas-stamp" content="7.8-c9c5eeb5bb127bd40c110cd8"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="libraries.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -57,6 +57,7 @@ h1,h2,h3{font-family:var(--font-ui);margin:0;text-wrap:balance;line-height:1.15}
 
 /* guided tour */
 #tour{position:fixed;inset:0;z-index:60}
+#gate{position:fixed;inset:0;z-index:95;background:var(--paper);color:var(--ink);overflow:auto;display:flex;justify-content:center;padding:calc(24px + env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom))}#gate .gate-card{width:100%;max-width:460px;margin:auto 0}#gate .gate-logo{font-family:var(--font-ui);font-weight:800;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}#gate h2{font-size:26px;margin:0 0 6px}#gate .menu{display:flex;flex-direction:column}
 #tour .spot{position:absolute;border-radius:14px;box-shadow:0 0 0 9999px rgba(20,18,40,.62);transition:all .35s ease;pointer-events:none}
 #tour .tcard{position:absolute;left:16px;right:16px;background:var(--surface);color:var(--ink);border-radius:18px;padding:16px 16px 12px;box-shadow:0 12px 40px rgba(0,0,0,.28);font-family:inherit}
 #tour .tcard h3{font-size:17px;font-weight:700;margin:0 0 4px}
@@ -756,7 +757,8 @@ function resetSheet(){
 }
 async function resetEverything(){
   try { for (const m of maps) await idb.del(m.id); } catch(e){}
-  try { localStorage.removeItem(SETTINGS_KEY); localStorage.removeItem(STORE_KEY); } catch(e){}
+  const keepEmail = settings.userEmail;
+  try { localStorage.removeItem(SETTINGS_KEY); localStorage.removeItem(STORE_KEY); if (keepEmail) localStorage.setItem(SETTINGS_KEY, JSON.stringify({ userEmail: keepEmail })); } catch(e){}
   maps = []; current = null; settings = { lastLook:'sunrise', lastLayout:'side', seenHelp:false };
   location.reload();
 }
@@ -1952,6 +1954,7 @@ async function receiveMove(obj){
   const libsIn = (obj.libraries || []).map(l => typeof l === 'string' ? { id: l, parts: null } : l).filter(l => l && l.id);
   const returning = incoming.length > 0 || libsIn.length > 0 || Object.keys(obj.srs || {}).length > 0;   // a phone that was used: no first-run picker or tour over its maps
   Object.assign(settings, s, { moveLibs: libsIn }, returning ? { libChosen: true, tourDone: true } : {});
+  { const g = document.getElementById('gate'); if (g && !gateOn()) g.remove(); }
   saveSettings(settings); if (s.lang) setLang(s.lang); applyTheme(); if (returning) closeSheet();
   for (const m of incoming){ const i = maps.findIndex(x => x.id === m.id);
     if (i < 0){ maps.push(m); write.push(m); } else if ((m.updated || 0) > (maps[i].updated || 0)){ maps[i] = m; write.push(m); } }
@@ -2578,7 +2581,7 @@ const LIB_NOTICE = {
 function libNotice(id){ const n = LIB_NOTICE[id]; if (!n || !wrap.hidden) return; sheet(`<h2>${esc(n.title)}</h2><p class="sub" style="font-size:14.5px;line-height:1.45">${esc(n.text)}</p><div class="row"><button class="btn primary" id="ln-ok">${t('I understand')}</button></div>`, s => { $('#ln-ok', s).onclick = () => { settings.notices = Object.assign({}, settings.notices, { [id]: Date.now() }); saveSettings(settings); closeSheet(); }; }); }
 function privacySheet(){
   sheet(`<h2>${t('Privacy and your data')}</h2><ul class="tips">
-    <li><b>${t('No account, no sign-in.')}</b> ${t('Manas does not collect your name or number. Your email is kept only if you ask for updates (home menu → Get updates by email): it is used only to tell you about new classes and libraries, never shared, and every email has a one-tap unsubscribe.')}</li>
+    <li><b>${t('Only your email.')}</b> ${t('Manas asks for your email when you first open it, and nothing else — not your name or number. It is used only for Manas, never shared or sold. Update emails are sent only if you ticked the box and confirmed the link, and every one has a one-tap unsubscribe.')}</li>
     <li><b>${t('Your maps stay on this device.')}</b> Nothing is uploaded. That also means nobody can recover them for you — make a backup now and then (home menu → Back up).</li>
     <li><b>${t('Study progress')}</b> is stored on this device too, and is included in your backup.</li>
     <li><b>${t('Links')}</b> (YouTube, vedabase, guidelines) open other websites, which have their own privacy policies. Manas asks before opening them.</li>
@@ -2599,10 +2602,50 @@ let siteConfig = null;
 async function loadSiteConfig(){ if (siteConfig) return siteConfig; try { const u = new URL('config.json', CATALOG_BASE || SITE).href; siteConfig = JSON.parse(await readFile(u + '?t=' + Math.floor(Date.now() / 3600000))); } catch(e){ siteConfig = {}; } return siteConfig; }
 /* optional email updates: the address goes to a Google Apps Script (MD1 secretary account), which sends a confirmation link; only confirmed addresses get updates */
 function emailEndpoint(){ return (siteConfig && siteConfig.updates_email_endpoint) || ''; }
+/* email before the maps open (required), for new installs and — once, on their next opening — for people already using Manas;
+   update emails are a separate, optional tick. People who already signed up for updates are not asked again. */
+function gateOn(){ return !!(!settings.userEmail && !settings.updatesEmail && siteConfig && siteConfig.require_email); }
+function signupBody(email, updates, libs){ return new URLSearchParams({ email, consent: '1', updates: updates ? '1' : '0', lang: LANG, source: IN_SHELL ? 'android' : (STANDALONE ? 'installed-web' : 'web'), libs: libs.join(',') }).toString(); }
+let signupBusy = false;
+async function flushSignup(){
+  const body = settings.pendingSignup, ep = emailEndpoint(); if (!body || !ep || !navigator.onLine || signupBusy) return;
+  signupBusy = true;
+  try { await fetch(ep, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(body) }); if (settings.pendingSignup === body){ delete settings.pendingSignup; saveSettings(settings); } } catch(e){}
+  signupBusy = false;
+}
+window.addEventListener('online', () => { loadSiteConfig().then(flushSignup); });
+function emailGate(then){
+  const libs = ((catalog && catalog.libraries) || []).filter(l => l.file);
+  const box = document.createElement('div'); box.id = 'gate';
+  box.innerHTML = `<div class="gate-card"><div class="gate-logo">Manas</div><h2>${settings.tourDone || (settings.daysUsed || 0) > 1 ? t('One quick thing') : t('Welcome to Manas')}</h2>
+    <p class="sub">${settings.tourDone || (settings.daysUsed || 0) > 1 ? t('Manas now asks for your email. Your maps are safe and stay on this phone. It is free.') : t('Enter your email to start. It is free.')}</p>
+    <input class="field" id="g-in" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com">
+    <label class="pick" style="margin-top:12px"><input type="checkbox" id="g-up" checked style="width:22px;height:22px;flex:none"><span>${t('Also email me when new classes and libraries arrive (a few emails a month at most, one-tap unsubscribe)')}</span></label>
+    ${libs.length ? `<div id="g-libs"><span class="lbl">${t('I am interested in')}</span><div class="menu">${libs.map(l => `<label class="pick"><input type="checkbox" class="g-lib" value="${esc(l.id)}" style="width:22px;height:22px;flex:none"><span>${esc(l.icon || '📚')} ${esc(l.title)}</span></label>`).join('')}</div></div>` : ''}
+    <p class="sub" style="margin-top:10px;font-size:13px">${t('Your email is used only for Manas and never shared.')} <a href="#" id="g-priv">${t('Privacy')}</a></p>
+    <button class="btn primary" id="g-go" style="width:100%;justify-content:center;margin-top:8px">${t('Start')}</button></div>`;
+  document.body.appendChild(box);
+  const up = box.querySelector('#g-up'), lw = box.querySelector('#g-libs');
+  up.onchange = () => { if (lw) lw.style.opacity = up.checked ? '1' : '.45'; };
+  box.querySelector('#g-priv').onclick = ev => { ev.preventDefault(); privacySheet(); };
+  box.querySelector('#g-in').addEventListener('keydown', e => { if (e.key === 'Enter') box.querySelector('#g-go').click(); });
+  box.querySelector('#g-go').onclick = () => {
+    const email = box.querySelector('#g-in').value.trim().toLowerCase();
+    if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(email) || email.length > 120){ toast(t('Please check the email address')); box.querySelector('#g-in').focus(); return; }
+    const picked = [...box.querySelectorAll('.g-lib:checked')].map(x => x.value);
+    settings.userEmail = email; settings.emailAsked = Date.now(); settings.interests = picked;
+    if (up.checked){ settings.updatesEmail = email; settings.updatesLibs = picked; }
+    settings.pendingSignup = signupBody(email, up.checked, picked.length ? picked : libs.map(l => l.id));
+    saveSettings(settings); box.remove(); flushSignup();
+    if (up.checked) toast(t('Thank you — please confirm the link we emailed you'));
+    then && then();
+  };
+  setTimeout(() => { const i = box.querySelector('#g-in'); if (i) i.focus(); }, 300);
+}
 function emailSheet(){
   const ep = emailEndpoint(); if (!ep){ toast(t('Email updates are not open yet')); return; }
   sheet(`<h2>${t('Get updates by email')}</h2><p class="sub">${t('Hear when new classes, series and libraries arrive. A few emails a month at most.')}</p>
-    <input class="field" id="em-in" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" value="${esc(settings.updatesEmail || '')}">
+    <input class="field" id="em-in" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" value="${esc(settings.updatesEmail || settings.userEmail || '')}">
     ${(() => { const libs = ((catalog && catalog.libraries) || []).filter(l => l.file); if (!libs.length) return '';
       const mine = new Set(settings.updatesLibs || maps.filter(m => m.library).map(m => m.library)); const all = !mine.size;
       return `<span class="lbl">${t('Tell me about')}</span><div class="menu">${libs.map(l => `<label class="pick"><input type="checkbox" class="em-lib" value="${esc(l.id)}" ${all || mine.has(l.id) ? 'checked' : ''} style="width:22px;height:22px;flex:none"><span>${esc(l.icon || '📚')} ${esc(l.title)}</span></label>`).join('')}</div>`; })()}
@@ -2619,7 +2662,7 @@ function emailSheet(){
         try {
           const picked = [...s.querySelectorAll('.em-lib:checked')].map(x => x.value);
           if (s.querySelector('.em-lib') && !picked.length){ b.disabled = false; b.textContent = t('Send confirmation'); toast(t('Choose at least one subject')); return; }
-          const body = new URLSearchParams({ email, consent: '1', lang: LANG, source: IN_SHELL ? 'android' : (STANDALONE ? 'installed-web' : 'web'), libs: (picked.length ? picked : [...new Set(maps.filter(m => m.library).map(m => m.library))]).join(',') });
+          const body = new URLSearchParams({ email, consent: '1', updates: '1', lang: LANG, source: IN_SHELL ? 'android' : (STANDALONE ? 'installed-web' : 'web'), libs: (picked.length ? picked : [...new Set(maps.filter(m => m.library).map(m => m.library))]).join(',') });
           settings.updatesLibs = picked;
           await fetch(ep, { method: 'POST', mode: 'no-cors', body });
           settings.updatesEmail = email; settings.emailAsked = Date.now(); saveSettings(settings);
@@ -2700,7 +2743,7 @@ function removeLibrary(e, after){
 }
 async function librariesSheet(first){
   await loadCatalog(); if (!catalog){ toast(t('Libraries are not available here')); return; }
-  const libs = catalog.libraries || [];
+  const want = new Set(settings.interests || []); const libs = (catalog.libraries || []).slice().sort((a, b) => (want.has(b.id) ? 1 : 0) - (want.has(a.id) ? 1 : 0));
   const row = e => { const n = libCount(e.id); const ready = !!e.file;
     return `<div class="lib-row${n ? ' on' : ''}" data-lib="${esc(e.id)}"><span class="lib-ico">${esc(e.icon || '📚')}</span><span class="lib-txt"><b>${esc(e.title)}</b><small>${esc(e.subtitle || '')}</small>${ready ? `<small class="lib-meta">${esc(e.meta || '')}</small>` : '<small class="lib-meta">' + t('Coming soon') + '</small>'}</span>
       <button class="btn small ghost" data-about="${esc(e.id)}" aria-label="${t('About this library')}">ⓘ</button>${ready ? (n ? `${e.parts ? `<button class="btn small" data-parts="${esc(e.id)}">${t('Parts')}</button>` : ''}<button class="btn small" data-open="${esc(e.id)}">${t('Open')}</button><button class="btn small ghost" data-rm="${esc(e.id)}" aria-label="Remove">${ico('trash')}</button>` : `<button class="btn primary small" data-add="${esc(e.id)}">${t('Add')}</button>`) : ''}</div>`; };
@@ -2841,6 +2884,12 @@ async function preload(){
   } catch(e){ DIAG.preload = 'failed: ' + (e && (e.message || e)); return null; }
 }
 let booted = false;
+function afterGate(pre){
+  if (CATALOG_SRC && !pre && catalog && !settings.libChosen){ renderHome(); setTimeout(() => librariesSheet(true), 300); return; }
+  if (!settings.tourDone){ renderHome(); if (pre) { settings.preloadOpened = true; saveSettings(settings); } setTimeout(startTour, 400); return; }
+  if (pre && !settings.preloadOpened){ settings.preloadOpened = true; saveSettings(settings); renderHome(); openMap(pre.id, false); return; }
+  renderHome();
+}
 async function boot(){
   if (IS_APP && IN_SHELL && location.hash === '#offline' && bridgePref('moved') === '1'){ shellOfflineScreen(); return; }
   if (SHELL_BOOT) document.documentElement.classList.add('shell-boot');
@@ -2859,7 +2908,9 @@ async function boot(){
     if ((!maps.length || !settings.guideSeeded) && !maps.some(m => m.title === GUIDE_TITLE)){ const sm = sampleMap(); if (preloadList.length){ sm.created = sm.updated = Date.now() - 86400000; } maps.push(sm); saveMap(sm); settings.guideSeeded = true; saveSettings(settings); }
     if (CATALOG_SRC){ await loadCatalog(); setTimeout(() => checkLibUpdates(true), 2500); }
     { const today = new Date().toISOString().slice(0, 10); if (settings.lastDay !== today){ settings.lastDay = today; settings.daysUsed = (settings.daysUsed || 0) + 1; saveSettings(settings); } }
-    loadSiteConfig().then(() => { if (emailEndpoint()) renderHome(); });
+    if (!settings.userEmail && !settings.updatesEmail) await Promise.race([loadSiteConfig(), new Promise(r => setTimeout(r, 4000))]);
+    loadSiteConfig().then(() => { flushSignup(); if (emailEndpoint()) renderHome(); if (gateOn() && !document.getElementById('gate') && booted) emailGate(() => renderHome()); });
+    if (gateOn()){ renderHome(); emailGate(() => afterGate(pre)); return; }
     if (CATALOG_SRC && !pre){ if (catalog && !settings.libChosen){ renderHome(); setTimeout(() => librariesSheet(true), 300); return; } }
     if (!settings.tourDone){ renderHome(); if (pre) { settings.preloadOpened = true; saveSettings(settings); } setTimeout(startTour, 400); return; }
     if (pre && !settings.preloadOpened){ settings.preloadOpened = true; saveSettings(settings); renderHome(); openMap(pre.id, false); return; }
@@ -2872,7 +2923,7 @@ async function boot(){
   }
   renderHome();
 }
-const DIAG = { version: '7.7', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
+const DIAG = { version: '7.8', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
 window.addEventListener('error', e => { DIAG.lastError = String(e.message || e).slice(0, 200); });
 function pollBridge(){
   try {

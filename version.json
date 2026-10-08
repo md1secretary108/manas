@@ -1,5 +1,5 @@
 {
- "version": "7.7",
- "note": "Get updates by email \u2014 choose the subjects you want to hear about",
+ "version": "7.8",
+ "note": "Welcome screen asks for your email; update emails stay optional",
  "apk": "https://md1secretary108.github.io/manas/Manas.apk"
 }
