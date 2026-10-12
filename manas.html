@@ -5,7 +5,7 @@
 <meta name="author" content="Kewal Bhatt (Kaivalya Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.8-c9c5eeb5bb127bd40c110cd8"><meta name="theme-color" content="#22203A">
+<meta name="manas-stamp" content="7.9-91ec8ba7a140168e862c84e1"><meta name="theme-color" content="#22203A">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -57,6 +57,14 @@ h1,h2,h3{font-family:var(--font-ui);margin:0;text-wrap:balance;line-height:1.15}
 
 /* guided tour */
 #tour{position:fixed;inset:0;z-index:60}
+.art{position:absolute;inset:0;background:center/cover no-repeat;opacity:0;transition:opacity .5s ease;pointer-events:none;z-index:0}
+#map-art.on{opacity:.26}
+#editor.has-art .map-container,#editor.has-art map-container{background-color:transparent!important}
+#map-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,var(--paper) 0%,transparent 22%,transparent 70%,var(--paper) 100%);opacity:.7}
+#o-art{filter:blur(3px) saturate(1.1);transform:scale(1.04)}
+#o-art.on{opacity:.42}
+#o-art::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(11,10,24,.15),rgba(11,10,24,.75))}
+@media (prefers-reduced-motion: reduce){.art{transition:none}}
 #gate{position:fixed;inset:0;z-index:95;background:var(--paper);color:var(--ink);overflow:auto;display:flex;justify-content:center;padding:calc(24px + env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom))}#gate .gate-card{width:100%;max-width:460px;margin:auto 0}#gate .gate-logo{font-family:var(--font-ui);font-weight:800;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}#gate h2{font-size:26px;margin:0 0 6px}#gate .menu{display:flex;flex-direction:column}
 #tour .spot{position:absolute;border-radius:14px;box-shadow:0 0 0 9999px rgba(20,18,40,.62);transition:all .35s ease;pointer-events:none}
 #tour .tcard{position:absolute;left:16px;right:16px;background:var(--surface);color:var(--ink);border-radius:18px;padding:16px 16px 12px;box-shadow:0 12px 40px rgba(0,0,0,.28);font-family:inherit}
@@ -374,6 +382,7 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 
 <!-- ================= EDITOR ================= -->
 <div class="screen" id="editor" hidden>
+  <div class="art" id="map-art" aria-hidden="true"></div>
   <div id="map"></div>
   <div class="topbar">
     <button class="icon-btn tb" id="back-btn" aria-label="Back to your maps"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
@@ -393,6 +402,7 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 
 <!-- ================= ORBIT (3D) ================= -->
 <div class="screen" id="orbit" hidden>
+  <div class="art" id="o-art" aria-hidden="true"></div>
   <div class="oscene" id="o-scene"><svg class="edges" id="o-edges"></svg><div id="o-layer"></div></div>
   <div class="otop">
     <button class="ctrl" id="o-flat" aria-label="Back to the flat map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><span id="o-flat-t">Flat</span></button>
@@ -915,6 +925,7 @@ async function openMap(id, isNew){
   if (mind){ try{ mind.destroy(); }catch(e){} $('#map').innerHTML=''; }
   const look = LOOKS[current.look] || LOOKS.sunrise;
   readOnly = !!(current.library && !current.touched);
+  { const ma = $('#map-art'); if (ma){ ma.dataset.url = ''; ma.classList.remove('on'); ma.style.backgroundImage = ''; } $('#editor').classList.remove('has-art'); $('#editor').style.backgroundColor = ''; }
   $('#map').classList.toggle('narrow-lib', !!(readOnly && current.library && innerWidth < 600));
   mind = new MindElixir({ el:'#map', direction: mapDir(), toolBar:false, contextMenu:false, keypress: !readOnly, editable: !readOnly,
     theme: themeFor(current), newTopicName:'New idea', scaleMin:0.3, scaleMax:2.5, alignment:'nodes', mobileMultiSelect:false, imageProxy: resolveImage });
@@ -933,9 +944,10 @@ async function openMap(id, isNew){
     if (op.name==='finishEdit' || op.name==='addChild' || op.name==='insertSibling') setTimeout(renderDock,0); });
   ['linkDiv','scale','move','expandNode'].forEach(ev => mind.bus.addListener(ev, () => { if (storyEdit || storyPlay) requestAnimationFrame(() => drawStory(storyEdit || (storyPlay && storyPlay.st))); }));
   mind.bus.addListener('selectNodes', renderDock);
+  mind.bus.addListener('selectNodes', () => setTimeout(mapArt2d, 0));
   mind.bus.addListener('unselectNodes', renderDock);
   ['selectArrow','unselectArrow','selectSummary','unselectSummary'].forEach(ev => mind.bus.addListener(ev, () => setTimeout(renderDock, 0)));
-  renderDock();
+  renderDock(); mapArt2d();
   requestAnimationFrame(() => { if (isNew) mind.toCenter(); else { const lo = mapDir() === LAYOUTS.right.dir && current.library ? 0.65 : 0.9; try{ mind.scaleFit(); if (mind.scaleVal < lo){ mind.scale(lo); } mind.toCenter(); }catch(e){ mind.toCenter(); } alignLeft(); } });
   if (isNew){ setTimeout(() => { const root = MindElixir.E(mind.nodeData.id); mind.selectNode(root); mind.beginEdit(root); hint(t('Type your main idea, then press Enter')); }, 250); }
   else if (!settings.seenHelp){ hint(t('Tap a bubble, then use the buttons below')); settings.seenHelp=true; saveSettings(settings); }
@@ -2308,6 +2320,7 @@ const O = (function(){
   /* --- UI --- */
   function updateUI(){
     $('#o-name').textContent = current.title || 'Untitled';
+    { const chain = [], nodes = []; let q = idx[selectedId] || idx[focusId]; while (q){ chain.push(q.n.id); nodes.push(q.n.real || q.n); q = q.parent ? idx[q.parent.id] : null; } showArt($('#o-art'), artFor(current, chain, nodes)); }
     const path = []; let p = idx[focusId];
     while (p && p.parent){ path.unshift(p.n.label); p = idx[p.parent.id]; }
     $('#o-path').textContent = (view.group === 'tag' ? t('By theme') : t('Orbit')) + (path.length ? ' › ' + path.join(' › ') : '') + (view.mode === '2d' ? ' · flat' : '');
@@ -2883,6 +2896,41 @@ async function preload(){
     return first || (list[0] && maps.find(x => x.id === list[0].id)) || null;
   } catch(e){ DIAG.preload = 'failed: ' + (e && (e.message || e)); return null; }
 }
+/* pictures behind library maps: original artwork in art/ (no copied paintings). A map can name one with map.art,
+   a bubble with manas.art; Srila Prabhupada's library is matched here by its stable ids (whole book → canto / chapter). */
+const ART_MAP = { 'lib-root': 'library', 'lib-sb': 'book-sb', 'lib-cc': 'book-cc', 'm53vwhp2ahiz': 'bg-02', 'gita-week-first-map': 'bg-02', 'lib-kb': 'book-kb', 'lib-lob': 'sb-10',
+  'lib-nod': 'book-nod', 'lib-noi': 'book-nod', 'lib-iso': 'book-iso', 'lib-tlc': 'book-kirtan', 'lib-cabh': 'book-kirtan', 'lib-bhakti': 'book-kirtan', 'lib-tqk': 'book-kunti',
+  'lib-tlk': 'book-intro', 'lib-ssr': 'book-intro', 'lib-bbd': 'book-intro', 'lib-poy': 'bg-06', 'lib-pop': 'bg-06', 'lib-rv': 'bg-09', 'lib-owk': 'book-intro', 'lib-pqpa': 'book-intro',
+  'lib-josd': 'book-intro', 'lib-cat': 'book-intro', 'lib-sc': 'sb-06' };
+const ART_NODE = { 'lib-cc-adi': 'cc-adi', 'lib-cc-madhya': 'cc-madhya', 'lib-cc-antya': 'cc-antya', 'lib-g1': 'library', 'lib-g2': 'book-kb', 'lib-g3': 'book-nod', 'lib-g4': 'book-intro', 'lib-g5': 'book-kunti' };
+for (let k = 1; k <= 12; k++) ART_NODE['lib-sb-' + k] = 'sb-' + String(k).padStart(2, '0');
+['7l3wyho1ahik','olklkua2ahil','qaxu4ym9ahil','39o5rtb4ahil','2c5a6bckahil','uywk6en3ahil','uft5ocj9ahil','f5hxos1vahil','w1m0phoyahil','o0p025kwahil','fhffsiwqahil','fg4zmsbvahil','261lk6w5ahil','qwu8o1zmahil','egg5ewhsahil','n86mlysfahil','syj58wywahil','79lzr9vfahil']
+  .forEach((id, i) => ART_NODE[id] = 'bg-' + String(i + 1).padStart(2, '0'));
+function artUrl(v){ if (!v) return ''; if (/^(https?:|data:)/.test(v)) return v; return SITE + 'art/' + v + (/\.\w+$/.test(v) ? '' : '.svg'); }
+/* chain: node ids from the bubble outwards to the root; nodes: matching node objects (for manas.art) */
+function artFor(map, chain, nodes){
+  if (!map || settings.art === false) return '';
+  for (let i = 0; i < chain.length; i++){ const n = nodes && nodes[i]; if (n && n.manas && n.manas.art) return artUrl(n.manas.art); if (ART_NODE[chain[i]]) return artUrl(ART_NODE[chain[i]]); }
+  if (map.art) return artUrl(map.art);
+  if (ART_MAP[map.id]) return artUrl(ART_MAP[map.id]);
+  const m = /^lib-(bg|sb)-(\d+)/.exec(map.id); if (m) return artUrl(m[1] + '-' + String(m[2]).padStart(2, '0'));
+  if (/^lib-cc-(adi|madhya|antya)/.test(map.id)) return artUrl(map.id.slice(4, map.id.indexOf('-', 7) > 0 ? map.id.indexOf('-', 7) : undefined));
+  return '';
+}
+function showArt(el, url){
+  if (!el) return; if (el.dataset.url === url) return; el.dataset.url = url;
+  if (!url){ el.classList.remove('on'); return; }
+  const img = new Image(); img.onload = () => { if (el.dataset.url !== url) return; el.classList.remove('on'); setTimeout(() => { if (el.dataset.url !== url) return; el.style.backgroundImage = `url("${url}")`; el.classList.add('on'); }, el.style.backgroundImage ? 220 : 0); };
+  img.onerror = () => { if (el.dataset.url === url) el.classList.remove('on'); }; img.src = url;
+}
+function mapArt2d(){
+  if (!current) return; const sel = mind && mind.currentNode && mind.currentNode.nodeObj; const chain = [], nodes = [];
+  for (let n = sel; n; n = n.parent){ chain.push(n.id); nodes.push(n); }
+  const url = artFor(current, chain, nodes), ed = $('#editor'), mc = $('#map .map-container') || $('#map');
+  if (url && !ed.classList.contains('has-art')){ ed.style.backgroundColor = getComputedStyle(mc).getPropertyValue('--bgcolor').trim() || ''; ed.classList.add('has-art'); }
+  if (!url){ ed.classList.remove('has-art'); ed.style.backgroundColor = ''; }
+  showArt($('#map-art'), url);
+}
 let booted = false;
 function afterGate(pre){
   if (CATALOG_SRC && !pre && catalog && !settings.libChosen){ renderHome(); setTimeout(() => librariesSheet(true), 300); return; }
@@ -2923,7 +2971,7 @@ async function boot(){
   }
   renderHome();
 }
-const DIAG = { version: '7.8', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
+const DIAG = { version: '7.9', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
 window.addEventListener('error', e => { DIAG.lastError = String(e.message || e).slice(0, 200); });
 function pollBridge(){
   try {
