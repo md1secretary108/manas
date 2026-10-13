@@ -67,20 +67,20 @@
   {
    "id": "soil",
    "title": "Soil Life — organic farming course",
-   "subtitle": "A complete organic farming course in 6 subjects you download separately: soil science, soil microbes & biofertilizers, plant nutrition, plant protection, organic inputs & systems, and the latest research worldwide. Review in progress.",
+   "subtitle": "A complete organic farming course in 8 subjects you download separately: soil science, soil microbes & biofertilizers, plant nutrition, plant protection, plant diseases, pests & weeds, organic inputs & systems, and the latest research worldwide. Review in progress.",
    "icon": "🌱",
    "file": "lib-soil.json",
    "root": "soil-root",
-   "v": 1791916269,
-   "whatsNew": "Soil Life is now a full organic farming course: 6 subjects, 39 maps",
-   "meta": "39 maps · 2,697 ideas · 664 KB · 6 subjects",
+   "v": 1791917138,
+   "whatsNew": "New subjects: Plant diseases and Pests, weeds & pollinators (16 maps)",
+   "meta": "57 maps · 4,035 ideas · 993 KB · 8 subjects",
    "about": {
     "by": "Manas, for organic and biological farming teams",
     "from": "Extension and research sources (TNAU Agritech, FAO, USDA NRCS, Infonet-Biovision); YouTube videos from universities, extension services and growers",
     "review": "review in progress",
     "date": "13 Oct 2026"
    },
-   "parts": 6,
+   "parts": 8,
    "split": "lib-soil-index.json"
   }
  ]
