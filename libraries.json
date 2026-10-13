@@ -63,6 +63,23 @@
     "review": "review in progress",
     "date": "6 Oct 2026"
    }
+  },
+  {
+   "id": "soil",
+   "title": "Soil Life — soil microbiology & organic farming",
+   "subtitle": "Rhizobium, Azotobacter, PSB, KMB, mycorrhiza, Trichoderma, Pseudomonas and more: how each works, field signs, products, application and results; compost, farm-made inputs and regenerative agriculture. Review in progress.",
+   "icon": "🌱",
+   "file": "lib-soil.json",
+   "root": "soil-root",
+   "v": 1791914645,
+   "whatsNew": "New library: Soil Life",
+   "meta": "17 maps · 1,357 ideas · 306 KB",
+   "about": {
+    "by": "Manas, for organic and biological farming teams",
+    "from": "Extension and research sources (TNAU Agritech, FAO, USDA NRCS, Infonet-Biovision); YouTube videos from universities, extension services and growers",
+    "review": "review in progress",
+    "date": "13 Oct 2026"
+   }
   }
  ]
 }
