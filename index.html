@@ -5,7 +5,7 @@
 <meta name="author" content="Kewal Bhatt (Kaivalya Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.9-91ec8ba7a140168e862c84e1"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="libraries.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
+<meta name="manas-stamp" content="7.10-97748144c85fe5b93f3c44d6"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="libraries.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -741,7 +741,7 @@ let preloadList = [];
 function originalOf(m){
   if (m.title === GUIDE_TITLE || m.guide) return () => { const g = sampleMap(); g.id = m.id; return g; };
   const o = preloadList.find(x => x.id === m.id); if (o) return () => JSON.parse(JSON.stringify(o));
-  if (m.library && catalog){ const e = (catalog.libraries||[]).find(x => x.id === m.library && x.file); if (e) return async () => { const list = await fetchLibraryMaps(e); const f = list.find(x => x.id === m.id); if (f) f.library = e.id; return f; }; }
+  if (m.library && catalog){ const e = (catalog.libraries||[]).find(x => x.id === m.library && x.file); if (e) return async () => { const list = await fetchLibraryMaps(e, m.part ? [m.part] : null); const f = list.find(x => x.id === m.id); if (f) f.library = e.id; return f; }; }
   return null;
 }
 function confirmRestore(m){
@@ -2688,8 +2688,15 @@ const CATALOG_BASE = (() => { try { return new URL(CATALOG_SRC || '.', location.
 function libUrl(file){ try { return new URL(file, CATALOG_BASE).href; } catch(e){ return file; } }
 function libBase(e){ const u = libUrl(e.file); return u.slice(0, u.lastIndexOf('/') + 1); }
 function resolveUrl(href, map){ if (!href || /^[a-z][a-z0-9+.-]*:/i.test(href) || href.startsWith('#')) return href; const b = (map && map.base) || null; try { return b ? new URL(href, b).href : href; } catch(e){ return href; } }
-async function fetchLibrary(e){ if (!libCache[e.id]) libCache[e.id] = JSON.parse(await readFile(libUrl(e.file) + (e.v ? '?v=' + e.v : ''))); return libCache[e.id]; }
-async function fetchLibraryMaps(e, parts){ const j = await fetchLibrary(e); return (Array.isArray(j) ? j : j.maps || []).filter(m => m && m.data && m.data.nodeData && (!parts || !m.part || parts.includes(m.part))); }
+/* a big library can be split: the catalogue entry names an index file (e.split) holding the top map and its parts,
+   each part with its own file — so a phone downloads only the parts it adds. e.file stays for older app versions. */
+async function fetchLibrary(e){ if (!libCache[e.id]) libCache[e.id] = JSON.parse(await readFile(libUrl(e.split || e.file) + (e.v ? '?v=' + e.v : ''))); return libCache[e.id]; }
+async function fetchPart(e, p){ const k = e.id + '#' + p.id; if (!libCache[k]) libCache[k] = JSON.parse(await readFile(libUrl(p.file) + (e.v ? '?v=' + e.v : ''))); return libCache[k]; }
+async function fetchLibraryMaps(e, parts){
+  const j = await fetchLibrary(e); let list = Array.isArray(j) ? j : (j.maps || []);
+  for (const p of (j.parts || []).filter(p => p.file && (!parts || parts.includes(p.id)))){ const pj = await fetchPart(e, p); list = list.concat(Array.isArray(pj) ? pj : (pj.maps || [])); }
+  return list.filter(m => m && m.data && m.data.nodeData && (!parts || !m.part || parts.includes(m.part)));
+}
 function libCount(id, part){ return maps.filter(m => m.library === id && (!part || m.part === part)).length; }
 async function catalogFor(id){ await loadCatalog(); return ((catalog && catalog.libraries) || []).find(l => l.id === id); }
 /* parts: a library may be split into parts (series, years…) that can be added or removed on their own; the library's top map stays and its doors offer to add a missing part */
@@ -2725,7 +2732,7 @@ async function checkLibUpdates(force){
 }
 async function updateLibrary(e){
   const parts = [...new Set(maps.filter(m => m.library === e.id && m.part).map(m => m.part))];
-  delete libCache[e.id]; const before = new Set(maps.filter(m => m.library === e.id).map(m => m.id));
+  for (const k of Object.keys(libCache)) if (k === e.id || k.startsWith(e.id + '#')) delete libCache[k]; const before = new Set(maps.filter(m => m.library === e.id).map(m => m.id));
   try { await installLibrary(e, parts.length ? parts : null, true); } catch(err){ toast(t('Could not load that library — check the connection')); return; }
   const added = maps.filter(m => m.library === e.id && !before.has(m.id)).length;
   setLibV(e); renderHome(); toast(added ? t('{lib}: {n} new maps').replace('{lib}', e.title).replace('{n}', added) : t('{lib} is up to date').replace('{lib}', e.title));
@@ -2971,7 +2978,7 @@ async function boot(){
   }
   renderHome();
 }
-const DIAG = { version: '7.9', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
+const DIAG = { version: '7.10', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
 window.addEventListener('error', e => { DIAG.lastError = String(e.message || e).slice(0, 200); });
 function pollBridge(){
   try {

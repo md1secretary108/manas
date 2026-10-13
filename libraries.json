@@ -22,16 +22,17 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "79 maps · 2,715 ideas · 2.8 MB · 4 series",
-   "parts": 4,
+   "meta": "110 maps · 3,900 ideas · 4.1 MB · 5 series",
+   "parts": 5,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way",
     "date": "6 Oct 2026"
    },
-   "v": 1791872540,
-   "whatsNew": "New series: Brahma's Prayers (SB 10.14, 23 classes)"
+   "v": 1791887945,
+   "whatsNew": "New series: Radha Sunya — overcoming offences (30 sessions)",
+   "split": "lib-bdds-index.json"
   },
   {
    "id": "mbchb",
