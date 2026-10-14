@@ -1,5 +1,5 @@
 {
- "version": "7.13",
- "note": "Index bubbles jump straight to the point; in 3D, tapping a selected door bubble opens its map; darker cosmic backdrops in dark mode",
+ "version": "7.14",
+ "note": "Share a map with a class by link (WhatsApp/SMS/email) and print any map as a handout or PDF",
  "apk": "https://md1secretary108.github.io/manas/Manas.apk"
 }

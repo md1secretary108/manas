@@ -5,7 +5,7 @@
 <meta name="author" content="Kewal Bhatt (Kaivalya Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.13-f21412d69465abe3f91b2b0e"><meta name="theme-color" content="#22203A"><meta name="manas-preload" content="lib-cpa31.json"><meta name="manas-catalog" content="libraries.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
+<meta name="manas-stamp" content="7.14-25cb9b97ed1f0635f9fc56b3"><meta name="theme-color" content="#22203A"><meta name="manas-preload" content="lib-cpa31.json"><meta name="manas-catalog" content="libraries.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1892,6 +1892,8 @@ $('#editor-menu-btn').addEventListener('click', () => sheet(`
     <button id="m-list">${ico('list')}<span>${t('Read as list')}<br><small style="color:var(--muted)">${t('Every bubble as text, with its links')}</small></span></button>
     <button id="m-find">${ico('search')}<span>${t('Find in this map')}</span></button>
     <button id="m-pic">${ico('image')}<span>${t('Share as a picture')}</span></button>
+    <button id="m-link">${ico('link')}<span>${t('Share with a class')}<br><small style="color:var(--muted)">${t('A link students open straight into this map (WhatsApp, SMS, email)')}</small></span></button>
+    <button id="m-print">${ico('list')}<span>${t('Print or save as PDF')}<br><small style="color:var(--muted)">${t('The whole map as a handout')}</small></span></button>
     <button id="m-rename">${ico('edit')}<span>${t('Rename')}</span></button>
     ${ai?`<button id="m-ai">${ico('spark')}<span>${t('Tidy and beautify with AI')}</span></button>`:''}
     <button id="m-expand">${ico('fit')}<span>${t('Open all branches')}</span></button>
@@ -1900,6 +1902,8 @@ $('#editor-menu-btn').addEventListener('click', () => sheet(`
   </div>`, s => {
     $('h2',s).textContent = current.title || 'Untitled';
     $('#m-pic',s).onclick = sharePicture;
+    $('#m-link',s).onclick = () => shareLinkSheet(current, selected() && selected().nodeObj && selected().nodeObj.id);
+    $('#m-print',s).onclick = () => { closeSheet(); printOutline(current); };
     { const tc = $('#m-toc', s); if (tc) tc.onclick = () => contentsSheet(current.library, current.id); } $('#m-find',s).onclick = findInMapSheet; $('#m-list', s).onclick = () => listSheet(current, selected() ? selected().nodeObj.id : null);
     $('#m-study',s).onclick = () => studySheet(current);
     $('#m-orbit',s).onclick = () => { closeSheet(); O.enter(false); };
@@ -1919,6 +1923,85 @@ function stampImage(blob){
       x.fillText('Made with Manas \u00b7 ' + COPYRIGHT, c.width - 12, img.height + 22);
       URL.revokeObjectURL(u); c.toBlob(b => res(b || blob), 'image/png'); };
     img.onerror = () => res(blob); img.src = u; });
+}
+/* 7.14 — teachers (panel of 50, 14 Oct 2026): share a map with a class as a link; print a map as a handout. No server needed. */
+async function packMap(m){
+  const json = JSON.stringify({ t: m.title || '', look: m.look, layout: m.layout, d: m.data.nodeData, a: m.data.arrows || [], s: m.data.summaries || [] }, (k, v) => (k === 'parent' || k === 'expanded') ? undefined : v);
+  const bytes = new TextEncoder().encode(json);
+  if (!window.CompressionStream) return 'j' + btoa(unescape(encodeURIComponent(json))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  const cs = new Blob([bytes]).stream().pipeThrough(new CompressionStream('deflate-raw'));
+  const buf = new Uint8Array(await new Response(cs).arrayBuffer()); let bin = ''; for (let i = 0; i < buf.length; i++) bin += String.fromCharCode(buf[i]);
+  return 'z' + btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+async function unpackMap(str){
+  const kind = str[0], b64 = str.slice(1).replace(/-/g, '+').replace(/_/g, '/'); const bin = atob(b64 + '==='.slice((b64.length + 3) % 4));
+  if (kind === 'j') return JSON.parse(decodeURIComponent(escape(bin)));
+  const bytes = Uint8Array.from(bin, c => c.charCodeAt(0));
+  const ds = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate-raw'));
+  return JSON.parse(await new Response(ds).text());
+}
+async function shareLinkSheet(m, nodeId){
+  if (!m) return;
+  let url = '', note = '';
+  if (m.library && !m.touched){
+    url = SITE + '?open=' + [m.library, m.part || '', m.id, nodeId || ''].map(encodeURIComponent).join('~');
+    note = t('Students tap the link: Manas opens on this map (and adds the library part if they do not have it).');
+  } else {
+    const packed = await packMap(m); url = SITE + '#map=' + packed;
+    if (url.length > 60000){ sheet(`<h2>${t('Too big for a link')}</h2><p class="sub">${t('This map is too large to fit in a link. Share it as a file instead: menu → Back up, then send the file.')}</p><div class="row"><button class="btn primary" id="sl-ok">${t('OK')}</button></div>`, s => { $('#sl-ok', s).onclick = closeSheet; }); return; }
+    note = t('The whole map travels inside the link. Students get their own copy to study and edit; nothing is uploaded anywhere.');
+  }
+  const msg = (m.title || 'Mind map') + ' — open in Manas: ' + url;
+  sheet(`<h2>${t('Share with a class')}</h2><p class="sub">${note}</p>
+    <input class="field" id="sl-url" readonly value="${esc(url)}" style="font-size:12px">
+    <div class="row" style="flex-wrap:wrap"><a class="btn primary" data-direct="1" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(msg)}">WhatsApp</a>
+    ${navigator.share ? `<button class="btn" id="sl-share">${t('Share…')}</button>` : ''}<button class="btn" id="sl-copy">${t('Copy link')}</button><button class="btn" id="sl-close">${t('Close')}</button></div>
+    <p class="tips" style="margin-top:10px;font-size:12px">${t('Tip: post it in the class WhatsApp group. Students without the app open it in the phone browser.')}</p>`, s => {
+      $('#sl-close', s).onclick = closeSheet;
+      const sh = $('#sl-share', s); if (sh) sh.onclick = async () => { try { await navigator.share({ title: m.title || 'Mind map', text: (m.title || 'Mind map') + ' — open in Manas', url }); } catch(e){} };
+      $('#sl-copy', s).onclick = async () => { try { await navigator.clipboard.writeText(url); toast(t('Copied')); } catch(e){ const i = $('#sl-url', s); i.select(); try { document.execCommand('copy'); toast(t('Copied')); } catch(e2){ toast(t('Could not copy')); } } };
+  });
+}
+function parseIncoming(){
+  try {
+    const q = new URLSearchParams(location.search).get('open');
+    if (q){ const [lib, part, map, node] = q.split('~').map(decodeURIComponent); return { kind: 'open', lib, part, map, node }; }
+    const h = /[#&]map=([A-Za-z0-9_-]+)/.exec(location.hash); if (h) return { kind: 'map', data: h[1] };
+  } catch(e){}
+  return null;
+}
+async function openIncoming(inc){
+  try { history.replaceState(null, '', location.pathname); } catch(e){}
+  if (!inc) return false;
+  if (inc.kind === 'open'){
+    let m = maps.find(x => x.id === inc.map);
+    if (!m){ const e = await catalogFor(inc.lib); if (!e){ toast(t('That library is not available')); return false; }
+      try { await installLibrary(e, inc.part ? [inc.part] : null, true); settings.libChosen = true; saveSettings(settings); } catch(err){ toast(t('Could not load that part — check the connection')); return false; }
+      m = maps.find(x => x.id === inc.map); }
+    if (!m){ toast(t('That map is not on this device yet')); return false; }
+    renderHome(); if (inc.node) await jumpTo({ map: m, id: inc.node }); else await openMap(m.id, false); return true;
+  }
+  if (inc.kind === 'map'){
+    let o; try { o = await unpackMap(inc.data); } catch(e){ toast(t('This link is damaged — ask for it again')); return false; }
+    const sig = 'share:' + inc.data.slice(0, 80); let m = maps.find(x => x.sharedFrom === sig);
+    if (!m){ m = { id: uid(), title: o.t || 'Shared map', look: o.look || 'sunrise', layout: o.layout || 'side', created: Date.now(), updated: Date.now(), sharedFrom: sig,
+                   data: { direction: (LAYOUTS[o.layout || 'side'] || LAYOUTS.side).dir, nodeData: o.d, arrows: o.a || [], summaries: o.s || [] } };
+      maps.push(m); saveMap(m); toast(t('Map added to your maps')); }
+    renderHome(); await openMap(m.id, false); return true;
+  }
+  return false;
+}
+function printOutline(m){
+  if (!m) return;
+  const rows = [];
+  const walk = (n, d) => { const mm = n.manas || {}; const links = []; if (n.hyperLink) links.push(n.hyperLink); for (const l of (mm.links || [])) if (l && l.url) links.push(l.url);
+    rows.push(`<div class="r d${Math.min(d, 5)}"><b>${esc(plain(n.topic))}</b>${n.note ? `<p>${esc(String(n.note).split(/\n\n(?=🎙)/)[0])}</p>` : ''}${mm.q ? `<p class="q">Q: ${esc(mm.q)}</p>` : ''}${links.length ? `<p class="l">${links.slice(0, 3).map(u => esc(resolveUrl(u, m))).join(' · ')}</p>` : ''}</div>`);
+    for (const c of (n.children || [])) walk(c, d + 1); };
+  walk(m.data.nodeData, 0);
+  const html = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(m.title || 'Mind map')}</title><style>body{font:14px/1.45 Georgia,serif;color:#111;max-width:780px;margin:24px auto;padding:0 16px}h1{font:700 22px system-ui,sans-serif;margin:0 0 4px}.sub{color:#666;font:12px system-ui,sans-serif;margin:0 0 18px}.r{margin:6px 0;break-inside:avoid}.r b{font-family:system-ui,sans-serif}.r p{margin:2px 0}.q{color:#444;font-style:italic}.l{color:#666;font-size:11px;word-break:break-all}.d0>b{font-size:18px}.d1{margin-left:0;border-top:1px solid #ddd;padding-top:6px;margin-top:12px}.d2{margin-left:18px}.d3{margin-left:36px}.d4{margin-left:54px}.d5{margin-left:72px}button{font:600 14px system-ui;padding:8px 14px;margin:0 0 16px}@media print{button{display:none}}</style></head><body><button onclick="print()">Print / Save as PDF</button><h1>${esc(m.title || 'Mind map')}</h1><p class="sub">From Manas · ${new Date().toLocaleDateString()} · ${esc(COPYRIGHT)}</p>${rows.join('')}</body></html>`;
+  const url = URL.createObjectURL(new Blob([html], { type: 'text/html' }));
+  let w = null; if (!window.ManasBridge){ try { w = window.open(url, '_blank'); } catch(e){} }
+  if (!w){ const a = document.createElement('a'); a.href = url; a.download = (m.title || 'mind-map').replace(/[^\w\- ]+/g, '').trim().replace(/\s+/g, '-') + '.html'; document.body.appendChild(a); a.click(); a.remove(); toast(t('Saved as a page — open it and choose Print')); }
 }
 async function sharePicture(){
   toast(t('Making the picture…'));
@@ -2997,7 +3080,9 @@ async function boot(){
     { const today = new Date().toISOString().slice(0, 10); if (settings.lastDay !== today){ settings.lastDay = today; settings.daysUsed = (settings.daysUsed || 0) + 1; saveSettings(settings); } }
     if (!settings.userEmail && !settings.updatesEmail) await Promise.race([loadSiteConfig(), new Promise(r => setTimeout(r, 4000))]);
     loadSiteConfig().then(() => { flushSignup(); if (emailEndpoint()) renderHome(); if (gateOn() && !document.getElementById('gate') && booted) emailGate(() => renderHome()); });
-    if (gateOn()){ renderHome(); emailGate(() => afterGate(pre)); return; }
+    const inc = parseIncoming();
+    if (inc && !gateOn()){ settings.tourDone = settings.tourDone || false; if (await openIncoming(inc)) return; }
+    if (gateOn()){ renderHome(); emailGate(() => inc ? openIncoming(inc).then(ok => { if (!ok) afterGate(pre); }) : afterGate(pre)); return; }
     if (CATALOG_SRC && !pre){ if (catalog && !settings.libChosen){ renderHome(); setTimeout(() => librariesSheet(true), 300); return; } }
     if (!settings.tourDone){ renderHome(); if (pre) { settings.preloadOpened = true; saveSettings(settings); } setTimeout(startTour, 400); return; }
     if (pre && !settings.preloadOpened){ settings.preloadOpened = true; saveSettings(settings); renderHome(); openMap(pre.id, false); return; }
@@ -3010,7 +3095,7 @@ async function boot(){
   }
   renderHome();
 }
-const DIAG = { version: '7.13', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
+const DIAG = { version: '7.14', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
 window.addEventListener('error', e => { DIAG.lastError = String(e.message || e).slice(0, 200); });
 function pollBridge(){
   try {
