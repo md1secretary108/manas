@@ -86,6 +86,25 @@
    },
    "parts": 11,
    "split": "lib-soil-index.json"
+  },
+  {
+   "id": "ai",
+   "title": "AI — from first steps to expert",
+   "subtitle": "Learn artificial intelligence in 9 subjects you download separately. Beginner track (no code): AI basics, chatbots & generative AI, AI at work, safety, ethics & law. Technical track: maths for AI, machine learning, deep learning, hands-on coding, frontiers & latest research. Updated regularly.",
+   "icon": "🤖",
+   "file": "lib-ai.json",
+   "root": "ai-root",
+   "whatsNew": "New library: AI in 9 subjects, beginner and technical tracks",
+   "about": {
+    "by": "Manas, for anyone learning AI — beginners and students",
+    "from": "Wikipedia, research papers (Europe PMC), free courses; YouTube videos from universities and well-known teachers",
+    "review": "review in progress",
+    "date": "14 Oct 2026"
+   },
+   "parts": 9,
+   "v": 1791978855,
+   "meta": "51 maps · 2,732 ideas · 614 KB · 9 subjects",
+   "split": "lib-ai-index.json"
   }
  ]
 }
