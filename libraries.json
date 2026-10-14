@@ -37,6 +37,25 @@
    "split": "lib-bdds-index.json"
   },
   {
+   "id": "sgd",
+   "title": "HG Sri Gauranga Das",
+   "subtitle": "His classes as mind maps: Gita Week, Srimad-Bhagavatam classes and more, each point linked to the recording.",
+   "icon": "🪷",
+   "file": "lib-sgd.json",
+   "root": "sgd-root",
+   "meta": "7 maps · 379 ideas · 223 KB · 2 series + index",
+   "parts": 3,
+   "about": {
+    "by": "HG Sri Gauranga Das (classes, Nairobi); maps by Manas with his blessings",
+    "from": "His recorded classes on YouTube (@srigauranga.nairobi); notes in Manas’s own words",
+    "review": "more on the way",
+    "date": "14 Oct 2026"
+   },
+   "v": 1791982881,
+   "whatsNew": "New library: HG Sri Gauranga Das — Gita Week first; his Srimad-Bhagavatam classes are being mapped",
+   "split": "lib-sgd-index.json"
+  },
+  {
    "id": "mbchb",
    "title": "Medicine — Kenyan MBChB",
    "subtitle": "All six years as taught at the University of Nairobi: 45 courses, 4,133 key facts as flashcards, free lectures and Kenya MoH guidelines. Study notes: AI-drafted and checked, doctor review in progress",
