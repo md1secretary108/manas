@@ -75,6 +75,25 @@
    "split": "lib-mbchb-index.json"
   },
   {
+   "id": "acc",
+   "title": "Accounting — from basics to CPA",
+   "subtitle": "Basics to CPA final, step by step: worked examples in KES, flashcards, exam practice and videos. Also for working accountants: iTax, eTIMS, payroll, Excel. New maps every day.",
+   "icon": "🧮",
+   "file": "lib-acc.json",
+   "root": "acc-root",
+   "about": {
+    "by": "Manas, for accounting students (KASNEB CPA and others) and working accountants",
+    "from": "Own-words notes; IFRS/ISA named not quoted; Wikipedia; YouTube teachers",
+    "review": "review in progress — looking for a CPA reviewer",
+    "date": "14 Oct 2026"
+   },
+   "whatsNew": "New library: Accounting from basics to CPA — first 5 maps, more every day",
+   "meta": "7 maps · 502 ideas · 110 KB · 1 subjects",
+   "parts": 1,
+   "v": 1791985776,
+   "split": "lib-acc-index.json"
+  },
+  {
    "id": "cpa31",
    "title": "Leadership and Management — CPA Advanced (CA31)",
    "subtitle": "KASNEB CPA Advanced Level paper CA31, topic by topic: the lists, models and definitions examiners ask for, each as a flashcard, with exam-style questions and how to answer them. Drafted with AI from tutorial notes; CPA review in progress",
