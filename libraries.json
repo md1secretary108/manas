@@ -41,13 +41,17 @@
    "icon": "🩺",
    "file": "lib-mbchb.json",
    "root": "med-root",
-   "meta": "46 maps · 6,339 ideas · 1.6 MB",
+   "meta": "52 maps · 6,345 ideas · 1.6 MB · 6 years",
    "about": {
     "by": "Manas, for Kenyan MBChB students (University of Nairobi course structure)",
     "from": "Course list from the UoN programme; key facts drafted with AI and checked twice by AI; OpenStax, Kenya MoH and WHO links",
     "review": "review in progress",
     "date": "28 Sep 2026"
-   }
+   },
+   "parts": 6,
+   "v": 1791977579,
+   "whatsNew": "Each year now downloads on its own; in-depth topic maps with worldwide guidelines and the latest research start arriving three times a week",
+   "split": "lib-mbchb-index.json"
   },
   {
    "id": "cpa31",
