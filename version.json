@@ -1,5 +1,5 @@
 {
- "version": "7.12",
- "note": "Tap a bubble for a menu with big buttons (open/fold, go inside, hear, read, more); Maharaj's maps on both sides on phones with a switch; transcripts read like the class, with the bubble's passage highlighted and common mishearings repaired",
+ "version": "7.13",
+ "note": "Index bubbles jump straight to the point; in 3D, tapping a selected door bubble opens its map; darker cosmic backdrops in dark mode",
  "apk": "https://md1secretary108.github.io/manas/Manas.apk"
 }

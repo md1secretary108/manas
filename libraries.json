@@ -13,7 +13,9 @@
     "from": "Book structure, chapter titles and recordings on vedabase.io and vanimedia.org; summaries and verse notes written for Manas",
     "review": "reviewed",
     "date": "28 Sep 2026"
-   }
+   },
+   "v": 1791979768,
+   "whatsNew": "Every recording now shows its verse (e.g. SB 1.1.1 · London, 6 Aug 1971); new cosmic backdrops"
   },
   {
    "id": "bdds",
@@ -22,16 +24,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "110 maps · 3,900 ideas · 4.1 MB · 5 series",
-   "parts": 5,
+   "meta": "113 maps · 8,217 ideas · 5.6 MB · 5 series + index",
+   "parts": 6,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way",
     "date": "6 Oct 2026"
    },
-   "v": 1791965865,
-   "whatsNew": "Transcripts now read like the class, with your passage highlighted",
+   "v": 1791979793,
+   "whatsNew": "New: Index & connections — subjects & keywords A–Z, teachings by theme, related classes",
    "split": "lib-bdds-index.json"
   },
   {

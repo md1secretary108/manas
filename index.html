@@ -5,7 +5,7 @@
 <meta name="author" content="Kewal Bhatt (Kaivalya Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.12-d5b75b5a25b8cdd67b8572fb"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="libraries.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
+<meta name="manas-stamp" content="7.13-f21412d69465abe3f91b2b0e"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="libraries.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -58,7 +58,7 @@ h1,h2,h3{font-family:var(--font-ui);margin:0;text-wrap:balance;line-height:1.15}
 /* guided tour */
 #tour{position:fixed;inset:0;z-index:60}
 .art{position:absolute;inset:0;background:center/cover no-repeat;opacity:0;transition:opacity .5s ease;pointer-events:none;z-index:0}
-#map-art.on{opacity:.26}
+#map-art.on{opacity:.26}html[data-theme=dark] #map-art.on{opacity:.55}@media(prefers-color-scheme:dark){html:not([data-theme=light]) #map-art.on{opacity:.55}}
 #editor.has-art .map-container,#editor.has-art map-container{background-color:transparent!important}
 #map-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,var(--paper) 0%,transparent 22%,transparent 70%,var(--paper) 100%);opacity:.7}
 #o-art{filter:blur(3px) saturate(1.1);transform:scale(1.04)}
@@ -1167,6 +1167,9 @@ function renderPeek(sel){
   const acts = [];
   if (kids && n.parent) acts.push(`<button type="button" id="pk-fold" class="${folded ? 'primary' : ''}">${folded ? t('▾ Open {n} ideas').replace('{n}', kids) : t('▴ Fold these {n} ideas').replace('{n}', kids)}</button>`);
   if (m.map) acts.push(`<button type="button" id="pk-door" class="primary">${deep ? t('🔎 Go deeper') : t('🚪 Go inside')}</button>`);
+  /* 7.13: index and "related" bubbles point at one bubble in another map: manas.goto = {map, node} */
+  const gt = m.goto && m.goto.map ? m.goto : null; const gtMap = gt ? maps.find(x => x.id === gt.map) : null;
+  if (gt) acts.push(`<button type="button" id="pk-goto" class="primary">${gtMap ? t('↪ Go to this point') : t('↪ Add this part to go there')}</button>`);
   links.forEach((l, i) => acts.push(`<button type="button" data-i="${i}" class="${l.primary && !m.map ? 'primary' : ''}">${esc(l.label)}</button>`));
   if (nThread) acts.push(`<button type="button" id="peek-thread">${t('🔁 Also in {n} other places').replace('{n}', nThread)}</button>`);
   acts.push(`<button type="button" id="pk-more">${t('⋯ More')}</button>`);
@@ -1175,6 +1178,9 @@ function renderPeek(sel){
   const on = (id, fn) => { const b = $('#' + id); if (b) b.onclick = ev => { ev.stopPropagation(); fn(); }; };
   on('pk-fold', () => { const el = MindElixir.E(n.id) || sel; mind.expandNode(el, folded); setTimeout(() => { const e2 = MindElixir.E(n.id); if (e2){ mind.selectNode(e2); if (folded) try { mind.scrollIntoView(e2, true); } catch(e){} } renderDock(); }, 30); });
   on('pk-door', () => openLinkedMap(MindElixir.E(n.id) || sel));
+  on('pk-goto', async () => { if (gtMap){ if (current && current.id !== gtMap.id){ saveNow(); mapStack.push(current.id); } await jumpTo({ map: gtMap, id: gt.node }); updateBackLabel(); }
+    else if (gt.part && current && current.library){ const e = await catalogFor(current.library); if (e){ try { toast(t('Adding…')); await installLibrary(e, [gt.part]); const m2 = maps.find(x => x.id === gt.map); if (m2){ saveNow(); mapStack.push(current.id); await jumpTo({ map: m2, id: gt.node }); updateBackLabel(); } } catch(err){ toast(t('Could not load that part — check the connection')); } } }
+    else toast(t('That map is not on this device yet')); });
   on('peek-thread', () => threadSheet(topicsOf(n), n.id));
   on('pk-more', () => holdSheet(MindElixir.E(n.id) || sel));
   on('pk-close', () => { try { mind.clearSelection(); } catch(e){} pk.hidden = true; renderDock(); });
@@ -2303,6 +2309,10 @@ const O = (function(){
     if (presenting && customTour){ const k = tour.indexOf(id); if (k >= 0 && id !== focusId){ step = k; focusId = id; selectedId = null; applyTargets(); return; } }
     if (id === focusId){ if (idx[id].parent && (presenting || selectedId === id)) goUp(); else select(id); return; }
     const has = idx[id].n.children.length > 0;
+    // 7.13: tapping a selected door bubble (no sub-ideas of its own) flies into its map; an index bubble goes to its point
+    const rl = idx[id].n.real, rm = (rl && rl.manas) || {};
+    if (!has && selectedId === id && rm.map){ flyDoor(rl); return; }
+    if (!has && selectedId === id && rm.goto && rm.goto.map){ const gm = maps.find(x => x.id === rm.goto.map); if (gm){ leave(); if (current && current.id !== gm.id){ saveNow(); mapStack.push(current.id); } jumpTo({ map: gm, id: rm.goto.node }).then(updateBackLabel); return; } }
     if (has && (presenting || selectedId === id)) openNode(id); else select(id);
   }
 
@@ -3000,7 +3010,7 @@ async function boot(){
   }
   renderHome();
 }
-const DIAG = { version: '7.12', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
+const DIAG = { version: '7.13', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
 window.addEventListener('error', e => { DIAG.lastError = String(e.message || e).slice(0, 200); });
 function pollBridge(){
   try {
