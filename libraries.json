@@ -43,7 +43,7 @@
    "icon": "🪷",
    "file": "lib-sgd.json",
    "root": "sgd-root",
-   "meta": "7 maps · 379 ideas · 223 KB · 2 series + index",
+   "meta": "14 maps · 1,250 ideas · 698 KB · 2 series + index",
    "parts": 3,
    "about": {
     "by": "HG Sri Gauranga Das (classes, Nairobi); maps by Manas with his blessings",
@@ -51,8 +51,8 @@
     "review": "more on the way",
     "date": "14 Oct 2026"
    },
-   "v": 1791982881,
-   "whatsNew": "New library: HG Sri Gauranga Das — Gita Week first; his Srimad-Bhagavatam classes are being mapped",
+   "v": 1792039128,
+   "whatsNew": "Library rebuilt",
    "split": "lib-sgd-index.json"
   },
   {
