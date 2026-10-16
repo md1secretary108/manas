@@ -43,7 +43,7 @@
    "icon": "🪷",
    "file": "lib-sgd.json",
    "root": "sgd-root",
-   "meta": "14 maps · 1,250 ideas · 698 KB · 2 series + index",
+   "meta": "27 maps · 2,490 ideas · 1.5 MB · 2 series + index",
    "parts": 3,
    "about": {
     "by": "HG Sri Gauranga Das (classes, Nairobi); maps by Manas with his blessings",
@@ -51,7 +51,7 @@
     "review": "more on the way",
     "date": "14 Oct 2026"
    },
-   "v": 1792039128,
+   "v": 1792138163,
    "whatsNew": "Library rebuilt",
    "split": "lib-sgd-index.json"
   },
