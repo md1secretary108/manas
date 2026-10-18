@@ -24,15 +24,15 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "119 maps · 8,663 ideas · 5.9 MB · 6 series + index",
-   "parts": 7,
+   "meta": "151 maps · 10,665 ideas · 7.4 MB · 7 series + index",
+   "parts": 8,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way",
     "date": "6 Oct 2026"
    },
-   "v": 1792125339,
+   "v": 1792298461,
    "whatsNew": "Library rebuilt",
    "split": "lib-bdds-index.json"
   },
