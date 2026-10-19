@@ -62,7 +62,7 @@
    "icon": "🩺",
    "file": "lib-mbchb.json",
    "root": "med-root",
-   "meta": "58 maps · 6,809 ideas · 2.3 MB · 6 years",
+   "meta": "64 maps · 7,203 ideas · 2.5 MB · 6 years",
    "about": {
     "by": "Manas, for Kenyan MBChB students (University of Nairobi course structure)",
     "from": "Course list from the UoN programme; key facts drafted with AI and checked twice by AI; OpenStax, Kenya MoH and WHO links",
@@ -70,8 +70,8 @@
     "date": "28 Sep 2026"
    },
    "parts": 6,
-   "v": 1792138280,
-   "whatsNew": "6 new in-depth topics: sepsis and shock, pre-eclampsia, newborn resuscitation, TB/HIV chest X-rays, medicolegal practice, health systems",
+   "v": 1792385850,
+   "whatsNew": "6 new in-depth topics: skin lesions, rational prescribing, nonunion and osteomyelitis, psychiatric emergencies, acute abdomen, diabetic retinopathy",
    "split": "lib-mbchb-index.json"
   },
   {

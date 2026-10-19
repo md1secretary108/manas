@@ -19358,7 +19358,12 @@
         }
        ],
        "note": "Applying WHO good-prescribing steps, the P-drug concept and the Kenya Essential Medicines List in practice.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hme602-rational-prescribing",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhme602-1",
@@ -30511,7 +30516,12 @@
         }
        ],
        "note": "Skin anatomy and the vocabulary used to describe primary and secondary skin lesions.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hme601-skin-lesions",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhme601-1",
@@ -32612,7 +32622,12 @@
         }
        ],
        "note": "Management of acute agitation and life-threatening drug reactions in psychiatry.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hps600-psychiatric-emergencies",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhps600-1",
@@ -34891,7 +34906,12 @@
         }
        ],
        "note": "Clinical approach to acute abdominal pain, peritonitis and perforation, including tropical causes.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hsu600-acute-abdomen",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhsu600-1",
@@ -37129,7 +37149,12 @@
         }
        ],
        "note": "Failure of fracture healing and chronic bone infection, a major burden in Kenya.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hos600-nonunion-osteomyelitis",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhos600-1",
@@ -40629,7 +40654,12 @@
         }
        ],
        "note": "Microvascular retinal damage in diabetes — a leading preventable cause of blindness in working adults.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hsu603-diabetic-retinopathy",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhsu603-1",
@@ -57012,6 +57042,3512 @@
     }
    },
    "part": "y5"
+  },
+  {
+   "id": "med-hme601-skin-lesions",
+   "title": "HME 601 · In depth: Skin structure and lesion terms",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1792385850173,
+   "updated": 1792385850173,
+   "library": "mbchb",
+   "deepOf": "med-hme601",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhme601sl-root",
+     "topic": "Skin structure and lesion terms in depth",
+     "note": "Layers, cells, appendages and functions of skin, and the terms used to describe any rash. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhme601sl-skin-at-a-glance",
+       "topic": "Skin at a glance",
+       "note": "Three layers: epidermis, dermis and subcutis.",
+       "children": [
+        {
+         "id": "mdhme601sl-three-layers-of-skin",
+         "topic": "Three layers of skin",
+         "note": "Epidermis (stratified squamous epithelium), dermis (connective tissue) and subcutis or hypodermis (fat).",
+         "manas": {
+          "q": "What are the three layers of the skin?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-thick-vs-thin-skin",
+         "topic": "Thick vs thin skin",
+         "note": "Thick skin on palms and soles has a stratum lucidum and no hair; thin skin covers the rest of the body and bears hair follicles.",
+         "manas": {
+          "q": "How does thick skin differ from thin skin?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-epidermis-layers-in-detail",
+       "topic": "Epidermis: layers in detail",
+       "note": "What happens in each layer as keratinocytes mature.",
+       "children": [
+        {
+         "id": "mdhme601sl-stratum-basale",
+         "topic": "Stratum basale",
+         "note": "Single row of dividing cells on the basement membrane; also holds melanocytes and Merkel cells.",
+         "manas": {
+          "q": "What cells are found in the stratum basale?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-stratum-spinosum",
+         "topic": "Stratum spinosum",
+         "note": "'Prickle cell' layer: keratinocytes joined by many desmosomes; Langerhans cells sit mainly here.",
+         "manas": {
+          "q": "Why is the stratum spinosum called the prickle cell layer?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-stratum-granulosum",
+         "topic": "Stratum granulosum",
+         "note": "Cells contain keratohyalin granules and release lamellar-body lipids that seal the barrier; nuclei begin to break down.",
+         "manas": {
+          "q": "What happens in the stratum granulosum?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-stratum-corneum",
+         "topic": "Stratum corneum",
+         "note": "Flattened dead corneocytes without nuclei, packed with keratin and set in lipid ('bricks and mortar'); shed continuously.",
+         "manas": {
+          "q": "What is the structure of the stratum corneum?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-keratinocyte-transit-time",
+         "topic": "Keratinocyte transit time",
+         "note": "Cells take roughly a month to travel from the basal layer to shedding; this is much faster in psoriasis.",
+         "manas": {
+          "q": "Roughly how long does a keratinocyte take to reach the surface, and what speeds it up?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-epidermis-resident-cells",
+       "topic": "Epidermis: resident cells",
+       "note": "Four cell types live in the epidermis.",
+       "children": [
+        {
+         "id": "mdhme601sl-melanocytes",
+         "topic": "Melanocytes",
+         "note": "Neural-crest-derived cells in the basal layer that pass melanin in melanosomes to keratinocytes.",
+         "manas": {
+          "q": "What do melanocytes do and where do they lie?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-skin-colour-and-melanocytes",
+         "topic": "Skin colour and melanocytes",
+         "note": "Darker skin has a similar number of melanocytes; colour differs by melanosome size, number and spread.",
+         "manas": {
+          "q": "Does darker skin have more melanocytes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-langerhans-cells",
+         "topic": "Langerhans cells",
+         "note": "Dendritic antigen-presenting cells (Birbeck granules on electron microscopy); key in allergic contact dermatitis.",
+         "manas": {
+          "q": "What are Langerhans cells and which reaction do they drive?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-merkel-cells",
+         "topic": "Merkel cells",
+         "note": "Basal-layer cells linked to sensory nerve endings; they sense light touch.",
+         "manas": {
+          "q": "What is the function of Merkel cells?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-junction-dermis-and-subcutis",
+       "topic": "Junction, dermis and subcutis",
+       "note": "Below the epidermis: anchoring, strength and cushioning.",
+       "children": [
+        {
+         "id": "mdhme601sl-desmosomes-vs-hemidesmosomes",
+         "topic": "Desmosomes vs hemidesmosomes",
+         "note": "Desmosomes join keratinocytes to each other; hemidesmosomes anchor basal cells to the basement membrane.",
+         "manas": {
+          "q": "What is the difference between desmosomes and hemidesmosomes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-basement-membrane-zone",
+         "topic": "Basement membrane zone",
+         "note": "Links epidermis to dermis; a split here gives subepidermal (tense) blisters, as in bullous pemphigoid.",
+         "manas": {
+          "q": "What kind of blister forms when the basement membrane zone splits?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-papillary-dermis",
+         "topic": "Papillary dermis",
+         "note": "Thin upper layer of loose connective tissue in the dermal papillae, with capillary loops and Meissner corpuscles.",
+         "manas": {
+          "q": "What is found in the papillary dermis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-reticular-dermis",
+         "topic": "Reticular dermis",
+         "note": "Thick deeper layer of dense collagen (mainly type I) and elastic fibres giving strength and recoil.",
+         "manas": {
+          "q": "What gives the dermis its strength and elasticity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-dermal-cells",
+         "topic": "Dermal cells",
+         "note": "Fibroblasts make collagen and ground substance; mast cells release histamine; macrophages clear debris.",
+         "manas": {
+          "q": "Name three cell types of the dermis and their roles."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-subcutis",
+         "topic": "Subcutis",
+         "note": "Fat lobules divided by fibrous septa: insulation, energy store and cushioning; Pacinian corpuscles lie deep.",
+         "manas": {
+          "q": "What are the functions of the subcutis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-appendages",
+       "topic": "Appendages",
+       "note": "Hair, glands and nails grow from the epidermis.",
+       "children": [
+        {
+         "id": "mdhme601sl-hair-cycle",
+         "topic": "Hair cycle",
+         "note": "Anagen (growth), catagen (regression), telogen (rest). Shedding after illness or childbirth is telogen effluvium.",
+         "manas": {
+          "q": "Name the phases of the hair cycle."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-sebaceous-glands",
+         "topic": "Sebaceous glands",
+         "note": "Holocrine glands opening into hair follicles (pilosebaceous unit); absent on palms and soles; androgen-driven in acne.",
+         "manas": {
+          "q": "Where are sebaceous glands absent, and what drives them?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-eccrine-sweat-glands",
+         "topic": "Eccrine sweat glands",
+         "note": "Found over almost all skin, most dense on palms and soles; cool the body; sympathetic nerves using acetylcholine.",
+         "manas": {
+          "q": "Which neurotransmitter drives eccrine sweating?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-apocrine-glands",
+         "topic": "Apocrine glands",
+         "note": "In axillae and anogenital skin; open into follicles; active from puberty; odour comes from bacterial breakdown.",
+         "manas": {
+          "q": "Where are apocrine glands and when do they become active?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-nails",
+         "topic": "Nails",
+         "note": "Hard keratin plate made by the nail matrix; toenails grow slower, so toenail changes take longer to clear.",
+         "manas": {
+          "q": "Which part of the nail makes the nail plate?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-functions-of-skin",
+       "topic": "Functions of skin",
+       "note": "Why skin failure is dangerous.",
+       "children": [
+        {
+         "id": "mdhme601sl-barrier",
+         "topic": "Barrier",
+         "note": "Stops water loss and entry of microbes, chemicals and UV; damaged barrier underlies dry, eczematous skin.",
+         "manas": {
+          "q": "What does the skin barrier protect against?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-thermoregulation",
+         "topic": "Thermoregulation",
+         "note": "Sweating and changes in dermal blood flow (dilation or constriction) control heat loss.",
+         "manas": {
+          "q": "How does skin regulate temperature?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-vitamin-d",
+         "topic": "Vitamin D",
+         "note": "UVB converts 7-dehydrocholesterol in the epidermis to vitamin D3 (cholecalciferol).",
+         "manas": {
+          "q": "How does the skin make vitamin D?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-acute-skin-failure",
+         "topic": "Acute skin failure",
+         "note": "Widespread skin loss or erythroderma causes fluid and protein loss, hypothermia and infection risk.",
+         "manas": {
+          "q": "What are the dangers of acute skin failure?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-more-primary-lesions",
+       "topic": "More primary lesions",
+       "note": "Lesions that arise first (beyond macule, papule, vesicle, bulla).",
+       "children": [
+        {
+         "id": "mdhme601sl-plaque",
+         "topic": "Plaque",
+         "note": "Raised, flat-topped lesion over 1 cm wide, often from merging papules; classic in psoriasis.",
+         "manas": {
+          "q": "What is a plaque?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-nodule",
+         "topic": "Nodule",
+         "note": "Solid raised lesion over 1 cm, usually reaching deeper into dermis or subcutis.",
+         "manas": {
+          "q": "What is a nodule?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-wheal",
+         "topic": "Wheal",
+         "note": "Itchy, short-lived swelling from dermal oedema; each one usually fades within 24 hours (urticaria).",
+         "manas": {
+          "q": "What is a wheal and how long does each one last?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-pustule",
+         "topic": "Pustule",
+         "note": "Visible collection of pus; may be infected or sterile (as in pustular psoriasis).",
+         "manas": {
+          "q": "Is a pustule always infected?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-petechiae-and-purpura",
+         "topic": "Petechiae and purpura",
+         "note": "Bleeding into skin that does not blanch: petechiae are pinpoint; purpura larger; ecchymosis is a bruise.",
+         "manas": {
+          "q": "What distinguishes petechiae, purpura and ecchymosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-telangiectasia",
+         "topic": "Telangiectasia",
+         "note": "Small dilated superficial blood vessels visible in the skin.",
+         "manas": {
+          "q": "What is telangiectasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-burrow-and-comedone",
+         "topic": "Burrow and comedone",
+         "note": "Burrow: thin track made by the scabies mite. Comedone: plugged follicle (blackhead or whitehead) in acne.",
+         "manas": {
+          "q": "What do a burrow and a comedone indicate?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-secondary-lesions",
+       "topic": "Secondary lesions",
+       "note": "Changes that develop from primary lesions or scratching.",
+       "children": [
+        {
+         "id": "mdhme601sl-scale",
+         "topic": "Scale",
+         "note": "Visible flakes of shed stratum corneum, as in psoriasis or tinea.",
+         "manas": {
+          "q": "What is scale?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-crust",
+         "topic": "Crust",
+         "note": "Dried serum, blood or pus on the surface; golden 'honey' crusts suggest impetigo.",
+         "manas": {
+          "q": "What does a honey-coloured crust suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-erosion-vs-ulcer",
+         "topic": "Erosion vs ulcer",
+         "note": "Erosion: loss of epidermis only, heals without a scar. Ulcer: loss into dermis or deeper, may scar.",
+         "manas": {
+          "q": "What is the difference between an erosion and an ulcer?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-excoriation-and-fissure",
+         "topic": "Excoriation and fissure",
+         "note": "Excoriation: scratch mark, implying itch. Fissure: linear crack, e.g. on dry hands or heels.",
+         "manas": {
+          "q": "What are excoriation and fissure?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-atrophy",
+         "topic": "Atrophy",
+         "note": "Thinning of skin: shiny, wrinkled, see-through, with visible vessels; e.g. after potent topical steroid overuse.",
+         "manas": {
+          "q": "What does skin atrophy look like and what can cause it?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-keloid-vs-hypertrophic-scar",
+         "topic": "Keloid vs hypertrophic scar",
+         "note": "Keloid spreads beyond the original wound; hypertrophic scar stays within it. Keloids are commoner in darker skin.",
+         "manas": {
+          "q": "How does a keloid differ from a hypertrophic scar?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-shape-pattern-and-distributi",
+       "topic": "Shape, pattern and distribution",
+       "note": "Arrangement often points to the diagnosis.",
+       "children": [
+        {
+         "id": "mdhme601sl-annular",
+         "topic": "Annular",
+         "note": "Ring with a clearer centre, e.g. tinea corporis or granuloma annulare.",
+         "manas": {
+          "q": "Give two causes of annular lesions."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-target-lesions",
+         "topic": "Target lesions",
+         "note": "Concentric rings with a dusky centre; typical of erythema multiforme.",
+         "manas": {
+          "q": "Which condition gives target lesions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-dermatomal",
+         "topic": "Dermatomal",
+         "note": "Confined to one nerve segment on one side, as in herpes zoster.",
+         "manas": {
+          "q": "Which infection gives a dermatomal rash?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-grouped-vesicles",
+         "topic": "Grouped vesicles",
+         "note": "Clustered blisters on a red base; typical of herpes simplex.",
+         "manas": {
+          "q": "What does a cluster of vesicles on a red base suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-linear",
+         "topic": "Linear",
+         "note": "In a line: Koebner response along a scratch, or contact with a plant or object.",
+         "manas": {
+          "q": "Name causes of linear lesions."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-flexural-vs-extensor",
+         "topic": "Flexural vs extensor",
+         "note": "Flexures (elbow and knee creases): atopic eczema beyond infancy. Extensor surfaces (elbows, knees): psoriasis.",
+         "manas": {
+          "q": "Which conditions favour flexural vs extensor sites?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-photo-exposed-pattern",
+         "topic": "Photo-exposed pattern",
+         "note": "Face, V of neck, backs of hands; shaded areas such as under the chin are spared.",
+         "manas": {
+          "q": "How do you recognise a photo-exposed distribution?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-special-signs-and-bedside-te",
+       "topic": "Special signs and bedside tests",
+       "note": "Quick tests that sharpen the diagnosis.",
+       "children": [
+        {
+         "id": "mdhme601sl-nikolsky-sign",
+         "topic": "Nikolsky sign",
+         "note": "Firm rubbing shears off epidermis; positive in pemphigus vulgaris, SJS/TEN and staphylococcal scalded skin.",
+         "manas": {
+          "q": "In which conditions is Nikolsky sign positive?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-auspitz-sign",
+         "topic": "Auspitz sign",
+         "note": "Pinpoint bleeding when psoriatic scale is scraped off, from capillaries near the surface.",
+         "manas": {
+          "q": "What is the Auspitz sign?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-diascopy",
+         "topic": "Diascopy",
+         "note": "Press a glass slide on the lesion: redness that fades is vasodilation; colour that stays is purpura.",
+         "manas": {
+          "q": "How does diascopy separate erythema from purpura?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-darier-sign",
+         "topic": "Darier sign",
+         "note": "Rubbing a lesion makes it swell and redden from mast cell release; seen in mastocytosis.",
+         "manas": {
+          "q": "What is Darier sign?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-examination-approach",
+       "topic": "Examination approach",
+       "note": "A system so nothing is missed.",
+       "children": [
+        {
+         "id": "mdhme601sl-look-everywhere",
+         "topic": "Look everywhere",
+         "note": "Good light, full exposure with a chaperone as needed; include scalp, nails, mouth and genitals.",
+         "manas": {
+          "q": "Which areas are often missed in a skin examination?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-palpate",
+         "topic": "Palpate",
+         "note": "Feel texture, warmth, tenderness, depth and mobility; check if the lesion blanches.",
+         "manas": {
+          "q": "What should you feel for when palpating a lesion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-simple-investigations",
+         "topic": "Simple investigations",
+         "note": "Skin scraping with KOH for fungi, swab for culture, Wood's lamp, and punch biopsy for histology.",
+         "manas": {
+          "q": "Name simple bedside investigations in dermatology."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-dermoscopy",
+         "topic": "Dermoscopy",
+         "note": "A handheld lit magnifier that shows structures not seen by the naked eye; aids pigmented lesions and more.",
+         "manas": {
+          "q": "What is dermoscopy used for?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Skin of colour is the norm for most Kenyan patients; textbooks often show lighter skin.",
+       "children": [
+        {
+         "id": "mdhme601sl-redness-in-dark-skin",
+         "topic": "Redness in dark skin",
+         "note": "Inflammation may look violet, dusky, brown or grey rather than red; use warmth, swelling and tenderness too.",
+         "manas": {
+          "q": "How may inflammation look in darker skin?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-pigment-after-inflammation",
+         "topic": "Pigment after inflammation",
+         "note": "Post-inflammatory hyper- or hypopigmentation is common and slow to fade in darker skin; warn patients.",
+         "manas": {
+          "q": "What often follows inflammation in darker skin?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-fitzpatrick-skin-types",
+         "topic": "Fitzpatrick skin types",
+         "note": "Six types (I to VI) based on tendency to burn or tan; types V and VI are darker skin.",
+         "manas": {
+          "q": "What does the Fitzpatrick scale classify?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield contrasts.",
+       "children": [
+        {
+         "id": "mdhme601sl-pemphigus-vs-pemphigoid",
+         "topic": "Pemphigus vs pemphigoid",
+         "note": "Pemphigus: intraepidermal, flaccid blisters, erosions, mouth involved. Pemphigoid: subepidermal, tense blisters, elderly.",
+         "manas": {
+          "q": "Contrast pemphigus vulgaris and bullous pemphigoid."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-blanching-tells-the-story",
+         "topic": "Blanching tells the story",
+         "note": "Blanching redness is vasodilation; non-blanching spots are bleeding and may signal sepsis or low platelets.",
+         "manas": {
+          "q": "Why does a non-blanching rash matter?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-erosions-do-not-scar",
+         "topic": "Erosions do not scar",
+         "note": "Only damage reaching the dermis scars; epidermal loss heals completely.",
+         "manas": {
+          "q": "Why does an erosion heal without a scar?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601sl-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-10-19.",
+       "children": [
+        {
+         "id": "mdhme601sl-dermoscopy-use-in-africa",
+         "topic": "Dermoscopy use in Africa",
+         "note": "Survey of 196 dermatologists in 24 African countries: about half used dermoscopy; main barriers were lack of training and dermatoscopes.",
+         "manas": {
+          "q": "What limits dermoscopy use by dermatologists in Africa?",
+          "ref": "Dermatol Pract Concept 2024"
+         },
+         "hyperLink": "https://doi.org/10.5826/dpc.1402a98",
+         "children": []
+        },
+        {
+         "id": "mdhme601sl-skin-of-colour-teaching-gaps",
+         "topic": "Skin of colour teaching gaps",
+         "note": "US review: dark skin is under-shown in textbooks and training, which contributes to missed or late diagnoses.",
+         "manas": {
+          "q": "Why does poor skin-of-colour teaching matter?",
+          "ref": "J Am Acad Dermatol 2023"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.jaad.2022.03.053",
+         "children": []
+        }
+       ],
+       "manas": {
+        "checked": "2026-10-19"
+       }
+      },
+      {
+       "id": "mdhme601sl-layers-of-the-skin-openstax",
+       "topic": "📖 Layers of the Skin (OpenStax)",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+       "children": []
+      },
+      {
+       "id": "mdhme601sl-dermatologic-conditions-open",
+       "topic": "📖 Dermatologic conditions (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/14-3-dermatologic-conditions",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hme602-rational-prescribing",
+   "title": "HME 602 · In depth: Rational prescribing and the EML",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1792385850177,
+   "updated": 1792385850177,
+   "library": "mbchb",
+   "deepOf": "med-hme602",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhme602rp-root",
+     "topic": "Rational prescribing and the EML in depth",
+     "note": "From choosing a drug to stopping it: EML concepts, dosing, special groups, ADRs and interactions. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhme602rp-definitions",
+       "topic": "Definitions",
+       "note": "Key terms behind the course bubble.",
+       "children": [
+        {
+         "id": "mdhme602rp-rational-use-of-medicines",
+         "topic": "Rational use of medicines",
+         "note": "Patients get medicines suited to their clinical need, in doses fitting them, for the right length of time, at the lowest cost to them and society.",
+         "manas": {
+          "q": "What is the WHO definition of rational use of medicines?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-nairobi-1985",
+         "topic": "Nairobi 1985",
+         "note": "The WHO conference of experts that framed rational drug use met in Nairobi, Kenya, in 1985.",
+         "manas": {
+          "q": "Where and when did the WHO conference on rational drug use meet?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-essential-medicines",
+         "topic": "Essential medicines",
+         "note": "Medicines that meet a population's priority health needs, chosen on disease burden, evidence of efficacy and safety, and cost-effectiveness.",
+         "manas": {
+          "q": "What are essential medicines and how are they selected?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-common-irrational-use",
+         "topic": "Common irrational use",
+         "note": "Too many drugs per patient, antibiotics for viral illness, injections when oral would do, ignoring guidelines, and self-medication.",
+         "manas": {
+          "q": "Give examples of irrational medicine use."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-who-model-list-in-depth",
+       "topic": "WHO Model List in depth",
+       "note": "The template for national lists such as Kenya's.",
+       "children": [
+        {
+         "id": "mdhme602rp-history-and-updates",
+         "topic": "History and updates",
+         "note": "First published in 1977; WHO revises it every two years.",
+         "manas": {
+          "q": "When was the first WHO Model List published and how often is it revised?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-core-vs-complementary-list",
+         "topic": "Core vs complementary list",
+         "note": "Core: minimum medicines for a basic health system. Complementary: need specialist care, tests or training.",
+         "manas": {
+          "q": "What is the difference between the core and complementary lists?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-children-s-list",
+         "topic": "Children's list",
+         "note": "A separate Model List for children (EMLc) has existed since 2007.",
+         "manas": {
+          "q": "Since when has WHO published an essential medicines list for children?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-aware-antibiotic-groups",
+         "topic": "AWaRe antibiotic groups",
+         "note": "Access (first/second choice, lower resistance risk), Watch (higher resistance risk, limit use) and Reserve (last resort).",
+         "manas": {
+          "q": "What do the three AWaRe antibiotic groups mean?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-kenya-eml-in-practice",
+       "topic": "Kenya EML in practice",
+       "note": "Using the current Kenya Essential Medicines List (KEML) at the bedside and in supply.",
+       "children": [
+        {
+         "id": "mdhme602rp-prescribe-from-the-list",
+         "topic": "Prescribe from the list",
+         "note": "In public facilities, choose listed generics suited to your level of care so the drug is stocked and affordable.",
+         "manas": {
+          "q": "Why should public-sector prescribers choose from the KEML?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-generic-inn-names",
+         "topic": "Generic (INN) names",
+         "note": "Write the international non-proprietary name: cheaper, avoids brand confusion and allows substitution.",
+         "manas": {
+          "q": "Why prescribe by generic name?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-regulator-and-supply",
+         "topic": "Regulator and supply",
+         "note": "Pharmacy and Poisons Board registers medicines and runs pharmacovigilance; KEMSA supplies public facilities.",
+         "manas": {
+          "q": "What are the roles of the Pharmacy and Poisons Board and KEMSA?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-linked-to-guidelines",
+         "topic": "Linked to guidelines",
+         "note": "The KEML is meant to be used with national clinical guidelines that set first-line treatments.",
+         "manas": {
+          "q": "What should the KEML be used together with?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-choosing-a-p-drug-steps",
+       "topic": "Choosing a P-drug: steps",
+       "note": "WHO Guide to Good Prescribing (1994) method.",
+       "children": [
+        {
+         "id": "mdhme602rp-define-diagnosis-and-objecti",
+         "topic": "Define diagnosis and objective",
+         "note": "Be clear what you are treating and what the treatment should achieve before picking a drug.",
+         "manas": {
+          "q": "What two things come first when choosing a P-drug?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-compare-drug-groups",
+         "topic": "Compare drug groups",
+         "note": "List effective groups and compare them on efficacy, safety, suitability and cost.",
+         "manas": {
+          "q": "On which four criteria are drug groups compared?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-pick-drug-form-and-schedule",
+         "topic": "Pick drug, form and schedule",
+         "note": "Choose the drug within the group, then dosage form, dose schedule and duration.",
+         "manas": {
+          "q": "After choosing a group, what else must be decided?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-check-for-this-patient",
+         "topic": "Check for this patient",
+         "note": "Confirm the P-drug suits this patient: allergies, interactions, pregnancy, kidney and liver function, cost.",
+         "manas": {
+          "q": "What must be checked before giving your P-drug to an individual?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-non-drug-treatment-counts",
+         "topic": "Non-drug treatment counts",
+         "note": "The best P-treatment may be advice or no drug at all.",
+         "manas": {
+          "q": "Is a drug always needed in rational treatment?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-pharmacology-for-dosing",
+       "topic": "Pharmacology for dosing",
+       "note": "Kinetics that drive dose choice.",
+       "children": [
+        {
+         "id": "mdhme602rp-steady-state",
+         "topic": "Steady state",
+         "note": "Reached after about 4–5 half-lives of regular dosing; same rule for wash-out after stopping.",
+         "manas": {
+          "q": "How long does a drug take to reach steady state?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-loading-dose",
+         "topic": "Loading dose",
+         "note": "Loading dose = target concentration × volume of distribution; used when steady state would take too long.",
+         "manas": {
+          "q": "What determines the loading dose?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-maintenance-dose",
+         "topic": "Maintenance dose",
+         "note": "Depends on clearance: maintenance rate = clearance × target concentration.",
+         "manas": {
+          "q": "What determines the maintenance dose?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-narrow-therapeutic-index",
+         "topic": "Narrow therapeutic index",
+         "note": "Small gap between effective and toxic levels: digoxin, lithium, phenytoin, warfarin, aminoglycosides; monitor closely.",
+         "manas": {
+          "q": "Name drugs with a narrow therapeutic index."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-special-groups",
+       "topic": "Special groups",
+       "note": "Adjust for the patient in front of you.",
+       "children": [
+        {
+         "id": "mdhme602rp-kidney-impairment",
+         "topic": "Kidney impairment",
+         "note": "Reduce or avoid renally cleared drugs (e.g. aminoglycosides, metformin) by eGFR or creatinine clearance; avoid NSAIDs.",
+         "manas": {
+          "q": "How should prescribing change in kidney impairment?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-liver-disease",
+         "topic": "Liver disease",
+         "note": "No single test guides dosing; take care with sedatives and opioids that can tip patients into encephalopathy.",
+         "manas": {
+          "q": "Which drugs need special care in liver disease?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-pregnancy",
+         "topic": "Pregnancy",
+         "note": "Avoid known teratogens such as warfarin, ACE inhibitors, valproate, isotretinoin, methotrexate and tetracyclines.",
+         "manas": {
+          "q": "Name drugs to avoid in pregnancy because of fetal harm."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-children",
+         "topic": "Children",
+         "note": "Dose by weight (or body surface area), use child formulations; avoid aspirin (Reye syndrome).",
+         "manas": {
+          "q": "Why is aspirin avoided in children?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-older-adults",
+         "topic": "Older adults",
+         "note": "Lower kidney function and higher drug sensitivity: start low, go slow, review often.",
+         "manas": {
+          "q": "What is the prescribing principle for older adults?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-breastfeeding",
+         "topic": "Breastfeeding",
+         "note": "Check whether the drug passes into milk and could affect the baby before prescribing.",
+         "manas": {
+          "q": "What must be checked before prescribing in breastfeeding?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-writing-the-prescription",
+       "topic": "Writing the prescription",
+       "note": "Beyond the basic contents.",
+       "children": [
+        {
+         "id": "mdhme602rp-allergy-status-first",
+         "topic": "Allergy status first",
+         "note": "Record drug allergies and the reaction type before prescribing.",
+         "manas": {
+          "q": "What should be recorded before writing any prescription?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-clear-instructions",
+         "topic": "Clear instructions",
+         "note": "State dose form, route, frequency and duration or total quantity so the dispenser need not guess.",
+         "manas": {
+          "q": "What details stop dispensing errors?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-controlled-drugs",
+         "topic": "Controlled drugs",
+         "note": "Opioids and some sedatives are controlled under Kenya's Narcotic Drugs and Psychotropic Substances (Control) Act; extra rules apply.",
+         "manas": {
+          "q": "Which Kenyan law controls opioid prescribing?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-inform-the-patient",
+         "topic": "Inform the patient",
+         "note": "Explain effect, how to take it, common side effects, warning signs and when to return.",
+         "manas": {
+          "q": "What should a patient be told about a new medicine?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-adverse-drug-reactions",
+       "topic": "Adverse drug reactions",
+       "note": "Recognise, classify and report.",
+       "children": [
+        {
+         "id": "mdhme602rp-type-a-augmented",
+         "topic": "Type A (augmented)",
+         "note": "Predictable, dose-related extension of the drug's action and common, e.g. bleeding on warfarin.",
+         "manas": {
+          "q": "What is a type A adverse drug reaction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-type-b-bizarre",
+         "topic": "Type B (bizarre)",
+         "note": "Unpredictable, not dose-related, often immune: anaphylaxis, SJS/TEN. Usually requires stopping the drug.",
+         "manas": {
+          "q": "What is a type B adverse drug reaction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-types-c-to-f",
+         "topic": "Types C to F",
+         "note": "C chronic (long use), D delayed (e.g. teratogenesis), E end-of-use (withdrawal), F failure of therapy.",
+         "manas": {
+          "q": "What do ADR types C, D, E and F stand for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-report-to-ppb",
+         "topic": "Report to PPB",
+         "note": "Suspected adverse reactions and poor-quality medicines are reported to Kenya's Pharmacy and Poisons Board.",
+         "manas": {
+          "q": "Where are suspected ADRs reported in Kenya?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-drug-interactions",
+       "topic": "Drug interactions",
+       "note": "Pharmacokinetic or pharmacodynamic.",
+       "children": [
+        {
+         "id": "mdhme602rp-enzyme-inducers",
+         "topic": "Enzyme inducers",
+         "note": "Rifampicin, carbamazepine, phenytoin, phenobarbital and St John's wort lower levels of other drugs.",
+         "manas": {
+          "q": "Name common enzyme-inducing drugs."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-enzyme-inhibitors",
+         "topic": "Enzyme inhibitors",
+         "note": "Macrolides (e.g. clarithromycin) and azole antifungals (e.g. fluconazole) raise levels of other drugs.",
+         "manas": {
+          "q": "Name common enzyme-inhibiting drugs."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-rifampicin-and-contraception",
+         "topic": "Rifampicin and contraception",
+         "note": "Rifampicin makes hormonal contraceptives less reliable; advise a method not affected, such as an IUD or injectable.",
+         "manas": {
+          "q": "Why does rifampicin matter for contraception?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-pharmacodynamic-interactions",
+         "topic": "Pharmacodynamic interactions",
+         "note": "Drugs with added effects, e.g. two sedatives, or two QT-prolonging drugs.",
+         "manas": {
+          "q": "Give an example of a pharmacodynamic interaction."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-monitoring-and-stopping",
+       "topic": "Monitoring and stopping",
+       "note": "The last WHO step in depth.",
+       "children": [
+        {
+         "id": "mdhme602rp-plan-monitoring",
+         "topic": "Plan monitoring",
+         "note": "Decide in advance what to check (effect, toxicity, levels) and when.",
+         "manas": {
+          "q": "What should a monitoring plan include?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-deprescribing",
+         "topic": "Deprescribing",
+         "note": "Planned reduction or stopping of drugs where harm now outweighs benefit, agreed with the patient.",
+         "manas": {
+          "q": "What is deprescribing?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-taper-don-t-stop-abruptly",
+         "topic": "Taper, don't stop abruptly",
+         "note": "Benzodiazepines, steroids, beta-blockers and antidepressants need tapering to avoid withdrawal or rebound.",
+         "manas": {
+          "q": "Name drug classes that need tapering when stopped."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-adherence",
+         "topic": "Adherence",
+         "note": "Simple once-daily regimens, clear counselling and checking cost help patients take medicines as intended.",
+         "manas": {
+          "q": "How can adherence be improved?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-antimicrobial-stewardship",
+       "topic": "Antimicrobial stewardship",
+       "note": "Rational prescribing applied to antibiotics.",
+       "children": [
+        {
+         "id": "mdhme602rp-stewardship-basics",
+         "topic": "Stewardship basics",
+         "note": "Right drug, dose, route and duration; take cultures when possible; review at 48–72 hours.",
+         "manas": {
+          "q": "What are the core steps of antibiotic stewardship?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-no-antibiotics-for-colds",
+         "topic": "No antibiotics for colds",
+         "note": "Most upper respiratory infections are viral; antibiotics add harm and drive resistance.",
+         "manas": {
+          "q": "Why avoid antibiotics for the common cold?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Kenya and WHO first, then where others differ.",
+       "children": [
+        {
+         "id": "mdhme602rp-kenya",
+         "topic": "Kenya",
+         "note": "Current KEML with national clinical guidelines; PPB regulates medicines; KEMSA supplies public facilities.",
+         "manas": {
+          "q": "Which documents and bodies guide prescribing in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-who",
+         "topic": "WHO",
+         "note": "Model List for adults and children, updated every two years, with AWaRe guidance for antibiotics.",
+         "manas": {
+          "q": "What WHO tools support rational prescribing?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-united-kingdom",
+         "topic": "United Kingdom",
+         "note": "The BNF and BNF for Children are the standard prescribing references; NICE gives guidance.",
+         "manas": {
+          "q": "What is the standard prescribing reference in the UK?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-india",
+         "topic": "India",
+         "note": "Publishes its own National List of Essential Medicines (latest 2022).",
+         "manas": {
+          "q": "What is India's essential medicines list called?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-older-adult-tools",
+         "topic": "Older-adult tools",
+         "note": "Beers criteria (American Geriatrics Society) and STOPP/START (Europe) flag risky drugs in older people.",
+         "manas": {
+          "q": "Name two tools for spotting inappropriate drugs in older adults."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points.",
+       "children": [
+        {
+         "id": "mdhme602rp-type-a-vs-type-b",
+         "topic": "Type A vs type B",
+         "note": "A is common, dose-related, predictable; B is rare, not dose-related, unpredictable.",
+         "manas": {
+          "q": "Contrast type A and type B ADRs."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-inducers-cause-failure",
+         "topic": "Inducers cause failure",
+         "note": "Adding an inducer can make the other drug fail; stopping it can cause toxicity.",
+         "manas": {
+          "q": "Why can stopping an enzyme inducer cause toxicity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-kenya-link",
+         "topic": "Kenya link",
+         "note": "Rational drug use was defined at a WHO meeting in Nairobi in 1985.",
+         "manas": {
+          "q": "Which Kenyan city hosted the 1985 rational drug use meeting?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602rp-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-10-19.",
+       "children": [
+        {
+         "id": "mdhme602rp-rational-prescribing-teachin",
+         "topic": "Rational prescribing teaching",
+         "note": "Review of 74 studies: 16 used the WHO 6-step model; effect was mostly judged by satisfaction or tests, rarely by behaviour or patient outcomes.",
+         "manas": {
+          "q": "How is rational prescribing teaching usually evaluated?",
+          "ref": "Eur J Clin Pharmacol 2023"
+         },
+         "hyperLink": "https://doi.org/10.1007/s00228-022-03448-2",
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-extra-prescribing-teaching-w",
+         "topic": "Extra prescribing teaching works",
+         "note": "11 of 12 studies found medical students wrote better prescriptions after added teaching; formal teaching and assessment advised.",
+         "manas": {
+          "q": "Does extra prescription-writing teaching help medical students?",
+          "ref": "Med Educ Online 2023"
+         },
+         "hyperLink": "https://doi.org/10.1080/10872981.2023.2259166",
+         "children": []
+        },
+        {
+         "id": "mdhme602rp-deprescribing-trials",
+         "topic": "Deprescribing trials",
+         "note": "Most trials used medication reviews in primary care; just over half beat usual care on at least one main outcome.",
+         "manas": {
+          "q": "How did deprescribing trials in older adults perform?",
+          "ref": "BMJ 2024"
+         },
+         "hyperLink": "https://doi.org/10.1136/bmj-2023-074892",
+         "children": []
+        }
+       ],
+       "manas": {
+        "checked": "2026-10-19"
+       }
+      },
+      {
+       "id": "mdhme602rp-drug-errors-and-prevention-o",
+       "topic": "📖 Drug Errors and Prevention (OpenStax)",
+       "hyperLink": "https://openstax.org/books/pharmacology/pages/3-2-drug-errors-and-prevention",
+       "children": []
+      },
+      {
+       "id": "mdhme602rp-kenya-clinical-guidelines-l4",
+       "topic": "📋 Kenya clinical guidelines (L4–L6)",
+       "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hos600-nonunion-osteomyelitis",
+   "title": "HOS 600 · In depth: Nonunion and chronic osteomyelitis",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1792385850184,
+   "updated": 1792385850184,
+   "library": "mbchb",
+   "deepOf": "med-hos600",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhos600no-root",
+     "topic": "Nonunion and chronic osteomyelitis in depth",
+     "note": "Why fractures fail to heal, how bone infection persists, and how both are investigated and reconstructed. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhos600no-definitions",
+       "topic": "Definitions",
+       "children": [
+        {
+         "id": "mdhos600no-delayed-union",
+         "topic": "Delayed union",
+         "note": "Healing is taking longer than expected for that bone and injury, but is still progressing and may unite without new intervention.",
+         "manas": {
+          "q": "What is delayed union?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-nonunion",
+         "topic": "Nonunion",
+         "note": "Healing has stopped and will not complete without intervention. A widely quoted (FDA) cut-off: at least 9 months after injury with no progress for 3 months.",
+         "manas": {
+          "q": "How is fracture nonunion defined?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-pseudarthrosis",
+         "topic": "Pseudarthrosis",
+         "note": "A long-standing nonunion in which a fibrous or synovium-lined false joint forms between the fragments, allowing painless or painful movement.",
+         "manas": {
+          "q": "What is a pseudarthrosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-chronic-osteomyelitis",
+         "topic": "Chronic osteomyelitis",
+         "note": "Persistent or relapsing bone infection, typically beyond about 6 weeks; its hallmark is dead (necrotic) bone harbouring bacteria.",
+         "manas": {
+          "q": "What is the hallmark of chronic osteomyelitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-fracture-related-infection-fri",
+         "topic": "Fracture-related infection (FRI)",
+         "note": "Infection of a fracture site, with or without implants. Confirmed by a sinus or wound breakdown reaching bone/implant, pus, same organism in ≥2 deep samples, or organisms on histology.",
+         "manas": {
+          "q": "Which findings confirm a fracture-related infection?"
+         },
+         "children": []
+        }
+       ],
+       "note": "Key terms for failed healing and persistent bone infection."
+      },
+      {
+       "id": "mdhos600no-biology-of-healing",
+       "topic": "Biology of healing",
+       "children": [
+        {
+         "id": "mdhos600no-the-diamond-concept",
+         "topic": "The diamond concept",
+         "note": "Healing needs osteogenic cells, an osteoconductive scaffold, osteoinductive growth signals, mechanical stability and an adequate blood supply. Nonunion means one or more is missing.",
+         "manas": {
+          "q": "What are the elements of the 'diamond concept' of fracture healing?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-primary-vs-secondary-healing",
+         "topic": "Primary vs secondary healing",
+         "note": "Absolute stability (compression plating) gives direct healing without callus; relative stability (nails, casts, bridging plates) heals by callus.",
+         "manas": {
+          "q": "Which fixation gives primary bone healing and which gives callus healing?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-perren-strain-theory",
+         "topic": "Perren strain theory",
+         "note": "Tissue formed depends on strain at the gap: under about 2% bone forms, 2–10% cartilage, above 10% only granulation tissue — too much movement blocks union.",
+         "manas": {
+          "q": "What does Perren's strain theory predict?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-biofilm",
+         "topic": "Biofilm",
+         "note": "Bacteria stuck to dead bone or implants live in a protective matrix that resists antibiotics and immune cells — why chronic infection needs surgical removal.",
+         "manas": {
+          "q": "Why can antibiotics alone rarely cure chronic osteomyelitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-usual-organisms",
+         "topic": "Usual organisms",
+         "note": "Staphylococcus aureus is the commonest cause; Salmonella is a classic cause in sickle cell disease; open fractures add Gram-negatives and mixed flora.",
+         "manas": {
+          "q": "Which organisms commonly cause chronic osteomyelitis?"
+         },
+         "children": []
+        }
+       ],
+       "note": "What bone needs to unite, and why infection persists."
+      },
+      {
+       "id": "mdhos600no-classification",
+       "topic": "Classification",
+       "children": [
+        {
+         "id": "mdhos600no-oligotrophic-nonunion",
+         "topic": "Oligotrophic nonunion",
+         "note": "Little or no callus but viable bone ends — often from displacement or a gap; needs reduction and contact, sometimes graft.",
+         "manas": {
+          "q": "What is an oligotrophic nonunion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-infected-nonunion",
+         "topic": "Infected nonunion",
+         "note": "Nonunion with infection: treat both — remove dead bone and implants as needed, control infection, then stabilise and reconstruct.",
+         "manas": {
+          "q": "What are the principles of treating an infected nonunion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-cierny-mader-anatomic-types",
+         "topic": "Cierny–Mader anatomic types",
+         "note": "I medullary, II superficial (cortex surface), III localised full-thickness but stable, IV diffuse and mechanically unstable.",
+         "manas": {
+          "q": "What are the four Cierny–Mader anatomic types of osteomyelitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-cierny-mader-host-classes",
+         "topic": "Cierny–Mader host classes",
+         "note": "A: healthy host. B: local and/or systemic compromise (e.g. diabetes, smoking, poor skin). C: treatment would harm more than the disease.",
+         "manas": {
+          "q": "What are the Cierny–Mader host classes?"
+         },
+         "children": []
+        }
+       ],
+       "note": "Types of nonunion and staging of osteomyelitis."
+      },
+      {
+       "id": "mdhos600no-risk-factors-for-nonunion",
+       "topic": "Risk factors for nonunion",
+       "children": [
+        {
+         "id": "mdhos600no-patient-factors",
+         "topic": "Patient factors",
+         "note": "Smoking, diabetes, obesity, malnutrition and long-term steroids all impair healing; optimise them before reconstruction.",
+         "manas": {
+          "q": "Which patient factors predispose to nonunion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-injury-and-surgical-factors",
+         "topic": "Injury and surgical factors",
+         "note": "Open and high-energy fractures, bone loss, soft-tissue stripping, infection, inadequate stability or a residual gap.",
+         "manas": {
+          "q": "Which injury and surgical factors predispose to nonunion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-bones-at-high-risk",
+         "topic": "Bones at high risk",
+         "note": "Scaphoid waist/proximal pole, distal-third tibia, femoral neck and proximal fifth metatarsal metadiaphysis (Jones) — all have precarious blood supply.",
+         "manas": {
+          "q": "Name four fracture sites prone to nonunion."
+         },
+         "children": []
+        }
+       ],
+       "note": "Patient, injury and surgical factors."
+      },
+      {
+       "id": "mdhos600no-clinical-features",
+       "topic": "Clinical features",
+       "children": [
+        {
+         "id": "mdhos600no-nonunion-presentation",
+         "topic": "Nonunion presentation",
+         "note": "Ongoing pain at the fracture, pain on loading, abnormal movement or deformity, and broken or loosening implants.",
+         "manas": {
+          "q": "How does a nonunion present?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-chronic-osteomyelitis-presentation",
+         "topic": "Chronic osteomyelitis presentation",
+         "note": "Discharging sinus, recurrent flares of pain and swelling, bone thickening and tenderness; fever is often absent between flares.",
+         "manas": {
+          "q": "How does chronic osteomyelitis present?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-low-resource-context",
+         "topic": "Low-resource context",
+         "note": "Late presentation, untreated childhood haematogenous infection and poorly managed open fractures drive much of the burden.",
+         "manas": {
+          "q": "Why is chronic osteomyelitis common in low-resource settings?"
+         },
+         "children": []
+        }
+       ],
+       "note": "How these patients present."
+      },
+      {
+       "id": "mdhos600no-investigations",
+       "topic": "Investigations",
+       "children": [
+        {
+         "id": "mdhos600no-plain-x-rays",
+         "topic": "Plain X-rays",
+         "note": "Persistent fracture line, rounded sclerotic bone ends, absent or non-bridging callus; in infection, periosteal reaction, lytic areas and dense sequestra.",
+         "manas": {
+          "q": "What X-ray signs suggest nonunion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-rust-score",
+         "topic": "RUST score",
+         "note": "Tibial union score: each of 4 cortices on AP and lateral films scores 1–3 (line visible, callus, bridged); total 4–12.",
+         "manas": {
+          "q": "How is the RUST score calculated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-ct-and-mri",
+         "topic": "CT and MRI",
+         "note": "CT confirms bridging and shows sequestra; MRI maps marrow spread, abscesses and sinus tracts.",
+         "manas": {
+          "q": "What do CT and MRI add in nonunion and osteomyelitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-bloods",
+         "topic": "Bloods",
+         "note": "FBC, ESR and CRP; normal values do not exclude low-grade infection. In unexplained atrophic nonunion check glucose, vitamin D, calcium and thyroid.",
+         "manas": {
+          "q": "Do normal ESR and CRP exclude an infected nonunion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-deep-tissue-cultures",
+         "topic": "Deep tissue cultures",
+         "note": "Take several deep samples with separate instruments at surgery; avoid sinus swabs, which grow colonisers. Withhold antibiotics beforehand if clinically safe.",
+         "manas": {
+          "q": "How should samples be taken to diagnose bone infection?"
+         },
+         "children": []
+        }
+       ],
+       "note": "Imaging, bloods and sampling."
+      },
+      {
+       "id": "mdhos600no-managing-nonunion",
+       "topic": "Managing nonunion",
+       "children": [
+        {
+         "id": "mdhos600no-optimise-the-host",
+         "topic": "Optimise the host",
+         "note": "Stop smoking, control diabetes, correct nutrition and vitamin D deficiency before or alongside surgery.",
+         "manas": {
+          "q": "What host measures support nonunion surgery?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-exchange-nailing-and-augmentation",
+         "topic": "Exchange nailing and augmentation",
+         "note": "For aseptic femoral/tibial shaft nonunion after nailing: ream and insert a larger nail, or add a plate around the nail.",
+         "manas": {
+          "q": "How is aseptic shaft nonunion after nailing managed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-autologous-bone-graft",
+         "topic": "Autologous bone graft",
+         "note": "Iliac crest autograft is the gold standard: it is osteogenic, osteoinductive and osteoconductive.",
+         "manas": {
+          "q": "Why is autograft the gold standard bone graft?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-masquelet-technique",
+         "topic": "Masquelet technique",
+         "note": "Stage 1: debride and fill defect with cement spacer; a membrane forms over weeks. Stage 2: remove spacer, pack the membrane with bone graft.",
+         "manas": {
+          "q": "Describe the Masquelet induced-membrane technique."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-ilizarov-bone-transport",
+         "topic": "Ilizarov bone transport",
+         "note": "Circular frame with corticotomy and gradual distraction (distraction osteogenesis) grows new bone to fill defects and corrects deformity.",
+         "manas": {
+          "q": "How does Ilizarov bone transport fill a bone defect?"
+         },
+         "children": []
+        }
+       ],
+       "note": "Fix the mechanics, fix the biology, fix the host."
+      },
+      {
+       "id": "mdhos600no-managing-chronic-osteomyelitis-fri",
+       "topic": "Managing chronic osteomyelitis/FRI",
+       "children": [
+        {
+         "id": "mdhos600no-multidisciplinary-principles",
+         "topic": "Multidisciplinary principles",
+         "note": "Orthopaedic, plastic surgery, microbiology and infectious diseases together: debride, manage dead space, stabilise, cover soft tissue, target antibiotics.",
+         "manas": {
+          "q": "What are the five steps of surgical management of bone infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-debride-to-bleeding-bone",
+         "topic": "Debride to bleeding bone",
+         "note": "Remove all dead bone until punctate cortical bleeding (the 'paprika sign') shows healthy bone.",
+         "manas": {
+          "q": "What is the 'paprika sign'?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-dead-space-options",
+         "topic": "Dead space options",
+         "note": "Antibiotic-loaded PMMA beads/spacers (must be removed later) or absorbable carriers such as calcium sulphate; muscle flaps also fill space.",
+         "manas": {
+          "q": "What options exist for dead space management?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-implant-retention-or-removal",
+         "topic": "Implant retention or removal",
+         "note": "Early infection with a stable implant: debridement, antibiotics and implant retention (DAIR). Late infection or loose implant: remove or exchange.",
+         "manas": {
+          "q": "When can an infected fracture implant be retained?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-antibiotic-duration",
+         "topic": "Antibiotic duration",
+         "note": "Long courses, culture-directed: often about 6 weeks if implants removed and up to 12 weeks if retained.",
+         "manas": {
+          "q": "How long are antibiotics given for fracture-related infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-amputation",
+         "topic": "Amputation",
+         "note": "Considered when the limb cannot be salvaged, the host is class C, or the patient prefers a faster return to function.",
+         "manas": {
+          "q": "When is amputation considered in chronic osteomyelitis?"
+         },
+         "children": []
+        }
+       ],
+       "note": "Surgery first; antibiotics support it."
+      },
+      {
+       "id": "mdhos600no-complications-and-prognosis",
+       "topic": "Complications and prognosis",
+       "children": [
+        {
+         "id": "mdhos600no-local-complications",
+         "topic": "Local complications",
+         "note": "Pathological fracture, limb shortening or angular deformity (physeal damage in children), joint stiffness and chronic pain.",
+         "manas": {
+          "q": "What local complications follow chronic osteomyelitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-secondary-amyloidosis",
+         "topic": "Secondary amyloidosis",
+         "note": "Long-standing suppuration can cause AA amyloidosis, presenting with proteinuria and renal failure.",
+         "manas": {
+          "q": "Which systemic complication can follow years of bone suppuration?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-recurrence",
+         "topic": "Recurrence",
+         "note": "Infection can flare years or decades later, so follow-up is long and 'arrest' is preferred to 'cure'.",
+         "manas": {
+          "q": "Why is chronic osteomyelitis described as arrested rather than cured?"
+         },
+         "children": []
+        }
+       ],
+       "note": "Long-term consequences."
+      },
+      {
+       "id": "mdhos600no-exam-pearls",
+       "topic": "Exam pearls",
+       "children": [
+        {
+         "id": "mdhos600no-every-nonunion-think-infection",
+         "topic": "Every nonunion: think infection",
+         "note": "Screen every nonunion for infection before reconstruction — an occult infection will make grafting fail.",
+         "manas": {
+          "q": "Why must infection be excluded in every nonunion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-sequestrum-on-x-ray",
+         "topic": "Sequestrum on X-ray",
+         "note": "Appears denser (whiter) than surrounding bone because it is dead and not remodelled.",
+         "manas": {
+          "q": "Why does a sequestrum look dense on X-ray?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-atrophic-needs-biology",
+         "topic": "Atrophic needs biology",
+         "note": "Adding stability alone will not heal an atrophic nonunion — it also needs graft or biological stimulation.",
+         "manas": {
+          "q": "Why does rigid fixation alone fail in atrophic nonunion?"
+         },
+         "children": []
+        }
+       ],
+       "note": "High-yield points."
+      },
+      {
+       "id": "mdhos600no-around-the-world",
+       "topic": "🌍 Around the world",
+       "children": [
+        {
+         "id": "mdhos600no-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "The Kenya MoH Clinical Guidelines for Level 4–6 hospitals are the national reference for hospital care; check them for local antibiotic and referral advice.",
+         "manas": {
+          "q": "Which Kenyan guideline is the national reference for Level 4–6 hospital care?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-who-surgical-site-infection",
+         "topic": "WHO surgical site infection",
+         "note": "WHO global SSI guidance advises against prolonging antibiotic prophylaxis after the operation ends.",
+         "manas": {
+          "q": "Does WHO advise continuing prophylactic antibiotics after surgery?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-fri-consensus-group",
+         "topic": "FRI Consensus Group",
+         "note": "International expert group that set the confirmatory and suggestive criteria for fracture-related infection used worldwide.",
+         "manas": {
+          "q": "Who defined the criteria for fracture-related infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600no-fit-for-low-resource-settings",
+         "topic": "Fit for low-resource settings?",
+         "note": "A 2022 review found FRI consensus authors were mostly from high-income countries; core principles still apply, but infrastructure limits standardisation.",
+         "manas": {
+          "q": "How applicable are FRI consensus guidelines to low-income settings?"
+         },
+         "children": []
+        }
+       ],
+       "note": "Kenya and WHO first, then international consensus."
+      },
+      {
+       "id": "mdhos600no-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-10-19.",
+       "children": [
+        {
+         "id": "mdhos600no-risk-factors-for-shaft-nonunion",
+         "topic": "Risk factors for shaft nonunion",
+         "note": "Meta-analysis of 30 studies (38,465 patients): infection raised odds about 7-fold; open fracture, smoking, diabetes and obesity also linked. Evidence mostly low quality.",
+         "manas": {
+          "q": "Which risk factor most raised nonunion odds after operated shaft fractures?",
+          "ref": "EFORT Open Rev 2022"
+         },
+         "children": [],
+         "hyperLink": "https://doi.org/10.1530/eor-21-0137"
+        },
+        {
+         "id": "mdhos600no-one-vs-two-stage-surgery",
+         "topic": "One- vs two-stage surgery",
+         "note": "Review of 42 studies (1,605 adults): pooled cure 91% for long-bone chronic osteomyelitis with no clear difference between single- and two-stage surgery.",
+         "manas": {
+          "q": "Is two-stage surgery better than single-stage for long-bone chronic osteomyelitis?",
+          "ref": "J Orthop Surg Res 2024"
+         },
+         "children": [],
+         "hyperLink": "https://doi.org/10.1186/s13018-024-04832-7"
+        },
+        {
+         "id": "mdhos600no-fri-care-in-lmics",
+         "topic": "FRI care in LMICs",
+         "note": "No low-income country authors on FRI consensus papers; diagnosis approach and team working are achievable, but local evidence is lacking.",
+         "manas": {
+          "q": "Which parts of FRI consensus are achievable in low-resource settings?",
+          "ref": "EFORT Open Rev 2022"
+         },
+         "children": [],
+         "hyperLink": "https://doi.org/10.1530/eor-22-0031"
+        }
+       ],
+       "manas": {
+        "checked": "2026-10-19"
+       }
+      },
+      {
+       "id": "mdhos600no-13-3-bone-fractures-openstax",
+       "topic": "📖 13.3 Bone Fractures (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/13-3-bone-fractures",
+       "children": []
+      },
+      {
+       "id": "mdhos600no-kenya-clinical-guidelines-l4-l6",
+       "topic": "📋 Kenya clinical guidelines (L4–L6)",
+       "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hps600-psychiatric-emergencies",
+   "title": "HPS 600 · In depth: Psychiatric emergencies",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1792385850191,
+   "updated": 1792385850191,
+   "library": "mbchb",
+   "deepOf": "med-hps600",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhps600pe-root",
+     "topic": "Psychiatric emergencies in depth",
+     "note": "Safety first, medical causes next: agitation, suicide, delirium, alcohol withdrawal and drug reactions. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhps600pe-definition-and-first-principles",
+       "topic": "Definition and first principles",
+       "note": "What counts as an emergency and the first steps.",
+       "children": [
+        {
+         "id": "mdhps600pe-psychiatric-emergency",
+         "topic": "Psychiatric emergency",
+         "note": "An acute disturbance of mood, thought or behaviour carrying an immediate risk of harm to self or others, or of serious medical deterioration.",
+         "manas": {
+          "q": "What is a psychiatric emergency?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-safety-of-the-setting",
+         "topic": "Safety of the setting",
+         "note": "Never interview a potentially violent patient alone; keep a clear exit for both of you, know the alarm and remove potential weapons.",
+         "manas": {
+          "q": "How do you make the interview setting safe?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-medical-first",
+         "topic": "Medical first",
+         "note": "Check airway, vital signs and blood glucose early: an 'acute psychiatric' presentation may be hypoglycaemia, hypoxia, infection or intoxication.",
+         "manas": {
+          "q": "Which bedside checks come first in any behavioural emergency?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-agitation-and-de-escalation",
+       "topic": "Agitation and de-escalation",
+       "note": "Calm words before medicines, medicines before restraint.",
+       "children": [
+        {
+         "id": "mdhps600pe-verbal-de-escalation",
+         "topic": "Verbal de-escalation",
+         "note": "One calm staff member speaks; respect personal space, listen, acknowledge feelings, set clear limits and offer real choices (e.g. oral medicine, food, quiet room).",
+         "manas": {
+          "q": "Name key verbal de-escalation techniques."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-physical-restraint",
+         "topic": "Physical restraint",
+         "note": "Last resort: least restrictive, shortest time, trained staff, avoid pressure on chest/neck, continuous observation and full documentation.",
+         "manas": {
+          "q": "What are the safety rules for physical restraint?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-monitoring-after-medication",
+         "topic": "Monitoring after medication",
+         "note": "After rapid tranquillisation check pulse, BP, temperature, respiratory rate, SpO2 and consciousness regularly until the patient is fully alert and active.",
+         "manas": {
+          "q": "What must be monitored after rapid tranquillisation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-medication-hazards",
+         "topic": "Medication hazards",
+         "note": "Benzodiazepines: respiratory depression (flumazenil reverses). Haloperidol: acute dystonia, QT prolongation and arrhythmia — get an ECG when possible.",
+         "manas": {
+          "q": "What are the main risks of IM benzodiazepines and haloperidol?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-suicide-risk-and-immediate-safety",
+       "topic": "Suicide risk and immediate safety",
+       "note": "Assess, then make safe.",
+       "children": [
+        {
+         "id": "mdhps600pe-ask-directly",
+         "topic": "Ask directly",
+         "note": "Asking openly about suicidal thoughts does not plant the idea or raise risk; it often brings relief and opens help.",
+         "manas": {
+          "q": "Does asking about suicide increase suicide risk?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-key-risk-factors",
+         "topic": "Key risk factors",
+         "note": "Previous attempt (strongest predictor), depression and other mental disorder, substance misuse, chronic illness or pain, recent loss, isolation and access to means.",
+         "manas": {
+          "q": "What is the strongest single predictor of suicide?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-what-to-assess",
+         "topic": "What to assess",
+         "note": "Thoughts, plans, intent, preparations, access to means, lethality of any attempt, hopelessness, and protective factors such as family and faith.",
+         "manas": {
+          "q": "What elements make up a suicide risk assessment?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-immediate-safety-steps",
+         "topic": "Immediate safety steps",
+         "note": "If risk is imminent: do not leave alone, remove means (pesticides, drugs, sharps), supervised setting, involve family, safety plan and arrange follow-up.",
+         "manas": {
+          "q": "What immediate steps protect a patient at imminent suicide risk?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-treat-the-self-harm-medically",
+         "topic": "Treat the self-harm medically",
+         "note": "Medical stabilisation comes first — e.g. pesticide (organophosphate) poisoning, a common method in rural low-income settings.",
+         "manas": {
+          "q": "Which self-poisoning is common in low-income rural settings?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-delirium-vs-primary-psychosis",
+       "topic": "Delirium vs primary psychosis",
+       "note": "Exclude an organic cause before labelling psychosis.",
+       "children": [
+        {
+         "id": "mdhps600pe-features-of-delirium",
+         "topic": "Features of delirium",
+         "note": "Acute onset, fluctuating course, inattention and altered consciousness, disorientation, often worse at night; hallucinations are often visual.",
+         "manas": {
+          "q": "What are the core features of delirium?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-red-flags-for-organic-cause",
+         "topic": "Red flags for organic cause",
+         "note": "First episode in later life, sudden onset, abnormal vital signs, disorientation, visual or tactile hallucinations, focal neurology or recent head injury.",
+         "manas": {
+          "q": "Which features suggest an organic cause of acute psychosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-causes-to-exclude",
+         "topic": "Causes to exclude",
+         "note": "Hypoglycaemia, hypoxia, sepsis, cerebral malaria, meningitis/encephalitis, HIV-related CNS infection, intoxication or withdrawal, electrolyte, liver or renal failure, drugs.",
+         "manas": {
+          "q": "List important organic causes to exclude in acute confusion."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-basic-work-up",
+         "topic": "Basic work-up",
+         "note": "Glucose, FBC, electrolytes, renal and liver tests, calcium, malaria test, HIV test, urinalysis; CT and lumbar puncture when indicated.",
+         "manas": {
+          "q": "What basic tests screen for organic causes of acute behaviour change?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-managing-delirium",
+         "topic": "Managing delirium",
+         "note": "Treat the cause, reorient, keep family near, good lighting and sleep; low-dose antipsychotic only for severe distress or danger. Avoid benzos unless alcohol/benzo withdrawal.",
+         "manas": {
+          "q": "How is delirium managed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-efavirenz",
+         "topic": "Efavirenz",
+         "note": "Can cause vivid dreams, insomnia, mood change and occasionally psychosis — check ARV history in people living with HIV.",
+         "manas": {
+          "q": "Which antiretroviral is known for neuropsychiatric side effects?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-alcohol-withdrawal",
+       "topic": "Alcohol withdrawal",
+       "note": "From tremor to delirium tremens.",
+       "children": [
+        {
+         "id": "mdhps600pe-timeline",
+         "topic": "Timeline",
+         "note": "Tremor, sweating and anxiety from 6–24 h after the last drink; seizures mostly 12–48 h; delirium tremens usually from 48–72 h.",
+         "manas": {
+          "q": "What is the timeline of alcohol withdrawal?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-delirium-tremens",
+         "topic": "Delirium tremens",
+         "note": "Confusion, vivid visual or tactile hallucinations, marked autonomic overactivity and fever; potentially fatal medical emergency.",
+         "manas": {
+          "q": "What are the features of delirium tremens?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-benzodiazepine-treatment",
+         "topic": "Benzodiazepine treatment",
+         "note": "First-line: long-acting benzodiazepine (chlordiazepoxide or diazepam); lorazepam if liver failure. CIWA-Ar score can guide symptom-triggered dosing.",
+         "manas": {
+          "q": "What is first-line treatment of alcohol withdrawal?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-wernicke-s-encephalopathy",
+         "topic": "Wernicke's encephalopathy",
+         "note": "Confusion, eye signs (nystagmus, ophthalmoplegia) and ataxia; full triad often absent. Give parenteral thiamine before glucose.",
+         "manas": {
+          "q": "What is the classic triad of Wernicke's encephalopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-korsakoff-syndrome",
+         "topic": "Korsakoff syndrome",
+         "note": "Chronic amnestic state after thiamine deficiency: severe new-learning deficit with confabulation.",
+         "manas": {
+          "q": "What characterises Korsakoff syndrome?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-dangerous-drug-reactions",
+       "topic": "Dangerous drug reactions",
+       "note": "Building on NMS, serotonin syndrome and lithium basics.",
+       "children": [
+        {
+         "id": "mdhps600pe-nms-risk-factors",
+         "topic": "NMS risk factors",
+         "note": "High-potency or depot antipsychotics, rapid dose increase, dehydration, agitation and restraint.",
+         "manas": {
+          "q": "What raises the risk of neuroleptic malignant syndrome?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-nms-complications",
+         "topic": "NMS complications",
+         "note": "Rhabdomyolysis with acute kidney injury, aspiration, DVT/PE and seizures; check CK, renal function and urine for myoglobin.",
+         "manas": {
+          "q": "What are the major complications of NMS?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-restarting-antipsychotic-after-nms",
+         "topic": "Restarting antipsychotic after NMS",
+         "note": "Wait at least 2 weeks after recovery, then a lower-potency or second-generation antipsychotic at a low dose, titrated slowly with close monitoring.",
+         "manas": {
+          "q": "How should antipsychotics be restarted after NMS?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-serotonin-syndrome-triggers",
+         "topic": "Serotonin syndrome triggers",
+         "note": "Combinations of SSRIs/SNRIs with tramadol, MAOIs, linezolid, triptans or other serotonergic drugs, or overdose.",
+         "manas": {
+          "q": "Which drug combinations trigger serotonin syndrome?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-hunter-criteria",
+         "topic": "Hunter criteria",
+         "note": "Diagnosis centres on clonus (spontaneous, inducible or ocular) with agitation, sweating, tremor, hyperreflexia or fever after a serotonergic drug.",
+         "manas": {
+          "q": "Which sign is central to the Hunter criteria for serotonin syndrome?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-treating-serotonin-syndrome",
+         "topic": "Treating serotonin syndrome",
+         "note": "Stop serotonergic drugs, supportive care and benzodiazepines; cyproheptadine (5-HT2A antagonist) in moderate cases; ICU for hyperthermia.",
+         "manas": {
+          "q": "How is serotonin syndrome treated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-lithium-toxicity-features",
+         "topic": "Lithium toxicity features",
+         "note": "Coarse tremor, vomiting, diarrhoea, ataxia, slurred speech, confusion, then seizures and coma.",
+         "manas": {
+          "q": "What are the features of lithium toxicity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-lithium-precipitants",
+         "topic": "Lithium precipitants",
+         "note": "Dehydration, NSAIDs, ACE inhibitors, ARBs and thiazide diuretics raise lithium levels.",
+         "manas": {
+          "q": "Which drugs and states precipitate lithium toxicity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-lithium-levels",
+         "topic": "Lithium levels",
+         "note": "Take 12 h after the last dose. Usual target about 0.4–1.0 mmol/L; toxicity becomes likely above 1.5 mmol/L.",
+         "manas": {
+          "q": "When should a lithium level be taken, and what level suggests toxicity?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-acute-dystonia-and-akathisia",
+       "topic": "Acute dystonia and akathisia",
+       "note": "Early extrapyramidal emergencies.",
+       "children": [
+        {
+         "id": "mdhps600pe-acute-dystonia",
+         "topic": "Acute dystonia",
+         "note": "Within hours to days of starting antipsychotics (especially haloperidol), commoner in young men: torticollis, oculogyric crisis, tongue protrusion, trismus.",
+         "manas": {
+          "q": "What is acute dystonia and who gets it?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-laryngeal-dystonia",
+         "topic": "Laryngeal dystonia",
+         "note": "Rare but life-threatening: stridor and airway compromise — treat urgently.",
+         "manas": {
+          "q": "Which form of acute dystonia threatens life?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-treating-dystonia",
+         "topic": "Treating dystonia",
+         "note": "Parenteral anticholinergic (e.g. procyclidine, benztropine or biperiden) or diphenhydramine; usually resolves within minutes.",
+         "manas": {
+          "q": "How is acute dystonia treated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-akathisia",
+         "topic": "Akathisia",
+         "note": "Inner restlessness with inability to sit still; often mistaken for worsening agitation and linked to impulsivity and suicidality.",
+         "manas": {
+          "q": "Why is akathisia dangerous to miss?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-catatonia",
+       "topic": "Catatonia",
+       "note": "A treatable motor syndrome.",
+       "children": [
+        {
+         "id": "mdhps600pe-features",
+         "topic": "Features",
+         "note": "Stupor, mutism, posturing, waxy flexibility, negativism, staring, echolalia and echopraxia; rated with the Bush–Francis scale.",
+         "manas": {
+          "q": "What are the features of catatonia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-causes",
+         "topic": "Causes",
+         "note": "Mood disorders (commonest), schizophrenia, autism, and medical causes such as encephalitis (including anti-NMDA receptor) and metabolic disease.",
+         "manas": {
+          "q": "What conditions cause catatonia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-lorazepam-challenge",
+         "topic": "Lorazepam challenge",
+         "note": "A benzodiazepine trial is both diagnostic and first-line treatment; a clear response supports catatonia.",
+         "manas": {
+          "q": "What is the first-line treatment of catatonia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-ect",
+         "topic": "ECT",
+         "note": "Used when benzodiazepines fail and urgently in malignant catatonia.",
+         "manas": {
+          "q": "When is ECT used for catatonia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-malignant-catatonia",
+         "topic": "Malignant catatonia",
+         "note": "Catatonia with fever and autonomic instability — overlaps with NMS; avoid antipsychotics and treat as an emergency.",
+         "manas": {
+          "q": "What is malignant catatonia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-medical-complications",
+         "topic": "Medical complications",
+         "note": "Dehydration, malnutrition, DVT/PE, pressure sores, aspiration pneumonia and contractures.",
+         "manas": {
+          "q": "What medical complications occur in catatonia?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points.",
+       "children": [
+        {
+         "id": "mdhps600pe-clonus-vs-rigidity",
+         "topic": "Clonus vs rigidity",
+         "note": "Clonus and hyperreflexia point to serotonin syndrome; lead-pipe rigidity with slow reflexes points to NMS.",
+         "manas": {
+          "q": "Which examination finding separates serotonin syndrome from NMS?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-thiamine-before-glucose",
+         "topic": "Thiamine before glucose",
+         "note": "In malnourished or alcohol-dependent patients give thiamine before or with glucose to avoid precipitating Wernicke's.",
+         "manas": {
+          "q": "Why give thiamine before glucose in alcohol-dependent patients?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-visual-hallucinations-organic",
+         "topic": "Visual hallucinations = organic",
+         "note": "New visual hallucinations suggest delirium, intoxication or withdrawal until proven otherwise.",
+         "manas": {
+          "q": "What do new visual hallucinations suggest?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Kenya and WHO first, then where other guidance differs.",
+       "children": [
+        {
+         "id": "mdhps600pe-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Kenya's National Clinical Guidelines for Management of Common Mental Disorders are the local reference for acute care pathways.",
+         "manas": {
+          "q": "Which Kenyan guideline covers common mental disorders?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-who-mhgap",
+         "topic": "WHO mhGAP",
+         "note": "The mhGAP Intervention Guide supports non-specialists to manage self-harm/suicide, psychosis and substance withdrawal, with explicit emergency steps.",
+         "manas": {
+          "q": "What does WHO mhGAP provide for non-specialist health workers?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-nice-violence-ng10-2015",
+         "topic": "NICE violence (NG10, 2015)",
+         "note": "UK rapid tranquillisation: IM lorazepam alone, or IM haloperidol with IM promethazine, chosen by history and ECG.",
+         "manas": {
+          "q": "Which IM options does NICE NG10 give for rapid tranquillisation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-nice-self-harm-ng225-2022",
+         "topic": "NICE self-harm (NG225, 2022)",
+         "note": "Advises against using risk tools or scales to predict suicide or to decide who gets treatment; focus on needs and safety planning.",
+         "manas": {
+          "q": "What does NICE 2022 say about suicide risk prediction tools?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600pe-bap-catatonia-2023",
+         "topic": "BAP catatonia 2023",
+         "note": "British Association for Psychopharmacology consensus guideline on catatonia: benzodiazepines and ECT central; based mainly on small observational studies.",
+         "manas": {
+          "q": "On what evidence is the 2023 BAP catatonia guideline mostly based?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600pe-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-10-19.",
+       "children": [
+        {
+         "id": "mdhps600pe-from-predicting-to-managing-risk",
+         "topic": "From predicting to managing risk",
+         "note": "Traditional suicide prediction has repeatedly failed; authors propose treating all patients as possibly at risk with person-centred formulation and joint safety plans.",
+         "manas": {
+          "q": "Why do authors argue against suicide risk prediction?",
+          "ref": "Lancet Psychiatry 2022"
+         },
+         "children": [],
+         "hyperLink": "https://doi.org/10.1016/s2215-0366(22)00232-2"
+        },
+        {
+         "id": "mdhps600pe-alcohol-withdrawal-drugs-compared",
+         "topic": "Alcohol withdrawal drugs compared",
+         "note": "Network meta-analysis of 149 trials: several fixed-schedule benzos cut withdrawal seizures, but only fixed-schedule diazepam cut delirium tremens.",
+         "manas": {
+          "q": "Which drug alone reduced delirium tremens in a 149-trial network meta-analysis?",
+          "ref": "Addiction 2022"
+         },
+         "children": [],
+         "hyperLink": "https://doi.org/10.1111/add.15853"
+        },
+        {
+         "id": "mdhps600pe-catatonia-guideline-evidence",
+         "topic": "Catatonia guideline evidence",
+         "note": "BAP consensus covers benzodiazepines, ECT and malignant catatonia; trials are rare, so advice rests mainly on small observational studies, case series and reports.",
+         "manas": {
+          "q": "What evidence underpins catatonia treatment recommendations?",
+          "ref": "J Psychopharmacol 2023"
+         },
+         "children": [],
+         "hyperLink": "https://doi.org/10.1177/02698811231158232"
+        }
+       ],
+       "manas": {
+        "checked": "2026-10-19"
+       }
+      },
+      {
+       "id": "mdhps600pe-11-2-violence-and-safety-openstax",
+       "topic": "📖 11.2 Violence and Safety (OpenStax)",
+       "hyperLink": "https://openstax.org/books/psychiatric-mental-health/pages/11-2-violence-and-safety",
+       "children": []
+      },
+      {
+       "id": "mdhps600pe-10-2-mental-health-legal-issues-openst",
+       "topic": "📖 10.2 Mental health legal issues (OpenStax)",
+       "hyperLink": "https://openstax.org/books/psychiatric-mental-health/pages/10-2-legal-issues-relating-to-mental-health-nursing",
+       "children": []
+      },
+      {
+       "id": "mdhps600pe-kenya-common-mental-disorders-guidelin",
+       "topic": "📋 Kenya common mental disorders guidelines",
+       "hyperLink": "https://mental.health.go.ke/download/national-clinical-guidelines-for-management-of-common-mental-disorders/",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hsu600-acute-abdomen",
+   "title": "HSU 600 · In depth: The acute abdomen",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1792385850194,
+   "updated": 1792385850194,
+   "library": "mbchb",
+   "deepOf": "med-hsu600",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhsu600aa-root",
+     "topic": "The acute abdomen in depth",
+     "note": "Pain mechanisms, causes by site, tests, resuscitation and when to operate. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhsu600aa-definition-and-scope",
+       "topic": "Definition and scope",
+       "note": "What counts as an acute abdomen and what can mimic it.",
+       "children": [
+        {
+         "id": "mdhsu600aa-acute-abdomen",
+         "topic": "Acute abdomen",
+         "note": "Sudden-onset abdominal pain (hours to a few days) from a condition that may need urgent surgery or other urgent intervention.",
+         "manas": {
+          "q": "What is meant by the 'acute abdomen'?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-medical-mimics",
+         "topic": "Medical mimics",
+         "note": "DKA, inferior myocardial infarction, lower-lobe pneumonia, sickle cell crisis, acute porphyria and herpes zoster can all present with abdominal pain.",
+         "manas": {
+          "q": "Name medical conditions that can mimic a surgical acute abdomen."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600aa-mechanism-types-of-pain",
+       "topic": "Mechanism: types of pain",
+       "note": "How abdominal pain is generated and why its site changes.",
+       "children": [
+        {
+         "id": "mdhsu600aa-visceral-pain",
+         "topic": "Visceral pain",
+         "note": "Dull, poorly localised, felt in the midline; comes from stretch or ischaemia of an organ's wall via autonomic afferents.",
+         "manas": {
+          "q": "What are the features of visceral abdominal pain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-embryological-pain-map",
+         "topic": "Embryological pain map",
+         "note": "Foregut organs hurt in the epigastrium, midgut in the periumbilical area, hindgut in the suprapubic area.",
+         "manas": {
+          "q": "Where is visceral pain from foregut, midgut and hindgut organs felt?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-parietal-somatic-pain",
+         "topic": "Parietal (somatic) pain",
+         "note": "Sharp, well localised and worse on movement or coughing; arises when inflammation reaches the parietal peritoneum.",
+         "manas": {
+          "q": "What causes sharp, well-localised abdominal pain worse on movement?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-migrating-appendicitis-pain",
+         "topic": "Migrating appendicitis pain",
+         "note": "Early periumbilical visceral pain shifts to the right iliac fossa once the inflamed appendix irritates parietal peritoneum.",
+         "manas": {
+          "q": "Why does appendicitis pain move from the umbilicus to the right iliac fossa?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-colicky-versus-constant-pain",
+         "topic": "Colicky versus constant pain",
+         "note": "Colicky pain suggests obstruction of a hollow tube (gut, ureter); constant pain suggests inflammation, ischaemia or peritonitis.",
+         "manas": {
+          "q": "What does colicky abdominal pain usually indicate?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600aa-clinical-features-by-cause",
+       "topic": "Clinical features by cause",
+       "note": "Recognising the common patterns.",
+       "children": [
+        {
+         "id": "mdhsu600aa-biliary-murphy-s-sign",
+         "topic": "Biliary: Murphy's sign",
+         "note": "Inspiratory arrest on palpating the right upper quadrant suggests acute cholecystitis.",
+         "manas": {
+          "q": "What is Murphy's sign and what does it suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-pancreatitis-pain",
+         "topic": "Pancreatitis pain",
+         "note": "Severe constant epigastric pain radiating to the back, often eased by leaning forward; gallstones and alcohol are the main causes.",
+         "manas": {
+          "q": "How does acute pancreatitis pain typically present?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-perforated-peptic-ulcer",
+         "topic": "Perforated peptic ulcer",
+         "note": "Sudden severe epigastric pain that rapidly becomes generalised peritonitis; may follow NSAID use.",
+         "manas": {
+          "q": "What is the classic presentation of a perforated peptic ulcer?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-appendicitis-signs",
+         "topic": "Appendicitis signs",
+         "note": "Tenderness at McBurney's point; Rovsing's sign (left iliac pressure causes right-sided pain); psoas and obturator signs for retrocaecal/pelvic sites.",
+         "manas": {
+          "q": "Which signs support acute appendicitis on examination?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-bowel-obstruction-four-featu",
+         "topic": "Bowel obstruction: four features",
+         "note": "Colicky pain, vomiting, abdominal distension and absolute constipation (no stool or flatus).",
+         "manas": {
+          "q": "What are the four cardinal features of intestinal obstruction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-small-versus-large-bowel",
+         "topic": "Small versus large bowel",
+         "note": "Small bowel obstruction: early vomiting, less distension. Large bowel obstruction: early distension and constipation, late vomiting.",
+         "manas": {
+          "q": "How does small bowel obstruction differ clinically from large bowel obstruction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-common-causes-of-obstruction",
+         "topic": "Common causes of obstruction",
+         "note": "Adhesions after surgery and obstructed hernias are leading causes; sigmoid volvulus is an important cause of large bowel obstruction in East Africa.",
+         "manas": {
+          "q": "What are common causes of intestinal obstruction in Kenyan adults?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-intussusception-in-infants",
+         "topic": "Intussusception in infants",
+         "note": "Colicky pain with drawing up of legs, vomiting, a sausage-shaped mass and redcurrant-jelly stool.",
+         "manas": {
+          "q": "What are the classic features of intussusception in an infant?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-ruptured-aortic-aneurysm",
+         "topic": "Ruptured aortic aneurysm",
+         "note": "Older patient with abdominal or back pain, a pulsatile mass and shock; go straight to theatre if unstable.",
+         "manas": {
+          "q": "How does a ruptured abdominal aortic aneurysm present?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600aa-investigations",
+       "topic": "Investigations",
+       "note": "Tests in order, from bedside to imaging.",
+       "children": [
+        {
+         "id": "mdhsu600aa-bedside-tests",
+         "topic": "Bedside tests",
+         "note": "Urine dipstick (infection, blood in stones), capillary glucose and ketones (DKA), ECG (inferior MI).",
+         "manas": {
+          "q": "Which bedside tests should be done in every acute abdomen?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-blood-tests",
+         "topic": "Blood tests",
+         "note": "FBC, urea and electrolytes, LFTs, amylase or lipase, lactate, blood gas, and group and crossmatch if surgery is likely.",
+         "manas": {
+          "q": "Which blood tests are routine in an acute abdomen?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-amylase-lipase-cut-off",
+         "topic": "Amylase/lipase cut-off",
+         "note": "A level over three times the upper limit of normal, with typical pain, supports acute pancreatitis.",
+         "manas": {
+          "q": "What amylase or lipase level supports acute pancreatitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-abdominal-x-ray-3-6-9-rule",
+         "topic": "Abdominal X-ray: 3-6-9 rule",
+         "note": "Dilated if small bowel >3 cm, colon >6 cm, caecum >9 cm.",
+         "manas": {
+          "q": "What is the 3-6-9 rule on abdominal X-ray?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-small-bowel-vs-colon-on-x-ra",
+         "topic": "Small bowel vs colon on X-ray",
+         "note": "Small bowel: central, valvulae conniventes cross the full width. Colon: peripheral, haustra cross only part of the width.",
+         "manas": {
+          "q": "How do you tell dilated small bowel from colon on X-ray?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-coffee-bean-sign",
+         "topic": "Coffee-bean sign",
+         "note": "A large inverted-U loop arising from the pelvis on abdominal X-ray suggests sigmoid volvulus.",
+         "manas": {
+          "q": "What does the coffee-bean sign on abdominal X-ray suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-ultrasound-first",
+         "topic": "Ultrasound first",
+         "note": "Ultrasound is first choice for gallstones, cholecystitis and gynaecological causes, and avoids radiation in pregnancy and children.",
+         "manas": {
+          "q": "For which suspected causes is ultrasound the first imaging test?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-ct-abdomen",
+         "topic": "CT abdomen",
+         "note": "Contrast CT is the most informative test for many adult causes, e.g. perforation, obstruction level and ischaemia, if the patient is stable.",
+         "manas": {
+          "q": "What is the most informative imaging test in a stable adult with an acute abdomen?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-alvarado-score",
+         "topic": "Alvarado score",
+         "note": "Migration, anorexia, nausea/vomiting, RIF tenderness (2), rebound, fever, leucocytosis (2), left shift. Total 10; ≥7 makes appendicitis likely.",
+         "manas": {
+          "q": "What are the components of the Alvarado score for appendicitis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600aa-management",
+       "topic": "Management",
+       "note": "Resuscitate first, then decide on theatre.",
+       "children": [
+        {
+         "id": "mdhsu600aa-initial-resuscitation",
+         "topic": "Initial resuscitation",
+         "note": "ABC, IV access and crystalloid, analgesia, nil by mouth, catheter to monitor urine output, antibiotics if peritonitis or sepsis.",
+         "manas": {
+          "q": "What are the first steps in managing a sick patient with an acute abdomen?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-analgesia-is-safe",
+         "topic": "Analgesia is safe",
+         "note": "Trials show early opioid analgesia does not reduce diagnostic accuracy or worsen management decisions; do not withhold it awaiting surgical review.",
+         "manas": {
+          "q": "Should analgesia be withheld until the surgeon examines the patient?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-nasogastric-tube",
+         "topic": "Nasogastric tube",
+         "note": "Decompresses the stomach in obstruction or persistent vomiting and reduces aspiration risk.",
+         "manas": {
+          "q": "Why insert a nasogastric tube in bowel obstruction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-indications-for-laparotomy",
+         "topic": "Indications for laparotomy",
+         "note": "Generalised peritonitis, free gas with peritonitis, strangulated obstruction, or haemodynamic instability from intra-abdominal bleeding.",
+         "manas": {
+          "q": "What are indications for urgent laparotomy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-adhesive-obstruction",
+         "topic": "Adhesive obstruction",
+         "note": "Without signs of strangulation, a trial of conservative care (drip and suck) is usual; operate if it fails or strangulation appears.",
+         "manas": {
+          "q": "How is uncomplicated adhesive small bowel obstruction first managed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-sigmoid-volvulus",
+         "topic": "Sigmoid volvulus",
+         "note": "If bowel is viable: endoscopic detorsion and a flatus tube, then planned sigmoid colectomy because recurrence is common. Gangrene needs resection.",
+         "manas": {
+          "q": "How is sigmoid volvulus managed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-perforated-ulcer-repair",
+         "topic": "Perforated ulcer repair",
+         "note": "Usually closure with an omental patch, then H. pylori eradication and acid suppression.",
+         "manas": {
+          "q": "What is the usual operation for a perforated peptic ulcer?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600aa-complications-and-prognosis",
+       "topic": "Complications and prognosis",
+       "note": "What goes wrong and who does worse.",
+       "children": [
+        {
+         "id": "mdhsu600aa-signs-of-strangulation",
+         "topic": "Signs of strangulation",
+         "note": "Pain becomes constant, with fever, tachycardia, localised tenderness or peritonism, rising WBC and lactate.",
+         "manas": {
+          "q": "Which features suggest strangulated bowel obstruction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-postoperative-complications",
+         "topic": "Postoperative complications",
+         "note": "Sepsis, intra-abdominal abscess, wound infection or burst abdomen, anastomotic leak, fistula, AKI and later adhesions.",
+         "manas": {
+          "q": "List complications after emergency abdominal surgery."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-blunted-signs",
+         "topic": "Blunted signs",
+         "note": "Elderly, immunosuppressed, steroid-treated and diabetic patients may have few signs despite serious pathology.",
+         "manas": {
+          "q": "Which patients may show few abdominal signs despite serious disease?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600aa-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points for wards and exams.",
+       "children": [
+        {
+         "id": "mdhsu600aa-check-hernial-orifices",
+         "topic": "Check hernial orifices",
+         "note": "Always examine hernial orifices and the external genitalia; an obstructed hernia or testicular torsion is easily missed.",
+         "manas": {
+          "q": "Which areas must be examined in every acute abdomen?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-amylase-is-not-specific",
+         "topic": "Amylase is not specific",
+         "note": "Amylase can also rise in perforated ulcer, mesenteric ischaemia and ruptured ectopic, so interpret it with the clinical picture.",
+         "manas": {
+          "q": "Name non-pancreatic causes of a raised serum amylase."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600aa-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhsu600aa-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Follow the MoH Clinical Guidelines for Level 4–6 hospitals, linked below, and your local surgical protocol.",
+         "manas": {
+          "q": "Which Kenyan guideline covers hospital care of surgical emergencies?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-who-typhoid-vaccine",
+         "topic": "WHO: typhoid vaccine",
+         "note": "WHO recommends typhoid conjugate vaccine in endemic countries, which should cut typhoid and its perforations.",
+         "manas": {
+          "q": "What WHO-recommended vaccine can reduce typhoid perforation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-wses-international",
+         "topic": "WSES (international)",
+         "note": "The World Society of Emergency Surgery issues appendicitis (Jerusalem) and adhesive obstruction (Bologna) guidelines.",
+         "manas": {
+          "q": "Which society publishes the Jerusalem and Bologna guidelines?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-uk-nela",
+         "topic": "UK: NELA",
+         "note": "The UK National Emergency Laparotomy Audit tracks outcomes and promotes formal risk assessment before emergency laparotomy.",
+         "manas": {
+          "q": "What does the UK National Emergency Laparotomy Audit do?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600aa-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-10-19.",
+       "manas": {
+        "checked": "2026-10-19"
+       },
+       "children": [
+        {
+         "id": "mdhsu600aa-antibiotics-first-for-append",
+         "topic": "Antibiotics-first for appendicitis",
+         "note": "Cochrane (13 RCTs): about 31% of antibiotic-treated patients needed appendicectomy within a year (very uncertain); wound infections may be fewer (low certainty).",
+         "manas": {
+          "q": "In the 2024 Cochrane review, what share of antibiotic-treated patients needed appendicectomy in a year?",
+          "ref": "Cochrane Database Syst Rev 2024"
+         },
+         "hyperLink": "https://doi.org/10.1002/14651858.cd015038.pub2",
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-pocus-for-small-bowel-obstru",
+         "topic": "POCUS for small bowel obstruction",
+         "note": "Pooled patient data (5 studies): emergency POCUS had about 83% sensitivity and 93% specificity for SBO; less sensitive with residents and at BMI ≥30.",
+         "manas": {
+          "q": "How accurate is point-of-care ultrasound for small bowel obstruction?",
+          "ref": "Am J Emerg Med 2023"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.ajem.2023.05.039",
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-early-routine-ct",
+         "topic": "Early routine CT",
+         "note": "Meta-analysis of 3 RCTs (570 patients): early routine CT gave more correct diagnoses at 24 h and lower 6-month mortality than selective CT.",
+         "manas": {
+          "q": "What did RCTs show for early routine CT in acute abdominal pain?",
+          "ref": "Int J Surg 2022"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.ijsu.2022.106622",
+         "children": []
+        },
+        {
+         "id": "mdhsu600aa-typhoid-perforation-in-afric",
+         "topic": "Typhoid perforation in Africa",
+         "note": "Review of 32 studies (Francophone Africa): typhoid perforation caused a median 35% of peritonitis cases; median mortality 16%; mostly young people.",
+         "manas": {
+          "q": "What share of peritonitis did typhoid perforation cause in the 2024 African review?",
+          "ref": "PLOS Glob Public Health 2024"
+         },
+         "hyperLink": "https://doi.org/10.1371/journal.pgph.0003056",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600aa-lower-gi-disorders-openstax",
+       "topic": "📖 Lower GI disorders (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+       "children": []
+      },
+      {
+       "id": "mdhsu600aa-upper-gi-disorders-openstax",
+       "topic": "📖 Upper GI disorders (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/19-4-disorders-of-the-upper-gi-system",
+       "children": []
+      },
+      {
+       "id": "mdhsu600aa-kenya-clinical-guidelines-l4",
+       "topic": "📋 Kenya clinical guidelines (L4–L6)",
+       "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hsu603-diabetic-retinopathy",
+   "title": "HSU 603 · In depth: Diabetic retinopathy",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1792385850197,
+   "updated": 1792385850197,
+   "library": "mbchb",
+   "deepOf": "med-hsu603",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhsu603dr-root",
+     "topic": "Diabetic retinopathy in depth",
+     "note": "Staging, mechanism, signs, imaging, laser, anti-VEGF and screening worldwide. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhsu603dr-definition-and-classificatio",
+       "topic": "Definition and classification",
+       "note": "How diabetic eye disease is named and staged.",
+       "children": [
+        {
+         "id": "mdhsu603dr-diabetic-retinopathy",
+         "topic": "Diabetic retinopathy",
+         "note": "Progressive damage to the retinal small vessels caused by chronic hyperglycaemia; a microvascular complication of diabetes.",
+         "manas": {
+          "q": "What is diabetic retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-two-main-stages",
+         "topic": "Two main stages",
+         "note": "Non-proliferative (mild, moderate, severe) and proliferative, defined by new vessel growth.",
+         "manas": {
+          "q": "What are the two main stages of diabetic retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-macular-oedema-is-separate",
+         "topic": "Macular oedema is separate",
+         "note": "Diabetic macular oedema is graded separately and can occur at any stage of retinopathy.",
+         "manas": {
+          "q": "Can diabetic macular oedema occur without proliferative retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-centre-involving-dmo",
+         "topic": "Centre-involving DMO",
+         "note": "Oedema involving the central fovea threatens reading vision and is the main target for anti-VEGF treatment.",
+         "manas": {
+          "q": "Why does centre-involving macular oedema matter?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu603dr-mechanism",
+       "topic": "Mechanism",
+       "note": "From high glucose to new vessels.",
+       "children": [
+        {
+         "id": "mdhsu603dr-early-vessel-damage",
+         "topic": "Early vessel damage",
+         "note": "Hyperglycaemia causes pericyte loss and basement membrane thickening, weakening capillary walls and forming microaneurysms.",
+         "manas": {
+          "q": "Which cellular changes cause microaneurysms in diabetic retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-leakage",
+         "topic": "Leakage",
+         "note": "A broken blood–retinal barrier lets fluid and lipid leak out, giving retinal thickening (oedema) and hard exudates.",
+         "manas": {
+          "q": "What causes hard exudates and macular oedema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-capillary-closure-and-ischae",
+         "topic": "Capillary closure and ischaemia",
+         "note": "Capillaries close, the retina becomes ischaemic and releases VEGF.",
+         "manas": {
+          "q": "What links retinal ischaemia to new vessel growth?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-cotton-wool-spots",
+         "topic": "Cotton wool spots",
+         "note": "Fluffy white patches from infarcts of the nerve fibre layer, where axoplasmic flow stops; a sign of ischaemia.",
+         "manas": {
+          "q": "What are cotton wool spots?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-fragile-new-vessels",
+         "topic": "Fragile new vessels",
+         "note": "New vessels grow onto the retina, disc or iris; they bleed easily and pull on the retina as fibrous tissue contracts.",
+         "manas": {
+          "q": "Why are new vessels in proliferative retinopathy dangerous?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu603dr-clinical-features",
+       "topic": "Clinical features",
+       "note": "Often silent until late.",
+       "children": [
+        {
+         "id": "mdhsu603dr-asymptomatic-early",
+         "topic": "Asymptomatic early",
+         "note": "Vision is usually normal until macular oedema or bleeding occurs, which is why screening is essential.",
+         "manas": {
+          "q": "Why is screening needed in diabetic retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-symptoms",
+         "topic": "Symptoms",
+         "note": "Gradual blurring (macular oedema), sudden floaters or painless vision loss (vitreous haemorrhage), a curtain (retinal detachment).",
+         "manas": {
+          "q": "What symptoms suggest vision-threatening diabetic eye disease?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-severe-npdr-4-2-1-rule",
+         "topic": "Severe NPDR: 4-2-1 rule",
+         "note": "Haemorrhages in all 4 quadrants, venous beading in 2 or more, or IRMA in 1 or more quadrant.",
+         "manas": {
+          "q": "What is the 4-2-1 rule for severe non-proliferative retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-irma",
+         "topic": "IRMA",
+         "note": "Intraretinal microvascular abnormalities: dilated shunt vessels within the retina near closed capillaries; they signal severe ischaemia.",
+         "manas": {
+          "q": "What are IRMA?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-rubeosis-iridis",
+         "topic": "Rubeosis iridis",
+         "note": "New vessels on the iris can block the drainage angle and cause painful neovascular glaucoma.",
+         "manas": {
+          "q": "What is rubeosis iridis and what can it cause?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu603dr-investigations",
+       "topic": "Investigations",
+       "note": "Examining the eye and the patient.",
+       "children": [
+        {
+         "id": "mdhsu603dr-dilated-fundoscopy",
+         "topic": "Dilated fundoscopy",
+         "note": "Dilate the pupils (e.g. tropicamide) and examine the retina, including the macula and periphery.",
+         "manas": {
+          "q": "How should the retina be examined for diabetic retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-fundus-photography",
+         "topic": "Fundus photography",
+         "note": "Digital retinal photographs, graded by trained staff or AI, are the basis of screening programmes.",
+         "manas": {
+          "q": "What is the main tool of diabetic eye screening programmes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-oct",
+         "topic": "OCT",
+         "note": "Optical coherence tomography measures retinal thickness and detects and monitors macular oedema.",
+         "manas": {
+          "q": "Which test best detects and monitors diabetic macular oedema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-fluorescein-angiography",
+         "topic": "Fluorescein angiography",
+         "note": "Shows leakage, capillary non-perfusion and new vessels; used when planning treatment.",
+         "manas": {
+          "q": "What does fluorescein angiography show in diabetic retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-b-scan-ultrasound",
+         "topic": "B-scan ultrasound",
+         "note": "Used when vitreous haemorrhage blocks the view, to check for retinal detachment.",
+         "manas": {
+          "q": "When is B-scan ultrasound used in diabetic eye disease?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-systemic-work-up",
+         "topic": "Systemic work-up",
+         "note": "HbA1c, blood pressure, lipids, renal function and urine albumin; retinopathy and nephropathy often coexist.",
+         "manas": {
+          "q": "Which systemic tests matter in a patient with diabetic retinopathy?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu603dr-management",
+       "topic": "Management",
+       "note": "Systemic control plus eye treatment.",
+       "children": [
+        {
+         "id": "mdhsu603dr-control-glucose-bp-lipids",
+         "topic": "Control glucose, BP, lipids",
+         "note": "Better glycaemic and blood pressure control slows onset and progression; joint care with the diabetes team.",
+         "manas": {
+          "q": "Which systemic measures slow diabetic retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-early-worsening",
+         "topic": "Early worsening",
+         "note": "A rapid large fall in HbA1c can briefly worsen retinopathy; review the eyes when intensifying treatment.",
+         "manas": {
+          "q": "What can happen to retinopathy when HbA1c falls rapidly?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-fenofibrate",
+         "topic": "Fenofibrate",
+         "note": "In type 2 diabetes, fenofibrate cut the need for laser (FIELD) and slowed retinopathy progression when added to a statin (ACCORD-Eye).",
+         "manas": {
+          "q": "Which lipid drug slowed retinopathy progression in type 2 diabetes trials?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-anti-vegf-agents",
+         "topic": "Anti-VEGF agents",
+         "note": "Bevacizumab, ranibizumab and aflibercept are given by intravitreal injection for centre-involving DMO with reduced vision.",
+         "manas": {
+          "q": "Name intravitreal anti-VEGF drugs used for diabetic macular oedema."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-steroid-implants",
+         "topic": "Steroid implants",
+         "note": "Intravitreal dexamethasone is an option for DMO not responding to anti-VEGF, especially in pseudophakic eyes; watch for raised IOP and cataract.",
+         "manas": {
+          "q": "When are intravitreal steroids used for diabetic macular oedema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-prp-side-effects",
+         "topic": "PRP side effects",
+         "note": "Panretinal laser can reduce peripheral field and night vision and may worsen macular oedema.",
+         "manas": {
+          "q": "What are the side effects of panretinal photocoagulation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-anti-vegf-for-pdr",
+         "topic": "Anti-VEGF for PDR",
+         "note": "The DRCR Protocol S trial found ranibizumab non-inferior to PRP for vision in PDR at 2 years, but it needs frequent visits.",
+         "manas": {
+          "q": "What did Protocol S show about anti-VEGF versus PRP for PDR?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-vitrectomy",
+         "topic": "Vitrectomy",
+         "note": "For non-clearing vitreous haemorrhage and traction detachment threatening the macula.",
+         "manas": {
+          "q": "What are the indications for vitrectomy in diabetic retinopathy?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu603dr-complications-and-prognosis",
+       "topic": "Complications and prognosis",
+       "note": "What leads to blindness.",
+       "children": [
+        {
+         "id": "mdhsu603dr-blinding-complications",
+         "topic": "Blinding complications",
+         "note": "Macular oedema, vitreous haemorrhage, tractional retinal detachment and neovascular glaucoma.",
+         "manas": {
+          "q": "What are the sight-threatening complications of diabetic retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-pregnancy",
+         "topic": "Pregnancy",
+         "note": "Retinopathy can progress quickly in pregnancy; examine early and in each trimester if retinopathy is present.",
+         "manas": {
+          "q": "How should retinopathy be monitored in pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-cataract-surgery",
+         "topic": "Cataract surgery",
+         "note": "Can worsen retinopathy and macular oedema; control DMO before and monitor after surgery.",
+         "manas": {
+          "q": "How can cataract surgery affect diabetic eye disease?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-prognosis",
+         "topic": "Prognosis",
+         "note": "Timely laser or anti-VEGF greatly lowers the risk of severe vision loss; late presentation is the main problem.",
+         "manas": {
+          "q": "What most improves visual prognosis in diabetic retinopathy?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu603dr-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points.",
+       "children": [
+        {
+         "id": "mdhsu603dr-versus-hypertensive-retinopa",
+         "topic": "Versus hypertensive retinopathy",
+         "note": "Hypertensive: arteriolar narrowing, AV nipping, flame haemorrhages, disc swelling if severe. Diabetic: microaneurysms, dot-blot haemorrhages.",
+         "manas": {
+          "q": "How do hypertensive and diabetic retinopathy differ on fundoscopy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-good-vision-no-disease",
+         "topic": "Good vision ≠ no disease",
+         "note": "Proliferative retinopathy can be present with 6/6 vision; never skip fundoscopy because acuity is normal.",
+         "manas": {
+          "q": "Can a patient with 6/6 vision have proliferative retinopathy?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu603dr-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhsu603dr-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Follow the MoH National Clinical Guidelines on Management of Diabetes (2024), linked on the course map, for local eye screening and referral.",
+         "manas": {
+          "q": "Which Kenyan guideline sets diabetic eye screening?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-ico",
+         "topic": "ICO",
+         "note": "The International Council of Ophthalmology gives resource-graded diabetic eye care guidance for low- and high-resource settings.",
+         "manas": {
+          "q": "Which international body gives resource-graded diabetic eye care guidance?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-ada-usa",
+         "topic": "ADA (USA)",
+         "note": "Screen type 1 within 5 years of onset, type 2 at diagnosis; every 1–2 years if no retinopathy and good control; approved AI systems are an option.",
+         "manas": {
+          "q": "How often does ADA allow screening if there is no retinopathy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-uk-nhs-screening",
+         "topic": "UK NHS screening",
+         "note": "Annual retinal photography from age 12, now extended to two-yearly for low-risk people with no retinopathy on two screens.",
+         "manas": {
+          "q": "How has UK diabetic eye screening changed for low-risk people?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu603dr-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-10-19.",
+       "manas": {
+        "checked": "2026-10-19"
+       },
+       "children": [
+        {
+         "id": "mdhsu603dr-dr-in-sub-saharan-africa",
+         "topic": "DR in sub-Saharan Africa",
+         "note": "Meta-analysis of 30 studies (18 countries): about 1 in 4 adults with diabetes had DR; East Africa was highest at about 32%.",
+         "manas": {
+          "q": "About what share of adults with diabetes in sub-Saharan Africa have retinopathy?",
+          "ref": "BMC Ophthalmol 2025"
+         },
+         "hyperLink": "https://doi.org/10.1186/s12886-025-04589-5",
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-ai-screening-in-real-life",
+         "topic": "AI screening in real life",
+         "note": "34 real-world studies: AI grading of fundus photos had about 94% sensitivity and 89% specificity for DR on gradable images.",
+         "manas": {
+          "q": "How accurate is AI diabetic retinopathy screening in real-world studies?",
+          "ref": "Am J Ophthalmol 2024"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.ajo.2024.02.012",
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-ai-in-low-income-countries",
+         "topic": "AI in low-income countries",
+         "note": "81 LMIC studies: AI accuracy was generally high, but evidence on cost, regulation and patient outcomes was thin.",
+         "manas": {
+          "q": "What is missing from the evidence on AI retinopathy screening in LMICs?",
+          "ref": "BMJ Open Diabetes Res Care 2023"
+         },
+         "hyperLink": "https://doi.org/10.1136/bmjdrc-2023-003424",
+         "children": []
+        },
+        {
+         "id": "mdhsu603dr-anti-vegf-in-the-real-world",
+         "topic": "Anti-VEGF in the real world",
+         "note": "Real-world DMO results lag trials due to undertreatment and poor follow-up; LMICs also face cost and travel barriers.",
+         "manas": {
+          "q": "Why are real-world anti-VEGF results for DMO worse than in trials?",
+          "ref": "Ophthalmol Ther 2023"
+         },
+         "hyperLink": "https://doi.org/10.1007/s40123-023-00672-6",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y6"
   }
  ]
 }
