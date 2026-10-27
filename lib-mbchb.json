@@ -15694,7 +15694,7 @@
          "id": "med-medhhp302-0-6",
          "topic": "Immune reconstitution inflammatory syndrome",
          "children": [],
-         "note": "Paradoxical worsening of an opportunistic infection (e.g. TB, cryptococcus) after starting ART as immunity recovers.",
+         "note": "Inflammatory worsening after starting ART as immunity recovers: either paradoxical worsening of a known, treated infection (e.g. TB, cryptococcus) or unmasking of an infection that was not yet diagnosed.",
          "manas": {
           "q": "What is IRIS?"
          }
@@ -27102,7 +27102,7 @@
          "id": "med-medhhp604-2-1",
          "topic": "Marbling",
          "children": [],
-         "note": "Branching green-purple pattern of superficial veins from haemolysed blood, about 36–48 h after death.",
+         "note": "Branching green-purple pattern of superficial veins from haemolysed blood, usually appearing about 1–3 days after death (sooner in heat).",
          "manas": {
           "q": "What is marbling in decomposition?"
          }

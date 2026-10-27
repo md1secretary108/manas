@@ -11,11 +11,31 @@
    "about": {
     "by": "His Divine Grace A. C. Bhaktivedanta Swami Prabhupada (books, classes); structure and links from vedabase.io and vanimedia.org",
     "from": "Book structure, chapter titles and recordings on vedabase.io and vanimedia.org; summaries and verse notes written for Manas",
-    "review": "reviewed",
+    "review": "review in progress",
     "date": "28 Sep 2026"
    },
-   "v": 1792519836,
-   "whatsNew": "New: Gita Index — Chapter 1 by topic and by section, verse and purport"
+   "v": 1792583870,
+   "whatsNew": "Corrections from a fact check"
+  },
+  {
+   "id": "pbio",
+   "title": "Śrīla Prabhupāda’s life — introductory course · draft",
+   "subtitle": "Draft for review: his life in 8 periods and 82 events, from Calcutta 1896 to Vṛndāvana 1977 — each event dated, in our own words, linked to the Līlāmṛta on vedabase.io — plus the same events by theme (his guru’s order, books, hardship, founding ISKCON, India, his qualities, legacy) with people and places.",
+   "icon": "🪷",
+   "file": "lib-pbio.json",
+   "root": "pbio-root",
+   "draft": true,
+   "about": {
+    "by": "Manas, for newcomers, students and teachers",
+    "from": "Śrīla Prabhupāda-līlāmṛta on vedabase.io (facts); notes in our own words",
+    "review": "Draft · review in progress",
+    "date": "27 Oct 2026"
+   },
+   "parts": 1,
+   "v": 1793110029,
+   "meta": "4 maps · 999 ideas · 304 KB · 1 subjects",
+   "whatsNew": "New draft course — reviewers wanted",
+   "split": "lib-pbio-index.json"
   },
   {
    "id": "bdds",
@@ -29,11 +49,11 @@
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
-    "review": "more on the way",
+    "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1792298461,
-   "whatsNew": "Library rebuilt",
+   "v": 1792583881,
+   "whatsNew": "Corrections from a fact check",
    "split": "lib-bdds-index.json"
   },
   {
@@ -48,11 +68,11 @@
    "about": {
     "by": "HG Sri Gauranga Das (classes, Nairobi); maps by Manas with his blessings",
     "from": "His recorded classes on YouTube (@srigauranga.nairobi); notes in Manas’s own words",
-    "review": "more on the way",
+    "review": "more on the way · summaries: review in progress",
     "date": "14 Oct 2026"
    },
-   "v": 1792138163,
-   "whatsNew": "Library rebuilt",
+   "v": 1792583870,
+   "whatsNew": "Corrections from a fact check",
    "split": "lib-sgd-index.json"
   },
   {
@@ -70,8 +90,8 @@
     "date": "28 Sep 2026"
    },
    "parts": 6,
-   "v": 1792385850,
-   "whatsNew": "6 new in-depth topics: skin lesions, rational prescribing, nonunion and osteomyelitis, psychiatric emergencies, acute abdomen, diabetic retinopathy",
+   "v": 1792583870,
+   "whatsNew": "Corrections from a fact check",
    "split": "lib-mbchb-index.json"
   },
   {
@@ -87,10 +107,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New library: Accounting from basics to CPA — first 5 maps, more every day",
+   "whatsNew": "Corrections from a fact check",
    "meta": "61 maps · 3,554 ideas · 761 KB · 4 subjects",
    "parts": 4,
-   "v": 1792475941,
+   "v": 1792583870,
    "split": "lib-acc-index.json"
   },
   {
@@ -106,7 +126,9 @@
     "from": "CA31 tutorial notes (Topics 5, 6, 7) restated in Manas’s own words; KASNEB paper structure",
     "review": "review in progress",
     "date": "6 Oct 2026"
-   }
+   },
+   "v": 1792583870,
+   "whatsNew": "Corrections from a fact check"
   },
   {
    "id": "soil",
@@ -115,8 +137,8 @@
    "icon": "🌱",
    "file": "lib-soil.json",
    "root": "soil-root",
-   "v": 1792520268,
-   "whatsNew": "Links between subjects now open the right subject (adds it if needed)",
+   "v": 1792583870,
+   "whatsNew": "Corrections from a fact check",
    "meta": "76 maps · 5,574 ideas · 1.3 MB · 11 subjects",
    "about": {
     "by": "Manas, for organic and biological farming teams",
@@ -134,7 +156,7 @@
    "icon": "🤖",
    "file": "lib-ai.json",
    "root": "ai-root",
-   "whatsNew": "New library: AI in 9 subjects, beginner and technical tracks",
+   "whatsNew": "Corrections from a fact check",
    "about": {
     "by": "Manas, for anyone learning AI — beginners and students",
     "from": "Wikipedia, research papers (Europe PMC), free courses; YouTube videos from universities and well-known teachers",
@@ -142,9 +164,49 @@
     "date": "14 Oct 2026"
    },
    "parts": 9,
-   "v": 1792475354,
+   "v": 1792583870,
    "meta": "57 maps · 3,281 ideas · 746 KB · 9 subjects",
    "split": "lib-ai-index.json"
+  },
+  {
+   "id": "law",
+   "title": "Law — LLB core courses (Kenya) · draft",
+   "subtitle": "Draft for review: all 16 core LLB courses on the Council of Legal Education list — Year 1 foundations (Legal Systems, Research and Writing, Contract, Torts, Criminal, Constitutional) and the later courses (Family and Succession, Evidence, Commercial, Business Associations, Administrative, Jurisprudence, Equity and Trusts, Property, International, Labour) — with Constitution Articles, classic cases, worked problem questions, flashcards and videos.",
+   "icon": "⚖️",
+   "file": "lib-law.json",
+   "root": "law-root",
+   "draft": true,
+   "about": {
+    "by": "Manas, for Kenyan LLB students",
+    "from": "Own-words notes; Constitution Articles from klrc.go.ke; classic cases from Wikipedia; YouTube teachers",
+    "review": "Draft · review in progress",
+    "date": "23 Oct 2026"
+   },
+   "whatsNew": "Ten more core courses (years 2–4) — reviewers wanted",
+   "meta": "33 maps · 2,012 ideas · 527 KB · 16 subjects",
+   "parts": 16,
+   "v": 1793109129,
+   "split": "lib-law-index.json"
+  },
+  {
+   "id": "cbc",
+   "title": "School in Kenya — CBC, nursery to senior school · draft",
+   "subtitle": "Draft for review: each CBC level from pre-primary to senior school — what children learn, how they are assessed, pathways, and how parents can help.",
+   "icon": "🏫",
+   "file": "lib-cbc.json",
+   "root": "cbc-root",
+   "draft": true,
+   "about": {
+    "by": "Manas, for parents, teachers and older learners",
+    "from": "Own-words notes from KICD curriculum design pages (kicd.ac.ke); YouTube",
+    "review": "Draft · review in progress",
+    "date": "23 Oct 2026"
+   },
+   "whatsNew": "New draft library — reviewers wanted",
+   "meta": "13 maps · 719 ideas · 156 KB · 6 subjects",
+   "parts": 6,
+   "v": 1792755563,
+   "split": "lib-cbc-index.json"
   }
  ]
 }

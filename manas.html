@@ -5,7 +5,7 @@
 <meta name="author" content="Kewal Bhatt (Kaivalya Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.15-9391b7720a43112a1e050500"><meta name="theme-color" content="#22203A">
+<meta name="manas-stamp" content="7.16-db633734df30d0e47069ce1b"><meta name="theme-color" content="#22203A">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -117,7 +117,7 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 .lib-txt .lib-meta{font-size:11.5px;opacity:.85}
 .btn.small{padding:8px 12px;font-size:13.5px;flex:none}
 .btn.small.ghost{background:transparent;border:1px solid var(--line)}
-.btn.small svg{width:16px;height:16px}
+.btn svg{width:20px;height:20px;flex:none}#sheet h2 svg{width:24px;height:24px;vertical-align:-4px;margin-right:4px}.btn.small svg{width:16px;height:16px}
 #home-banner{display:flex;flex-direction:column;gap:8px;margin:14px 0 0}
 .banner{display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:14px;background:var(--surface);border:1px solid var(--line);font-size:13.5px;line-height:1.35}
 .banner span{flex:1}
@@ -567,7 +567,7 @@ function sampleMap(){
 /* ---------------- home ---------------- */
 const grid = $('#grid');
 function renderHome(){
-  const ft = $('#from-text-btn'); if (ft) ft.hidden = !ai;
+  const ft = $('#from-text-btn'); if (ft) ft.hidden = false;
   maps.sort((a,b)=>b.updated-a.updated);
   grid.innerHTML = '';
   $('#maps-label').textContent = maps.length ? `${t('Your maps')} · ${maps.length}` : t('Your maps');
@@ -654,7 +654,7 @@ grid.addEventListener('click', e => {
   if (more){ e.stopPropagation(); mapOptions(more.getAttribute('data-more')); return; }
   const card = e.target.closest('.card'); if (card) openMap(card.getAttribute('data-id'));
 });
-$('#from-text-btn').addEventListener('click', fromTextSheet);
+$('#from-text-btn').addEventListener('click', () => ai ? fromTextSheet() : aiSetupSheet(fromTextSheet));
 $('#new-map-btn').addEventListener('click', () => {
   const m = { id:uid(), title:'', look:settings.lastLook, layout:settings.lastLayout, created:Date.now(), updated:Date.now(), data: MindElixir.new('My idea') };
   m.data.direction = LAYOUTS[m.layout].dir;
@@ -677,6 +677,7 @@ $('#home-menu-btn').addEventListener('click', () => sheet(`
     <button id="s-help">${ico('help')}<span>${t('How it works')}</span></button>
     <button id="s-guide">${ico('help')}<span>${t('Open the guide map')}<br><small style="color:var(--muted)">${t('"How to use Manas" — comes back if you deleted it')}</small></span></button>
     <div class="lbl" style="margin:10px 8px 4px">${t('Appearance')}</div><div class="seg">${[['light','Light'],['dark','Dark'],['auto','Follow phone']].map(([k,v]) => `<button data-theme-pick="${k}" class="${(settings.theme || 'auto') === k ? 'on' : ''}">${t(v)}</button>`).join('')}</div>
+    <button id="s-ai">${ico('spark')}<span>${t('AI helper')}<br><small style="color:var(--muted)">${settings.geminiKey ? t('On · your own Google AI key') : t('Free with your own Google key — talk or type to build maps')}</small></span></button>
     <button id="s-lang">${ico('globe')}<span>${t('Language')} · ${LANG_NAMES[LANG]}</span></button>
     <button id="s-email" hidden>${ico('link')}<span>${t('Get updates by email')}<br><small style="color:var(--muted)">${settings.updatesEmail ? esc(settings.updatesEmail) : t('New classes and libraries, a few emails a month')}</small></span></button>
     <button id="s-feedback">${ico('link')}<span>${t('Send feedback')}</span></button>
@@ -693,6 +694,7 @@ $('#home-menu-btn').addEventListener('click', () => sheet(`
       $('#rp-no',s2).onclick = closeSheet; $('#rp-ok',s2).onclick = () => restoreText($('#rp-in',s2).value); });
     $('#s-help',s).onclick = showHelp;
     $('#s-lang',s).onclick = languageSheet;
+    $('#s-ai',s).onclick = () => aiSetupSheet();
     s.querySelectorAll('[data-theme-pick]').forEach(b => b.onclick = () => { setTheme(b.getAttribute('data-theme-pick')); s.querySelectorAll('[data-theme-pick]').forEach(x => x.classList.toggle('on', x === b)); });
     $('#s-guide',s).onclick = () => { closeSheet(); openGuide(); };
     $('#s-tour',s).onclick = () => { closeSheet(); startTour(); };
@@ -736,7 +738,7 @@ function confirmDelete(m){
 }
 function renameMap(m, after){
   sheet(`<h2>${t('Name this map')}</h2><p class="sub">${t('Short and memorable works best.')}</p>
-    <input class="field" id="r-in" maxlength="60" placeholder="" + t('e.g. Clinic expansion 2027') + "">
+    <input class="field" id="r-in" maxlength="60" placeholder="${esc(t('e.g. Clinic expansion 2027'))}">
     <div class="row"><button class="btn" id="r-no">${t('Cancel')}</button><button class="btn primary" id="r-ok">${t('Save')}</button></div>`, s => {
       const inp = $('#r-in',s); inp.value = m.title||''; setTimeout(()=>{ inp.focus(); inp.select(); }, 50);
       const ok = () => { m.title = inp.value.trim(); m.updated = Date.now(); saveMap(m); closeSheet(); after && after(); };
@@ -876,7 +878,7 @@ function mapLinkSheet(tpc){
   sheet(`<h2>${t('Open another map from here')}</h2><p class="sub">${t('This bubble becomes a door: tap its little arrow and the other map opens. Back brings you here again.')}</p>
     <div class="menu"><button id="ml-new">${ico('plus')}<span>New map called “${esc(words.slice(0,40) || 'Untitled')}”<br><small style="color:var(--muted)">${t("Starts with this bubble's words in the middle")}</small></span></button></div>
     <div class="section-label" style="margin:14px 0 8px">${t('Or an existing map')}</div>
-    <input class="field" id="ml-q" type="search" placeholder="" + t('Find a map by name') + "" autocomplete="off" ${list().length < 8 ? 'hidden' : ''}>
+    <input class="field" id="ml-q" type="search" placeholder="${esc(t('Find a map by name'))}" autocomplete="off" ${list().length < 8 ? 'hidden' : ''}>
     <div class="menu" id="ml-list" style="margin-top:8px;max-height:40vh;overflow:auto"></div>`, s => {
       const out = $('#ml-list', s), q = $('#ml-q', s);
       const render = () => { const f = q.value.trim().toLowerCase(); out.innerHTML = ''; const rows = list().filter(m => !f || (m.title||'').toLowerCase().includes(f)).slice(0, 40);
@@ -1226,8 +1228,9 @@ function renderDock(){
   }
   const b = (id, label, icon, cls='') => `<button class="act ${cls}" id="${id}">${ico(icon)}<span>${label}</span></button>`;
   if (!sel){
-    d.innerHTML = (readOnly ? b('a-study',t('Study'),'cap','primary') + (current && current.library ? b('a-toc',t('Contents'),'book') : '') + b('a-list',t('Read as list'),'list') : b('a-add',t('Add idea'),'plus','primary') + b('a-study',t('Study'),'cap')) + b('a-orbit',t('Orbit'),'orbit') + (narrowLib() ? b('a-sides', settings.phoneLayout === 'right' ? t('Both sides') : t('To the right'), 'sibling') : '') + b('a-center',t('Centre'),'center') + b('a-fit',t('Fit all'),'fit') + (ai && !readOnly ? b('a-ai',t('AI'),'spark') : '') + b('a-help',t('Help'),'help');
+    d.innerHTML = (readOnly ? b('a-study',t('Study'),'cap','primary') + (current && current.library ? b('a-toc',t('Contents'),'book') : '') + b('a-list',t('Read as list'),'list') : b('a-add',t('Add idea'),'plus','primary') + b('a-talk',t('Talk'),'mic') + b('a-study',t('Study'),'cap')) + b('a-orbit',t('Orbit'),'orbit') + (narrowLib() ? b('a-sides', settings.phoneLayout === 'right' ? t('Both sides') : t('To the right'), 'sibling') : '') + b('a-center',t('Centre'),'center') + b('a-fit',t('Fit all'),'fit') + (ai && !readOnly ? b('a-ai',t('AI'),'spark') : '') + b('a-help',t('Help'),'help');
     const ad = $('#a-add'); if (ad) ad.onclick = () => { const root = MindElixir.E(mind.nodeData.id); mind.selectNode(root); mind.addChild(root); };
+    const tk0 = $('#a-talk'); if (tk0) tk0.onclick = talkSheet;
     const ls = $('#a-list'); if (ls) ls.onclick = () => listSheet(current, null);
     const tc = $('#a-toc'); if (tc) tc.onclick = () => contentsSheet(current.library, current.id);
     const sd = $('#a-sides'); if (sd) sd.onclick = toggleSides;
@@ -1246,8 +1249,9 @@ function renderDock(){
     $('#a-copy').onclick = () => sheet(`<h2>${t('Copy to edit')}</h2><p class="sub">${t('Library maps stay as published so updates can reach you. A copy is yours to change, and keeps all the links.')}</p><div class="row"><button class="btn" id="cp-no">${t('Not now')}</button><button class="btn primary" id="cp-yes">${t('Make my copy')}</button></div>`, s2 => { $('#cp-no', s2).onclick = closeSheet; $('#cp-yes', s2).onclick = copyToEdit; });
   } else {
     const root = isRoot(sel);
-    d.innerHTML = b('a-child',t('Child'),'branch','primary') + (root?'':b('a-sib',t('Sibling'),'sibling')) + b('a-edit',t('Words'),'edit') + b('a-pic',t('Picture'),'image') + b('a-style',t('Style'),'palette') + (current && current.library ? b('a-report',t('Report'),'flag') : '') + ((sel.nodeObj.manas||{}).map ? b('a-map',t('Open map'),'portal') : b('a-map',t('Map'),'portal')) + (root?'':b('a-move',t('Move'),'move')) + b('a-link',t('Connect'),'link') + (root?'':b('a-merge',t('Merge'),'merge')) + (ai?b('a-ai',t('AI'),'spark'):'') + (root?'':b('a-del',t('Delete'),'trash','danger'));
+    d.innerHTML = b('a-child',t('Child'),'branch','primary') + b('a-talk',t('Talk'),'mic') + (root?'':b('a-sib',t('Sibling'),'sibling')) + b('a-edit',t('Words'),'edit') + b('a-pic',t('Picture'),'image') + b('a-style',t('Style'),'palette') + (current && current.library ? b('a-report',t('Report'),'flag') : '') + ((sel.nodeObj.manas||{}).map ? b('a-map',t('Open map'),'portal') : b('a-map',t('Map'),'portal')) + (root?'':b('a-move',t('Move'),'move')) + b('a-link',t('Connect'),'link') + (root?'':b('a-merge',t('Merge'),'merge')) + (ai?b('a-ai',t('AI'),'spark'):'') + (root?'':b('a-del',t('Delete'),'trash','danger'));
     $('#a-child').onclick = () => mind.addChild(sel);
+    $('#a-talk').onclick = talkSheet;
     if (!root) $('#a-sib').onclick = () => mind.insertSibling('after', sel);
     $('#a-edit').onclick = () => mind.beginEdit(sel);
     $('#a-pic').onclick = () => pictureSheet(sel);
@@ -1322,7 +1326,7 @@ function styleSheet(tpc){
     </div>
     <div class="row" style="align-items:center;gap:10px">
       <label style="flex:1;font-size:13px;color:var(--muted)">Due date<br><input type="date" class="field" id="st-due" value="${m.due||''}" style="font-size:15px;padding:10px 12px"></label>
-      <label style="flex:1;font-size:13px;color:var(--muted)">Number badge<br><input class="field" id="st-badge" inputmode="decimal" maxlength="6" placeholder="" + t('e.g. 3 or 50k') + "" value="${esc(m.badge===undefined?'':String(m.badge))}" style="font-size:15px;padding:10px 12px"></label>
+      <label style="flex:1;font-size:13px;color:var(--muted)">Number badge<br><input class="field" id="st-badge" inputmode="decimal" maxlength="6" placeholder="${esc(t('e.g. 3 or 50k'))}" value="${esc(m.badge===undefined?'':String(m.badge))}" style="font-size:15px;padding:10px 12px"></label>
     </div>
     <div class="row"><button class="btn primary" id="st-done">${t('Done')}</button></div>`, s => {
       const mark = (sel, attr, val) => s.querySelectorAll(sel).forEach(x => x.classList.toggle('on', x.getAttribute(attr)===val));
@@ -1415,7 +1419,7 @@ async function pictureSheet(tpc){
     <input type="file" id="pc-file" accept="image/*" hidden>
     <div class="section-label" id="pc-sug-label">${t('Suggested')}</div>
     <div class="stickers" id="pc-sug"><span class="tips">Loading cartoons…</span></div>
-    <input class="field" id="pc-search" placeholder="" + t('Search cartoons, e.g. money, doctor, star') + "" autocomplete="off" style="margin-top:14px">
+    <input class="field" id="pc-search" placeholder="${esc(t('Search cartoons, e.g. money, doctor, star'))}" autocomplete="off" style="margin-top:14px">
     <div class="chips" id="pc-cats" style="margin-top:12px"></div>
     <div class="stickers" id="pc-res"></div>
     <p class="tips" style="margin-top:14px;font-size:12px">Cartoons: OpenMoji, CC BY-SA 4.0</p>`, s => {
@@ -1534,14 +1538,22 @@ function startThreadDrag(e){
 
 /* ---------------- AI (asks Claude via the page host; uses the viewer's own plan) ---------------- */
 let ai = null;
+if (settings.geminiKey) ai = makeGemini(settings.geminiKey);   // own free Google AI key (Settings → AI helper); Claude replaces it inside Claude
 (async () => { try { if (window.claude && window.claude.use){ ai = await window.claude.use('sample'); if (ai){ renderDock(); renderHome(); } } } catch(e){ ai = null; } })();
 function aiGone(e){ if (e && ['not_granted','sampling_disabled','not_declared','capability_disabled','capability_removed'].includes(e.code)){ ai = null; renderDock(); renderHome(); return true; } return false; }
-function aiErrorCopy(e){
+function aiErrorCopy0(e){
   if (!e || !e.code) return 'Something went wrong. Try again.';
   return ({ rate_limited:'Claude is busy or your plan limit is reached — try again in a little while.', refused:'Claude declined that one. Try different words.', invalid_json:'The answer came back garbled. Try again.', prompt_too_large:'This map is too big to send at once. Try a smaller branch.', empty_completion:'No answer came back. Try again.', cancelled:'' })[e.code] || 'Could not reach Claude just now. Try again.';
 }
 function pathOf(obj){ const p=[]; let n=obj; while(n){ p.unshift(n.topic||''); n=n.parent; } return p; }
 function treeText(obj, depth=0, out=[]){ out.push(`${obj.id}|${depth}|${(obj.topic||'').replace(/\n/g,' ').slice(0,120)}`); (obj.children||[]).forEach(c=>treeText(c, depth+1, out)); return out; }
+function aiErrorCopy(e){
+  const g = ai && ai.provider === 'gemini';
+  if (g && e && e.code === 'rate_limited') return t('The free daily Google AI allowance is used up, or Google is busy. Try again later.');
+  const extra = { bad_key: t('Your Google AI key was not accepted. Check it in Settings → AI helper.'), no_model: t('Google AI could not find the model. Try again later or update Manas.'), network: t('Could not reach Google AI. Check the internet and try again.') };
+  if (e && extra[e.code]) return extra[e.code];
+  return aiErrorCopy0(e).replace(/Claude/g, aiName());
+}
 const NOTE_AI = '<p class="tips" style="margin-top:12px;font-size:12px">Uses your own Claude plan, nothing extra to pay. The first time, Claude will ask you to allow it.</p>';
 
 function aiSheet(tpc){
@@ -1549,7 +1561,7 @@ function aiSheet(tpc){
     <div class="menu">
       ${tpc ? `<button id="ai-ideas">${ico('plus')}<span>${t('Suggest ideas under this bubble')}<br><small style="color:var(--muted)">${t('Five short sub-ideas, pick the ones you like')}</small></span></button>` : ''}
       <button id="ai-tidy">${ico('palette')}<span>${t('Tidy and beautify the whole map')}<br><small style="color:var(--muted)">${t('Shorter wording, fixed spelling, a cartoon and shape per idea')}</small></span></button>
-    </div>${NOTE_AI}`, s => {
+    </div>${noteAI()}`, s => {
       if (tpc) $('#ai-ideas',s).onclick = () => ideasSheet(tpc);
       $('#ai-tidy',s).onclick = beautifySheet;
   });
@@ -1625,16 +1637,177 @@ ${lines.join('\n')}`;
   };
 }
 
+/* ---------------- AI helper with your own free Google key (works on the website and in the Android app) ---------------- */
+const GEMINI_DEFAULT = 'gemini-flash-latest', AISTUDIO = 'https://aistudio.google.com/apikey';
+function geminiModels(){ const c = siteConfig || {}; return [c.gemini_model || GEMINI_DEFAULT].concat(c.gemini_fallbacks || ['gemini-2.5-flash', 'gemini-2.0-flash']).filter((x, i, a) => x && a.indexOf(x) === i); }
+function makeGemini(key){
+  async function json(prompt, opts){
+    opts = opts || {}; let last = { code: 'network' };
+    for (const m of geminiModels()){
+      let r;
+      try { r = await fetch('https://generativelanguage.googleapis.com/v1beta/models/' + encodeURIComponent(m) + ':generateContent?key=' + encodeURIComponent(key), { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: opts.signal,
+        body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: { responseMimeType: 'application/json', temperature: 0.4 } }) }); }
+      catch(e){ if (e && e.name === 'AbortError') throw { code: 'cancelled' }; throw { code: 'network' }; }
+      if (r.status === 404){ last = { code: 'no_model' }; continue; }
+      if (r.status === 429) throw { code: 'rate_limited' };
+      if (r.status === 400 || r.status === 401 || r.status === 403){ let tx = ''; try { tx = await r.text(); } catch(e){} throw { code: /API.?KEY|api key|PERMISSION_DENIED|UNAUTHENTICATED/i.test(tx) ? 'bad_key' : 'refused' }; }
+      if (!r.ok) throw { code: 'network' };
+      let j = {}; try { j = await r.json(); } catch(e){ throw { code: 'invalid_json' }; }
+      const c = (j.candidates || [])[0] || {}; const txt = ((c.content || {}).parts || []).map(x => x.text || '').join('').trim();
+      if (!txt) throw { code: ((j.promptFeedback && j.promptFeedback.blockReason) || c.finishReason === 'SAFETY') ? 'refused' : 'empty_completion' };
+      try { return JSON.parse(txt.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '')); } catch(e){ throw { code: 'invalid_json' }; }
+    }
+    throw last;
+  }
+  return { provider: 'gemini', json };
+}
+function aiName(){ return ai && ai.provider === 'gemini' ? 'Google AI' : 'Claude'; }
+function noteAI(){ return ai && ai.provider === 'gemini' ? '<p class="tips" style="margin-top:12px;font-size:12px">' + t('Uses your own free Google AI key (Settings → AI helper). What you send goes to Google, so leave out private details such as patient names.') + '</p>' : NOTE_AI; }
+function aiSetupSheet(then){
+  const steps = [t('Open Google AI Studio and sign in with your Google account.'), t('Tap “Create API key”. If it asks, choose or create a project. Then copy the key.'), t('Come back to Manas, paste the key below and tap Test and save.')];
+  const has = !!settings.geminiKey;
+  sheet(`<h2>${ico('spark')} ${t('AI helper')}</h2><p class="sub">${has ? t('On — using your own Google AI key, saved on this phone only.') : t('Free: use your own Google AI key. It takes about two minutes, once. The key stays on this phone.')}</p>
+    <ol class="tips" style="padding-left:22px">${steps.map(x => `<li style="margin:6px 0">${esc(x)}</li>`).join('')}</ol>
+    <div class="row"><button class="btn" id="as-say">${ico('mic')}<span>${t('Read the steps aloud')}</span></button><button class="btn" id="as-open">${t('Open Google AI Studio')} ↗</button></div>
+    <input class="field" id="as-key" type="password" autocomplete="off" spellcheck="false" placeholder="${esc(has ? t('Saved — paste a new key to replace it') : t('Paste your key here'))}">
+    <p class="tips" id="as-st" style="min-height:1.2em"></p>
+    <div class="row">${has ? `<button class="btn danger" id="as-del">${t('Remove key')}</button>` : `<button class="btn" id="as-no">${t('Not now')}</button>`}<button class="btn primary" id="as-ok">${t('Test and save')}</button></div>
+    <p class="tips" style="font-size:12px">${t('Google’s free allowance has a daily limit. With a free key Google may use what you send to improve its services, so leave out private details (patient names, phone numbers). Remove the key any time.')}</p>`, s => {
+      const st = $('#as-st', s);
+      $('#as-say', s).onclick = () => { const ss = window.speechSynthesis; if (!ss || !window.SpeechSynthesisUtterance){ st.textContent = t('Reading aloud is not available here.'); return; } ss.cancel(); steps.forEach((x, i) => { const u = new SpeechSynthesisUtterance(t('Step') + ' ' + (i + 1) + '. ' + x); u.lang = LANG === 'hi' ? 'hi-IN' : 'en-GB'; u.rate = 0.95; ss.speak(u); }); };
+      $('#as-open', s).onclick = () => openOut(AISTUDIO);
+      const no = $('#as-no', s); if (no) no.onclick = () => { try { speechSynthesis.cancel(); } catch(e){} closeSheet(); };
+      const del = $('#as-del', s); if (del) del.onclick = () => { delete settings.geminiKey; saveSettings(settings); if (ai && ai.provider === 'gemini') ai = null; closeSheet(); renderHome(); if (mind) renderDock(); toast(t('Key removed from this phone')); };
+      $('#as-ok', s).onclick = async () => {
+        const k = $('#as-key', s).value.trim().replace(/\s+/g, '');
+        if (!k){ st.textContent = has ? t('Your key is saved. Paste a new one to replace it.') : t('Paste the key first.'); return; }
+        if (k.length < 20){ st.textContent = t('That looks too short. Copy the whole key.'); return; }
+        st.textContent = t('Testing…'); $('#as-ok', s).disabled = true;
+        try { const r = await makeGemini(k).json('Reply with only this JSON: {"ok":true}'); if (!r || r.ok !== true) throw { code: 'empty_completion' }; }
+        catch(e){
+          $('#as-ok', s).disabled = false;
+          st.textContent = e.code === 'bad_key' ? t('Google did not accept this key. Copy it again from AI Studio.') : e.code === 'rate_limited' ? t('The key works, but its free allowance is used up for now. Saved anyway.') : e.code === 'network' ? t('Could not reach Google. Check the internet and try again.') : t('Could not test the key just now. Try again.');
+          if (e.code !== 'rate_limited') return;
+        }
+        try { speechSynthesis.cancel(); } catch(e){}
+        settings.geminiKey = k; saveSettings(settings); if (!ai || ai.provider === 'gemini') ai = makeGemini(k);
+        closeSheet(); renderHome(); if (mind) renderDock(); toast(t('AI helper is on'));
+        if (then) setTimeout(then, 250);
+      };
+  });
+}
+
+/* ---------------- speaking instead of typing (browser speech; in the Android app the keyboard 🎤 does it) ---------------- */
+const micBtn = id => `<button class="btn" id="${id}" style="flex:0 0 auto;display:inline-flex;gap:8px;align-items:center">${ico('mic')}<span>${t('Speak')}</span></button>`;
+function attachMic(btn, ta, st, onStop){
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!btn) return { stop(){} };
+  if (!SR){ btn.hidden = true; if (st && !st.textContent) st.textContent = t('Tip: tap the 🎤 on your keyboard to speak instead of typing.'); return { stop(){} }; }
+  let rec = null, on = false; const label = btn.querySelector('span');
+  btn.onclick = () => {
+    if (on){ try { rec.stop(); } catch(e){} return; }
+    rec = new SR(); rec.lang = LANG === 'hi' ? 'hi-IN' : (navigator.language || 'en-GB'); rec.interimResults = true; rec.continuous = true;
+    const base = ta.value ? ta.value.trim() + ' ' : '';
+    rec.onresult = ev => { let fin = '', interim = ''; for (const r of ev.results){ if (r.isFinal) fin += r[0].transcript + ' '; else interim += r[0].transcript; } ta.value = base + fin + interim; };
+    rec.onend = () => { on = false; if (label) label.textContent = t('Speak'); btn.classList.remove('primary'); if (st && /Listening/.test(st.textContent)) st.textContent = ''; if (onStop) onStop(); };
+    rec.onerror = ev => { if (st) st.textContent = ev.error === 'not-allowed' ? t('Microphone not allowed — type instead, or use the 🎤 on your keyboard.') : ev.error === 'no-speech' ? t('Did not hear anything — try again.') : t('Could not hear you — try again.'); };
+    try { rec.start(); on = true; if (label) label.textContent = t('Stop'); btn.classList.add('primary'); if (st) st.textContent = t('Listening… tap Stop when you finish.'); } catch(e){ if (st) st.textContent = t('Microphone not available here — use the 🎤 on your keyboard.'); }
+  };
+  return { stop(){ if (on){ try { rec.onend = null; rec.stop(); } catch(e){} on = false; } } };
+}
+
+/* ---------------- talk (or type) to build a map, one idea at a time ---------------- */
+function talkSheet(){
+  if (!mind || readOnly) return;
+  const sel0 = selected(); const target = sel0 ? sel0.nodeObj : mind.nodeData;
+  let mic = null, busy = false, pending = [], plainNext = false, ctl = null;
+  sheet(`<h2>${ico('mic')} ${t('Talk to your map')}</h2>
+    <p class="sub" id="tk-sub"></p>
+    <textarea class="field" id="tk-text" rows="3" style="resize:vertical;font-size:16px" placeholder="${esc(t('Say or type one idea, e.g. “Under marketing: a WhatsApp results service”'))}"></textarea>
+    <div class="row" style="align-items:center">${micBtn('tk-mic')}<span class="tips" id="tk-st" style="flex:1"></span></div>
+    <div class="menu" id="tk-list"></div>
+    <div class="row"><button class="btn" id="tk-done">${t('Done')}</button><button class="btn primary" id="tk-go">${t('Add')}</button></div>
+    ${ai ? noteAI() : `<p class="tips" style="font-size:12px">${t('Each idea goes under the bubble named above.')} <a href="#" id="tk-ai">${t('Turn on the AI helper')}</a> ${t('to have Manas place ideas where they fit.')}</p>`}`, s => {
+      const ta = $('#tk-text', s), st = $('#tk-st', s), list = $('#tk-list', s), go = $('#tk-go', s);
+      $('#tk-sub', s).textContent = ai ? t('Say one idea at a time. Manas suggests where each one fits; you confirm.') : t('Each idea becomes a bubble under:') + ' “' + plain(target.topic || '').slice(0, 50) + '”';
+      mic = attachMic($('#tk-mic', s), ta, st, () => { if (ta.value.trim().length > 2 && !busy && !pending.length) run(); });
+      const tka = $('#tk-ai', s); if (tka) tka.onclick = ev => { ev.preventDefault(); mic.stop(); aiSetupSheet(talkSheet); };
+      $('#tk-done', s).onclick = () => { mic.stop(); if (ctl) ctl.abort(); closeSheet(); renderDock(); };
+      go.onclick = () => pending.length ? addPending() : run();
+      async function run(){
+        const text = ta.value.trim(); if (text.length < 2){ st.textContent = t('Say or type an idea first.'); return; }
+        if (!ai || plainNext) return addPlain(text);
+        busy = true; go.disabled = true; st.textContent = t('Finding where it fits…');
+        const all = treeText(mind.nodeData); const outline = (all.length > 220 ? treeText(target) : all).join('\n');
+        const prompt = `You help someone build a mind map on a phone by talking. Each outline line is: id|depth|bubble text.
+OUTLINE:
+${outline}
+
+They just said: «${text.slice(0, 2000)}»
+${sel0 ? 'They have the bubble ' + target.id + ' selected.' : ''}
+Turn what they said into new bubbles. Put each new idea under the EXISTING bubble it belongs to (its id as "parent"). If nothing fits, use ${target.id}. If an idea is already on the map, do not add it again; put only new detail as children of that existing bubble. At most 6 words per bubble, plain language, keep their names and numbers, do not invent facts. Longer detail goes in "note". At most 8 new bubbles in total.
+Reply with only JSON: {"items":[{"parent":"<existing id>","topic":"...","emoji":"","note":"","children":[{"topic":"...","children":[]}]}]}`;
+        let res; ctl = new AbortController();
+        try { res = await ai.json(prompt, { modelTier: 'quick', signal: ctl.signal, cache: false }); }
+        catch(e){ busy = false; go.disabled = false; if (e.code === 'cancelled') return; if (aiGone(e)) return addPlain(text); st.textContent = aiErrorCopy(e) + ' ' + t('Tap Add to put it in as you said it.'); plainNext = true; return; }
+        busy = false; go.disabled = false;
+        const ids = new Set(); walkNodes(mind.nodeData, n => ids.add(n.id));
+        const items = ((res && res.items) || []).filter(x => x && x.topic).slice(0, 8).map(x => Object.assign({}, x, { parent: ids.has(x.parent) ? x.parent : target.id }));
+        if (!items.length){ st.textContent = t('Nothing new to add — it may already be on the map.'); return; }
+        pending = items;
+        list.innerHTML = items.map((x, i) => { const p = findNodeObj(x.parent); const kids = (x.children || []).filter(c => c && c.topic).length; return `<button class="pick on" data-i="${i}"><span class="tick on">✓</span><span>${x.emoji ? esc(String(x.emoji).slice(0, 4)) + ' ' : ''}<b>${esc(String(x.topic).slice(0, 60))}</b>${kids ? ' <small>+' + kids + '</small>' : ''}<br><small style="color:var(--muted)">${t('under')} “${esc(plain((p && p.topic) || '').slice(0, 40))}”</small></span></button>`; }).join('');
+        list.querySelectorAll('.pick').forEach(b => b.onclick = () => { b.classList.toggle('on'); const k = b.querySelector('.tick'); k.classList.toggle('on', b.classList.contains('on')); k.textContent = b.classList.contains('on') ? '✓' : ''; });
+        go.textContent = t('Add these'); st.textContent = t('Untick anything you do not want, then add.');
+      }
+      async function addTree(el, x){
+        const node = mind.generateNewObj(); node.topic = String(x.topic).slice(0, 80); if (x.emoji) node.icons = [String(x.emoji).slice(0, 4)]; if (x.note) node.note = String(x.note).slice(0, 600);
+        await mind.addChild(el, node); let n = 1; const kid = MindElixir.E(node.id);
+        for (const c of (Array.isArray(x.children) ? x.children : []).slice(0, 8)) if (c && c.topic && kid) n += await addTree(kid, c);
+        return n;
+      }
+      async function addPending(){
+        const chosen = [...list.querySelectorAll('.pick.on')].map(b => pending[+b.getAttribute('data-i')]); let n = 0;
+        for (const x of chosen){ const el = MindElixir.E(x.parent); if (el) n += await addTree(el, x); }
+        finish(n);
+      }
+      async function addPlain(text){
+        const el = MindElixir.E(target.id); let n = 0;
+        for (const p of text.split(/\n+/).map(x => x.trim()).filter(Boolean)){ const short = p.length > 60 ? p.slice(0, 57).replace(/\s+\S*$/, '') + '…' : p; n += await addTree(el, { topic: short, note: short === p ? '' : p }); }
+        finish(n);
+      }
+      function finish(n){
+        pending = []; plainNext = false; list.innerHTML = ''; ta.value = ''; go.textContent = t('Add');
+        try { const te = MindElixir.E(target.id); if (te) mind.selectNode(te); } catch(e){}
+        applyDecor(); scheduleSave(); st.textContent = (n ? (n === 1 ? t('Added 1 bubble.') : t('Added') + ' ' + n + ' ' + t('bubbles.')) + ' ' + t('Next idea?') : t('Nothing added.'));
+      }
+  });
+}
+
+/* ---------------- feedback straight to the Manas team (Google Sheet via the Apps Script), queued when offline ---------------- */
+function sendFeedback(fields){
+  const body = Object.assign({ action: 'feedback', email: settings.userEmail || settings.updatesEmail || '', version: DIAG.version, lang: LANG, source: IN_SHELL ? 'android' : (STANDALONE ? 'installed-web' : 'web') }, fields);
+  (settings.pendingFeedback = settings.pendingFeedback || []).push(new URLSearchParams(body).toString()); saveSettings(settings); flushFeedback();
+}
+let fbBusy = false;
+async function flushFeedback(){
+  const ep = emailEndpoint(), q = settings.pendingFeedback; if (!ep || !q || !q.length || !navigator.onLine || fbBusy) return;
+  fbBusy = true;
+  while (q.length){ try { await fetch(ep, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(q[0]) }); q.shift(); saveSettings(settings); } catch(e){ break; } }
+  fbBusy = false;
+}
+window.addEventListener('online', () => { loadSiteConfig().then(flushFeedback); });
+const sentToast = () => toast(navigator.onLine ? t('Sent — thank you') : t('Saved — it will be sent when you are online'));
+
 /* ---------------- new map from text or voice ---------------- */
 function fromTextSheet(){
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition; let rec = null, listening = false; const ctl = new AbortController();
-  sheet(`<h2>${t('Map from your words')}</h2><p class="sub">${t('Type or speak a few sentences — the messier the better. Claude turns it into a map.')}</p>
-    <textarea class="field" id="ft-text" rows="6" placeholder="" + t('e.g. Next quarter I want the lab and radiology busier. Ideas: corporate wellness packages, a referral deal with two GPs nearby, evening hours twice a week, a WhatsApp results service…') + "" style="resize:vertical;font-size:16px"></textarea>
+  sheet(`<h2>${t('Map from your words')}</h2><p class="sub">${t('Type or speak a few sentences — the messier the better. Manas turns it into a map.')}</p>
+    <textarea class="field" id="ft-text" rows="6" placeholder="${esc(t('e.g. Next quarter I want the lab and radiology busier. Ideas: corporate wellness packages, a referral deal with two GPs nearby, evening hours twice a week, a WhatsApp results service…'))}" style="resize:vertical;font-size:16px"></textarea>
     <div class="row" style="align-items:center">
       ${SR ? `<button class="btn" id="ft-mic" style="flex:0 0 auto;display:inline-flex;gap:8px;align-items:center">${ico('mic')}<span>${t('Speak')}</span></button>` : ''}
       <span class="tips" id="ft-status" style="flex:1"></span>
     </div>
-    <div class="row"><button class="btn" id="ft-cancel">${t('Cancel')}</button><button class="btn primary" id="ft-go">${t('Make the map')}</button></div>${NOTE_AI}`, s => {
+    <div class="row"><button class="btn" id="ft-cancel">${t('Cancel')}</button><button class="btn primary" id="ft-go">${t('Make the map')}</button></div>${noteAI()}`, s => {
       const ta = $('#ft-text',s), st = $('#ft-status',s);
       $('#ft-cancel',s).onclick = () => { if (rec) try{ rec.stop(); }catch(e){} ctl.abort(); closeSheet(); };
       if (SR) $('#ft-mic',s).onclick = () => {
@@ -1693,7 +1866,7 @@ function arrowLabelSheet(arrowSvg, onDone){
   const QUICK = ['leads to','causes','needs','because','then','same as','opposite of','part of'];
   sheet(`<h2>${arrowSvg ? t('Arrow label') : t('What does this arrow mean?')}</h2><p class="sub">${t('A word or two on the line. Leave it empty for a plain arrow.')}</p>
     <div class="chips" style="margin-bottom:12px">${QUICK.map(q=>`<button class="chip" data-q="${q}">${q}</button>`).join('')}</div>
-    <input class="field" id="al-in" maxlength="40" placeholder="" + t('e.g. leads to') + "" value="${esc(cur)}">
+    <input class="field" id="al-in" maxlength="40" placeholder="${esc(t('e.g. leads to'))}" value="${esc(cur)}">
     <div class="row"><button class="btn" id="al-no">${t('Cancel')}</button><button class="btn primary" id="al-ok">${arrowSvg ? t('Save') : t('Draw arrow')}</button></div>`, s => {
       const inp = $('#al-in',s);
       s.querySelectorAll('[data-q]').forEach(c => c.onclick = () => { inp.value = c.getAttribute('data-q'); });
@@ -1726,7 +1899,7 @@ function finishMerge(){
   const between = parent.children.slice(start, end+1);
   endMerge();
   sheet(`<h2>Merge ${between.length} idea${between.length>1?'s':''}</h2><p class="sub">A bracket joins them into one statement: ${between.map(c=>'“'+esc((c.topic||'').slice(0,20))+'”').join(', ')}.</p>
-    <input class="field" id="mg-in" maxlength="60" placeholder="" + t('e.g. Together these give steady growth') + "">
+    <input class="field" id="mg-in" maxlength="60" placeholder="${esc(t('e.g. Together these give steady growth'))}">
     <div class="row"><button class="btn" id="mg-no">${t('Cancel')}</button><button class="btn primary" id="mg-ok">${t('Merge')}</button></div>`, s => {
       const inp = $('#mg-in',s); setTimeout(()=>inp.focus(), 50);
       $('#mg-no',s).onclick = closeSheet;
@@ -2547,11 +2720,11 @@ const O = (function(){
     let col = nd ? colorOfReal(nd, depth) : '';
     const tags = allTags();
     sheet(`<h2>${isNew ? 'New idea under “' + esc((parentNd.topic||'').slice(0,30)) + '”' : 'Edit bubble'}</h2>
-      <label class="lbl" for="f-label">${t('Words')}</label><input class="field" id="f-label" maxlength="80" value="${esc(nd ? nd.topic : '')}" placeholder="" + t('What is this idea?') + "">
-      <label class="lbl" for="f-ref">${t('Small label (optional)')}</label><input class="field" id="f-ref" maxlength="30" value="${esc(o.ref||'')}" placeholder="" + t('e.g. a verse number, a date, Step 3') + "">
-      <label class="lbl" for="f-note">${t('Note')}</label><textarea class="field" id="f-note" maxlength="600" placeholder="" + t('Shown at the bottom when the bubble is tapped') + "">${esc(nd ? nd.note || '' : '')}</textarea>
+      <label class="lbl" for="f-label">${t('Words')}</label><input class="field" id="f-label" maxlength="80" value="${esc(nd ? nd.topic : '')}" placeholder="${esc(t('What is this idea?'))}">
+      <label class="lbl" for="f-ref">${t('Small label (optional)')}</label><input class="field" id="f-ref" maxlength="30" value="${esc(o.ref||'')}" placeholder="${esc(t('e.g. a verse number, a date, Step 3'))}">
+      <label class="lbl" for="f-note">${t('Note')}</label><textarea class="field" id="f-note" maxlength="600" placeholder="${esc(t('Shown at the bottom when the bubble is tapped'))}">${esc(nd ? nd.note || '' : '')}</textarea>
       <label class="lbl" for="f-tag">${t('Theme')}</label><div class="chips" id="f-tags">${tags.map(t => `<button class="chip${t === o.tag ? ' on' : ''}" data-tag="${esc(t)}">${esc(t)}</button>`).join('')}</div>
-      <input class="field" id="f-tag" style="margin-top:10px" maxlength="24" value="${esc(o.tag||'')}" placeholder="" + t('Type a theme, or tap one above') + "">
+      <input class="field" id="f-tag" style="margin-top:10px" maxlength="24" value="${esc(o.tag||'')}" placeholder="${esc(t('Type a theme, or tap one above'))}">
       <span class="lbl">Colour</span><div class="colors ocolors"><button class="none${col ? '' : ' on'}" data-col="">Auto</button>${SWATCHES.map(c => `<button style="background:${c}" class="${c === col ? 'on' : ''}" data-col="${c}" aria-label="Colour ${c}"></button>`).join('')}</div>
       <div class="row"><button class="btn" id="f-cancel">${t('Cancel')}</button><button class="btn primary" id="f-save">${isNew ? t('Add') : t('Save')}</button></div>`, s => {
         s.querySelectorAll('[data-tag]').forEach(b => b.onclick = () => { const on = b.classList.contains('on'); s.querySelectorAll('[data-tag]').forEach(x => x.classList.remove('on')); if (!on){ b.classList.add('on'); $('#f-tag',s).value = b.dataset.tag; } else $('#f-tag',s).value = ''; });
@@ -2678,7 +2851,7 @@ function bridgePref(k){ try { const b = window.ManasBridge; return b && b.pref ?
 function shellPayload(){
   const libs = [...new Set(maps.filter(m => m.library).map(m => m.library))].map(id => { const parts = [...new Set(maps.filter(m => m.library === id && m.part).map(m => m.part))]; return { id, parts: parts.length ? parts : null }; });
   let srsData = {}; try { srsData = JSON.parse(localStorage.getItem('manas.srs.v1') || '{}'); } catch(e){}
-  return JSON.stringify({ app:'manas', version:1, kind:'move', copyright: COPYRIGHT, exported: new Date().toISOString(), settings: Object.assign({}, settings, { guideSeeded: false }), srs: srsData, libraries: libs, maps: backupMaps() });
+  return JSON.stringify({ app:'manas', version:1, kind:'move', copyright: COPYRIGHT, exported: new Date().toISOString(), settings: Object.assign({}, settings, { guideSeeded: false, geminiKey: undefined, pendingFeedback: undefined }), srs: srsData, libraries: libs, maps: backupMaps() });
 }
 async function shellHandOff(){
   const b = window.ManasBridge; if (!b || !b.stash || !b.pref) return false;           // an older app shell: stay as before
@@ -2728,12 +2901,16 @@ function reportSheet(map, n){
   const what = `Library: ${lib}\nMap: ${map ? map.title : ''}\nBubble: ${n ? plain(n.topic) : ''}\nText: ${n && n.note ? String(n.note).slice(0, 400) : ''}\nId: ${map ? map.id : ''} / ${n ? n.id : ''}\nManas ${DIAG.version}`;
   sheet(`<h2>${t('Report a mistake')}</h2><p class="sub">${t('Thank you — reports go to the people who look after this library. Say what is wrong and, if you can, where the right answer comes from.')}</p>
     <div class="tips" style="font-size:12.5px;max-height:120px;overflow:auto;white-space:pre-wrap">${esc(what)}</div>
-    <textarea class="field" id="rp-note" rows="4" placeholder="" + t('e.g. The dose is out of date — Kenya 2024 guideline says …') + ""></textarea>
-    <div class="row"><button class="btn" id="rp-wa">${t('WhatsApp')}</button><button class="btn primary" id="rp-mail">${t('Email')}</button></div>`, s => {
+    <textarea class="field" id="rp-note" rows="4" placeholder="${esc(t('e.g. The dose is out of date — Kenya 2024 guideline says …'))}"></textarea>
+    <div class="row" style="align-items:center">${micBtn('rp-mic')}<span class="tips" id="rp-st" style="flex:1"></span></div>
+    <div class="row"><button class="btn" id="rp-wa">${t('WhatsApp')}</button><button class="btn${emailEndpoint() ? '' : ' primary'}" id="rp-mail">${t('Email')}</button>${emailEndpoint() ? `<button class="btn primary" id="rp-send">${t('Send to Manas')}</button>` : ''}</div>`, s => {
+      const mic = attachMic($('#rp-mic', s), $('#rp-note', s), $('#rp-st', s));
       const body = () => ($('#rp-note', s).value.trim() || '(no comment)') + '\n\n' + what;
-      const go = url => { closeSheet(); const b = window.ManasBridge; if (!(b && b.openUrl && b.openUrl(url))) location.href = url; toast(t('Thank you')); };
+      const go = url => { mic.stop(); closeSheet(); const b = window.ManasBridge; if (!(b && b.openUrl && b.openUrl(url))) location.href = url; toast(t('Thank you')); };
       $('#rp-mail', s).onclick = () => go('mailto:' + FEEDBACK_EMAIL + '?subject=' + encodeURIComponent('Manas library report: ' + (n ? plain(n.topic).slice(0, 60) : '')) + '&body=' + encodeURIComponent(body()));
       $('#rp-wa', s).onclick = () => go('https://wa.me/?text=' + encodeURIComponent('Manas library report\n' + body()));
+      const sd = $('#rp-send', s); if (sd) sd.onclick = () => { const note = $('#rp-note', s).value.trim(); if (!note){ $('#rp-st', s).textContent = t('Say or type what is wrong first.'); return; } mic.stop();
+        sendFeedback({ kind: 'report', library: (map && map.library) || '', map: map ? map.id : '', mapTitle: map ? String(map.title || '') : '', node: n ? n.id : '', bubble: n ? plain(n.topic).slice(0, 200) : '', text: note.slice(0, 4000) }); closeSheet(); sentToast(); };
   });
 }
 const LIB_NOTICE = {
@@ -2748,7 +2925,8 @@ function privacySheet(){
     <li><b>${t('Your maps stay on this device.')}</b> Nothing is uploaded. That also means nobody can recover them for you — make a backup now and then (home menu → Back up).</li>
     <li><b>${t('Study progress')}</b> is stored on this device too, and is included in your backup.</li>
     <li><b>${t('Links')}</b> (YouTube, vedabase, guidelines) open other websites, which have their own privacy policies. Manas asks before opening them.</li>
-    <li><b>${t('Reports and feedback')}</b> are sent only when you choose, by your own email or WhatsApp.</li>
+    <li><b>${t('Reports and feedback')}</b> are sent only when you choose: by your own email or WhatsApp, or with “Send to Manas”, which sends your words, the bubble it is about and your email to the Manas team.</li>
+    <li><b>${t('AI helper (optional)')}</b>: if you add your own Google AI key, it is kept on this phone only and is not in your backups. When you use AI, what you send goes to Google under Google’s terms.</li>
     <li>On the web version, the only thing fetched is the app itself and the libraries you add, from ${esc(SITE.replace('https://', ''))}.</li></ul>
     <div class="row"><button class="btn primary" id="pv-ok">${t('OK')}</button></div>`, s => { $('#pv-ok', s).onclick = closeSheet; });
 }
@@ -3118,7 +3296,7 @@ async function boot(){
     if (CATALOG_SRC){ await loadCatalog(); setTimeout(() => checkLibUpdates(true), 2500); }
     { const today = new Date().toISOString().slice(0, 10); if (settings.lastDay !== today){ settings.lastDay = today; settings.daysUsed = (settings.daysUsed || 0) + 1; saveSettings(settings); } }
     if (!settings.userEmail && !settings.updatesEmail) await Promise.race([loadSiteConfig(), new Promise(r => setTimeout(r, 4000))]);
-    loadSiteConfig().then(() => { flushSignup(); if (emailEndpoint()) renderHome(); if (gateOn() && !document.getElementById('gate') && booted) emailGate(() => renderHome()); });
+    loadSiteConfig().then(() => { flushSignup(); flushFeedback(); if (emailEndpoint()) renderHome(); if (gateOn() && !document.getElementById('gate') && booted) emailGate(() => renderHome()); });
     const inc = parseIncoming();
     if (inc && !gateOn()){ settings.tourDone = settings.tourDone || false; if (await openIncoming(inc)) return; }
     if (gateOn()){ renderHome(); emailGate(() => inc ? openIncoming(inc).then(ok => { if (!ok) afterGate(pre); }) : afterGate(pre)); return; }
@@ -3134,7 +3312,7 @@ async function boot(){
   }
   renderHome();
 }
-const DIAG = { version: '7.15', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
+const DIAG = { version: '7.16', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
 window.addEventListener('error', e => { DIAG.lastError = String(e.message || e).slice(0, 200); });
 function pollBridge(){
   try {
@@ -3145,12 +3323,17 @@ function pollBridge(){
 setInterval(pollBridge, 1200); document.addEventListener('visibilitychange', () => { if (!document.hidden){ pollBridge(); checkLibUpdates(false); } });
 const FEEDBACK_EMAIL = 'kewal@halcyonhealthcareltd.com';
 function feedbackSheet(){
-  sheet(`<h2>${t('Send feedback')}</h2><p class="sub">${t('What annoyed you, what you wished it did, what broke. Short is fine.')}</p>
-    <textarea class="field" id="fb-in" rows="5" placeholder="" + t("e.g. Couldn't find how to move a bubble") + ""></textarea>
-    <div class="row"><button class="btn" id="fb-no">${t('Cancel')}</button><button class="btn primary" id="fb-ok">${t('Send by email')}</button></div>`, s => {
-      $('#fb-no',s).onclick = closeSheet;
-      $('#fb-ok',s).onclick = () => { const body = ($('#fb-in',s).value.trim() || '(no text)') + '\n\n— Manas ' + DIAG.version + ' · ' + (location.protocol === 'file:' ? 'installed app' : 'web') + ' · ' + navigator.userAgent.slice(0, 80);
+  const ep = emailEndpoint();
+  sheet(`<h2>${t('Send feedback')}</h2><p class="sub">${t('What annoyed you, what you wished it did, what broke. Short is fine. Speak or type.')}</p>
+    <textarea class="field" id="fb-in" rows="5" placeholder="${esc(t("e.g. Couldn't find how to move a bubble"))}"></textarea>
+    <div class="row" style="align-items:center">${micBtn('fb-mic')}<span class="tips" id="fb-st" style="flex:1"></span></div>
+    <div class="row"><button class="btn" id="fb-no">${t('Cancel')}</button><button class="btn${ep ? '' : ' primary'}" id="fb-ok">${t('Send by email')}</button>${ep ? `<button class="btn primary" id="fb-send">${t('Send to Manas')}</button>` : ''}</div>`, s => {
+      const mic = attachMic($('#fb-mic', s), $('#fb-in', s), $('#fb-st', s));
+      $('#fb-no',s).onclick = () => { mic.stop(); closeSheet(); };
+      $('#fb-ok',s).onclick = () => { mic.stop(); const body = ($('#fb-in',s).value.trim() || '(no text)') + '\n\n— Manas ' + DIAG.version + ' · ' + (location.protocol === 'file:' ? 'installed app' : 'web') + ' · ' + navigator.userAgent.slice(0, 80);
         location.href = 'mailto:' + FEEDBACK_EMAIL + '?subject=' + encodeURIComponent('Manas feedback') + '&body=' + encodeURIComponent(body); closeSheet(); };
+      const sd = $('#fb-send', s); if (sd) sd.onclick = () => { const v = $('#fb-in', s).value.trim(); if (!v){ $('#fb-st', s).textContent = t('Say or type something first.'); return; } mic.stop();
+        sendFeedback({ kind: 'app', text: v.slice(0, 4000), map: current ? current.id : '', mapTitle: current ? String(current.title || '') : '' }); closeSheet(); sentToast(); };
   });
 }
 function confirmExternal(href, then){
