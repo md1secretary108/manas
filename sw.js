@@ -1,6 +1,6 @@
 /* Manas service worker — offline copy of the app and its libraries. © 2026 Kewal Bhatt.
    7.16: installs and refreshes skip the browser's HTTP cache (cache 'reload' / 'no-cache'), so a stale page never lands in a new cache. */
-const CACHE = 'manas-7.16';
+const CACHE = 'manas-7.17';
 const CORE = ['./', 'index.html', 'library.html', 'medicine.html', 'gita-week.html', 'manas.html', 'libraries.json', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'maharaj.html', 'cpa.html', 'maharaj.webmanifest', 'version.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE.map(u => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });

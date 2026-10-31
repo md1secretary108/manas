@@ -1,11 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<!-- Manas mind maps. © 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved. Concept and direction: Kewal Bhatt. Orbit 3D concept: his father. Engine: Mind Elixir (MIT). Cartoons: OpenMoji (CC BY-SA 4.0). -->
+<!-- Manas mind maps. © 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved. Concept and direction: Kewal Bhatt. Orbit 3D concept: his father. Engine: Mind Elixir (MIT, (c) 2019-present SSShooter and contributors). Cartoons: OpenMoji (CC BY-SA 4.0). Full third-party notices: THIRD-PARTY-LICENSES.md next to this file. -->
 <title>Gita Week Map</title>
 <meta name="author" content="Kewal Bhatt (Kaivalya Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Kaivalya Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.16-db633734df30d0e47069ce1b"><meta name="theme-color" content="#0B0A18"><meta name="manas-preload" content="preload.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
+<meta name="manas-stamp" content="7.17-7394dbd4c398ebc7f458723d"><meta name="theme-color" content="#0B0A18"><meta name="manas-preload" content="preload.json"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-title" content="Manas">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -17,7 +17,7 @@
 <style>
 :root{
   --manas-origin:'KKD-MANAS-NBO-20260914-7c3e';
-  --ink:#22203A; --paper:#FAF8FF; --surface:#FFFFFF; --muted:#7A7794; --line:#E4E1F0;
+  --ink:#22203A; --paper:#FAF8FF; --surface:#FFFFFF; --muted:#68657F; --line:#E4E1F0;
   --accent:#F0A030; --accent-ink:#2A1B00; --teal:#2BB3A3; --danger:#D9534F;
   --shadow:0 8px 28px rgba(34,32,58,.12); --bar:rgba(255,255,255,.92);
   --radius:18px;
@@ -132,7 +132,7 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 .new-map span{font-size:14px;opacity:.75}
 .new-map:active{transform:scale(.985)}
 .new-map.alt{margin-top:10px;background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:none}
-.new-map.alt .plus{background:var(--teal);color:#fff}
+.new-map.alt .plus{background:#1C7D71;color:#fff}
 .new-map.alt span span{color:var(--muted);opacity:1}
 .pick{display:flex;align-items:center;gap:12px;padding:12px 8px;border-radius:12px;font-size:15px;text-align:left;width:100%}
 .pick .tick{position:static;flex:none}
@@ -185,7 +185,7 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 .map-container me-tpc .mx .tick,.map-container me-tpc .mx .portal{pointer-events:auto}
 .map-container me-tpc.done>.text{text-decoration:line-through;opacity:.6}
 .tick{width:20px;height:20px;border-radius:6px;border:2px solid currentColor;display:inline-grid;place-items:center;font-size:13px;font-weight:800;line-height:1;opacity:.75;flex:none;transition:transform .15s,background .15s}
-.tick.on{background:#2BB3A3;border-color:#2BB3A3;color:#fff;opacity:1}
+.tick.on{background:#1C7D71;border-color:#1C7D71;color:#fff;opacity:1}
 .tick:active{transform:scale(.85)}
 .ring{--p:0;width:26px;height:26px;border-radius:50%;background:conic-gradient(#2BB3A3 calc(var(--p)*1%),rgba(120,120,140,.22) 0);display:inline-grid;place-items:center;position:relative;flex:none}
 .ring i{position:absolute;inset:4px;border-radius:50%;background:var(--main-bgcolor,#fff)}
@@ -277,7 +277,7 @@ me-tpc.has-portal{box-shadow:0 0 0 2px var(--surface), 0 0 0 4px var(--ink)}
 .row{display:flex;gap:10px;margin-top:14px}
 .btn{flex:1;padding:14px;border-radius:14px;font-family:var(--font-ui);font-weight:600;font-size:16px;background:var(--line);color:var(--ink)}
 .btn.primary{background:var(--ink);color:var(--paper)}
-.btn.danger{background:var(--danger);color:#fff}
+.btn.danger{background:#C0392B;color:#fff}
 .preview-img{width:100%;border-radius:12px;border:1px solid var(--line);background:#fff}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:10px}
 .tile{display:flex;flex-direction:column;align-items:center;gap:6px;padding:14px 8px;border-radius:14px;background:var(--paper);border:2px solid var(--line);font-family:var(--font-ui);font-weight:600;font-size:14px}
@@ -504,7 +504,7 @@ function saveMap(m){ idb.put(JSON.parse(JSON.stringify(m))).catch(()=>toast(t('C
 function saveMaps(list){ for (const m of list) saveMap(m); }
 function deleteMap(id){ idb.del(id).catch(()=>{}); }
 function loadSettings(){ try{ return JSON.parse(localStorage.getItem(SETTINGS_KEY)||'{}'); }catch(e){ return {}; } }
-function saveSettings(s){ try{ localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); }catch(e){} }
+function saveSettings(s){ try{ localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); }catch(e){ if (!saveSettings.warned){ saveSettings.warned = true; try { toast(t('Could not save your settings on this phone — its storage may be full')); } catch(_){} } } }
 const uid = () => Math.random().toString(36).slice(2,10) + Date.now().toString(36).slice(-4);
 let settings = Object.assign({ lastLook:'sunrise', lastLayout:'side', seenHelp:false }, loadSettings());
 /* Light / dark: one tap on the home screen (sun/moon), or Light · Dark · Phone in the menu. Saved on the device. */
@@ -1166,11 +1166,37 @@ function bubbleLinks(n){
   return links;
 }
 function threadCount(n){ const thread = n ? threadFor(n) : []; return new Set(thread.flatMap(e => e.hits.map(h => h.map.id + ':' + h.id))).size; }
+/* 7.17 read aloud: the phone's own voice (speechSynthesis), no AI, no cost. Reads the bubble's title and the Manas summary
+   (not the raw automatic transcript), with links, emoji and symbols turned into words that sound right. */
+let sayingId = null;
+function speakable(s){
+  return String(s || '').split(/\n\n(?=🎙)/)[0]
+    .replace(/https?:\/\/\S+/g, ' ')
+    .replace(/\^2\b|²/g, ' squared').replace(/\^3\b|³/g, ' cubed').replace(/\^(\d+)/g, ' to the power $1')
+    .replace(/\s=\s/g, ' equals ').replace(/\s×\s|\s\*\s/g, ' times ').replace(/\s÷\s/g, ' divided by ').replace(/(\d)\s*%/g, '$1 percent')
+    .replace(/\s\/\s/g, ' or ').replace(/[|•·→←↪▸▾▴★✅⚠️❓🎤➡️]/g, ', ')
+    .replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}]/gu, ' ')
+    .replace(/[“”"]/g, '').replace(/\s*,(\s*,)+/g, ',').replace(/\s+/g, ' ').trim();
+}
+function canSpeak(){ return !!(window.speechSynthesis && window.SpeechSynthesisUtterance); }
+function stopSpeaking(){ sayingId = null; try { speechSynthesis.cancel(); } catch(e){} }
+function sayBubble(n, done){
+  if (!canSpeak()){ toast(t('Read aloud is not available on this phone')); return; }
+  if (sayingId === n.id){ stopSpeaking(); done && done(); return; }
+  stopSpeaking();
+  const text = [plain(n.topic), speakable(n.note)].filter(Boolean).join('. ');
+  if (!text){ toast(t('Nothing to read here')); return; }
+  const u = new SpeechSynthesisUtterance(text.slice(0, 3000));
+  u.lang = LANG === 'hi' ? 'hi-IN' : 'en-GB'; u.rate = 0.95;
+  u.onend = u.onerror = () => { if (sayingId === n.id){ sayingId = null; done && done(); } };
+  sayingId = n.id; speechSynthesis.speak(u); done && done();
+}
 function renderPeek(sel){
   const pk = $('#peek'); if (!pk) return;
   const n = sel && sel.nodeObj; const m = (n && n.manas) || {};
   const busy = typeof picking !== 'undefined' && (picking || connectFrom || mergeSet || storyEdit || storyPlay);
-  if (!n || busy){ pk.hidden = true; pk.classList.remove('open'); return; }
+  if (!n || busy){ pk.hidden = true; pk.classList.remove('open'); if (sayingId) stopSpeaking(); return; }
+  if (sayingId && sayingId !== n.id) stopSpeaking();
   /* 7.12: tapping a bubble opens its menu — everything the bubble can do as big buttons (friends' feedback: the small + and 🔗 are hard to hit) */
   const links = bubbleLinks(n);
   const nThread = threadCount(n);
@@ -1187,6 +1213,7 @@ function renderPeek(sel){
   /* 7.13: index and "related" bubbles point at one bubble in another map: manas.goto = {map, node} */
   const gt = m.goto && m.goto.map ? m.goto : null; const gtMap = gt ? maps.find(x => x.id === gt.map) : null;
   if (gt) acts.push(`<button type="button" id="pk-goto" class="primary">${gtMap ? t('↪ Go to this point') : t('↪ Add this part to go there')}</button>`);
+  if (canSpeak() && (note || n.topic)) acts.push(`<button type="button" id="pk-say">${sayingId === n.id ? t('⏹ Stop reading') : t('🔊 Read aloud')}</button>`);
   links.forEach((l, i) => acts.push(`<button type="button" data-i="${i}" class="${l.primary && !m.map ? 'primary' : ''}">${esc(l.label)}</button>`));
   if (nThread) acts.push(`<button type="button" id="peek-thread">${t('🔁 Also in {n} other places').replace('{n}', nThread)}</button>`);
   acts.push(`<button type="button" id="pk-more">${t('⋯ More')}</button>`);
@@ -1199,6 +1226,7 @@ function renderPeek(sel){
     else if (gt.part && current && current.library){ const e = await catalogFor(current.library); if (e){ try { toast(t('Adding…')); await installLibrary(e, [gt.part]); const m2 = maps.find(x => x.id === gt.map); if (m2){ saveNow(); mapStack.push(current.id); await jumpTo({ map: m2, id: gt.node }); updateBackLabel(); } } catch(err){ toast(t('Could not load that part — check the connection')); } } }
     else if (current && current.library){ const e = await catalogFor(current.library); if (e) partsSheet(e); else toast(t('That map is not on this device yet')); }
     else toast(t('That map is not on this device yet')); });
+  on('pk-say', () => sayBubble(n, () => { const b = $('#pk-say'); if (b) b.textContent = sayingId === n.id ? t('⏹ Stop reading') : t('🔊 Read aloud'); }));
   on('peek-thread', () => threadSheet(topicsOf(n), n.id));
   on('pk-more', () => holdSheet(MindElixir.E(n.id) || sel));
   on('pk-close', () => { try { mind.clearSelection(); } catch(e){} pk.hidden = true; renderDock(); });
@@ -2921,13 +2949,15 @@ const LIB_NOTICE = {
 function libNotice(id){ const n = LIB_NOTICE[id]; if (!n || !wrap.hidden) return; sheet(`<h2>${esc(n.title)}</h2><p class="sub" style="font-size:14.5px;line-height:1.45">${esc(n.text)}</p><div class="row"><button class="btn primary" id="ln-ok">${t('I understand')}</button></div>`, s => { $('#ln-ok', s).onclick = () => { settings.notices = Object.assign({}, settings.notices, { [id]: Date.now() }); saveSettings(settings); closeSheet(); }; }); }
 function privacySheet(){
   sheet(`<h2>${t('Privacy and your data')}</h2><ul class="tips">
-    <li><b>${t('Only your email.')}</b> ${t('Manas asks for your email when you first open it, and nothing else — not your name or number. It is used only for Manas, never shared or sold. Update emails are sent only if you ticked the box and confirmed the link, and every one has a one-tap unsubscribe.')}</li>
+    <li><b>${t('Your email, and why.')}</b> ${t('Manas asks for your email when you first open it — not your name or number. With it we send: your language, whether you use the website or the app, and the subjects you ticked. We use this only to know who uses Manas and, if you ticked the box and confirmed the link, to send update emails (each has a one-tap unsubscribe). It is never shared or sold.')}</li>
+    <li><b>${t('Where it is kept, and for how long.')}</b> ${t('In a private Google Sheet run by the Manas team, for as long as you use Manas. To see, correct or delete it, email')} <a href="mailto:${FEEDBACK_EMAIL}">${FEEDBACK_EMAIL}</a>${t(' and it is removed within 30 days.')}</li>
+    <li><b>${t('Under 18?')}</b> ${t('Please ask a parent or guardian before you give your email.')}</li>
     <li><b>${t('Your maps stay on this device.')}</b> Nothing is uploaded. That also means nobody can recover them for you — make a backup now and then (home menu → Back up).</li>
     <li><b>${t('Study progress')}</b> is stored on this device too, and is included in your backup.</li>
     <li><b>${t('Links')}</b> (YouTube, vedabase, guidelines) open other websites, which have their own privacy policies. Manas asks before opening them.</li>
     <li><b>${t('Reports and feedback')}</b> are sent only when you choose: by your own email or WhatsApp, or with “Send to Manas”, which sends your words, the bubble it is about and your email to the Manas team.</li>
     <li><b>${t('AI helper (optional)')}</b>: if you add your own Google AI key, it is kept on this phone only and is not in your backups. When you use AI, what you send goes to Google under Google’s terms.</li>
-    <li>On the web version, the only thing fetched is the app itself and the libraries you add, from ${esc(SITE.replace('https://', ''))}.</li></ul>
+    <li>${t('On the web version, Manas fetches the app and the libraries you add from')} ${esc(SITE.replace('https://', ''))}${t(', and its two fonts from Google Fonts (Google sees your internet address, as with any website). There are no ads, analytics or trackers.')}</li></ul>
     <div class="row"><button class="btn primary" id="pv-ok">${t('OK')}</button></div>`, s => { $('#pv-ok', s).onclick = closeSheet; });
 }
 
@@ -2963,7 +2993,7 @@ function emailGate(then){
     <input class="field" id="g-in" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com">
     <label class="pick" style="margin-top:12px"><input type="checkbox" id="g-up" checked style="width:22px;height:22px;flex:none"><span>${t('Also email me when new classes and libraries arrive (a few emails a month at most, one-tap unsubscribe)')}</span></label>
     ${libs.length ? `<div id="g-libs"><span class="lbl">${t('I am interested in')}</span><div class="menu">${libs.map(l => `<label class="pick"><input type="checkbox" class="g-lib" value="${esc(l.id)}" style="width:22px;height:22px;flex:none"><span>${esc(l.icon || '📚')} ${esc(l.title)}</span></label>`).join('')}</div></div>` : ''}
-    <p class="sub" style="margin-top:10px;font-size:13px">${t('Your email is used only for Manas and never shared.')} <a href="#" id="g-priv">${t('Privacy')}</a></p>
+    <p class="sub" style="margin-top:10px;font-size:13px">${t('Your email is used only for Manas, never shared, and deleted when you ask. Under 18? Ask a parent or guardian first.')} <a href="#" id="g-priv">${t('Privacy')}</a></p>
     <button class="btn primary" id="g-go" style="width:100%;justify-content:center;margin-top:8px">${t('Start')}</button></div>`;
   document.body.appendChild(box);
   const up = box.querySelector('#g-up'), lw = box.querySelector('#g-libs');
@@ -3119,7 +3149,7 @@ async function librariesSheet(first){
 /* ---------------- study: flashcards with spaced repetition, and a quick quiz ---------------- */
 const SRS_KEY = 'manas.srs.v1';
 let srs = {}; try { srs = JSON.parse(localStorage.getItem(SRS_KEY) || '{}'); } catch(e){ srs = {}; }
-let srsT; function saveSrs(){ clearTimeout(srsT); srsT = setTimeout(() => { try { localStorage.setItem(SRS_KEY, JSON.stringify(srs)); } catch(e){} }, 300); }
+let srsT; function saveSrs(){ clearTimeout(srsT); srsT = setTimeout(() => { try { localStorage.setItem(SRS_KEY, JSON.stringify(srs)); } catch(e){ if (!saveSrs.warned){ saveSrs.warned = true; toast(t('Could not save your study progress on this phone — its storage may be full')); } } }, 300); }
 const DAY = 86400000, INTERVALS = [0, 1, 2, 4, 8, 16, 32, 64];
 const MEDIA = /^(🔊|🎬|📷|📖|📋|▶|🎥|🔗)/;
 function plain(t){ return String(t || '').replace(/<[^>]+>/g, '').trim(); }
@@ -3312,8 +3342,9 @@ async function boot(){
   }
   renderHome();
 }
-const DIAG = { version: '7.16', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
+const DIAG = { version: '7.17', catalog: 'none', persist: 'checking', preload: 'not tried', storage: 'unknown', bridge: false, imports: 0, lastError: '' };
 window.addEventListener('error', e => { DIAG.lastError = String(e.message || e).slice(0, 200); });
+window.addEventListener('unhandledrejection', e => { const r = e && e.reason; DIAG.lastError = ('promise: ' + String((r && r.message) || r)).slice(0, 200); });
 function pollBridge(){
   try {
     const b = window.ManasBridge; if (!b || !booted) return; DIAG.bridge = true; try { DIAG.shell = b.version ? String(b.version()) : ''; } catch(e){}
@@ -3345,8 +3376,9 @@ function confirmExternal(href, then){
   });
 }
 function aboutSheet(){
+  setTimeout(() => { const l = document.getElementById('ab-lic'); if (l) l.onclick = ev => { ev.preventDefault(); openOut(SITE + 'THIRD-PARTY-LICENSES.md'); }; }, 0);
   sheet(`<h2>${t('About Manas')}</h2><p class="sub">Version ${DIAG.version} · ${location.protocol === 'file:' ? 'installed app' : 'web'}</p>
-    <p class="tips" style="margin:0 0 12px;font-size:12px">${esc(COPYRIGHT)} Engine: Mind Elixir (MIT). Cartoons: OpenMoji (CC BY-SA 4.0).</p>
+    <p class="tips" style="margin:0 0 12px;font-size:12px">${esc(COPYRIGHT)} Engine: Mind Elixir (MIT, © 2019-present SSShooter and contributors). Cartoons: OpenMoji (CC BY-SA 4.0). <a href="#" id="ab-lic">${t('Licences')}</a></p>
     <p class="tips" style="margin:0 0 12px;font-size:11px;opacity:.7">Manas by Kewal Bhatt · ${esc((document.querySelector('meta[name="manas-stamp"]') || {}).content || '')}</p>
     <div class="tips"><li>Maps on this device: <b>${maps.length}</b></li><li>Storage: <b>${DIAG.storage}</b></li><li>Bundled map: <b>${DIAG.preload}</b></li><li>Share-to-Manas bridge: <b>${DIAG.bridge ? 'present' : 'absent'}</b> · imports received: ${DIAG.imports}</li><li>AI: <b>${ai ? 'available' : 'not here'}</b></li>${DIAG.lastError ? `<li>Last error: <code>${esc(DIAG.lastError)}</code></li>` : ''}</div>
     <p class="tips" style="margin-top:12px">Storage kept by the browser: <b>${DIAG.persist}</b> · Last backup: <b>${backupAge()}</b></p>
