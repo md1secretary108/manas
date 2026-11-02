@@ -137,14 +137,14 @@
    "icon": "🌱",
    "file": "lib-soil.json",
    "root": "soil-root",
-   "v": 1792583870,
-   "whatsNew": "Corrections from a fact check",
-   "meta": "76 maps · 5,574 ideas · 1.3 MB · 11 subjects",
+   "v": 1793619283,
+   "whatsNew": "Deeper: Azotobacter and Trichoderma — 48 new ideas, 20 sources, research 2021–2026 (Mon 2 Nov)",
+   "meta": "76 maps · 5,622 ideas · 1.4 MB · 11 subjects",
    "about": {
     "by": "Manas, for organic and biological farming teams",
     "from": "Extension and research sources (TNAU Agritech, FAO, USDA NRCS, Infonet-Biovision); YouTube videos from universities, extension services and growers",
     "review": "review in progress",
-    "date": "13 Oct 2026"
+    "date": "2 Nov 2026"
    },
    "parts": 11,
    "split": "lib-soil-index.json"
