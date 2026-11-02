@@ -231,7 +231,7 @@
   {
    "id": "security",
    "title": "Security studies — Somalia and the Horn · draft",
-   "subtitle": "Draft for review: Somalia's national security in November 2026 — al-Shabaab, Puntland and ISIS-Somalia, the constitutional crisis, the security forces, the AUSSOM transition, piracy, foreign powers, what to watch, and a settlement all Somalis gain from.",
+   "subtitle": "Draft for review: Somalia's national security in November 2026 — al-Shabaab, Puntland and ISIS-Somalia, the constitutional crisis, the security forces, the AUSSOM transition, piracy, foreign powers, what to watch, and a settlement all Somalis gain from; plus Puntland in depth.",
    "icon": "🛡️",
    "file": "lib-security.json",
    "root": "security-root",
@@ -242,10 +242,10 @@
     "review": "Draft · review in progress",
     "date": "2 Nov 2026"
    },
-   "whatsNew": "New draft library — Somalia national security map (Nov 2026), 9 branches incl. Puntland; specialists wanted to review",
+   "whatsNew": "Deeper: Puntland in depth — new map, 7 branches (Operation Hilaac, standoff with Mogadishu, North East State, piracy, Bosaso base and port), every bubble sourced",
    "parts": 1,
-   "v": 1793608747,
-   "meta": "3 maps · 64 ideas · 24 KB · 1 subjects",
+   "v": 1793609679,
+   "meta": "4 maps · 106 ideas · 40 KB · 1 subjects",
    "split": "lib-security-index.json"
   }
  ]
