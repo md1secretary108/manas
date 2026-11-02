@@ -230,22 +230,22 @@
   },
   {
    "id": "security",
-   "title": "Security studies — Somalia and the Horn · draft",
-   "subtitle": "Draft for review: Somalia's national security in November 2026 — al-Shabaab, Puntland and ISIS-Somalia, the constitutional crisis, the security forces, the AUSSOM transition, piracy, foreign powers, what to watch, and a settlement all Somalis gain from; plus Puntland in depth.",
+   "title": "Security studies — Somalia, seen from inside · draft",
+   "subtitle": "Draft for review, written from the chair of a Somali security officer: what we protect, the enemy inside the house, our divided house, our forces and who pays them, foreign hands on our soil, our sea, the neighbours, the quiet threats, and a Somali security plan — plus Puntland in depth.",
    "icon": "🛡️",
    "file": "lib-security.json",
    "root": "security-root",
    "draft": true,
    "about": {
-    "by": "Manas, for students of security and policy in the Horn of Africa",
-    "from": "Public analysis (Security Council Report, Chatham House, RUSI, Crisis Group, Hiraal Institute, EUAA), linked bubble by bubble; own-words notes",
+    "by": "Manas, with Somali security professionals",
+    "from": "Somali and Horn-based analysis first (Hiraal Institute, Horn Review, Garowe Online, Somalia Today, FTL Somalia), foreign reports for figures; linked bubble by bubble; own words",
     "review": "Draft · review in progress",
     "date": "2 Nov 2026"
    },
-   "whatsNew": "Deeper: Puntland in depth — new map, 7 branches (Operation Hilaac, standoff with Mogadishu, North East State, piracy, Bosaso base and port), every bubble sourced",
+   "whatsNew": "Rewritten from a Somali perspective — what we protect, who threatens it, what we do; Puntland in depth map added",
    "parts": 1,
-   "v": 1793609679,
-   "meta": "4 maps · 106 ideas · 40 KB · 1 subjects",
+   "v": 1793610089,
+   "meta": "4 maps · 105 ideas · 42 KB · 1 subjects",
    "split": "lib-security-index.json"
   }
  ]
