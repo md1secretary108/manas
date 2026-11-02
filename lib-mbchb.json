@@ -21541,7 +21541,12 @@
         }
        ],
        "note": "Securing the airway quickly in patients at risk of aspiration, a core emergency skill.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hsu605-rapid-sequence-induction",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhsu605-1",
@@ -27997,7 +28002,12 @@
         }
        ],
        "note": "Structured history, general and systemic examination, and building a differential diagnosis in adult medicine.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hme400-history-and-examination",
+        "part": "y4",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhme400-1",
@@ -38074,7 +38084,12 @@
         }
        ],
        "note": "Principles, strengths and limits of X-ray, ultrasound, CT, MRI and nuclear medicine.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hdr400-imaging-modalities",
+        "part": "y4",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhdr400-1",
@@ -42466,7 +42481,12 @@
         }
        ],
        "note": "Extracranial and intracranial spread of middle ear infection.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hsu604-otitis-media-complications",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhsu604-1",
@@ -43326,7 +43346,12 @@
         }
        ],
        "note": "Structure of teeth, tooth eruption and the tissues of the mouth.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hsu606-oral-anatomy-dentition",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhsu606-1",
@@ -48954,7 +48979,12 @@
         }
        ],
        "note": "How health is defined, what determines it, how disease develops in a population and the levels at which it can be prevented.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hch400-concepts-of-health",
+        "part": "y4",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhch400-1",
@@ -60543,6 +60573,3562 @@
          "children": []
         }
        ]
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hch400-concepts-of-health",
+   "title": "HCH 400 · In depth: Concepts of health and disease",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793595488772,
+   "updated": 1793595488772,
+   "library": "mbchb",
+   "deepOf": "med-hch400",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhch400ch-root",
+     "topic": "Concepts of health and disease in depth",
+     "note": "Defining health, models, causation, natural history, prevention, measurement and health frameworks. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhch400ch-defining-health",
+       "topic": "Defining health",
+       "note": "Beyond the 1948 wording.",
+       "children": [
+        {
+         "id": "mdhch400ch-critiques-of-who-definition",
+         "topic": "Critiques of WHO definition",
+         "note": "'Complete' wellbeing is unattainable and hard to measure, and it can label most people, especially those with chronic disease, as unhealthy.",
+         "manas": {
+          "q": "Give two criticisms of the WHO 1948 definition of health."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-health-as-ability-to-adapt",
+         "topic": "Health as ability to adapt",
+         "note": "Huber and colleagues (BMJ 2011) proposed health as the ability to adapt and self-manage in the face of challenges.",
+         "manas": {
+          "q": "What alternative definition of health did Huber et al. propose in 2011?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-dimensions-of-health",
+         "topic": "Dimensions of health",
+         "note": "Physical, mental and social are core; emotional, spiritual and vocational dimensions are often added.",
+         "manas": {
+          "q": "List the commonly described dimensions of health."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-health-disease-continuum",
+         "topic": "Health–disease continuum",
+         "note": "Health and disease are a spectrum from positive health through unrecognised disease to severe illness and death.",
+         "manas": {
+          "q": "Why is health described as a continuum rather than two states?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-disease-illness-sickness",
+       "topic": "Disease, illness, sickness",
+       "note": "Three views of being unwell.",
+       "children": [
+        {
+         "id": "mdhch400ch-disease",
+         "topic": "Disease",
+         "note": "A biological abnormality of structure or function, as defined by the clinician.",
+         "manas": {
+          "q": "What is meant by 'disease' in contrast to illness?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-illness",
+         "topic": "Illness",
+         "note": "The person's subjective experience of feeling unwell; one can have disease without illness and vice versa.",
+         "manas": {
+          "q": "What is 'illness'?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-sickness-and-sick-role",
+         "topic": "Sickness and sick role",
+         "note": "The social role given to an unwell person; Parsons' sick role exempts duties but expects seeking help and wanting to recover.",
+         "manas": {
+          "q": "What are the rights and duties of Parsons' sick role?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-models-of-health",
+       "topic": "Models of health",
+       "note": "Ways of explaining health and disease.",
+       "children": [
+        {
+         "id": "mdhch400ch-biomedical-model",
+         "topic": "Biomedical model",
+         "note": "Disease is a fault in body parts caused by agents; strong for treatment but ignores social and psychological factors.",
+         "manas": {
+          "q": "What is the main weakness of the biomedical model?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-biopsychosocial-model",
+         "topic": "Biopsychosocial model",
+         "note": "Engel (1977): biological, psychological and social factors interact to cause and shape illness.",
+         "manas": {
+          "q": "Who proposed the biopsychosocial model, and when?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-ecological-model",
+         "topic": "Ecological model",
+         "note": "Health reflects balance between people and their environment; links to the agent–host–environment triad.",
+         "manas": {
+          "q": "What does the ecological model of health stress?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-holistic-model",
+         "topic": "Holistic model",
+         "note": "Combines all the above and treats the whole person within their community.",
+         "manas": {
+          "q": "What is the holistic model of health?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-salutogenesis",
+         "topic": "Salutogenesis",
+         "note": "Antonovsky asked what creates health rather than disease; his key idea is the 'sense of coherence'.",
+         "manas": {
+          "q": "What is the central concept of Antonovsky's salutogenesis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-causation",
+       "topic": "Causation",
+       "note": "From single causes to webs.",
+       "children": [
+        {
+         "id": "mdhch400ch-koch-s-postulates",
+         "topic": "Koch's postulates",
+         "note": "Organism found in every case, isolated, reproduces disease when inoculated and is recovered again; fails for carriers and unculturable agents.",
+         "manas": {
+          "q": "What are the limitations of Koch's postulates?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-web-of-causation",
+         "topic": "Web of causation",
+         "note": "Chronic disease results from many interlinked factors; cutting one strand can still reduce disease.",
+         "manas": {
+          "q": "What does the 'web of causation' describe?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-necessary-vs-sufficient-caus",
+         "topic": "Necessary vs sufficient cause",
+         "note": "A necessary cause must be present (e.g. TB bacillus for TB); a sufficient cause inevitably produces disease.",
+         "manas": {
+          "q": "Distinguish a necessary from a sufficient cause."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-bradford-hill-criteria",
+         "topic": "Bradford Hill criteria",
+         "note": "Strength, consistency, specificity, temporality, biological gradient, plausibility, coherence, experiment and analogy (1965).",
+         "manas": {
+          "q": "List the Bradford Hill criteria for causation."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-temporality-is-essential",
+         "topic": "Temporality is essential",
+         "note": "Of the Hill criteria, only temporality — cause before effect — is required.",
+         "manas": {
+          "q": "Which Bradford Hill criterion is essential for causation?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-natural-history-deeper",
+       "topic": "Natural history: deeper",
+       "note": "Phases used for planning interventions.",
+       "children": [
+        {
+         "id": "mdhch400ch-prepathogenesis-phase",
+         "topic": "Prepathogenesis phase",
+         "note": "Before the agent affects the person: agent, host and environment interact; the target of primary prevention.",
+         "manas": {
+          "q": "Which phase of natural history does primary prevention target?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-pathogenesis-phase",
+         "topic": "Pathogenesis phase",
+         "note": "Starts when the agent enters the host: subclinical changes, then clinical disease, then recovery, disability or death.",
+         "manas": {
+          "q": "What are the stages of the pathogenesis phase?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-spectrum-of-disease",
+         "topic": "Spectrum of disease",
+         "note": "Infections range from inapparent through mild and severe to fatal; inapparent cases sustain spread.",
+         "manas": {
+          "q": "Why do inapparent infections matter in disease control?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-prevention-deeper",
+       "topic": "Prevention: deeper",
+       "note": "Leavell and Clark's five levels and beyond.",
+       "children": [
+        {
+         "id": "mdhch400ch-five-levels",
+         "topic": "Five levels",
+         "note": "Health promotion and specific protection (primary); early diagnosis and treatment (secondary); disability limitation and rehabilitation (tertiary).",
+         "manas": {
+          "q": "What are Leavell and Clark's five levels of prevention?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-quaternary-prevention",
+         "topic": "Quaternary prevention",
+         "note": "Protecting patients from overmedicalisation and harm from unnecessary tests or treatment.",
+         "manas": {
+          "q": "What is quaternary prevention?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-wilson-jungner-criteria",
+         "topic": "Wilson–Jungner criteria",
+         "note": "WHO (1968) screening principles: important problem, recognisable early stage, acceptable test, effective treatment, cost justified.",
+         "manas": {
+          "q": "Give key Wilson–Jungner criteria for screening."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-high-risk-vs-population",
+         "topic": "High-risk vs population",
+         "note": "Rose: most cases come from the many at modest risk, so a small population-wide shift prevents more cases than targeting the high-risk few, yet each person gains little.",
+         "manas": {
+          "q": "What is Rose's 'prevention paradox'?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-measuring-health",
+       "topic": "Measuring health",
+       "note": "Indicators and summary measures.",
+       "children": [
+        {
+         "id": "mdhch400ch-mortality-indicators",
+         "topic": "Mortality indicators",
+         "note": "Crude death rate, infant mortality rate, maternal mortality ratio, under-5 mortality and life expectancy.",
+         "manas": {
+          "q": "Name common mortality indicators of population health."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-incidence-vs-prevalence",
+         "topic": "Incidence vs prevalence",
+         "note": "Incidence counts new cases over time; prevalence counts existing cases; prevalence ≈ incidence × duration.",
+         "manas": {
+          "q": "How are prevalence, incidence and duration related?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-daly",
+         "topic": "DALY",
+         "note": "Disability-adjusted life year = years of life lost (YLL) + years lived with disability (YLD); one DALY is one lost healthy year.",
+         "manas": {
+          "q": "What makes up a DALY?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-qaly",
+         "topic": "QALY",
+         "note": "Quality-adjusted life year weights years lived by quality of life (1 = full health, 0 = death); used in cost-effectiveness.",
+         "manas": {
+          "q": "What is a QALY used for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-hale",
+         "topic": "HALE",
+         "note": "Health-adjusted life expectancy: years a person can expect to live in full health.",
+         "manas": {
+          "q": "What does health-adjusted life expectancy (HALE) measure?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-determinants-frameworks",
+       "topic": "Determinants: frameworks",
+       "note": "How causes of health are grouped.",
+       "children": [
+        {
+         "id": "mdhch400ch-lalonde-health-field",
+         "topic": "Lalonde health field",
+         "note": "Canada's 1974 Lalonde report grouped determinants as human biology, environment, lifestyle and health care organisation.",
+         "manas": {
+          "q": "What four fields did the Lalonde report describe?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-csdh-2008",
+         "topic": "CSDH 2008",
+         "note": "WHO Commission on Social Determinants of Health (chair Michael Marmot) reported 'Closing the gap in a generation' in 2008.",
+         "manas": {
+          "q": "What did the 2008 WHO Commission on Social Determinants of Health report?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-social-gradient",
+         "topic": "Social gradient",
+         "note": "Health worsens step by step as social position falls, not just among the poorest.",
+         "manas": {
+          "q": "What is the social gradient in health?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-multimorbidity",
+         "topic": "Multimorbidity",
+         "note": "Two or more long-term conditions in one person; shifts care away from single-disease thinking.",
+         "manas": {
+          "q": "How is multimorbidity defined?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-disease-control-terms",
+       "topic": "Disease control terms",
+       "note": "Control, elimination, eradication.",
+       "children": [
+        {
+         "id": "mdhch400ch-control",
+         "topic": "Control",
+         "note": "Reducing incidence, prevalence or harm to a locally acceptable level with ongoing effort.",
+         "manas": {
+          "q": "What is meant by disease control?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-elimination",
+         "topic": "Elimination",
+         "note": "Interrupting transmission in a defined area while the agent persists elsewhere.",
+         "manas": {
+          "q": "How does elimination differ from eradication?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-eradication",
+         "topic": "Eradication",
+         "note": "Worldwide permanent removal of the agent; smallpox was declared eradicated in 1980.",
+         "manas": {
+          "q": "Which human disease has been eradicated, and when was this declared?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-health-promotion-milestones",
+       "topic": "Health promotion milestones",
+       "note": "Global declarations shaping public health.",
+       "children": [
+        {
+         "id": "mdhch400ch-alma-ata-1978",
+         "topic": "Alma-Ata 1978",
+         "note": "Declared primary health care the key to 'Health for All by the year 2000'.",
+         "manas": {
+          "q": "What did the Alma-Ata Declaration of 1978 call for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-ottawa-charter-1986",
+         "topic": "Ottawa Charter 1986",
+         "note": "Five action areas: healthy public policy, supportive environments, community action, personal skills, reorienting health services.",
+         "manas": {
+          "q": "Name the five action areas of the Ottawa Charter."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-astana-2018",
+         "topic": "Astana 2018",
+         "note": "Renewed the commitment to primary health care as the route to universal health coverage.",
+         "manas": {
+          "q": "What did the 2018 Astana Declaration reaffirm?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-one-health",
+         "topic": "One Health",
+         "note": "Human, animal and environmental health are linked and need joint action, e.g. zoonoses and antimicrobial resistance.",
+         "manas": {
+          "q": "What is the One Health approach?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick recall.",
+       "children": [
+        {
+         "id": "mdhch400ch-screening-is-secondary",
+         "topic": "Screening is secondary",
+         "note": "Screening finds disease early, so it is secondary prevention; immunisation is primary (specific protection).",
+         "manas": {
+          "q": "Is screening primary or secondary prevention?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-iceberg-and-screening",
+         "topic": "Iceberg and screening",
+         "note": "The hidden base of the iceberg is what screening and surveys try to uncover.",
+         "manas": {
+          "q": "How does the iceberg phenomenon relate to screening?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How health is framed in law and policy; Kenya first.",
+       "children": [
+        {
+         "id": "mdhch400ch-kenya-constitution-art-43",
+         "topic": "Kenya: Constitution Art. 43",
+         "note": "The Constitution of Kenya 2010, Article 43, gives every person the right to the highest attainable standard of health, including reproductive health care.",
+         "manas": {
+          "q": "Which article of Kenya's 2010 Constitution guarantees the right to health?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-kenya-emergency-treatment",
+         "topic": "Kenya: emergency treatment",
+         "note": "Article 43 also states that no one shall be denied emergency medical treatment.",
+         "manas": {
+          "q": "What does Kenya's Constitution say about emergency medical treatment?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-kenya-devolved-health",
+         "topic": "Kenya: devolved health",
+         "note": "Under the Fourth Schedule, county governments run county health services; national government keeps health policy and national referral facilities.",
+         "manas": {
+          "q": "Who delivers county health services under Kenya's devolution?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-who-constitution",
+         "topic": "WHO Constitution",
+         "note": "Besides defining health, it states that the highest attainable standard of health is a fundamental right of every human being.",
+         "manas": {
+          "q": "What right does the WHO Constitution declare?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-un-sdg-3",
+         "topic": "UN SDG 3",
+         "note": "Sustainable Development Goal 3 aims to ensure healthy lives and wellbeing for all; target 3.8 is universal health coverage.",
+         "manas": {
+          "q": "Which SDG target covers universal health coverage?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-02.",
+       "manas": {
+        "checked": "2026-11-02"
+       },
+       "children": [
+        {
+         "id": "mdhch400ch-multimorbidity-overview",
+         "topic": "Multimorbidity overview",
+         "note": "Review: multimorbidity appears about a decade earlier in deprived communities and needs person-centred, coordinated care rather than single-disease guidelines.",
+         "manas": {
+          "q": "How much earlier does multimorbidity occur in deprived communities?",
+          "ref": "Nat Rev Dis Primers 2022"
+         },
+         "hyperLink": "https://doi.org/10.1038/s41572-022-00376-4",
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-social-connection-and-health",
+         "topic": "Social connection and health",
+         "note": "Review argues social connection (support, isolation, loneliness) is often missing from social-determinants work and proposes a cross-sector framework.",
+         "manas": {
+          "q": "Which social determinant does the 2022 Annual Review argue is often overlooked?",
+          "ref": "Annu Rev Public Health 2022"
+         },
+         "hyperLink": "https://doi.org/10.1146/annurev-publhealth-052020-110732",
+         "children": []
+        },
+        {
+         "id": "mdhch400ch-costs-of-multimorbidity",
+         "topic": "Costs of multimorbidity",
+         "note": "59 studies, mostly high-income: yearly cost per person ranged I$800–150,000; few data from low- and middle-income countries.",
+         "manas": {
+          "q": "What range of annual per-person multimorbidity costs did the 2022 review find?",
+          "ref": "BMC Med 2022"
+         },
+         "hyperLink": "https://doi.org/10.1186/s12916-022-02427-9",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch400ch-defining-health-openstax",
+       "topic": "📖 Defining health (OpenStax)",
+       "hyperLink": "https://openstax.org/books/population-health/pages/4-1-defining-health",
+       "children": []
+      },
+      {
+       "id": "mdhch400ch-levels-of-prevention-opensta",
+       "topic": "📖 Levels of prevention (OpenStax)",
+       "hyperLink": "https://openstax.org/books/population-health/pages/2-5-levels-of-prevention",
+       "children": []
+      },
+      {
+       "id": "mdhch400ch-epidemiology-defined-opensta",
+       "topic": "📖 Epidemiology defined (OpenStax)",
+       "hyperLink": "https://openstax.org/books/population-health/pages/12-1-epidemiology-defined",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y4"
+  },
+  {
+   "id": "med-hdr400-imaging-modalities",
+   "title": "HDR 400 · In depth: Imaging modalities overview",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793595488783,
+   "updated": 1793595488783,
+   "library": "mbchb",
+   "deepOf": "med-hdr400",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhdr400im-root",
+     "topic": "Imaging modalities in depth",
+     "note": "How each modality makes a picture, what it shows best, contrast and radiation safety. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhdr400im-definition-and-scope",
+       "topic": "Definition and scope",
+       "note": "What medical imaging is and how a test is chosen.",
+       "children": [
+        {
+         "id": "mdhdr400im-medical-imaging",
+         "topic": "Medical imaging",
+         "note": "Techniques that create pictures of structures inside the body to diagnose disease, stage it, monitor treatment or guide procedures.",
+         "manas": {
+          "q": "What is medical imaging used for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-ionising-modalities",
+         "topic": "Ionising modalities",
+         "note": "Plain X-ray, fluoroscopy, CT and nuclear medicine (including PET) all expose the patient to ionising radiation.",
+         "manas": {
+          "q": "Which imaging modalities use ionising radiation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-choosing-the-right-test",
+         "topic": "Choosing the right test",
+         "note": "Weigh the clinical question, diagnostic yield, radiation, cost, availability and patient factors such as pregnancy, renal function and implants.",
+         "manas": {
+          "q": "Which factors guide the choice of imaging test?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhdr400im-physics-how-each-works",
+       "topic": "Physics: how each works",
+       "note": "The basic principle behind each picture.",
+       "children": [
+        {
+         "id": "mdhdr400im-plain-radiograph",
+         "topic": "Plain radiograph",
+         "note": "X-rays pass through the body and are absorbed differently by tissues; the detector records what gets through, giving a 2D shadow image.",
+         "manas": {
+          "q": "How is a plain radiograph produced?"
+         },
+         "children": [
+          {
+           "id": "mdhdr400im-five-radiographic-densities",
+           "topic": "Five radiographic densities",
+           "note": "From darkest to brightest: air (gas), fat, soft tissue/fluid, bone (calcium) and metal.",
+           "manas": {
+            "q": "List the five radiographic densities from dark to bright."
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhdr400im-fluoroscopy",
+         "topic": "Fluoroscopy",
+         "note": "Continuous real-time X-ray imaging used for contrast studies (e.g. barium swallow) and guiding interventions; dose rises with screening time.",
+         "manas": {
+          "q": "What is fluoroscopy used for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-computed-tomography-ct",
+         "topic": "Computed tomography (CT)",
+         "note": "A rotating X-ray tube and detector ring acquire data that a computer reconstructs into thin cross-sectional slices.",
+         "manas": {
+          "q": "How does CT produce cross-sectional images?"
+         },
+         "children": [
+          {
+           "id": "mdhdr400im-hounsfield-units",
+           "topic": "Hounsfield units",
+           "note": "CT density scale: water is 0, air about −1000; fat is negative, bone strongly positive.",
+           "manas": {
+            "q": "What are the Hounsfield values of water and air?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhdr400im-windows",
+           "topic": "Windows",
+           "note": "The same CT data are displayed with different settings (lung, soft tissue, bone, brain) to show different tissues best.",
+           "manas": {
+            "q": "Why are CT images viewed on different 'windows'?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhdr400im-ultrasound",
+         "topic": "Ultrasound",
+         "note": "A piezoelectric transducer sends high-frequency sound into tissue and builds an image from echoes reflected at tissue interfaces.",
+         "manas": {
+          "q": "How does ultrasound create an image?"
+         },
+         "children": [
+          {
+           "id": "mdhdr400im-frequency-trade-off",
+           "topic": "Frequency trade-off",
+           "note": "Higher-frequency probes give better resolution but less depth; low-frequency probes reach deep organs with poorer detail.",
+           "manas": {
+            "q": "What is the trade-off between ultrasound frequency and depth?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhdr400im-doppler",
+           "topic": "Doppler",
+           "note": "Measures the frequency shift of echoes from moving blood to show flow direction and velocity, e.g. in DVT or carotid studies.",
+           "manas": {
+            "q": "What does Doppler ultrasound measure?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhdr400im-mri",
+         "topic": "MRI",
+         "note": "A strong magnetic field and radiofrequency pulses make hydrogen nuclei (protons) emit signals that are mapped into an image.",
+         "manas": {
+          "q": "What is the signal source in MRI?"
+         },
+         "children": [
+          {
+           "id": "mdhdr400im-t1-versus-t2",
+           "topic": "T1 versus T2",
+           "note": "On T1, fat is bright and fluid dark (good anatomy); on T2, fluid is bright (good for oedema and pathology).",
+           "manas": {
+            "q": "Which tissue is bright on T1 and which on T2 MRI?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhdr400im-nuclear-medicine",
+         "topic": "Nuclear medicine",
+         "note": "A radiotracer is given and a gamma camera detects its emissions, showing organ function rather than just structure.",
+         "manas": {
+          "q": "What does nuclear medicine imaging mainly show?"
+         },
+         "children": [
+          {
+           "id": "mdhdr400im-pet",
+           "topic": "PET",
+           "note": "Positron-emitting tracers, most often FDG (a glucose analogue), show metabolically active tissue such as many cancers; usually fused with CT.",
+           "manas": {
+            "q": "Which tracer is most used in PET and what does it show?"
+           },
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "mdhdr400im-describing-findings",
+       "topic": "Describing findings",
+       "note": "The right word for each modality.",
+       "children": [
+        {
+         "id": "mdhdr400im-x-ray-terms",
+         "topic": "X-ray terms",
+         "note": "Radiopaque (white) structures block X-rays; radiolucent (dark) ones let them through.",
+         "manas": {
+          "q": "What do radiopaque and radiolucent mean?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-ct-terms",
+         "topic": "CT terms",
+         "note": "Hyperdense, hypodense or isodense compared with surrounding tissue; e.g. fresh blood in the brain is hyperdense.",
+         "manas": {
+          "q": "How does acute haemorrhage appear on non-contrast CT brain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-ultrasound-terms",
+         "topic": "Ultrasound terms",
+         "note": "Hyperechoic (bright), hypoechoic (darker) and anechoic (black, e.g. simple fluid).",
+         "manas": {
+          "q": "What does 'anechoic' mean on ultrasound?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-ultrasound-artefacts",
+         "topic": "Ultrasound artefacts",
+         "note": "Gallstones cast a posterior acoustic shadow; fluid-filled cysts show posterior acoustic enhancement.",
+         "manas": {
+          "q": "Which ultrasound artefact is typical of gallstones?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-mri-terms",
+         "topic": "MRI terms",
+         "note": "Hyperintense (bright) and hypointense (dark) signal, always stating the sequence (T1, T2, etc.).",
+         "manas": {
+          "q": "Which words describe brightness on MRI?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhdr400im-strengths-and-limits",
+       "topic": "Strengths and limits",
+       "note": "What each modality does best and where it fails.",
+       "children": [
+        {
+         "id": "mdhdr400im-plain-x-ray",
+         "topic": "Plain X-ray",
+         "note": "Cheap, quick and widely available; first-line for chest and suspected fractures, but structures overlap and soft-tissue contrast is poor.",
+         "manas": {
+          "q": "What are the main strengths and weaknesses of plain X-ray?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-ct",
+         "topic": "CT",
+         "note": "Fast and detailed for trauma, lungs, bone and the acute abdomen; drawbacks are radiation dose and iodinated contrast risks.",
+         "manas": {
+          "q": "Why is CT the workhorse for major trauma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-ultrasound-strengths",
+         "topic": "Ultrasound strengths",
+         "note": "Portable, no radiation, real time, cheap; guides needles and drains and allows bedside FAST scans in trauma.",
+         "manas": {
+          "q": "Name advantages of ultrasound over CT."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-mri-drawbacks",
+         "topic": "MRI drawbacks",
+         "note": "Slow, costly, noisy and claustrophobic; some pacemakers, cochlear implants and metal foreign bodies (e.g. in the eye) can be contraindications.",
+         "manas": {
+          "q": "Name contraindications or drawbacks of MRI."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-nuclear-medicine-uses",
+         "topic": "Nuclear medicine uses",
+         "note": "Bone scan for skeletal metastases, V/Q scan for pulmonary embolism and thyroid scan for nodules or hyperthyroidism.",
+         "manas": {
+          "q": "Give three common nuclear medicine scans and their uses."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhdr400im-contrast-agents",
+       "topic": "Contrast agents",
+       "note": "Agents that make vessels, organs or bowel stand out.",
+       "children": [
+        {
+         "id": "mdhdr400im-iodinated-contrast-ct",
+         "topic": "Iodinated contrast (CT)",
+         "note": "Can cause allergy-like reactions and kidney injury; ask about previous reactions and check renal function in at-risk patients.",
+         "manas": {
+          "q": "What are the main risks of iodinated contrast?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-barium-versus-water-soluble",
+         "topic": "Barium versus water-soluble",
+         "note": "Barium shows the gut well but avoid it if perforation is suspected (peritonitis); use water-soluble contrast instead.",
+         "manas": {
+          "q": "Why is barium avoided when perforation is suspected?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-gadolinium-mri",
+         "topic": "Gadolinium (MRI)",
+         "note": "Linked to nephrogenic systemic fibrosis in severe renal impairment and generally avoided in pregnancy.",
+         "manas": {
+          "q": "Which serious complication is linked to gadolinium in renal failure?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhdr400im-radiation-safety",
+       "topic": "Radiation safety",
+       "note": "Protecting patients and staff.",
+       "children": [
+        {
+         "id": "mdhdr400im-three-principles",
+         "topic": "Three principles",
+         "note": "Justification (benefit must outweigh risk), optimisation (ALARA: as low as reasonably achievable) and dose limits for workers and public.",
+         "manas": {
+          "q": "What are the three principles of radiation protection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-deterministic-versus-stochas",
+         "topic": "Deterministic versus stochastic",
+         "note": "Deterministic effects (skin burns, cataract) have a threshold and worsen with dose; stochastic effects (cancer) have no threshold, only rising probability.",
+         "manas": {
+          "q": "How do deterministic and stochastic radiation effects differ?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-relative-doses",
+         "topic": "Relative doses",
+         "note": "A chest X-ray gives about 0.02 mSv; a CT gives many times that dose, so do not repeat CT without good reason.",
+         "manas": {
+          "q": "Roughly what effective dose does a chest X-ray give?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-children-are-more-sensitive",
+         "topic": "Children are more sensitive",
+         "note": "Growing tissues and long life ahead raise cancer risk per unit dose, so prefer ultrasound or MRI and child-sized CT settings.",
+         "manas": {
+          "q": "Why is radiation dose a bigger concern in children?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-pregnancy-check",
+         "topic": "Pregnancy check",
+         "note": "Ask about pregnancy (and test if unsure) in women of reproductive age before ionising imaging of the abdomen or pelvis.",
+         "manas": {
+          "q": "What must be checked before abdominopelvic X-ray or CT in a woman of childbearing age?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-time-distance-shielding",
+         "topic": "Time, distance, shielding",
+         "note": "Staff cut exposure by minimising time near the source, standing further away and using lead aprons and screens.",
+         "manas": {
+          "q": "Name the three practical ways staff reduce radiation exposure."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhdr400im-choosing-by-scenario",
+       "topic": "Choosing by scenario",
+       "note": "Common first-line choices to know.",
+       "children": [
+        {
+         "id": "mdhdr400im-suspected-gallstones",
+         "topic": "Suspected gallstones",
+         "note": "Abdominal ultrasound is first-line for gallstones and acute cholecystitis.",
+         "manas": {
+          "q": "What is the first-line imaging for suspected gallstones?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-perforated-viscus",
+         "topic": "Perforated viscus",
+         "note": "An erect chest X-ray may show free gas under the diaphragm; CT is more sensitive.",
+         "manas": {
+          "q": "Which plain film can show pneumoperitoneum?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-suspected-pe",
+         "topic": "Suspected PE",
+         "note": "CT pulmonary angiography is standard; a V/Q scan is an option when contrast must be avoided.",
+         "manas": {
+          "q": "What imaging is standard for suspected pulmonary embolism?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-suspected-dvt",
+         "topic": "Suspected DVT",
+         "note": "Compression duplex ultrasound of the leg veins is the usual test.",
+         "manas": {
+          "q": "Which test is used to confirm a suspected DVT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-renal-colic",
+         "topic": "Renal colic",
+         "note": "Non-contrast CT of kidneys, ureters and bladder is usual in adults; ultrasound first in pregnancy and children.",
+         "manas": {
+          "q": "What is the usual imaging for adult renal colic?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhdr400im-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins for OSCEs and viva.",
+       "children": [
+        {
+         "id": "mdhdr400im-check-the-film-first",
+         "topic": "Check the film first",
+         "note": "Confirm patient name, date, projection and side markers before describing any finding.",
+         "manas": {
+          "q": "What should you check before describing a radiograph?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-pa-versus-ap-chest-film",
+         "topic": "PA versus AP chest film",
+         "note": "AP films magnify the heart, so cardiomegaly (cardiothoracic ratio over 0.5) is judged on a PA film.",
+         "manas": {
+          "q": "Why is heart size not reliably assessed on an AP chest X-ray?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-film-adequacy",
+         "topic": "Film adequacy",
+         "note": "Assess rotation, inspiration and exposure before reading the lungs and mediastinum.",
+         "manas": {
+          "q": "Which three quality checks apply to a chest X-ray?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhdr400im-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhdr400im-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "The MoH Clinical Guidelines for Level 4–6 hospitals cover management and referral of common conditions; pick imaging using your hospital's radiology protocol.",
+         "manas": {
+          "q": "Which Kenyan guidance frames hospital care and referral, including imaging?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-kenya-radiation-regulator",
+         "topic": "Kenya radiation regulator",
+         "note": "The Kenya Nuclear Regulatory Authority licenses and inspects facilities that use radiation sources, including X-ray units.",
+         "manas": {
+          "q": "Which Kenyan body regulates use of X-ray and other radiation sources?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-who-and-iaea",
+         "topic": "WHO and IAEA",
+         "note": "The IAEA International Basic Safety Standards, co-sponsored by WHO, set global rules for protecting patients and staff.",
+         "manas": {
+          "q": "Which international standards cover radiation protection in medicine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-icrp",
+         "topic": "ICRP",
+         "note": "The International Commission on Radiological Protection sets the justification, optimisation and dose-limit framework most countries adopt.",
+         "manas": {
+          "q": "Which body framed justification, optimisation and dose limits?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-us-and-uk-referral-tools",
+         "topic": "US and UK referral tools",
+         "note": "The American College of Radiology Appropriateness Criteria and the UK Royal College of Radiologists' iRefer guide test choice.",
+         "manas": {
+          "q": "Name referral guidance used in the US and UK to pick imaging tests."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhdr400im-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-02.",
+       "children": [
+        {
+         "id": "mdhdr400im-pocus-by-non-specialists",
+         "topic": "POCUS by non-specialists",
+         "note": "Review of 36 publications: midwives, nurses, clinical officers and others gave useful bedside scans after short training; barriers were training cost, internet and power.",
+         "manas": {
+          "q": "Can non-specialist primary care staff in LMICs perform useful POCUS?",
+          "ref": "EClinicalMedicine 2022"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.eclinm.2022.101333",
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-pocus-and-patient-outcomes",
+         "topic": "POCUS and patient outcomes",
+         "note": "20 observational studies in low-resource settings: POCUS changed diagnosis in 15–52% and management in 17–87%, but none showed an effect on mortality.",
+         "manas": {
+          "q": "Has POCUS in low-resource settings been shown to reduce mortality?",
+          "ref": "Ultrasound Med Biol 2022"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.ultrasmedbio.2022.04.221",
+         "children": []
+        },
+        {
+         "id": "mdhdr400im-cumulative-dose-in-heart-dis",
+         "topic": "Cumulative dose in heart disease",
+         "note": "Seven studies of children with congenital heart disease: cumulative doses 0.96–53.5 mSv, mostly from interventional cardiology; a significant number exceeded 20 mSv.",
+         "manas": {
+          "q": "Which procedures gave most radiation dose to children with congenital heart disease?",
+          "ref": "Children (Basel) 2023"
+         },
+         "hyperLink": "https://doi.org/10.3390/children10040645",
+         "children": []
+        }
+       ],
+       "manas": {
+        "checked": "2026-11-02"
+       }
+      },
+      {
+       "id": "mdhdr400im-openstax-medical-imaging",
+       "topic": "📖 Medical imaging (OpenStax)",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-7-medical-imaging",
+       "children": []
+      },
+      {
+       "id": "mdhdr400im-radiology-playlist",
+       "topic": "▶ Radiology playlist",
+       "hyperLink": "https://www.youtube.com/playlist?list=PLMoHC7ioYlMb7L-EWLGCRO1iFICy0CP6F",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y4"
+  },
+  {
+   "id": "med-hme400-history-and-examination",
+   "title": "HME 400 · In depth: Clinical history and examination",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793595488797,
+   "updated": 1793595488797,
+   "library": "mbchb",
+   "deepOf": "med-hme400",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhme400he-root",
+     "topic": "Clinical history and examination in depth",
+     "note": "Taking a focused history, examining system by system and turning findings into a plan. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhme400he-purpose-and-set-up",
+       "topic": "Purpose and set-up",
+       "note": "Why history and examination matter and how to start well.",
+       "children": [
+        {
+         "id": "mdhme400he-history-drives-diagnosis",
+         "topic": "History drives diagnosis",
+         "note": "In most patients the history points to the diagnosis; examination and tests then confirm or refine it.",
+         "manas": {
+          "q": "Which part of the clinical assessment gives most diagnostic information?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-introduction-and-consent",
+         "topic": "Introduction and consent",
+         "note": "Wash hands, introduce yourself and your role, confirm the patient's identity and get verbal consent before examining.",
+         "manas": {
+          "q": "What should you do before starting a history or examination?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-chaperone-and-privacy",
+         "topic": "Chaperone and privacy",
+         "note": "Offer a chaperone for intimate examinations, use screens and expose only what is needed while keeping dignity.",
+         "manas": {
+          "q": "When should a chaperone be offered?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme400he-communication-skills",
+       "topic": "Communication skills",
+       "note": "How to ask so patients tell you more.",
+       "children": [
+        {
+         "id": "mdhme400he-open-then-closed-questions",
+         "topic": "Open then closed questions",
+         "note": "Start open ('Tell me about…'), listen without interrupting, then narrow with closed questions to fill gaps.",
+         "manas": {
+          "q": "In what order should open and closed questions be used?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-avoid-leading-questions",
+         "topic": "Avoid leading questions",
+         "note": "Questions that suggest the answer ('The pain spreads to your arm, doesn't it?') distort the history.",
+         "manas": {
+          "q": "Why should leading questions be avoided?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-ice",
+         "topic": "ICE",
+         "note": "Explore the patient's Ideas, Concerns and Expectations about the illness.",
+         "manas": {
+          "q": "What does ICE stand for in history taking?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-summarise-and-signpost",
+         "topic": "Summarise and signpost",
+         "note": "Summarise back to check accuracy and tell the patient when you change topic.",
+         "manas": {
+          "q": "Why summarise back to the patient during a history?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-interpreters",
+         "topic": "Interpreters",
+         "note": "Use a trained interpreter where possible; relatives may filter information or limit what is disclosed.",
+         "manas": {
+          "q": "Why is a trained interpreter preferred over a relative?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-calgary-cambridge-model",
+         "topic": "Calgary–Cambridge model",
+         "note": "A widely taught consultation framework: initiate, gather information, examine, explain and plan, close.",
+         "manas": {
+          "q": "Name the stages of the Calgary–Cambridge consultation model."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme400he-history-in-depth",
+       "topic": "History in depth",
+       "note": "Getting each section right.",
+       "children": [
+        {
+         "id": "mdhme400he-presenting-complaint",
+         "topic": "Presenting complaint",
+         "note": "Record the main symptom in the patient's own words with its duration.",
+         "manas": {
+          "q": "How should the presenting complaint be recorded?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-socrates-for-pain",
+         "topic": "SOCRATES for pain",
+         "note": "Site, Onset, Character, Radiation, Associated features, Time course, Exacerbating/relieving factors, Severity.",
+         "manas": {
+          "q": "What does SOCRATES stand for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-past-medical-history",
+         "topic": "Past medical history",
+         "note": "Ask about TB, HIV status, diabetes, hypertension, asthma, previous surgery and blood transfusions.",
+         "manas": {
+          "q": "Which past conditions are especially important to ask about in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-drug-and-allergy-history",
+         "topic": "Drug and allergy history",
+         "note": "Include over-the-counter and herbal or traditional remedies; for each allergy record what reaction occurred.",
+         "manas": {
+          "q": "What should be recorded alongside a drug allergy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-social-history",
+         "topic": "Social history",
+         "note": "Smoking in pack-years, alcohol, occupation, home and support, and recent travel (e.g. to malaria areas).",
+         "manas": {
+          "q": "Which items belong in the social history?"
+         },
+         "children": [
+          {
+           "id": "mdhme400he-pack-years",
+           "topic": "Pack-years",
+           "note": "Packs (20 cigarettes) smoked per day multiplied by years smoked.",
+           "manas": {
+            "q": "How are pack-years calculated?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhme400he-women-of-reproductive-age",
+         "topic": "Women of reproductive age",
+         "note": "Ask last menstrual period, pregnancies and parity, and contraception; it changes diagnosis, drugs and imaging.",
+         "manas": {
+          "q": "Why ask about the last menstrual period?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-paediatric-extras",
+         "topic": "Paediatric extras",
+         "note": "Add pregnancy and birth history, immunisation, feeding and nutrition, and developmental milestones.",
+         "manas": {
+          "q": "Which extra sections are added in a paediatric history?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-systems-review",
+         "topic": "Systems review",
+         "note": "A brief screen of other systems catches symptoms the patient did not mention.",
+         "manas": {
+          "q": "What is the purpose of the systems review?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme400he-general-examination-in-depth",
+       "topic": "General examination in depth",
+       "note": "Look at the whole patient first.",
+       "children": [
+        {
+         "id": "mdhme400he-vital-signs",
+         "topic": "Vital signs",
+         "note": "Temperature, pulse, blood pressure, respiratory rate and oxygen saturation; respiratory rate is the one most often skipped.",
+         "manas": {
+          "q": "Which vital sign is most often omitted?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-nutrition",
+         "topic": "Nutrition",
+         "note": "Weight, height and BMI (kg/m²); in children use weight-for-height and MUAC.",
+         "manas": {
+          "q": "How is BMI calculated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-hydration",
+         "topic": "Hydration",
+         "note": "Check mucous membranes, skin turgor, capillary refill (normally about 2 seconds or less) and postural BP.",
+         "manas": {
+          "q": "What is a normal capillary refill time?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-hands",
+         "topic": "Hands",
+         "note": "Look for clubbing, koilonychia, leukonychia, splinter haemorrhages, palmar erythema and tremor.",
+         "manas": {
+          "q": "Which nail signs should you look for in the hands?"
+         },
+         "children": [
+          {
+           "id": "mdhme400he-koilonychia",
+           "topic": "Koilonychia",
+           "note": "Spoon-shaped nails, classically from iron-deficiency anaemia.",
+           "manas": {
+            "q": "What does koilonychia suggest?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhme400he-splinter-haemorrhages",
+           "topic": "Splinter haemorrhages",
+           "note": "Small linear bleeds under the nail; can point to infective endocarditis but also occur after trauma.",
+           "manas": {
+            "q": "Which serious infection can cause splinter haemorrhages?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhme400he-jaundice-and-pallor",
+         "topic": "Jaundice and pallor",
+         "note": "Look for jaundice in the sclera in daylight; pallor in conjunctivae, palms and nail beds.",
+         "manas": {
+          "q": "Where is jaundice best detected?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-central-versus-peripheral-cy",
+         "topic": "Central versus peripheral cyanosis",
+         "note": "Central cyanosis shows on the tongue and lips (hypoxaemia); peripheral cyanosis only in fingers and toes (poor perfusion).",
+         "manas": {
+          "q": "How do you tell central from peripheral cyanosis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme400he-systemic-examination-in-dept",
+       "topic": "Systemic examination in depth",
+       "note": "Key steps per system beyond IPPA.",
+       "children": [
+        {
+         "id": "mdhme400he-cardiovascular",
+         "topic": "Cardiovascular",
+         "note": "Pulse rate, rhythm and character, JVP, apex beat and heart sounds; radio-femoral delay suggests coarctation of the aorta.",
+         "manas": {
+          "q": "Which pulse sign suggests coarctation of the aorta?"
+         },
+         "children": [
+          {
+           "id": "mdhme400he-apex-beat",
+           "topic": "Apex beat",
+           "note": "Normally in the 5th intercostal space at the midclavicular line; displaced in cardiomegaly.",
+           "manas": {
+            "q": "Where is the normal apex beat?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhme400he-respiratory",
+         "topic": "Respiratory",
+         "note": "Trachea position, chest expansion, percussion, breath sounds and vocal resonance.",
+         "manas": {
+          "q": "What respiratory signs are checked on examination?"
+         },
+         "children": [
+          {
+           "id": "mdhme400he-percussion-notes",
+           "topic": "Percussion notes",
+           "note": "Stony dull suggests pleural effusion; hyperresonant suggests pneumothorax.",
+           "manas": {
+            "q": "What percussion note suggests pleural effusion?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhme400he-bronchial-breathing",
+           "topic": "Bronchial breathing",
+           "note": "Heard over consolidation, with increased vocal resonance.",
+           "manas": {
+            "q": "Where is bronchial breathing heard?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhme400he-abdominal",
+         "topic": "Abdominal",
+         "note": "Patient lying flat; palpate starting away from any pain; feel for the liver from the right iliac fossa upward so a very large liver edge is not missed.",
+         "manas": {
+          "q": "Why start abdominal palpation in the right iliac fossa for the liver?"
+         },
+         "children": [
+          {
+           "id": "mdhme400he-shifting-dullness",
+           "topic": "Shifting dullness",
+           "note": "Dullness in the flanks that moves when the patient rolls over indicates ascites.",
+           "manas": {
+            "q": "Which sign confirms ascites on percussion?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhme400he-don-t-forget",
+           "topic": "Don't forget",
+           "note": "Hernial orifices, external genitalia and, when indicated and consented, a rectal examination.",
+           "manas": {
+            "q": "What parts of abdominal examination are often forgotten?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhme400he-neurological",
+         "topic": "Neurological",
+         "note": "Tone, power (MRC 0–5), reflexes, sensation and coordination, comparing both sides.",
+         "manas": {
+          "q": "Which scale grades muscle power?"
+         },
+         "children": [
+          {
+           "id": "mdhme400he-umn-versus-lmn",
+           "topic": "UMN versus LMN",
+           "note": "Upper motor neurone: increased tone, brisk reflexes, upgoing plantar. Lower: wasting, fasciculation, reduced tone and reflexes.",
+           "manas": {
+            "q": "How do upper and lower motor neurone lesions differ?"
+           },
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "mdhme400he-putting-it-together",
+       "topic": "Putting it together",
+       "note": "From findings to a plan.",
+       "children": [
+        {
+         "id": "mdhme400he-summary-statement",
+         "topic": "Summary statement",
+         "note": "One or two sentences: who the patient is, key symptoms, key signs and relevant background.",
+         "manas": {
+          "q": "What goes into a case summary statement?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-problem-list",
+         "topic": "Problem list",
+         "note": "List active problems separately so none is missed, then rank differentials for each.",
+         "manas": {
+          "q": "Why make a problem list?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-plan",
+         "topic": "Plan",
+         "note": "Investigations, treatment and monitoring linked to the differentials, plus what you will tell the patient.",
+         "manas": {
+          "q": "What should the management plan link to?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-documentation",
+         "topic": "Documentation",
+         "note": "Write legibly with date, time, name, signature and designation; record negatives that matter.",
+         "manas": {
+          "q": "What must every clinical note include?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme400he-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Common OSCE marks.",
+       "children": [
+        {
+         "id": "mdhme400he-compare-sides",
+         "topic": "Compare sides",
+         "note": "Always compare left with right; asymmetry is often the key sign.",
+         "manas": {
+          "q": "Why compare both sides during examination?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-pertinent-negatives",
+         "topic": "Pertinent negatives",
+         "note": "Report important absent findings (e.g. no neck stiffness in headache) as they narrow the differential.",
+         "manas": {
+          "q": "What is a pertinent negative?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-thank-and-cover",
+         "topic": "Thank and cover",
+         "note": "Finish by thanking the patient, helping them dress and washing your hands.",
+         "manas": {
+          "q": "How should an examination be finished?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme400he-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhme400he-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "The MoH Clinical Guidelines for Level 4–6 hospitals, linked below, frame assessment and referral of common conditions.",
+         "manas": {
+          "q": "Which Kenyan guideline frames hospital assessment of common conditions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-kenya-kmpdc",
+         "topic": "Kenya: KMPDC",
+         "note": "The Kenya Medical Practitioners and Dentists Council regulates doctors, including standards on consent and confidentiality.",
+         "manas": {
+          "q": "Which Kenyan body regulates doctors' professional conduct?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-who-imci",
+         "topic": "WHO: IMCI",
+         "note": "Integrated Management of Childhood Illness gives a structured history, danger-sign check and examination for sick children.",
+         "manas": {
+          "q": "Which WHO approach structures assessment of sick children?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-who-etat",
+         "topic": "WHO: ETAT",
+         "note": "Emergency Triage Assessment and Treatment helps staff spot emergency and priority signs in children on arrival.",
+         "manas": {
+          "q": "What is ETAT used for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme400he-soap-notes",
+         "topic": "SOAP notes",
+         "note": "Common in the US and elsewhere: Subjective, Objective, Assessment, Plan.",
+         "manas": {
+          "q": "What does SOAP stand for in clinical notes?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme400he-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-02.",
+       "children": [
+        {
+         "id": "mdhme400he-hints-for-acute-vertigo",
+         "topic": "HINTS for acute vertigo",
+         "note": "Meta-analysis (43 studies): most neuro signs are specific but insensitive for a central cause; in acute vestibular syndrome, HINTS by trained clinicians: sensitivity 92.9%, HINTS+ 99.0%.",
+         "manas": {
+          "q": "How sensitive is HINTS for a central cause of acute vestibular syndrome?",
+          "ref": "Acad Emerg Med 2023"
+         },
+         "hyperLink": "https://doi.org/10.1111/acem.14630",
+         "children": []
+        },
+        {
+         "id": "mdhme400he-examination-by-video",
+         "topic": "Examination by video",
+         "note": "64 studies: video-based exam components gave diagnostic accuracy similar to in-person exams, but interrater reliability varied; MMSE was reliable.",
+         "manas": {
+          "q": "How does video-based physical examination compare with in-person examination?",
+          "ref": "Telemed J E Health 2022"
+         },
+         "hyperLink": "https://doi.org/10.1089/tmj.2021.0602",
+         "children": []
+        },
+        {
+         "id": "mdhme400he-chatbots-for-history-taking",
+         "topic": "Chatbots for history-taking",
+         "note": "18 studies (3 RCTs): chatbots can gather histories and improve engagement and satisfaction; need data security and to keep empathic contact.",
+         "manas": {
+          "q": "What benefits did studies report for chatbots in history-taking?",
+          "ref": "JMIR Med Inform 2024"
+         },
+         "hyperLink": "https://doi.org/10.2196/56628",
+         "children": []
+        }
+       ],
+       "manas": {
+        "checked": "2026-11-02"
+       }
+      },
+      {
+       "id": "mdhme400he-kenya-clinical-guidelines-l4",
+       "topic": "📋 Kenya clinical guidelines (L4–L6)",
+       "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y4"
+  },
+  {
+   "id": "med-hsu604-otitis-media-complications",
+   "title": "HSU 604 · In depth: Complications of otitis media",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793595488846,
+   "updated": 1793595488846,
+   "library": "mbchb",
+   "deepOf": "med-hsu604",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhsu604om-root",
+     "topic": "Complications of otitis media in depth",
+     "note": "How middle-ear infection spreads, the complications it causes, and how to spot, scan and treat them. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhsu604om-definition-and-classificatio",
+       "topic": "Definition and classification",
+       "note": "What counts as a complication and how they are grouped.",
+       "children": [
+        {
+         "id": "mdhsu604om-what-a-complication-is",
+         "topic": "What a complication is",
+         "note": "Spread of middle-ear infection beyond the mucosa of the middle-ear cleft into bone, soft tissue, the inner ear, the facial nerve or the cranial cavity.",
+         "manas": {
+          "q": "What is meant by a complication of otitis media?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-intratemporal-group",
+         "topic": "Intratemporal group",
+         "note": "Within the temporal bone: mastoiditis, petrous apicitis, facial nerve palsy, labyrinthitis, labyrinthine fistula and hearing loss.",
+         "manas": {
+          "q": "Which complications of otitis media stay within the temporal bone?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-extratemporal-neck-and-scalp",
+         "topic": "Extratemporal (neck and scalp) group",
+         "note": "Pus escaping the temporal bone: subperiosteal (postauricular), zygomatic and Bezold abscesses.",
+         "manas": {
+          "q": "Name abscesses that form outside the temporal bone in otitis media."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-intracranial-group",
+         "topic": "Intracranial group",
+         "note": "Meningitis, extradural abscess, subdural empyema, brain abscess, lateral (sigmoid) sinus thrombosis and otitic hydrocephalus.",
+         "manas": {
+          "q": "List the intracranial complications of otitis media."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-acute-versus-chronic-source",
+         "topic": "Acute versus chronic source",
+         "note": "Acute otitis media causes most mastoiditis in young children; chronic disease with cholesteatoma causes most complications in older children and adults.",
+         "manas": {
+          "q": "Which type of otitis media drives complications in adults?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-mechanism-routes-of-spread",
+       "topic": "Mechanism: routes of spread",
+       "note": "How infection gets out of the middle ear.",
+       "children": [
+        {
+         "id": "mdhsu604om-bone-erosion",
+         "topic": "Bone erosion",
+         "note": "Cholesteatoma and chronic osteitis destroy bone, opening a direct path to dura, sinus, labyrinth or facial canal.",
+         "manas": {
+          "q": "How does cholesteatoma lead to intracranial infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-venous-thrombophlebitis",
+         "topic": "Venous thrombophlebitis",
+         "note": "Infected small veins can carry infection through bone that still looks intact, so a complication can occur without visible erosion.",
+         "manas": {
+          "q": "How can infection spread from the ear through intact bone?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-preformed-pathways",
+         "topic": "Preformed pathways",
+         "note": "Round and oval windows, natural bony gaps, old fracture lines and previous surgery let infection pass without new erosion.",
+         "manas": {
+          "q": "Name preformed routes by which ear infection spreads."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-tegmen-and-temporal-lobe",
+         "topic": "Tegmen and temporal lobe",
+         "note": "The thin tegmen tympani roof separates the middle ear and antrum from the middle cranial fossa, so erosion here risks temporal lobe abscess.",
+         "manas": {
+          "q": "Erosion of the tegmen tympani puts which brain region at risk?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-sinus-plate-and-cerebellum",
+         "topic": "Sinus plate and cerebellum",
+         "note": "Behind the mastoid lie the sigmoid sinus and posterior fossa; spread this way causes sinus thrombosis or cerebellar abscess.",
+         "manas": {
+          "q": "Posterior spread from the mastoid threatens which structures?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-facial-nerve-exposure",
+         "topic": "Facial nerve exposure",
+         "note": "The tympanic part of the facial nerve canal is often thin or dehiscent, so middle-ear inflammation can reach the nerve directly.",
+         "manas": {
+          "q": "Why can acute otitis media cause facial nerve palsy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-lateral-canal-erosion",
+         "topic": "Lateral canal erosion",
+         "note": "The lateral semicircular canal is the part of the labyrinth most often eroded by cholesteatoma, creating a fistula.",
+         "manas": {
+          "q": "Which semicircular canal is most often eroded by cholesteatoma?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-intratemporal-complications",
+       "topic": "Intratemporal complications",
+       "note": "Beyond the existing mastoiditis, Gradenigo and fistula bubbles.",
+       "children": [
+        {
+         "id": "mdhsu604om-coalescent-mastoiditis",
+         "topic": "Coalescent mastoiditis",
+         "note": "Pus under pressure breaks down the thin bony walls between mastoid air cells, forming one cavity; it can then burst outwards or inwards.",
+         "manas": {
+          "q": "What happens to the mastoid air cells in coalescent mastoiditis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-sagging-canal-wall",
+         "topic": "Sagging canal wall",
+         "note": "Drooping of the posterosuperior bony meatal wall on otoscopy suggests pus in the mastoid antrum.",
+         "manas": {
+          "q": "What otoscopic sign suggests pus in the mastoid antrum?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-facial-palsy-acute-vs-chroni",
+         "topic": "Facial palsy: acute vs chronic",
+         "note": "In acute otitis media palsy is usually partial and recovers with antibiotics plus myringotomy; with cholesteatoma it needs urgent surgical exploration.",
+         "manas": {
+          "q": "How does management of facial palsy differ in acute versus chronic otitis media?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-serous-labyrinthitis",
+         "topic": "Serous labyrinthitis",
+         "note": "Toxins irritate the inner ear: vertigo and partial sensorineural loss that can recover if the cause is treated quickly.",
+         "manas": {
+          "q": "Is hearing loss from serous labyrinthitis reversible?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-suppurative-labyrinthitis",
+         "topic": "Suppurative labyrinthitis",
+         "note": "Bacteria enter the inner ear: severe vertigo, vomiting, nystagmus and a permanently dead ear; can spread to meningitis.",
+         "manas": {
+          "q": "What is the hearing outcome of suppurative labyrinthitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-abducens-palsy-in-apicitis",
+         "topic": "Abducens palsy in apicitis",
+         "note": "The sixth nerve runs in Dorello's canal close to the petrous apex, so apex infection weakens lateral gaze.",
+         "manas": {
+          "q": "Why does petrous apicitis cause a sixth nerve palsy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-hearing-loss-types",
+         "topic": "Hearing loss types",
+         "note": "Conductive loss from perforation or ossicle erosion (long process of incus most often); sensorineural loss when the labyrinth is involved.",
+         "manas": {
+          "q": "Which ossicle part is most often eroded in chronic otitis media?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-abscesses-around-the-ear",
+       "topic": "Abscesses around the ear",
+       "note": "Where mastoid pus points.",
+       "children": [
+        {
+         "id": "mdhsu604om-subperiosteal-abscess",
+         "topic": "Subperiosteal abscess",
+         "note": "The most common mastoiditis abscess: pus collects under the periosteum behind the ear; fluctuant, with loss of the postauricular crease.",
+         "manas": {
+          "q": "What is the most common abscess complicating acute mastoiditis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-zygomatic-abscess",
+         "topic": "Zygomatic abscess",
+         "note": "Pus tracking into air cells of the zygomatic root gives swelling in front of and above the ear.",
+         "manas": {
+          "q": "Where does a zygomatic abscess from mastoiditis appear?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-bezold-abscess-track",
+         "topic": "Bezold abscess track",
+         "note": "Pus bursts through the medial side of the mastoid tip and runs deep to sternocleidomastoid, so it can spread into deep neck spaces.",
+         "manas": {
+          "q": "Why can a Bezold abscess spread into the deep neck?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-intracranial-complications",
+       "topic": "Intracranial complications",
+       "note": "Deeper detail on the life-threatening group.",
+       "children": [
+        {
+         "id": "mdhsu604om-extradural-abscess",
+         "topic": "Extradural abscess",
+         "note": "Pus between bone and dura; often silent and found at surgery, sometimes with persistent headache or throbbing ear pain.",
+         "manas": {
+          "q": "Why is an otogenic extradural abscess often missed before surgery?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-subdural-empyema",
+         "topic": "Subdural empyema",
+         "note": "Pus spreads fast over the brain surface: high fever, seizures, focal weakness and falling consciousness; a neurosurgical emergency.",
+         "manas": {
+          "q": "Which otogenic intracranial complication causes rapid seizures and focal signs?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-brain-abscess-stages",
+         "topic": "Brain abscess stages",
+         "note": "Local encephalitis, then a quiet latent stage while a capsule forms, then enlargement with raised pressure, then possible rupture.",
+         "manas": {
+          "q": "What are the stages of an otogenic brain abscess?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-temporal-lobe-abscess-signs",
+         "topic": "Temporal lobe abscess signs",
+         "note": "Contralateral upper quadrant field loss; nominal (word-finding) aphasia if on the dominant side; seizures.",
+         "manas": {
+          "q": "Which visual field defect suggests a temporal lobe abscess?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-cerebellar-abscess-signs",
+         "topic": "Cerebellar abscess signs",
+         "note": "Same-side ataxia, intention tremor, dysdiadochokinesia and nystagmus, with raised pressure features.",
+         "manas": {
+          "q": "What signs point to an otogenic cerebellar abscess?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-sinus-thrombosis-spread",
+         "topic": "Sinus thrombosis spread",
+         "note": "Clot in the sigmoid sinus can extend into the internal jugular vein and shed septic emboli to the lungs.",
+         "manas": {
+          "q": "Where can septic emboli from lateral sinus thrombosis lodge?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-empty-delta-sign",
+         "topic": "Empty delta sign",
+         "note": "On contrast CT a filling defect in the sinus with an enhancing rim suggests venous sinus thrombosis.",
+         "manas": {
+          "q": "What CT sign suggests venous sinus thrombosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-otitic-hydrocephalus",
+         "topic": "Otitic hydrocephalus",
+         "note": "Raised intracranial pressure with normal CSF, linked to sinus thrombosis: headache, vomiting, papilloedema, sixth nerve palsy; vision is at risk.",
+         "manas": {
+          "q": "What CSF findings are seen in otitic hydrocephalus?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-recognising-danger",
+       "topic": "Recognising danger",
+       "note": "Signs that a discharging ear is turning serious.",
+       "children": [
+        {
+         "id": "mdhsu604om-unsafe-ear",
+         "topic": "Unsafe ear",
+         "note": "Atticoantral (squamous) disease: attic perforation or retraction pocket with scanty, foul-smelling discharge and cholesteatoma; prone to complications.",
+         "manas": {
+          "q": "What features make a chronically discharging ear 'unsafe'?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-warning-symptoms",
+         "topic": "Warning symptoms",
+         "note": "New earache, headache, fever, vomiting, vertigo, facial weakness or drowsiness in a patient with ear disease need urgent assessment.",
+         "manas": {
+          "q": "Which symptoms in chronic ear disease suggest a complication?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-masked-mastoiditis",
+         "topic": "Masked mastoiditis",
+         "note": "Partial or oral antibiotic courses can hide classic signs while the infection keeps eroding bone.",
+         "manas": {
+          "q": "Why can mastoiditis present with few signs after antibiotics?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-investigations",
+       "topic": "Investigations",
+       "note": "Confirm the complication and find the source.",
+       "children": [
+        {
+         "id": "mdhsu604om-ct-temporal-bone-and-brain",
+         "topic": "CT temporal bone and brain",
+         "note": "Contrast CT shows bone erosion, mastoid coalescence, abscesses and many sinus clots; usually the first scan.",
+         "manas": {
+          "q": "What is the usual first scan for a suspected otogenic complication?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-mri-and-mr-venography",
+         "topic": "MRI and MR venography",
+         "note": "Better for brain abscess, empyema, labyrinth involvement and venous sinus thrombosis.",
+         "manas": {
+          "q": "Which imaging best shows otogenic brain abscess and sinus thrombosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-lumbar-puncture-caution",
+         "topic": "Lumbar puncture caution",
+         "note": "Only after imaging excludes abscess or mass effect, because of the risk of brain herniation.",
+         "manas": {
+          "q": "Why must imaging come before lumbar puncture in otogenic meningitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-microbiology-and-bloods",
+         "topic": "Microbiology and bloods",
+         "note": "Ear pus swab and blood cultures before antibiotics where possible; full blood count and inflammatory markers.",
+         "manas": {
+          "q": "Which samples should be taken before antibiotics in complicated otitis media?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-hearing-assessment",
+         "topic": "Hearing assessment",
+         "note": "Tuning fork tests at the bedside, then pure tone audiometry when the patient is fit.",
+         "manas": {
+          "q": "How is hearing assessed in suspected labyrinth involvement?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-management-principles",
+       "topic": "Management principles",
+       "note": "Treat the complication, then remove the ear source.",
+       "children": [
+        {
+         "id": "mdhsu604om-iv-antibiotics",
+         "topic": "IV antibiotics",
+         "note": "Broad-spectrum IV antibiotics that reach the CNS and cover anaerobes in chronic disease; adjust to culture results.",
+         "manas": {
+          "q": "What antibiotic cover is needed in otogenic intracranial complications?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-myringotomy",
+         "topic": "Myringotomy",
+         "note": "Opening the eardrum drains the middle ear in acute otitis media complications; a ventilation tube may be inserted.",
+         "manas": {
+          "q": "What simple procedure drains the middle ear in acute complications?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-canal-wall-down-mastoidectom",
+         "topic": "Canal-wall-down mastoidectomy",
+         "note": "Modified radical mastoidectomy removes cholesteatoma and diseased bone to make the ear safe.",
+         "manas": {
+          "q": "Which operation clears cholesteatoma causing complications?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-brain-abscess-treatment",
+         "topic": "Brain abscess treatment",
+         "note": "Neurosurgical aspiration or excision with prolonged IV antibiotics; ear surgery when the patient is stable.",
+         "manas": {
+          "q": "How is an otogenic brain abscess treated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-sinus-thrombosis-treatment",
+         "topic": "Sinus thrombosis treatment",
+         "note": "Antibiotics plus mastoid surgery; anticoagulation is often added but practice varies between centres.",
+         "manas": {
+          "q": "How is otogenic lateral sinus thrombosis managed?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-prognosis-and-prevention",
+       "topic": "Prognosis and prevention",
+       "note": "Outcomes and how to prevent them.",
+       "children": [
+        {
+         "id": "mdhsu604om-mortality",
+         "topic": "Mortality",
+         "note": "Intracranial complications, especially brain abscess and meningitis, still carry significant death and disability rates.",
+         "manas": {
+          "q": "Which otogenic complications carry the highest mortality?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-early-treatment",
+         "topic": "Early treatment",
+         "note": "Prompt treatment of acute otitis media and follow-up of chronic discharge reduce complications.",
+         "manas": {
+          "q": "How can complications of otitis media be prevented?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-pneumococcal-vaccine",
+         "topic": "Pneumococcal vaccine",
+         "note": "Pneumococcal conjugate vaccine is in Kenya's routine infant schedule; it reduces pneumococcal meningitis and other invasive disease and modestly reduces otitis media.",
+         "manas": {
+          "q": "Which routine infant vaccine helps prevent pneumococcal ear and brain infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-hearing-and-schooling",
+         "topic": "Hearing and schooling",
+         "note": "Untreated hearing loss in children harms speech, learning and school progress, so screen and refer.",
+         "manas": {
+          "q": "Why does hearing loss from otitis media matter for children?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick points examiners like.",
+       "children": [
+        {
+         "id": "mdhsu604om-safe-vs-unsafe-ear",
+         "topic": "Safe vs unsafe ear",
+         "note": "Central perforation with mucoid discharge is usually safe; attic/marginal perforation or cholesteatoma is unsafe.",
+         "manas": {
+          "q": "Which perforation sites indicate an unsafe ear?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-false-negative-fistula-test",
+         "topic": "False-negative fistula test",
+         "note": "The fistula test can be negative if the labyrinth is already dead or the fistula is blocked by cholesteatoma.",
+         "manas": {
+          "q": "When can the fistula test be falsely negative?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-two-routes-two-lobes",
+         "topic": "Two routes, two lobes",
+         "note": "Upward through tegmen: temporal lobe. Backward through sinus plate: cerebellum and sigmoid sinus.",
+         "manas": {
+          "q": "Map the route of spread to the site of otogenic brain abscess."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhsu604om-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Follow the MoH Clinical Guidelines for Level 4–6 hospitals, linked below, and refer suspected complications to ENT urgently.",
+         "manas": {
+          "q": "Which Kenyan guideline covers hospital ear infection care?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-who-hearing-report",
+         "topic": "WHO hearing report",
+         "note": "WHO's World Report on Hearing (2021) urges integrating ear and hearing care into primary care, including chronic ear infection.",
+         "manas": {
+          "q": "What 2021 WHO report covers ear and hearing care?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-uk-nice",
+         "topic": "UK: NICE",
+         "note": "NICE's acute otitis media antimicrobial guidance favours no or delayed antibiotics for many children, with hospital referral if complications are suspected.",
+         "manas": {
+          "q": "How does UK NICE guidance approach antibiotics for acute otitis media?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-usa-aap-2013",
+         "topic": "USA: AAP (2013)",
+         "note": "The American Academy of Pediatrics 2013 guideline allows observation without antibiotics in selected children with non-severe disease.",
+         "manas": {
+          "q": "What option did the AAP 2013 guideline allow for mild acute otitis media?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-02.",
+       "manas": {
+        "checked": "2026-11-02"
+       },
+       "children": [
+        {
+         "id": "mdhsu604om-csom-review-lancet",
+         "topic": "CSOM review (Lancet)",
+         "note": "CSOM is a leading cause of potentially preventable hearing loss, linked to deprivation; topical antibiotics are optimal for discharge, antiseptics where unavailable; surgery may help persistent disease.",
+         "manas": {
+          "q": "What is the preferred treatment for ear discharge in CSOM?",
+          "ref": "Lancet 2024"
+         },
+         "hyperLink": "https://doi.org/10.1016/s0140-6736(24)00259-9",
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-global-csom-burden",
+         "topic": "Global CSOM burden",
+         "note": "Pooled community studies estimated CSOM in 3.8% of people (about 297 million), with 85% in low- and middle-income countries.",
+         "manas": {
+          "q": "What global prevalence of CSOM did the 2025 systematic review estimate?",
+          "ref": "J Epidemiol Glob Health 2025"
+         },
+         "hyperLink": "https://doi.org/10.1007/s44197-025-00396-9",
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-surgery-for-complicated-mast",
+         "topic": "Surgery for complicated mastoiditis",
+         "note": "Across 23 studies (883 patients), surgically treated patients had larger reductions in complications than medically or conservatively managed ones.",
+         "manas": {
+          "q": "How did surgery compare with medical care in complicated acute mastoiditis?",
+          "ref": "Pediatr Infect Dis J 2022"
+         },
+         "hyperLink": "https://doi.org/10.1097/inf.0000000000003452",
+         "children": []
+        },
+        {
+         "id": "mdhsu604om-otogenic-sinus-thrombosis-ou",
+         "topic": "Otogenic sinus thrombosis outcomes",
+         "note": "In 312 children, the sinus had fully recanalised in 67% at median 8-month follow-up; bleeding was rare (0.3%), no deaths; 31% had suspected otogenic hydrocephalus, 3% needed permanent shunts.",
+         "manas": {
+          "q": "How often had otogenic venous sinus thrombosis fully recanalised in children at follow-up?",
+          "ref": "J Neurosurg Pediatr 2023"
+         },
+         "hyperLink": "https://doi.org/10.3171/2023.2.peds2319",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu604om-kenya-clinical-guidelines-l4",
+       "topic": "📋 Kenya clinical guidelines (L4–L6)",
+       "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+       "children": []
+      },
+      {
+       "id": "mdhsu604om-balance-and-the-inner-ear-op",
+       "topic": "📖 Balance and the inner ear (OpenStax)",
+       "hyperLink": "https://openstax.org/books/introduction-behavioral-neuroscience/pages/7-4-balance-a-sense-of-where-you-are",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hsu605-rapid-sequence-induction",
+   "title": "HSU 605 · In depth: Rapid sequence induction",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793595488851,
+   "updated": 1793595488851,
+   "library": "mbchb",
+   "deepOf": "med-hsu605",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhsu605rsi-root",
+     "topic": "Rapid sequence induction in depth",
+     "note": "Why RSI is done, how to prepare, drug choices, pitfalls and special cases. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhsu605rsi-definition-and-aims",
+       "topic": "Definition and aims",
+       "note": "What RSI is for.",
+       "children": [
+        {
+         "id": "mdhsu605rsi-rsi-defined",
+         "topic": "RSI defined",
+         "note": "After preoxygenation, an induction agent and a fast-acting muscle relaxant are given back to back so a cuffed tracheal tube can be placed quickly.",
+         "manas": {
+          "q": "What is rapid sequence induction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-main-aim",
+         "topic": "Main aim",
+         "note": "Shorten the time between losing protective airway reflexes and sealing the trachea with a cuffed tube, to limit aspiration.",
+         "manas": {
+          "q": "What is the main aim of rapid sequence induction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-classic-versus-modified-rsi",
+         "topic": "Classic versus modified RSI",
+         "note": "Classic RSI avoids mask ventilation before intubation; modified RSI allows gentle, low-pressure mask breaths in patients who desaturate quickly.",
+         "manas": {
+          "q": "How does modified RSI differ from classic RSI?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-physiology-and-rationale",
+       "topic": "Physiology and rationale",
+       "note": "Why aspiration and desaturation are the twin threats.",
+       "children": [
+        {
+         "id": "mdhsu605rsi-who-has-a-full-stomach",
+         "topic": "Who has a full stomach",
+         "note": "Recent food, bowel obstruction, trauma, pain, opioids, labour, diabetic gastroparesis and reflux all raise aspiration risk.",
+         "manas": {
+          "q": "Name factors that make a patient a 'full stomach'."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-aspiration-pneumonitis",
+         "topic": "Aspiration pneumonitis",
+         "note": "Inhaled acidic gastric contents cause a chemical pneumonitis (Mendelson syndrome), first described in obstetric anaesthesia.",
+         "manas": {
+          "q": "What is Mendelson syndrome?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-why-preoxygenate",
+         "topic": "Why preoxygenate",
+         "note": "Oxygen replaces nitrogen in the functional residual capacity, creating a reservoir that lengthens safe apnoea time.",
+         "manas": {
+          "q": "How does preoxygenation lengthen safe apnoea time?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-fast-desaturators",
+         "topic": "Fast desaturators",
+         "note": "Obesity, pregnancy, young children, sepsis and lung disease shrink the oxygen reservoir or raise oxygen use, so saturation falls quickly.",
+         "manas": {
+          "q": "Which patients desaturate fastest during apnoea?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-apnoeic-oxygenation",
+         "topic": "Apnoeic oxygenation",
+         "note": "Nasal oxygen kept running during apnoea lets oxygen keep flowing into the alveoli, delaying desaturation.",
+         "manas": {
+          "q": "What is apnoeic oxygenation?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-assessment-and-preparation",
+       "topic": "Assessment and preparation",
+       "note": "Plan before you push drugs.",
+       "children": [
+        {
+         "id": "mdhsu605rsi-airway-assessment-lemon",
+         "topic": "Airway assessment (LEMON)",
+         "note": "Look externally, Evaluate 3-3-2, Mallampati, Obstruction, Neck mobility: a quick screen for difficult laryngoscopy.",
+         "manas": {
+          "q": "What does the LEMON airway assessment stand for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-equipment-check",
+         "topic": "Equipment check",
+         "note": "Working suction, two laryngoscopes (video if available), tubes in two sizes, bougie, supraglottic airway, front-of-neck kit, capnography.",
+         "manas": {
+          "q": "What equipment must be ready before RSI?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-positioning",
+         "topic": "Positioning",
+         "note": "Sniffing position; in obesity, ramp so the ear canal is level with the sternal notch; head-up tilt helps preoxygenation.",
+         "manas": {
+          "q": "How should an obese patient be positioned for RSI?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-team-briefing",
+         "topic": "Team briefing",
+         "note": "Assign roles and say plans A to D aloud before starting, so everyone knows the next step if intubation fails.",
+         "manas": {
+          "q": "Why should the team brief plans A–D before RSI?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-access-and-monitoring",
+         "topic": "Access and monitoring",
+         "note": "Reliable IV access with fluid running, ECG, blood pressure, pulse oximetry and waveform capnography attached.",
+         "manas": {
+          "q": "What monitoring is essential during RSI?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-drugs",
+       "topic": "Drugs",
+       "note": "Choices and cautions (no induction doses here).",
+       "children": [
+        {
+         "id": "mdhsu605rsi-propofol",
+         "topic": "Propofol",
+         "note": "Smooth, fast induction but drops blood pressure through vasodilatation and myocardial depression; reduce or avoid in shock.",
+         "manas": {
+          "q": "What is the main haemodynamic problem with propofol at induction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-ketamine",
+         "topic": "Ketamine",
+         "note": "Tends to keep blood pressure up via sympathetic stimulation and causes bronchodilation; useful in shock and asthma.",
+         "manas": {
+          "q": "Why is ketamine favoured for RSI in shocked or asthmatic patients?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-thiopental",
+         "topic": "Thiopental",
+         "note": "The classic RSI agent: rapid onset; causes hypotension and is irritant if injected outside the vein or into an artery.",
+         "manas": {
+          "q": "What is a danger of extravascular thiopental?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-etomidate",
+         "topic": "Etomidate",
+         "note": "Haemodynamically stable but suppresses adrenal steroid production.",
+         "manas": {
+          "q": "What endocrine side effect does etomidate cause?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-suxamethonium-effects",
+         "topic": "Suxamethonium effects",
+         "note": "Depolarising: fasciculations, then rapid paralysis; can cause bradycardia (repeat doses, children), potassium rise, myalgia.",
+         "manas": {
+          "q": "What are common side effects of suxamethonium?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-suxamethonium-contraindicati",
+         "topic": "Suxamethonium contraindications",
+         "note": "Hyperkalaemia, malignant hyperthermia risk, known suxamethonium apnoea, and from about 24–48 h after major burns, crush or denervation injury (risk lasts months).",
+         "manas": {
+          "q": "When is suxamethonium contraindicated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-suxamethonium-apnoea",
+         "topic": "Suxamethonium apnoea",
+         "note": "Low or abnormal plasma cholinesterase prolongs paralysis; keep the patient sedated and ventilated until it wears off.",
+         "manas": {
+          "q": "What causes prolonged paralysis after suxamethonium?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-rocuronium-trade-off",
+         "topic": "Rocuronium trade-off",
+         "note": "High-dose rocuronium acts fast but lasts long; without sugammadex you cannot wake the patient quickly if intubation fails.",
+         "manas": {
+          "q": "What is the drawback of rocuronium for RSI without sugammadex?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-opioid-and-vasopressor",
+         "topic": "Opioid and vasopressor",
+         "note": "An opioid can blunt the pressor response in raised ICP or heart disease; have a vasopressor drawn up for post-induction hypotension.",
+         "manas": {
+          "q": "Why might an opioid be added at RSI in head injury?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-doing-it-well",
+       "topic": "Doing it well",
+       "note": "Fine points of the sequence.",
+       "children": [
+        {
+         "id": "mdhsu605rsi-wait-for-full-paralysis",
+         "topic": "Wait for full paralysis",
+         "note": "Do not start laryngoscopy until the relaxant has worked (fasciculations stop with suxamethonium); early attempts cause coughing and trauma.",
+         "manas": {
+          "q": "When should laryngoscopy start after giving the relaxant?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-cricoid-technique",
+         "topic": "Cricoid technique",
+         "note": "Press the cricoid, the only complete ring, back against the oesophagus; release if it worsens the view or blocks ventilation.",
+         "manas": {
+          "q": "Why is the cricoid cartilage used for cricoid pressure?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-active-vomiting",
+         "topic": "Active vomiting",
+         "note": "Release cricoid pressure if the patient actively vomits, to avoid oesophageal rupture; tilt head-down and suction.",
+         "manas": {
+          "q": "What should you do with cricoid pressure if the patient vomits?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-confirm-with-capnography",
+         "topic": "Confirm with capnography",
+         "note": "A sustained waveform end-tidal CO2 trace is the gold standard; no trace means assume the tube is in the oesophagus.",
+         "manas": {
+          "q": "What is the gold standard for confirming tracheal tube placement?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-release-after-confirmation",
+         "topic": "Release after confirmation",
+         "note": "Cricoid pressure is released only after the cuff is inflated and tube position is confirmed.",
+         "manas": {
+          "q": "When is cricoid pressure released during RSI?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-complications",
+       "topic": "Complications",
+       "note": "What goes wrong and why.",
+       "children": [
+        {
+         "id": "mdhsu605rsi-hypoxaemia",
+         "topic": "Hypoxaemia",
+         "note": "Prolonged or repeated attempts cause desaturation; stop and oxygenate rather than persist.",
+         "manas": {
+          "q": "What should you do if saturation falls during intubation attempts?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-post-induction-hypotension",
+         "topic": "Post-induction hypotension",
+         "note": "Induction drugs reduce sympathetic tone and positive pressure ventilation cuts venous return; worse in shock.",
+         "manas": {
+          "q": "Why does blood pressure often fall after RSI?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-unrecognised-oesophageal-tub",
+         "topic": "Unrecognised oesophageal tube",
+         "note": "Leads quickly to hypoxic cardiac arrest; prevented by routine waveform capnography.",
+         "manas": {
+          "q": "How is unrecognised oesophageal intubation prevented?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-awareness",
+         "topic": "Awareness",
+         "note": "The patient may wake while still paralysed if the induction agent wears off, especially with long-acting rocuronium; start ongoing sedation.",
+         "manas": {
+          "q": "Why is awareness a risk after RSI with rocuronium?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-malignant-hyperthermia",
+         "topic": "Malignant hyperthermia",
+         "note": "Triggered by suxamethonium or volatile agents: rising end-tidal CO2, rigidity, tachycardia and fever; treat with dantrolene.",
+         "manas": {
+          "q": "What is the specific treatment for malignant hyperthermia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-airway-trauma",
+         "topic": "Airway trauma",
+         "note": "Damage to teeth, lips, pharynx or larynx, more likely with multiple or forceful attempts.",
+         "manas": {
+          "q": "What makes airway trauma more likely during intubation?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-special-situations",
+       "topic": "Special situations",
+       "note": "Adapting RSI to the patient.",
+       "children": [
+        {
+         "id": "mdhsu605rsi-obstetric-general-anaesthesi",
+         "topic": "Obstetric general anaesthesia",
+         "note": "General anaesthesia for caesarean section is done as RSI, with left uterine displacement and antacid prophylaxis.",
+         "manas": {
+          "q": "Why is general anaesthesia for caesarean done as RSI?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-children",
+         "topic": "Children",
+         "note": "Faster desaturation and bradycardia with suxamethonium; have atropine ready and size equipment carefully.",
+         "manas": {
+          "q": "What drug should be ready for bradycardia during paediatric RSI?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-head-injury",
+         "topic": "Head injury",
+         "note": "Avoid both hypoxia and hypotension, which worsen secondary brain injury; blunt the pressor response.",
+         "manas": {
+          "q": "What two insults must be avoided during RSI in head injury?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-shocked-patient",
+         "topic": "Shocked patient",
+         "note": "Resuscitate first where possible, reduce induction agent dose and prefer a haemodynamically stable agent.",
+         "manas": {
+          "q": "How should RSI be adapted in a shocked patient?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-after-intubation",
+       "topic": "After intubation",
+       "note": "Care continues once the tube is in.",
+       "children": [
+        {
+         "id": "mdhsu605rsi-ongoing-sedation",
+         "topic": "Ongoing sedation",
+         "note": "Start sedation and analgesia promptly to prevent awareness while paralysed.",
+         "manas": {
+          "q": "Why must sedation start promptly after RSI?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-checks",
+         "topic": "Checks",
+         "note": "Confirm tube depth on chest X-ray, pass a gastric tube and set ventilation; watch blood pressure closely.",
+         "manas": {
+          "q": "What checks follow successful intubation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-extubation-with-full-stomach",
+         "topic": "Extubation with full stomach",
+         "note": "Extubate fully awake with protective reflexes back, often head-up or on the side.",
+         "manas": {
+          "q": "How should a full-stomach patient be extubated?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick points examiners like.",
+       "children": [
+        {
+         "id": "mdhsu605rsi-cico-situation",
+         "topic": "CICO situation",
+         "note": "Can't intubate, can't oxygenate: declare it and move to emergency front-of-neck access.",
+         "manas": {
+          "q": "What is the response to a can't intubate, can't oxygenate situation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-scalpel-cricothyroidotomy",
+         "topic": "Scalpel cricothyroidotomy",
+         "note": "DAS approach: scalpel through the cricothyroid membrane, bougie into the trachea, then a small cuffed tube over it.",
+         "manas": {
+          "q": "Describe the scalpel–bougie–tube technique."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-no-trace-wrong-place",
+         "topic": "No trace, wrong place",
+         "note": "A flat capnograph after intubation means oesophageal intubation until proven otherwise, even in cardiac arrest.",
+         "manas": {
+          "q": "What does a flat capnograph after intubation mean?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhsu605rsi-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Use the MoH Clinical Guidelines for Level 4–6 hospitals and your hospital's anaesthesia protocol.",
+         "manas": {
+          "q": "Which Kenyan guideline covers hospital emergency and anaesthesia care?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-who-surgical-safety-checklis",
+         "topic": "WHO Surgical Safety Checklist",
+         "note": "Before induction the WHO checklist asks whether there is a difficult airway or aspiration risk and if help and equipment are ready.",
+         "manas": {
+          "q": "What airway question does the WHO Surgical Safety Checklist ask before induction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-uk-das-and-oaa",
+         "topic": "UK: DAS and OAA",
+         "note": "The Difficult Airway Society publishes adult intubation algorithms; with the OAA it issued 2015 obstetric failed intubation guidance.",
+         "manas": {
+          "q": "Which UK bodies issued obstetric failed intubation guidance in 2015?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-usa-asa-2022",
+         "topic": "USA: ASA (2022)",
+         "note": "The American Society of Anesthesiologists published updated difficult airway management practice guidelines in 2022.",
+         "manas": {
+          "q": "In which year did the ASA publish its updated difficult airway guidelines?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-cricoid-practice-varies",
+         "topic": "Cricoid practice varies",
+         "note": "Use of cricoid pressure differs between countries and units; follow your local protocol.",
+         "manas": {
+          "q": "Is cricoid pressure used the same way everywhere?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-02.",
+       "manas": {
+        "checked": "2026-11-02"
+       },
+       "children": [
+        {
+         "id": "mdhsu605rsi-sccm-rsi-guideline",
+         "topic": "SCCM RSI guideline",
+         "note": "A 20-member SCCM panel used GRADE on 10 questions, giving one strong recommendation, seven conditional suggestions and two best-practice statements.",
+         "manas": {
+          "q": "How many strong recommendations did the SCCM 2023 RSI guideline make?",
+          "ref": "Crit Care Med 2023"
+         },
+         "hyperLink": "https://doi.org/10.1097/ccm.0000000000006000",
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-ketamine-vs-etomidate",
+         "topic": "Ketamine vs etomidate",
+         "note": "Seven RCTs (2384 adults): ketamine probably caused more peri-intubation instability but less adrenal suppression, and probably no effect on first-attempt success (moderate certainty).",
+         "manas": {
+          "q": "How did ketamine compare with etomidate for first-attempt success in RSI?",
+          "ref": "Crit Care Med 2025"
+         },
+         "hyperLink": "https://doi.org/10.1097/ccm.0000000000006515",
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-cricoid-pressure-evidence",
+         "topic": "Cricoid pressure evidence",
+         "note": "An ED review found aspiration happened with or without cricoid pressure and too little evidence to judge its effect on success or aspiration.",
+         "manas": {
+          "q": "What did the 2022 ED review conclude about cricoid pressure?",
+          "ref": "Emerg Med Australas 2022"
+         },
+         "hyperLink": "https://doi.org/10.1111/1742-6723.13993",
+         "children": []
+        },
+        {
+         "id": "mdhsu605rsi-das-2025-guideline",
+         "topic": "DAS 2025 guideline",
+         "note": "DAS 2025 keeps plans A–D, stresses continuous oxygen, first-attempt success and waveform capnography; 65 recommendations include RSI.",
+         "manas": {
+          "q": "Which four plans does the DAS 2025 algorithm keep?",
+          "ref": "Br J Anaesth 2026"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.bja.2025.10.006",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu605rsi-post-anaesthesia-care-openst",
+       "topic": "📖 Post-anaesthesia care (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/27-1-postanesthesia-recovery-and-care",
+       "children": []
+      },
+      {
+       "id": "mdhsu605rsi-obstetric-anaesthesia-openst",
+       "topic": "📖 Obstetric anaesthesia (OpenStax)",
+       "hyperLink": "https://openstax.org/books/maternal-newborn-nursing/pages/17-3-anesthesia",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hsu606-oral-anatomy-dentition",
+   "title": "HSU 606 · In depth: Oral anatomy and dentition",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793595488855,
+   "updated": 1793595488855,
+   "library": "mbchb",
+   "deepOf": "med-hsu606",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhsu606oa-root",
+     "topic": "Oral anatomy and dentition in depth",
+     "note": "Oral cavity layout, tongue, palate, salivary glands, tooth development, eruption, notation and common disorders. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhsu606oa-oral-cavity-layout",
+       "topic": "Oral cavity: layout",
+       "note": "The two parts of the mouth and their boundaries.",
+       "children": [
+        {
+         "id": "mdhsu606oa-vestibule",
+         "topic": "Vestibule",
+         "note": "The slit between the lips/cheeks and the teeth and gums; the parotid duct opens into it.",
+         "manas": {
+          "q": "What is the oral vestibule?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-oral-cavity-proper",
+         "topic": "Oral cavity proper",
+         "note": "Space inside the dental arches: roof is the hard and soft palate, floor is mainly the tongue resting on mylohyoid.",
+         "manas": {
+          "q": "What forms the roof and floor of the oral cavity proper?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-oropharyngeal-isthmus",
+         "topic": "Oropharyngeal isthmus",
+         "note": "The mouth opens into the oropharynx at the palatoglossal arches; the palatine tonsil sits between palatoglossal and palatopharyngeal arches.",
+         "manas": {
+          "q": "Where does the palatine tonsil lie?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-tongue",
+       "topic": "Tongue",
+       "note": "Muscles, nerves and surface features.",
+       "children": [
+        {
+         "id": "mdhsu606oa-motor-supply",
+         "topic": "Motor supply",
+         "note": "All tongue muscles are supplied by the hypoglossal nerve (XII) except palatoglossus, supplied by the vagus via the pharyngeal plexus.",
+         "manas": {
+          "q": "Which tongue muscle is not supplied by the hypoglossal nerve?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-xii-lesion-sign",
+         "topic": "XII lesion sign",
+         "note": "With a lower motor neurone XII lesion the protruded tongue deviates towards the weak side, because the healthy genioglossus pushes unopposed.",
+         "manas": {
+          "q": "Which way does the tongue deviate in a hypoglossal nerve lesion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-anterior-two-thirds-sensatio",
+         "topic": "Anterior two-thirds sensation",
+         "note": "General sensation via the lingual nerve (V3); taste via the chorda tympani branch of the facial nerve (VII).",
+         "manas": {
+          "q": "Which nerves carry touch and taste from the anterior two-thirds of the tongue?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-posterior-one-third-sensatio",
+         "topic": "Posterior one-third sensation",
+         "note": "Both general sensation and taste are carried by the glossopharyngeal nerve (IX).",
+         "manas": {
+          "q": "Which nerve carries taste from the posterior third of the tongue?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-papillae",
+         "topic": "Papillae",
+         "note": "Circumvallate papillae lie just in front of the sulcus terminalis; filiform papillae are the most numerous and have no taste buds.",
+         "manas": {
+          "q": "Which tongue papillae have no taste buds?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-lymph-drainage-of-tongue",
+         "topic": "Lymph drainage of tongue",
+         "note": "Tip drains to submental nodes, the sides to submandibular nodes, the back to deep cervical nodes; central tumours may spread to both sides.",
+         "manas": {
+          "q": "Where does lymph from the tip of the tongue drain first?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-palate",
+       "topic": "Palate",
+       "note": "Hard and soft palate.",
+       "children": [
+        {
+         "id": "mdhsu606oa-hard-palate",
+         "topic": "Hard palate",
+         "note": "Formed by the palatine processes of the maxillae in front and the horizontal plates of the palatine bones behind.",
+         "manas": {
+          "q": "Which bones form the hard palate?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-soft-palate-muscles",
+         "topic": "Soft palate muscles",
+         "note": "All supplied by the vagus via the pharyngeal plexus except tensor veli palatini, which is supplied by V3.",
+         "manas": {
+          "q": "Which soft palate muscle is supplied by the mandibular nerve?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-vagal-lesion-sign",
+         "topic": "Vagal lesion sign",
+         "note": "The uvula is pulled away from the side of a vagus nerve lesion when the patient says 'aah'.",
+         "manas": {
+          "q": "Which way does the uvula deviate in a unilateral vagus lesion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-palatal-mucosa-nerves",
+         "topic": "Palatal mucosa nerves",
+         "note": "Greater palatine nerve supplies most of the hard palate mucosa; the nasopalatine nerve supplies the area behind the upper incisors.",
+         "manas": {
+          "q": "Which nerves supply the mucosa of the hard palate?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-salivary-glands",
+       "topic": "Salivary glands",
+       "note": "Ducts, nerves and stones.",
+       "children": [
+        {
+         "id": "mdhsu606oa-parotid-duct",
+         "topic": "Parotid duct",
+         "note": "Stensen's duct crosses masseter, pierces buccinator and opens opposite the upper second molar.",
+         "manas": {
+          "q": "Where does the parotid duct open into the mouth?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-parotid-secretomotor-supply",
+         "topic": "Parotid secretomotor supply",
+         "note": "Parasympathetic fibres from IX relay in the otic ganglion and reach the gland with the auriculotemporal nerve.",
+         "manas": {
+          "q": "Which ganglion relays secretomotor fibres to the parotid gland?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-submandibular-duct",
+         "topic": "Submandibular duct",
+         "note": "Wharton's duct opens on the sublingual papilla beside the lingual frenulum; secretomotor fibres come via chorda tympani and the submandibular ganglion.",
+         "manas": {
+          "q": "Where does the submandibular duct open?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-why-stones-favour-submandibu",
+         "topic": "Why stones favour submandibular",
+         "note": "Its saliva is more mucous and alkaline and the duct runs upwards against gravity, so most salivary stones form here.",
+         "manas": {
+          "q": "Why are salivary stones commonest in the submandibular gland?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-daily-saliva",
+         "topic": "Daily saliva",
+         "note": "Adults secrete roughly 1–1.5 L a day; saliva contains amylase, lysozyme and IgA and buffers plaque acid.",
+         "manas": {
+          "q": "About how much saliva does an adult produce per day?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-tooth-development",
+       "topic": "Tooth development",
+       "note": "How a tooth forms (odontogenesis).",
+       "children": [
+        {
+         "id": "mdhsu606oa-germ-layer-origins",
+         "topic": "Germ-layer origins",
+         "note": "Enamel comes from ectoderm (ameloblasts); dentine, pulp and cementum come from neural-crest-derived mesenchyme.",
+         "manas": {
+          "q": "Which germ layer gives rise to enamel?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-bud-cap-bell",
+         "topic": "Bud, cap, bell",
+         "note": "The enamel organ passes through bud, cap and bell stages before enamel and dentine are laid down.",
+         "manas": {
+          "q": "Name the stages of tooth development."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-enamel-cannot-regrow",
+         "topic": "Enamel cannot regrow",
+         "note": "Ameloblasts are lost once the tooth erupts, so lost enamel is never replaced, whereas dentine can be added throughout life.",
+         "manas": {
+          "q": "Why can enamel not repair itself after eruption?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-gomphosis",
+         "topic": "Gomphosis",
+         "note": "A tooth is held in its socket by the periodontal ligament, a fibrous joint called a gomphosis.",
+         "manas": {
+          "q": "What type of joint holds a tooth in its socket?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-dentition-and-eruption",
+       "topic": "Dentition and eruption",
+       "note": "Formulae, timing and mixed dentition.",
+       "children": [
+        {
+         "id": "mdhsu606oa-primary-formula",
+         "topic": "Primary formula",
+         "note": "Per quadrant: 2 incisors, 1 canine, 2 molars; there are no premolars in the primary set.",
+         "manas": {
+          "q": "What is the dental formula of the primary dentition?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-permanent-formula",
+         "topic": "Permanent formula",
+         "note": "Per quadrant: 2 incisors, 1 canine, 2 premolars, 3 molars; premolars replace the primary molars.",
+         "manas": {
+          "q": "Which permanent teeth replace the primary molars?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-mixed-dentition",
+         "topic": "Mixed dentition",
+         "note": "From about 6 to 12 years primary and permanent teeth are present together.",
+         "manas": {
+          "q": "Over roughly what ages is the dentition mixed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-third-molars",
+         "topic": "Third molars",
+         "note": "Wisdom teeth usually erupt in late teens to early twenties and are often impacted or absent.",
+         "manas": {
+          "q": "When do third molars usually erupt?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-natal-teeth",
+         "topic": "Natal teeth",
+         "note": "Teeth present at birth, usually lower central incisors; may be loose and pose an aspiration risk.",
+         "manas": {
+          "q": "Which teeth are most often present at birth as natal teeth?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-delayed-eruption-causes",
+         "topic": "Delayed eruption causes",
+         "note": "Consider hypothyroidism, hypopituitarism, rickets, Down syndrome and cleidocranial dysplasia.",
+         "manas": {
+          "q": "Name systemic causes of delayed tooth eruption."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-tooth-notation",
+       "topic": "Tooth notation",
+       "note": "How teeth are named in records.",
+       "children": [
+        {
+         "id": "mdhsu606oa-fdi-two-digit-system",
+         "topic": "FDI two-digit system",
+         "note": "First digit is the quadrant (1–4 permanent, 5–8 primary, clockwise from upper right); second digit counts back from the midline.",
+         "manas": {
+          "q": "How does the FDI two-digit tooth notation work?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-fdi-examples",
+         "topic": "FDI examples",
+         "note": "11 = upper right permanent central incisor; 36 = lower left first permanent molar.",
+         "manas": {
+          "q": "In FDI notation, which tooth is 36?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-common-disorders",
+       "topic": "Common disorders",
+       "note": "What doctors meet in and around the teeth.",
+       "children": [
+        {
+         "id": "mdhsu606oa-dental-caries",
+         "topic": "Dental caries",
+         "note": "Plaque bacteria, chiefly Streptococcus mutans, ferment sugars into acid that demineralises enamel then dentine.",
+         "manas": {
+          "q": "Which organism is chiefly linked to dental caries?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-fluoride",
+         "topic": "Fluoride",
+         "note": "Fluoride forms acid-resistant fluorapatite and aids remineralisation; excess during enamel formation causes fluorosis.",
+         "manas": {
+          "q": "How does fluoride protect teeth?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-dental-fluorosis-in-kenya",
+         "topic": "Dental fluorosis in Kenya",
+         "note": "Mottled, brown-stained enamel is common where groundwater fluoride is high, notably parts of the Rift Valley.",
+         "manas": {
+          "q": "Why is dental fluorosis common in parts of Kenya's Rift Valley?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-gingivitis-vs-periodontitis",
+         "topic": "Gingivitis vs periodontitis",
+         "note": "Gingivitis is reversible gum inflammation; periodontitis destroys attachment and bone, loosening teeth; diabetes worsens it.",
+         "manas": {
+          "q": "What separates gingivitis from periodontitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-ludwig-s-angina",
+         "topic": "Ludwig's angina",
+         "note": "Spreading cellulitis of the submandibular, sublingual and submental spaces, usually from a lower molar infection; airway emergency.",
+         "manas": {
+          "q": "What is Ludwig's angina and why is it dangerous?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-oral-candidiasis",
+         "topic": "Oral candidiasis",
+         "note": "White plaques that wipe off leaving a red base; in an adult without obvious cause, test for HIV.",
+         "manas": {
+          "q": "What should oral thrush in an otherwise well adult prompt?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-noma-cancrum-oris",
+         "topic": "Noma (cancrum oris)",
+         "note": "Rapid gangrene of the mouth and face, mainly in malnourished young children; it starts as gum ulceration.",
+         "manas": {
+          "q": "Which children are most at risk of noma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-avulsed-permanent-tooth",
+         "topic": "Avulsed permanent tooth",
+         "note": "Replant at once or store in milk and see a dentist urgently; primary teeth are not replanted.",
+         "manas": {
+          "q": "How should a knocked-out permanent tooth be handled?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-examination-and-imaging",
+       "topic": "Examination and imaging",
+       "note": "Looking at the mouth well.",
+       "children": [
+        {
+         "id": "mdhsu606oa-systematic-oral-exam",
+         "topic": "Systematic oral exam",
+         "note": "Use a good light and tongue depressor: lips, vestibule, gums, teeth, tongue (including underside), floor, palate, tonsils.",
+         "manas": {
+          "q": "List the areas to inspect in an oral examination."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-bimanual-palpation",
+         "topic": "Bimanual palpation",
+         "note": "One finger in the floor of mouth, other hand under the jaw, to feel submandibular gland and stones.",
+         "manas": {
+          "q": "How is the submandibular gland palpated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-orthopantomogram-opg",
+         "topic": "Orthopantomogram (OPG)",
+         "note": "A panoramic radiograph showing all teeth and both jaws on one film; used for impaction, infection and jaw fractures.",
+         "manas": {
+          "q": "What does an orthopantomogram show?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick recall.",
+       "children": [
+        {
+         "id": "mdhsu606oa-two-numbers-to-know",
+         "topic": "Two numbers to know",
+         "note": "20 primary teeth have no premolars; the 32 permanent include 8 premolars and 12 molars.",
+         "manas": {
+          "q": "How many premolars and molars are in the permanent dentition?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-tongue-nerve-trap",
+         "topic": "Tongue nerve trap",
+         "note": "Lingual nerve carries touch but the chorda tympani (VII) carries taste for the front of the tongue.",
+         "manas": {
+          "q": "Which nerve carries taste fibres within the lingual nerve?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How oral health is framed; Kenya first.",
+       "children": [
+        {
+         "id": "mdhsu606oa-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Use the MoH Clinical Guidelines for Level 4–6 hospitals and refer dental problems to county dental services.",
+         "manas": {
+          "q": "Which Kenyan guideline should guide hospital care?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-who-oral-health-report",
+         "topic": "WHO oral health report",
+         "note": "The WHO Global Oral Health Status Report (2022) estimated that oral diseases affect close to 3.5 billion people.",
+         "manas": {
+          "q": "About how many people does WHO estimate have oral diseases?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-who-noma-as-ntd",
+         "topic": "WHO: noma as NTD",
+         "note": "WHO added noma to its list of neglected tropical diseases in 2023.",
+         "manas": {
+          "q": "When did WHO list noma as a neglected tropical disease?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-notation-varies",
+         "topic": "Notation varies",
+         "note": "FDI notation is used internationally; the UK often uses Palmer notation and the USA the Universal 1–32 system.",
+         "manas": {
+          "q": "Which tooth-numbering systems are used in the UK and USA?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-02.",
+       "manas": {
+        "checked": "2026-11-02"
+       },
+       "children": [
+        {
+         "id": "mdhsu606oa-caries-consensus",
+         "topic": "Caries consensus",
+         "note": "Expert consensus: plan caries care from each patient's risk assessment and lesion activity, aiming to control progression and restore function, with personalised follow-up.",
+         "manas": {
+          "q": "What guides caries treatment plans in the 2022 expert consensus?",
+          "ref": "Int J Oral Sci 2022"
+         },
+         "hyperLink": "https://doi.org/10.1038/s41368-022-00167-3",
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-early-childhood-caries",
+         "topic": "Early childhood caries",
+         "note": "ECC may raise the risk of new caries in both dentitions; advice: improve parents' oral health, set up an early dental home and treat minimally invasively.",
+         "manas": {
+          "q": "What approach to early childhood caries does the 2022 consensus advise?",
+          "ref": "Int J Oral Sci 2022"
+         },
+         "hyperLink": "https://doi.org/10.1038/s41368-022-00186-0",
+         "children": []
+        },
+        {
+         "id": "mdhsu606oa-caries-and-tooth-loss-45",
+         "topic": "Caries and tooth loss ≥45",
+         "note": "Meta-analysis in adults 45 and over: pooled prevalence 22% for edentulism and 45% for dental caries, varying widely by country.",
+         "manas": {
+          "q": "What pooled edentulism and caries prevalence did the 2022 meta-analysis find?",
+          "ref": "J Dent 2022"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.jdent.2022.104335",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu606oa-the-mouth-pharynx-and-oesoph",
+       "topic": "📖 The mouth, pharynx and oesophagus (OpenStax)",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+       "children": []
+      },
+      {
+       "id": "mdhsu606oa-microbial-diseases-of-the-mo",
+       "topic": "📖 Microbial diseases of the mouth (OpenStax)",
+       "hyperLink": "https://openstax.org/books/microbiology/pages/24-2-microbial-diseases-of-the-mouth-and-oral-cavity",
+       "children": []
+      },
+      {
+       "id": "mdhsu606oa-disorders-of-the-oral-cavity",
+       "topic": "📖 Disorders of the oral cavity (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/19-2-disorders-of-the-oral-cavity",
+       "children": []
       }
      ]
     }
