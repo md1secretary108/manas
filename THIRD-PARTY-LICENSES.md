@@ -19,3 +19,5 @@ Outfit and Nunito via Google Fonts (SIL Open Font License) on the web version; t
 
 ## Reference content (not part of the app)
 The Gita Week maps are study notes on lectures by Sri Gauranga Das, used with his knowledge for testing; the videos remain his. Verse references follow Bhagavad-gita As It Is (Bhaktivedanta Book Trust); no BBT text is reproduced.
+
+Some Medicine notes draw on OpenStax textbooks (Rice University), licensed CC BY 4.0 — https://openstax.org/ ; the notes are our own summaries and each links to the OpenStax page it draws on. Some notes across the libraries paraphrase Wikipedia articles (CC BY-SA 4.0, https://www.wikipedia.org/) and link to them. Guidelines from WHO, FAO, the Kenya Ministry of Health, KRA, KASNEB, KICD and Pearson Edexcel are linked, not copied. HH Bhakti Dhira Damodara Swami's classes are mapped with his agreement; the recordings remain his. Security-studies maps summarise public analysis (Hiraal Institute, Horn Review, Somalia Today, Security Council Report, RUSI, Chatham House, EUAA and others) in our own words, each bubble linked to its source.
