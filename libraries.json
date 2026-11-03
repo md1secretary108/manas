@@ -247,6 +247,26 @@
    "v": 1793610089,
    "meta": "4 maps · 105 ideas · 42 KB · 1 subjects",
    "split": "lib-security-index.json"
+  },
+  {
+   "id": "energy",
+   "title": "Fuel-free: replacing what we burn · draft index",
+   "subtitle": "Draft index for review: spines A–E — what burns today and what replaces it; technologies (with energy without electricity, and magnets); combinations and the new-claims rule; off-grid kit for home, clinic and camp; policy and the one-page proposal to government.",
+   "icon": "🔆",
+   "file": "lib-energy.json",
+   "root": "energy-root",
+   "draft": true,
+   "about": {
+    "by": "Manas — idea and direction: KKD's father",
+    "from": "IEA, IRENA, NREL/NLR ATB, Lazard, IPCC AR6 WG3 ch. 6, EPRA, Kenya Ministry of Energy, DOE/Sandia, UNHCR — linked bubble by bubble; own words",
+    "review": "Draft · index only, review in progress",
+    "date": "3 Nov 2026"
+   },
+   "whatsNew": "New draft library — Fuel-free: the index (5 spines, 70 bubbles) for KKD and his father to review before the maps are written",
+   "parts": 1,
+   "v": 1793698176,
+   "meta": "3 maps · 73 ideas · 24 KB · 1 subjects",
+   "split": "lib-energy-index.json"
   }
  ]
 }
