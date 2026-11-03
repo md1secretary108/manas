@@ -156,7 +156,7 @@
    "icon": "🤖",
    "file": "lib-ai.json",
    "root": "ai-root",
-   "whatsNew": "New: Recommender systems and Time series & forecasting; news refreshed (31 Oct)",
+   "whatsNew": "New: How image generators work (diffusion) and Multimodal models; news refreshed: Gemini 4 Carbon, GPT-6.1 Terra, New York AI laws, EU Digital Omnibus (3 Nov)",
    "about": {
     "by": "Manas, for anyone learning AI — beginners and students",
     "from": "Wikipedia, research papers (Europe PMC), free courses; YouTube videos from universities and well-known teachers",
@@ -164,8 +164,8 @@
     "date": "14 Oct 2026"
    },
    "parts": 9,
-   "v": 1793425593,
-   "meta": "59 maps · 3,447 ideas · 789 KB · 9 subjects",
+   "v": 1793700063,
+   "meta": "61 maps · 3,621 ideas · 837 KB · 9 subjects",
    "split": "lib-ai-index.json"
   },
   {
