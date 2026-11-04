@@ -120,15 +120,15 @@
    "icon": "📊",
    "file": "lib-cpa31.json",
    "root": "cpa31-root",
-   "meta": "4 maps · 274 ideas · 206 flashcards · 153 KB · 3 of 10 topics",
+   "meta": "4 maps · 313 ideas · 243 flashcards · 178 KB · 3 of 10 topics",
+   "v": 1793764562,
+   "whatsNew": "Deeper: Leadership (Topic 6) +27 points and Environmental analysis (Topic 5) +10 — worked examples, common mistakes, origins (4 Nov)",
    "about": {
     "by": "Manas, for KASNEB CPA Advanced candidates; tutorial notes from a practising accountant",
     "from": "CA31 tutorial notes (Topics 5, 6, 7) restated in Manas’s own words; KASNEB paper structure",
     "review": "review in progress",
     "date": "6 Oct 2026"
-   },
-   "v": 1792583870,
-   "whatsNew": "Corrections from a fact check"
+   }
   },
   {
    "id": "soil",

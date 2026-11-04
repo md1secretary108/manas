@@ -10,8 +10,8 @@
    "look": "ocean",
    "layout": "side",
    "lines": "curved",
-   "created": 1791280019050,
-   "updated": 1791280019050,
+   "created": 1793764556656,
+   "updated": 1793764556656,
    "library": "cpa31",
    "data": {
     "direction": 2,
@@ -21,7 +21,7 @@
      "icons": [
       "📊"
      ],
-     "note": "Exam preparation for KASNEB CPA Advanced Level, paper CA31 Leadership and Management. Each topic bubble is a door (tap the arrow) into that topic's map: sections follow the tutorial notes, every point is a flashcard (Study → flashcards or quiz), and an Exam practice branch shows likely questions with how to structure the answer. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "note": "Exam preparation for KASNEB CPA Advanced Level, paper CA31 Leadership and Management. Each topic bubble is a door (tap the arrow) into that topic's map: sections follow the tutorial notes, every point is a flashcard (Study → flashcards or quiz), and an Exam practice branch shows likely questions with how to structure the answer. Search words: leadership / leader / leading; management / manager; PESTEL / PESTLE / PEST / ETPS; five forces / Porter; SWOT / strengths weaknesses; conflict / dispute / mediation / arbitration; situational / Hersey Blanchard; transformational / transformative; SMART objectives / goals. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
      "children": [
       {
        "id": "cpa31-o01",
@@ -145,8 +145,8 @@
    "look": "ocean",
    "layout": "side",
    "lines": "curved",
-   "created": 1791280019050,
-   "updated": 1791280019050,
+   "created": 1793764556656,
+   "updated": 1793764556656,
    "library": "cpa31",
    "data": {
     "direction": 2,
@@ -156,7 +156,7 @@
      "icons": [
       "🔭"
      ],
-     "note": "How an organisation reads the world around it: the nature and importance of the business environment, micro and macro factors, environmental scanning, and the analytical tools (SWOT, PESTEL, Porter's five forces and others). Examiners ask you to list and explain factors, apply SWOT, PESTEL and the five forces to a case, and advise on responding to each force. Structure follows the CA31 tutorial notes shared by the reviewer (Chapter 5); explanations are Manas's own words. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "note": "How an organisation reads the world around it: the nature and importance of the business environment, micro and macro factors, environmental scanning, and the analytical tools (SWOT, PESTEL, Porter's five forces and others). Examiners ask you to list and explain factors, apply SWOT, PESTEL and the five forces to a case, and advise on responding to each force. Structure follows the CA31 tutorial notes shared by the reviewer (Chapter 5); explanations are Manas's own words. Deeper points added 4 Nov 2026 checked against: PEST analysis and Porter's five forces analysis (en.wikipedia.org, read 4 Nov 2026). Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
      "children": [
       {
        "id": "cpa31-t05-s1",
@@ -1052,6 +1052,54 @@
            "Five limitations"
           ]
          }
+        },
+        {
+         "id": "cpa31-t05-s7-8",
+         "topic": "Common mistake: inside vs outside",
+         "note": "Strengths and weaknesses are inside the firm and within its control; opportunities and threats come from outside. Writing \"new competitor\" as a weakness or \"skilled staff\" as an opportunity loses marks.",
+         "manas": {
+          "q": "Is a new competitor a weakness or a threat in SWOT, and why?",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "Common mistake: inside vs outside"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s7-9",
+         "topic": "From SWOT to action: matching",
+         "note": "Pair the boxes: use strengths to seize opportunities, use strengths to blunt threats, fix weaknesses that block opportunities, and steer clear where weaknesses meet threats.",
+         "manas": {
+          "q": "How do you turn a SWOT list into strategy options?",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "From SWOT to action: matching"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s7-10",
+         "topic": "Worked example: a pharmacy",
+         "note": "Illustration for a Nairobi pharmacy: S trained pharmacists, busy location; W little capital; O more people with health cover; T online sellers, counterfeit medicines. Then match S with O (insurance contracts).",
+         "manas": {
+          "q": "Give one strength and one threat for a Nairobi pharmacy SWOT.",
+          "orbit": {
+           "ref": "5.7",
+           "tag": "SWOT"
+          },
+          "topics": [
+           "SWOT",
+           "Worked example: a pharmacy"
+          ]
+         }
         }
        ],
        "manas": {
@@ -1181,6 +1229,54 @@
            "Environmental"
           ]
          }
+        },
+        {
+         "id": "cpa31-t05-s8-8",
+         "topic": "Origin: Aguilar, 1967",
+         "note": "Francis Aguilar introduced the scan in 1967 as ETPS (economic, technical, political, social). It was reordered to PEST; environmental and legal factors were added later to make PESTEL (also written PESTLE).",
+         "manas": {
+          "q": "Who introduced the PEST scan, and under what earlier name?",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Origin: Aguilar, 1967"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s8-9",
+         "topic": "Political vs legal: the overlap",
+         "note": "Political covers government choices and stability (policy direction, tax plans, elections); legal covers laws already in force that the firm must obey. If a law has been passed, put it under legal.",
+         "manas": {
+          "q": "How do you decide whether a factor is political or legal in PESTEL?",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Political vs legal: the overlap"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s8-10",
+         "topic": "Worked example: a private hospital",
+         "note": "P health policy and county licensing; E inflation raising drug costs; S more lifestyle diseases; T telemedicine, electronic records; E medical-waste rules; L Kenya's Data Protection Act 2019 for patient records.",
+         "manas": {
+          "q": "Give a legal factor in a PESTEL for a Kenyan private hospital.",
+          "orbit": {
+           "ref": "5.8",
+           "tag": "PESTEL"
+          },
+          "topics": [
+           "PESTEL",
+           "Worked example: a private hospital"
+          ]
+         }
         }
        ],
        "manas": {
@@ -1308,6 +1404,70 @@
           "topics": [
            "Five forces",
            "Rivalry"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-8",
+         "topic": "Origin: Porter, 1979",
+         "note": "Michael Porter of Harvard Business School first published the five forces in Harvard Business Review in 1979. He treats them as the firm's micro environment, in contrast to the wider macro environment.",
+         "manas": {
+          "q": "Who devised the five forces, and where were they first published?",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "Origin: Porter, 1979"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-9",
+         "topic": "Horizontal and vertical forces",
+         "note": "Three forces are horizontal competition: substitutes, existing rivals and new entrants. Two are vertical: supplier power and buyer power.",
+         "manas": {
+          "q": "Which of the five forces are vertical rather than horizontal?",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "Horizontal and vertical forces"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-10",
+         "topic": "Industry profit, not every firm",
+         "note": "The forces explain average profit in an industry, not each firm's result: a firm with strong core competences can still beat the average. Airlines are the classic low-profit industry.",
+         "manas": {
+          "q": "Do the five forces predict the profit of every firm in an industry?",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "Industry profit, not every firm"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s9-11",
+         "topic": "Common mistake: forces vs PESTEL",
+         "note": "Five forces analyse the industry (micro); PESTEL analyses the wider macro environment. Inflation belongs in PESTEL, not under rivalry.",
+         "manas": {
+          "q": "Which tool, five forces or PESTEL, covers inflation?",
+          "orbit": {
+           "ref": "5.9",
+           "tag": "Five forces"
+          },
+          "topics": [
+           "Five forces",
+           "Common mistake: forces vs PESTEL"
           ]
          }
         }
@@ -1549,8 +1709,8 @@
    "look": "ocean",
    "layout": "side",
    "lines": "curved",
-   "created": 1791280019050,
-   "updated": 1791280019050,
+   "created": 1793764556656,
+   "updated": 1793764556656,
    "library": "cpa31",
    "data": {
     "direction": 2,
@@ -1560,7 +1720,7 @@
      "icons": [
       "🧭"
      ],
-     "note": "What makes a leader effective: the traits and skills examiners expect you to list, eight leadership styles with their features, strengths and weaknesses, how a leader sets strategic direction, transactional versus transformational leadership, conflict resolution and ethics. Structure follows the CA31 tutorial notes shared by the reviewer (Topic 6); explanations are Manas's own words. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "note": "What makes a leader effective: the traits and skills examiners expect you to list, eight leadership styles with their features, strengths and weaknesses, how a leader sets strategic direction, transactional versus transformational leadership, conflict resolution and ethics. Structure follows the CA31 tutorial notes shared by the reviewer (Topic 6); explanations are Manas's own words. Deeper points added 4 Nov 2026 checked against: Situational leadership theory, Thomas–Kilmann Conflict Mode Instrument, Transformational leadership and SMART criteria (en.wikipedia.org, read 4 Nov 2026). Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
      "children": [
       {
        "id": "cpa31-t06-s1",
@@ -1680,6 +1840,54 @@
           "topics": [
            "Traits",
            "Why traits matter"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s1-8",
+         "topic": "Traits vs skills: a common slip",
+         "note": "Traits are qualities a person has (integrity, resilience); skills are abilities that can be learned (delegation, communication). Mixing the two lists loses marks, so check which one the question asks for.",
+         "manas": {
+          "q": "What is the difference between a leadership trait and a leadership skill?",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Traits vs skills: a common slip"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s1-9",
+         "topic": "Limits of the trait view",
+         "note": "Traits alone do not predict success: the same person can lead well in one setting and poorly in another. That gap is why later theories looked at behaviour and the situation (see situational style in 6.2).",
+         "manas": {
+          "q": "Why is the trait approach on its own not enough to explain effective leadership?",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Limits of the trait view"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s1-10",
+         "topic": "Worked example: integrity",
+         "note": "A finance manager reports a costly error she made instead of hiding it; staff then report their own mistakes early, which protects the firm. In a \"discuss\" answer give one such example per trait.",
+         "manas": {
+          "q": "Give a workplace example of integrity shown by a finance manager.",
+          "orbit": {
+           "ref": "6.1",
+           "tag": "Traits"
+          },
+          "topics": [
+           "Traits",
+           "Worked example: integrity"
           ]
          }
         }
@@ -1827,6 +2035,70 @@
            "Charismatic"
           ]
          }
+        },
+        {
+         "id": "cpa31-t06-s2-9",
+         "topic": "Situational: Hersey and Blanchard",
+         "note": "Built by Paul Hersey and Ken Blanchard (first published 1969). Four styles by amount of task and relationship behaviour: S1 telling (directing), S2 selling (coaching), S3 participating (supporting), S4 delegating.",
+         "manas": {
+          "q": "Name the four styles in Hersey and Blanchard's situational model.",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Situational: Hersey and Blanchard"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-10",
+         "topic": "Match style to follower readiness",
+         "note": "Readiness runs from R1 (unable and insecure or unwilling) to R4 (able, confident and willing). Usual match: R1 telling, R2 selling, R3 participating, R4 delegating. Readiness is judged per task, not per person.",
+         "manas": {
+          "q": "Which situational style suits a follower who is able, confident and willing?",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Match style to follower readiness"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-11",
+         "topic": "Worked example: audit trainee",
+         "note": "A new audit trainee on a first stock count needs telling (clear steps). Months later, able but unsure, they need participating (support, shared decisions). A senior can simply be delegated the whole count.",
+         "manas": {
+          "q": "How should a manager's style change as an audit trainee gains experience?",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Worked example: audit trainee"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s2-12",
+         "topic": "Common mistake: \"the best style\"",
+         "note": "Saying one style is best. Examiners reward answers that make the choice depend on the people, the task, time pressure and risk: autocratic in an emergency, democratic for a policy change.",
+         "manas": {
+          "q": "Why should an exam answer avoid naming one leadership style as the best?",
+          "orbit": {
+           "ref": "6.2",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Common mistake: \"the best style\""
+          ]
+         }
         }
        ],
        "manas": {
@@ -1938,6 +2210,70 @@
           "topics": [
            "Skills",
            "Strategic thinking"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s3-7",
+         "topic": "Why delegation fails",
+         "note": "Typical causes: fear of losing control, \"I can do it faster\", or handing over the task without the authority and resources. Good delegation passes authority with the task, but the leader stays accountable.",
+         "manas": {
+          "q": "When a leader delegates a task, who remains accountable for the result?",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Why delegation fails"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s3-8",
+         "topic": "Worked example: delegation",
+         "note": "A finance director gives the month-end bank reconciliation to an accountant, with access to the bank portal, a deadline and a weekly check-in; the director still answers to the board if it is wrong.",
+         "manas": {
+          "q": "Give an example of delegation that includes authority, resources and follow-up.",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Worked example: delegation"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s3-9",
+         "topic": "Communication is two-way",
+         "note": "Good leadership communication includes listening and checking understanding, not just giving clear instructions. A leader who only talks misses early warnings from staff.",
+         "manas": {
+          "q": "Why must leadership communication be two-way?",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Communication is two-way"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s3-10",
+         "topic": "Strategic thinking in practice",
+         "note": "It asks where the organisation must be in three to five years and what must change now to get there, rather than reacting only to this month's problems.",
+         "manas": {
+          "q": "What question does strategic thinking ask that daily problem-solving does not?",
+          "orbit": {
+           "ref": "6.3",
+           "tag": "Skills"
+          },
+          "topics": [
+           "Skills",
+           "Strategic thinking in practice"
           ]
          }
         }
@@ -2069,6 +2405,70 @@
            "The leader's role"
           ]
          }
+        },
+        {
+         "id": "cpa31-t06-s4-8",
+         "topic": "Why the order matters",
+         "note": "Each step feeds the next: objectives set without environmental analysis may be unrealistic, and strategies without SMART objectives cannot be measured. Give the steps in order and show the link.",
+         "manas": {
+          "q": "Why should the steps of formulating strategic direction be given in order?",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "Why the order matters"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s4-9",
+         "topic": "SMART: origin and variants",
+         "note": "First proposed by George T. Doran in Management Review, November 1981. Authors vary the letters (achievable or attainable, relevant or realistic); any accepted version earns the mark if explained.",
+         "manas": {
+          "q": "Who first proposed SMART objectives, and when?",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "SMART: origin and variants"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s4-10",
+         "topic": "Worked example: a SMART objective",
+         "note": "Weak: \"improve customer service\". SMART: \"cut average complaint response time at our Nairobi branch from 5 days to 2 by 30 June next year\" — specific, measurable, achievable, relevant, time-bound.",
+         "manas": {
+          "q": "Rewrite \"improve customer service\" as a SMART objective.",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "Worked example: a SMART objective"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s4-11",
+         "topic": "Vision vs mission: a mix-up",
+         "note": "Vision looks ahead (what we want to become); mission describes the present (why we exist, whom we serve, how). Candidates often swap them; give a one-line example of each.",
+         "manas": {
+          "q": "Distinguish a vision statement from a mission statement.",
+          "orbit": {
+           "ref": "6.4",
+           "tag": "Strategy"
+          },
+          "topics": [
+           "Strategy",
+           "Vision vs mission: a mix-up"
+          ]
+         }
         }
        ],
        "manas": {
@@ -2182,6 +2582,70 @@
            "Example"
           ]
          }
+        },
+        {
+         "id": "cpa31-t06-s5-7",
+         "topic": "Origins: Burns, then Bass",
+         "note": "James MacGregor Burns set transforming and transactional leadership against each other as separate styles. Bernard Bass later argued one leader can use both, building transformational behaviour on top of exchange.",
+         "manas": {
+          "q": "How did Bass's view of the two styles differ from Burns's?",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Origins: Burns, then Bass"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s5-8",
+         "topic": "The four I's",
+         "note": "Transformational leaders show four behaviours: idealised influence (role model), inspirational motivation (vision), intellectual stimulation (challenging ideas) and individualised consideration (personal attention).",
+         "manas": {
+          "q": "What are the four I's of transformational leadership?",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "The four I's"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s5-9",
+         "topic": "When transactional fits best",
+         "note": "Transactional is not \"bad\": in routine, rule-bound work such as cash handling or tax-filing deadlines, clear targets and rewards work well. Transformational matters most during change.",
+         "manas": {
+          "q": "In what kind of work does transactional leadership fit best?",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "When transactional fits best"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s5-10",
+         "topic": "Worked example: both together",
+         "note": "A bank branch manager pays a bonus for hitting loan targets (transactional) and also mentors staff and shares a vision of serving small traders better (transformational) — Bass's point in practice.",
+         "manas": {
+          "q": "Give an example of a leader combining transactional and transformational behaviour.",
+          "orbit": {
+           "ref": "6.5",
+           "tag": "Styles"
+          },
+          "topics": [
+           "Styles",
+           "Worked example: both together"
+          ]
+         }
         }
        ],
        "manas": {
@@ -2293,6 +2757,86 @@
           "topics": [
            "Conflict",
            "Avoidance"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-7",
+         "topic": "Thomas–Kilmann: five modes",
+         "note": "Thomas and Kilmann (1974) place conflict behaviour on two axes, assertiveness and cooperativeness: competing, collaborating, compromising, avoiding and accommodating. Three of the notes' six come from here.",
+         "manas": {
+          "q": "Name the five Thomas–Kilmann conflict modes and their two axes.",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Thomas–Kilmann: five modes"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-8",
+         "topic": "Competing and compromising",
+         "note": "Two modes the notes leave out but examiners accept: competing (assertive, uncooperative, win-lose; useful when a quick firm decision is needed) and compromising (each side gives up part).",
+         "manas": {
+          "q": "What is the competing conflict mode, and when is it useful?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Competing and compromising"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-9",
+         "topic": "Mediation vs arbitration: who decides",
+         "note": "Ask who decides. In mediation the parties decide and the mediator only helps; in arbitration the arbitrator decides and the award binds. This is the most common confusion here.",
+         "manas": {
+          "q": "In mediation and in arbitration, who makes the final decision?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Mediation vs arbitration: who decides"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-10",
+         "topic": "Worked example: choosing a route",
+         "note": "Two departments dispute a shared budget: try negotiation, then a neutral manager mediates. A dispute with a supplier goes to arbitration when their contract has an arbitration clause.",
+         "manas": {
+          "q": "When would a commercial dispute go to arbitration?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Worked example: choosing a route"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s6-11",
+         "topic": "Why avoidance is risky",
+         "note": "Avoiding can cool tempers over a trivial issue, but on important issues the conflict usually grows and returns later. Mention this limit whenever you list avoidance.",
+         "manas": {
+          "q": "What is the main danger of avoiding an important conflict?",
+          "orbit": {
+           "ref": "6.6",
+           "tag": "Conflict"
+          },
+          "topics": [
+           "Conflict",
+           "Why avoidance is risky"
           ]
          }
         }
@@ -2424,6 +2968,54 @@
            "Why ethics matters"
           ]
          }
+        },
+        {
+         "id": "cpa31-t06-s7-8",
+         "topic": "Worked example: role modelling",
+         "note": "A CEO who turns down a supplier's gift during a tender, and says so openly, shows staff the rule applies at the top; a written policy alone would not have the same effect.",
+         "manas": {
+          "q": "Give an example of ethical role modelling by a chief executive.",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "Worked example: role modelling"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s7-9",
+         "topic": "Accountability is not blame",
+         "note": "Accountability means owning results and putting them right, not finding someone to blame. Leaders who blame staff for failures teach people to hide problems.",
+         "manas": {
+          "q": "How does accountability differ from blaming?",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "Accountability is not blame"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t06-s7-10",
+         "topic": "How to score a \"discuss\" point",
+         "note": "A bare list of six words earns little. Give each principle its meaning plus a short workplace example: principle, meaning, example.",
+         "manas": {
+          "q": "What three parts make a full-marks point in a \"discuss\" ethics question?",
+          "orbit": {
+           "ref": "6.7",
+           "tag": "Ethics"
+          },
+          "topics": [
+           "Ethics",
+           "How to score a \"discuss\" point"
+          ]
+         }
         }
        ],
        "manas": {
@@ -2513,6 +3105,30 @@
            "tag": "Exam practice"
           }
          }
+        },
+        {
+         "id": "cpa31-t06-exam-7",
+         "topic": "Explain the situational leadership model and how a leader should adapt style to follower readiness.",
+         "note": "Name Hersey and Blanchard, set out S1–S4 by task and relationship behaviour, match each to readiness R1–R4, and close with a short workplace example.",
+         "manas": {
+          "q": "Explain the situational leadership model and how a leader should adapt style to follower readiness.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
+        },
+        {
+         "id": "cpa31-t06-exam-8",
+         "topic": "Using the Thomas–Kilmann model, explain five ways of handling conflict and when each is appropriate.",
+         "note": "Draw the two axes (assertiveness, cooperativeness), place the five modes, and for each give one situation where it fits and one risk.",
+         "manas": {
+          "q": "Using the Thomas–Kilmann model, explain five ways of handling conflict and when each is appropriate.",
+          "orbit": {
+           "ref": "Exam",
+           "tag": "Exam practice"
+          }
+         }
         }
        ]
       }
@@ -2526,8 +3142,8 @@
    "look": "ocean",
    "layout": "side",
    "lines": "curved",
-   "created": 1791280019050,
-   "updated": 1791280019050,
+   "created": 1793764556656,
+   "updated": 1793764556656,
    "library": "cpa31",
    "data": {
     "direction": 2,
