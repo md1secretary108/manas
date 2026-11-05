@@ -211,7 +211,7 @@
   {
    "id": "igcse",
    "title": "Accessible learning — IGCSE essentials · draft",
-   "subtitle": "Draft for review: Edexcel International GCSE English Language A, Mathematics A (Foundation), Biology, Chemistry and Physics — each exam question type as a short, spoken, step-by-step map (read, find key words, plan, write, check where marks are lost, test yourself aloud), linked to the official pages.",
+   "subtitle": "Draft for review: Edexcel International GCSE English Language A, Mathematics A (Foundation and Higher 1H), Biology, Chemistry and Physics — each exam question type as a short, spoken, step-by-step map (read, find key words, plan, write, check where marks are lost, test yourself aloud), linked to the official pages.",
    "icon": "🧩",
    "file": "lib-igcse.json",
    "root": "igcse-root",
@@ -220,12 +220,12 @@
     "by": "Manas, for IGCSE learners (including dyslexic and ADHD learners)",
     "from": "Pearson Edexcel specifications and examiners' reports, linked page by page; own-words notes",
     "review": "Draft · review in progress",
-    "date": "1 Nov 2026"
+    "date": "5 Nov 2026"
    },
-   "whatsNew": "New draft library — 10 maps for IGCSE English, Maths, Biology, Chemistry, Physics; subject teachers wanted to review",
-   "meta": "16 maps · 1,254 ideas · 546 KB · 5 subjects",
+   "whatsNew": "New: Maths A Paper 1H (Higher tier) — 8 question styles, 40 lost-mark traps from the June 2024 and 2025 examiners’ reports, 40 spoken questions (Thu 5 Nov)",
+   "meta": "17 maps · 1,392 ideas · 610 KB · 5 subjects",
    "parts": 5,
-   "v": 1793552642,
+   "v": 1793877871,
    "split": "lib-igcse-index.json"
   },
   {
