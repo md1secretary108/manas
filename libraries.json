@@ -44,16 +44,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "182 maps · 12,642 ideas · 9.0 MB · 8 series + index",
-   "parts": 9,
+   "meta": "206 maps · 14,262 ideas · 10.2 MB · 9 series + index",
+   "parts": 10,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1793767379,
-   "whatsNew": "New series: Sri Manah-siksa — Splendid Instructions to the Mind (30 classes, Kartik 2024, Lagos)",
+   "v": 1793853588,
+   "whatsNew": "New series: The Exalted Character of Bharata Maharaja (23 classes, SB 5.7–5.11, Dec 2024 – Jan 2025)",
    "split": "lib-bdds-index.json"
   },
   {
