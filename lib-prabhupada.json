@@ -199,7 +199,7 @@
         {
          "id": "lib-root-bbd",
          "topic": "Beyond Birth and Death",
-         "note": "A short book on the soul, death, and how to reach the spiritual sky beyond the universe.",
+         "note": "A short book on the soul, death, and how to reach the spiritual sky beyond the universe. All five chapters now have in-depth maps.",
          "hyperLink": "https://vedabase.io/en/library/bbd/",
          "icons": [
           "🕊️"
@@ -30330,30 +30330,50 @@
       {
        "id": "lib-bbd-1",
        "topic": "1 · We Are Not These Bodies",
-       "hyperLink": "https://vedabase.io/en/library/bbd/1/"
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "map": "lib-bbd-1-deep"
+       },
+       "note": "The soul is not the body: consciousness is its sign, the senses must be mastered, and joy is found in serving the supreme enjoyer."
       },
       {
        "id": "lib-bbd-2",
        "topic": "2 · Elevation at Death",
-       "hyperLink": "https://vedabase.io/en/library/bbd/2/"
+       "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+       "manas": {
+        "map": "lib-bbd-2-deep"
+       },
+       "note": "Death is the final exam: the yogi’s method of leaving the body, why higher planets still die, and why merging into light is unsafe."
       },
       {
        "id": "lib-bbd-3",
        "topic": "3 · Liberation from Material Planets",
-       "hyperLink": "https://vedabase.io/en/library/bbd/3/"
+       "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+       "manas": {
+        "map": "lib-bbd-3-deep"
+       },
+       "note": "Knowledge by hearing, not speculation; Lord Caitanya’s free gift of love; and why even Brahmaloka cannot end rebirth."
       },
       {
        "id": "lib-bbd-4",
        "topic": "4 · The Sky Beyond the Universe",
-       "hyperLink": "https://vedabase.io/en/library/bbd/4/"
+       "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+       "manas": {
+        "map": "lib-bbd-4-deep"
+       },
+       "note": "Brahma’s day and night, the eternal spiritual sky beyond the material cloud, bhakti as freedom from labels, and the chanting."
       },
       {
        "id": "lib-bbd-5",
        "topic": "5 · Associating with Kṛṣṇa",
-       "hyperLink": "https://vedabase.io/en/library/bbd/5/"
+       "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+       "manas": {
+        "map": "lib-bbd-5-deep"
+       },
+       "note": "Life with Krishna in Vaikuntha, the five kinds of liberation, the yogi’s timing of death, and the holy name as sure company."
       }
      ],
-     "note": "A short book on the soul, death, and how to reach the spiritual sky beyond the universe.",
+     "note": "A short book on the soul, death, and how to reach the spiritual sky beyond the universe. In depth (6 Nov 2026): every chapter opens its own idea-by-idea map — tap the arrow on a chapter. Search words: soul, atma, death, dying, liberation, mukti, spiritual sky, Vaikuntha, Krishnaloka, Goloka, brahmajyoti.",
      "hyperLink": "https://vedabase.io/en/library/bbd/",
      "icons": [
       "🕊️"
@@ -33296,6 +33316,17 @@
          ],
          "expanded": false,
          "note": "Video of Srila Prabhupada teaching this chapter: full lectures and short subtitled clips from vanimedia.org."
+        },
+        {
+         "id": "olklkua2ahil-see-bbd",
+         "topic": "↪ See also: Beyond Birth and Death",
+         "note": "Chapter 1 of Beyond Birth and Death explains this chapter’s teaching on the soul.",
+         "manas": {
+          "goto": {
+           "map": "lib-bbd",
+           "node": "lib-bbd-1"
+          }
+         }
         }
        ],
        "expanded": false
@@ -35414,6 +35445,17 @@
          ],
          "expanded": false,
          "note": "Recorded classes on this chapter, with transcript and audio on vedabase.io. Oldest first."
+        },
+        {
+         "id": "f5hxos1vahil-see-bbd",
+         "topic": "↪ See also: Beyond Birth and Death",
+         "note": "Chapters 2–5 of Beyond Birth and Death explain most of this chapter’s verses: death, the spiritual sky, liberation.",
+         "manas": {
+          "goto": {
+           "map": "lib-bbd",
+           "node": "lib-bbd-2"
+          }
+         }
         }
        ],
        "expanded": false
@@ -44312,6 +44354,2243 @@
          "topic": "Hear Srila Prabhupada's classes",
          "note": "The chapter bubble in the Bhagavad-gita map lists his recorded classes on these verses, starting with London, July 1973.",
          "hyperLink": "https://vedabase.io/en/library/transcripts/730707bglon/"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-bbd-1-deep",
+   "title": "Beyond Birth and Death 1 · In depth",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793937573861,
+   "updated": 1793937573861,
+   "library": "prabhupada",
+   "deepOf": "lib-bbd",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-bbd-1-deep-root",
+     "topic": "Beyond Birth and Death 1 · We Are Not These Bodies",
+     "note": "Chapter 1 of Srila Prabhupada’s Beyond Birth and Death, idea by idea, in our own words, with every Gita verse he cites linked on vedabase.io. Review in progress. Search words: Soul, consciousness, body, self-realization, atma / atman, dehi, Buddhism / nirvana, senses, gosvami / goswami, enjoyer and enjoyed.",
+     "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+     "manas": {
+      "orbit": {
+       "ref": "BBD 1"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-bbd-1-deep-s1",
+       "topic": "1 · The first step: I am not the body",
+       "note": "The chapter opens by saying self-realization begins with knowing we are spirit, distinct from the body we wear.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 1",
+         "tag": "Soul"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-s1a",
+         "topic": "Saying it is not enough",
+         "note": "Prabhupada stresses that the point must be realised and lived, not just repeated as a slogan.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          },
+          "q": "According to Beyond Birth and Death 1, is it enough to say \"I am not this body\"?"
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s1b",
+         "topic": "Why it is hard",
+         "note": "We are pure consciousness, yet we have become wrapped in a bodily dress, so the old habit of identifying with it is strong.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s1v",
+         "topic": "Opening verse: the dweller cannot be killed",
+         "note": "The chapter starts with the Gita verse telling Arjuna that the one who lives in the body is eternal, so grief for bodies is misplaced.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/30/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.30",
+           "tag": "Soul"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-1-deep-s2",
+       "topic": "2 · Stopping all action is not the cure",
+       "note": "Some thinkers say: since activity brings pain, stop acting and dissolve. Prabhupada answers this view.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 1",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-s2a",
+         "topic": "The nirvana view",
+         "note": "Buddhist thought holds the body is a bundle of elements; take the bundle apart and suffering ends.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s2b",
+         "topic": "Example: burning the house over a tax bill",
+         "note": "If the tax on a big house troubles you, destroying the house removes the bill but also your home. Ending activity is a similar overkill.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What example does Prabhupada use for curing suffering by ending all activity?"
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s2c",
+         "topic": "The Gita’s answer: spirit is beyond the elements",
+         "note": "Beyond the material bundle there is spirit, and its sign is consciousness. So the cure is to purify activity, not stop it.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-1-deep-s3",
+       "topic": "3 · Consciousness proves the soul",
+       "note": "The core argument of the chapter: consciousness is the sign that a soul is present, as heat or smoke tells us fire is there.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 1",
+         "tag": "Science"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-s3a",
+         "topic": "A body without consciousness is dead",
+         "note": "Once consciousness leaves, eyes no longer see and the tongue no longer speaks — even a child can grasp this.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s3b",
+         "topic": "Why matter cannot make it",
+         "note": "All the chemicals are still in a dead body, yet no one can switch consciousness back on. So it is not a product of matter.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          },
+          "q": "What fact does Prabhupada use against the idea that matter produces consciousness?"
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s3c",
+         "topic": "The body is not a machine",
+         "note": "A broken machine part can be swapped and the machine runs again; a body whose soul has gone cannot be restarted that way.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s3d",
+         "topic": "Unseen does not mean absent",
+         "note": "Air, radio waves and germs escape our bare senses, yet they exist. The tiny soul is known by its effects.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s3e",
+         "topic": "Who agrees and who does not",
+         "note": "Both Sankara’s followers and the Vaisnavas accept a real soul; the Buddhist schools do not.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-1-deep-s4",
+       "topic": "4 · Happiness and distress come from the body",
+       "note": "Pleasure and pain arise from the senses touching their objects; they come and go like seasons.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 1",
+         "tag": "Desire"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-s4v",
+         "topic": "Tolerate heat and cold",
+         "note": "Krishna tells Arjuna that sense-born pleasure and pain are passing, like winter and summer, so learn to bear them.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/14/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.14",
+           "tag": "Desire"
+          },
+          "q": "Which Gita verse compares pleasure and pain to winter and summer?"
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s4a",
+         "topic": "Example: the same water",
+         "note": "Water delights us in summer and we avoid it in winter; the water has not changed, only its contact with the body.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s4b",
+         "topic": "Why we hanker for joy",
+         "note": "The soul is a part of Krishna, who is eternal, knowing and blissful, so seeking pleasure is our nature — as a drop shares the ocean’s qualities.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s4c",
+         "topic": "Meaning of the name Krishna",
+         "note": "Prabhupada explains the name as \"greatest pleasure\" and calls it non-sectarian.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s4d",
+         "topic": "The tiny spark builds cities",
+         "note": "Highways, bridges and civilisations are all the work of small spirit sparks; imagine what the complete Spirit can do.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-1-deep-s5",
+       "topic": "5 · Master the senses",
+       "note": "The senses pull us from one attraction to the next; spiritual life means becoming their master.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 1",
+         "tag": "Desire"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-s5a",
+         "topic": "The car and the driver",
+         "note": "A car serves a good driver and endangers a poor one. We must stay the masters of the body, not its servants.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s5v",
+         "topic": "One wandering sense steals judgment",
+         "note": "The Gita likens a mind led by one sense to a boat blown off course by wind.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/67/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.67",
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s5b",
+         "topic": "What \"gosvami\" means",
+         "note": "Go = senses, svami = controller: a gosvami is someone who has learned to control the senses, whatever his dress. (Also spelled goswami.)",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Leaders"
+          },
+          "q": "What does the title gosvami mean?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-1-deep-s6",
+       "topic": "6 · Why all scriptures give rules",
+       "note": "Vedas, Bible, Koran: every book of knowledge regulates bodily life so the soul can rise.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 1",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-s6v",
+         "topic": "Rise above the three modes",
+         "note": "Krishna warns that attachment to enjoyment and power blocks steady devotion, and asks Arjuna to rise above the modes of nature.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/44/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.44–45",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s6a",
+         "topic": "Rules differ, the principle is the same",
+         "note": "Codes vary with place, time and people, like the Ten Commandments or a government’s laws, but all teach regulated control.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s6b",
+         "topic": "Knowledge that dies with the body",
+         "note": "A scholar of one life starts again at school in the next. Bodily learning is lost; we really want eternal knowledge.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-1-deep-s7",
+       "topic": "7 · The body is a disease",
+       "note": "Material life is pictured as an illness that spoils our taste for real joy.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 1",
+         "tag": "Liberation"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-s7a",
+         "topic": "Jaundice and sugar candy",
+         "note": "To a jaundiced tongue sugar tastes bitter; to a healthy one, sweet. Spiritual life tastes bitter until we are cured.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "Which illness example shows why spiritual life can taste bitter at first?"
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s7b",
+         "topic": "Typhoid and solid food",
+         "note": "Feeding solid food to a typhoid patient makes him worse; adding sense pleasure worsens our condition. So reduce bodily demands.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s7c",
+         "topic": "Endless enjoyment of the yogis",
+         "note": "A Mahabharata line says yogis enjoy without end, because their joy is linked to Krishna, the supreme enjoyer.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-1-deep-s8",
+       "topic": "8 · Enjoyer and enjoyed",
+       "note": "Krishna is the real enjoyer; we find our joy by joining His enjoyment, not by competing with it.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 1",
+         "tag": "Love"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-s8v",
+         "topic": "Knowing Krishna as enjoyer brings peace",
+         "note": "The verse names Krishna as enjoyer of all sacrifice, lord of all worlds and friend of every being; knowing this gives peace.",
+         "hyperLink": "https://vedabase.io/en/library/bg/5/29/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 5.29",
+           "tag": "Love"
+          },
+          "q": "Which Gita verse names Krishna as enjoyer, lord and friend of all?"
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s8a",
+         "topic": "Why God became many",
+         "note": "Enjoyment needs variety and company — talking alone in a room is dull. God expanded into many, and we are those expansions.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s8b",
+         "topic": "Shared joy, not separate joy",
+         "note": "Like a happy couple who share pleasure equally, the soul’s joy is complete when it takes part in God’s joy.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-1-deep-s9",
+       "topic": "9 · The way out: rise above the modes",
+       "note": "The body is doomed to end; Krishna urges us to transcend it, and the method given is chanting.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 1",
+         "tag": "Chanting"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-s9v1",
+         "topic": "Only the body perishes",
+         "note": "The verse contrasts the perishable body with the eternal, immeasurable soul within it.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/18/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.18",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s9v2",
+         "topic": "Beyond the modes: free from birth and death",
+         "note": "Rising above the three modes frees one from birth, death and old age, and gives a taste of nectar even now.",
+         "hyperLink": "https://vedabase.io/en/library/bg/14/20/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 14.20",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-s9a",
+         "topic": "The method: the Hare Krishna mantra",
+         "note": "Prabhupada names chanting — bhakti-yoga or mantra-yoga, Caitanya Mahaprabhu’s gift — as the way to the brahma-bhuta platform.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-1-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 1.",
+       "children": [
+        {
+         "id": "lib-bbd-1-deep-t1",
+         "topic": "Look for the sign: consciousness",
+         "note": "Whenever you see awareness, recognise a soul — in people and animals alike."
+        },
+        {
+         "id": "lib-bbd-1-deep-t2",
+         "topic": "Purify action, don’t abandon it",
+         "note": "The remedy is right activity in service, not doing nothing."
+        },
+        {
+         "id": "lib-bbd-1-deep-t3",
+         "topic": "Train the senses daily",
+         "note": "Small regulations now make the soul the driver of the body."
+        },
+        {
+         "id": "lib-bbd-1-deep-see",
+         "topic": "See also: Gita Chapter 2",
+         "note": "Most verses in this chapter come from Gita Chapter 2, where Krishna first teaches the soul.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "olklkua2ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-1-deep-next",
+         "topic": "Next: Chapter 2, Elevation at Death",
+         "note": "How the yogi prepares for the exam of death.",
+         "manas": {
+          "goto": {
+           "map": "lib-bbd",
+           "node": "lib-bbd-2"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-bbd-2-deep",
+   "title": "Beyond Birth and Death 2 · In depth",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793937573865,
+   "updated": 1793937573865,
+   "library": "prabhupada",
+   "deepOf": "lib-bbd",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-bbd-2-deep-root",
+     "topic": "Beyond Birth and Death 2 · Elevation at Death",
+     "note": "Chapter 2 of Srila Prabhupada’s Beyond Birth and Death, idea by idea, in our own words, with every Gita verse he cites linked on vedabase.io. Review in progress. Search words: death, dying, moment of death, yoga, om / omkara, pratyahara, brahmajyoti, impersonalism / merging, Krishnaloka / Goloka, remembering Krishna.",
+     "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+     "manas": {
+      "orbit": {
+       "ref": "BBD 2"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-bbd-2-deep-s1",
+       "topic": "1 · What yoga means",
+       "note": "Every genuine yogi — hatha, jnana, dhyana or bhakti — can be transferred to the spiritual world.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 2",
+         "tag": "Purpose"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-2-deep-s1a",
+         "topic": "Yoga = linking up",
+         "note": "Yoga means connecting again with the Supreme, from whom matter has separated us.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          },
+          "q": "What two meanings of the word yoga does Beyond Birth and Death 2 give?"
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s1b",
+         "topic": "Yoga = plus",
+         "note": "Now we live \"minus God\"; adding Krishna makes the human form complete.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-2-deep-s2",
+       "topic": "2 · Death is the final exam",
+       "note": "Life is practice; the moment of death tests what we have practised.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 2",
+         "tag": "Purpose"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-2-deep-s2a",
+         "topic": "Example: the degree exam",
+         "note": "A student studies for years, then sits one exam for his degree. Our whole life is examined at death.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What does Prabhupada compare the time of death to?"
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s2v1",
+         "topic": "You become what you remember",
+         "note": "Whatever state of mind one has when leaving the body, that state one reaches next.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/6/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.6",
+           "tag": "Purpose"
+          },
+          "q": "Which verse says we attain whatever we remember at death?"
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s2v2",
+         "topic": "Life air between the eyebrows",
+         "note": "The verse describes the yogi who, at death, fixes the life air and remembers the Lord with devotion.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/10/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.10",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s2b",
+         "topic": "A Bengali proverb",
+         "note": "Prabhupada cites a saying that every effort for perfection is tested at death.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-2-deep-s3",
+       "topic": "3 · The meditator’s method",
+       "note": "For the dhyana-yogi Krishna describes shutting the senses and steadying the mind and life air.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 2",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-2-deep-s3v1",
+         "topic": "Close the doors of the senses",
+         "note": "The yogi withdraws from sense activity, holds the mind within the heart and raises the life air to the crown of the head.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/11/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.11–12",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s3a",
+         "topic": "Pratyahara: the reverse",
+         "note": "Eyes that looked outward now see the beauty within; ears that heard the world now hear om inside.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          },
+          "q": "What is pratyahara, as explained in Beyond Birth and Death?"
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s3v2",
+         "topic": "Chanting om while remembering Krishna",
+         "note": "Vibrating om and thinking of the Lord when leaving the body takes one to the spiritual planets.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/13/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.13",
+           "tag": "Chanting"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-2-deep-s4",
+       "topic": "4 · Spaceships versus yoga",
+       "note": "The yogi can travel to any planet; machines are a clumsy way that cannot leave the universe.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 2",
+         "tag": "Science"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-2-deep-s4a",
+         "topic": "A suitable body for each place",
+         "note": "Fish cannot live on land nor we in the sea; each planet needs a matching body, which yoga gives and machines do not.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s4b",
+         "topic": "Long life is still not eternal",
+         "note": "On higher planets six earth months are one day, and lives run to thousands of years — but death still comes.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s4c",
+         "topic": "Same \"visa\" everywhere",
+         "note": "Like customs rules in every country, birth, old age, disease and death operate on every material planet.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s4d",
+         "topic": "Why devotees skip these planets",
+         "note": "Bhakti is not practised for any material planet, because all of them share the four miseries.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Liberation"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-2-deep-s5",
+       "topic": "5 · We are eternal — why accept death?",
+       "note": "The intelligent question of the chapter: if the soul never dies, why keep taking birth and death?",
+       "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 2",
+         "tag": "Soul"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-2-deep-s5v",
+         "topic": "The soul is never born, never dies",
+         "note": "The famous verse on the soul as unborn, eternal and not killed when the body is killed.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/20/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.20",
+           "tag": "Soul"
+          },
+          "q": "Which Gita verse says the soul is never born and never dies?"
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s5a",
+         "topic": "Sat, cit, ananda",
+         "note": "Krishna’s form is eternal, full of knowledge and full of pleasure; in the spiritual world we receive a similar body.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s5b",
+         "topic": "Example: the landlord’s notice",
+         "note": "We are sad to be evicted, but happy to move to a better flat. Being permanent, we want a permanent home.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-2-deep-s6",
+       "topic": "6 · The impersonal risk",
+       "note": "Those who merge into the brahmajyoti reach the spiritual sky but may fall back.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 2",
+         "tag": "Liberation"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-2-deep-s6a",
+         "topic": "Sunshine and the sun",
+         "note": "The brahmajyoti is like sunshine; the spiritual planets are like the sun itself. Impersonalists stay in the shine.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Liberation"
+          },
+          "q": "What does Prabhupada compare the brahmajyoti and the spiritual planets to?"
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s6b",
+         "topic": "Merging keeps individuality",
+         "note": "The soul does not become one with the light; it stays a separate spark, only without a personal form.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s6c",
+         "topic": "Being without bliss",
+         "note": "Sat and cit are there, but ananda is missing. Like a person alone in a room for years, he seeks company and returns to matter.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s6d",
+         "topic": "The astronaut must land",
+         "note": "A traveller who finds no planet to rest on must come back to earth; so rest in the impersonal is uncertain.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-2-deep-s7",
+       "topic": "7 · Krishnaloka, the real goal",
+       "note": "Real pleasure is in personal association with Krishna in His own abode.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 2",
+         "tag": "Vraja"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-2-deep-s7a",
+         "topic": "Brahma-samhita 5.29",
+         "note": "Krishna’s abode is described: houses of touchstone, wish-fulfilling trees and surabhi cows, with Govinda tending them.",
+         "hyperLink": "https://vedabase.io/en/library/bs/5/29/",
+         "manas": {
+          "orbit": {
+           "ref": "Bs 5.29",
+           "tag": "Vraja"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s7b",
+         "topic": "The world’s pleasure is a reflection",
+         "note": "The highest worldly pleasure is a distorted copy of the spiritual pleasure of being with Krishna; the original is not like the copy.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s7v",
+         "topic": "Easy to reach for the constant rememberer",
+         "note": "Krishna says He is easily attained by one who remembers Him without deviation, always.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/14/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.14",
+           "tag": "Chanting"
+          },
+          "q": "Which Gita verse says Krishna is easy to obtain for one who always remembers Him?"
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-s7c",
+         "topic": "Always in Vrindavan",
+         "note": "Prabhupada says that though he is in America, by thinking of Krishna he never leaves Vrindavan.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Vraja"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-2-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 2.",
+       "children": [
+        {
+         "id": "lib-bbd-2-deep-t1",
+         "topic": "Practise now for the last moment",
+         "note": "What we remember at death depends on what we rehearse daily."
+        },
+        {
+         "id": "lib-bbd-2-deep-t2",
+         "topic": "Chant anywhere, at no cost",
+         "note": "Prabhupada invites everyone to chant in the street, the subway, at home or at work — no tax, no expense."
+        },
+        {
+         "id": "lib-bbd-2-deep-see",
+         "topic": "See also: Gita Chapter 8",
+         "note": "Most verses here come from Chapter 8, Attaining the Supreme.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "f5hxos1vahil"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-2-deep-next",
+         "topic": "Next: Chapter 3, Liberation from Material Planets",
+         "note": "Why even the highest planet is not enough.",
+         "manas": {
+          "goto": {
+           "map": "lib-bbd",
+           "node": "lib-bbd-3"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-bbd-3-deep",
+   "title": "Beyond Birth and Death 3 · In depth",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793937573870,
+   "updated": 1793937573870,
+   "library": "prabhupada",
+   "deepOf": "lib-bbd",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-bbd-3-deep-root",
+     "topic": "Beyond Birth and Death 3 · Liberation from Material Planets",
+     "note": "Chapter 3 of Srila Prabhupada’s Beyond Birth and Death, idea by idea, in our own words, with every Gita verse he cites linked on vedabase.io. Review in progress. Search words: liberation, mukti, ascending and descending knowledge, hearing, Rupa Gosvami / Goswami, Caitanya / Chaitanya, mahatma, Brahmaloka, miseries, moon travel.",
+     "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+     "manas": {
+      "orbit": {
+       "ref": "BBD 3"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-bbd-3-deep-s1",
+       "topic": "1 · Why speculators fall back",
+       "note": "Jnanis and yogis reach the impersonal effulgence by austerity, but without Krishna’s personal service they come down again.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 3",
+         "tag": "Liberation"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-3-deep-s1a",
+         "topic": "The servant’s attitude",
+         "note": "The ideal mood is: I am Your eternal servant, let me serve You somehow.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s1b",
+         "topic": "The unconquerable is conquered",
+         "note": "Krishna is called ajita, unconquerable, yet the Bhagavatam says He is won over by those who humbly hear.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Surrender"
+          },
+          "q": "How is Krishna, called ajita (unconquerable), conquered?"
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s1c",
+         "topic": "Stop trying to measure Him",
+         "note": "We cannot even measure space; measuring the Supreme by our tiny knowledge is futile.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-3-deep-s2",
+       "topic": "2 · Two ways of knowing",
+       "note": "The Brahma-samhita contrasts two roads to knowledge of God.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 3",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-3-deep-s2a",
+         "topic": "Ascending: by my own effort",
+         "note": "Knowledge gained by one’s own speculation. Even travelling at the speed of mind for ages, one ends up not knowing.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          },
+          "q": "What are the ascending and descending processes of knowledge?"
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s2b",
+         "topic": "Descending: from authority",
+         "note": "Knowledge received from higher sources — the Gita, or a realised teacher. Arjuna heard from Krishna Himself.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Guru"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s2c",
+         "topic": "Hear, then practise",
+         "note": "After hearing from the spiritual master, the knowledge must be applied in daily life.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Guru"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s2d",
+         "topic": "His guru’s warning",
+         "note": "Bhaktisiddhanta Sarasvati taught: do not try to see God as if He must appear on demand; please Him by love and service.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Guru"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-3-deep-s3",
+       "topic": "3 · The most generous gift",
+       "note": "Lord Caitanya gave love of God freely, and Rupa Gosvami recognised it at their first meeting.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 3",
+         "tag": "Mercy"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-3-deep-s3a",
+         "topic": "Rupa Gosvami’s greeting",
+         "note": "A former government minister, Rupa Gosvami met Lord Caitanya with a prayer calling Him the most magnanimous giver of Krishna-prema.",
+         "hyperLink": "https://vedabase.io/en/library/cc/madhya/19/53/",
+         "manas": {
+          "orbit": {
+           "ref": "CC Madhya 19.53",
+           "tag": "Mercy"
+          },
+          "q": "Who greeted Lord Caitanya as the most magnanimous giver of love of Krishna?"
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s3b",
+         "topic": "Krishna is what we all want",
+         "note": "Beauty, power, wealth and learning — all we hanker for is complete in Krishna, so turning to Him fulfils every desire.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-3-deep-s4",
+       "topic": "4 · Never coming back",
+       "note": "One who reaches Krishna does not return to this world of misery.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 3",
+         "tag": "Liberation"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-3-deep-s4v",
+         "topic": "The great souls do not return",
+         "note": "Those who reach Krishna are not born again into this temporary place full of suffering.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/15/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.15",
+           "tag": "Liberation"
+          },
+          "q": "Which verse calls this world a place of misery that great souls never return to?"
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s4a",
+         "topic": "Science cannot fix the four miseries",
+         "note": "Birth, old age, disease and death have no technical solution, so attention is turned to bombs and rockets instead.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s4b",
+         "topic": "Misery as a push",
+         "note": "Suffering is a help: it makes an intelligent person ask why it is forced on him. Covering it with intoxication only delays it.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s4c",
+         "topic": "Who is a mahatma",
+         "note": "Not a political title: a mahatma is a first-class Krishna-conscious person who uses human life to leave birth and death.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Devotees"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-3-deep-s5",
+       "topic": "5 · Krishna’s abode",
+       "note": "Krishna is everywhere and also in His own home, Goloka Vrindavan.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 3",
+         "tag": "Vraja"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-3-deep-s5a",
+         "topic": "Present everywhere and at home",
+         "note": "An ordinary being is in one place; Krishna is in His abode and all over the universe at once.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s5b",
+         "topic": "Vrindavan on earth",
+         "note": "The Vrindavan in India is that same abode descended with Krishna, while it also stays in the spiritual sky.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Vraja"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-3-deep-s6",
+       "topic": "6 · What about going to the moon?",
+       "note": "The urge to travel is natural, but every material planet repeats birth and death.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 3",
+         "tag": "Science"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-3-deep-s6a",
+         "topic": "Sarva-gata: the traveller",
+         "note": "The living being is called sarva-gata, one who wants to go everywhere; space travel is an old desire.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s6v",
+         "topic": "Even Brahmaloka has rebirth",
+         "note": "From the highest planet down, all worlds repeat birth and death; only Krishna’s abode ends it.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/16/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.16",
+           "tag": "Liberation"
+          },
+          "q": "Which verse says even Brahmaloka is a place of repeated birth and death?"
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-s6b",
+         "topic": "Other planets are not empty",
+         "note": "Earth, water and sky all teem with life, so it is reasonable that other planets are inhabited too.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-3-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 3.",
+       "children": [
+        {
+         "id": "lib-bbd-3-deep-t1",
+         "topic": "Learn by hearing",
+         "note": "Submissive hearing from authority goes where speculation cannot."
+        },
+        {
+         "id": "lib-bbd-3-deep-t2",
+         "topic": "Spend energy on the eternal",
+         "note": "Skyscrapers and factories will be left behind; Krishna consciousness is the real self-interest."
+        },
+        {
+         "id": "lib-bbd-3-deep-see",
+         "topic": "See also: Gita Chapter 8",
+         "note": "Verses 8.15–16 explained in this chapter.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "f5hxos1vahil"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-3-deep-next",
+         "topic": "Next: Chapter 4, The Sky Beyond the Universe",
+         "note": "What lies beyond the material cloud.",
+         "manas": {
+          "goto": {
+           "map": "lib-bbd",
+           "node": "lib-bbd-4"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-bbd-4-deep",
+   "title": "Beyond Birth and Death 4 · In depth",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793937573874,
+   "updated": 1793937573874,
+   "library": "prabhupada",
+   "deepOf": "lib-bbd",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-bbd-4-deep-root",
+     "topic": "Beyond Birth and Death 4 · The Sky Beyond the Universe",
+     "note": "Chapter 4 of Srila Prabhupada’s Beyond Birth and Death, idea by idea, in our own words, with every Gita verse he cites linked on vedabase.io. Review in progress. Search words: spiritual sky, Vaikuntha, day of Brahma, yuga, creation and annihilation, superior nature, bhakti, designations, Hare Krishna, faith.",
+     "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+     "manas": {
+      "orbit": {
+       "ref": "BBD 4"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-bbd-4-deep-s1",
+       "topic": "1 · Brahma’s day and night",
+       "note": "Even the longest-lived beings face death; the Gita gives the time scale.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 4",
+         "tag": "Science"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-4-deep-s1v",
+         "topic": "A thousand ages make Brahma’s day",
+         "note": "The verse gives Brahma’s day and night as a thousand cycles of ages each.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/17/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.17",
+           "tag": "Science"
+          },
+          "q": "Which verse gives the length of Brahma’s day?"
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s1a",
+         "topic": "Worked example: the arithmetic",
+         "note": "One yuga cycle is 4,300,000 years; a thousand make Brahma’s 12-hour day, another thousand his night; he lives 100 years of 360 such days.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s1v2",
+         "topic": "Beings appear and dissolve",
+         "note": "At Brahma’s daybreak beings come forth; at nightfall they are dissolved, helplessly, again and again.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/18/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.18–19",
+           "tag": "Science"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-4-deep-s2",
+       "topic": "2 · Another, eternal nature",
+       "note": "Beyond manifest and unmanifest matter there is a spiritual nature that is never destroyed.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 4",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-4-deep-s2v",
+         "topic": "A nature that remains",
+         "note": "Krishna speaks of a superior, eternal nature that stays when everything material is annihilated.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/20/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.20",
+           "tag": "Knowledge"
+          },
+          "q": "Which verse speaks of an eternal nature beyond manifest and unmanifest matter?"
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s2a",
+         "topic": "The cloud in the sky",
+         "note": "A cloud seems to cover the whole sky but is a speck in it. The material universe is such a cloud in the vast spiritual sky.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What does Prabhupada compare the material universe to, against the spiritual sky?"
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s2b",
+         "topic": "Six changes of everything material",
+         "note": "Birth, growth, staying, giving by-products, dwindling and vanishing — the body passes through all six.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s2c",
+         "topic": "Known by hearing, not experiment",
+         "note": "We cannot reach even visible stars; we learn of our father from our mother. So we learn of God’s kingdom by hearing the Gita.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Faith"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-4-deep-s3",
+       "topic": "3 · This world is the copy",
+       "note": "The material world imitates the real, spiritual world.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 4",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-4-deep-s3a",
+         "topic": "The shop-window mannequin",
+         "note": "A mannequin is modelled on a real person; the material world is modelled on the spiritual reality.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s3b",
+         "topic": "Sridhara Svami’s point",
+         "note": "Because the spiritual world is real, its reflection here seems real too.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s3v",
+         "topic": "The real does not cease",
+         "note": "Seers of truth conclude the temporary has no endurance and the real never stops being.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/16/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.16",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s3v2",
+         "topic": "Self-luminous abode",
+         "note": "Krishna’s abode needs no sun, moon or electricity, and those who reach it do not return.",
+         "hyperLink": "https://vedabase.io/en/library/bg/15/6/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 15.6",
+           "tag": "Vraja"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-4-deep-s4",
+       "topic": "4 · The great journey",
+       "note": "The real adventure is to cross the whole universe and its covering into the spiritual sky.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 4",
+         "tag": "Purpose"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-4-deep-s4v",
+         "topic": "The supreme destination",
+         "note": "The unmanifest, infallible abode is the highest goal; one who goes there does not come back.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/21/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.21",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s4a",
+         "topic": "Not by spaceship",
+         "note": "A trip of a few thousand miles is not heroic; the universe is crossed by Krishna consciousness at death.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s4b",
+         "topic": "Duty of state, parents and teachers",
+         "note": "Human life is a chance for this perfection; guardians should help people use it, not just eat, sleep, mate and quarrel.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Leaders"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-4-deep-s5",
+       "topic": "5 · Bhakti: free of designations",
+       "note": "The way to the Supreme Person is unalloyed devotion.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 4",
+         "tag": "Surrender"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-4-deep-s5v",
+         "topic": "Reached by pure devotion",
+         "note": "The Supreme Person, in His abode yet all-pervading, is attained by devotion without deviation.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/22/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.22",
+           "tag": "Surrender"
+          },
+          "q": "Which verse says the Supreme Person is attained by unalloyed devotion?"
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s5a",
+         "topic": "Narada Pancaratra’s definition",
+         "note": "Bhakti is defined as freedom from bodily labels and using the senses in the service of Hrsikesa, the master of the senses.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Surrender"
+          },
+          "q": "How does the Narada Pancaratra define bhakti, as quoted in Beyond Birth and Death 4?"
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s5b",
+         "topic": "Serve favourably",
+         "note": "Rupa Gosvami says serve as Krishna likes. Coming to God for gain is better than not coming, but the goal is no gain.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s5c",
+         "topic": "Like the sun and its rays",
+         "note": "God sits in His abode yet His energies spread everywhere, as the sun is in one place and its light is everywhere.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s5d",
+         "topic": "Eyes of love",
+         "note": "Brahma-samhita 5.38: devotees whose eyes are anointed with love see Govinda in their hearts constantly.",
+         "hyperLink": "https://vedabase.io/en/library/bs/5/38/",
+         "manas": {
+          "orbit": {
+           "ref": "Bs 5.38",
+           "tag": "Love"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-4-deep-s6",
+       "topic": "6 · Waking the sleeping soul",
+       "note": "The chanting of Hare Krishna revives the soul as sound wakes a sleeper.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 4",
+         "tag": "Chanting"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-4-deep-s6a",
+         "topic": "Sound wakes the sleeper",
+         "note": "A sleeping man may not see or feel, yet a sound wakes him. The mantra wakes the soul asleep in matter.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          },
+          "q": "What example explains how chanting revives the soul?"
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s6b",
+         "topic": "Meaning of the mantra",
+         "note": "Hare addresses the Lord’s energy and Krishna the Lord; together it is a plea to be accepted into service.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s6c",
+         "topic": "Siksastaka 5: lift me from the ocean",
+         "note": "Lord Caitanya prays to be lifted out of the ocean of repeated birth and death and made a speck of dust at Krishna’s feet.",
+         "hyperLink": "https://vedabase.io/en/library/cc/antya/20/32/",
+         "manas": {
+          "orbit": {
+           "ref": "Siksastaka 5",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s6d",
+         "topic": "Faith in the authorised",
+         "note": "We trust an airline ticket because the company is authorised. Faith must be in what is recognised, like the Gita.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Faith"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-4-deep-s7",
+       "topic": "7 · Not a void",
+       "note": "The Gita does not end in emptiness: voidism pushes people back to material enjoyment.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 4",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-4-deep-s7a",
+         "topic": "Why voidism breeds materialism",
+         "note": "If the future is empty, the soul who wants joy will grab whatever it can here.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-s7v",
+         "topic": "Joyful, beyond lament and craving",
+         "note": "The Brahman-realised soul neither laments nor hankers, sees all equally, and then gains pure devotion.",
+         "hyperLink": "https://vedabase.io/en/library/bg/18/54/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 18.54",
+           "tag": "Liberation"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-4-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 4.",
+       "children": [
+        {
+         "id": "lib-bbd-4-deep-t1",
+         "topic": "Think in cosmic time",
+         "note": "Even trillions of years end; only the spiritual sky lasts."
+        },
+        {
+         "id": "lib-bbd-4-deep-t2",
+         "topic": "Drop the labels",
+         "note": "Each day, act as a servant of Krishna rather than as a nationality, job or role."
+        },
+        {
+         "id": "lib-bbd-4-deep-see",
+         "topic": "See also: Gita Chapter 15",
+         "note": "The self-luminous abode (15.6) is explained further there.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "egg5ewhsahil"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-4-deep-next",
+         "topic": "Next: Chapter 5, Associating with Krishna",
+         "note": "Life in the spiritual sky.",
+         "manas": {
+          "goto": {
+           "map": "lib-bbd",
+           "node": "lib-bbd-5"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-bbd-5-deep",
+   "title": "Beyond Birth and Death 5 · In depth",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1793937573878,
+   "updated": 1793937573878,
+   "library": "prabhupada",
+   "deepOf": "lib-bbd",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-bbd-5-deep-root",
+     "topic": "Beyond Birth and Death 5 · Associating with Krishna",
+     "note": "Chapter 5 of Srila Prabhupada’s Beyond Birth and Death, idea by idea, in our own words, with every Gita verse he cites linked on vedabase.io. Review in progress. Search words: association, five kinds of liberation, sayujya / sarupya / salokya / sarsti / samipya, Vaikuntha, prison house, uttarayana, Siksastaka, holy name, yuga-dharma.",
+     "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+     "manas": {
+      "orbit": {
+       "ref": "BBD 5"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-bbd-5-deep-s1",
+       "topic": "1 · Something better replaces the lesser",
+       "note": "When we taste personal relationship with Krishna, material enjoyment loses its hold.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 5",
+         "tag": "Love"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-5-deep-s1a",
+         "topic": "Face to face with God",
+         "note": "In the spiritual sky one can talk, play and eat with the Supreme Person.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s1b",
+         "topic": "Unadulterated love",
+         "note": "Loving God for material reward, or to become one with Him, are both called adulterations.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          },
+          "q": "What two motives does Beyond Birth and Death 5 call adulterations of love for God?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-5-deep-s2",
+       "topic": "2 · No rivalry there",
+       "note": "In Vaikuntha everyone accepts the Lord as supreme; rivals live in the material world.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 5",
+         "tag": "Leaders"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-5-deep-s2a",
+         "topic": "Every planet’s leader is Krishna’s expansion",
+         "note": "Unlike elections on earth, each spiritual planet is presided over by a form of Krishna, unchallenged.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s2b",
+         "topic": "The prison inside the city",
+         "note": "A city’s prison is a small part of the city; the material universe is a small prison within the spiritual sky.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What does Prabhupada compare the material universe to, within the spiritual sky?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-5-deep-s3",
+       "topic": "3 · Five kinds of liberation",
+       "note": "The liberated may receive one of five forms of mukti.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 5",
+         "tag": "Liberation"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-5-deep-s3a",
+         "topic": "Sayujya: merging",
+         "note": "Merging into the impersonal Brahman. Vaisnavas do not accept this one.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Liberation"
+          },
+          "q": "Which of the five liberations do Vaisnava devotees refuse?"
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s3b",
+         "topic": "Sarupya: the same form",
+         "note": "Receiving a form like the Lord’s, two- or four-armed.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s3c",
+         "topic": "Salokya: the same planet",
+         "note": "Living on the same planet as the Lord.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s3d",
+         "topic": "Sarsti: similar opulence",
+         "note": "Having opulences like the Lord’s.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s3e",
+         "topic": "Always with Him (samipya)",
+         "note": "Staying as His close associate, like Arjuna as Krishna’s friend. (The book describes it without naming it; samipya is the usual name.)",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Devotees"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-5-deep-s4",
+       "topic": "4 · Devotion over liberation",
+       "note": "Lord Caitanya asks for service, not liberation.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 5",
+         "tag": "Surrender"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-5-deep-s4a",
+         "topic": "Siksastaka 4: birth after birth",
+         "note": "He asks for no wealth, followers or beauty — only causeless devotion in every birth.",
+         "hyperLink": "https://vedabase.io/en/library/cc/antya/20/29/",
+         "manas": {
+          "orbit": {
+           "ref": "Siksastaka 4",
+           "tag": "Surrender"
+          },
+          "q": "In which prayer does Lord Caitanya ask only for causeless devotion birth after birth?"
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s4b",
+         "topic": "Why \"birth after birth\" matters",
+         "note": "Asking for more births means he does not care for liberation at all, only for service wherever he is.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s4c",
+         "topic": "Already in the spiritual kingdom",
+         "note": "A pure devotee lives in the spiritual realm even in this body, and asks nothing for himself.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Devotees"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-5-deep-s5",
+       "topic": "5 · The yogi’s gamble: time of death",
+       "note": "For other yogis, the hour of death decides return or release; for the devotee there is no gamble.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 5",
+         "tag": "Purpose"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-5-deep-s5v1",
+         "topic": "Times of leaving",
+         "note": "Krishna announces He will explain the times at which departing yogis do or do not come back.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/23/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.23",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s5v2",
+         "topic": "The path of light",
+         "note": "Passing in light, the bright fortnight or the sun’s northern course leads to Brahman.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/24/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.24",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s5v3",
+         "topic": "The path of smoke and darkness",
+         "note": "Passing in smoke, night, the dark fortnight or the sun’s southern course leads back to rebirth.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/25/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.25–26",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s5a",
+         "topic": "Chance versus certainty",
+         "note": "We cannot choose the hour of death; but a devotee fixed in Krishna consciousness is sure either way.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Faith"
+          },
+          "q": "Why does the timing of death not matter for the devotee?"
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s5v4",
+         "topic": "Be always fixed in devotion",
+         "note": "Knowing both paths, the devotee is not confused, so Krishna asks Arjuna to stay in yoga always.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/27/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.27",
+           "tag": "Surrender"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-5-deep-s6",
+       "topic": "6 · The holy name brings Krishna’s company",
+       "note": "Remembering Krishna at death sounds hard, but chanting makes it natural.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 5",
+         "tag": "Chanting"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-5-deep-s6v",
+         "topic": "Remember Me at the end",
+         "note": "Whoever leaves the body remembering Krishna reaches His nature, without doubt (see also 8.8).",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/5/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.5",
+           "tag": "Chanting"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s6a",
+         "topic": "The moon that walks with you",
+         "note": "Walking at night the moon seems to follow us; if His energy seems to accompany us, Krishna surely does when we chant.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What example shows that Krishna accompanies one who chants?"
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s6b",
+         "topic": "Siksastaka 2: no hard rules",
+         "note": "The Lord has put all His power in His many names and set no strict rules for chanting them.",
+         "hyperLink": "https://vedabase.io/en/library/cc/antya/20/16/",
+         "manas": {
+          "orbit": {
+           "ref": "Siksastaka 2",
+           "tag": "Chanting"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s6c",
+         "topic": "Sound incarnation for this age",
+         "note": "In Kali-yuga the name is the yuga-dharma; no Sanskrit or special qualification is needed.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-5-deep-s7",
+       "topic": "7 · The goal of every scripture",
+       "note": "Devotion gives the fruit of all Vedic study, sacrifice, charity and austerity.",
+       "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+       "manas": {
+        "orbit": {
+         "ref": "BBD 5",
+         "tag": "Purpose"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-bbd-5-deep-s7v",
+         "topic": "Nothing is lost in devotion",
+         "note": "The devotee gets the results of Vedas, sacrifice, austerity and charity, and reaches the supreme abode.",
+         "hyperLink": "https://vedabase.io/en/library/bg/8/28/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 8.28",
+           "tag": "Purpose"
+          },
+          "q": "Which verse says the devotee gains the results of all Vedic practices?"
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-s7a",
+         "topic": "All teachers agree",
+         "note": "Jesus, Buddha and Muhammad also taught that this world is not our permanent home; details differ by time and place.",
+         "hyperLink": "https://vedabase.io/en/library/bbd/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bbd-5-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 5.",
+       "children": [
+        {
+         "id": "lib-bbd-5-deep-t1",
+         "topic": "Ask for service, not reward",
+         "note": "Pray like Siksastaka 4: let me serve, wherever I am."
+        },
+        {
+         "id": "lib-bbd-5-deep-t2",
+         "topic": "Chanting removes the gamble",
+         "note": "Regular chanting makes remembering Krishna at death a habit, not luck."
+        },
+        {
+         "id": "lib-bbd-5-deep-see",
+         "topic": "See also: Gita Chapter 8",
+         "note": "Verses 8.5–8.28 are explained in this chapter.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "f5hxos1vahil"
+          }
+         }
+        },
+        {
+         "id": "lib-bbd-5-deep-back",
+         "topic": "Back to the start: Chapter 1",
+         "note": "Read the book again from \"We Are Not These Bodies\".",
+         "manas": {
+          "goto": {
+           "map": "lib-bbd",
+           "node": "lib-bbd-1"
+          }
+         }
         }
        ]
       }
