@@ -44,16 +44,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "206 maps · 14,262 ideas · 10.2 MB · 9 series + index",
-   "parts": 10,
+   "meta": "209 maps · 14,412 ideas · 10.3 MB · 10 series + index",
+   "parts": 11,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1793853588,
-   "whatsNew": "New series: The Exalted Character of Bharata Maharaja (23 classes, SB 5.7–5.11, Dec 2024 – Jan 2025)",
+   "v": 1793939600,
+   "whatsNew": "New series: Surrendering Spirit of Bali Maharaja (2 classes, SB 8.20.8–18, Lagos, Apr 2026)",
    "split": "lib-bdds-index.json"
   },
   {
