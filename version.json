@@ -1,5 +1,5 @@
 {
- "version": "7.23",
- "note": "Locked libraries: request access, approval opens it by itself; Admin panel",
+ "version": "7.24",
+ "note": "Class codes, tester agreement, terms of use; Admin: Groups, Agreements, Log",
  "apk": "https://md1secretary108.github.io/manas/Manas.apk"
 }
