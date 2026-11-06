@@ -189,6 +189,26 @@
    "split": "lib-law-index.json"
   },
   {
+   "id": "statute",
+   "title": "Constitution of Kenya 2010 — article by article · draft",
+   "subtitle": "Draft for review: the Constitution of Kenya 2010 one Article at a time, in plain words, every bubble linked to the official text — Chapters 1–4 so far (sovereignty and supremacy, the Republic, citizenship, the Bill of Rights), with flashcards and the cases that applied them.",
+   "icon": "📜",
+   "file": "lib-statute.json",
+   "root": "statute-root",
+   "draft": true,
+   "about": {
+    "by": "Manas, for students, citizens and anyone who wants to read the Katiba",
+    "from": "Own-words notes from the official text on the Kenya Law Reform Commission site (klrc.go.ke); Kenyan cases from Kenya Law (new.kenyalaw.org)",
+    "review": "Draft · review in progress",
+    "date": "6 Nov 2026"
+   },
+   "parts": 4,
+   "v": 1793964919,
+   "meta": "9 maps · 327 ideas · 149 KB · 4 subjects",
+   "whatsNew": "New library: Chapters 1–4, Articles 1–59, each linked to klrc.go.ke; 2 Supreme Court cases (Fri 6 Nov)",
+   "split": "lib-statute-index.json"
+  },
+  {
    "id": "cbc",
    "title": "School in Kenya — CBC, nursery to senior school · draft",
    "subtitle": "Draft for review: each CBC level from pre-primary to senior school — what children learn, how they are assessed, pathways, and how parents can help.",
