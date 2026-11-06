@@ -82,7 +82,7 @@
    "icon": "🩺",
    "file": "lib-mbchb.json",
    "root": "med-root",
-   "meta": "74 maps · 7,916 ideas · 2.7 MB · 6 years",
+   "meta": "80 maps · 8,395 ideas · 2.9 MB · 6 years",
    "about": {
     "by": "Manas, for Kenyan MBChB students (University of Nairobi course structure)",
     "from": "Course list from the UoN programme; key facts drafted with AI and checked twice by AI; OpenStax, Kenya MoH and WHO links",
@@ -90,8 +90,8 @@
     "date": "28 Sep 2026"
    },
    "parts": 6,
-   "v": 1793768359,
-   "whatsNew": "4 new in-depth topics: orthopaedic history and examination, the psychiatric interview, wound healing and wound care, anatomy of the eye and orbit. Latest research refreshed for sepsis (new Phoenix criteria for children, 2026 children's sepsis guidelines) and pre-eclampsia.",
+   "v": 1793941277,
+   "whatsNew": "6 new in-depth topics: Anatomy of the ear, Medical professionalism, Beta-lactams and vancomycin, Histopathology specimen handling, Sickle cell disease management, Immunity to infection — each with worldwide guidance and the latest research",
    "split": "lib-mbchb-index.json"
   },
   {
