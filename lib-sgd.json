@@ -372,7 +372,10 @@
         "topics": [
          "Srila Prabhupada",
          "Bhagavad-gita"
-        ]
+        ],
+        "map": "gw-day01-mahatmya",
+        "part": "gitaweek",
+        "library": "sgd"
        },
        "icons": [
         "🪷"
@@ -971,7 +974,10 @@
          "Surrender",
          "Bhagavad-gita",
          "BG 2.7"
-        ]
+        ],
+        "map": "gw-day01-surrender",
+        "part": "gitaweek",
+        "library": "sgd"
        },
        "icons": [
         "🙏"
@@ -26777,6 +26783,26 @@
        "note": "2 keywords",
        "children": [
         {
+         "id": "sgd-ixk-G-gm",
+         "topic": "Gita Mahatmya",
+         "note": "Shankaracharya's seven verses on why to read the Gita (also: Gita Mahatmyam, glories of the Gita, Gita mahima). 1 in-depth map. Tap, then ↪ Go to this point.",
+         "expanded": false,
+         "children": [
+          {
+           "id": "sgd-ixk-G-gm-1",
+           "topic": "In depth: Why read the Gita",
+           "note": "Gita Week · Day 01 · in-depth map (7 Nov 2026) · 08:03",
+           "manas": {
+            "goto": {
+             "map": "gw-day01-mahatmya",
+             "node": "gwd01mah-root",
+             "part": "gitaweek"
+            }
+           }
+          }
+         ]
+        },
+        {
          "id": "sgd-ixk-G-0",
          "topic": "Govardhana",
          "note": "4 places in 3 classes. Tap one, then ↪ Go to this point.",
@@ -26838,6 +26864,18 @@
          "note": "29 places in 10 classes. Tap one, then ↪ Go to this point.",
          "expanded": false,
          "children": [
+          {
+           "id": "sgd-ixk-G-1-deep",
+           "topic": "In depth: BG 2.7 \"You tell me\"",
+           "note": "Gita Week · Day 01 · in-depth map (7 Nov 2026) · 58:11",
+           "manas": {
+            "goto": {
+             "map": "gw-day01-surrender",
+             "node": "gwd01sur-root",
+             "part": "gitaweek"
+            }
+           }
+          },
           {
            "id": "sgd-ixk-G-1-1",
            "topic": "2.7 — Surrender: 'You tell me'",
@@ -27595,6 +27633,26 @@
              "map": "sgs-day05",
              "node": "sgs-d05-5-4",
              "part": "sb2026"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "sgd-ixk-K-kd",
+         "topic": "Karpanya dosha (miserly weakness)",
+         "note": "Arjuna's \"miserly weakness\" in BG 2.7 (also: kaarpanya, miser, stingy). Tap, then ↪ Go to this point.",
+         "expanded": false,
+         "children": [
+          {
+           "id": "sgd-ixk-K-kd-1",
+           "topic": "In depth: BG 2.7 \"You tell me\"",
+           "note": "Gita Week · Day 01 · in-depth map (7 Nov 2026) · 58:43",
+           "manas": {
+            "goto": {
+             "map": "gw-day01-surrender",
+             "node": "gwd01sur-2",
+             "part": "gitaweek"
             }
            }
           }
@@ -38185,6 +38243,1090 @@
    "updated": 1792138159570,
    "library": "sgd",
    "part": "ixc"
+  },
+  {
+   "id": "gw-day01-mahatmya",
+   "title": "Day 01 · In depth: Why read the Gita (Gita Mahatmya)",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794023790671,
+   "updated": 1794023790671,
+   "library": "sgd",
+   "deepOf": "gw-day01",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "gwd01mah-root",
+     "topic": "Why read the Gita: the Gita Mahatmya",
+     "note": "In depth: Prabhu walks through all seven verses of Shankaracharya's Gita Mahatmya, which Srila Prabhupada placed at the end of the Introduction to Bhagavad-gita As It Is. Notes are our own summary of the class. Search words: Gita Mahatmya / Gita Mahatmyam / glories of the Gita / Gita mahima / Shankaracharya / Shankara / why read Bhagavad-gita / punya / piety.",
+     "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=483s",
+     "manas": {
+      "links": [
+       {
+        "label": "📝 Read what Prabhu says",
+        "url": "gw-transcript-01.html#t=483"
+       },
+       {
+        "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+        "url": "https://vedabase.io/en/library/bg/introduction/"
+       }
+      ],
+      "orbit": {
+       "ref": "Day 1 · 08:03",
+       "tag": "Knowledge"
+      },
+      "topics": [
+       "Bhagavad-gita"
+      ]
+     },
+     "children": [
+      {
+       "id": "gwd01mah-3",
+       "topic": "Choosing the Gita like choosing soap",
+       "note": "Before buying, we compare more than price: quality, fragrance, brand, ingredients. Prabhu says the Mahatmya works the same way — it is the \"label\" that tells us why this book is worth choosing.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=516s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=516"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 08:36",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "gwd01mah-1",
+         "topic": "Who wrote the Mahatmya",
+         "note": "Shankaracharya, the great teacher of the Advaita (non-dual) school, who also commented on the Gita. Srila Prabhupada places his glorification of the Gita at the end of the Introduction to Bhagavad-gita As It Is.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=498s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=498"
+           },
+           {
+            "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+            "url": "https://vedabase.io/en/library/bg/introduction/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 08:18",
+           "tag": "Knowledge"
+          },
+          "topics": [
+           "Srila Prabhupada",
+           "Bhagavad-gita"
+          ],
+          "q": "Who wrote the Gita Mahatmya that Srila Prabhupada includes in the Introduction?"
+         }
+        },
+        {
+         "id": "gwd01mah-2",
+         "topic": "Context war, content life",
+         "note": "Spoken on a battlefield, the Gita is often taken as a book about war. Prabhu insists the setting is war but the subject is how to live — which is why it speaks to an office worker or a student today.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=578s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=578"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 09:38",
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01mah-7",
+       "topic": "Verse 1 · Two kinds of piety",
+       "note": "The first verse speaks of punya, piety: doing something good that brings something good back. Prabhu explains there are two kinds, and reading the Gita gives both.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=662s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=662"
+         },
+         {
+          "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+          "url": "https://vedabase.io/en/library/bg/introduction/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 11:02",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "gwd01mah-4",
+         "topic": "Material piety",
+         "note": "Comes automatically to a Gita reader and can lead to the heavenly planets — pleasant, but still inside this world.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=674s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=674"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 11:14",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "gwd01mah-5",
+         "topic": "Spiritual piety",
+         "note": "The more important gain: it takes one out of the material world altogether, so the next life is in the spiritual world.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=694s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=694"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 11:34",
+           "tag": "Liberation"
+          },
+          "q": "What two kinds of piety does Prabhu say a Gita reader gains, and which matters more?"
+         }
+        },
+        {
+         "id": "gwd01mah-6",
+         "topic": "Free from fear and grief",
+         "note": "The verse names the first gift as freedom from bhaya (fear) and shoka (lamentation). Prabhu recalls that in Johannesburg almost everyone described life in exactly these two words.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=711s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=711"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 11:51",
+           "tag": "Faith"
+          },
+          "q": "Which two words — bhaya and shoka — name what the Gita frees us from?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01mah-10",
+       "topic": "Verse 2 · Sin finished at the root",
+       "note": "Reading the Gita sincerely ends three things at once: the sinful act, its reaction, and the tendency to sin again.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=792s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=792"
+         },
+         {
+          "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+          "url": "https://vedabase.io/en/library/bg/introduction/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 13:12",
+         "tag": "Mercy"
+        },
+        "q": "What three things does Prabhu say the Gita removes in connection with sin?"
+       },
+       "children": [
+        {
+         "id": "gwd01mah-8",
+         "topic": "Cement over the garden",
+         "note": "His image: remove the tree, remove the seeds, and remove any chance of planting — like laying cement over a garden so nothing can grow there again.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=802s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=802"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 13:22",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "gwd01mah-9",
+         "topic": "Why the tendency matters",
+         "note": "Prabhu stresses that even the urge to sin goes, not only past acts. Srila Prabhupada links this verse with Krishna's promise in BG 18.66 to free the surrendered soul from all sinful reactions.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=822s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=822"
+           },
+           {
+            "label": "📖 BG 18.66",
+            "url": "https://vedabase.io/en/library/bg/18/66/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 13:42",
+           "tag": "Surrender"
+          },
+          "topics": [
+           "BG 18.66"
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01mah-14",
+       "topic": "Verse 3 · A bath for the mind",
+       "note": "A daily bath in water cleans the body; one bath in the Gita cleans away the dirt of material life. Prabhu asks the audience what that dirt is.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=858s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=858"
+         },
+         {
+          "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+          "url": "https://vedabase.io/en/library/bg/introduction/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 14:18",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "gwd01mah-11",
+         "topic": "What the audience named",
+         "note": "Sin, past impressions (samskaras) and the modes of material nature.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=874s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=874"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 14:34",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "gwd01mah-12",
+         "topic": "What Prabhu adds",
+         "note": "Lust, anger, greed, illusion, madness, envy, pride and ego — the inner dirt that keeps settling on us. Search words: anarthas / bad qualities / inner enemies.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=898s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=898"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 14:58",
+           "tag": "Desire"
+          },
+          "q": "Name four kinds of \"inner dirt\" Prabhu says a bath in the Gita washes away."
+         }
+        },
+        {
+         "id": "gwd01mah-13",
+         "topic": "How the bath works",
+         "note": "The cleaning happens through the knowledge of the Gita: understanding it is the bath, so hearing and reading regularly keeps us clean.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=927s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=927"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 15:27",
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01mah-15",
+       "topic": "Verse 4 · Spoken by the Lord Himself",
+       "note": "The Gita comes directly from the Supreme Personality of Godhead, so it is enough by itself. Srila Prabhupada adds that people today have no time to read every Vedic book — and need not.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=977s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=977"
+         },
+         {
+          "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+          "url": "https://vedabase.io/en/library/bg/introduction/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 16:17",
+         "tag": "Knowledge"
+        }
+       }
+      },
+      {
+       "id": "gwd01mah-18",
+       "topic": "Verse 5 · Ganga from His feet, Gita from His mouth",
+       "note": "Prabhu asks where the Ganga comes from. The audience says Lord Shiva's hair, then the spiritual world; the full answer: Lord Vamana's foot pierced the universe and the water flowed from Vishnu's feet.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=1009s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=1009"
+         },
+         {
+          "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+          "url": "https://vedabase.io/en/library/bg/introduction/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 16:49",
+         "tag": "Bhagavatam"
+        },
+        "topics": [
+         "Ganga"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd01mah-16",
+         "topic": "Both can deliver us",
+         "note": "The Ganga flows from the Lord's feet and the Gita's nectar from His mouth; both purify and both can free us.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=1043s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=1043"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 17:23",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "gwd01mah-17",
+         "topic": "Prabhupada's comparison",
+         "note": "In the Introduction Srila Prabhupada notes there is no difference between the Lord's mouth and feet, yet impartially the Gita is even more important than Ganga water.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=1052s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=1052"
+           },
+           {
+            "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+            "url": "https://vedabase.io/en/library/bg/introduction/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 17:32",
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01mah-20",
+       "topic": "Verse 6 · The cow and its milk",
+       "note": "Veda means knowledge. If all Vedic knowledge were shaped into a cow, the Gita would be its milk — the essence.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=1104s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=1104"
+         },
+         {
+          "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+          "url": "https://vedabase.io/en/library/bg/introduction/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 18:24",
+         "tag": "Knowledge"
+        },
+        "q": "In the Mahatmya's cow image, what is the Gita?"
+       },
+       "children": [
+        {
+         "id": "gwd01mah-19",
+         "topic": "Who is who in the verse",
+         "note": "In the verse the Upanishads are the cow, Krishna the cowherd is milking, Arjuna is the calf, and the wise and the devotees drink the milk.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=1110s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=1110"
+           },
+           {
+            "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+            "url": "https://vedabase.io/en/library/bg/introduction/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 18:30",
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01mah-21",
+       "topic": "Verse 7 · One scripture, one God, one mantra",
+       "note": "Shankaracharya's last verse: one scripture (the Gita), one God (Krishna, son of Devaki), one mantra (His names), one work (His service). Prabhu: no other scripture is needed.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=1215s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=1215"
+         },
+         {
+          "label": "📖 Gita Mahatmya (BG Introduction, vedabase.io)",
+          "url": "https://vedabase.io/en/library/bg/introduction/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 20:15",
+         "tag": "Chanting"
+        },
+        "topics": [
+         "Holy name"
+        ],
+        "q": "What are the four \"ones\" of the last Mahatmya verse?"
+       }
+      },
+      {
+       "id": "gwd01mah-22",
+       "topic": "Prabhu's summary of the reasons",
+       "note": "It is the essence of all knowledge; it frees us from fear and anxiety; it frees us from the confines of this material world. That is why we read it.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=1231s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=1231"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 20:31",
+         "tag": "Purpose"
+        }
+       }
+      },
+      {
+       "id": "gwd01mah-23",
+       "topic": "Reflection: one thing to clarify",
+       "note": "Prabhu asks everyone to write in a notebook or phone: if the Gita could clarify one aspect of my life today, what would it be? Reading with a real question makes the study personal.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=1261s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=1261"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 21:01",
+         "tag": "Questions"
+        },
+        "q": "What question did Prabhu ask everyone to write down before going on?"
+       }
+      },
+      {
+       "id": "gwd01mah-28",
+       "topic": "Take-away",
+       "note": "Practical points from this part of the class.",
+       "children": [
+        {
+         "id": "gwd01mah-24",
+         "topic": "Know why you read",
+         "note": "Before starting a book, know its value — the Mahatmya gives seven reasons."
+        },
+        {
+         "id": "gwd01mah-25",
+         "topic": "Read for life, not theory",
+         "note": "The setting is war; the content is how to live today."
+        },
+        {
+         "id": "gwd01mah-26",
+         "topic": "Bathe daily",
+         "note": "Regular hearing and reading clears lust, anger, greed and fear from the mind."
+        },
+        {
+         "id": "gwd01mah-27",
+         "topic": "Bring a question",
+         "note": "Come to the Gita with one real question from your own life."
+        }
+       ]
+      },
+      {
+       "id": "gwd01mah-31",
+       "topic": "See also",
+       "note": "Other maps that take this further.",
+       "children": [
+        {
+         "id": "gwd01mah-29",
+         "topic": "Gita Week — the teaching in one map",
+         "note": "The whole seven-day course in a single map.",
+         "manas": {
+          "map": "gita-week-first-map"
+         }
+        },
+        {
+         "id": "gwd01mah-30",
+         "topic": "Day 07 · Surrender and Victory",
+         "note": "Where the Gita ends — BG 18.66 and the promise of protection.",
+         "manas": {
+          "map": "gw-day07"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "gitaweek"
+  },
+  {
+   "id": "gw-day01-surrender",
+   "title": "Day 01 · In depth: BG 2.7 — \"You tell me\"",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794023790678,
+   "updated": 1794023790678,
+   "library": "sgd",
+   "deepOf": "gw-day01",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "gwd01sur-root",
+     "topic": "BG 2.7 · \"You tell me\" — surrender",
+     "note": "In depth: how Prabhu explains Arjuna's surrender in BG 2.7 — miserly weakness, seeking guidance rather than validation, and why going to a guru differs from venting to a friend. Notes are our own summary of the class. Search words: surrender / saranagati / prapanna / disciple / shishya / sisya / guru / spiritual master / karpanya dosha / kaarpanya / miserly weakness / Bg 2.7.",
+     "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3491s",
+     "manas": {
+      "links": [
+       {
+        "label": "📝 Read what Prabhu says",
+        "url": "gw-transcript-01.html#t=3491"
+       },
+       {
+        "label": "📖 BG 2.7",
+        "url": "https://vedabase.io/en/library/bg/2/7/"
+       }
+      ],
+      "orbit": {
+       "ref": "Day 1 · 58:11",
+       "tag": "Surrender"
+      },
+      "topics": [
+       "BG 2.7",
+       "Guru"
+      ]
+     },
+     "children": [
+      {
+       "id": "gwd01sur-1",
+       "topic": "Arjuna takes our position",
+       "note": "Arjuna is not really lost; he stands where we stand so the answers come to us. The very next thing he does after breaking down is take shelter of Krishna.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3485s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=3485"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 58:05",
+         "tag": "Surrender"
+        },
+        "topics": [
+         "Arjuna"
+        ]
+       }
+      },
+      {
+       "id": "gwd01sur-8",
+       "topic": "Karpanya dosha: miserly weakness",
+       "note": "In BG 2.7 Arjuna says miserly weakness has overcome him. Prabhu asks the audience what a miser is.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3523s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=3523"
+         },
+         {
+          "label": "📖 BG 2.7",
+          "url": "https://vedabase.io/en/library/bg/2/7/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 58:43",
+         "tag": "Wealth"
+        },
+        "topics": [
+         "BG 2.7"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd01sur-2",
+         "topic": "What the audience said",
+         "note": "One who thinks only of himself; one who does not share; today's words: stingy, a Scrooge.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3537s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=3537"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 58:57",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "gwd01sur-3",
+         "topic": "Prabhu's definition",
+         "note": "A miser has the ability, the facilities and the means, but does not use them.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3575s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=3575"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 59:35",
+           "tag": "Wealth"
+          },
+          "q": "How does Prabhu define a miser in explaining karpanya dosha (BG 2.7)?"
+         }
+        },
+        {
+         "id": "gwd01sur-4",
+         "topic": "Torn socks",
+         "note": "A true story: a big industrialist who owns many companies took off his shoes at the temple and showed torn socks.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3592s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=3592"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 59:52",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "gwd01sur-5",
+         "topic": "Plastic still on the remote",
+         "note": "From his Gujarati background: a new remote keeps its plastic cover so it stays perfect — a small, smiling example of not using what we have.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3633s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=3633"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 60:33",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "gwd01sur-6",
+         "topic": "Arjuna's case",
+         "note": "All his wealth, skill, strength and strategy were there, but none of it could help him out of this crisis — that is his miserly weakness.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3654s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=3654"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 60:54",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "gwd01sur-7",
+         "topic": "Asking for a lift with a car at home",
+         "note": "With fuel prices rising, someone with a better car still waits for the neighbour's lift — owning resources and not using them.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3683s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=3683"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 61:23",
+           "tag": "Stories"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01sur-9",
+       "topic": "Did not know what, but knew where",
+       "note": "Arjuna did not know what to do, yet he knew where to go: to Krishna, saying he is now His disciple, surrendered, and asking to be told what is best.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3702s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=3702"
+         },
+         {
+          "label": "📖 BG 2.7",
+          "url": "https://vedabase.io/en/library/bg/2/7/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 61:42",
+         "tag": "Guru"
+        },
+        "q": "In BG 2.7, what does Arjuna say he now is in relation to Krishna?"
+       }
+      },
+      {
+       "id": "gwd01sur-11",
+       "topic": "Guidance, not validation",
+       "note": "Today we go to people wanting a yes to our own plan; if they advise otherwise we lose interest. Arjuna came with no plan of his own — \"I don't know, You tell me.\"",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3728s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=3728"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 62:08",
+         "tag": "Surrender"
+        }
+       },
+       "children": [
+        {
+         "id": "gwd01sur-10",
+         "topic": "\"You do you\"",
+         "note": "Prabhu notes the modern mood: nobody likes being told what to do, and we are taught not to mind whether something is right or wrong. Arjuna shows the opposite humility.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3798s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=3798"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 63:18",
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01sur-14",
+       "topic": "The next sentence after \"I don't know\"",
+       "note": "Prabhu asks the hall to finish it. Most say \"I'll figure it out\"; Arjuna says \"let me go to someone who knows.\" That difference is where we usually go wrong.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3846s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=3846"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 64:06",
+         "tag": "Guru"
+        },
+        "q": "What is the \"next sentence\" after \"I don't know\" that Arjuna teaches us?"
+       },
+       "children": [
+        {
+         "id": "gwd01sur-12",
+         "topic": "From confusion to clarity",
+         "note": "A guru is the one who can take us out of confusion and show the way; without that we stay confused.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3830s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=3830"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 63:50",
+           "tag": "Guru"
+          },
+          "topics": [
+           "Guru"
+          ]
+         }
+        },
+        {
+         "id": "gwd01sur-13",
+         "topic": "When the problem is too big",
+         "note": "When something is beyond us we must ask for help, or we get stuck. Until we can humbly say \"please guide me\", we cannot really be helped.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3905s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=3905"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 65:05",
+           "tag": "Surrender"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01sur-15",
+       "topic": "The first lesson of the Gita",
+       "note": "If you take one thing home: when stuck — in life or in anything — be intelligent enough to see you cannot solve it alone and need help. Arjuna teaches this by his own example.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3948s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=3948"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 65:48",
+         "tag": "Purpose"
+        },
+        "q": "What does Prabhu call the first lesson of the Gita from BG 2.7?"
+       }
+      },
+      {
+       "id": "gwd01sur-20",
+       "topic": "Friend or guru? A pair discussion",
+       "note": "Krishna and Arjuna were friends, so how is this different from us going to a friend? Prabhu has neighbours discuss it, then gathers answers.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=3987s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=3987"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 66:27",
+         "tag": "Questions"
+        }
+       },
+       "children": [
+        {
+         "id": "gwd01sur-16",
+         "topic": "Krishna has all knowledge",
+         "note": "One answer from the hall: Krishna has all knowledge — a friend may not.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=4111s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=4111"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 68:31",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "gwd01sur-17",
+         "topic": "We may not trust our friends",
+         "note": "Another answer: we often lack faith in our friends; sometimes a friend even betrays what we shared.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=4133s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=4133"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 68:53",
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "gwd01sur-18",
+         "topic": "We vent; Arjuna asked",
+         "note": "With friends we usually just vent and do not want advice. Arjuna was not complaining about the Kauravas; he asked how to get out of his situation.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=4204s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=4204"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 70:04",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "gwd01sur-19",
+         "topic": "Leaving it fully to Krishna",
+         "note": "The surrender is that he left the decision entirely to Krishna — \"You tell me.\" Prabhu says few people can do that.",
+         "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=4252s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-01.html#t=4252"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 1 · 70:52",
+           "tag": "Surrender"
+          },
+          "q": "How is Arjuna going to Krishna in BG 2.7 different from us going to a friend?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd01sur-21",
+       "topic": "One thing to walk home with",
+       "note": "To close, Prabhu asks everyone to tell the devotee beside them the one point they will ponder that night.",
+       "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=4362s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-01.html#t=4362"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 1 · 72:42",
+         "tag": "Devotees"
+        }
+       }
+      },
+      {
+       "id": "gwd01sur-26",
+       "topic": "Take-away",
+       "note": "Practical points from this part of the class.",
+       "children": [
+        {
+         "id": "gwd01sur-22",
+         "topic": "Use what you have",
+         "note": "Do not sit on your gifts like a miser; when they cannot help, admit it."
+        },
+        {
+         "id": "gwd01sur-23",
+         "topic": "Seek guidance, not a yes",
+         "note": "Go with an open question, not a plan wanting approval."
+        },
+        {
+         "id": "gwd01sur-24",
+         "topic": "Say the second sentence",
+         "note": "After \"I don't know\", say \"let me ask someone who knows\"."
+        },
+        {
+         "id": "gwd01sur-25",
+         "topic": "Turn to the Gita and devotees",
+         "note": "Today we approach Krishna through His words and trusted devotees (see Q1 in the Day 01 map)."
+        }
+       ]
+      },
+      {
+       "id": "gwd01sur-29",
+       "topic": "See also",
+       "note": "Other maps on the same theme.",
+       "children": [
+        {
+         "id": "gwd01sur-27",
+         "topic": "Day 07 · Surrender and Victory",
+         "note": "The Gita closes where 2.7 opens — surrender.",
+         "manas": {
+          "map": "gw-day07"
+         }
+        },
+        {
+         "id": "gwd01sur-28",
+         "topic": "Gita Week — the teaching in one map",
+         "note": "The whole course in one map.",
+         "manas": {
+          "map": "gita-week-first-map"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "gitaweek"
   }
  ]
 }
