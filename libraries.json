@@ -209,6 +209,26 @@
    "split": "lib-statute-index.json"
   },
   {
+   "id": "eng",
+   "title": "Engineering — first year foundations · draft",
+   "subtitle": "Draft for review: the first-year engineering core in plain words — units and dimensional analysis, statics with free-body diagrams and worked examples — every bubble linked to a free OpenStax textbook page; more subjects (dynamics, materials, circuits, thermodynamics, fluids, drawing, computing, ethics) added on Saturdays.",
+   "icon": "⚙️",
+   "file": "lib-eng.json",
+   "root": "eng-root",
+   "draft": true,
+   "about": {
+    "by": "Manas, for first-year engineering students in Kenya",
+    "from": "Own-words notes from OpenStax University Physics (free, CC BY) and Wikipedia; worked examples in SI units recomputed by the run",
+    "review": "Draft · review in progress",
+    "date": "7 Nov 2026"
+   },
+   "parts": 2,
+   "v": 1794051162,
+   "meta": "5 maps · 171 ideas · 80 KB · 2 subjects",
+   "whatsNew": "New library: Units, dimensions and estimation; Statics with free-body diagrams — 144 ideas, every bubble linked to OpenStax (Sat 7 Nov)",
+   "split": "lib-eng-index.json"
+  },
+  {
    "id": "cbc",
    "title": "School in Kenya — CBC, nursery to senior school · draft",
    "subtitle": "Draft for review: each CBC level from pre-primary to senior school — what children learn, how they are assessed, pathways, and how parents can help.",
