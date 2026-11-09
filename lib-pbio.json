@@ -243,7 +243,10 @@
             "label": "📖 Līlāmṛta ch. 2",
             "url": "https://vedabase.io/en/library/spl/1/2/#bb1561575"
            }
-          ]
+          ],
+          "map": "pbio-spl-1-2-deep",
+          "part": "course",
+          "library": "pbio"
          }
         },
         {
@@ -9925,7 +9928,7 @@
    "layout": "side",
    "lines": "curved",
    "created": 1793850982977,
-   "updated": 1793850982977,
+   "updated": 1794196635421,
    "library": "pbio",
    "deepOf": "pbio-ix-sections",
    "data": {
@@ -10841,12 +10844,981 @@
         },
         {
          "id": "pbio11-ta-next",
-         "topic": "Next: Chapter 2, college and Gandhi",
-         "note": "The story continues at Scottish Churches' College.",
+         "topic": "Next: Chapter 2 in depth — college, marriage, Gandhi",
+         "note": "The story continues at Scottish Churches’ College: the Caitanya play, his arranged marriage, Purī, refusing his degree and wearing khādī. Opens the in-depth map of Chapter 2.",
+         "manas": {
+          "goto": {
+           "map": "pbio-spl-1-2-deep",
+           "node": "pbio12-root"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "course"
+  },
+  {
+   "id": "pbio-spl-1-2-deep",
+   "title": "Līlāmṛta 2 · College, marriage and Gandhi in depth",
+   "look": "paper",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794196635428,
+   "updated": 1794196635428,
+   "library": "pbio",
+   "deepOf": "pbio-ix-sections",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "pbio12-root",
+     "topic": "Chapter 2 · College, marriage and Gandhi (1914 to the early 1920s)",
+     "note": "In-depth map of Śrīla Prabhupāda-līlāmṛta, Volume 1, Chapter 2: Abhay at Scottish Churches’ College, the Caitanya play, the dream of his Deity, Subhas Bose and svarāj, his arranged marriage, his first visit to Jagannātha Purī, refusing his degree for Gandhi, his job at Bose’s Laboratory and wearing khādī. Facts from the Līlāmṛta on vedabase.io; notes in our own words. Draft · review in progress. Search words: Abhay, college, Scottish Church College, Gandhi, Gandhiji, svaraj, swaraj, independence, nationalism, Subhas Chandra Bose, Netaji, marriage, wife, Radharani, Puri, Jagannath, khadi, khaddar, Bose Laboratory, job.",
+     "hyperLink": "https://vedabase.io/en/library/spl/1/2/",
+     "children": [
+      {
+       "id": "pbio12-college",
+       "topic": "🎓 Scottish Churches’ College (1916)",
+       "note": "Why Abhay went to this college, who ran it, and what he studied there.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561575",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Context"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-war",
+         "topic": "War years before college",
+         "note": "The First World War began in 1914. Abhay saw British planes land on the Maidan racetrack and read war news, but it hardly touched his life; he began college in 1916.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561574",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "pbio12-choice",
+         "topic": "Why this college",
+         "note": "Calcutta had two leading colleges, Presidency and Scottish Churches’. Abhay joined the second: a Christian college respected by Bengali Vaiṣṇava families, close to the family home on Harrison Road.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561575",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Family"
+          },
+          "q": "Which Calcutta college did Abhay join in 1916?"
+         },
+         "children": [
+          {
+           "id": "pbio12-choice-why",
+           "topic": "The father’s reasoning",
+           "note": "Gour Mohan would not send his son to London, nor give him away as a brahmacārī to a guru he had not found. A sober local college let Abhay study while living at home and keeping his habits pure.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561576",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.2",
+             "tag": "Family"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio12-duff",
+         "topic": "Founded by a Scottish missionary",
+         "note": "The Reverend Alexander Duff came to Calcutta in 1830 and started schools to spread Christianity through Western-style education in English. In 1908 two of his institutions were merged as Scottish Churches’ College.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561577",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "pbio12-profs",
+         "topic": "Teachers he respected",
+         "note": "Prabhupāda later recalled treating the professors like fathers. He named the vice-chancellor, W. S. Urquhart, as kind, and J. C. Scrimgeour, who taught English literature by comparing it with the Bengali novelist Bankim Chandra Chatterji.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561578",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "pbio12-subjects",
+         "topic": "His subjects year by year",
+         "note": "He began with English and Sanskrit; Sanskrit and philosophy followed in year two, and later philosophy with economics.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561579",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Knowledge"
+          },
+          "q": "What subjects did Abhay study at college?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio12-life",
+       "topic": "🎭 Student life: Gītā, poetry and a play",
+       "note": "Societies, sport and his one stage role.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561580",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Stories"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-societies",
+         "topic": "English and Sanskrit societies",
+         "note": "In the English Society he recited Keats and Shelley; at the Sanskrit Society he chanted verses of the Gītā. Classmates remembered his recital of Chapter 11, the universal form, as especially moving. He also played football and acted.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561580",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Knowledge"
+          },
+          "q": "Which chapter of the Gītā did classmates remember Abhay reciting so well?"
+         }
+        },
+        {
+         "id": "pbio12-drama",
+         "topic": "A year rehearsing a play on Lord Caitanya",
+         "note": "Amritlal Bose, a well-known Bengali theatre director, trained Abhay and his friends without charge, but would not let them perform in public until it was right. They rehearsed for more than a year.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561581",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Stories"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio12-drama-aim",
+           "topic": "The director’s aim",
+           "note": "People could see a Caitanya play in a public theatre cheaply, so why stage another? Mr Bose wanted the boys to act so well that the audience would resolve to give up sinful life.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561581",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.2",
+             "tag": "Purpose"
+            }
+           }
+          },
+          {
+           "id": "pbio12-drama-advaita",
+           "topic": "Playing Advaita Ācārya",
+           "note": "Abhay played Advaita Ācārya. He saw people in the audience weeping and understood it was because the actors were well trained and sincere. It was his first and last time on stage.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561582",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.2",
+             "tag": "Devotees"
+            },
+            "q": "Which role did Abhay play in the college drama about Lord Caitanya?"
+           }
+          },
+          {
+           "id": "pbio12-drama-why",
+           "topic": "Why it matters",
+           "note": "Sincerity, not show, moved the audience: an early taste of the way he later presented Lord Caitanya’s life to the world. (Our reflection.)",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561582",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.2",
+             "tag": "Preaching"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio12-dhira",
+         "topic": "What dhīra means: Kālidāsa’s lesson",
+         "note": "Reading Kālidāsa’s Kumāra-sambhava, Abhay was struck by the word dhīra, “undisturbed”: Lord Śiva stayed fixed in meditation even when Pārvatī was sent to break it. Search words: dhira, sober, self-controlled.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561584",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Knowledge"
+          },
+          "q": "What does the Sanskrit word dhīra mean?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio12-west",
+       "topic": "⚖️ Western teaching and the Vedic view",
+       "note": "What the college taught about India, and how Abhay took it.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561583",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-bible",
+         "topic": "Compulsory Bible class",
+         "note": "Each morning began with Bible readings, prayers and hymns for all students; every student was given a bound Bible.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561586",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "pbio12-karma",
+         "topic": "A professor attacks karma",
+         "note": "One professor argued that no one can be punished without a witness, so who witnesses the past-life misdeeds that karma punishes? Abhay knew there is a witness and that the argument was weak, but as a student he kept silent.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561587",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Soul"
+          },
+          "q": "What was the professor’s argument against karma, and how did Abhay respond?"
+         },
+         "children": [
+          {
+           "id": "pbio12-karma-why",
+           "topic": "The witness he had in mind",
+           "note": "The chapter says only that Abhay knew there was a witness. In Vedic teaching the Lord in the heart, the Supersoul, sees every act (see BG 13.23). (Our note, for study.)",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561587",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.2",
+             "tag": "Soul"
+            }
+           }
+          },
+          {
+           "id": "pbio12-karma-bg",
+           "topic": "BG 13.23 on vedabase",
+           "note": "The verse on the Supersoul as the witness and overseer within the body.",
+           "manas": {
+            "orbit": {
+             "ref": "BG 13.23",
+             "tag": "Soul"
+            }
+           },
+           "hyperLink": "https://vedabase.io/en/library/bg/13/23/"
+          }
+         ]
+        },
+        {
+         "id": "pbio12-syllabus",
+         "topic": "A textbook that belittled India",
+         "note": "One set book, by an Indian author, M. Ghosh (England’s Work in India), which claimed India was backward before British rule. Abhay met here the idea that the Vedic scriptures were recent and impure.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561590",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "pbio12-distance",
+         "topic": "Strict social distance",
+         "note": "Even Bengali teachers had a separate staff room from the Europeans. An economics professor once shouted at the class that Indians could never rule themselves.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561590",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "pbio12-bengali",
+         "topic": "The professor who understood Bengali",
+         "note": "European teachers were required to learn Bengali. When a student joked in Bengali about Professor Urquhart, he replied at once in Bengali, and the boys felt ashamed.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561585",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "pbio12-fond",
+         "topic": "Awe and fondness",
+         "note": "Unlike village boys, Abhay was at ease in the city. He kept some distance from his Scottish teachers but admired their moral, courteous conduct.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561588",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Context"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio12-heart",
+       "topic": "🪔 His heart stayed with Kṛṣṇa",
+       "note": "College crowded out his childhood worship, but not his inner life.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561591",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Faith"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-box",
+         "topic": "Deities put away in a box",
+         "note": "The long hours before Rādhā-Govinda were over. With lectures, library and homework filling his days, he stopped worshipping his own Kṛṣṇa Deity and kept it in a closed box.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561593",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "pbio12-father-ok",
+         "topic": "Why his father was not worried",
+         "note": "Gour Mohan saw that Abhay stayed pure in habits and did not take on Western ideas. A good education would prepare him to marry, earn and remain a responsible Vaiṣṇava.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561594",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Family"
+          }
+         }
+        },
+        {
+         "id": "pbio12-rupen",
+         "topic": "A friend’s witness: Rupen Mitra",
+         "note": "His close friend Rupendranatha Mitra noticed that Abhay studied seriously but cared nothing for Western learning or marks. Abhay told him he did not like these things; his mind was always on God.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561595",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Devotees"
+          },
+          "q": "Which classmate saw that Abhay was always thinking about God?"
+         }
+        },
+        {
+         "id": "pbio12-untouched",
+         "topic": "Western ideas left him untouched",
+         "note": "To Abhay the Western thinkers were only speculating, without the devotional spirit his father and the scriptures had given him.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561596",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "pbio12-dream",
+         "topic": "The dream: “Why put Me in a box?”",
+         "note": "After his first year, the Kṛṣṇa Deity from his father appeared in a dream and asked to be taken out and worshipped again. Abhay felt sorry and resumed worship at home despite his studies.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561597",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Mercy"
+          },
+          "q": "What did the Deity ask Abhay in his dream after the first year of college?"
+         },
+         "children": [
+          {
+           "id": "pbio12-dream-see",
+           "topic": "See also: his childhood Deities",
+           "note": "The Deities he had begged his father for as a boy (Chapter 1).",
+           "manas": {
+            "goto": {
+             "map": "pbio-spl-1-1-deep",
+             "node": "pbio11-deities-own"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio12-svaraj",
+       "topic": "🇮🇳 Subhas Bose and the call for svarāj",
+       "note": "How the independence movement reached Abhay.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561599",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Leaders"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-bose",
+         "topic": "Subhas Chandra Bose, one year ahead",
+         "note": "Bose had been expelled from Presidency College after leading students in a strike against a British teacher who mistreated them. At his new college he was a serious student and secretary of the Philosophy Club.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561599",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Leaders"
+          },
+          "q": "Which famous nationalist was one year ahead of Abhay at college?"
+         }
+        },
+        {
+         "id": "pbio12-names",
+         "topic": "Leaders he heard about",
+         "note": "Bipinchandra Pal, Surendranatha Bannerjee, Lala Lajpat Rai and, above all, Mohandas K. Gandhi.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561599",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "pbio12-secret",
+         "topic": "Secret meetings",
+         "note": "The college banned anti-government talk, so students met quietly. Abhay liked Bose’s faith and determination but did not want politics; the ideals attracted him.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561600",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "pbio12-spiritual",
+         "topic": "Freedom seen as spiritual",
+         "note": "Many Bengali nationalists compared political freedom to the soul’s liberation. Abhay saw Kṛṣṇa as the absolute truth and independence as relative, yet he agreed that free India could share Vedic culture with the world.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561601",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Liberation"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio12-spiritual-why",
+           "topic": "Why it appealed to him",
+           "note": "He had felt British contempt for the śāstras himself, in his textbook and in the attack on karma. Freedom promised a hearing for India’s culture.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561602",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.2",
+             "tag": "Knowledge"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio12-gandhi",
+         "topic": "Why Gandhi attracted him",
+         "note": "Gandhi carried and read the Bhagavad-gītā daily, avoided intoxication, meat and illicit sex, and lived simply. Abhay wondered whether Gandhi could bring spirituality into action.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561603",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Leaders"
+          },
+          "q": "What about Gandhi drew Abhay to him?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio12-marriage",
+       "topic": "💍 An arranged marriage",
+       "note": "His father chooses a wife while Abhay is still a student.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561606",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Family"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-custom",
+         "topic": "The custom his father followed",
+         "note": "In the system Gour Mohan followed, parents arranged the match, the bride was young, and the couple did not live together at first; affection was expected to grow as they matured.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561607",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Family"
+          }
+         }
+        },
+        {
+         "id": "pbio12-radharani",
+         "topic": "Radharani Datta, aged eleven",
+         "note": "After much consultation Gour Mohan chose Radharani Datta, eleven, from a suvarṇa-vaṇik family linked to the Mulliks. Both families agreed.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561608",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Family"
+          },
+          "q": "Whom did Abhay marry, and who chose her?"
+         }
+        },
+        {
+         "id": "pbio12-reluctant",
+         "topic": "A reluctant groom",
+         "note": "Abhay was in his third year with no income, which was not unusual. He had hoped to marry someone else but accepted his father’s choice out of respect, and stayed at home to finish college.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561609",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Family"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio12-puri",
+       "topic": "🛕 Alone to Jagannātha Purī (1920)",
+       "note": "A boyhood wish fulfilled after his B.A. exams.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561612",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Vraja"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-wish",
+         "topic": "A dream since childhood",
+         "note": "Every day as a boy he wondered how to reach Purī and Vṛndāvana, and studied train timetables from the age of five. After the 1920 exams he went alone by train, a day’s journey.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561613",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Desire"
+          },
+          "q": "Where did Abhay go on pilgrimage after his B.A. exams in 1920?"
+         }
+        },
+        {
+         "id": "pbio12-temple",
+         "topic": "Lord Caitanya’s Purī",
+         "note": "He saw Jagannātha, Balarāma and Subhadrā, and the six-armed form of Lord Caitanya, who lived his last eighteen years in Purī leading kīrtana.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561616",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Chanting"
+          }
+         }
+        },
+        {
+         "id": "pbio12-memory",
+         "topic": "Childhood Ratha-yātrā remembered",
+         "note": "Walking the Ratha-yātrā road, he remembered his own childhood cart festival and his parents. He had come as a pilgrim, out of devotion, not as a tourist.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561617",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Love"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio12-memory-see",
+           "topic": "See also: his own Ratha-yātrā",
+           "note": "The boyhood cart festival from Chapter 1.",
+           "manas": {
+            "goto": {
+             "map": "pbio-spl-1-1-deep",
+             "node": "pbio11-ratha"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio12-meat",
+         "topic": "Meat in the host’s pot",
+         "note": "A family friend in Purī served him lunch; Abhay found meat in a pot and refused it, shocked to find this in Jagannātha’s town. After that he ate only temple prasādam.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561619",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Faith"
+          },
+          "q": "What did Abhay find in his host’s cooking pot at Purī?"
+         }
+        },
+        {
+         "id": "pbio12-priests",
+         "topic": "Disappointed by some priests",
+         "note": "He saw temple priests smoking and heard of sādhus eating fish with prasādam. In this respect Purī let him down.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561622",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "pbio12-home",
+         "topic": "His wife in tears",
+         "note": "On his return his young wife was in tears: friends had told her he would not return. He reassured her.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561624",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Family"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio12-second",
+       "topic": "🙏 His father’s advice on a second wife",
+       "note": "A turning point for detachment.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561625",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Attachment"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-plan",
+         "topic": "Abhay plans to marry again",
+         "note": "Unhappy in the marriage, Abhay began arranging to take a second wife, which society then allowed.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561625",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "pbio12-advice",
+         "topic": "“Take it as a great fortune”",
+         "note": "Gour Mohan told him not to: it was Kṛṣṇa’s grace that he did not like his wife, because less attachment to family would help his spiritual future. Abhay obeyed and accepted his wife.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561625",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Attachment"
+          },
+          "q": "Why did Gour Mohan call it Kṛṣṇa’s grace that Abhay did not like his wife?"
+         },
+         "children": [
+          {
+           "id": "pbio12-advice-why",
+           "topic": "Why it matters later",
+           "note": "His father’s words about future spiritual advancement stayed with Abhay. The course later follows his gradual detachment, up to vānaprastha and sannyāsa.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561625",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.2",
+             "tag": "Surrender"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio12-degree",
+       "topic": "🎓 Refusing the diploma for Gandhi",
+       "note": "Why he passed the B.A. but would not accept it.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561627",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Leaders"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-doubt",
+         "topic": "Doubts in the final year",
+         "note": "Gandhi told students that British schools bred a slave mentality. Abhay, now twenty-three, weighed this against a career; his father left the choice to him but quietly arranged a job.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561610",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "pbio12-context",
+         "topic": "What had happened in 1919",
+         "note": "Britain passed the Rowlatt Act to curb the freedom movement. Gandhi called a nationwide hartāl; a week later British troops shot hundreds of unarmed people at Jallianwalla Bagh, Amritsar. Gandhi then called for full non-cooperation.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561628",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Context"
+          },
+          "q": "Which 1919 events made Gandhi call for full non-cooperation?"
+         }
+        },
+        {
+         "id": "pbio12-refused",
+         "topic": "Name on the list, diploma refused",
+         "note": "His name was on the list of those who passed and could collect their diploma. He refused it as a protest, answering Gandhi’s call.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561627",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Surrender"
+          },
+          "q": "Did Abhay pass his B.A., and what did he do with the diploma?"
+         }
+        },
+        {
+         "id": "pbio12-half",
+         "topic": "But his heart was not in politics",
+         "note": "As with college and marriage, he never gave himself fully to nationalism. At home without plans, he read Śrīmad-Bhāgavatam and Gandhi’s speeches and wrote a poem for a friend’s wedding.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561629",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Bhagavatam"
+          }
+         }
+        },
+        {
+         "id": "pbio12-own-words",
+         "topic": "In his own words",
+         "note": "The chapter opens with Prabhupāda’s own memory: he joined Gandhi’s movement in 1920, passed the final exam, and gave up the degree.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561572",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio12-lab",
+       "topic": "🧪 First job: Bose’s Laboratory",
+       "note": "His father finds him work with a trusted friend.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561632",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Wealth"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-kartick",
+         "topic": "Dr Kartick Chandra Bose",
+         "note": "He had looked after the De family’s health since Abhay was small: a surgeon and chemical industrialist, known as the first Indian to make medicines that European firms had monopolised.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561632",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Wealth"
+          },
+          "q": "Who gave Abhay his first job, and where?"
+         }
+        },
+        {
+         "id": "pbio12-manager",
+         "topic": "Made a department manager",
+         "note": "Abhay knew little of drugs or management but was sure he could learn from books. Older staff, some with forty years in the firm, complained.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561633",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Wealth"
+          }
+         }
+        },
+        {
+         "id": "pbio12-trust",
+         "topic": "Trusted like a son",
+         "note": "Dr Bose answered that the post needed someone he trusted like a son, since it meant signing large cheques; Abhay was practically that.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561633",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Wealth"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio12-trust-why",
+           "topic": "Why it matters",
+           "note": "This is the start of his pharmaceutical career, which carries him through his years as a householder and businessman (see the course’s next periods).",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561634",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.2",
+             "tag": "Purpose"
+            },
+            "goto": {
+             "map": "pbio-ix-sections",
+             "node": "pbio-ix-sections-s-s2"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio12-content",
+         "topic": "His father at peace",
+         "note": "Gour Mohan was satisfied that he had given what he could: a good job, a marriage Abhay accepted, and a son still uninterested in material life. The rest he left to Kṛṣṇa.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561634",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Family"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio12-khadi",
+       "topic": "🧵 Wearing khādī",
+       "note": "Gandhi’s cloth campaign and Abhay’s choice.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561636",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.2",
+         "tag": "Leaders"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio12-cloth",
+         "topic": "Why Gandhi targeted cloth",
+         "note": "Britain bought Indian cotton cheaply, wove it in Lancashire and sold it back dear. Gandhi urged Indians to spin and weave their own coarse khādī, reviving village industry.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561636",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Wealth"
+          },
+          "q": "Why did Gandhi ask Indians to wear khādī?"
+         }
+        },
+        {
+         "id": "pbio12-bonfire",
+         "topic": "Bonfires of foreign cloth",
+         "note": "Gandhi spun daily and wore simple cloth; at meetings people threw down imported cloth and he burned it.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561637",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "pbio12-abhay-khadi",
+         "topic": "Abhay puts on khādī",
+         "note": "Simple living appealed to him as good for the nation and best for spiritual culture. He gave up mill cloth; in the early 1920s that openly marked him as a Gandhian.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/2/#bb1561638",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.2",
+           "tag": "Purpose"
+          },
+          "q": "What did wearing khādī signal in the early 1920s?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio12-takeaway",
+       "topic": "🎯 Take-away: why this chapter matters",
+       "note": "What a newcomer should carry forward from Chapter 2.",
+       "manas": {},
+       "children": [
+        {
+         "id": "pbio12-ta-heart",
+         "topic": "Busy, but his heart stayed with Kṛṣṇa",
+         "note": "College, marriage and politics all pulled at him, yet friends saw his mind always on God, and the Deity called him back to worship.",
+         "manas": {}
+        },
+        {
+         "id": "pbio12-ta-father",
+         "topic": "His father’s quiet guidance",
+         "note": "Gour Mohan steered him gently: a protected college, a marriage, a job, and the advice that turned an unhappy marriage into a lesson in detachment.",
+         "manas": {}
+        },
+        {
+         "id": "pbio12-ta-truth",
+         "topic": "Absolute and relative truth",
+         "note": "He felt the pull of svarāj but saw it as a relative cause; serving Kṛṣṇa was the absolute one. The next chapter brings him to the person who would make that clear.",
+         "manas": {}
+        },
+        {
+         "id": "pbio12-ta-order",
+         "topic": "Read alongside the course",
+         "note": "This chapter expands the course events “Enters Scottish Churches’ College” and “Refuses his degree for Gandhi”.",
          "manas": {
           "goto": {
            "map": "pbio-ix-sections",
-           "node": "pbio-ix-sections-e-1916-scottish-churches"
+           "node": "pbio-ix-sections-e-1920-refuses-degree"
+          }
+         }
+        },
+        {
+         "id": "pbio12-ta-back",
+         "topic": "Back: Chapter 1, Childhood",
+         "note": "The in-depth map of his childhood.",
+         "manas": {
+          "goto": {
+           "map": "pbio-spl-1-1-deep",
+           "node": "pbio11-root"
+          }
+         }
+        },
+        {
+         "id": "pbio12-ta-next",
+         "topic": "Next: Chapter 3, “A very nice saintly person”",
+         "note": "The story continues with his first meeting with his spiritual master (course period 2).",
+         "manas": {
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-s-s2"
           }
          }
         }
