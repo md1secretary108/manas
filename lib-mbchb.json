@@ -7867,7 +7867,12 @@
         }
        ],
        "note": "Transport of fatty acids into mitochondria, β-oxidation and inherited defects of fat breakdown.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hbc200-fatty-acid-oxidation",
+        "part": "y2",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhbc200-1",
@@ -10507,7 +10512,12 @@
         }
        ],
        "note": "Interpreting TSH, free T4 and T3 and thyroid antibodies in primary, central, subclinical and non-thyroidal illness.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hhp303-thyroid-function-tests",
+        "part": "y3",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhhp303-1",
@@ -13307,7 +13317,12 @@
         }
        ],
        "note": "The eight human herpesviruses, their latency, diseases and links to African cancers.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hmm300-herpesviruses",
+        "part": "y3",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhmm300-1",
@@ -20607,7 +20622,12 @@
         }
        ],
        "note": "What anaesthesia is, its types and history, and the WHO checklist that makes surgery safer.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hsu305-introduction-to-anaesthesia",
+        "part": "y3",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhsu305-1",
@@ -44247,7 +44267,12 @@
         }
        ],
        "note": "How the paediatric history differs from adult history and how to examine a child safely and systematically.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hpd300-paediatric-history-examination",
+        "part": "y3",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhpd300-1",
@@ -46582,7 +46607,12 @@
         }
        ],
        "note": "The pelvic organs, their blood supply, nerve supply and supports, which underpin examination and surgery.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hog300-female-pelvic-anatomy",
+        "part": "y3",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhog300-1",
@@ -71133,6 +71163,3688 @@
     }
    },
    "part": "y4"
+  },
+  {
+   "id": "med-hbc200-fatty-acid-oxidation",
+   "title": "HBC 200 · In depth: Fatty acid oxidation",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794200339255,
+   "updated": 1794200339255,
+   "library": "mbchb",
+   "deepOf": "med-hbc200",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhbc200fao-fatty-acid-oxidation-in-depth",
+     "topic": "Fatty acid oxidation in depth",
+     "note": "From fat stores to acetyl-CoA and ketones: each step, its control, and the inherited defects. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhbc200fao-overview",
+       "topic": "Overview",
+       "note": "Where and when fat is burned.",
+       "children": [
+        {
+         "id": "mdhbc200fao-definition",
+         "topic": "Definition",
+         "note": "Stepwise breakdown of fatty acids to acetyl-CoA, mainly by β-oxidation in the mitochondrial matrix, releasing NADH and FADH2.",
+         "manas": {
+          "q": "What is fatty acid β-oxidation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-main-users",
+         "topic": "Main users",
+         "note": "Liver, heart and resting skeletal muscle rely heavily on fatty acids, especially in fasting.",
+         "manas": {
+          "q": "Which tissues rely heavily on fatty acid oxidation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-cells-that-cannot-use-it",
+         "topic": "Cells that cannot use it",
+         "note": "Red cells lack mitochondria; the brain takes up little fatty acid, so it relies on glucose, then ketones in long fasts.",
+         "manas": {
+          "q": "Why can red cells not oxidise fatty acids?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-mobilisation",
+       "topic": "Mobilisation",
+       "note": "Getting fatty acids out of adipose tissue.",
+       "children": [
+        {
+         "id": "mdhbc200fao-lipolysis",
+         "topic": "Lipolysis",
+         "note": "Adipose triacylglycerol is split by lipases (ATGL, hormone-sensitive lipase, monoacylglycerol lipase) into glycerol and fatty acids.",
+         "manas": {
+          "q": "Which lipases break down adipose triacylglycerol?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-hormonal-control",
+         "topic": "Hormonal control",
+         "note": "Glucagon and adrenaline raise cAMP and activate PKA, which switches lipolysis on; insulin switches it off.",
+         "manas": {
+          "q": "Which hormone inhibits lipolysis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-transport-in-blood",
+         "topic": "Transport in blood",
+         "note": "Free fatty acids travel bound to albumin to tissues.",
+         "manas": {
+          "q": "How are free fatty acids carried in blood?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-fate-of-glycerol",
+         "topic": "Fate of glycerol",
+         "note": "Glycerol goes to the liver, where glycerol kinase lets it enter gluconeogenesis; adipose tissue lacks this enzyme.",
+         "manas": {
+          "q": "Why can glycerol but not fatty acids form glucose?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-activation",
+       "topic": "Activation",
+       "note": "Priming the fatty acid.",
+       "children": [
+        {
+         "id": "mdhbc200fao-acyl-coa-synthetase",
+         "topic": "Acyl-CoA synthetase",
+         "note": "On the outer mitochondrial membrane, fatty acid + CoA + ATP form fatty acyl-CoA, AMP and pyrophosphate.",
+         "manas": {
+          "q": "What reaction does acyl-CoA synthetase catalyse?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-cost-of-activation",
+         "topic": "Cost of activation",
+         "note": "ATP goes to AMP, so 2 high-energy bonds are used; pyrophosphate breakdown makes the reaction irreversible.",
+         "manas": {
+          "q": "How many high-energy bonds does fatty acid activation use?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-carnitine-shuttle",
+       "topic": "Carnitine shuttle",
+       "note": "Crossing the inner membrane.",
+       "children": [
+        {
+         "id": "mdhbc200fao-why-a-shuttle",
+         "topic": "Why a shuttle",
+         "note": "The inner mitochondrial membrane is impermeable to long-chain acyl-CoA, so the acyl group is passed to carnitine.",
+         "manas": {
+          "q": "Why do long-chain fatty acids need carnitine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-three-steps",
+         "topic": "Three steps",
+         "note": "CPT-I makes acylcarnitine; a translocase swaps it in for free carnitine; CPT-II on the inner membrane remakes acyl-CoA.",
+         "manas": {
+          "q": "What are the three steps of the carnitine shuttle?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-short-and-medium-chains",
+         "topic": "Short and medium chains",
+         "note": "Short and medium-chain fatty acids enter mitochondria without carnitine.",
+         "manas": {
+          "q": "Which fatty acids enter mitochondria without carnitine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-carnitine-sources",
+         "topic": "Carnitine sources",
+         "note": "From the diet, especially meat, and made in the body from lysine and methionine.",
+         "manas": {
+          "q": "From which amino acids is carnitine made?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-oxidation-steps",
+       "topic": "β-oxidation steps",
+       "note": "Four reactions repeat each cycle.",
+       "children": [
+        {
+         "id": "mdhbc200fao-step-1-dehydrogenation",
+         "topic": "Step 1: dehydrogenation",
+         "note": "Acyl-CoA dehydrogenase forms a trans double bond between C2 and C3, reducing FAD to FADH2.",
+         "manas": {
+          "q": "Which coenzyme is reduced in the first step of β-oxidation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-step-2-hydration",
+         "topic": "Step 2: hydration",
+         "note": "Enoyl-CoA hydratase adds water across the double bond to give L-3-hydroxyacyl-CoA.",
+         "manas": {
+          "q": "What does enoyl-CoA hydratase produce?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-step-3-second-dehydrogenation",
+         "topic": "Step 3: second dehydrogenation",
+         "note": "3-hydroxyacyl-CoA dehydrogenase oxidises the hydroxyl group to a ketone, reducing NAD+ to NADH.",
+         "manas": {
+          "q": "Which step of β-oxidation produces NADH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-step-4-thiolysis",
+         "topic": "Step 4: thiolysis",
+         "note": "Thiolase uses CoA to cut off acetyl-CoA, leaving an acyl-CoA two carbons shorter for the next cycle.",
+         "manas": {
+          "q": "What does thiolase release in each cycle?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-chain-length-enzymes",
+         "topic": "Chain-length enzymes",
+         "note": "Separate acyl-CoA dehydrogenases act on very long, long, medium and short chains (VLCAD, LCAD, MCAD, SCAD).",
+         "manas": {
+          "q": "Why are there several acyl-CoA dehydrogenases?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-trifunctional-protein",
+         "topic": "Trifunctional protein",
+         "note": "For long chains, one inner-membrane complex carries out steps 2–4, including long-chain hydroxyacyl-CoA dehydrogenase (LCHAD).",
+         "manas": {
+          "q": "Which enzyme activity of the trifunctional protein is LCHAD?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-palmitate-balance-sheet",
+         "topic": "Palmitate balance sheet",
+         "note": "C16 palmitate needs 7 cycles, giving 8 acetyl-CoA, 7 FADH2 and 7 NADH.",
+         "manas": {
+          "q": "How many cycles of β-oxidation does palmitate need?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-unsaturated-fatty-acids",
+         "topic": "Unsaturated fatty acids",
+         "note": "Need extra enzymes: an enoyl-CoA isomerase and, for many polyunsaturated ones, 2,4-dienoyl-CoA reductase using NADPH.",
+         "manas": {
+          "q": "Which extra enzymes oxidise unsaturated fatty acids?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-regulation",
+       "topic": "Regulation",
+       "note": "Burn fat or make fat, not both.",
+       "children": [
+        {
+         "id": "mdhbc200fao-malonyl-coa-switch",
+         "topic": "Malonyl-CoA switch",
+         "note": "Acetyl-CoA carboxylase makes malonyl-CoA in the fed state; malonyl-CoA blocks CPT-I, so new fat is not burned at once.",
+         "manas": {
+          "q": "How does malonyl-CoA prevent a futile cycle?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-insulin-vs-glucagon",
+         "topic": "Insulin vs glucagon",
+         "note": "Insulin activates acetyl-CoA carboxylase (more malonyl-CoA, less oxidation); glucagon inhibits it (more oxidation).",
+         "manas": {
+          "q": "How does glucagon increase fatty acid oxidation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-ampk",
+         "topic": "AMPK",
+         "note": "When energy is low, AMP-activated kinase phosphorylates and inhibits acetyl-CoA carboxylase, lowering malonyl-CoA.",
+         "manas": {
+          "q": "How does AMPK increase fatty acid oxidation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-ppar",
+         "topic": "PPAR-α",
+         "note": "A nuclear receptor that switches on genes for fatty acid oxidation in fasting; fibrates act through it.",
+         "manas": {
+          "q": "Which nuclear receptor do fibrates activate?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-ketogenesis",
+       "topic": "Ketogenesis",
+       "note": "Liver turns excess acetyl-CoA into fuel.",
+       "children": [
+        {
+         "id": "mdhbc200fao-when-ketones-form",
+         "topic": "When ketones form",
+         "note": "In fasting or uncontrolled diabetes, hepatic oxaloacetate goes to gluconeogenesis, so acetyl-CoA builds up and forms ketones.",
+         "manas": {
+          "q": "Why does acetyl-CoA form ketones in fasting?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-pathway",
+         "topic": "Pathway",
+         "note": "Acetyl-CoA → acetoacetyl-CoA → HMG-CoA (mitochondrial HMG-CoA synthase, rate-limiting) → acetoacetate.",
+         "manas": {
+          "q": "What is the rate-limiting enzyme of ketogenesis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-three-ketone-bodies",
+         "topic": "Three ketone bodies",
+         "note": "Acetoacetate, β-hydroxybutyrate (made from it using NADH) and acetone (formed spontaneously, breathed out).",
+         "manas": {
+          "q": "Name the three ketone bodies."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-liver-cannot-use-ketones",
+         "topic": "Liver cannot use ketones",
+         "note": "The liver lacks succinyl-CoA:3-oxoacid CoA transferase (thiophorase), so it exports ketones to other tissues.",
+         "manas": {
+          "q": "Why can the liver not use ketone bodies?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-dipstick-limit",
+         "topic": "Dipstick limit",
+         "note": "Urine nitroprusside strips detect acetoacetate (and acetone) but not β-hydroxybutyrate, the main ketone in DKA.",
+         "manas": {
+          "q": "Which ketone body is not detected by nitroprusside strips?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-other-oxidation-routes",
+       "topic": "Other oxidation routes",
+       "note": "Peroxisomes, ER and odd chains.",
+       "children": [
+        {
+         "id": "mdhbc200fao-peroxisomal-first-step",
+         "topic": "Peroxisomal first step",
+         "note": "Peroxisomal acyl-CoA oxidase passes electrons straight to oxygen, making H2O2 instead of FADH2; shortened chains go to mitochondria.",
+         "manas": {
+          "q": "How does the first step of peroxisomal β-oxidation differ?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-oxidation",
+         "topic": "α-oxidation",
+         "note": "Branched phytanic acid is shortened by one carbon in peroxisomes; its failure causes Refsum disease.",
+         "manas": {
+          "q": "Which disease results from defective α-oxidation of phytanic acid?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-oxidation-2",
+         "topic": "ω-oxidation",
+         "note": "In the endoplasmic reticulum, cytochrome P450 oxidises the far end, making dicarboxylic acids; it rises when β-oxidation fails.",
+         "manas": {
+          "q": "Where does ω-oxidation occur and what does it produce?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-methylmalonic-acid-and-b12",
+         "topic": "Methylmalonic acid and B12",
+         "note": "Lack of B12 blocks methylmalonyl-CoA mutase, so methylmalonic acid rises: a useful test of B12 deficiency.",
+         "manas": {
+          "q": "Why does methylmalonic acid rise in B12 deficiency?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-inborn-errors",
+       "topic": "Inborn errors",
+       "note": "Beyond MCAD basics.",
+       "children": [
+        {
+         "id": "mdhbc200fao-common-pattern",
+         "topic": "Common pattern",
+         "note": "Illness or fasting brings hypoketotic hypoglycaemia, lethargy, liver enlargement and sometimes high ammonia.",
+         "manas": {
+          "q": "What is the typical metabolic picture of a fatty acid oxidation defect?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-long-chain-defects",
+         "topic": "Long-chain defects",
+         "note": "VLCAD, LCHAD and trifunctional protein defects can also cause cardiomyopathy and rhabdomyolysis.",
+         "manas": {
+          "q": "Which extra features do long-chain oxidation defects cause?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-lchad-and-pregnancy",
+         "topic": "LCHAD and pregnancy",
+         "note": "A mother carrying an LCHAD-deficient fetus is at risk of acute fatty liver of pregnancy and HELLP syndrome.",
+         "manas": {
+          "q": "Which pregnancy complications are linked to fetal LCHAD deficiency?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-cpt-ii-deficiency",
+         "topic": "CPT-II deficiency",
+         "note": "The adult muscle form causes attacks of muscle pain and rhabdomyolysis with myoglobinuria after exercise or fasting.",
+         "manas": {
+          "q": "How does the adult form of CPT-II deficiency present?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-cpt-i-deficiency",
+         "topic": "CPT-I deficiency",
+         "note": "Liver form: hypoketotic hypoglycaemia in infancy, with normal or high free carnitine.",
+         "manas": {
+          "q": "What happens to free carnitine in CPT-I deficiency?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-primary-carnitine-deficiency",
+         "topic": "Primary carnitine deficiency",
+         "note": "Faulty OCTN2 carnitine transporter (SLC22A5) causes very low carnitine and cardiomyopathy; carnitine supplements treat it.",
+         "manas": {
+          "q": "Which transporter is defective in primary carnitine deficiency?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-secondary-carnitine-deficiency",
+         "topic": "Secondary carnitine deficiency",
+         "note": "Low carnitine from other causes, e.g. valproate, dialysis or organic acidaemias.",
+         "manas": {
+          "q": "Name causes of secondary carnitine deficiency."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-jamaican-vomiting-sickness",
+         "topic": "Jamaican vomiting sickness",
+         "note": "Hypoglycin A in unripe ackee fruit inhibits acyl-CoA dehydrogenases, causing severe hypoglycaemia.",
+         "manas": {
+          "q": "What causes Jamaican vomiting sickness?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-investigations",
+       "topic": "Investigations",
+       "note": "Catch the sample during the attack.",
+       "children": [
+        {
+         "id": "mdhbc200fao-acylcarnitine-profile",
+         "topic": "Acylcarnitine profile",
+         "note": "Tandem mass spectrometry of blood shows which acylcarnitine builds up, e.g. octanoylcarnitine (C8) in MCAD deficiency.",
+         "manas": {
+          "q": "Which acylcarnitine is raised in MCAD deficiency?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-urine-organic-acids",
+         "topic": "Urine organic acids",
+         "note": "Dicarboxylic aciduria with little ketone suggests a β-oxidation defect.",
+         "manas": {
+          "q": "What urine organic acid pattern suggests a β-oxidation defect?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-critical-sample",
+         "topic": "Critical sample",
+         "note": "During hypoglycaemia, before treatment if possible: glucose, ketones, free fatty acids, insulin, cortisol, growth hormone, lactate, ammonia and acylcarnitines (plus urine organic acids).",
+         "manas": {
+          "q": "Which tests make up the critical sample in hypoglycaemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-confirmation",
+         "topic": "Confirmation",
+         "note": "Enzyme or gene testing confirms the defect; carnitine levels help separate primary from secondary deficiency.",
+         "manas": {
+          "q": "How is a fatty acid oxidation defect confirmed?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-management-principles",
+       "topic": "Management principles",
+       "note": "Prevent fasting, treat early.",
+       "children": [
+        {
+         "id": "mdhbc200fao-avoid-fasting",
+         "topic": "Avoid fasting",
+         "note": "Frequent feeds and a written emergency plan with glucose drinks or IV dextrose during illness.",
+         "manas": {
+          "q": "What is the key preventive measure in fatty acid oxidation defects?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-medium-chain-fat",
+         "topic": "Medium-chain fat",
+         "note": "In long-chain defects, a low long-chain fat diet with medium-chain triglycerides bypasses the block; avoid MCT in MCAD.",
+         "manas": {
+          "q": "Why are medium-chain triglycerides avoided in MCAD deficiency?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-carnitine-therapy",
+         "topic": "Carnitine therapy",
+         "note": "Carnitine supplements are the main treatment for primary carnitine deficiency.",
+         "manas": {
+          "q": "What treats primary carnitine deficiency?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick points examiners like.",
+       "children": [
+        {
+         "id": "mdhbc200fao-hypoketotic-hypoglycaemia",
+         "topic": "Hypoketotic hypoglycaemia",
+         "note": "Low glucose with low ketones means fat cannot be burned or ketones made: think fatty acid oxidation defect or hyperinsulinism.",
+         "manas": {
+          "q": "What two causes should hypoketotic hypoglycaemia suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-fat-cannot-make-glucose",
+         "topic": "Fat cannot make glucose",
+         "note": "Even-chain fatty acids give acetyl-CoA, and pyruvate dehydrogenase is irreversible, so no net glucose forms.",
+         "manas": {
+          "q": "Why can even-chain fatty acids not make net glucose?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-palmitate-atp-sum",
+         "topic": "Palmitate ATP sum",
+         "note": "8 acetyl-CoA × 10 + 7 NADH × 2.5 + 7 FADH2 × 1.5 = 108; minus 2 for activation = 106.",
+         "manas": {
+          "q": "How is the 106 ATP from palmitate calculated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-acetyl-coa-links-pathways",
+         "topic": "Acetyl-CoA links pathways",
+         "note": "Acetyl-CoA from β-oxidation activates pyruvate carboxylase, supporting gluconeogenesis in fasting.",
+         "manas": {
+          "q": "Which enzyme does acetyl-CoA activate to support gluconeogenesis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-09.",
+       "manas": {
+        "checked": "2026-11-09"
+       },
+       "children": [
+        {
+         "id": "mdhbc200fao-fasting-ketogenesis-control",
+         "topic": "Fasting ketogenesis control",
+         "note": "A review describes fasting liver fat oxidation and ketogenesis driven by hormones and rising fatty acids, acting through PPAR-α; women tend to have higher ketones.",
+         "manas": {
+          "q": "Which transcription factor mediates fasting hepatic fatty acid oxidation, per a 2024 review?",
+          "ref": "Trends Endocrinol Metab 2024"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.tem.2023.10.002",
+         "children": []
+        },
+        {
+         "id": "mdhbc200fao-primary-carnitine-deficiency-2",
+         "topic": "Primary carnitine deficiency",
+         "note": "In 757 reported patients, cardiac problems (mainly cardiomyopathy, 23.8%) were the commonest feature; most screen-detected people stayed well, but rare sudden severe events occurred.",
+         "manas": {
+          "q": "What was the most common feature of primary carnitine deficiency in a 2022 review?",
+          "ref": "J Inherit Metab Dis 2022"
+         },
+         "hyperLink": "https://doi.org/10.1002/jimd.12475",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc200fao-lipid-metabolism-openstax",
+       "topic": "📖 Lipid Metabolism (OpenStax)",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism",
+       "children": []
+      },
+      {
+       "id": "mdhbc200fao-metabolic-states-of-the-body-o",
+       "topic": "📖 Metabolic States of the Body (OpenStax)",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-5-metabolic-states-of-the-body",
+       "children": []
+      },
+      {
+       "id": "mdhbc200fao-genetic-disorders-openstax",
+       "topic": "📖 Genetic Disorders (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/30-1-genetic-disorders",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y2"
+  },
+  {
+   "id": "med-hhp303-thyroid-function-tests",
+   "title": "HHP 303 · In depth: Thyroid function tests",
+   "look": "forest",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794200339285,
+   "updated": 1794200339285,
+   "library": "mbchb",
+   "deepOf": "med-hhp303",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhhp303tft-root",
+     "topic": "Thyroid function tests in depth",
+     "note": "The thyroid axis, what each test measures, assay pitfalls, result patterns and monitoring. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhhp303tft-definition-and-scope",
+       "topic": "Definition and scope",
+       "note": "What thyroid function tests are and why TSH leads.",
+       "children": [
+        {
+         "id": "mdhhp303tft-what-tfts-are",
+         "topic": "What TFTs are",
+         "note": "Blood tests of the hypothalamic–pituitary–thyroid axis: mainly TSH and free T4, with free T3, antibodies and thyroglobulin in selected cases.",
+         "manas": {
+          "q": "Which tests make up a thyroid function panel?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-why-tsh-is-so-sensitive",
+         "topic": "Why TSH is so sensitive",
+         "note": "TSH has a log-linear inverse relationship with free T4, so a small change in free T4 gives a large change in TSH — provided the pituitary works normally.",
+         "manas": {
+          "q": "Why is TSH a more sensitive marker of primary thyroid status than free T4?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-physiology-of-the-axis",
+       "topic": "Physiology of the axis",
+       "note": "How the hormones are made, carried and controlled.",
+       "children": [
+        {
+         "id": "mdhhp303tft-trh-tsh-and-feedback",
+         "topic": "TRH, TSH and feedback",
+         "note": "Hypothalamic TRH stimulates pituitary TSH, which drives thyroid growth, iodine uptake and hormone release; T4 and T3 feed back to suppress TRH and TSH.",
+         "manas": {
+          "q": "Describe the feedback loop of the hypothalamic–pituitary–thyroid axis."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-hormone-synthesis",
+         "topic": "Hormone synthesis",
+         "note": "Iodide is trapped by the sodium–iodide symporter, then thyroid peroxidase oxidises it and attaches it to tyrosines on thyroglobulin, which are coupled into T4 and T3.",
+         "manas": {
+          "q": "Outline the steps of thyroid hormone synthesis."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-t4-versus-t3",
+         "topic": "T4 versus T3",
+         "note": "The gland secretes mostly T4; most circulating T3 is made in tissues by removing an iodine from T4. T3 is the more active hormone at the receptor.",
+         "manas": {
+          "q": "Where does most circulating T3 come from?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-deiodinases-and-reverse-t3",
+         "topic": "Deiodinases and reverse T3",
+         "note": "Deiodinase enzymes either activate T4 to T3 or inactivate it to reverse T3; the balance shifts in illness, fasting and with some drugs.",
+         "manas": {
+          "q": "What do deiodinase enzymes do to T4?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-binding-proteins",
+         "topic": "Binding proteins",
+         "note": "Over 99% of T4 and T3 is bound, mainly to thyroxine-binding globulin, also transthyretin and albumin; only the free fraction acts on tissues.",
+         "manas": {
+          "q": "Which proteins carry thyroid hormones, and which fraction is active?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-slow-equilibration",
+         "topic": "Slow equilibration",
+         "note": "T4 has a long half-life (about a week) and TSH takes weeks to settle, so TFTs are rechecked weeks, not days, after a change in treatment.",
+         "manas": {
+          "q": "Why are TFTs not rechecked within days of a levothyroxine dose change?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-the-tests",
+       "topic": "The tests",
+       "note": "What each test adds.",
+       "children": [
+        {
+         "id": "mdhhp303tft-tsh-assay",
+         "topic": "TSH assay",
+         "note": "Measured by a sandwich (immunometric) immunoassay with two antibodies; modern assays detect very low levels, separating suppressed from low-normal TSH.",
+         "manas": {
+          "q": "What type of assay is used to measure TSH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-free-t4",
+         "topic": "Free T4",
+         "note": "Confirms and grades thyroid dysfunction and is the key test when the pituitary is diseased or TSH is unreliable.",
+         "manas": {
+          "q": "When is free T4 the key thyroid test rather than TSH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-free-t3",
+         "topic": "Free T3",
+         "note": "Added in suspected hyperthyroidism; detects T3 toxicosis, where free T3 is raised with a normal free T4. Little value in diagnosing hypothyroidism.",
+         "manas": {
+          "q": "What is T3 toxicosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-total-versus-free-hormone",
+         "topic": "Total versus free hormone",
+         "note": "Total T4 rises with more binding protein (pregnancy, oestrogen) while free T4 stays normal, so free hormone assays are preferred.",
+         "manas": {
+          "q": "Why does total T4 rise in pregnancy while the patient stays euthyroid?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-anti-tpo-antibodies",
+         "topic": "Anti-TPO antibodies",
+         "note": "Mark autoimmune thyroiditis and predict a higher chance that subclinical hypothyroidism will progress to overt disease.",
+         "manas": {
+          "q": "What does a positive anti-TPO antibody add in subclinical hypothyroidism?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-tsh-receptor-antibodies-in-p",
+         "topic": "TSH-receptor antibodies in pregnancy",
+         "note": "They cross the placenta and can cause fetal or neonatal thyrotoxicosis, so they are checked in pregnant women with current or past Graves disease.",
+         "manas": {
+          "q": "Why measure TSH-receptor antibodies in a pregnant woman with past Graves disease?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-thyroglobulin",
+         "topic": "Thyroglobulin",
+         "note": "A tumour marker after total thyroidectomy for differentiated thyroid cancer, not a test to diagnose cancer; anti-thyroglobulin antibodies interfere.",
+         "manas": {
+          "q": "What is serum thyroglobulin used for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-calcitonin",
+         "topic": "Calcitonin",
+         "note": "Made by parafollicular C cells; a marker for medullary thyroid carcinoma.",
+         "manas": {
+          "q": "Calcitonin is a tumour marker for which thyroid cancer?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-result-patterns",
+       "topic": "Result patterns",
+       "note": "Read TSH and free T4 together.",
+       "children": [
+        {
+         "id": "mdhhp303tft-low-tsh-high-free-t4",
+         "topic": "Low TSH, high free T4",
+         "note": "Primary thyrotoxicosis: Graves disease, toxic multinodular goitre, toxic adenoma, thyroiditis or excess thyroxine intake.",
+         "manas": {
+          "q": "List causes of a low TSH with a high free T4."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-low-tsh-normal-free-t4",
+         "topic": "Low TSH, normal free T4",
+         "note": "Subclinical hyperthyroidism, or a non-thyroid cause: acute non-thyroidal illness, glucocorticoids, dopamine or early pregnancy. Check free T3.",
+         "manas": {
+          "q": "Give causes of a low TSH with a normal free T4."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-raised-or-normal-tsh-high-fr",
+         "topic": "Raised or normal TSH, high free T4",
+         "note": "Rare: TSH-secreting pituitary adenoma or thyroid hormone resistance. First exclude assay interference, heparin and erratic thyroxine use.",
+         "manas": {
+          "q": "What should you exclude before diagnosing a TSH-secreting adenoma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-erratic-thyroxine-use",
+         "topic": "Erratic thyroxine use",
+         "note": "Tablets taken just before a clinic test can give a normal or high free T4 with a still-raised TSH, reflecting poor adherence over previous weeks.",
+         "manas": {
+          "q": "How does poor levothyroxine adherence show on TFTs?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-assay-pitfalls",
+       "topic": "Assay pitfalls",
+       "note": "When the result does not fit the patient.",
+       "children": [
+        {
+         "id": "mdhhp303tft-biotin",
+         "topic": "Biotin",
+         "note": "High-dose biotin supplements disturb streptavidin–biotin immunoassays: falsely low TSH and high free T4/T3 can mimic Graves. Stop biotin before retesting.",
+         "manas": {
+          "q": "How can biotin supplements mimic Graves disease on TFTs?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-heterophile-antibodies",
+         "topic": "Heterophile antibodies",
+         "note": "Patient antibodies can bridge the two assay antibodies and falsely raise TSH; suspect when results do not fit, and retest on another platform.",
+         "manas": {
+          "q": "How do heterophile antibodies affect a TSH sandwich assay?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-heparin",
+         "topic": "Heparin",
+         "note": "Heparin releases lipase, which frees fatty acids that displace T4 from binding proteins in the sample, falsely raising free T4.",
+         "manas": {
+          "q": "Why can heparin falsely raise measured free T4?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-macro-tsh",
+         "topic": "Macro-TSH",
+         "note": "TSH bound to immunoglobulin forms a large, inactive complex that is measured but cleared slowly, giving a falsely high TSH; PEG precipitation reveals it.",
+         "manas": {
+          "q": "What is macro-TSH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-drugs-that-move-tsh",
+         "topic": "Drugs that move TSH",
+         "note": "Glucocorticoids and dopamine suppress TSH; lithium can cause hypothyroidism and goitre.",
+         "manas": {
+          "q": "Name drugs that suppress TSH and one that causes hypothyroidism."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-special-situations",
+       "topic": "Special situations",
+       "note": "Where normal ranges change.",
+       "children": [
+        {
+         "id": "mdhhp303tft-pregnancy",
+         "topic": "Pregnancy",
+         "note": "hCG weakly stimulates the TSH receptor, so TSH falls in the first trimester; use trimester-specific reference ranges.",
+         "manas": {
+          "q": "Why does TSH fall in the first trimester?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-pregnancy-on-levothyroxine",
+         "topic": "Pregnancy on levothyroxine",
+         "note": "Requirements usually rise in pregnancy, so women on levothyroxine need early TFTs and often a dose increase once pregnant.",
+         "manas": {
+          "q": "What happens to levothyroxine requirements in pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-older-people",
+         "topic": "Older people",
+         "note": "TSH tends to rise with age, but uniform adult ranges are used, so more older people are labelled subclinically hypothyroid.",
+         "manas": {
+          "q": "Why is subclinical hypothyroidism diagnosed more often in older people?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-newborn-tsh-surge",
+         "topic": "Newborn TSH surge",
+         "note": "TSH surges briefly after birth, so screening samples taken too early can give false-positive results.",
+         "manas": {
+          "q": "Why does the timing of newborn TSH screening matter?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-thyroiditis-course",
+         "topic": "Thyroiditis course",
+         "note": "Subacute, painless and postpartum thyroiditis: a thyrotoxic phase with low isotope uptake, then often a hypothyroid phase, then usually recovery.",
+         "manas": {
+          "q": "Describe the phases of thyroiditis on TFTs."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-monitoring-treatment",
+       "topic": "Monitoring treatment",
+       "note": "Which test to follow.",
+       "children": [
+        {
+         "id": "mdhhp303tft-primary-hypothyroidism",
+         "topic": "Primary hypothyroidism",
+         "note": "Levothyroxine is titrated to TSH, rechecked about 6–8 weeks after each dose change.",
+         "manas": {
+          "q": "How is levothyroxine monitored in primary hypothyroidism?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-central-hypothyroidism",
+         "topic": "Central hypothyroidism",
+         "note": "TSH cannot guide treatment; titrate levothyroxine to free T4.",
+         "manas": {
+          "q": "Which test guides levothyroxine in central hypothyroidism?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-treated-hyperthyroidism",
+         "topic": "Treated hyperthyroidism",
+         "note": "TSH may stay suppressed for months after the patient improves, so free T4 and T3 guide antithyroid drugs early on.",
+         "manas": {
+          "q": "Why are free T4/T3, not TSH, used early in treating hyperthyroidism?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-over-replacement",
+         "topic": "Over-replacement",
+         "note": "A suppressed TSH on levothyroxine raises the risk of atrial fibrillation and bone loss, especially in older people.",
+         "manas": {
+          "q": "What are the risks of a suppressed TSH from too much levothyroxine?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick points examiners like.",
+       "children": [
+        {
+         "id": "mdhhp303tft-uptake-scan-splits-thyrotoxi",
+         "topic": "Uptake scan splits thyrotoxicosis",
+         "note": "High uptake: Graves, toxic nodules. Low uptake: thyroiditis, exogenous thyroxine, iodine load.",
+         "manas": {
+          "q": "Which causes of thyrotoxicosis show low isotope uptake?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-thyroglobulin-in-factitious",
+         "topic": "Thyroglobulin in factitious thyrotoxicosis",
+         "note": "Exogenous thyroxine suppresses the gland, so thyroglobulin is low; in thyroiditis it is high.",
+         "manas": {
+          "q": "How does thyroglobulin separate factitious thyrotoxicosis from thyroiditis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-storm-and-coma-are-clinical",
+         "topic": "Storm and coma are clinical",
+         "note": "Thyroid storm and myxoedema coma are diagnosed clinically; send TFTs but start treatment without waiting.",
+         "manas": {
+          "q": "Should you wait for TFTs before treating thyroid storm?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-discordant-results",
+         "topic": "Discordant results",
+         "note": "Check the clinical picture, drugs (biotin, heparin), adherence and timing, then repeat on another assay before acting.",
+         "manas": {
+          "q": "What is the approach to discordant thyroid results?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhhp303tft-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Follow MoH Kenya clinical guidance and use your laboratory's own reference ranges, which differ between assays.",
+         "manas": {
+          "q": "Why should TFTs be read against the local lab's reference range?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-who-iodine",
+         "topic": "WHO iodine",
+         "note": "WHO supports universal salt iodisation and judges population iodine status by urinary iodine, not by individual TFTs.",
+         "manas": {
+          "q": "How does WHO assess iodine status in a population?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-eta-2013",
+         "topic": "ETA 2013",
+         "note": "The European Thyroid Association guideline on subclinical hypothyroidism bases treatment on age, TSH level, symptoms and comorbidities.",
+         "manas": {
+          "q": "On what does the ETA base treatment of subclinical hypothyroidism?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-ata-2017-pregnancy",
+         "topic": "ATA 2017 pregnancy",
+         "note": "The American Thyroid Association pregnancy guideline advises trimester-specific, population-based TSH reference ranges.",
+         "manas": {
+          "q": "What reference ranges does the ATA advise for TSH in pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-nice-2019",
+         "topic": "NICE 2019",
+         "note": "NICE guideline NG145 covers assessment and management of thyroid disease in adults and children in the UK.",
+         "manas": {
+          "q": "Which NICE guideline covers thyroid disease?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-09.",
+       "manas": {
+        "checked": "2026-11-09"
+       },
+       "children": [
+        {
+         "id": "mdhhp303tft-subclinical-hypothyroidism-r",
+         "topic": "Subclinical hypothyroidism review",
+         "note": "A narrative review found subclinical hypothyroidism linked with outcomes between euthyroid and overt disease, but little evidence that treatment helps; individual decisions remain.",
+         "manas": {
+          "q": "What did a 2023 review conclude about treating subclinical hypothyroidism?",
+          "ref": "Curr Med Res Opin 2023"
+         },
+         "hyperLink": "https://doi.org/10.1080/03007995.2023.2165811",
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-levothyroxine-for-fertility",
+         "topic": "Levothyroxine for fertility and pregnancy",
+         "note": "In RCTs of women with subclinical hypothyroidism, levothyroxine before or in early pregnancy did not improve live birth or miscarriage; a possible preterm benefit when TSH >4.0 needs study.",
+         "manas": {
+          "q": "Did levothyroxine improve live birth in subclinical hypothyroidism in pregnancy RCTs?",
+          "ref": "Thyroid 2024"
+         },
+         "hyperLink": "https://doi.org/10.1089/thy.2023.0546",
+         "children": []
+        },
+        {
+         "id": "mdhhp303tft-levothyroxine-in-over-65s",
+         "topic": "Levothyroxine in over-65s",
+         "note": "In seven studies of over-65s with subclinical hypothyroidism, levothyroxine was not significantly associated with fewer cardiovascular events; bone outcomes could not be pooled.",
+         "manas": {
+          "q": "Was levothyroxine linked with fewer cardiovascular events in over-65s with subclinical hypothyroidism?",
+          "ref": "Syst Rev 2024"
+         },
+         "hyperLink": "https://doi.org/10.1186/s13643-024-02548-7",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp303tft-pituitary-and-hypothalamus-o",
+       "topic": "📖 Pituitary and hypothalamus (OpenStax)",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus",
+       "children": []
+      },
+      {
+       "id": "mdhhp303tft-the-thyroid-gland-openstax",
+       "topic": "📖 The thyroid gland (OpenStax)",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+       "children": []
+      },
+      {
+       "id": "mdhhp303tft-thyroid-disorders-openstax",
+       "topic": "📖 Thyroid disorders (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y3"
+  },
+  {
+   "id": "med-hmm300-herpesviruses",
+   "title": "HMM 300 · In depth: Herpesviruses",
+   "look": "forest",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794200339305,
+   "updated": 1794200339305,
+   "library": "mbchb",
+   "deepOf": "med-hmm300",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhmm300hhv-root",
+     "topic": "Herpesviruses in depth",
+     "note": "Classification, latency, each virus's diseases, lab diagnosis, antivirals and prevention. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhmm300hhv-definition-and-classificatio",
+       "topic": "Definition and classification",
+       "note": "What a herpesvirus is and the three subfamilies.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-structure",
+         "topic": "Structure",
+         "note": "Large enveloped viruses with a linear double-stranded DNA genome, an icosahedral capsid and a protein tegument between capsid and envelope.",
+         "manas": {
+          "q": "Describe the structure of a herpesvirus."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-alpha-subfamily",
+         "topic": "Alpha subfamily",
+         "note": "HSV-1, HSV-2 and VZV: replicate fast, destroy the cells they infect and hide latent in sensory neurons.",
+         "manas": {
+          "q": "Which herpesviruses are alpha-herpesviruses and where do they go latent?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-beta-subfamily",
+         "topic": "Beta subfamily",
+         "note": "CMV, HHV-6 and HHV-7: replicate slowly, enlarge infected cells (cytomegaly) and stay latent in white blood cells.",
+         "manas": {
+          "q": "Which herpesviruses are beta-herpesviruses?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-gamma-subfamily",
+         "topic": "Gamma subfamily",
+         "note": "EBV and HHV-8: latent mainly in lymphocytes and able to drive cancers.",
+         "manas": {
+          "q": "Which herpesviruses are gamma-herpesviruses, and what is special about them?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-replication-and-latency",
+       "topic": "Replication and latency",
+       "note": "Why infection is lifelong.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-nuclear-replication",
+         "topic": "Nuclear replication",
+         "note": "The genome is copied in the nucleus by a viral DNA polymerase — the target of most antivirals. Intranuclear inclusions (Cowdry type A) result.",
+         "manas": {
+          "q": "Which viral enzyme do most anti-herpes drugs target?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-latency",
+         "topic": "Latency",
+         "note": "The genome persists as a circular episome with very limited gene expression, hidden from the immune system; drugs cannot clear it.",
+         "manas": {
+          "q": "Why can antivirals not cure herpesvirus infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-reactivation-triggers",
+         "topic": "Reactivation triggers",
+         "note": "Stress, fever, UV light, menstruation and weakened immunity can reactivate latent HSV.",
+         "manas": {
+          "q": "Name triggers that reactivate latent HSV."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-transmission-routes",
+         "topic": "Transmission routes",
+         "note": "Mostly close contact with saliva, secretions or lesions; VZV is also airborne; CMV also spreads by blood, transplants, breast milk and across the placenta.",
+         "manas": {
+          "q": "How is CMV transmitted?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-herpes-simplex",
+       "topic": "Herpes simplex",
+       "note": "HSV-1 and HSV-2 in practice.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-hsv-1-diseases",
+         "topic": "HSV-1 diseases",
+         "note": "Gingivostomatitis in young children, recurrent cold sores, keratitis with a dendritic corneal ulcer and encephalitis.",
+         "manas": {
+          "q": "What eye lesion is typical of HSV keratitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-genital-herpes",
+         "topic": "Genital herpes",
+         "note": "Painful recurrent genital ulcers, classically HSV-2, though HSV-1 now causes a growing share of first episodes.",
+         "manas": {
+          "q": "Which HSV types cause genital herpes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-neonatal-herpes",
+         "topic": "Neonatal herpes",
+         "note": "Usually caught from maternal genital infection at birth; risk is highest with a first maternal infection near term, when caesarean birth is considered.",
+         "manas": {
+          "q": "When is the risk of neonatal herpes highest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-skin-variants",
+         "topic": "Skin variants",
+         "note": "Herpetic whitlow on fingers; eczema herpeticum, a widespread infection over atopic eczema needing urgent antiviral treatment.",
+         "manas": {
+          "q": "What is eczema herpeticum?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-hsv-and-hiv",
+         "topic": "HSV and HIV",
+         "note": "Genital herpes ulcers raise the risk of acquiring and transmitting HIV.",
+         "manas": {
+          "q": "How does genital herpes affect HIV transmission?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-varicella-zoster",
+       "topic": "Varicella-zoster",
+       "note": "Chickenpox and shingles.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-varicella",
+         "topic": "Varicella",
+         "note": "Highly contagious, airborne; itchy crops of macules, papules, vesicles and crusts present together, mostly on the trunk.",
+         "manas": {
+          "q": "What is the typical rash pattern of chickenpox?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-varicella-complications",
+         "topic": "Varicella complications",
+         "note": "Secondary bacterial skin infection, pneumonia (worse in adults and pregnancy), cerebellar ataxia in children and encephalitis.",
+         "manas": {
+          "q": "List complications of varicella."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-herpes-zoster",
+         "topic": "Herpes zoster",
+         "note": "Reactivation in a ganglion gives pain then a vesicular rash in one dermatome that does not cross the midline.",
+         "manas": {
+          "q": "Describe the rash of herpes zoster."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-zoster-ophthalmicus",
+         "topic": "Zoster ophthalmicus",
+         "note": "Zoster of the ophthalmic division of the trigeminal nerve; vesicles on the nose tip (Hutchinson sign) warn of eye involvement.",
+         "manas": {
+          "q": "What is Hutchinson sign in herpes zoster?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-ramsay-hunt-syndrome",
+         "topic": "Ramsay Hunt syndrome",
+         "note": "Zoster of the geniculate ganglion: facial palsy with vesicles in the ear canal or on the auricle.",
+         "manas": {
+          "q": "What is Ramsay Hunt syndrome?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-zoster-and-hiv",
+         "topic": "Zoster and HIV",
+         "note": "Herpes zoster is a WHO clinical stage 2 condition; a young adult with shingles should be offered an HIV test.",
+         "manas": {
+          "q": "What should you offer a young adult with herpes zoster in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-varicella-in-pregnancy",
+         "topic": "Varicella in pregnancy",
+         "note": "Early pregnancy infection can cause congenital varicella syndrome (skin scars, limb hypoplasia, eye and brain defects); rash near delivery risks severe neonatal varicella.",
+         "manas": {
+          "q": "What is congenital varicella syndrome?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-epstein-barr-virus",
+       "topic": "Epstein–Barr virus",
+       "note": "Beyond glandular fever.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-entry-into-b-cells",
+         "topic": "Entry into B cells",
+         "note": "EBV infects B cells through CD21 (complement receptor 2); the atypical lymphocytes in the blood are reactive cytotoxic T cells.",
+         "manas": {
+          "q": "Which receptor does EBV use to enter B cells?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-mononucleosis-features",
+         "topic": "Mononucleosis features",
+         "note": "Fever, sore throat, posterior neck nodes and splenomegaly; amoxicillin often causes a rash. Avoid contact sports because of splenic rupture risk.",
+         "manas": {
+          "q": "Why should patients with infectious mononucleosis avoid contact sports?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-burkitt-lymphoma",
+         "topic": "Burkitt lymphoma",
+         "note": "Endemic form presents as a jaw or abdominal tumour in children in malaria areas, including Kenya's lake region; MYC translocation, classically t(8;14).",
+         "manas": {
+          "q": "Which translocation is classic for Burkitt lymphoma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-other-ebv-diseases",
+         "topic": "Other EBV diseases",
+         "note": "Some Hodgkin lymphomas, oral hairy leukoplakia in HIV, and post-transplant lymphoproliferative disorder.",
+         "manas": {
+          "q": "Name EBV-associated diseases besides Burkitt lymphoma."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-cytomegalovirus",
+       "topic": "Cytomegalovirus",
+       "note": "Silent in most, serious in some.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-cmv-in-healthy-people",
+         "topic": "CMV in healthy people",
+         "note": "Usually silent or a mononucleosis-like illness with a negative heterophile test.",
+         "manas": {
+          "q": "How does CMV mononucleosis differ from EBV on the heterophile test?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-owl-s-eye-inclusions",
+         "topic": "Owl's eye inclusions",
+         "note": "Enlarged cells with large intranuclear inclusions are the histological hallmark of CMV.",
+         "manas": {
+          "q": "What is the histological hallmark of CMV infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-cmv-after-transplant",
+         "topic": "CMV after transplant",
+         "note": "A major opportunistic infection after organ and stem cell transplants, causing pneumonitis, colitis and hepatitis.",
+         "manas": {
+          "q": "What CMV diseases occur after transplantation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-cmv-in-advanced-hiv",
+         "topic": "CMV in advanced HIV",
+         "note": "Besides retinitis, CMV causes colitis and oesophagitis in advanced HIV.",
+         "manas": {
+          "q": "Apart from retinitis, which CMV diseases occur in advanced HIV?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-hhv-6-hhv-7-hhv-8",
+       "topic": "HHV-6, HHV-7, HHV-8",
+       "note": "The less famous three.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-roseola-infantum",
+         "topic": "Roseola infantum",
+         "note": "HHV-6 (sometimes HHV-7): days of high fever in an infant, then a rash as the fever settles; febrile seizures may occur.",
+         "manas": {
+          "q": "What is the clinical pattern of roseola infantum?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-kaposi-sarcoma-lesions",
+         "topic": "Kaposi sarcoma lesions",
+         "note": "Purple patches, plaques or nodules on skin, mouth (especially the palate) and internal organs; a vascular tumour driven by HHV-8.",
+         "manas": {
+          "q": "Where should you look for Kaposi sarcoma lesions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-hhv-8-spread",
+         "topic": "HHV-8 spread",
+         "note": "In endemic African settings it spreads mainly through saliva, often in childhood; sexual spread also occurs.",
+         "manas": {
+          "q": "How is HHV-8 mainly spread in endemic Africa?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-laboratory-diagnosis",
+       "topic": "Laboratory diagnosis",
+       "note": "Choosing the right test.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-pcr",
+         "topic": "PCR",
+         "note": "Test of choice for CSF, swabs from lesions and blood viral loads (CMV, EBV) in transplant and HIV patients.",
+         "manas": {
+          "q": "What is the test of choice for herpesvirus DNA in CSF or lesions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-heterophile-test",
+         "topic": "Heterophile test",
+         "note": "Monospot can be negative early and in young children; EBV-specific antibodies (VCA IgM) then help.",
+         "manas": {
+          "q": "When can the Monospot test be falsely negative?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-cmv-igg-avidity",
+         "topic": "CMV IgG avidity",
+         "note": "Low-avidity IgG suggests a recent primary CMV infection, helping time maternal infection in pregnancy.",
+         "manas": {
+          "q": "What does low-avidity CMV IgG suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-hsv-encephalitis-work-up",
+         "topic": "HSV encephalitis work-up",
+         "note": "CSF shows lymphocytes and raised protein; MRI shows temporal lobe change. A negative early PCR may need repeating if suspicion stays high.",
+         "manas": {
+          "q": "What MRI finding suggests HSV encephalitis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-antivirals",
+       "topic": "Antivirals",
+       "note": "Mechanisms and toxicities (no doses here).",
+       "children": [
+        {
+         "id": "mdhmm300hhv-acyclovir-mechanism",
+         "topic": "Acyclovir mechanism",
+         "note": "Viral thymidine kinase phosphorylates it first, so it is activated mainly in infected cells; the triphosphate blocks viral DNA polymerase and ends the chain.",
+         "manas": {
+          "q": "Why is acyclovir selective for infected cells?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-valaciclovir",
+         "topic": "Valaciclovir",
+         "note": "An oral prodrug of acyclovir with much better absorption.",
+         "manas": {
+          "q": "What is valaciclovir?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-acyclovir-kidney-toxicity",
+         "topic": "Acyclovir kidney toxicity",
+         "note": "Intravenous acyclovir can crystallise in renal tubules; keep the patient well hydrated and adjust for kidney function.",
+         "manas": {
+          "q": "How is acyclovir kidney injury prevented?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-ganciclovir-for-cmv",
+         "topic": "Ganciclovir for CMV",
+         "note": "CMV lacks thymidine kinase, so acyclovir works poorly; ganciclovir is activated by the CMV UL97 kinase. Main toxicity: bone marrow suppression.",
+         "manas": {
+          "q": "Why is ganciclovir, not acyclovir, used for CMV?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-foscarnet",
+         "topic": "Foscarnet",
+         "note": "Acts directly on viral DNA polymerase without activation, so it works on kinase-mutant resistant virus; nephrotoxic and upsets electrolytes.",
+         "manas": {
+          "q": "Why does foscarnet work against acyclovir-resistant HSV?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-prevention",
+       "topic": "Prevention",
+       "note": "Vaccines and post-exposure care.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-varicella-vaccine",
+         "topic": "Varicella vaccine",
+         "note": "Live attenuated; avoid in pregnancy and severe immunosuppression.",
+         "manas": {
+          "q": "In whom is varicella vaccine contraindicated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-varicella-zoster-immunoglobu",
+         "topic": "Varicella-zoster immunoglobulin",
+         "note": "Given after significant exposure to susceptible high-risk people: pregnant women, the immunosuppressed and some newborns.",
+         "manas": {
+          "q": "Who should receive varicella-zoster immunoglobulin after exposure?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-zoster-vaccines",
+         "topic": "Zoster vaccines",
+         "note": "A live attenuated vaccine and a recombinant adjuvanted glycoprotein E vaccine; only the recombinant one suits immunosuppressed people.",
+         "manas": {
+          "q": "Which zoster vaccine can be given to immunosuppressed patients?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-preventing-cmv",
+         "topic": "Preventing CMV",
+         "note": "No licensed vaccine; hygiene advice in pregnancy and CMV-safe (seronegative or leucodepleted) blood for at-risk patients.",
+         "manas": {
+          "q": "How is CMV transmission reduced in transfusion?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick points examiners like.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-inclusions",
+         "topic": "Inclusions",
+         "note": "Cowdry type A intranuclear inclusions: HSV and VZV. Owl's eye cells: CMV.",
+         "manas": {
+          "q": "Which inclusions are seen in HSV and VZV versus CMV?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-disseminated-zoster",
+         "topic": "Disseminated zoster",
+         "note": "Lesions beyond a few dermatomes or crossing the midline suggest disseminated zoster — think immunosuppression.",
+         "manas": {
+          "q": "What does zoster spreading beyond a few dermatomes or across the midline suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-acyclovir-resistance",
+         "topic": "Acyclovir resistance",
+         "note": "Usually from thymidine kinase mutations, seen in immunosuppressed patients on long courses.",
+         "manas": {
+          "q": "What usually causes acyclovir resistance?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhmm300hhv-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Kenya's ARV guidelines use WHO clinical staging: herpes zoster is stage 2 and Kaposi sarcoma stage 4, both prompting HIV care and ART.",
+         "manas": {
+          "q": "What WHO stage are herpes zoster and Kaposi sarcoma?"
+         },
+         "hyperLink": "https://www.differentiatedservicedelivery.org/wp-content/uploads/Kenya-ARV-Guidelines-2022-Final-1.pdf",
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-who-varicella-vaccine",
+         "topic": "WHO varicella vaccine",
+         "note": "WHO advises routine childhood varicella vaccination only where high, sustained coverage is possible, as low coverage can shift infection to older ages.",
+         "manas": {
+          "q": "Why does WHO link varicella vaccination to high coverage?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-cdc-acip-zoster",
+         "topic": "CDC/ACIP zoster",
+         "note": "In the US the recombinant zoster vaccine is recommended for adults aged 50 and over and immunocompromised adults aged 19 and over.",
+         "manas": {
+          "q": "Who does ACIP recommend for recombinant zoster vaccine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-uk-antenatal-cmv",
+         "topic": "UK antenatal CMV",
+         "note": "The UK National Screening Committee does not recommend routine antenatal CMV screening.",
+         "manas": {
+          "q": "Does the UK screen all pregnant women for CMV?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-09.",
+       "manas": {
+        "checked": "2026-11-09"
+       },
+       "children": [
+        {
+         "id": "mdhmm300hhv-european-congenital-cmv-cons",
+         "topic": "European congenital CMV consensus",
+         "note": "A GRADE-based European consensus stresses early, accurate maternal diagnosis by serology, valaciclovir to prevent vertical transmission, and risk-based postnatal care.",
+         "manas": {
+          "q": "Which drug does the European consensus support to prevent vertical CMV transmission?",
+          "ref": "Lancet Reg Health Eur 2024"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.lanepe.2024.100892",
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-zoster-review",
+         "topic": "Zoster review",
+         "note": "A review notes zoster rises with age and immunosuppression; postherpetic neuralgia is among the commonest complications; early antiviral therapy and pain control are central.",
+         "manas": {
+          "q": "What are the cornerstones of herpes zoster management?",
+          "ref": "Viruses 2022"
+         },
+         "hyperLink": "https://doi.org/10.3390/v14020192",
+         "children": []
+        },
+        {
+         "id": "mdhmm300hhv-zoster-vaccine-access",
+         "topic": "Zoster vaccine access",
+         "note": "Zoster vaccines make shingles preventable, but a review found access mostly limited to high-income countries, with few national schedules including them, mainly for cost-effectiveness reasons.",
+         "manas": {
+          "q": "Why do few countries include zoster vaccine in national schedules?",
+          "ref": "Ther Adv Vaccines Immunother 2022"
+         },
+         "hyperLink": "https://doi.org/10.1177/25151355221084535",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm300hhv-skin-and-eye-viruses-opensta",
+       "topic": "📖 Skin and eye viruses (OpenStax)",
+       "hyperLink": "https://openstax.org/books/microbiology/pages/21-3-viral-infections-of-the-skin-and-eyes",
+       "children": []
+      },
+      {
+       "id": "mdhmm300hhv-reproductive-system-viruses",
+       "topic": "📖 Reproductive system viruses (OpenStax)",
+       "hyperLink": "https://openstax.org/books/microbiology/pages/23-4-viral-infections-of-the-reproductive-system",
+       "children": []
+      },
+      {
+       "id": "mdhmm300hhv-circulatory-and-lymphatic-vi",
+       "topic": "📖 Circulatory and lymphatic viruses (OpenStax)",
+       "hyperLink": "https://openstax.org/books/microbiology/pages/25-3-viral-infections-of-the-circulatory-and-lymphatic-systems",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y3"
+  },
+  {
+   "id": "med-hog300-female-pelvic-anatomy",
+   "title": "HOG 300 · In depth: Female pelvic anatomy",
+   "look": "forest",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794200339308,
+   "updated": 1794200339308,
+   "library": "mbchb",
+   "deepOf": "med-hog300",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhog300pel-root",
+     "topic": "Female pelvic anatomy in depth",
+     "note": "Bony pelvis, organs, supports, pelvic floor, vessels, nodes, nerves and clinical links. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhog300pel-definition-and-bony-pelvis",
+       "topic": "Definition and bony pelvis",
+       "note": "The bony ring and its obstetric meaning.",
+       "children": [
+        {
+         "id": "mdhog300pel-the-pelvis",
+         "topic": "The pelvis",
+         "note": "A ring of the two hip bones, sacrum and coccyx; the pelvic brim divides the false (greater) pelvis above from the true (lesser) pelvis below.",
+         "manas": {
+          "q": "What divides the false pelvis from the true pelvis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-pelvic-brim-landmarks",
+         "topic": "Pelvic brim landmarks",
+         "note": "Sacral promontory, sacral ala, arcuate and pectineal lines, pubic crest and the upper border of the symphysis pubis.",
+         "manas": {
+          "q": "Name the landmarks of the pelvic brim."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-female-versus-male-pelvis",
+         "topic": "Female versus male pelvis",
+         "note": "The female pelvis is wider and shallower, with a rounder inlet, wider subpubic angle and larger outlet — adapted for birth.",
+         "manas": {
+          "q": "How does the female pelvis differ from the male?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-pelvic-shapes",
+         "topic": "Pelvic shapes",
+         "note": "Gynaecoid (round inlet, most favourable for birth), android, anthropoid and platypelloid.",
+         "manas": {
+          "q": "Which pelvic shape is most favourable for vaginal birth?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-obstetric-conjugate",
+         "topic": "Obstetric conjugate",
+         "note": "Shortest front-to-back diameter of the inlet, from sacral promontory to the back of the symphysis; estimated clinically from the diagonal conjugate.",
+         "manas": {
+          "q": "What is the obstetric conjugate and how is it estimated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-ischial-spines",
+         "topic": "Ischial spines",
+         "note": "Felt on vaginal examination; the level of the spines is station 0 when assessing descent of the fetal head.",
+         "manas": {
+          "q": "What landmark defines station 0 in labour?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-pelvic-organs",
+       "topic": "Pelvic organs",
+       "note": "Uterus, tubes, ovaries, vagina and pouches.",
+       "children": [
+        {
+         "id": "mdhog300pel-uterus-parts-and-position",
+         "topic": "Uterus parts and position",
+         "note": "Fundus, body, isthmus and cervix; usually anteverted and anteflexed. The isthmus becomes the lower segment in pregnancy.",
+         "manas": {
+          "q": "Which part of the uterus forms the lower segment in pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-uterine-wall",
+         "topic": "Uterine wall",
+         "note": "Endometrium (shed in menstruation), myometrium (smooth muscle) and perimetrium (peritoneal cover).",
+         "manas": {
+          "q": "Name the three layers of the uterine wall."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-fallopian-tube-parts",
+         "topic": "Fallopian tube parts",
+         "note": "Fimbriated infundibulum, ampulla (usual site of fertilisation and commonest site of ectopic pregnancy), isthmus and intramural part.",
+         "manas": {
+          "q": "What is the commonest site of tubal ectopic pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-ovary-attachments",
+         "topic": "Ovary attachments",
+         "note": "Held by the suspensory (infundibulopelvic) ligament carrying its vessels, the ovarian ligament to the uterus, and the mesovarium.",
+         "manas": {
+          "q": "Which ligament carries the ovarian vessels?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-ovarian-fossa",
+         "topic": "Ovarian fossa",
+         "note": "The ovary lies on the side wall near the obturator nerve, so ovarian disease can refer pain to the medial thigh.",
+         "manas": {
+          "q": "Why can ovarian disease cause medial thigh pain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-pouch-of-douglas",
+         "topic": "Pouch of Douglas",
+         "note": "The rectouterine pouch is the lowest part of the peritoneal cavity when upright, so blood, pus or fluid collects there; it lies behind the posterior fornix.",
+         "manas": {
+          "q": "Where does free fluid collect in the female pelvis when upright?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-ligaments-and-supports",
+       "topic": "Ligaments and supports",
+       "note": "What holds the organs up.",
+       "children": [
+        {
+         "id": "mdhog300pel-broad-ligament",
+         "topic": "Broad ligament",
+         "note": "A double peritoneal fold from uterus to side wall containing the tube, round and ovarian ligaments, uterine vessels, and the ureter near its base.",
+         "manas": {
+          "q": "What does the broad ligament contain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-round-ligament",
+         "topic": "Round ligament",
+         "note": "Runs through the inguinal canal to the labium majus, a remnant of the gubernaculum; helps keep anteversion but is not a main support.",
+         "manas": {
+          "q": "Where does the round ligament of the uterus end?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-delancey-levels-of-support",
+         "topic": "DeLancey levels of support",
+         "note": "Level I: cardinal–uterosacral (apex). Level II: lateral vaginal attachment to the pelvic side wall. Level III: fusion with perineal body and membrane.",
+         "manas": {
+          "q": "What are DeLancey's three levels of vaginal support?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-pelvic-floor-and-perineum",
+       "topic": "Pelvic floor and perineum",
+       "note": "Muscles that close the pelvic outlet.",
+       "children": [
+        {
+         "id": "mdhog300pel-pelvic-diaphragm",
+         "topic": "Pelvic diaphragm",
+         "note": "Levator ani (pubococcygeus, puborectalis, iliococcygeus) plus coccygeus, forming the muscular floor.",
+         "manas": {
+          "q": "Which muscles form the pelvic diaphragm?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-urogenital-hiatus",
+         "topic": "Urogenital hiatus",
+         "note": "The gap in levator ani through which urethra and vagina pass; a widened hiatus or levator avulsion predisposes to prolapse.",
+         "manas": {
+          "q": "What is the urogenital hiatus?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-perineal-body",
+         "topic": "Perineal body",
+         "note": "Fibromuscular centre between vagina and anus where perineal muscles, external anal sphincter and levator fibres meet; key to perineal strength.",
+         "manas": {
+          "q": "Which structures meet at the perineal body?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-perineal-tear-degrees",
+         "topic": "Perineal tear degrees",
+         "note": "1st: skin/vaginal lining. 2nd: perineal muscles. 3rd: anal sphincter (3a <50% of EAS, 3b >50% of EAS, 3c internal sphincter torn too). 4th: also anal lining.",
+         "manas": {
+          "q": "Classify perineal tears by degree."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-bartholin-glands",
+         "topic": "Bartholin glands",
+         "note": "Pea-sized glands beside the vaginal opening, roughly at 4 and 8 o'clock; a blocked duct gives a cyst or abscess.",
+         "manas": {
+          "q": "Where are the Bartholin glands?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-blood-supply",
+       "topic": "Blood supply",
+       "note": "Extending the uterine and ovarian arteries.",
+       "children": [
+        {
+         "id": "mdhog300pel-internal-iliac-anterior-divi",
+         "topic": "Internal iliac anterior division",
+         "note": "Gives uterine, vaginal, obturator, internal pudendal, inferior gluteal, middle rectal and umbilical (superior vesical) arteries.",
+         "manas": {
+          "q": "Name branches of the anterior division of the internal iliac artery."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-uterine-ovarian-anastomosis",
+         "topic": "Uterine–ovarian anastomosis",
+         "note": "The uterine artery climbs the side of the uterus in the broad ligament and joins the ovarian artery near the tube.",
+         "manas": {
+          "q": "Where do the uterine and ovarian arteries anastomose?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-spiral-arteries",
+         "topic": "Spiral arteries",
+         "note": "Trophoblast remodels them into wide, low-resistance vessels in pregnancy; poor remodelling is linked to pre-eclampsia.",
+         "manas": {
+          "q": "What happens to spiral arteries in normal pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-internal-iliac-ligation",
+         "topic": "Internal iliac ligation",
+         "note": "Used for severe pelvic haemorrhage; it lowers pulse pressure while rich collaterals keep pelvic organs alive.",
+         "manas": {
+          "q": "Why do pelvic organs survive internal iliac artery ligation?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-lymphatic-drainage",
+       "topic": "Lymphatic drainage",
+       "note": "Key for cancer spread.",
+       "children": [
+        {
+         "id": "mdhog300pel-cervix-and-upper-vagina",
+         "topic": "Cervix and upper vagina",
+         "note": "To parametrial, obturator and internal and external iliac nodes, then common iliac and para-aortic nodes.",
+         "manas": {
+          "q": "Describe lymphatic drainage of the cervix."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-vulva-and-lower-vagina",
+         "topic": "Vulva and lower vagina",
+         "note": "To superficial inguinal nodes.",
+         "manas": {
+          "q": "Which nodes drain the vulva?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-uterine-fundus",
+         "topic": "Uterine fundus",
+         "note": "Mainly with the ovarian vessels to para-aortic nodes; some along the round ligament to superficial inguinal nodes.",
+         "manas": {
+          "q": "How can fundal cancer reach the inguinal nodes?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-nerve-supply",
+       "topic": "Nerve supply",
+       "note": "Autonomic and somatic.",
+       "children": [
+        {
+         "id": "mdhog300pel-autonomic-supply",
+         "topic": "Autonomic supply",
+         "note": "Sympathetic fibres from about T10–L1 via the hypogastric plexuses; parasympathetic from pelvic splanchnic nerves (S2–S4).",
+         "manas": {
+          "q": "Where does parasympathetic supply to the pelvic organs come from?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-labour-pain-pathways",
+         "topic": "Labour pain pathways",
+         "note": "First-stage uterine pain travels with sympathetic fibres to T10–L1; second-stage perineal pain travels in the pudendal nerve (S2–S4).",
+         "manas": {
+          "q": "Which spinal segments carry first- and second-stage labour pain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-levator-ani-nerve",
+         "topic": "Levator ani nerve",
+         "note": "Mainly direct branches of the sacral nerves (S3–S4), with a contribution from the pudendal nerve.",
+         "manas": {
+          "q": "What nerves supply levator ani?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-obturator-nerve",
+         "topic": "Obturator nerve",
+         "note": "L2–L4 on the side wall; can be injured during pelvic node dissection, weakening thigh adduction.",
+         "manas": {
+          "q": "What weakness follows obturator nerve injury in pelvic surgery?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-clinical-correlations",
+       "topic": "Clinical correlations",
+       "note": "Where anatomy meets practice.",
+       "children": [
+        {
+         "id": "mdhog300pel-ureter-at-the-pelvic-brim",
+         "topic": "Ureter at the pelvic brim",
+         "note": "Crosses into the pelvis near the ovarian vessels, so it is at risk when the infundibulopelvic ligament is clamped.",
+         "manas": {
+          "q": "Why is the ureter at risk when clamping the infundibulopelvic ligament?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-pelvic-organ-prolapse",
+         "topic": "Pelvic organ prolapse",
+         "note": "Failure of ligament and levator support lets bladder (cystocele), rectum (rectocele), uterus or vault descend.",
+         "manas": {
+          "q": "What causes pelvic organ prolapse?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-culdocentesis",
+         "topic": "Culdocentesis",
+         "note": "A needle through the posterior fornix samples fluid in the pouch of Douglas — largely replaced by ultrasound.",
+         "manas": {
+          "q": "Through which fornix is culdocentesis done?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-mediolateral-episiotomy",
+         "topic": "Mediolateral episiotomy",
+         "note": "Angled away from the midline to reduce extension into the anal sphincter, compared with a midline cut.",
+         "manas": {
+          "q": "Why is mediolateral episiotomy preferred over midline?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-ovarian-torsion",
+         "topic": "Ovarian torsion",
+         "note": "The ovary twists on its ligaments, blocking venous then arterial flow; sudden pain needs urgent surgery to save it.",
+         "manas": {
+          "q": "What is the vascular sequence in ovarian torsion?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-examination",
+       "topic": "Examination",
+       "note": "Applying the anatomy at the bedside.",
+       "children": [
+        {
+         "id": "mdhog300pel-bimanual-examination",
+         "topic": "Bimanual examination",
+         "note": "Assesses uterine size, position and mobility, adnexal masses and cervical motion tenderness.",
+         "manas": {
+          "q": "What does a bimanual examination assess?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-speculums",
+         "topic": "Speculums",
+         "note": "Cusco bivalve to see the cervix; Sims speculum to inspect vaginal walls for prolapse and fistula.",
+         "manas": {
+          "q": "Which speculum is used to assess prolapse?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-clinical-pelvimetry",
+         "topic": "Clinical pelvimetry",
+         "note": "Feel the sacral promontory, sacral curve, ischial spines and subpubic arch to judge pelvic capacity.",
+         "manas": {
+          "q": "What is assessed in clinical pelvimetry?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhog300pel-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "The National Guidelines for Quality Obstetrics and Perinatal Care guide intrapartum care, including perineal care, in Kenyan facilities.",
+         "manas": {
+          "q": "Which Kenyan guideline covers intrapartum and perineal care?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-who-2018-intrapartum-care",
+         "topic": "WHO 2018 intrapartum care",
+         "note": "WHO recommends against routine or liberal episiotomy in spontaneous vaginal birth.",
+         "manas": {
+          "q": "What is WHO's position on routine episiotomy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-rcog-tear-classification",
+         "topic": "RCOG tear classification",
+         "note": "RCOG uses the Sultan classification, splitting third-degree tears into 3a, 3b and 3c.",
+         "manas": {
+          "q": "Which classification of perineal tears does RCOG use?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-pop-q",
+         "topic": "POP-Q",
+         "note": "The International Continence Society's POP-Q system measures prolapse at set vaginal points relative to the hymen.",
+         "manas": {
+          "q": "What is the reference point in the POP-Q system?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-09.",
+       "manas": {
+        "checked": "2026-11-09"
+       },
+       "children": [
+        {
+         "id": "mdhog300pel-prolapse-risk-factors",
+         "topic": "Prolapse risk factors",
+         "note": "A meta-analysis (27 studies, mostly Western) associated vaginal birth, parity, age, BMI and levator defects with prolapse; higher stage and younger age with recurrence after repair.",
+         "manas": {
+          "q": "Which anatomical defect was a strong risk factor for prolapse in the 2022 meta-analysis?",
+          "ref": "Am J Obstet Gynecol 2022"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.ajog.2022.04.046",
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-levator-injury-at-birth",
+         "topic": "Levator injury at birth",
+         "note": "An expert review says levator tears come from overstretching at birth and are linked to forceps, long second stage and big babies; it urges antenatal counselling.",
+         "manas": {
+          "q": "What mechanism causes levator ani injury during vaginal birth?",
+          "ref": "Am J Obstet Gynecol 2024"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.ajog.2023.11.1253",
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-episiotomy-and-oasi",
+         "topic": "Episiotomy and OASI",
+         "note": "In operative vaginal births, mediolateral/lateral episiotomy was associated with fewer anal sphincter injuries, mainly in first-time mothers; evidence was very low quality.",
+         "manas": {
+          "q": "Was mediolateral episiotomy linked with fewer sphincter injuries in operative births?",
+          "ref": "Int Urogynecol J 2022"
+         },
+         "hyperLink": "https://doi.org/10.1007/s00192-022-05145-1",
+         "children": []
+        },
+        {
+         "id": "mdhog300pel-prolapse-data-gap",
+         "topic": "Prolapse data gap",
+         "note": "Reported prolapse prevalence varies widely with the method used, and data from low- and middle-income countries are scarce.",
+         "manas": {
+          "q": "Why is prolapse prevalence hard to compare across studies?",
+          "ref": "Int Urogynecol J 2022"
+         },
+         "hyperLink": "https://doi.org/10.1007/s00192-021-05018-z",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog300pel-ovarian-reproductive-system",
+       "topic": "📖 Ovarian reproductive system (OpenStax)",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+       "children": []
+      },
+      {
+       "id": "mdhog300pel-pregnancy-labour-and-birth-o",
+       "topic": "📖 Pregnancy, labour and birth (OpenStax)",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth",
+       "children": []
+      },
+      {
+       "id": "mdhog300pel-factors-influencing-labour-o",
+       "topic": "📖 Factors influencing labour (OpenStax)",
+       "hyperLink": "https://openstax.org/books/maternal-newborn-nursing/pages/15-1-factors-influencing-the-process-of-labor-and-birth",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y3"
+  },
+  {
+   "id": "med-hpd300-paediatric-history-examination",
+   "title": "HPD 300 · In depth: Paediatric history and examination",
+   "look": "forest",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794200339320,
+   "updated": 1794200339320,
+   "library": "mbchb",
+   "deepOf": "med-hpd300",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhpd300phx-paediatric-history-and-examina",
+     "topic": "Paediatric history and examination in depth",
+     "note": "A child's history section by section, examination by system, and growth, development, feeding and vaccines. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhpd300phx-approach-and-principles",
+       "topic": "Approach and principles",
+       "note": "How a paediatric consultation differs.",
+       "children": [
+        {
+         "id": "mdhpd300phx-not-a-small-adult",
+         "topic": "Not a small adult",
+         "note": "Normal values, common illnesses and how a child shows illness all change with age, so judge every finding against the child's age.",
+         "manas": {
+          "q": "Why must paediatric findings be interpreted by age?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-building-rapport",
+         "topic": "Building rapport",
+         "note": "Greet child and caregiver, sit at the child's level, let a young child stay on the caregiver's lap and explain what you will do.",
+         "manas": {
+          "q": "How do you build rapport with a young child before examining?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-consent-and-assent",
+         "topic": "Consent and assent",
+         "note": "The caregiver gives consent; also seek the child's agreement (assent) in words suited to their age and understanding.",
+         "manas": {
+          "q": "What is the difference between consent and assent in paediatrics?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-adolescent-interview",
+         "topic": "Adolescent interview",
+         "note": "Offer time alone, explain confidentiality and its limits (risk of harm), and screen psychosocially, e.g. with HEADSS.",
+         "manas": {
+          "q": "What should you offer an adolescent during the history?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-headss-screen",
+         "topic": "HEADSS screen",
+         "note": "Home, Education/employment, Activities, Drugs, Sexuality, Suicide/depression: a structured adolescent psychosocial history.",
+         "manas": {
+          "q": "What does HEADSS stand for?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-history-sections",
+       "topic": "History sections",
+       "note": "Section by section, beyond the adult template.",
+       "children": [
+        {
+         "id": "mdhpd300phx-presenting-complaint",
+         "topic": "Presenting complaint",
+         "note": "Record the caregiver's own words, duration and sequence; ask about feeding, activity and urine output as clues to severity.",
+         "manas": {
+          "q": "Which questions help judge severity in a child's presenting illness?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-pregnancy-history",
+         "topic": "Pregnancy history",
+         "note": "Maternal illness, antenatal clinic attendance, HIV and syphilis results, medicines taken and any pregnancy complications.",
+         "manas": {
+          "q": "What should the antenatal part of a paediatric history cover?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-birth-history",
+         "topic": "Birth history",
+         "note": "Place and mode of delivery, gestation at birth, birth weight, whether the baby cried at once or needed resuscitation.",
+         "manas": {
+          "q": "What are the key points of a birth history?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-neonatal-period",
+         "topic": "Neonatal period",
+         "note": "Newborn unit admission, jaundice, breathing or feeding problems, infections and oxygen or phototherapy given.",
+         "manas": {
+          "q": "What neonatal events should be asked about?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-feeding-history",
+         "topic": "Feeding history",
+         "note": "Breastfeeding (exclusive? how long?), age complementary foods began, what and how often the child eats now, e.g. a 24-hour recall.",
+         "manas": {
+          "q": "What does a feeding history include?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-immunisation-history",
+         "topic": "Immunisation history",
+         "note": "Check the card or booklet against the national schedule and note missed or delayed doses, rather than relying on memory.",
+         "manas": {
+          "q": "How should immunisation status be confirmed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-developmental-history",
+         "topic": "Developmental history",
+         "note": "Ask when milestones were reached in each domain and whether any skill has been lost; loss of skills is a red flag.",
+         "manas": {
+          "q": "Which developmental history finding is always a red flag?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-past-medical-history",
+         "topic": "Past medical history",
+         "note": "Previous admissions, operations, blood transfusions and chronic illnesses such as sickle cell disease, asthma or epilepsy.",
+         "manas": {
+          "q": "What belongs in a child's past medical history?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-drugs-and-allergies",
+         "topic": "Drugs and allergies",
+         "note": "Current and recent medicines, including herbal or over-the-counter remedies, and any drug or food allergy with the reaction.",
+         "manas": {
+          "q": "Why ask about herbal and over-the-counter medicines in children?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-family-history",
+         "topic": "Family history",
+         "note": "Health of parents and siblings, deaths in childhood, consanguinity, inherited disease (e.g. sickle cell), TB contacts, parental HIV status.",
+         "manas": {
+          "q": "Which family history points matter most in paediatrics?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-social-history",
+         "topic": "Social history",
+         "note": "Who cares for the child, caregivers' work, housing, water and sanitation, school or daycare, and financial or social stresses.",
+         "manas": {
+          "q": "What does a paediatric social history cover?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-systems-review",
+         "topic": "Systems review",
+         "note": "Brief screen of other systems so that problems the caregiver did not mention are not missed.",
+         "manas": {
+          "q": "Why do a systems review in a child's history?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-general-examination",
+       "topic": "General examination",
+       "note": "Look before you touch.",
+       "children": [
+        {
+         "id": "mdhpd300phx-end-of-bed-look",
+         "topic": "End-of-bed look",
+         "note": "Is the child alert, interacting and playing, or drowsy, floppy and uninterested? This first look often says how sick the child is.",
+         "manas": {
+          "q": "What does the end-of-bed look assess in a child?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-vital-signs-by-age",
+         "topic": "Vital signs by age",
+         "note": "Heart and breathing rates are highest in infants and fall with age; compare with an age chart rather than adult values.",
+         "manas": {
+          "q": "How do heart and respiratory rates change with age?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-dehydration-signs",
+         "topic": "Dehydration signs",
+         "note": "Lethargy, sunken eyes, slow skin pinch and drinking poorly or not at all point to dehydration; combine signs, do not rely on one.",
+         "manas": {
+          "q": "Which signs suggest dehydration in a child?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-pallor",
+         "topic": "Pallor",
+         "note": "Look at palms, nail beds and conjunctivae; palmar pallor is the sign used in IMCI to flag anaemia.",
+         "manas": {
+          "q": "Which pallor sign does IMCI use to flag anaemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-oedema",
+         "topic": "Oedema",
+         "note": "Bilateral pitting oedema of the feet in a child suggests severe acute malnutrition (kwashiorkor) until proven otherwise.",
+         "manas": {
+          "q": "What does bilateral pitting pedal oedema suggest in a child?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-dysmorphic-features",
+         "topic": "Dysmorphic features",
+         "note": "Note unusual face shape, eyes, ears, hands (e.g. single palmar crease) or limbs that may point to a syndrome.",
+         "manas": {
+          "q": "Why look for dysmorphic features?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-systemic-examination",
+       "topic": "Systemic examination",
+       "note": "By system, adapted to the child.",
+       "children": [
+        {
+         "id": "mdhpd300phx-respiratory-distress",
+         "topic": "Respiratory distress",
+         "note": "Lower chest wall indrawing, nasal flaring, grunting and head nodding show increased work of breathing.",
+         "manas": {
+          "q": "Name signs of increased work of breathing in a child."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-femoral-pulses",
+         "topic": "Femoral pulses",
+         "note": "Feel femoral pulses in infants; weak or absent femorals suggest coarctation of the aorta.",
+         "manas": {
+          "q": "Why feel femoral pulses in an infant?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-heart-failure-in-infants",
+         "topic": "Heart failure in infants",
+         "note": "Infants show heart failure as fast breathing, sweating or tiring at feeds, poor weight gain and an enlarged liver.",
+         "manas": {
+          "q": "How does heart failure present in an infant?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-abdomen",
+         "topic": "Abdomen",
+         "note": "A soft liver edge can be felt in many healthy infants; palpate for the spleen starting from the right iliac fossa.",
+         "manas": {
+          "q": "Where should palpation for the spleen begin?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-genitalia-and-groins",
+         "topic": "Genitalia and groins",
+         "note": "Check that testes are descended and look for hernias and hydroceles, with a chaperone and permission.",
+         "manas": {
+          "q": "What should be checked in the groins and genitalia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-fontanelle",
+         "topic": "Fontanelle",
+         "note": "Bulging anterior fontanelle in a calm, upright infant suggests raised pressure; sunken suggests dehydration. It usually closes by about 18 months.",
+         "manas": {
+          "q": "What does a bulging anterior fontanelle suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-meningism-in-infants",
+         "topic": "Meningism in infants",
+         "note": "Neck stiffness is unreliable under about 1 year; look for irritability, bulging fontanelle, poor feeding or convulsions.",
+         "manas": {
+          "q": "Why is neck stiffness unreliable in infants?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-neurology",
+         "topic": "Neurology",
+         "note": "Watch spontaneous movement and posture, then tone, power, reflexes and gait suited to age.",
+         "manas": {
+          "q": "How is the neurological exam adapted for young children?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-ears-and-throat",
+         "topic": "Ears and throat",
+         "note": "Done last because they upset the child; hold the child securely on the caregiver's lap.",
+         "manas": {
+          "q": "How should a young child be held for ear and throat examination?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-growth",
+       "topic": "Growth",
+       "note": "Measure, plot and interpret.",
+       "children": [
+        {
+         "id": "mdhpd300phx-measurements",
+         "topic": "Measurements",
+         "note": "Weight, length lying down under 2 years (height standing after), and head circumference in infants and young children.",
+         "manas": {
+          "q": "How is length measured in a child under 2 years?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-growth-charts",
+         "topic": "Growth charts",
+         "note": "Plot on WHO growth charts and follow the trend over time; one point says less than a line crossing centiles.",
+         "manas": {
+          "q": "Why is a growth trend more useful than one measurement?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-stunting",
+         "topic": "Stunting",
+         "note": "Length or height-for-age below −2 SD (z-score): a sign of chronic undernutrition.",
+         "manas": {
+          "q": "How is stunting defined?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-wasting",
+         "topic": "Wasting",
+         "note": "Weight-for-length/height below −2 SD; below −3 SD is severe wasting. Reflects recent or acute undernutrition.",
+         "manas": {
+          "q": "How is wasting defined?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-underweight",
+         "topic": "Underweight",
+         "note": "Weight-for-age below −2 SD; mixes stunting and wasting, so it cannot tell them apart.",
+         "manas": {
+          "q": "Why does weight-for-age not separate stunting from wasting?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-muac-cut-offs",
+         "topic": "MUAC cut-offs",
+         "note": "For children 6–59 months, MUAC below 11.5 cm means severe acute malnutrition; 11.5 to below 12.5 cm means moderate.",
+         "manas": {
+          "q": "What MUAC means severe acute malnutrition in a child aged 6–59 months?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-head-circumference",
+         "topic": "Head circumference",
+         "note": "Plot serially; a small or fast-growing head needs review (e.g. microcephaly, hydrocephalus).",
+         "manas": {
+          "q": "Why is head circumference plotted serially?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-development",
+       "topic": "Development",
+       "note": "Four domains, key ages, red flags.",
+       "children": [
+        {
+         "id": "mdhpd300phx-four-domains",
+         "topic": "Four domains",
+         "note": "Gross motor; fine motor and vision; speech, language and hearing; social, emotional and behaviour.",
+         "manas": {
+          "q": "What are the four developmental domains?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-sample-milestones",
+         "topic": "Sample milestones",
+         "note": "Social smile about 6 weeks; sits unsupported about 6–8 months; walks alone about 12 months; joins two words about 2 years.",
+         "manas": {
+          "q": "At about what age does a baby walk alone?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-red-flags",
+         "topic": "Red flags",
+         "note": "Loss of skills, not walking by 18 months, no words by 18 months, and hand preference before 1 year all need assessment.",
+         "manas": {
+          "q": "Name developmental red flags."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-corrected-age",
+         "topic": "Corrected age",
+         "note": "For babies born preterm, subtract weeks born early from the age when judging milestones, usually until 2 years.",
+         "manas": {
+          "q": "How is development judged in a baby born preterm?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-feeding-and-vaccines-in-kenya",
+       "topic": "Feeding and vaccines in Kenya",
+       "note": "Use the child's booklet.",
+       "children": [
+        {
+         "id": "mdhpd300phx-mother-child-health-handbook",
+         "topic": "Mother & Child Health Handbook",
+         "note": "Kenya's booklet records pregnancy, birth, growth charts, vaccines and milestones; ask the caregiver for it at every visit.",
+         "manas": {
+          "q": "What does Kenya's Mother and Child Health Handbook record?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-breastfeeding-advice",
+         "topic": "Breastfeeding advice",
+         "note": "Exclusive breastfeeding for 6 months, then safe complementary foods while breastfeeding continues to 2 years or beyond.",
+         "manas": {
+          "q": "For how long is exclusive breastfeeding recommended?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-kepi",
+         "topic": "KEPI",
+         "note": "Kenya Expanded Programme on Immunization: national free vaccine schedule, recorded in the child's booklet.",
+         "manas": {
+          "q": "What is KEPI?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-kepi-timing",
+         "topic": "KEPI timing",
+         "note": "BCG and a polio dose at birth; then doses at 6, 10 and 14 weeks; measles-rubella at 9 and 18 months.",
+         "manas": {
+          "q": "At what ages are measles-rubella vaccines given under KEPI?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-vitamin-a",
+         "topic": "Vitamin A",
+         "note": "Given every 6 months from 6 to 59 months; check the booklet for doses missed.",
+         "manas": {
+          "q": "How often is vitamin A given to children 6–59 months?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-danger-and-emergency-signs",
+       "topic": "Danger and emergency signs",
+       "note": "Spot the sick child first.",
+       "children": [
+        {
+         "id": "mdhpd300phx-imci-general-danger-signs",
+         "topic": "IMCI general danger signs",
+         "note": "Unable to drink or breastfeed, vomits everything, convulsions, lethargic or unconscious: any one needs urgent care.",
+         "manas": {
+          "q": "What are the IMCI general danger signs?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-etat-triage-first",
+         "topic": "ETAT+ triage first",
+         "note": "Before a full history, triage: emergency signs in airway/breathing, circulation, coma or convulsion, or severe dehydration get treated at once.",
+         "manas": {
+          "q": "What does ETAT+ check before a full history is taken?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Points examiners like.",
+       "children": [
+        {
+         "id": "mdhpd300phx-summary-statement",
+         "topic": "Summary statement",
+         "note": "Age, sex, main problem and duration, key findings, plus growth, development and vaccine status in one or two lines.",
+         "manas": {
+          "q": "What should a paediatric case summary include?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-plot-every-weight",
+         "topic": "Plot every weight",
+         "note": "Weigh and plot every sick child; a missed fall in weight or centile is a common exam and ward error.",
+         "manas": {
+          "q": "Why plot every sick child's weight?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-watch-before-touching",
+         "topic": "Watch before touching",
+         "note": "Much of the respiratory exam is done by watching a calm, exposed child before any hands-on step.",
+         "manas": {
+          "q": "Why observe a child before touching them?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhpd300phx-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Kenya's Basic Paediatric Protocols (use the current edition) and the IMNCI chart booklet guide assessment, triage and treatment of children.",
+         "manas": {
+          "q": "Which Kenyan protocols guide paediatric assessment?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-who",
+         "topic": "WHO",
+         "note": "The WHO Pocket Book of Hospital Care for Children and IMCI set the assessment and danger-sign approach used in many countries.",
+         "manas": {
+          "q": "Which WHO book guides hospital care for children?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-who-growth-standards",
+         "topic": "WHO growth standards",
+         "note": "WHO Child Growth Standards (2006) describe how breastfed children grow in good conditions and are used widely.",
+         "manas": {
+          "q": "In which year were the WHO Child Growth Standards published?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-uk-and-usa-charts",
+         "topic": "UK and USA charts",
+         "note": "The UK uses UK-WHO charts for young children; the US CDC advises WHO charts under 2 years and CDC charts from 2 years.",
+         "manas": {
+          "q": "Which growth charts does the US CDC advise under 2 years?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-usa-aap-screening",
+         "topic": "USA: AAP screening",
+         "note": "The American Academy of Pediatrics advises a formal developmental screening tool at the 9, 18 and 30 month visits.",
+         "manas": {
+          "q": "At which visits does the AAP advise formal developmental screening?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-09.",
+       "manas": {
+        "checked": "2026-11-09"
+       },
+       "children": [
+        {
+         "id": "mdhpd300phx-early-warning-scores",
+         "topic": "Early warning scores",
+         "note": "A meta-analysis of mostly before-after studies linked paediatric early warning systems with lower mortality (not significant without the one RCT) and fewer unplanned codes; arrests did not change.",
+         "manas": {
+          "q": "What were paediatric early warning systems associated with in a 2022 meta-analysis?",
+          "ref": "Resusc Plus 2022"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.resplu.2022.100262",
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-growth-monitoring-evidence",
+         "topic": "Growth monitoring evidence",
+         "note": "A Cochrane review of 6 LMIC studies found only very low to low certainty evidence that growth monitoring and promotion improves growth, feeding or service use.",
+         "manas": {
+          "q": "How certain is the evidence that growth monitoring and promotion helps under-fives?",
+          "ref": "Cochrane Database Syst Rev 2023"
+         },
+         "hyperLink": "https://doi.org/10.1002/14651858.cd014785.pub2",
+         "children": []
+        },
+        {
+         "id": "mdhpd300phx-care-for-child-development",
+         "topic": "Care for Child Development",
+         "note": "The UNICEF/WHO package coaching caregivers to play, talk and respond to children was used in 54 LMICs; training, supervision and fidelity varied.",
+         "manas": {
+          "q": "What does the UNICEF/WHO Care for Child Development package teach caregivers?",
+          "ref": "Front Public Health 2023"
+         },
+         "hyperLink": "https://doi.org/10.3389/fpubh.2023.1140843",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd300phx-basic-paediatric-protocols-moh",
+       "topic": "📋 Basic Paediatric Protocols (MoH / UoN)",
+       "hyperLink": "https://paediatrics.uonbi.ac.ke/sites/paediatrics.uonbi.ac.ke/files/2023-04/Basic%20Paediatric%20protocol%205th%20edition%20FOR%20PRINT%2031st%20Oct%202022.pdf",
+       "children": []
+      },
+      {
+       "id": "mdhpd300phx-who-pocket-book-of-hospital-ca",
+       "topic": "📋 WHO Pocket Book of Hospital Care",
+       "hyperLink": "https://www.who.int/publications/i/item/978-92-4-154837-3",
+       "children": []
+      },
+      {
+       "id": "mdhpd300phx-stages-of-development-openstax",
+       "topic": "📖 Stages of Development (OpenStax)",
+       "hyperLink": "https://openstax.org/books/psychology-2e/pages/9-3-stages-of-development",
+       "children": []
+      },
+      {
+       "id": "mdhpd300phx-vaccines-and-immunizations-ope",
+       "topic": "📖 Vaccines and Immunizations (OpenStax)",
+       "hyperLink": "https://openstax.org/books/pharmacology/pages/6-2-vaccine-preventable-diseases-vaccines-and-immunizations",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y3"
+  },
+  {
+   "id": "med-hsu305-introduction-to-anaesthesia",
+   "title": "HSU 305 · In depth: Introduction to anaesthesia",
+   "look": "forest",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794200339330,
+   "updated": 1794200339330,
+   "library": "mbchb",
+   "deepOf": "med-hsu305",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhsu305ana-introduction-to-anaesthesia-in",
+     "topic": "Introduction to anaesthesia in depth",
+     "note": "Core ideas, history, drug classes, preop assessment, fasting, monitoring, regional versus general, and safety. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhsu305ana-definitions",
+       "topic": "Definitions",
+       "note": "What the words mean.",
+       "children": [
+        {
+         "id": "mdhsu305ana-anaesthesia",
+         "topic": "Anaesthesia",
+         "note": "A reversible, drug-induced loss of sensation; general anaesthesia adds reversible loss of consciousness.",
+         "manas": {
+          "q": "What is general anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-balanced-anaesthesia",
+         "topic": "Balanced anaesthesia",
+         "note": "Combining drugs that each give one part of the triad, so each is used at a lower dose with fewer side effects.",
+         "manas": {
+          "q": "What is balanced anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-sedation-continuum",
+         "topic": "Sedation continuum",
+         "note": "Minimal, moderate and deep sedation shade into general anaesthesia; airway and breathing support needs rise along the scale.",
+         "manas": {
+          "q": "What are the levels of the sedation continuum?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-phases-of-an-anaesthetic",
+         "topic": "Phases of an anaesthetic",
+         "note": "Induction, maintenance and emergence, followed by recovery in the post-anaesthesia care unit.",
+         "manas": {
+          "q": "What are the phases of a general anaesthetic?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-history-milestones",
+       "topic": "History milestones",
+       "note": "Beyond Morton's 1846 ether demonstration.",
+       "children": [
+        {
+         "id": "mdhsu305ana-nitrous-oxide",
+         "topic": "Nitrous oxide",
+         "note": "Horace Wells, a dentist, used nitrous oxide for tooth extraction in 1844; his public demonstration in 1845 was judged a failure.",
+         "manas": {
+          "q": "Which dentist pioneered nitrous oxide for dental extraction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-chloroform",
+         "topic": "Chloroform",
+         "note": "James Young Simpson introduced chloroform in Edinburgh in 1847; John Snow gave it to Queen Victoria in childbirth in 1853.",
+         "manas": {
+          "q": "Who introduced chloroform anaesthesia in 1847?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-local-anaesthesia",
+         "topic": "Local anaesthesia",
+         "note": "Carl Koller used cocaine as a topical anaesthetic for eye surgery in 1884.",
+         "manas": {
+          "q": "Who first used cocaine for eye surgery?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-spinal-anaesthesia",
+         "topic": "Spinal anaesthesia",
+         "note": "August Bier performed spinal anaesthesia with cocaine in 1898.",
+         "manas": {
+          "q": "Who performed the first spinal anaesthetic?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-muscle-relaxants",
+         "topic": "Muscle relaxants",
+         "note": "Griffith and Johnson introduced curare into anaesthesia in 1942, allowing lighter anaesthesia with good relaxation.",
+         "manas": {
+          "q": "When was curare introduced into anaesthesia?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-drug-classes",
+       "topic": "Drug classes",
+       "note": "Main groups; no doses here.",
+       "children": [
+        {
+         "id": "mdhsu305ana-iv-induction-agents",
+         "topic": "IV induction agents",
+         "note": "Propofol, thiopental, ketamine and etomidate produce rapid loss of consciousness; propofol and thiopental lower blood pressure, etomidate is cardiostable and ketamine tends to raise it.",
+         "manas": {
+          "q": "Name four intravenous induction agents."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-inhalational-agents",
+         "topic": "Inhalational agents",
+         "note": "Sevoflurane, isoflurane, desflurane and nitrous oxide; volatiles are usually used to maintain anaesthesia.",
+         "manas": {
+          "q": "Name common inhalational anaesthetic agents."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-mac",
+         "topic": "MAC",
+         "note": "Minimum alveolar concentration: the alveolar concentration that stops movement to a surgical incision in 50% of patients; a measure of potency.",
+         "manas": {
+          "q": "What is minimum alveolar concentration (MAC)?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-sevoflurane-for-gas-induction",
+         "topic": "Sevoflurane for gas induction",
+         "note": "It is not irritant to the airway and acts quickly, so it is the usual choice for inhalational induction, e.g. in children.",
+         "manas": {
+          "q": "Why is sevoflurane used for inhalational induction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-opioids",
+         "topic": "Opioids",
+         "note": "Fentanyl, morphine and similar drugs give analgesia and blunt responses to surgery; they can depress breathing and cause nausea.",
+         "manas": {
+          "q": "What is the main dangerous side effect of opioids in anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-neuromuscular-blockers",
+         "topic": "Neuromuscular blockers",
+         "note": "Depolarising (suxamethonium) or non-depolarising (rocuronium, atracurium, vecuronium); they paralyse but give no sleep or analgesia.",
+         "manas": {
+          "q": "What are the two classes of neuromuscular blockers?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-reversal-agents",
+         "topic": "Reversal agents",
+         "note": "Neostigmine (given with an anticholinergic) reverses non-depolarising block; sugammadex encapsulates rocuronium and vecuronium.",
+         "manas": {
+          "q": "How does sugammadex reverse rocuronium?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-local-anaesthetics",
+         "topic": "Local anaesthetics",
+         "note": "Block voltage-gated sodium channels in nerves; amides (lidocaine, bupivacaine) and esters (e.g. procaine).",
+         "manas": {
+          "q": "How do local anaesthetics block nerve conduction?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-preoperative-assessment",
+       "topic": "Preoperative assessment",
+       "note": "Find and fix risk before theatre.",
+       "children": [
+        {
+         "id": "mdhsu305ana-anaesthetic-history",
+         "topic": "Anaesthetic history",
+         "note": "Previous anaesthetics and problems, family history of anaesthetic reactions, exercise tolerance, smoking, drugs and allergies.",
+         "manas": {
+          "q": "What should the anaesthetic history ask about?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-family-anaesthetic-problems",
+         "topic": "Family anaesthetic problems",
+         "note": "Ask about malignant hyperthermia or prolonged paralysis after suxamethonium in relatives; both are inherited.",
+         "manas": {
+          "q": "Which inherited anaesthetic problems should be asked about in the family history?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-airway-assessment",
+         "topic": "Airway assessment",
+         "note": "Mouth opening, Mallampati class, teeth, thyromental distance, jaw movement and neck extension predict difficult airway.",
+         "manas": {
+          "q": "Which bedside findings predict a difficult airway?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-targeted-investigations",
+         "topic": "Targeted investigations",
+         "note": "Order tests because of the patient's illness and the surgery planned, not routinely for everyone.",
+         "manas": {
+          "q": "Should preoperative tests be routine for all patients?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-medicines-plan",
+         "topic": "Medicines plan",
+         "note": "Most regular medicines continue; anticoagulants, antiplatelets and diabetes drugs need a specific plan.",
+         "manas": {
+          "q": "Which drug groups need a specific preoperative plan?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-consent",
+         "topic": "Consent",
+         "note": "Explain the anaesthetic plan, common side effects and serious risks, and alternatives, so the patient can decide.",
+         "manas": {
+          "q": "What should anaesthetic consent cover?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-asa-physical-status",
+       "topic": "ASA physical status",
+       "note": "A grade of fitness, not of surgical risk alone.",
+       "children": [
+        {
+         "id": "mdhsu305ana-asa-iii",
+         "topic": "ASA I–II",
+         "note": "I: a normal healthy patient. II: mild systemic disease without limitation.",
+         "manas": {
+          "q": "What do ASA I and ASA II mean?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-asa-iiiiv",
+         "topic": "ASA III–IV",
+         "note": "III: severe systemic disease. IV: severe systemic disease that is a constant threat to life.",
+         "manas": {
+          "q": "What do ASA III and ASA IV mean?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-asa-vvi",
+         "topic": "ASA V–VI",
+         "note": "V: moribund, not expected to survive without the operation. VI: brain-dead organ donor.",
+         "manas": {
+          "q": "What do ASA V and ASA VI mean?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-the-e-suffix",
+         "topic": "The E suffix",
+         "note": "E is added for an emergency operation, e.g. ASA III E.",
+         "manas": {
+          "q": "What does the suffix E mean in ASA grading?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-fasting",
+       "topic": "Fasting",
+       "note": "Reducing aspiration risk.",
+       "children": [
+        {
+         "id": "mdhsu305ana-why-fast",
+         "topic": "Why fast",
+         "note": "An empty stomach lowers the risk of regurgitation and aspiration once airway reflexes are lost.",
+         "manas": {
+          "q": "Why are patients fasted before anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-traditional-2-4-6-rule",
+         "topic": "Traditional 2-4-6 rule",
+         "note": "Clear fluids up to 2 h, breast milk up to 4 h, and solids or formula up to 6 h before elective anaesthesia.",
+         "manas": {
+          "q": "What is the traditional 2-4-6 fasting rule?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-harm-of-over-fasting",
+         "topic": "Harm of over-fasting",
+         "note": "Long fasts cause thirst, hunger, dehydration and, in children, distress and low blood sugar risk; aim for the shortest safe fast.",
+         "manas": {
+          "q": "What harms follow over-long preoperative fasting?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-fasting-does-not-suffice",
+         "topic": "Fasting does not suffice",
+         "note": "Emergencies, bowel obstruction, pregnancy and trauma may keep a full stomach despite fasting; plan an RSI.",
+         "manas": {
+          "q": "Which patients may have a full stomach despite fasting?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-monitoring",
+       "topic": "Monitoring",
+       "note": "What every anaesthetic needs.",
+       "children": [
+        {
+         "id": "mdhsu305ana-core-monitors",
+         "topic": "Core monitors",
+         "note": "Pulse oximetry, non-invasive blood pressure, ECG and capnography, plus inspired oxygen and agent levels, and temperature where needed.",
+         "manas": {
+          "q": "What are the core monitors during general anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-capnography",
+         "topic": "Capnography",
+         "note": "Waveform CO2 confirms the tube is in the trachea and shows ventilation, circulation and disconnection.",
+         "manas": {
+          "q": "What does waveform capnography confirm after intubation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-the-anaesthetist-present",
+         "topic": "The anaesthetist present",
+         "note": "A trained anaesthetist must be present throughout; machines support, not replace, clinical watching.",
+         "manas": {
+          "q": "Who must be present throughout every anaesthetic?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-airway-devices",
+         "topic": "Airway devices",
+         "note": "Face mask, supraglottic airway (e.g. laryngeal mask) or tracheal tube, chosen by surgery, aspiration risk and access.",
+         "manas": {
+          "q": "What airway devices are used in general anaesthesia?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-regional-versus-general",
+       "topic": "Regional versus general",
+       "note": "Choosing the technique.",
+       "children": [
+        {
+         "id": "mdhsu305ana-spinal-anaesthesia-2",
+         "topic": "Spinal anaesthesia",
+         "note": "Local anaesthetic into CSF in the subarachnoid space below the end of the cord: dense, fast block for lower body surgery.",
+         "manas": {
+          "q": "Where is local anaesthetic injected in a spinal anaesthetic?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-epidural",
+         "topic": "Epidural",
+         "note": "Local anaesthetic into the epidural space, usually through a catheter: slower onset, can be topped up, used in labour.",
+         "manas": {
+          "q": "How does an epidural differ from a spinal?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-peripheral-nerve-blocks",
+         "topic": "Peripheral nerve blocks",
+         "note": "Local anaesthetic around a nerve or plexus, often ultrasound-guided, for a limb or area.",
+         "manas": {
+          "q": "What is a peripheral nerve block?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-regional-advantages",
+         "topic": "Regional advantages",
+         "note": "Patient stays awake with own airway, good pain relief after surgery, less nausea; useful for caesarean section.",
+         "manas": {
+          "q": "What are the advantages of regional anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-spinal-hypotension",
+         "topic": "Spinal hypotension",
+         "note": "Sympathetic block dilates vessels and lowers blood pressure; treated with fluids and vasopressors.",
+         "manas": {
+          "q": "Why does a spinal anaesthetic lower blood pressure?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-post-dural-puncture-headache",
+         "topic": "Post-dural puncture headache",
+         "note": "Headache worse when upright after the dura is punctured; finer, pencil-point needles reduce it.",
+         "manas": {
+          "q": "What is typical of a post-dural puncture headache?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-neuraxial-contraindications",
+         "topic": "Neuraxial contraindications",
+         "note": "Patient refusal, coagulopathy, infection at the site, uncorrected hypovolaemia and raised intracranial pressure.",
+         "manas": {
+          "q": "Name contraindications to spinal anaesthesia."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-complications-and-safety",
+       "topic": "Complications and safety",
+       "note": "What can go wrong.",
+       "children": [
+        {
+         "id": "mdhsu305ana-common-minor-effects",
+         "topic": "Common minor effects",
+         "note": "Nausea and vomiting, sore throat, shivering, drowsiness and minor dental or lip injury.",
+         "manas": {
+          "q": "Name common minor complications of general anaesthesia."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-anaphylaxis",
+         "topic": "Anaphylaxis",
+         "note": "Sudden hypotension, bronchospasm or rash after a drug, often a relaxant or antibiotic; adrenaline is the key treatment.",
+         "manas": {
+          "q": "What is the key treatment for anaphylaxis under anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-last",
+         "topic": "LAST",
+         "note": "Local anaesthetic systemic toxicity: perioral tingling, tinnitus, seizures, arrhythmias; stop injecting, support ABC, give lipid emulsion.",
+         "manas": {
+          "q": "What is the specific treatment for local anaesthetic systemic toxicity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-hypothermia",
+         "topic": "Hypothermia",
+         "note": "Anaesthesia impairs heat control; warm fluids and the patient and monitor temperature in long cases.",
+         "manas": {
+          "q": "Why do patients get cold under anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-helsinki-declaration",
+         "topic": "Helsinki Declaration",
+         "note": "A 2010 European declaration on patient safety in anaesthesiology, endorsing the WHO checklist and safety protocols.",
+         "manas": {
+          "q": "What is the Helsinki Declaration in anaesthesia?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick points examiners like.",
+       "children": [
+        {
+         "id": "mdhsu305ana-relaxants-give-no-sleep",
+         "topic": "Relaxants give no sleep",
+         "note": "A paralysed patient may be awake; never give a relaxant without anaesthesia.",
+         "manas": {
+          "q": "Why must a muscle relaxant never be given without anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-asa-is-not-surgical-risk",
+         "topic": "ASA is not surgical risk",
+         "note": "ASA grades the patient's illness; it ignores the operation, so it is only part of risk assessment.",
+         "manas": {
+          "q": "What does ASA physical status not account for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-lower-mac-more-potent",
+         "topic": "Lower MAC, more potent",
+         "note": "A lower MAC means a more potent agent; MAC falls with age, pregnancy and opioids.",
+         "manas": {
+          "q": "What does a low MAC value mean?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "How guidance compares; Kenya first.",
+       "children": [
+        {
+         "id": "mdhsu305ana-kenya",
+         "topic": "Kenya",
+         "note": "Kenyan theatres follow MoH and hospital anaesthesia protocols and use the WHO surgical safety checklist.",
+         "manas": {
+          "q": "Which checklist is used in Kenyan theatres?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-who-wfsa-standards",
+         "topic": "WHO-WFSA standards",
+         "note": "WHO and the World Federation of Societies of Anaesthesiologists issued international standards for safe anaesthesia practice in 2018.",
+         "manas": {
+          "q": "Which two bodies issued the 2018 international standards for safe anaesthesia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-usa-asa",
+         "topic": "USA: ASA",
+         "note": "The American Society of Anesthesiologists publishes the physical status classification and fasting guidance used worldwide.",
+         "manas": {
+          "q": "Which body publishes the ASA physical status classification?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-europe-children-s-fluids",
+         "topic": "Europe: children's fluids",
+         "note": "A 2018 consensus of European paediatric anaesthesia societies allows clear fluids up to 1 hour before elective anaesthesia.",
+         "manas": {
+          "q": "How long before anaesthesia may children drink clear fluids in the 2018 European consensus?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-09.",
+       "manas": {
+        "checked": "2026-11-09"
+       },
+       "children": [
+        {
+         "id": "mdhsu305ana-esaic-preop-guideline",
+         "topic": "ESAIC preop guideline",
+         "note": "ESAIC's 2025 update (55 recommendations) urges tailored assessment and choosing tests per patient using risk scores, not routine testing.",
+         "manas": {
+          "q": "What does the ESAIC 2025 guideline advise about preoperative tests?",
+          "ref": "Eur J Anaesthesiol 2025"
+         },
+         "hyperLink": "https://doi.org/10.1097/eja.0000000000002069",
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-fasting-history",
+         "topic": "Fasting history",
+         "note": "A narrative review notes clear-fluid fasts were cut to 2 h, yet patients often still fast far longer for organisational reasons; trials are needed.",
+         "manas": {
+          "q": "Why do patients still fast too long, per a 2024 review?",
+          "ref": "BJA Open 2024"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.bjao.2024.100282",
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-checklist-effects",
+         "topic": "Checklist effects",
+         "note": "A review of 300 studies found the safety checklist helped team outcomes more clearly than patient outcomes; how it is done matters.",
+         "manas": {
+          "q": "Which outcomes did the surgical safety checklist improve most clearly?",
+          "ref": "BMJ Qual Saf 2022"
+         },
+         "hyperLink": "https://doi.org/10.1136/bmjqs-2021-014361",
+         "children": []
+        },
+        {
+         "id": "mdhsu305ana-children-s-fasting",
+         "topic": "Children's fasting",
+         "note": "A review found prolonged fasting in children common and harmful; several paediatric societies have shortened clear-fluid times, others have not.",
+         "manas": {
+          "q": "What did a 2023 review say about prolonged fasting in children?",
+          "ref": "Paediatr Anaesth 2023"
+         },
+         "hyperLink": "https://doi.org/10.1111/pan.14738",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu305ana-preoperative-nursing-prioritie",
+       "topic": "📖 Preoperative Nursing Priorities (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/25-2-preoperative-nursing-priorities",
+       "children": []
+      },
+      {
+       "id": "mdhsu305ana-intraoperative-considerations",
+       "topic": "📖 Intraoperative Considerations (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/26-2-intraoperative-considerations",
+       "children": []
+      },
+      {
+       "id": "mdhsu305ana-obstetric-anaesthesia-openstax",
+       "topic": "📖 Obstetric anaesthesia (OpenStax)",
+       "hyperLink": "https://openstax.org/books/maternal-newborn-nursing/pages/17-3-anesthesia",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y3"
   }
  ]
 }
