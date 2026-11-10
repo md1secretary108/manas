@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Manas — Admin set-up</title><link rel="icon" href="icon-192.png">
+<style>
+:root{--bg:#fbfaf7;--fg:#1f2328;--mut:#5b6470;--acc:#c2620a;--line:#e3ded6;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--fg:#e8e6e3;--mut:#a3a9b1;--acc:#f0a050;--line:#2c3036;--card:#1d2024}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:1.7em;margin:.2em 0} h2{font-size:1.25em;margin-top:1.8em;border-bottom:1px solid var(--line);padding-bottom:.2em}
+a{color:var(--acc)} li{margin:.25em 0} hr{border:0;border-top:1px solid var(--line);margin:1.5em 0}
+table{border-collapse:collapse;width:100%;font-size:.94em;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top} th{background:var(--card)}
+.open{display:inline-block;margin:8px 0 4px;padding:10px 18px;border-radius:24px;background:var(--acc);color:#fff;text-decoration:none;font-weight:600}
+</style></head><body><main>
+<a class="open" href="./">Open Manas →</a>
+<h1>Manas — Admin set-up (one page, for KKD)</h1>
+<p>The Admin panel in the app (home menu ⋮ → <strong>Admin</strong>) approves and removes people, sets library levels and issues class codes. It works only once the <strong>v7 sheet script</strong> (v7 includes everything from v4–v6) is deployed on the MD1 secretary Google account. Until then the panel says <em>Not connected yet — see setup</em>. About 15 minutes, once. Nothing here costs money.</p>
+<h2>Before you start</h2>
+<ul>
+<li>Sign in to Google as the <strong>MD1 secretary account</strong> (the one that owns the sheet "Manas updates list"). Not the Halcyon account.</li>
+<li>Have the file <strong><code>tools/manas-apps-script-v7.gs</code></strong> open on the laptop (Notepad is fine). Select all, copy.</li>
+</ul>
+<h2>1. Open the script project</h2>
+<ol>
+<li>Go to <strong>script.google.com</strong>. You see "My projects". Open the project that holds the Manas updates script (it was made when email updates were set up; its name is usually <em>Manas updates</em> or <em>Untitled project</em>). If you cannot find it, open the sheet "Manas updates list" → <strong>Extensions → Apps Script</strong>.</li>
+<li>In the editor, click inside the code, press <strong>Ctrl+A</strong> then <strong>Ctrl+V</strong> so the whole old file is replaced by v6. Press <strong>Ctrl+S</strong> (💾 Save project).</li>
+</ol>
+<h2>2. Run <code>setupAccess</code></h2>
+<ol>
+<li>At the top of the editor there is a drop-down showing a function name (next to ▶ Run and 🐞 Debug). Click it and choose <strong>setupAccess</strong>.</li>
+<li>Click <strong>▶ Run</strong>. The first time, Google asks for permission: <strong>Review permissions → choose the MD1 account → Advanced → Go to … (unsafe) → Allow.</strong> (It is your own script; "unsafe" only means Google has not reviewed it.)</li>
+<li>Wait for <em>Execution completed</em> in the log at the bottom. New tabs (Libraries, Grants, Groups, Devices, Agreements, Log, Keys) now exist in the sheet. Running it again is harmless.</li>
+</ol>
+<h2>3. Run <code>setupKeys</code> and save the secret</h2>
+<ol>
+<li>In the same drop-down choose <strong>setupKeys</strong> → <strong>▶ Run</strong>.</li>
+<li>The log shows one line <strong><code>KEYS_SECRET: …</code></strong> (a long code). Select the code only and copy it.</li>
+<li>On the laptop make the file <strong><code>C:\Users\Kewal\Kewal AI Projects\Manas\keys\manas-keys-secret.txt</code></strong> with that code as its only line (Notepad → Save as → All files → that name). The <code>keys\</code> folder is never backed up or published. If Controlled Folder Access blocks Notepad, save to the Desktop and drag the file into <code>keys\</code>.</li>
+<li>Never paste the code anywhere else. If it leaks, run <code>setupKeys</code> again after deleting <code>KEYS_SECRET</code> under <strong>Project Settings → Script Properties</strong>, and tell Claude.</li>
+</ol>
+<h2>4. Redeploy (same web address)</h2>
+<ol>
+<li>Top right: <strong>Deploy → Manage deployments</strong>.</li>
+<li>Click the ✏️ pencil on the existing deployment.</li>
+<li><strong>Version → New version</strong>. Leave <em>Execute as: Me</em> and <em>Who has access: Anyone</em>. Click <strong>Deploy</strong>, then <strong>Done</strong>.</li>
+<li>The web-app URL must stay the one in <code>web/config.json</code> (…<code>/exec</code>). If you accidentally made a <em>New deployment</em> instead, copy its URL and send it to Claude — otherwise nothing else changes.</li>
+</ol>
+<h2>5. Test one approval</h2>
+<ol>
+<li>On your own phone open Manas (your email is the super admin), home menu ⋮ → <strong>Admin</strong>. The Requests tab should load (empty is fine) instead of <em>Not connected yet</em>.</li>
+<li>From a second phone or a browser window (another email), open any 🔒 library → <strong>Request access</strong> → send.</li>
+<li>Back on your phone: Admin → <strong>Requests</strong> shows the request → <strong>Approve</strong>. On the second device tap <strong>Check again</strong> → the library opens.</li>
+<li>Admin → <strong>Log</strong> shows both lines. Done.</li>
+</ol>
+<h2>If something is wrong</h2>
+<ul>
+<li><em>Not connected yet</em> still showing → step 4 was skipped, or an old deployment is live: Deploy → Manage deployments → the active one must say the latest version.</li>
+<li><em>Only an admin can do that</em> → you are signed in to Manas with an email that is not in <code>SUPER_ADMINS</code> in the script (kewal@…). Change the email in Manas (home menu → Email) to that one.</li>
+<li>The log says <em>run setupAccess first</em> → step 2 again.</li>
+<li>Anything else: send Claude the exact words from the log at the bottom of the editor.</li>
+</ul>
+<p>Related: docs/ACCESS-CONTROL.md (the design), docs/EMAIL-UPDATES.md (how the script was first set up), tools/encrypt-library.py (uses the secret from step 3).</p></body></html>
