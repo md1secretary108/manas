@@ -156,7 +156,7 @@
    "icon": "🤖",
    "file": "lib-ai.json",
    "root": "ai-root",
-   "whatsNew": "New: Ethics case studies from around the world and AI in government and public services; news refreshed: GPT-6 Cyber, Genie 4 world model, AI agents for drug chemistry, EU AI Act new dates and bans (7 Nov)",
+   "whatsNew": "New: A small business AI starter plan and Experiments and A/B testing; news refreshed: Claude Fable 5.2 and Mythos 5.2, OpenAI's Control Room safety stop switch, Claude's physics and proof claims (10 Nov)",
    "about": {
     "by": "Manas, for anyone learning AI — beginners and students",
     "from": "Wikipedia, research papers (Europe PMC), free courses; YouTube videos from universities and well-known teachers",
@@ -164,8 +164,8 @@
     "date": "14 Oct 2026"
    },
    "parts": 9,
-   "v": 1794030650,
-   "meta": "63 maps · 3,788 ideas · 882 KB · 9 subjects",
+   "v": 1794289712,
+   "meta": "65 maps · 3,950 ideas · 926 KB · 9 subjects",
    "split": "lib-ai-index.json"
   },
   {
