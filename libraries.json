@@ -44,16 +44,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "267 maps · 18,052 ideas · 12.9 MB · 13 series + index",
-   "parts": 14,
+   "meta": "273 maps · 18,405 ideas · 13.2 MB · 14 series + index",
+   "parts": 15,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1794285785,
-   "whatsNew": "New series: 30 Qualities That Satisfy Krishna — 25 classes from ISKCON Lagos (SB 7.11.8–12), each a map",
+   "v": 1794396517,
+   "whatsNew": "New series: Madhurya Kadambini — Causes of Distress — 5 sessions (Visvanatha Cakravarti Thakura's five causes of distress, online, Nov 2021), each a map",
    "split": "lib-bdds-index.json"
   },
   {
@@ -107,10 +107,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New: Advanced Management Accounting CA34S3 — 1. Performance management and the balanced scorecard, 2. Activity-based and modern costing, 3. Transfer pricing (CA34S3 complete); Advanced Taxation CA34S1 — 1. International tax, 2. Tax planning (CA34S1 complete) (10 Nov)",
-   "meta": "121 maps · 9,442 ideas · 2.1 MB · 4 subjects",
+   "whatsNew": "New: Advanced Auditing and Assurance CA34S2 — 1. Group audits, 2. Quality management, 3. Other assurance engagements (CA34S2 complete); Advanced Public Financial Management CA34S4 — 1. Public sector accounting (IPSAS), 2. Managing public money (CA34S4 complete) (11 Nov)",
+   "meta": "126 maps · 9,911 ideas · 2.2 MB · 4 subjects",
    "parts": 4,
-   "v": 1794290614,
+   "v": 1794396184,
    "split": "lib-acc-index.json"
   },
   {
