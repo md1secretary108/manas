@@ -14,16 +14,16 @@ th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-alig
 </style></head><body><main>
 <a class="open" href="./">Open Manas →</a>
 <h1>Manas — Admin set-up (one page, for KKD)</h1>
-<p>The Admin panel in the app (home menu ⋮ → <strong>Admin</strong>) approves and removes people, sets library levels and issues class codes. It works only once the <strong>v7 sheet script</strong> (v7 includes everything from v4–v6) is deployed on the MD1 secretary Google account. Until then the panel says <em>Not connected yet — see setup</em>. About 15 minutes, once. Nothing here costs money.</p>
+<p>The Admin panel in the app (home menu ⋮ → <strong>Admin</strong>) approves and removes people, sets library levels and issues class codes. It works only once the <strong>v8 sheet script</strong> (v8 includes everything from v4–v7; v8 adds the People table) is deployed on the MD1 secretary Google account. Until then the panel says <em>Not connected yet — see setup</em>. About 15 minutes, once. Nothing here costs money.</p>
 <h2>Before you start</h2>
 <ul>
 <li>Sign in to Google as the <strong>MD1 secretary account</strong> (the one that owns the sheet "Manas updates list"). Not the Halcyon account.</li>
-<li>Have the file <strong><code>tools/manas-apps-script-v7.gs</code></strong> open on the laptop (Notepad is fine). Select all, copy.</li>
+<li>Have the file <strong><code>tools/manas-apps-script-v8.gs</code></strong> open on the laptop (Notepad is fine). Select all, copy.</li>
 </ul>
 <h2>1. Open the script project</h2>
 <ol>
 <li>Go to <strong>script.google.com</strong>. You see "My projects". Open the project that holds the Manas updates script (it was made when email updates were set up; its name is usually <em>Manas updates</em> or <em>Untitled project</em>). If you cannot find it, open the sheet "Manas updates list" → <strong>Extensions → Apps Script</strong>.</li>
-<li>In the editor, click inside the code, press <strong>Ctrl+A</strong> then <strong>Ctrl+V</strong> so the whole old file is replaced by v6. Press <strong>Ctrl+S</strong> (💾 Save project).</li>
+<li>In the editor, click inside the code, press <strong>Ctrl+A</strong> then <strong>Ctrl+V</strong> so the whole old file is replaced by v8. Press <strong>Ctrl+S</strong> (💾 Save project).</li>
 </ol>
 <h2>2. Run <code>setupAccess</code></h2>
 <ol>

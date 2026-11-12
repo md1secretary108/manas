@@ -1,5 +1,5 @@
 {
- "version": "7.28",
- "note": "Documentation check on every build; Admin set-up page",
+ "version": "7.29",
+ "note": "Admin → People is now a table: one tap per library per person, Save with a summary.",
  "apk": "https://md1secretary108.github.io/manas/Manas.apk"
 }

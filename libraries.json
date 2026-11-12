@@ -15,7 +15,8 @@
     "date": "28 Sep 2026"
    },
    "v": 1794283194,
-   "whatsNew": "Deeper: On the Way to Krsna — all 5 chapters in depth, 253 ideas, 56 flashcards (10 Nov)"
+   "whatsNew": "Deeper: On the Way to Krsna — all 5 chapters in depth, 253 ideas, 56 flashcards (10 Nov)",
+   "short": "Books"
   },
   {
    "id": "pbio",
@@ -35,7 +36,8 @@
    "v": 1794196635,
    "meta": "6 maps · 1,151 ideas · 500 KB · 1 subjects",
    "whatsNew": "New: Chapter 2 in depth — college, marriage, Purī, Gandhi and khādī (77 ideas, 9 Nov)",
-   "split": "lib-pbio-index.json"
+   "split": "lib-pbio-index.json",
+   "short": "SPLife"
   },
   {
    "id": "bdds",
@@ -54,7 +56,8 @@
    },
    "v": 1794396517,
    "whatsNew": "New series: Madhurya Kadambini — Causes of Distress — 5 sessions (Visvanatha Cakravarti Thakura's five causes of distress, online, Nov 2021), each a map",
-   "split": "lib-bdds-index.json"
+   "split": "lib-bdds-index.json",
+   "short": "Maharaj"
   },
   {
    "id": "sgd",
@@ -73,7 +76,8 @@
    },
    "v": 1794023790,
    "whatsNew": "Deeper: Gita Week Day 1 — Why read the Gita (all 7 Gita Mahatmya verses) and BG 2.7 'You tell me' (surrender), 62 new ideas (7 Nov)",
-   "split": "lib-sgd-index.json"
+   "split": "lib-sgd-index.json",
+   "short": "SGD"
   },
   {
    "id": "mbchb",
@@ -92,7 +96,8 @@
    "parts": 6,
    "v": 1794200357,
    "whatsNew": "6 new in-depth topics: thyroid function tests, herpesviruses, female pelvic anatomy, paediatric history and examination, introduction to anaesthesia, fatty acid oxidation — 416 ideas, 19 new research papers",
-   "split": "lib-mbchb-index.json"
+   "split": "lib-mbchb-index.json",
+   "short": "Med"
   },
   {
    "id": "acc",
@@ -111,7 +116,8 @@
    "meta": "126 maps · 9,911 ideas · 2.2 MB · 4 subjects",
    "parts": 4,
    "v": 1794396184,
-   "split": "lib-acc-index.json"
+   "split": "lib-acc-index.json",
+   "short": "Acc"
   },
   {
    "id": "cpa31",
@@ -128,7 +134,8 @@
     "from": "CA31 tutorial notes (Topics 5, 6, 7) restated in Manas’s own words; KASNEB paper structure",
     "review": "review in progress",
     "date": "6 Oct 2026"
-   }
+   },
+   "short": "CA31"
   },
   {
    "id": "soil",
@@ -147,7 +154,8 @@
     "date": "2 Nov 2026"
    },
    "parts": 11,
-   "split": "lib-soil-index.json"
+   "split": "lib-soil-index.json",
+   "short": "Soil"
   },
   {
    "id": "ai",
@@ -166,7 +174,8 @@
    "parts": 9,
    "v": 1794289712,
    "meta": "65 maps · 3,950 ideas · 926 KB · 9 subjects",
-   "split": "lib-ai-index.json"
+   "split": "lib-ai-index.json",
+   "short": "AI"
   },
   {
    "id": "law",
@@ -186,7 +195,8 @@
    "meta": "33 maps · 2,072 ideas · 563 KB · 16 subjects",
    "parts": 16,
    "v": 1794310159,
-   "split": "lib-law-index.json"
+   "split": "lib-law-index.json",
+   "short": "Law"
   },
   {
    "id": "statute",
@@ -206,7 +216,8 @@
    "v": 1793964919,
    "meta": "9 maps · 327 ideas · 149 KB · 4 subjects",
    "whatsNew": "New library: Chapters 1–4, Articles 1–59, each linked to klrc.go.ke; 2 Supreme Court cases (Fri 6 Nov)",
-   "split": "lib-statute-index.json"
+   "split": "lib-statute-index.json",
+   "short": "Const"
   },
   {
    "id": "eng",
@@ -226,7 +237,8 @@
    "v": 1794051162,
    "meta": "5 maps · 171 ideas · 80 KB · 2 subjects",
    "whatsNew": "New library: Units, dimensions and estimation; Statics with free-body diagrams — 144 ideas, every bubble linked to OpenStax (Sat 7 Nov)",
-   "split": "lib-eng-index.json"
+   "split": "lib-eng-index.json",
+   "short": "Eng"
   },
   {
    "id": "cbc",
@@ -246,7 +258,8 @@
    "meta": "13 maps · 792 ideas · 179 KB · 6 subjects",
    "parts": 6,
    "v": 1793791678,
-   "split": "lib-cbc-index.json"
+   "split": "lib-cbc-index.json",
+   "short": "CBC"
   },
   {
    "id": "igcse",
@@ -266,7 +279,8 @@
    "meta": "17 maps · 1,392 ideas · 610 KB · 5 subjects",
    "parts": 5,
    "v": 1793877871,
-   "split": "lib-igcse-index.json"
+   "split": "lib-igcse-index.json",
+   "short": "IGCSE"
   },
   {
    "id": "security",
@@ -286,7 +300,8 @@
    "parts": 1,
    "v": 1793610089,
    "meta": "4 maps · 105 ideas · 42 KB · 1 subjects",
-   "split": "lib-security-index.json"
+   "split": "lib-security-index.json",
+   "short": "Sec"
   },
   {
    "id": "energy",
@@ -306,7 +321,8 @@
    "parts": 1,
    "v": 1793698176,
    "meta": "3 maps · 73 ideas · 24 KB · 1 subjects",
-   "split": "lib-energy-index.json"
+   "split": "lib-energy-index.json",
+   "short": "Energy"
   }
  ]
 }
