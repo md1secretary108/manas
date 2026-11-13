@@ -201,7 +201,7 @@
   {
    "id": "statute",
    "title": "Constitution of Kenya 2010 — article by article · draft",
-   "subtitle": "Draft for review: the Constitution of Kenya 2010 one Article at a time, in plain words, every bubble linked to the official text — Chapters 1–4 so far (sovereignty and supremacy, the Republic, citizenship, the Bill of Rights), with flashcards and the cases that applied them.",
+   "subtitle": "Draft for review: the Constitution of Kenya 2010 one Article at a time, in plain words, every bubble linked to the official text — Chapters 1–6 so far (sovereignty and supremacy, the Republic, citizenship, the Bill of Rights, land and environment, leadership and integrity), with flashcards and the cases that applied them.",
    "icon": "📜",
    "file": "lib-statute.json",
    "root": "statute-root",
@@ -212,10 +212,10 @@
     "review": "Draft · review in progress",
     "date": "6 Nov 2026"
    },
-   "parts": 4,
-   "v": 1793964919,
-   "meta": "9 maps · 327 ideas · 149 KB · 4 subjects",
-   "whatsNew": "New library: Chapters 1–4, Articles 1–59, each linked to klrc.go.ke; 2 Supreme Court cases (Fri 6 Nov)",
+   "parts": 6,
+   "v": 1794569081,
+   "meta": "13 maps · 500 ideas · 216 KB · 6 subjects",
+   "whatsNew": "New: Chapter 5 Land and environment (Art. 60–72) and Chapter 6 Leadership and integrity (Art. 73–80), each Article linked to klrc.go.ke; 1 Court of Appeal case (Fri 13 Nov)",
    "split": "lib-statute-index.json",
    "short": "Const"
   },
