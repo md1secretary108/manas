@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<!-- Manas: the page that email links open (confirm a phone, confirm updates, unsubscribe). It asks the Manas script in the background,
+     so it works whatever Google accounts the browser is signed in to. (c) 2026 Kewal Bhatt (Keval Krishna Das), Nairobi. -->
+<title>Manas</title>
+<style>
+html,body{margin:0;height:100%}
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#F7F5FF;color:#22203A;display:flex;align-items:center;justify-content:center}
+main{max-width:480px;padding:0 22px;text-align:center}
+h1{font-size:28px;line-height:1.2;margin:0 0 12px}
+p{font-size:17px;line-height:1.5;margin:0 0 14px}
+.foot{color:#6B6889;font-size:13px;margin-top:36px}
+button,a.btn{display:inline-block;font:inherit;font-weight:600;font-size:17px;min-height:48px;padding:12px 26px;border-radius:999px;border:0;background:#22203A;color:#fff;text-decoration:none;cursor:pointer}
+button:focus-visible,a.btn:focus-visible{outline:3px solid #F0A030;outline-offset:3px}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#F0A030;margin:0 4px;animation:b 1s ease-in-out infinite alternate}
+.dot:nth-child(2){animation-delay:.2s}.dot:nth-child(3){animation-delay:.4s}
+@keyframes b{to{transform:translateY(-8px);opacity:.4}}
+@media(prefers-reduced-motion:reduce){.dot{animation:none}}
+@media(prefers-color-scheme:dark){body{background:#17152B;color:#F3F1FF}.foot{color:#B9B4DA}button,a.btn{background:#F0A030;color:#1B1930}}
+</style>
+</head>
+<body>
+<main>
+  <h1 id="h">One moment…</h1>
+  <p id="p" aria-live="polite"><span class="dot"></span><span class="dot"></span><span class="dot"></span></p>
+  <p id="act" hidden><button id="again" type="button">Try again</button></p>
+  <p class="foot">Manas · a study library, and beyond</p>
+</main>
+<script>
+(function(){
+  var FALLBACK = 'https://script.google.com/macros/s/AKfycbwyvJ3pOhn3-6lGwWlhSwwjHt_o5nef0ZJA1zAK8oU_9VIg1xIRM65jKykiIPAW8aQ/exec';
+  var q = new URLSearchParams(location.search), a = q.get('a') || '', t = q.get('t') || '';
+  var h = document.getElementById('h'), p = document.getElementById('p'), act = document.getElementById('act');
+  function show(title, text, retry){ h.textContent = title; p.textContent = text; act.hidden = !retry; }
+  function endpoint(){
+    return fetch('config.json?t=' + Math.floor(Date.now() / 3600000), { cache: 'no-store' }).then(function(r){ return r.ok ? r.json() : {}; })
+      .then(function(c){ return (c && c.updates_email_endpoint) || FALLBACK; }).catch(function(){ return FALLBACK; });
+  }
+  function go(){
+    if (!/^(device|confirm|unsub)$/.test(a) || !t || t.length > 200){ show('Manas', 'Nothing to do here.', false); return; }
+    show('One moment…', 'Checking your link.', false);
+    endpoint().then(function(url){
+      return fetch(url, { method: 'POST', body: new URLSearchParams({ action: 'link', a: a, t: t }), credentials: 'omit', redirect: 'follow' });
+    }).then(function(r){ if (!r.ok) throw new Error('http ' + r.status); return r.json(); })
+      .then(function(j){ if (!j || !j.title) throw new Error('empty'); show(String(j.title), String(j.text || ''), false); })
+      .catch(function(){ show('Could not reach Manas', 'Please check your internet connection and try again. Your link is still good.', true); });
+  }
+  document.getElementById('again').onclick = go;
+  go();
+})();
+</script>
+</body>
+</html>
