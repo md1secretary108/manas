@@ -32094,7 +32094,8 @@
        "manas": {
         "orbit": {
          "ref": "Sankhya-yoga"
-        }
+        },
+        "map": "lib-bg-2-deep"
        },
        "children": [
         {
@@ -60930,6 +60931,1006 @@
           "goto": {
            "map": "lib-owk",
            "node": "lib-owk-1"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-bg-2-deep",
+   "title": "Bhagavad-gita 2 · Verse by verse",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794542184711,
+   "updated": 1794542184711,
+   "library": "prabhupada",
+   "deepOf": "m53vwhp2ahiz",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-bg-2-deep-root",
+     "topic": "Bhagavad-gita 2 · Verse by verse",
+     "note": "All 72 verses of Chapter 2, Contents of the Gita Summarized, in five sections, each summarised in our own words with a link to the verse. Also searched as: Sankhya-yoga, sankhya yoga, Gita summary, soul / atma / atman / jiva, eternal soul, reincarnation / transmigration, karma-yoga, buddhi-yoga, sthita-prajna / steady wisdom, nishkama karma, duty / dharma / svadharma, kshatriya / ksatriya. Review in progress.",
+     "hyperLink": "https://vedabase.io/en/library/bg/2/",
+     "manas": {
+      "orbit": {
+       "ref": "BG 2"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-bg-2-deep-s1",
+       "topic": "Verses 1–10 · From grief to discipleship",
+       "note": "Krishna scolds Arjuna’s weakness, Arjuna gives his last reasons not to fight, then admits he is lost and asks Krishna to be his teacher.",
+       "hyperLink": "https://vedabase.io/en/library/bg/2/1/",
+       "children": [
+        {
+         "id": "lib-bg-2-deep-v1",
+         "topic": "Krishna sees Arjuna weeping",
+         "note": "Sanjaya tells the king that Arjuna sits in pity and tears, and Krishna, called Madhusudana, begins to reply.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/1/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.1",
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v2",
+         "topic": "Where did this weakness come from?",
+         "note": "Krishna, speaking as the Supreme Lord, asks how such an unworthy mood has arisen in someone who should know life’s purpose; it brings shame, not elevation.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/2/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.2",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v3",
+         "topic": "Stand up, do not be a coward",
+         "note": "Krishna calls Arjuna, Kunti’s son, to shake off this unmanly faint-heartedness, which is beneath him, and rise to his duty.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/3/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.3",
+           "tag": "Dharma"
+          },
+          "q": "Which verse has Krishna telling Arjuna to give up weakness of heart and stand up?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v4",
+         "topic": "How can I attack my elders?",
+         "note": "Arjuna objects that Bhishma and Drona deserve his reverence, so how could he aim arrows at them?",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/4/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.4",
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v5",
+         "topic": "Begging is better than this",
+         "note": "Arjuna says living on alms would be better than a kingdom won by killing his respected teachers, whatever their faults.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/5/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.5",
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v6",
+         "topic": "We do not even know which is better",
+         "note": "He is unsure whether winning or losing is preferable, since the enemies are relatives whose death would leave life empty.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/6/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.6",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v7",
+         "topic": "I am Your disciple; teach me",
+         "note": "Admitting he is confused about duty, Arjuna surrenders and asks Krishna to tell him with certainty what is truly good for him.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/7/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.7",
+           "tag": "Guru"
+          },
+          "q": "In which verse does Arjuna accept Krishna as his teacher and ask to be instructed?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v8",
+         "topic": "No kingdom can cure this grief",
+         "note": "He says even an unrivalled empire, or rule like the gods, would not remove the sorrow that is drying up his senses.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/8/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.8",
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v9",
+         "topic": "“I will not fight”",
+         "note": "Sanjaya reports that Arjuna tells Govinda he will not fight, and then falls silent.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/9/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.9",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v10",
+         "topic": "Krishna smiles between the armies",
+         "note": "Standing between the two armies, Krishna smiles and begins speaking to the sorrowful Arjuna — the teaching of the Gita starts here.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/10/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.10",
+           "tag": "Guru"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-2-deep-s2",
+       "topic": "Verses 11–30 · The soul is eternal",
+       "note": "Krishna’s first answer: Arjuna grieves for the body, but the real person, the soul, never dies, so the wise do not lament.",
+       "hyperLink": "https://vedabase.io/en/library/bg/2/11/",
+       "children": [
+        {
+         "id": "lib-bg-2-deep-v11",
+         "topic": "The wise do not grieve",
+         "note": "Krishna says Arjuna talks like a scholar yet mourns what needs no mourning; the wise grieve for nobody, alive or dead.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/11/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.11",
+           "tag": "Knowledge"
+          },
+          "q": "Which verse opens Krishna’s teaching by saying the wise do not lament for the living or the dead?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v12",
+         "topic": "We always existed, and always will",
+         "note": "Krishna, Arjuna and all the kings existed in the past and none of them will stop existing in the future — individuality is eternal.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/12/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.12",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v13",
+         "topic": "Childhood, youth, old age — then a new body",
+         "note": "Just as the self passes through the stages of one body, at death it passes on to another; a steady person is not confused by this.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/13/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.13",
+           "tag": "Soul"
+          },
+          "q": "Which verse compares death to the change from boyhood to youth to old age?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v14",
+         "topic": "Joys and sorrows come like seasons",
+         "note": "Pleasure and pain come and go like the cold and hot seasons, born of the senses; one must learn to bear them calmly.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/14/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.14",
+           "tag": "Knowledge"
+          },
+          "q": "Which verse says happiness and distress come and go like winter and summer?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v15",
+         "topic": "Steady in both, fit for liberation",
+         "note": "Whoever stays even-minded through pleasure and pain becomes qualified for liberation.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/15/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.15",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v16",
+         "topic": "What is real does not change",
+         "note": "Seers of truth conclude that the temporary body does not last, while the eternal soul never changes.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/16/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.16",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v17",
+         "topic": "Consciousness spread through the body",
+         "note": "That which spreads throughout the body — consciousness — belongs to the soul, which nobody can destroy.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/17/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.17",
+           "tag": "Soul"
+          },
+          "q": "Which verse says the soul is what pervades the whole body?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v18",
+         "topic": "The body ends — so fight",
+         "note": "The body of the eternal, immeasurable soul is bound to perish, so Krishna urges Arjuna to fight.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/18/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.18",
+           "tag": "Dharma"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v19",
+         "topic": "The self neither kills nor is killed",
+         "note": "Anyone who thinks the soul is a killer, or can be killed, does not understand it.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/19/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.19",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v20",
+         "topic": "Never born, never dies",
+         "note": "The soul has no birth or death at any time; it is unborn, ancient and eternal, and it survives when the body is killed.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/20/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.20",
+           "tag": "Soul"
+          },
+          "q": "Which verse says the soul is never born and never dies?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v21",
+         "topic": "Who then really kills?",
+         "note": "For one who knows the soul is unborn and imperishable, the idea of killing or causing to kill loses its sting.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/21/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.21",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v22",
+         "topic": "Changing bodies like clothes",
+         "note": "As we throw away worn clothes and put on fresh ones, the soul leaves an old body and takes a new one.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/22/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.22",
+           "tag": "Soul"
+          },
+          "q": "Which verse compares changing bodies to changing clothes?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v23",
+         "topic": "Weapons, fire, water and wind cannot touch it",
+         "note": "No blade can cut the soul, no fire burn it, no water wet it, no wind dry it.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/23/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.23",
+           "tag": "Soul"
+          },
+          "q": "Which verse lists the four elements that cannot harm the soul?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v24",
+         "topic": "Everlasting and always the same",
+         "note": "The individual soul cannot be broken or dissolved; it is eternal, everywhere, fixed and unchanging.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/24/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.24",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v25",
+         "topic": "Beyond the senses and the mind",
+         "note": "The soul cannot be seen or imagined and does not change, so there is no reason to mourn the body.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/25/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.25",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v26",
+         "topic": "Even if you think it dies…",
+         "note": "Krishna adds a second argument: even if Arjuna believed life is born and dies with the body, grief would still be pointless.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/26/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.26",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v27",
+         "topic": "Death is certain for the born",
+         "note": "Whatever is born must die and whatever dies is born again, so one should not lament doing an unavoidable duty.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/27/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.27",
+           "tag": "Knowledge"
+          },
+          "q": "Which verse says death is certain for one who is born, and birth for one who dies?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v28",
+         "topic": "Unseen before, seen now, unseen after",
+         "note": "Beings are unmanifest before creation, visible in between, and unmanifest again after — so why grieve?",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/28/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.28",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v29",
+         "topic": "The soul is a wonder",
+         "note": "Some see, describe or hear of the soul as amazing, and some hear yet still do not grasp it.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/29/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.29",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v30",
+         "topic": "The one in the body cannot be killed",
+         "note": "The dweller in every body is beyond slaying, so Arjuna need not grieve for any creature.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/30/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.30",
+           "tag": "Soul"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-2-deep-s3",
+       "topic": "Verses 31–38 · Duty and honour",
+       "note": "Krishna’s second line of reasoning, on Arjuna’s own level: as a warrior, fighting for what is right is his duty, and walking away would bring sin and disgrace.",
+       "hyperLink": "https://vedabase.io/en/library/bg/2/31/",
+       "children": [
+        {
+         "id": "lib-bg-2-deep-v31",
+         "topic": "A righteous fight is your duty",
+         "note": "For a kshatriya, nothing is better than fighting on principle, so there is no reason to hesitate.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/31/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.31",
+           "tag": "Dharma"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v32",
+         "topic": "Lucky are warriors who get such a chance",
+         "note": "A just battle that comes without being sought opens the way to the heavenly planets for a warrior.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/32/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.32",
+           "tag": "Dharma"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v33",
+         "topic": "Refusing brings sin and lost fame",
+         "note": "Neglecting his duty would bring sin and ruin his name as a fighter.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/33/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.33",
+           "tag": "Dharma"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v34",
+         "topic": "Dishonour is worse than death",
+         "note": "People would talk of his disgrace for ever, and for an honoured man that is worse than dying.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/34/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.34",
+           "tag": "Dharma"
+          },
+          "q": "Which verse says that for a respected person dishonour is worse than death?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v35",
+         "topic": "They will say you ran from fear",
+         "note": "The great generals who admired him would decide he fled out of fear and think little of him.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/35/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.35",
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v36",
+         "topic": "Enemies will mock you",
+         "note": "His foes would ridicule his skill with harsh words — nothing could hurt more.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/36/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.36",
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v37",
+         "topic": "Win or die, you gain",
+         "note": "Killed, he reaches heaven; victorious, he rules the earth — so he should rise and fight with resolve.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/37/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.37",
+           "tag": "Dharma"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v38",
+         "topic": "Fight for duty’s sake alone",
+         "note": "Fighting without weighing pleasure or pain, gain or loss, winning or losing, he will incur no sin.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/38/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.38",
+           "tag": "Surrender"
+          },
+          "q": "Which verse asks Arjuna to fight without caring for victory or defeat?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-2-deep-s4",
+       "topic": "Verses 39–53 · Buddhi-yoga: work without craving results",
+       "note": "Having explained the soul analytically (sankhya), Krishna now teaches how to act without seeking the fruits — the yoga of intelligence that frees one from karma.",
+       "hyperLink": "https://vedabase.io/en/library/bg/2/39/",
+       "children": [
+        {
+         "id": "lib-bg-2-deep-v39",
+         "topic": "Now hear it as practice",
+         "note": "Krishna moves from analysis to action: working in this knowledge, without wanting the fruits, cuts the bonds of karma.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/39/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.39",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v40",
+         "topic": "No effort is ever lost",
+         "note": "On this path nothing is wasted, and even a little progress saves one from the greatest danger.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/40/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.40",
+           "tag": "Mercy"
+          },
+          "q": "Which verse says a little progress on this path protects from the greatest fear?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v41",
+         "topic": "One aim versus many branches",
+         "note": "Those on this path have one firm goal; the minds of the undecided split in countless directions.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/41/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.41",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v42",
+         "topic": "Charmed by flowery Vedic promises",
+         "note": "People of little understanding love the Vedic sections promising heaven, good birth and power, and think there is nothing beyond enjoyment.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/42-43/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.42–43",
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v44",
+         "topic": "Enjoyment blocks firm devotion",
+         "note": "Those absorbed in pleasure and wealth, and bewildered by them, cannot fix their minds firmly on serving the Lord.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/44/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.44",
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v45",
+         "topic": "Rise above the three modes",
+         "note": "The Vedas mostly deal with the three modes of nature; Arjuna should go beyond them, free of dualities and worry, fixed in the self.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/45/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.45",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v46",
+         "topic": "Why need a well beside a lake?",
+         "note": "Whatever a small well gives, a great lake gives at once; knowing the Vedas’ real purpose fulfils all their lesser aims.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/46/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.46",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v47",
+         "topic": "The work is yours, the fruit is not",
+         "note": "Do your prescribed duty, but you have no claim to the results; do not see yourself as their cause, and do not slide into doing nothing.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/47/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.47",
+           "tag": "Surrender"
+          },
+          "q": "Which verse says you have a right to your duty but not to its fruits?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v48",
+         "topic": "Even-mindedness is yoga",
+         "note": "Act with balance, letting go of attachment to success and failure — that evenness itself is yoga.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/48/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.48",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v49",
+         "topic": "Fruit-seekers are misers",
+         "note": "Through devotion keep far from low acts and take shelter of the Lord; those who work only to enjoy results are pitiable.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/49/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.49",
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v50",
+         "topic": "Yoga: the skill in all action",
+         "note": "Devotional work frees one from both good and bad reactions even now, so strive for yoga, the art of acting well.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/50/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.50",
+           "tag": "Devotees"
+          },
+          "q": "Which verse calls yoga the art of all work?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v51",
+         "topic": "Free from the cycle of birth",
+         "note": "Sages who act in devotion are released from karma and from repeated birth, reaching the place beyond suffering.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/51/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.51",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v52",
+         "topic": "Out of the forest of illusion",
+         "note": "When intelligence leaves the thick forest of delusion, one no longer cares for what has been or will be heard of ritual rewards.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/52/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.52",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v53",
+         "topic": "A mind fixed in trance",
+         "note": "When the mind is unmoved by flowery Vedic language and stays absorbed in self-realisation, one has reached divine consciousness.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/53/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.53",
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-2-deep-s5",
+       "topic": "Verses 54–72 · The person of steady wisdom (sthita-prajna)",
+       "note": "Arjuna asks what a self-realised person is like; Krishna describes the steady sage, how a person falls, how peace comes, and how the chapter ends in the kingdom of God.",
+       "hyperLink": "https://vedabase.io/en/library/bg/2/54/",
+       "children": [
+        {
+         "id": "lib-bg-2-deep-v54",
+         "topic": "How does such a person speak and walk?",
+         "note": "Arjuna asks the signs of one fixed in transcendence: how such a person talks, sits and moves.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/54/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.54",
+           "tag": "Questions"
+          },
+          "q": "Which verse has Arjuna ask how a person of steady wisdom speaks, sits and walks?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v55",
+         "topic": "Content in the self",
+         "note": "One who drops the mind-made desires for sense pleasure and is satisfied within is in pure consciousness.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/55/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.55",
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v56",
+         "topic": "Unshaken by misery or joy",
+         "note": "A sage of steady mind is not upset by the three kinds of suffering nor carried away by pleasure, and has no attachment, fear or anger.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/56/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.56",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v57",
+         "topic": "Neither praising nor hating",
+         "note": "Whatever good or bad comes, one fixed in knowledge neither celebrates it nor resents it.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/57/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.57",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v58",
+         "topic": "Like a tortoise",
+         "note": "As a tortoise pulls its limbs into its shell, the steady person can draw the senses back from their objects.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/58/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.58",
+           "tag": "Knowledge"
+          },
+          "q": "Which animal does Krishna use as the picture of sense control?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v59",
+         "topic": "A higher taste ends the lower",
+         "note": "Holding back from pleasure still leaves the craving; only tasting something higher makes the craving stop.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/59/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.59",
+           "tag": "Love"
+          },
+          "q": "Which verse says a higher taste is what ends the taste for sense objects?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v60",
+         "topic": "The senses drag the mind away",
+         "note": "The senses are so powerful that they can pull away the mind even of a wise person who is trying to restrain them.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/60/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.60",
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v61",
+         "topic": "Senses controlled, mind on Krishna",
+         "note": "Whoever keeps the senses in check and fixes the mind on Krishna has steady intelligence.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/61/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.61",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v62",
+         "topic": "Thinking of objects breeds desire",
+         "note": "Dwelling on sense objects brings attachment; attachment turns into lust, and frustrated lust into anger.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/62/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.62",
+           "tag": "Desire"
+          },
+          "q": "Which two verses trace the fall from thinking of sense objects to losing intelligence?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v63",
+         "topic": "From anger to the fall",
+         "note": "Anger brings delusion, delusion clouds memory, lost memory ruins intelligence, and then one sinks back into material life.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/63/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.63",
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v64",
+         "topic": "Free of like and dislike: mercy",
+         "note": "One free from attachment and aversion, controlling the senses by regulated practice, receives the Lord’s full mercy.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/64/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.64",
+           "tag": "Mercy"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v65",
+         "topic": "Satisfied, sorrows end",
+         "note": "For one content in Krishna consciousness, the three miseries vanish and intelligence soon becomes steady.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/65/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.65",
+           "tag": "Mercy"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v66",
+         "topic": "No link, no peace, no happiness",
+         "note": "Without connection to the Supreme there is no steady mind or real intelligence, so no peace — and without peace, how can anyone be happy?",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/66/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.66",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v67",
+         "topic": "One sense, like wind on a boat",
+         "note": "As a gale drives a boat off course, even one wandering sense that holds the mind can sweep away intelligence.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/67/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.67",
+           "tag": "Attachment"
+          },
+          "q": "Which verse compares a straying sense to wind pushing a boat?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v68",
+         "topic": "Senses held back, wisdom steady",
+         "note": "So whoever restrains the senses from their objects is surely of steady intelligence.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/68/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.68",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v69",
+         "topic": "Night for the world is day for the sage",
+         "note": "What the world sleeps through, the self-controlled are awake to; what the world is busy with, the sage treats as night.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/69/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.69",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v70",
+         "topic": "Like the ocean filled by rivers",
+         "note": "As rivers keep flowing into the ocean yet it stays calm, one undisturbed by incoming desires finds peace — not one who chases them.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/70/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.70",
+           "tag": "Desire"
+          },
+          "q": "Which verse compares the peaceful person to the ocean that rivers flow into?"
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v71",
+         "topic": "No desire, no “mine”, no false ego",
+         "note": "Only one who gives up sense desires, possessiveness and false ego reaches real peace.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/71/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.71",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-v72",
+         "topic": "The godly life, even at death",
+         "note": "This is the spiritual way of life; one fixed in it is never confused, and even at the time of death enters the kingdom of God.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/72/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.72",
+           "tag": "Liberation"
+          },
+          "q": "How does Chapter 2 end?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-2-deep-why",
+       "topic": "Why this chapter matters",
+       "note": "Its title calls it the summary of the whole Gita: in one chapter Krishna gives the soul (sankhya), duty, work without fruits (buddhi-yoga) and the steady devotee — themes the later chapters open out.",
+       "children": [
+        {
+         "id": "lib-bg-2-deep-why1",
+         "topic": "Two ways of explaining, one goal",
+         "note": "Verses 11–30 explain by analysis, verses 39–53 by practice; verse 39 is the hinge between them.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/39/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.39",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-why2",
+         "topic": "The question answered in Chapter 3",
+         "note": "Praise of intelligence over work leaves Arjuna asking why he must still fight — the opening of Chapter 3, Karma-yoga.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/1/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.1",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-why3",
+         "topic": "Read the purports for the deeper meaning",
+         "note": "Each verse link opens Srila Prabhupada’s translation and purport on vedabase.io; the notes here are only our short summaries.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/"
+        },
+        {
+         "id": "lib-bg-2-deep-see1",
+         "topic": "↪ See also: Chapter 1 verse by verse",
+         "note": "Arjuna’s grief that this chapter answers.",
+         "manas": {
+          "goto": {
+           "map": "lib-bg-1-deep",
+           "node": "lib-bg-1-deep-root"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-2-deep-see2",
+         "topic": "↪ See also: Gita Index · Chapter 2 by section",
+         "note": "The same chapter by topic and section, with purport points.",
+         "manas": {
+          "goto": {
+           "map": "lib-bgix-sections",
+           "node": "bgix-s.bg.2"
           }
          }
         }
