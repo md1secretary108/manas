@@ -1,5 +1,5 @@
 {
- "version": "7.29",
- "note": "Admin → People is now a table: one tap per library per person, Save with a summary.",
+ "version": "7.30",
+ "note": "Adding a locked library now shows the request screen; email links open on the Manas website.",
  "apk": "https://md1secretary108.github.io/manas/Manas.apk"
 }
