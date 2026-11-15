@@ -10,7 +10,7 @@
    "subtitle": "Seven evenings on the Bhagavad-gita, the week our first map was made from.",
    "icon": "📖",
    "root": "gw-root",
-   "meta": "9 maps · 289 ideas · 382 KB · 7 of 7 classes mapped"
+   "meta": "9 maps · 289 ideas · 383 KB · 7 of 7 classes mapped"
   },
   {
    "id": "sb2026",
@@ -26,7 +26,7 @@
    "subtitle": "Subjects & keywords A–Z, teachings by theme, related classes",
    "icon": "📇",
    "root": "sgd-ix-root",
-   "meta": "3 maps · 1,240 ideas"
+   "meta": "3 maps · 1,241 ideas"
   }
  ],
  "maps": [
@@ -36,8 +36,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "data": {
     "direction": 2,
@@ -47,12 +47,12 @@
      "icons": [
       "🪷"
      ],
-     "note": "Classes by HG Sri Gauranga Das, given with his blessings (verbal approval 14 Oct 2026; written confirmation to follow). Each series bubble is a door into that series; inside, each class is a door into its own map. Notes are our own summaries of the classes; tap a bubble's link to hear that moment on YouTube.",
+     "note": "Classes by HG Sri Gauranga Das, mapped with his permission (given in person to KKD, 13 Nov 2026). His channel: https://www.youtube.com/@srigauranga.nairobi. Each series bubble is a door into that series; inside, each class is a door into its own map. Notes are our own summaries of the classes; tap a bubble's link to hear that moment on YouTube.",
      "children": [
       {
        "id": "sgd-p-gitaweek",
        "topic": "Gita Week — HG Sri Gauranga Das",
-       "note": "Seven evenings on the Bhagavad-gita, the week our first map was made from. · 9 maps · 289 ideas · 382 KB · 7 of 7 classes mapped",
+       "note": "Seven evenings on the Bhagavad-gita, the week our first map was made from. · 9 maps · 289 ideas · 383 KB · 7 of 7 classes mapped",
        "icons": [
         "📖"
        ],
@@ -78,7 +78,7 @@
       {
        "id": "sgd-p-index",
        "topic": "Index & connections",
-       "note": "Subjects & keywords A–Z, teachings by theme, related classes · 3 maps · 1,240 ideas",
+       "note": "Subjects & keywords A–Z, teachings by theme, related classes · 3 maps · 1,241 ideas",
        "icons": [
         "📇"
        ],
@@ -98,8 +98,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "gitaweek",
    "data": {
@@ -257,8 +257,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "gitaweek",
    "data": {
@@ -1094,7 +1094,7 @@
         {
          "id": "gw-d01-9-1",
          "topic": "Q1 · Whom do we turn to?",
-         "note": "A mother asks: Arjuna could surrender to Krishna in person, but where do we go?\n\n🎙 Prabhu at 74:48 (auto-transcript): “okay very good question thank you so much for asking it madhaji is asking that arjuna had krishna right there he could go to krishna and surrender to krishna and say you know help me out here i'm stuck but who do we go to so the answer is sitting on your desk in front of you”",
+         "note": "A mother asks: Arjuna could surrender to Krishna in person, but where do we go?\n\n🎙 Question from the floor at 74:48 (auto-transcript): “okay very good question thank you so much for asking it madhaji is asking that arjuna had krishna right there he could go to krishna and surrender to krishna and say you know help me out here i'm stuck but who do we go to so the answer is sitting on your desk in front of you”",
          "hyperLink": "https://www.youtube.com/watch?v=KYqyvs7p82s&t=4488s",
          "manas": {
           "links": [
@@ -1265,8 +1265,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "gitaweek",
    "data": {
@@ -2251,8 +2251,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "gitaweek",
    "data": {
@@ -3074,7 +3074,7 @@
         {
          "id": "gw-d03-9-1",
          "topic": "Q1 · What about past sins?",
-         "note": "A devotee asks what happens to sins committed before receiving this knowledge.\n\n🎙 Prabhu at 49:01 (auto-transcript): “please ask your question first yes yes very good question what happens to the sins before we actually got the knowledge and we are working with the knowledge what happens to them this knowledge is so powerful lord krishna tells us in the end of this chapter only he says this…”",
+         "note": "A devotee asks what happens to sins committed before receiving this knowledge.\n\n🎙 Question from the floor at 49:01 (auto-transcript): “please ask your question first yes yes very good question what happens to the sins before we actually got the knowledge and we are working with the knowledge what happens to them this knowledge is so powerful lord krishna tells us in the end of this chapter only he says this…”",
          "hyperLink": "https://www.youtube.com/watch?v=d77QxiZt0F4&t=2941s",
          "manas": {
           "links": [
@@ -3120,7 +3120,7 @@
         {
          "id": "gw-d03-9-2",
          "topic": "Q2 · Thoughts and words too?",
-         "note": "A mother points out that we act through thoughts, words and deeds, not deeds alone.\n\n🎙 Prabhu at 84:54 (auto-transcript): “yes yes correct very nice uh that mataji is saying”",
+         "note": "A mother points out that we act through thoughts, words and deeds, not deeds alone.\n\n🎙 Question from the floor at 84:54 (auto-transcript): “yes yes correct very nice uh that mataji is saying”",
          "hyperLink": "https://www.youtube.com/watch?v=d77QxiZt0F4&t=5094s",
          "manas": {
           "links": [
@@ -3237,8 +3237,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "gitaweek",
    "data": {
@@ -4043,7 +4043,7 @@
         {
          "id": "gw-d04-9-1",
          "topic": "Q1 · Krishna in this lifetime?",
-         "note": "A mother asks whether one can reach Krishna in this very life.\n\n🎙 Prabhu at 82:32 (auto-transcript): “Yes, Mathiji. Is it possible to go to Krishna in this lifetime? Yes, it is. But the thing is, that's the thing. We think that the reality is something other than Krishna. And that's why Krishna is speaking the Gita to show us the reality is only Krishna. Nothing else is real.…”",
+         "note": "A mother asks whether one can reach Krishna in this very life.\n\n🎙 Question from the floor at 82:32 (auto-transcript): “Yes, Mathiji. Is it possible to go to Krishna in this lifetime? Yes, it is. But the thing is, that's the thing. We think that the reality is something other than Krishna. And that's why Krishna is speaking the Gita to show us the reality is only Krishna. Nothing else is real.…”",
          "hyperLink": "https://www.youtube.com/watch?v=YUUzpgFiyz0&t=4952s",
          "manas": {
           "links": [
@@ -4085,7 +4085,7 @@
         {
          "id": "gw-d04-9-2",
          "topic": "Q2 · Forgetting Him at death?",
-         "note": "A mother asks about not remembering Krishna at the end.\n\n🎙 Prabhu at 85:01 (auto-transcript): “Yes, very good. Thank you so much. Yeah, we practice, yeah, this question actually one of the disciples of Srila Prabhupada had asked him. They asked Srila Prabhupada, Srila Prabhupada, what if we don't think of Krishna at the time of death? Because they read that verse.”",
+         "note": "A mother asks about not remembering Krishna at the end.\n\n🎙 Question from the floor at 85:01 (auto-transcript): “Yes, very good. Thank you so much. Yeah, we practice, yeah, this question actually one of the disciples of Srila Prabhupada had asked him. They asked Srila Prabhupada, Srila Prabhupada, what if we don't think of Krishna at the time of death? Because they read that verse.”",
          "hyperLink": "https://www.youtube.com/watch?v=YUUzpgFiyz0&t=5101s",
          "manas": {
           "links": [
@@ -4128,7 +4128,7 @@
         {
          "id": "gw-d04-9-3",
          "topic": "Q3 · Why cook fifty-six dishes?",
-         "note": "If Krishna asks only for a fruit or water, why prepare elaborate meals?\n\n🎙 Prabhu at 86:42 (auto-transcript): “okay so prabhu is asking if krishna is just asking for simple things like flower leaf water why should i prepare a 10 course meal or a 56 course meal for krishna And give him paneer and I can just give him some fruit and that's it, right? The point being Krishna is saying…”",
+         "note": "If Krishna asks only for a fruit or water, why prepare elaborate meals?\n\n🎙 Question from the floor at 86:42 (auto-transcript): “okay so prabhu is asking if krishna is just asking for simple things like flower leaf water why should i prepare a 10 course meal or a 56 course meal for krishna And give him paneer and I can just give him some fruit and that's it, right? The point being Krishna is saying…”",
          "hyperLink": "https://www.youtube.com/watch?v=YUUzpgFiyz0&t=5202s",
          "manas": {
           "links": [
@@ -4227,8 +4227,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "gitaweek",
    "data": {
@@ -5092,7 +5092,7 @@
         {
          "id": "gw-d05-9-1",
          "topic": "Q1 · Devotees and Krishna as time",
-         "note": "A mataji's question (not clearly audible) about Krishna's form as time.\n\n🎙 Prabhu at 81:34 (auto-transcript): “Yes, okay, Mataji. Yeah. So, for devotees, when time comes, Krishna comes in the form of time, devotees are not afraid. Usually when we say Krishna comes as the form of time, it means Krishna comes as death. So, devotees are not afraid of death.”",
+         "note": "A mataji's question (not clearly audible) about Krishna's form as time.\n\n🎙 Question from the floor at 81:34 (auto-transcript): “Yes, okay, Mataji. Yeah. So, for devotees, when time comes, Krishna comes in the form of time, devotees are not afraid. Usually when we say Krishna comes as the form of time, it means Krishna comes as death. So, devotees are not afraid of death.”",
          "hyperLink": "https://www.youtube.com/watch?v=tl1M-muYuPI&t=4894s",
          "manas": {
           "links": [
@@ -5131,7 +5131,7 @@
         {
          "id": "gw-d05-9-2",
          "topic": "Q2 · Karma or Krishna's love?",
-         "note": "How do we know whether what happens to us is our karma or Krishna's love?\n\n🎙 Prabhu at 84:09 (auto-transcript): “So, how do we differentiate whatever happens to us, if it's part of our karma, it's part of Krishna's love for us? It can be both. It can be both. For devotees, whatever is happening to them, they take it as Krishna's mercy. Even if it is part of their karma, they will say,…”",
+         "note": "How do we know whether what happens to us is our karma or Krishna's love?\n\n🎙 Question from the floor at 84:09 (auto-transcript): “So, how do we differentiate whatever happens to us, if it's part of our karma, it's part of Krishna's love for us? It can be both. It can be both. For devotees, whatever is happening to them, they take it as Krishna's mercy. Even if it is part of their karma, they will say,…”",
          "hyperLink": "https://www.youtube.com/watch?v=tl1M-muYuPI&t=5049s",
          "manas": {
           "links": [
@@ -5248,8 +5248,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "gitaweek",
    "data": {
@@ -5649,7 +5649,8 @@
          "tag": "Knowledge"
         },
         "topics": [
-         "Purpose",
+         "Bhaktisiddhanta Sarasvati",
+         "Preaching",
          "BG 17.10"
         ]
        },
@@ -5989,7 +5990,7 @@
         {
          "id": "gw-d06-9-1",
          "topic": "Q1 · Does Krishna call our name?",
-         "note": "Partly inaudible: does Krishna also call us when we call him?\n\n🎙 Prabhu at 88:28 (auto-transcript): “Krishna is also calling our name yes he can do that he is not limited if we chant his name then he sees who is calling me and he says oh yes so and so is calling me ok what do you want it's his number he picks it up but our problem is usually when we dial it and he picks it…”",
+         "note": "Partly inaudible: does Krishna also call us when we call him?\n\n🎙 Question from the floor at 88:28 (auto-transcript): “Krishna is also calling our name yes he can do that he is not limited if we chant his name then he sees who is calling me and he says oh yes so and so is calling me ok what do you want it's his number he picks it up but our problem is usually when we dial it and he picks it…”",
          "hyperLink": "https://www.youtube.com/watch?v=NyW9dOm3gqQ&t=5308s",
          "manas": {
           "links": [
@@ -6028,7 +6029,7 @@
         {
          "id": "gw-d06-9-2",
          "topic": "Q2 · Past-life exposure needed?",
-         "note": "Do those who take up Krishna consciousness come because of association in a previous life?\n\n🎙 Prabhu at 89:19 (auto-transcript): “Just to clarify, there is a reason how we often hear that one becomes Krishna conscious in this life because of early association in the previous lifetime with Krishna. Is that a really valid that you could have that interaction with Krishna conscious family because you may…”",
+         "note": "Do those who take up Krishna consciousness come because of association in a previous life?\n\n🎙 Question from the floor at 89:19 (auto-transcript): “Just to clarify, there is a reason how we often hear that one becomes Krishna conscious in this life because of early association in the previous lifetime with Krishna. Is that a really valid that you could have that interaction with Krishna conscious family because you may…”",
          "hyperLink": "https://www.youtube.com/watch?v=NyW9dOm3gqQ&t=5359s",
          "manas": {
           "links": [
@@ -6072,7 +6073,7 @@
         {
          "id": "gw-d06-9-3",
          "topic": "Q3 · The soul during sleep?",
-         "note": "What happens to my soul when I sleep?\n\n🎙 Prabhu at 91:03 (auto-transcript): “okay two things you said what happens to our soul while we sleep so who is we okay let me let me ask it in the first person what happens to my soul when i sleep right so who is i so you're asking what happens to soul when soul body is always asleep that's the point right the…”",
+         "note": "What happens to my soul when I sleep?\n\n🎙 Question from the floor at 91:03 (auto-transcript): “okay two things you said what happens to our soul while we sleep so who is we okay let me let me ask it in the first person what happens to my soul when i sleep right so who is i so you're asking what happens to soul when soul body is always asleep that's the point right the…”",
          "hyperLink": "https://www.youtube.com/watch?v=NyW9dOm3gqQ&t=5463s",
          "manas": {
           "links": [
@@ -6119,7 +6120,7 @@
         {
          "id": "gw-d06-9-4",
          "topic": "Q4 · Here because of karma?",
-         "note": "Am I on this path because of the family and karma I was born with?\n\n🎙 Prabhu at 93:21 (auto-transcript): “you had a so on a practical I would like to think that I now understand based on based on the time based on you know the family that I was born into yes experience yes based on my past karma is that true to try and say okay that was why you are on this path because lord…”",
+         "note": "Am I on this path because of the family and karma I was born with?\n\n🎙 Question from the floor at 93:21 (auto-transcript): “you had a so on a practical I would like to think that I now understand based on based on the time based on you know the family that I was born into yes experience yes based on my past karma is that true to try and say okay that was why you are on this path because lord…”",
          "hyperLink": "https://www.youtube.com/watch?v=NyW9dOm3gqQ&t=5601s",
          "manas": {
           "links": [
@@ -6173,16 +6174,6 @@
        "children": [
         {
          "id": "gw-day06-rel-0",
-         "topic": "SB classes 2026 · Class 12 · When the Bee Sings",
-         "note": "11 shared subjects",
-         "manas": {
-          "map": "sgs-day12",
-          "part": "sb2026",
-          "library": "sgd"
-         }
-        },
-        {
-         "id": "gw-day06-rel-1",
          "topic": "Gita Week · Day 05 · Seeing Krishna Everywhere",
          "note": "11 shared subjects",
          "manas": {
@@ -6192,21 +6183,31 @@
          }
         },
         {
-         "id": "gw-day06-rel-2",
-         "topic": "SB classes 2026 · Class 07 · The Real Intoxication",
+         "id": "gw-day06-rel-1",
+         "topic": "SB classes 2026 · Class 12 · When the Bee Sings",
          "note": "10 shared subjects",
          "manas": {
-          "map": "sgs-day07",
+          "map": "sgs-day12",
+          "part": "sb2026",
+          "library": "sgd"
+         }
+        },
+        {
+         "id": "gw-day06-rel-2",
+         "topic": "SB classes 2026 · Class 13 · Desire, Karma and His Will",
+         "note": "9 shared subjects",
+         "manas": {
+          "map": "sgs-day13",
           "part": "sb2026",
           "library": "sgd"
          }
         },
         {
          "id": "gw-day06-rel-3",
-         "topic": "SB classes 2026 · Class 13 · Desire, Karma and His Will",
+         "topic": "SB classes 2026 · Class 11 · Bhaktivinoda Thakur, Seventh Goswami",
          "note": "9 shared subjects",
          "manas": {
-          "map": "sgs-day13",
+          "map": "sgs-day11",
           "part": "sb2026",
           "library": "sgd"
          }
@@ -6223,8 +6224,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "gitaweek",
    "data": {
@@ -12438,8 +12439,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -12676,8 +12677,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -13344,7 +13345,7 @@
         {
          "id": "sgs-d01-9-1",
          "topic": "Q1 · What is the Brahman effulgence?",
-         "note": "A devotee asks what the Brahman effulgence is.\n\n🎙 Prabhu at 39:20 (auto-transcript): “So the question is, what is Brahman infurgence? Brahman infurgence is light. What it looks like, it looks like light. It is light. You know, but this light is not glaring light. It's not like, oh, you can't look at it. No, it's very soothing, but it's bright everywhere. It's…”",
+         "note": "A devotee asks what the Brahman effulgence is.\n\n🎙 Question from the floor at 39:20 (auto-transcript): “So the question is, what is Brahman infurgence? Brahman infurgence is light. What it looks like, it looks like light. It is light. You know, but this light is not glaring light. It's not like, oh, you can't look at it. No, it's very soothing, but it's bright everywhere. It's…”",
          "hyperLink": "https://www.youtube.com/watch?v=cISJKVEW9c4&t=2360s",
          "manas": {
           "links": [
@@ -13404,7 +13405,7 @@
         {
          "id": "sgs-d01-9-2",
          "topic": "Q2 · Is His physical presence needed?",
-         "note": "Is one safe only when the Lord is physically present?\n\n🎙 Prabhu at 42:50 (auto-transcript): “So does the physical presence of the Lord only give safety? And if someone is not physically present with the Lord, are they safe? So here, in terms of the narrative, the Pandavas of course were always connected with the Lord. they have taken shelter, they were eternally…”",
+         "note": "Is one safe only when the Lord is physically present?\n\n🎙 Question from the floor at 42:50 (auto-transcript): “So does the physical presence of the Lord only give safety? And if someone is not physically present with the Lord, are they safe? So here, in terms of the narrative, the Pandavas of course were always connected with the Lord. they have taken shelter, they were eternally…”",
          "hyperLink": "https://www.youtube.com/watch?v=cISJKVEW9c4&t=2570s",
          "manas": {
           "links": [
@@ -13443,7 +13444,7 @@
         {
          "id": "sgs-d01-9-3",
          "topic": "Q3 · Why Jaya-Vijaya worshipped demigods",
-         "note": "Why did the Vaikuntha gatekeepers, born as demons, worship demigods rather than the Lord?\n\n🎙 Prabhu at 45:43 (auto-transcript): “So why did the gatekeepers of Vaikuntha, Jay and Vijay, when they came here as demons, why didn't they worship Lord Krishna, why did they worship the demigods? Why did they worship Lord Krishna indirectly by worshiping the demigods?”",
+         "note": "Why did the Vaikuntha gatekeepers, born as demons, worship demigods rather than the Lord?\n\n🎙 Question from the floor at 45:43 (auto-transcript): “So why did the gatekeepers of Vaikuntha, Jay and Vijay, when they came here as demons, why didn't they worship Lord Krishna, why did they worship the demigods? Why did they worship Lord Krishna indirectly by worshiping the demigods?”",
          "hyperLink": "https://www.youtube.com/watch?v=cISJKVEW9c4&t=2743s",
          "manas": {
           "links": [
@@ -13545,8 +13546,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -14191,7 +14192,7 @@
         {
          "id": "sgs-d02-9-1",
          "topic": "Q1 · Where were the Kumaras stopped?",
-         "note": "A devotee asks when the Kumaras were stopped in Vaikuntha.\n\n🎙 Prabhu at 37:19 (auto-transcript): “Hare Krishna Prabhu, how do you go? I am just curious that the Joghambra is in this instance where So the question is, when were the Kumaras stopped from travelling in Vaikuntha? That will come up in the next shlokas. I didn't speak on that because it will come up in the next…”",
+         "note": "A devotee asks when the Kumaras were stopped in Vaikuntha.\n\n🎙 Question from the floor at 37:19 (auto-transcript): “Hare Krishna Prabhu, how do you go? I am just curious that the Joghambra is in this instance where So the question is, when were the Kumaras stopped from travelling in Vaikuntha? That will come up in the next shlokas. I didn't speak on that because it will come up in the next…”",
          "hyperLink": "https://www.youtube.com/watch?v=ijOl7OmS-mg&t=2239s",
          "manas": {
           "links": [
@@ -14230,7 +14231,7 @@
         {
          "id": "sgs-d02-9-2",
          "topic": "Q2 · Should we have no desires?",
-         "note": "A partly inaudible question about desire, which Prabhu restates as: what is the Lord's desire?\n\n🎙 Prabhu at 38:34 (auto-transcript): “with entirely other desires such as God is a normal as a mind we don't have the desire but we just what are the desires what is the desire of the Lord is that the question the desire of the Lord is for the Sanatan Jeeva to come to the Sanatan Dham and engage in Sanatan Dharma…”",
+         "note": "A partly inaudible question about desire, which Prabhu restates as: what is the Lord's desire?\n\n🎙 Question from the floor at 38:34 (auto-transcript): “with entirely other desires such as God is a normal as a mind we don't have the desire but we just what are the desires what is the desire of the Lord is that the question the desire of the Lord is for the Sanatan Jeeva to come to the Sanatan Dham and engage in Sanatan Dharma…”",
          "hyperLink": "https://www.youtube.com/watch?v=ijOl7OmS-mg&t=2314s",
          "manas": {
           "links": [
@@ -14269,7 +14270,7 @@
         {
          "id": "sgs-d02-9-3",
          "topic": "Q3 · Penance is My heart?",
-         "note": "What does the Lord mean when He says penances are His heart and soul?\n\n🎙 Prabhu at 41:31 (auto-transcript): “When the Lord says that penances are my heart and soul, what does he mean by that? He means by that that when one engages in performing penances and austerities to please the Supreme Lord He becomes very very happy The reason that the Lord gave Darshan to Brahma was because…”",
+         "note": "What does the Lord mean when He says penances are His heart and soul?\n\n🎙 Question from the floor at 41:31 (auto-transcript): “When the Lord says that penances are my heart and soul, what does he mean by that? He means by that that when one engages in performing penances and austerities to please the Supreme Lord He becomes very very happy The reason that the Lord gave Darshan to Brahma was because…”",
          "hyperLink": "https://www.youtube.com/watch?v=ijOl7OmS-mg&t=2491s",
          "manas": {
           "links": [
@@ -14313,7 +14314,7 @@
         {
          "id": "sgs-d02-9-4",
          "topic": "Q4 · How did yogis reach Vaikuntha?",
-         "note": "How could mystic yogis such as the Kumaras or Durvasa enter Vaikuntha?\n\n🎙 Prabhu at 43:13 (auto-transcript): “The mystical yogis how did they enter Vaikuntha? Again as is mentioned here in this verse the Kumaras they were Amalatmana they were free from all material desires. They are not devotees yet. They will become devotees, we will read, they will become devotees later on. But,…”",
+         "note": "How could mystic yogis such as the Kumaras or Durvasa enter Vaikuntha?\n\n🎙 Question from the floor at 43:13 (auto-transcript): “The mystical yogis how did they enter Vaikuntha? Again as is mentioned here in this verse the Kumaras they were Amalatmana they were free from all material desires. They are not devotees yet. They will become devotees, we will read, they will become devotees later on. But,…”",
          "hyperLink": "https://www.youtube.com/watch?v=ijOl7OmS-mg&t=2593s",
          "manas": {
           "links": [
@@ -14438,8 +14439,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -15188,7 +15189,7 @@
         {
          "id": "sgs-d03-9-1",
          "topic": "Q1 · Who still calls the hungry?",
-         "note": "Lavanga Prabhu asks whether there is anywhere householders still go out asking three times if anyone is hungry.\n\n🎙 Prabhu at 38:47 (auto-transcript): “So, Lavanga Prabhu is asking, is there anywhere where householders are calling people, going out on the street and asking three times is anyone hungry please come do you have plans of going to those places or yeah I want to see an example the example is our temple everywhere…”",
+         "note": "Lavanga Prabhu asks whether there is anywhere householders still go out asking three times if anyone is hungry.\n\n🎙 Question from the floor at 38:47 (auto-transcript): “So, Lavanga Prabhu is asking, is there anywhere where householders are calling people, going out on the street and asking three times is anyone hungry please come do you have plans of going to those places or yeah I want to see an example the example is our temple everywhere…”",
          "hyperLink": "https://www.youtube.com/watch?v=ohv2tPEfjaY&t=2327s",
          "manas": {
           "links": [
@@ -15231,7 +15232,7 @@
         {
          "id": "sgs-d03-9-2",
          "topic": "Q2 · Beyond moralism, a dog-eat-dog world?",
-         "note": "Arjuna was told to rise above mundane morality, yet society is dog-eat-dog; how do we understand this?\n\n🎙 Prabhu at 41:21 (auto-transcript): “So his question is that Arjuna was told to go beyond mundane moralism and the way the society is there, it's dog-eat-dog. So how do we understand all this? Arjuna was told, yes, you rise above the Vedas which deal mainly with the three modes of material nature, but then he is…”",
+         "note": "Arjuna was told to rise above mundane morality, yet society is dog-eat-dog; how do we understand this?\n\n🎙 Question from the floor at 41:21 (auto-transcript): “So his question is that Arjuna was told to go beyond mundane moralism and the way the society is there, it's dog-eat-dog. So how do we understand all this? Arjuna was told, yes, you rise above the Vedas which deal mainly with the three modes of material nature, but then he is…”",
          "hyperLink": "https://www.youtube.com/watch?v=ohv2tPEfjaY&t=2481s",
          "manas": {
           "links": [
@@ -15372,8 +15373,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -16210,8 +16211,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -16985,7 +16986,7 @@
         {
          "id": "sgs-d05-9-1",
          "topic": "Q1 · Is a soft life natural?",
-         "note": "If Krishna has desires and we are His parts, is the desire for comfort and a soft life natural?\n\n🎙 Prabhu at 52:37 (auto-transcript): “In general, and I heard you talking about that Krishna has desires, that Krishna can fulfill his desires. And 90% of the population have that kind of desire when they want the American dream force. And so thinking that usually people, devotees, tell me that when you have…”",
+         "note": "If Krishna has desires and we are His parts, is the desire for comfort and a soft life natural?\n\n🎙 Question from the floor at 52:37 (auto-transcript): “In general, and I heard you talking about that Krishna has desires, that Krishna can fulfill his desires. And 90% of the population have that kind of desire when they want the American dream force. And so thinking that usually people, devotees, tell me that when you have…”",
          "hyperLink": "https://www.youtube.com/watch?v=EdYlSGbMSwg&t=3157s",
          "manas": {
           "links": [
@@ -17102,8 +17103,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -17903,8 +17904,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -18633,7 +18634,7 @@
         {
          "id": "sgs-d07-9-1",
          "topic": "Q1 · Lavish lives, easy deaths?",
-         "note": "A devotee asks whether people who live lavishly and die without suffering have less bad karma, or will pay later.\n\n🎙 Prabhu at 47:24 (auto-transcript): “yes yeah yeah I can hear I'll repeat also on the mic for everyone else so I want you to help me understand the basis of karma so from what I understand is that living beings cannot escape death disease or age and death right and so there are people I know of that have lived a…”",
+         "note": "A devotee asks whether people who live lavishly and die without suffering have less bad karma, or will pay later.\n\n🎙 Question from the floor at 47:24 (auto-transcript): “yes yeah yeah I can hear I'll repeat also on the mic for everyone else so I want you to help me understand the basis of karma so from what I understand is that living beings cannot escape death disease or age and death right and so there are people I know of that have lived a…”",
          "hyperLink": "https://www.youtube.com/watch?v=30Oc9DHS7tU&t=2844s",
          "manas": {
           "links": [
@@ -18715,7 +18716,7 @@
         {
          "id": "sgs-d07-9-2",
          "topic": "Q2 · Wealthy yet humble?",
-         "note": "How can a devotee with much wealth stay humble?\n\n🎙 Prabhu at 54:38 (auto-transcript): “Yes, so how do we reconcile a devotee who has a lot of wealth and still remain humble? it's not easy for such a devotee that devotee has to be under constant”",
+         "note": "How can a devotee with much wealth stay humble?\n\n🎙 Question from the floor at 54:38 (auto-transcript): “Yes, so how do we reconcile a devotee who has a lot of wealth and still remain humble? it's not easy for such a devotee that devotee has to be under constant”",
          "hyperLink": "https://www.youtube.com/watch?v=30Oc9DHS7tU&t=3278s",
          "manas": {
           "links": [
@@ -18783,7 +18784,7 @@
         {
          "id": "sgs-d07-9-3",
          "topic": "Q3 · A shortcut in the shortcut?",
-         "note": "A devotee wants the quickest way to the intoxication of Krishna consciousness.\n\n🎙 Prabhu at 60:00 (auto-transcript): “Firstly, I'd like to thank you for the very sobering us, and then these two points I wanted to make it was, I mean you actually put on one, and I was going to say that there's an idiom that's called money is a root of the earth, and it's very useful to the problem. And the…”",
+         "note": "A devotee wants the quickest way to the intoxication of Krishna consciousness.\n\n🎙 Question from the floor at 60:00 (auto-transcript): “Firstly, I'd like to thank you for the very sobering us, and then these two points I wanted to make it was, I mean you actually put on one, and I was going to say that there's an idiom that's called money is a root of the earth, and it's very useful to the problem. And the…”",
          "hyperLink": "https://www.youtube.com/watch?v=30Oc9DHS7tU&t=3600s",
          "manas": {
           "links": [
@@ -18908,8 +18909,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -19836,8 +19837,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -20596,7 +20597,7 @@
         {
          "id": "sgs-d09-9-1",
          "topic": "Q1 · Eating at others' houses?",
-         "note": "Is there a lesson for devotees who go to eat at people's houses?\n\n🎙 Prabhu at 45:56 (auto-transcript): “The question is, there are devotees who go to eat at people's houses. So are these other people devotees or are they just members of the public? So is there a lesson for devotees going to eat at other people's houses? Devotees don't eat at other people's houses. They eat at…”",
+         "note": "Is there a lesson for devotees who go to eat at people's houses?\n\n🎙 Question from the floor at 45:56 (auto-transcript): “The question is, there are devotees who go to eat at people's houses. So are these other people devotees or are they just members of the public? So is there a lesson for devotees going to eat at other people's houses? Devotees don't eat at other people's houses. They eat at…”",
          "hyperLink": "https://www.youtube.com/watch?v=6oy_PWkdnmA&t=2756s",
          "manas": {
           "links": [
@@ -20717,8 +20718,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -21408,7 +21409,7 @@
         {
          "id": "sgs-d10-9-1",
          "topic": "Q1 · Explaining Krishna never cheated",
-         "note": "How do we make ordinary people understand that Krishna, the source of morality, never cheated — when He also says that among cheaters He is the greatest?\n\n🎙 Prabhu at 46:23 (auto-transcript): “So how do we make common men understand that Krishna never cheated because Krishna is the source of morality Lord Krishna is the one who gives the codes of religion and ethics and morality So how do we explain that Lord Krishna never cheated Lord Krishna also says in the Gita…”",
+         "note": "How do we make ordinary people understand that Krishna, the source of morality, never cheated — when He also says that among cheaters He is the greatest?\n\n🎙 Question from the floor at 46:23 (auto-transcript): “So how do we make common men understand that Krishna never cheated because Krishna is the source of morality Lord Krishna is the one who gives the codes of religion and ethics and morality So how do we explain that Lord Krishna never cheated Lord Krishna also says in the Gita…”",
          "hyperLink": "https://www.youtube.com/watch?v=CqzXxzD8mlM&t=2783s",
          "manas": {
           "links": [
@@ -21450,7 +21451,7 @@
         {
          "id": "sgs-d10-9-2",
          "topic": "Q2 · Yudhishthira told to lie?",
-         "note": "A devotee asks about Yudhishthira being asked to tell Drona that his son had died.\n\n🎙 Prabhu at 49:24 (auto-transcript): “No, but here the question is that Maharaj Yudhishthir was asked to Inform Dronacharya That his son has died”",
+         "note": "A devotee asks about Yudhishthira being asked to tell Drona that his son had died.\n\n🎙 Question from the floor at 49:24 (auto-transcript): “No, but here the question is that Maharaj Yudhishthir was asked to Inform Dronacharya That his son has died”",
          "hyperLink": "https://www.youtube.com/watch?v=CqzXxzD8mlM&t=2964s",
          "manas": {
           "links": [
@@ -21493,7 +21494,7 @@
         {
          "id": "sgs-d10-9-3",
          "topic": "Q3 · Doubting the guru's instruction",
-         "note": "What should a disciple do when doubting the spiritual master's instruction?\n\n🎙 Prabhu at 51:45 (auto-transcript): “following the instruction of the spiritual master when you are doubting the instruction.”",
+         "note": "What should a disciple do when doubting the spiritual master's instruction?\n\n🎙 Question from the floor at 51:45 (auto-transcript): “following the instruction of the spiritual master when you are doubting the instruction.”",
          "hyperLink": "https://www.youtube.com/watch?v=CqzXxzD8mlM&t=3105s",
          "manas": {
           "links": [
@@ -21541,7 +21542,7 @@
         {
          "id": "sgs-d10-9-4",
          "topic": "Q4 · Obligation before affection?",
-         "note": "Is it right to say obligation comes before affection?\n\n🎙 Prabhu at 54:19 (auto-transcript): “so is it right is it correct to say that obligation comes before affection not with Lord Krishna right we see when it came to Lord Krishna his greatest devotees they threw away their obligations and just followed their affection for Krishna obligations come”",
+         "note": "Is it right to say obligation comes before affection?\n\n🎙 Question from the floor at 54:19 (auto-transcript): “so is it right is it correct to say that obligation comes before affection not with Lord Krishna right we see when it came to Lord Krishna his greatest devotees they threw away their obligations and just followed their affection for Krishna obligations come”",
          "hyperLink": "https://www.youtube.com/watch?v=CqzXxzD8mlM&t=3259s",
          "manas": {
           "links": [
@@ -21643,8 +21644,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -22447,7 +22448,7 @@
         {
          "id": "sgs-d11-9-2",
          "topic": "Q2 · Seeking justice and Krishna",
-         "note": "If we are seeking justice in some personal matter, how do we pursue it while focusing on our relationship with Krishna?\n\n🎙 Prabhu at 45:44 (auto-transcript): “So, Prabhu is saying we should seek Krishna. Our entire focus should be how to establish a relationship with Krishna And we may be seeking justice So how do we seek justice and connect with Krishna? Is that the question? So justice, if we have some personal issue where we are…”",
+         "note": "If we are seeking justice in some personal matter, how do we pursue it while focusing on our relationship with Krishna?\n\n🎙 Question from the floor at 45:44 (auto-transcript): “So, Prabhu is saying we should seek Krishna. Our entire focus should be how to establish a relationship with Krishna And we may be seeking justice So how do we seek justice and connect with Krishna? Is that the question? So justice, if we have some personal issue where we are…”",
          "hyperLink": "https://www.youtube.com/watch?v=ixn0QxzU_RI&t=2744s",
          "manas": {
           "links": [
@@ -22549,8 +22550,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -23287,7 +23288,7 @@
         {
          "id": "sgs-d12-9-1",
          "topic": "Q1 · Are holy places conscious?",
-         "note": "A devotee asks whether everything in this world is unconscious, and what of the holy places of pilgrimage.\n\n🎙 Prabhu at 49:38 (auto-transcript): “Yes Prabhu Everything in this material world is not conscious In the material world There is a difference between conscious and unconscious Material world means Duality of matter and spirit”",
+         "note": "A devotee asks whether everything in this world is unconscious, and what of the holy places of pilgrimage.\n\n🎙 Question from the floor at 49:38 (auto-transcript): “Yes Prabhu Everything in this material world is not conscious In the material world There is a difference between conscious and unconscious Material world means Duality of matter and spirit”",
          "hyperLink": "https://www.youtube.com/watch?v=BrHz2FmVoUU&t=2978s",
          "manas": {
           "links": [
@@ -23333,7 +23334,7 @@
         {
          "id": "sgs-d12-9-2",
          "topic": "Q2 · Samosa versus khichdi",
-         "note": "A devotee asks whether devotees themselves create envy through unequal treatment, such as some getting samosa while others get khichdi.\n\n🎙 Prabhu at 54:04 (auto-transcript): “Yes. You said, don't you think we as devotees contribute a lot to become in this? For example, you only get samosa. Repeat the last part again. You think it's samosa or khichdi? If you are a devotee, whether it's samosa or khichdi, first thing you'll see is prasad. First…”",
+         "note": "A devotee asks whether devotees themselves create envy through unequal treatment, such as some getting samosa while others get khichdi.\n\n🎙 Question from the floor at 54:04 (auto-transcript): “Yes. You said, don't you think we as devotees contribute a lot to become in this? For example, you only get samosa. Repeat the last part again. You think it's samosa or khichdi? If you are a devotee, whether it's samosa or khichdi, first thing you'll see is prasad. First…”",
          "hyperLink": "https://www.youtube.com/watch?v=BrHz2FmVoUU&t=3244s",
          "manas": {
           "links": [
@@ -23379,7 +23380,7 @@
         {
          "id": "sgs-d12-9-3",
          "topic": "Q3 · Discouraged by senior devotees",
-         "note": "A devotee asks what to do when the very senior devotees one looks up to behave in ways that discourage.\n\n🎙 Prabhu at 65:13 (auto-transcript): “Yes, Prahlad Prabhu. force are done by these same senior devotees.”",
+         "note": "A devotee asks what to do when the very senior devotees one looks up to behave in ways that discourage.\n\n🎙 Question from the floor at 65:13 (auto-transcript): “Yes, Prahlad Prabhu. force are done by these same senior devotees.”",
          "hyperLink": "https://www.youtube.com/watch?v=BrHz2FmVoUU&t=3913s",
          "manas": {
           "links": [
@@ -23472,21 +23473,21 @@
         },
         {
          "id": "sgs-day12-rel-2",
-         "topic": "Gita Week · Day 06 · The Field, Its Knowers and the Modes",
-         "note": "11 shared subjects",
-         "manas": {
-          "map": "gw-day06",
-          "part": "gitaweek",
-          "library": "sgd"
-         }
-        },
-        {
-         "id": "sgs-day12-rel-3",
          "topic": "SB classes 2026 · Class 09 · Krishna Eats One Grain",
          "note": "10 shared subjects",
          "manas": {
           "map": "sgs-day09",
           "part": "sb2026",
+          "library": "sgd"
+         }
+        },
+        {
+         "id": "sgs-day12-rel-3",
+         "topic": "Gita Week · Day 06 · The Field, Its Knowers and the Modes",
+         "note": "10 shared subjects",
+         "manas": {
+          "map": "gw-day06",
+          "part": "gitaweek",
           "library": "sgd"
          }
         }
@@ -23502,8 +23503,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "sb2026",
    "data": {
@@ -24323,7 +24324,7 @@
         {
          "id": "sgs-d13-9-2",
          "topic": "Q2 · Why were the Yadavas cursed?",
-         "note": "A devotee asks why the Yadavas were cursed.\n\n🎙 Prabhu at 52:42 (auto-transcript): “Why were the Yadavas cursed? Shugdev Goswami explains this in a whole chapter of the Bhagatam. And as I mentioned earlier there are many many reasons why the Yadavas killed themselves I have spoken on this In another class In chapter 1 of Canto 3 Chapter 4 of Canto 3 So maybe…”",
+         "note": "A devotee asks why the Yadavas were cursed.\n\n🎙 Question from the floor at 52:42 (auto-transcript): “Why were the Yadavas cursed? Shugdev Goswami explains this in a whole chapter of the Bhagatam. And as I mentioned earlier there are many many reasons why the Yadavas killed themselves I have spoken on this In another class In chapter 1 of Canto 3 Chapter 4 of Canto 3 So maybe…”",
          "hyperLink": "https://www.youtube.com/watch?v=XZUk7VCfAYM&t=3162s",
          "manas": {
           "links": [
@@ -24445,8 +24446,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "ixc"
   },
@@ -25277,11 +25278,23 @@
         {
          "id": "sgd-ixk-B-3",
          "topic": "Bhaktisiddhanta Sarasvati",
-         "note": "3 places in 2 classes. Tap one, then ↪ Go to this point.",
+         "note": "4 places in 2 classes. Tap one, then ↪ Go to this point.",
          "expanded": false,
          "children": [
           {
            "id": "sgd-ixk-B-3-1",
+           "topic": "Food in the modes",
+           "note": "Gita Week · Day 06 · The Field, Its Knowers and the Modes · 57:12",
+           "manas": {
+            "goto": {
+             "map": "gw-day06",
+             "node": "gw-d06-5",
+             "part": "gitaweek"
+            }
+           }
+          },
+          {
+           "id": "sgd-ixk-B-3-2",
            "topic": "The vat in Rangoon",
            "note": "Gita Week · Day 06 · The Field, Its Knowers and the Modes · 57:19",
            "manas": {
@@ -25293,7 +25306,7 @@
            }
           },
           {
-           "id": "sgd-ixk-B-3-2",
+           "id": "sgd-ixk-B-3-3",
            "topic": "A great scholar, an 'illiterate' guru",
            "note": "SB classes 2026 · Class 12 · When the Bee Sings · 21:36",
            "manas": {
@@ -25305,7 +25318,7 @@
            }
           },
           {
-           "id": "sgd-ixk-B-3-3",
+           "id": "sgd-ixk-B-3-4",
            "topic": "Always win-win",
            "note": "SB classes 2026 · Class 12 · When the Bee Sings · 70:46",
            "manas": {
@@ -26783,26 +26796,6 @@
        "note": "2 keywords",
        "children": [
         {
-         "id": "sgd-ixk-G-gm",
-         "topic": "Gita Mahatmya",
-         "note": "Shankaracharya's seven verses on why to read the Gita (also: Gita Mahatmyam, glories of the Gita, Gita mahima). 1 in-depth map. Tap, then ↪ Go to this point.",
-         "expanded": false,
-         "children": [
-          {
-           "id": "sgd-ixk-G-gm-1",
-           "topic": "In depth: Why read the Gita",
-           "note": "Gita Week · Day 01 · in-depth map (7 Nov 2026) · 08:03",
-           "manas": {
-            "goto": {
-             "map": "gw-day01-mahatmya",
-             "node": "gwd01mah-root",
-             "part": "gitaweek"
-            }
-           }
-          }
-         ]
-        },
-        {
          "id": "sgd-ixk-G-0",
          "topic": "Govardhana",
          "note": "4 places in 3 classes. Tap one, then ↪ Go to this point.",
@@ -26864,18 +26857,6 @@
          "note": "29 places in 10 classes. Tap one, then ↪ Go to this point.",
          "expanded": false,
          "children": [
-          {
-           "id": "sgd-ixk-G-1-deep",
-           "topic": "In depth: BG 2.7 \"You tell me\"",
-           "note": "Gita Week · Day 01 · in-depth map (7 Nov 2026) · 58:11",
-           "manas": {
-            "goto": {
-             "map": "gw-day01-surrender",
-             "node": "gwd01sur-root",
-             "part": "gitaweek"
-            }
-           }
-          },
           {
            "id": "sgd-ixk-G-1-1",
            "topic": "2.7 — Surrender: 'You tell me'",
@@ -27633,26 +27614,6 @@
              "map": "sgs-day05",
              "node": "sgs-d05-5-4",
              "part": "sb2026"
-            }
-           }
-          }
-         ]
-        },
-        {
-         "id": "sgd-ixk-K-kd",
-         "topic": "Karpanya dosha (miserly weakness)",
-         "note": "Arjuna's \"miserly weakness\" in BG 2.7 (also: kaarpanya, miser, stingy). Tap, then ↪ Go to this point.",
-         "expanded": false,
-         "children": [
-          {
-           "id": "sgd-ixk-K-kd-1",
-           "topic": "In depth: BG 2.7 \"You tell me\"",
-           "note": "Gita Week · Day 01 · in-depth map (7 Nov 2026) · 58:43",
-           "manas": {
-            "goto": {
-             "map": "gw-day01-surrender",
-             "node": "gwd01sur-2",
-             "part": "gitaweek"
             }
            }
           }
@@ -28949,11 +28910,23 @@
         {
          "id": "sgd-ixk-P-3",
          "topic": "Preaching",
-         "note": "12 places in 7 classes. Tap one, then ↪ Go to this point.",
+         "note": "13 places in 7 classes. Tap one, then ↪ Go to this point.",
          "expanded": false,
          "children": [
           {
            "id": "sgd-ixk-P-3-1",
+           "topic": "Food in the modes",
+           "note": "Gita Week · Day 06 · The Field, Its Knowers and the Modes · 57:12",
+           "manas": {
+            "goto": {
+             "map": "gw-day06",
+             "node": "gw-d06-5",
+             "part": "gitaweek"
+            }
+           }
+          },
+          {
+           "id": "sgd-ixk-P-3-2",
            "topic": "The vat in Rangoon",
            "note": "Gita Week · Day 06 · The Field, Its Knowers and the Modes · 57:19",
            "manas": {
@@ -28965,7 +28938,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-2",
+           "id": "sgd-ixk-P-3-3",
            "topic": "Brahma answers the demigods",
            "note": "SB classes 2026 · Class 02 · The Visa to Vaikuntha · 03:37",
            "manas": {
@@ -28977,7 +28950,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-3",
+           "id": "sgd-ixk-P-3-4",
            "topic": "Ananta's hoods and the Yamuna",
            "note": "SB classes 2026 · Class 04 · Vasudeva's Surrender · 37:21",
            "manas": {
@@ -28989,7 +28962,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-4",
+           "id": "sgd-ixk-P-3-5",
            "topic": "The whole world now celebrates",
            "note": "SB classes 2026 · Class 06 · Becoming Dear by Hearing · 07:00",
            "manas": {
@@ -29001,7 +28974,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-5",
+           "id": "sgd-ixk-P-3-6",
            "topic": "Nagara-sankirtana spreads it",
            "note": "SB classes 2026 · Class 07 · The Real Intoxication · 28:46",
            "manas": {
@@ -29013,7 +28986,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-6",
+           "id": "sgd-ixk-P-3-7",
            "topic": "Even Tehran",
            "note": "SB classes 2026 · Class 08 · Srila Prabhupada the Visionary · 28:29",
            "manas": {
@@ -29025,7 +28998,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-7",
+           "id": "sgd-ixk-P-3-8",
            "topic": "An ocean of LSD",
            "note": "SB classes 2026 · Class 08 · Srila Prabhupada the Visionary · 37:39",
            "manas": {
@@ -29037,7 +29010,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-8",
+           "id": "sgd-ixk-P-3-9",
            "topic": "Make others feel welcome",
            "note": "SB classes 2026 · Class 08 · Srila Prabhupada the Visionary · 49:30",
            "manas": {
@@ -29049,7 +29022,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-9",
+           "id": "sgd-ixk-P-3-10",
            "topic": "Dark ages and the seventh Goswami",
            "note": "SB classes 2026 · Class 11 · Bhaktivinoda Thakur, Seventh Goswami · 04:13",
            "manas": {
@@ -29061,7 +29034,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-10",
+           "id": "sgd-ixk-P-3-11",
            "topic": "Why 'seventh Goswami'",
            "note": "SB classes 2026 · Class 11 · Bhaktivinoda Thakur, Seventh Goswami · 08:06",
            "manas": {
@@ -29073,7 +29046,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-11",
+           "id": "sgd-ixk-P-3-12",
            "topic": "Predictions and eternal identity",
            "note": "SB classes 2026 · Class 11 · Bhaktivinoda Thakur, Seventh Goswami · 34:15",
            "manas": {
@@ -29085,7 +29058,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-3-12",
+           "id": "sgd-ixk-P-3-13",
            "topic": "Three predictions fulfilled",
            "note": "SB classes 2026 · Class 11 · Bhaktivinoda Thakur, Seventh Goswami · 35:26",
            "manas": {
@@ -29241,23 +29214,11 @@
         {
          "id": "sgd-ixk-P-5",
          "topic": "Purpose",
-         "note": "4 places in 4 classes. Tap one, then ↪ Go to this point.",
+         "note": "3 places in 3 classes. Tap one, then ↪ Go to this point.",
          "expanded": false,
          "children": [
           {
            "id": "sgd-ixk-P-5-1",
-           "topic": "Food in the modes",
-           "note": "Gita Week · Day 06 · The Field, Its Knowers and the Modes · 57:12",
-           "manas": {
-            "goto": {
-             "map": "gw-day06",
-             "node": "gw-d06-5",
-             "part": "gitaweek"
-            }
-           }
-          },
-          {
-           "id": "sgd-ixk-P-5-2",
            "topic": "A reason behind each protection",
            "note": "SB classes 2026 · Class 03 · Feed Others First · 18:16",
            "manas": {
@@ -29269,7 +29230,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-5-3",
+           "id": "sgd-ixk-P-5-2",
            "topic": "3.4.2 — The Yadus' end",
            "note": "SB classes 2026 · Class 07 · The Real Intoxication · 03:08",
            "manas": {
@@ -29281,7 +29242,7 @@
            }
           },
           {
-           "id": "sgd-ixk-P-5-4",
+           "id": "sgd-ixk-P-5-3",
            "topic": "No duality, only harmony",
            "note": "SB classes 2026 · Class 12 · When the Bee Sings · 17:38",
            "manas": {
@@ -35554,8 +35515,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "ixc"
   },
@@ -38239,8 +38200,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1792138159570,
-   "updated": 1792138159570,
+   "created": 1794722213788,
+   "updated": 1794722213788,
    "library": "sgd",
    "part": "ixc"
   },
@@ -38250,8 +38211,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1794023790671,
-   "updated": 1794023790671,
+   "created": 1794722215611,
+   "updated": 1794722215611,
    "library": "sgd",
    "deepOf": "gw-day01",
    "data": {
@@ -38833,8 +38794,8 @@
    "look": "night",
    "layout": "side",
    "lines": "curved",
-   "created": 1794023790678,
-   "updated": 1794023790678,
+   "created": 1794722215612,
+   "updated": 1794722215612,
    "library": "sgd",
    "deepOf": "gw-day01",
    "data": {
