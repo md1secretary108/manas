@@ -33,9 +33,9 @@
     "date": "27 Oct 2026"
    },
    "parts": 1,
-   "v": 1794196635,
-   "meta": "6 maps · 1,151 ideas · 500 KB · 1 subjects",
-   "whatsNew": "New: Chapter 2 in depth — college, marriage, Purī, Gandhi and khādī (77 ideas, 9 Nov)",
+   "v": 1794821571,
+   "meta": "7 maps · 1,245 ideas · 549 KB · 1 subjects",
+   "whatsNew": "New: Chapter 3 in depth — meeting his spiritual master, Allahabad years, his father's passing (94 ideas, Mon 16 Nov)",
    "split": "lib-pbio-index.json",
    "short": "SPLife"
   },
@@ -112,10 +112,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New: Advanced Auditing and Assurance CA34S2 — 1. Group audits, 2. Quality management, 3. Other assurance engagements (CA34S2 complete); Advanced Public Financial Management CA34S4 — 1. Public sector accounting (IPSAS), 2. Managing public money (CA34S4 complete) (11 Nov)",
-   "meta": "126 maps · 9,911 ideas · 2.2 MB · 4 subjects",
+   "whatsNew": "New: Business Data Analytics CA35P — 1. Data analytics for accountants (CRISP-DM, cleaning data, pivots, dashboards, audit analytics, ethics). Every CPA paper now has its maps: the course is complete (Mon 16 Nov)",
+   "meta": "127 maps · 10,017 ideas · 2.2 MB · 4 subjects",
    "parts": 4,
-   "v": 1794396184,
+   "v": 1794821711,
    "split": "lib-acc-index.json",
    "short": "Acc"
   },
@@ -144,9 +144,9 @@
    "icon": "🌱",
    "file": "lib-soil.json",
    "root": "soil-root",
-   "v": 1794224183,
-   "whatsNew": "New: Push–pull (icipe) for maize & sorghum, Cucurbits (pumpkin, watermelon, cucumber), Cover crops & green manures (Mon 9 Nov)",
-   "meta": "79 maps · 5,882 ideas · 1.5 MB · 11 subjects",
+   "v": 1794821602,
+   "whatsNew": "Deeper: Pseudomonas, Bacillus & Streptomyces (71→99 ideas, 66 links: DAPG, disease-suppressive soils, research 2018–2025) and The Soil Food Web (85→101: earthworms +25% yield, glomalin debate, necromass carbon) (Mon 16 Nov)",
+   "meta": "79 maps · 5,939 ideas · 1.5 MB · 11 subjects",
    "about": {
     "by": "Manas, for organic and biological farming teams",
     "from": "Extension and research sources (TNAU Agritech, FAO, USDA NRCS, Infonet-Biovision); YouTube videos from universities, extension services and growers",
