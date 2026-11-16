@@ -323,6 +323,23 @@
    "meta": "3 maps · 73 ideas · 24 KB · 1 subjects",
    "split": "lib-energy-index.json",
    "short": "Energy"
+  },
+  {
+   "id": "bg1972",
+   "title": "Bhagavad-gita As It Is (1972) — index demo · Chapters 1–2",
+   "subtitle": "Private demo for verification: the 1972 index mapped to the verses of Chapters 1 and 2 as printed — heading, what the book says, the verse — and the same turned round verse by verse.",
+   "icon": "🗂️",
+   "file": "lib-bg1972.json",
+   "root": "bg1972-root",
+   "draft": true,
+   "access": "private",
+   "short": "Gita index",
+   "about": "Private demo for verification. The index, glossary, Sanskrit verse index, references and picture list of the 1972 edition © The Bhaktivedanta Book Trust, mapped to verses by Manas; interim permission through the temple (verbal, November 2026), limited to KKD and the devotees checking it. Reviewer: HG Sri Gauranga Das. Not for distribution.",
+   "parts": 2,
+   "v": 1794720287,
+   "meta": "19 maps · 4,646 ideas · 1.0 MB · 2 subjects",
+   "whatsNew": "First demo: Chapters 1 and 2 (15 Nov)",
+   "split": "lib-bg1972-index.json"
   }
  ]
 }
