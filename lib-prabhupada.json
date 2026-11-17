@@ -33363,7 +33363,8 @@
        "manas": {
         "orbit": {
          "ref": "Karma-yoga"
-        }
+        },
+        "map": "lib-bg-3-deep"
        },
        "children": [
         {
@@ -60947,7 +60948,7 @@
    "layout": "side",
    "lines": "curved",
    "created": 1794542184711,
-   "updated": 1794542184711,
+   "updated": 1794887766807,
    "library": "prabhupada",
    "deepOf": "m53vwhp2ahiz",
    "data": {
@@ -61913,6 +61914,17 @@
          "hyperLink": "https://vedabase.io/en/library/bg/2/"
         },
         {
+         "id": "lib-bg-2-deep-next3",
+         "topic": "↪ Next: Chapter 3 verse by verse",
+         "note": "Karma-yoga: Arjuna’s question from verse 3.1 answered, all 43 verses.",
+         "manas": {
+          "goto": {
+           "map": "lib-bg-3-deep",
+           "node": "lib-bg-3-deep-root"
+          }
+         }
+        },
+        {
          "id": "lib-bg-2-deep-see1",
          "topic": "↪ See also: Chapter 1 verse by verse",
          "note": "Arjuna’s grief that this chapter answers.",
@@ -61931,6 +61943,677 @@
           "goto": {
            "map": "lib-bgix-sections",
            "node": "bgix-s.bg.2"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-bg-3-deep",
+   "title": "Bhagavad-gita 3 · Verse by verse",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794887766813,
+   "updated": 1794887766813,
+   "library": "prabhupada",
+   "deepOf": "m53vwhp2ahiz",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-bg-3-deep-root",
+     "topic": "Bhagavad-gita 3 · Verse by verse",
+     "note": "All 43 verses of Chapter 3, Karma-yoga, in five sections, each summarised in our own words with a link to the verse. Also searched as: karma yoga / karmayoga, action, work, duty / dharma / svadharma, sacrifice / yajna / yajña, offering food / prasadam, Janaka, example / leadership, false ego / ahankara, doer, modes / gunas, lust / kama, anger / krodha, senses mind intelligence. Review in progress.",
+     "hyperLink": "https://vedabase.io/en/library/bg/3/",
+     "manas": {
+      "orbit": {
+       "ref": "BG 3"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-bg-3-deep-s1",
+       "topic": "Verses 1–8 · Why act at all?",
+       "note": "Arjuna thinks Chapter 2 rated knowledge above work, so why fight? Krishna answers that nobody can stop acting; the question is only how to act.",
+       "hyperLink": "https://vedabase.io/en/library/bg/3/1/",
+       "children": [
+        {
+         "id": "lib-bg-3-deep-v1",
+         "topic": "If knowing is higher, why this war?",
+         "note": "Arjuna asks Krishna why He pushes him into a terrible battle if understanding is better than working for results.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/1/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.1",
+           "tag": "Questions"
+          },
+          "q": "Which verse opens Chapter 3 with Arjuna asking why he must fight if intelligence is better than work?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v2",
+         "topic": "Your words seem two-sided",
+         "note": "Arjuna feels the teaching sounds mixed and pleads for one clear answer about what is best for him.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/2/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.2",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v3",
+         "topic": "Two paths to the self",
+         "note": "Krishna recalls that seekers go two ways: some by philosophical analysis, others by devotional work.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/3/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.3",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v4",
+         "topic": "Quitting work does not free you",
+         "note": "Simply stopping activity, or formal renunciation by itself, does not bring freedom from reactions or perfection.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/4/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.4",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v5",
+         "topic": "Nobody can stay still",
+         "note": "Nature’s modes drive every embodied being, so no one can stop acting even for a moment.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/5/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.5",
+           "tag": "Knowledge"
+          },
+          "q": "Which verse says no one can remain without acting, even for a moment?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v6",
+         "topic": "Still body, busy mind: a pretender",
+         "note": "One who holds the working senses back while the mind keeps savouring their objects is fooling himself.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/6/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.6",
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v7",
+         "topic": "Better: guide the senses and work",
+         "note": "A sincere person who directs the senses with the mind and works without attachment stands far higher.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/7/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.7",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v8",
+         "topic": "Do your duty; even the body needs work",
+         "note": "Prescribed work is better than idleness; without activity one could not even keep the body alive.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/8/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.8",
+           "tag": "Dharma"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-3-deep-s2",
+       "topic": "Verses 9–16 · Work as sacrifice (yajña)",
+       "note": "Work offered to Vishnu does not bind. Krishna describes the cycle of sacrifice set up at creation, linking humans, the demigods, rain and food.",
+       "hyperLink": "https://vedabase.io/en/library/bg/3/9/",
+       "children": [
+        {
+         "id": "lib-bg-3-deep-v9",
+         "topic": "Work for Vishnu, or be bound",
+         "note": "Activity done as an offering to Vishnu frees; any other work ties one to this world, so act to please Him.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/9/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.9",
+           "tag": "Surrender"
+          },
+          "q": "Which verse says work must be done as a sacrifice for Vishnu, otherwise it binds?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v10",
+         "topic": "Creation began with sacrifice",
+         "note": "At the start the Lord of beings produced people and demigods together with yajña and blessed them to flourish by it.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/10/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.10",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v11",
+         "topic": "Please them, they please you",
+         "note": "When sacrifice satisfies the demigods they in turn provide for people, and shared prosperity follows from this partnership.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/11/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.11",
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v12",
+         "topic": "Taking without offering is theft",
+         "note": "The demigods manage life’s needs; one who enjoys their gifts and gives nothing back is called a thief.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/12/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.12",
+           "tag": "Wealth"
+          },
+          "q": "Which verse calls a person who enjoys gifts without offering them back a thief?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v13",
+         "topic": "Offered food frees; selfish food is sin",
+         "note": "Devotees who eat what was first offered are cleared of sin; cooking only for one’s own pleasure means eating sin.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/13/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.13",
+           "tag": "Devotees"
+          },
+          "q": "Which verse explains why devotees eat only food first offered to the Lord?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v14",
+         "topic": "Food, rain, sacrifice, duty",
+         "note": "Bodies live on grain, grain grows from rain, rain comes from sacrifice, and sacrifice arises from duty.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/14/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.14",
+           "tag": "Knowledge"
+          },
+          "q": "Which verse traces the chain from food to rain to sacrifice to duty?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v15",
+         "topic": "Duty traces back to the Lord",
+         "note": "The Vedas set out regulated work and come from the Supreme, so the Absolute is always present in sacrifice.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/15/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.15",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v16",
+         "topic": "Breaking the wheel: a wasted life",
+         "note": "A human who ignores this Vedic cycle and lives just for the senses lives sinfully and to no purpose.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/16/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.16",
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-3-deep-s3",
+       "topic": "Verses 17–26 · The realised person and the example",
+       "note": "A self-satisfied soul has no duty of its own, yet the wise still work — to lead others. Krishna points to King Janaka and to Himself.",
+       "hyperLink": "https://vedabase.io/en/library/bg/3/17/",
+       "children": [
+        {
+         "id": "lib-bg-3-deep-v17",
+         "topic": "Content in the self: no duty left",
+         "note": "For one who delights in and is fully satisfied by the self, nothing remains that must be done.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/17/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.17",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v18",
+         "topic": "Nothing to gain, nothing to avoid",
+         "note": "Such a realised person has no aim to serve by duty, no reason to drop it, and need not rely on anyone.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/18/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.18",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v19",
+         "topic": "So act, unattached, as duty",
+         "note": "Therefore work as an obligation without clinging to results; that detached work leads to the Supreme.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/19/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.19",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v20",
+         "topic": "Janaka reached perfection by work",
+         "note": "Kings such as Janaka became perfect through their duties; Arjuna too should act to teach the people.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/20/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.20",
+           "tag": "Leaders"
+          },
+          "q": "Which king does Krishna name as reaching perfection through prescribed duty?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v21",
+         "topic": "People copy the great",
+         "note": "Whatever a leading person does, ordinary people imitate, and the standard he sets becomes the world’s.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/21/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.21",
+           "tag": "Leaders"
+          },
+          "q": "Which verse says common people follow whatever a great person does?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v22",
+         "topic": "Krishna needs nothing, yet works",
+         "note": "In all three worlds Krishna has no duty and lacks nothing, still He keeps acting.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/22/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.22",
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v23",
+         "topic": "If He stopped, all would stop",
+         "note": "Were Krishna ever to neglect His duties, everyone would follow that path.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/23/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.23",
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v24",
+         "topic": "His idleness would ruin the worlds",
+         "note": "If He did not act, the worlds would decline, unwanted population would arise, and peace would be lost.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/24/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.24",
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v25",
+         "topic": "Same work, different spirit",
+         "note": "The ignorant work clinging to fruits; a learned person may do the same tasks unattached, to lead people rightly.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/25/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.25",
+           "tag": "Preaching"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v26",
+         "topic": "Don’t unsettle, engage",
+         "note": "The wise should not shake the faith of result-seekers by stopping them, but engage them in work done devotionally.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/26/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.26",
+           "tag": "Preaching"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-3-deep-s4",
+       "topic": "Verses 27–35 · Who is the doer? Offer it all; keep your own duty",
+       "note": "False ego makes the soul think it does what nature’s modes are doing. Krishna asks Arjuna to give all work to Him and to keep to his own prescribed duty.",
+       "hyperLink": "https://vedabase.io/en/library/bg/3/27/",
+       "children": [
+        {
+         "id": "lib-bg-3-deep-v27",
+         "topic": "Nature acts; ego claims credit",
+         "note": "Bewildered by false ego, the soul imagines it is the doer of acts that the three modes really perform.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/27/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.27",
+           "tag": "Soul"
+          },
+          "q": "Which verse says false ego makes the soul think it is the doer?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v28",
+         "topic": "The knower sees the difference",
+         "note": "One who knows the truth, seeing how devotional work differs from fruitive work, is not caught by the senses.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/28/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.28",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v29",
+         "topic": "Do not disturb the attached",
+         "note": "The ignorant are absorbed in material work through the modes; the wise should leave them undisturbed, though such duties are lower.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/29/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.29",
+           "tag": "Preaching"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v30",
+         "topic": "Give every act to Me — and fight",
+         "note": "Offering all work to Krishna, knowing Him, without desire for gain, without “mine” and without laziness, Arjuna should fight.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/30/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.30",
+           "tag": "Surrender"
+          },
+          "q": "Which verse in Chapter 3 asks Arjuna to surrender all his works to Krishna and fight?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v31",
+         "topic": "Follow faithfully, be freed",
+         "note": "Those who keep to this instruction with faith and without envy are released from the bondage of karma.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/31/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.31",
+           "tag": "Faith"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v32",
+         "topic": "Envy shuts the door",
+         "note": "Those who resent and ignore this teaching lose real knowledge and are defeated in their efforts.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/32/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.32",
+           "tag": "Faith"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v33",
+         "topic": "Nature is strong; suppression fails",
+         "note": "Even the learned act by their acquired nature; merely forcing it down achieves little.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/33/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.33",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v34",
+         "topic": "Likes and dislikes block the road",
+         "note": "There are rules for regulating the senses’ attraction and aversion; one must not be ruled by them, as they obstruct self-realisation.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/34/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.34",
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v35",
+         "topic": "Your own duty, even imperfectly",
+         "note": "It is better to do one’s own duty with faults than another’s well; even dying in one’s own duty is safer.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/35/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.35",
+           "tag": "Dharma"
+          },
+          "q": "Which verse says one’s own duty done imperfectly is better than another’s done perfectly?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-3-deep-s5",
+       "topic": "Verses 36–43 · Lust, the enemy within",
+       "note": "Arjuna asks what drives people to sin against their will. Krishna names lust, shows where it hides, and how the soul, higher than mind and intelligence, can defeat it.",
+       "hyperLink": "https://vedabase.io/en/library/bg/3/36/",
+       "children": [
+        {
+         "id": "lib-bg-3-deep-v36",
+         "topic": "What pushes us to sin?",
+         "note": "Arjuna asks what forces a person into wrong acts, as if dragged, even when unwilling.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/36/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.36",
+           "tag": "Questions"
+          },
+          "q": "Which verse has Arjuna ask what impels one to sin, even unwillingly?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v37",
+         "topic": "Lust, which turns to anger",
+         "note": "Krishna answers: it is lust, born of the mode of passion, which becomes anger and is the world’s greedy, sinful enemy.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/37/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.37",
+           "tag": "Desire"
+          },
+          "q": "According to Krishna, what is the cause of sinful action?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v38",
+         "topic": "Smoke, dust, womb",
+         "note": "Like fire under smoke, a mirror under dust, or an embryo in the womb, the soul is covered by lust in heavier or lighter degrees.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/38/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.38",
+           "tag": "Desire"
+          },
+          "q": "Which three pictures does Krishna use for how lust covers the soul?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v39",
+         "topic": "A fire that is never full",
+         "note": "Lust is the eternal enemy that covers even a wise person’s pure awareness; it is never satisfied and burns like fire.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/39/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.39",
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v40",
+         "topic": "Where lust lives",
+         "note": "Senses, mind and intelligence are its seats; from there it hides true knowledge and confuses the soul.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/40/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.40",
+           "tag": "Desire"
+          },
+          "q": "Which verse names the senses, mind and intelligence as the seats of lust?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v41",
+         "topic": "Stop it at the start",
+         "note": "So Arjuna should regulate the senses from the very beginning and kill this destroyer of knowledge.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/41/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.41",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v42",
+         "topic": "The ladder: senses, mind, intelligence, soul",
+         "note": "The senses are above dead matter, the mind above the senses, intelligence above the mind, and the soul above intelligence.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/42/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.42",
+           "tag": "Soul"
+          },
+          "q": "Which verse ranks senses, mind, intelligence and soul?"
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-v43",
+         "topic": "Conquer it by spiritual strength",
+         "note": "Knowing oneself beyond senses, mind and intelligence, steady the mind with spiritual intelligence and defeat this hard-to-beat enemy.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/43/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.43",
+           "tag": "Surrender"
+          },
+          "q": "How does Chapter 3 end?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-bg-3-deep-why",
+       "topic": "Why this chapter matters",
+       "note": "Chapter 3 settles the doubt left by Chapter 2: renouncing work is not the way; working as an offering to Krishna is. It also names lust as what spoils action.",
+       "children": [
+        {
+         "id": "lib-bg-3-deep-why1",
+         "topic": "Two hinges: verse 9 and verse 30",
+         "note": "Verse 9 says work for Vishnu does not bind; verse 30 makes it personal — offer every act to Krishna. The chapter moves from sacrifice in general to surrender to Him.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/30/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.30",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-why2",
+         "topic": "Leadership by example",
+         "note": "Verses 20–26 are often used on leadership: leaders keep working well because others copy them, even when they personally need nothing.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/21/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 3.21",
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-why3",
+         "topic": "The question answered in Chapter 4",
+         "note": "Krishna next tells how this ancient teaching came down through disciplic succession and why He descends — Chapter 4, Transcendental Knowledge.",
+         "hyperLink": "https://vedabase.io/en/library/bg/4/1/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 4.1",
+           "tag": "Guru"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-why4",
+         "topic": "Read the purports for the deeper meaning",
+         "note": "Each verse link opens Srila Prabhupada’s translation and purport on vedabase.io; the notes here are only our short summaries.",
+         "hyperLink": "https://vedabase.io/en/library/bg/3/"
+        },
+        {
+         "id": "lib-bg-3-deep-see1",
+         "topic": "↪ See also: Chapter 2 verse by verse",
+         "note": "Buddhi-yoga in 2.39–53 is the teaching that raised Arjuna’s question in 3.1.",
+         "manas": {
+          "goto": {
+           "map": "lib-bg-2-deep",
+           "node": "lib-bg-2-deep-root"
+          }
+         }
+        },
+        {
+         "id": "lib-bg-3-deep-see2",
+         "topic": "↪ See also: Chapter 1 verse by verse",
+         "note": "Arjuna’s original refusal to fight.",
+         "manas": {
+          "goto": {
+           "map": "lib-bg-1-deep",
+           "node": "lib-bg-1-deep-root"
           }
          }
         }
