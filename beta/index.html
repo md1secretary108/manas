@@ -5,7 +5,7 @@
 <meta name="author" content="Kewal Bhatt (Keval Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Keval Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.30-8c1edf741f086eec4b9fe866"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="https://md1secretary108.github.io/manas/libraries.json"><style>body::after{content:"BETA 6";position:fixed;left:6px;bottom:4px;font:600 10px/1 system-ui,sans-serif;letter-spacing:.08em;color:#F0A030;opacity:.75;pointer-events:none;z-index:2147483000}</style>
+<meta name="manas-stamp" content="7.30-8c1edf741f086eec4b9fe866"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="https://md1secretary108.github.io/manas/libraries.json"><style>body::after{content:"BETA 7";position:fixed;left:6px;bottom:4px;font:600 10px/1 system-ui,sans-serif;letter-spacing:.08em;color:#F0A030;opacity:.75;pointer-events:none;z-index:2147483000}</style>
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -796,6 +796,7 @@ $('#home-menu-btn').addEventListener('click', () => sheet(`
     <hr>
     <button id="s-install" hidden>${ico('phone')}<span>${t('Install as an app')}<br><small style="color:var(--muted)">${t('Works offline and keeps your maps safer')}</small></span></button>
     <button id="s-libs" hidden>${ico('book')}<span>${t('Libraries')}<br><small style="color:var(--muted)">${t('Add or remove ready-made study libraries')}</small></span></button>
+    <button id="s-code" hidden>${ico('link')}<span>🏫 ${t('I have a code')}<br><small style="color:var(--muted)">${t('For volunteers and classes: confirm this phone, then join')}</small></span></button>
     <button id="s-new">${ico('help')}<span>${t("What's new")}<br><small style="color:var(--muted)">${t('Changes in the latest updates, and where to find them')}</small></span></button>
     <button id="s-tour">${ico('help')}<span>${t('Take the tour')}<br><small style="color:var(--muted)">${t('A one-minute walk through the app')}</small></span></button>
     <button id="s-help">${ico('help')}<span>${t('How it works')}</span></button>
@@ -837,6 +838,7 @@ $('#home-menu-btn').addEventListener('click', () => sheet(`
     $('#s-feedback',s).onclick = feedbackSheet;
     { const ad = $('#s-admin', s); if (isAdmin()){ ad.hidden = false; ad.onclick = () => adminPanel('req'); } }
     { const em = $('#s-email', s); if (emailEndpoint()){ em.hidden = false; em.onclick = emailSheet; } }
+    { const cd = $('#s-code', s); if (emailEndpoint() && accEmail()){ cd.hidden = false; cd.onclick = () => codeSheet(); } }   // beta 7
 }));
 
 function mapOptions(id){
@@ -3825,7 +3827,7 @@ const IS_APP = location.protocol === 'file:';
    The site keeps an offline copy (service worker). If neither the site nor its copy can open, the app shows a Retry screen. */
 const IN_SHELL = !!window.ManasBridge;
 const SHELL_HOME = SITE + 'beta/index.html';   // beta 6: the Beta APK opens the web beta, so beta fixes reach phones without a new APK
-const BETA_BUILD = 'beta6';   // beta 6: the copy inside the Beta APK hands off to the web beta (SITE/beta/), like the main app does to the site
+const BETA_BUILD = 'beta7';   // beta 6: the copy inside the Beta APK hands off to the web beta (SITE/beta/), like the main app does to the site
 const SHELL_BOOT = IS_APP && IN_SHELL && location.hash !== '#offline';
 const BETA_WEB = !IS_APP && /\/beta\/(index\.html)?$/.test(location.pathname);   // the web beta registers the site's service worker (one level up) for its offline copy
 function bridgePref(k){ try { const b = window.ManasBridge; return b && b.pref ? String(b.pref(k) || '') : ''; } catch(e){ return ''; } }
@@ -4339,6 +4341,40 @@ async function joinWithCode(code, e, st){
   } catch(err){ st.textContent = String(err && err.message) === 'old script' ? t('Class codes open soon. Please ask your teacher.') : t('Could not reach Manas — check the connection and try again.'); return false; }
 }
 
+/* beta 7: one place for volunteers (home menu → I have a code). Confirm this phone (Check now / Send link again), then type the code.
+   Works for open libraries too: there is no padlock to tap there, but Review mode still needs the Review group. */
+function codeSheet(){
+  const a = acc(), em = accEmail();
+  const dev = () => acc().device === 'active' ? `<p class="tips" id="cd-ok">✓ ${t('This phone is confirmed.')}</p>`
+    : `<p class="tips" id="cd-wait">✉️ ${esc(t('We emailed a link to {e}. Open it (check Spam too), then tap Check now.').replace('{e}', em))}</p>
+       <div class="row"><button class="btn" id="cd-again">${t('Send link again')}</button><button class="btn primary" id="cd-chk">${t('Check now')}</button></div>`;
+  sheet(`<h2>🏫 ${t('I have a code')}</h2><p class="sub">${esc(em)}</p>
+    <div id="cd-dev">${dev()}</div>
+    <div class="row" style="margin-top:8px"><input class="field" id="cd-code" maxlength="12" autocapitalize="characters" autocomplete="off" placeholder="${esc(t('8-letter code, e.g. K7QM4XPA'))}" style="flex:1;text-transform:uppercase;letter-spacing:.1em"><button class="btn primary" id="cd-join">${t('Join')}</button></div>
+    <p class="tips" id="cd-st" aria-live="polite"></p><div id="cd-open"></div>
+    <div class="row"><button class="btn" id="cd-x">${t('Close')}</button></div>`, s => {
+    const st = $('#cd-st', s);
+    const wire = () => {
+      const chk = $('#cd-chk', s); if (chk) chk.onclick = async () => { chk.disabled = true; st.textContent = t('Checking…'); const ok = await accessCheck(true); chk.disabled = false;
+        if (acc().device === 'active'){ $('#cd-dev', s).innerHTML = dev(); st.textContent = ''; renderHome(); }
+        else st.textContent = ok ? t('Not confirmed yet. Open the link in the email, then tap Check now.') : t('Could not reach Manas — check the connection and try again.'); };
+      const ag = $('#cd-again', s); if (ag) ag.onclick = async () => { ag.disabled = true; st.textContent = t('Sending…');
+        const b = acc(); delete b.token; b.at = 0; saveSettings(settings);   // a new device row sends a fresh link (the script mails at most one an hour per row)
+        const ok = await accessCheck(true); st.textContent = ok ? t('A new link is on its way. Use the newest email.') : t('Could not reach Manas — check the connection and try again.');
+        setTimeout(() => { ag.disabled = false; }, 30000); };
+    };
+    wire();
+    $('#cd-x', s).onclick = closeSheet;
+    const jn = $('#cd-join', s), ci = $('#cd-code', s);
+    ci.addEventListener('keydown', ev => { if (ev.key === 'Enter') jn.click(); });
+    jn.onclick = async () => { jn.disabled = true; const ok = await joinWithCode(ci.value, null, st); jn.disabled = false;
+      if (!ok) return; $('#cd-dev', s).innerHTML = dev(); wire();
+      const libs = Object.values(settings.rvLibs || {}).flat().map(libById).filter(e => e && libAllowed(e));
+      $('#cd-open', s).innerHTML = libs.slice(0, 3).map(e => `<button class="btn primary" data-cdo="${esc(e.id)}" style="margin:4px 0">${esc((e.icon || '📚') + ' ' + t('Open') + ' ' + e.title)}</button>`).join('');
+      s.querySelectorAll('[data-cdo]').forEach(b => b.onclick = () => openLibraryNow(libById(b.getAttribute('data-cdo')))); };
+  });
+}
+
 /* the Admin panel — home menu → Admin (only on an admin's confirmed phone). Every action goes to the script, which checks the role. */
 function libTitle(id){ if (String(id).indexOf('group:') === 0) return '👥 ' + (((acc().groupNames || {})[String(id).slice(6)]) || t('a group')); const e = libById(id); return e ? (e.icon || '📚') + ' ' + e.title : id; }
 function shortDate(v){ try { const d = new Date(v); return isNaN(d) ? '' : d.toLocaleDateString(undefined, { day: 'numeric', month: 'short' }); } catch(e){ return ''; } }
@@ -4489,9 +4525,11 @@ async function adminGroups(body){
   const again = () => adminPanel('grp');
   $('#ad-gmake', body).onclick = () => { const name = $('#ad-gname', body).value.trim(); const ls = [...body.querySelectorAll('.ad-glib:checked')].map(x => x.value);
     if (name.length < 2){ toast(t('Give the group a name')); return; } if (!ls.length){ toast(t('Tick at least one library')); return; }
+    const mk = $('#ad-gmake', body); if (mk.disabled) return; mk.disabled = true; setTimeout(() => { mk.disabled = false; }, 8000);   // beta 7: a second tap does not make a second group
     adminDo('admin.group.create', { name, libraries: ls.join(','), days: $('#ad-gdays', body).value || '', max: $('#ad-gmax', body).value || '' }, again); };
   body.querySelectorAll('[data-gshare]').forEach(b => b.onclick = async () => { const g = groups.find(x => x.id === b.getAttribute('data-gshare')); if (!g) return;
-    const text = t('Join {g} in Manas: open a locked library, tap “I have a class code” and type {c}').replace('{g}', g.name).replace('{c}', g.code) + ' — https://md1secretary108.github.io/manas/';
+    const text = BETA_BUILD ? t('Join {g} in Manas Beta: open the link, then home menu (⋮) → I have a code, and type {c}').replace('{g}', g.name).replace('{c}', g.code) + ' — ' + SITE + 'beta/'   // beta 7: volunteers go to the beta
+      : t('Join {g} in Manas: open a locked library, tap “I have a class code” and type {c}').replace('{g}', g.name).replace('{c}', g.code) + ' — https://md1secretary108.github.io/manas/';
     try { if (navigator.share) await navigator.share({ text }); else { await navigator.clipboard.writeText(text); toast(t('Copied')); } } catch(e){} });
   body.querySelectorAll('[data-gclose]').forEach(b => b.onclick = () => adminDo('admin.group.close', { id: b.getAttribute('data-gclose') }, again));
   body.querySelectorAll('[data-gout]').forEach(b => b.onclick = () => adminDo('admin.group.remove', { id: b.getAttribute('data-gout') }, again));
