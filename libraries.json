@@ -340,6 +340,27 @@
    "meta": "19 maps · 4,646 ideas · 1.0 MB · 2 subjects",
    "whatsNew": "First demo: Chapters 1 and 2 (15 Nov)",
    "split": "lib-bg1972-index.json"
+  },
+  {
+   "id": "gita-ml",
+   "title": "Bhagavad-gita in your language — chapter summaries · draft",
+   "subtitle": "Draft for review: the Bhagavad-gita one verse at a time in ten languages (Hindi, Swahili, Gujarati, Bengali, Tamil, Telugu, Kannada, Marathi, Spanish, French) — our own one-line summaries, each linked to the verse on vedabase.io. Chapter 1 so far; native reviewers wanted.",
+   "icon": "🌍",
+   "file": "lib-gita-ml.json",
+   "root": "gita-ml-root",
+   "draft": true,
+   "about": {
+    "by": "Manas, for anyone who wants the Gita in their own language",
+    "from": "Own-words one-line summaries of each verse, each linked to the verse on vedabase.io; no BBT text in any language",
+    "review": "Draft · translations unreviewed · native reviewers wanted",
+    "date": "18 Nov 2026"
+   },
+   "whatsNew": "New library: Chapter 1 (46 verses) in all ten languages, each verse linked to vedabase.io (Wed 18 Nov)",
+   "short": "Gita 🌍",
+   "parts": 10,
+   "v": 1794997500,
+   "meta": "21 maps · 492 ideas · 230 KB · 10 subjects",
+   "split": "lib-gita-ml-index.json"
   }
  ]
 }
