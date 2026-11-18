@@ -155,7 +155,9 @@
    },
    "parts": 11,
    "split": "lib-soil-index.json",
-   "short": "Soil"
+   "short": "Soil",
+   "format": 2,
+   "dir": "lib-soil/"
   },
   {
    "id": "ai",
