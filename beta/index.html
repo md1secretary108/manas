@@ -5,7 +5,7 @@
 <meta name="author" content="Kewal Bhatt (Keval Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Keval Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.30-8c1edf741f086eec4b9fe866"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="https://md1secretary108.github.io/manas/libraries.json"><style>body::after{content:"BETA 5";position:fixed;left:6px;bottom:4px;font:600 10px/1 system-ui,sans-serif;letter-spacing:.08em;color:#F0A030;opacity:.75;pointer-events:none;z-index:2147483000}</style>
+<meta name="manas-stamp" content="7.30-8c1edf741f086eec4b9fe866"><meta name="theme-color" content="#22203A"><meta name="manas-catalog" content="https://md1secretary108.github.io/manas/libraries.json"><style>body::after{content:"BETA 6";position:fixed;left:6px;bottom:4px;font:600 10px/1 system-ui,sans-serif;letter-spacing:.08em;color:#F0A030;opacity:.75;pointer-events:none;z-index:2147483000}</style>
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -3824,9 +3824,10 @@ const IS_APP = location.protocol === 'file:';
    The copy inside the APK only hands over: it moves the phone's maps across once (through the app's bridge), then opens the site.
    The site keeps an offline copy (service worker). If neither the site nor its copy can open, the app shows a Retry screen. */
 const IN_SHELL = !!window.ManasBridge;
-const SHELL_HOME = SITE + 'index.html';
-const BETA_BUILD = 'beta5';   // Manas Beta APK: stays on its own bundled page, never hands off to the live site
-const SHELL_BOOT = false;
+const SHELL_HOME = SITE + 'beta/index.html';   // beta 6: the Beta APK opens the web beta, so beta fixes reach phones without a new APK
+const BETA_BUILD = 'beta6';   // beta 6: the copy inside the Beta APK hands off to the web beta (SITE/beta/), like the main app does to the site
+const SHELL_BOOT = IS_APP && IN_SHELL && location.hash !== '#offline';
+const BETA_WEB = !IS_APP && /\/beta\/(index\.html)?$/.test(location.pathname);   // the web beta registers the site's service worker (one level up) for its offline copy
 function bridgePref(k){ try { const b = window.ManasBridge; return b && b.pref ? String(b.pref(k) || '') : ''; } catch(e){ return ''; } }
 function shellPayload(){
   const libs = [...new Set(maps.filter(m => m.library).map(m => m.library))].map(id => { const parts = [...new Set(maps.filter(m => m.library === id && m.part).map(m => m.part))]; return { id, parts: parts.length ? parts : null }; });
@@ -3864,7 +3865,7 @@ function installSheet(){
     : '<li>Tap the <b>⋮</b> menu at the top right of Chrome.</li><li>Tap <b>' + t('Add to Home screen') + '</b> or <b>' + t('Install app') + '</b>.</li><li>' + t('Open Manas from its new icon. It works offline.') + '</li>';
   sheet(`<h2>${t('Install as an app')}</h2><p class="sub">${t('No store and no download needed — the web version installs itself onto your home screen.')}</p><ul class="tips">${steps}</ul><div class="row"><button class="btn primary" id="in-ok">${t('OK')}</button></div>`, s => { $('#in-ok', s).onclick = closeSheet; });
 }
-if ('serviceWorker' in navigator && (canInstall() || (IN_SHELL && (location.protocol === 'https:' || location.hostname === 'localhost')))){ window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').then(reg => { reg.addEventListener('updatefound', () => { const w = reg.installing; if (w) w.addEventListener('statechange', () => { if (w.state === 'installed' && navigator.serviceWorker.controller){ updateInfo = updateInfo || { version: 'A new version', note: '' }; renderHome(); } }); }); }).catch(() => {}); }); }
+if ('serviceWorker' in navigator && (canInstall() || (IN_SHELL && (location.protocol === 'https:' || location.hostname === 'localhost')))){ window.addEventListener('load', () => { navigator.serviceWorker.register(BETA_WEB ? '../sw.js' : 'sw.js', BETA_WEB ? { scope: '../' } : undefined).then(reg => { reg.addEventListener('updatefound', () => { const w = reg.installing; if (w) w.addEventListener('statechange', () => { if (w.state === 'installed' && navigator.serviceWorker.controller){ updateInfo = updateInfo || { version: 'A new version', note: '' }; renderHome(); } }); }); }).catch(() => {}); }); }
 function cmpVer(a, b){ const x = String(a).split('.').map(Number), y = String(b).split('.').map(Number); for (let i = 0; i < Math.max(x.length, y.length); i++){ const d = (x[i] || 0) - (y[i] || 0); if (d) return d; } return 0; }
 async function checkUpdate(){
   if (BETA_BUILD) return;   // the beta is updated by a new beta file, not from the live site
