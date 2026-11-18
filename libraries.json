@@ -46,16 +46,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "273 maps · 18,405 ideas · 13.2 MB · 14 series + index",
-   "parts": 15,
+   "meta": "299 maps · 19,986 ideas · 14.4 MB · 15 series + index",
+   "parts": 16,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1794396517,
-   "whatsNew": "New series: Madhurya Kadambini — Causes of Distress — 5 sessions (Visvanatha Cakravarti Thakura's five causes of distress, online, Nov 2021), each a map",
+   "v": 1794997226,
+   "whatsNew": "New series: Teachings of Lord Rsabhadeva — 25 classes (SB 5.5, Rsabhadeva's instructions to his sons, Vrindavan, Jun–Aug 2024), each a map",
    "split": "lib-bdds-index.json",
    "short": "Maharaj"
   },
@@ -164,7 +164,7 @@
    "icon": "🤖",
    "file": "lib-ai.json",
    "root": "ai-root",
-   "whatsNew": "New: A small business AI starter plan and Experiments and A/B testing; news refreshed: Claude Fable 5.2 and Mythos 5.2, OpenAI's Control Room safety stop switch, Claude's physics and proof claims (10 Nov)",
+   "whatsNew": "New: Graphs and graph neural networks, and Engineering reliable AI agents; news refreshed: GPT-6.2 Astra and Sol, Gemini 4 Hydrogen, Gemini 4 Carbon for all paying users, AI self-improvement risk rating, AlphaGenome 2, AlphaProof Code proves Signal's code, open weather datasets, free ChatGPT for researchers (18 Nov)",
    "about": {
     "by": "Manas, for anyone learning AI — beginners and students",
     "from": "Wikipedia, research papers (Europe PMC), free courses; YouTube videos from universities and well-known teachers",
@@ -172,8 +172,8 @@
     "date": "14 Oct 2026"
    },
    "parts": 9,
-   "v": 1794289712,
-   "meta": "65 maps · 3,950 ideas · 926 KB · 9 subjects",
+   "v": 1794996961,
+   "meta": "67 maps · 4,139 ideas · 971 KB · 9 subjects",
    "split": "lib-ai-index.json",
    "short": "AI"
   },
