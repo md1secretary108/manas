@@ -10,8 +10,8 @@
    "look": "ocean",
    "layout": "side",
    "lines": "curved",
-   "created": 1793764556656,
-   "updated": 1793764556656,
+   "created": 1794974230967,
+   "updated": 1794974230967,
    "library": "cpa31",
    "data": {
     "direction": 2,
@@ -21,7 +21,7 @@
      "icons": [
       "📊"
      ],
-     "note": "Exam preparation for KASNEB CPA Advanced Level, paper CA31 Leadership and Management. Each topic bubble is a door (tap the arrow) into that topic's map: sections follow the tutorial notes, every point is a flashcard (Study → flashcards or quiz), and an Exam practice branch shows likely questions with how to structure the answer. Search words: leadership / leader / leading; management / manager; PESTEL / PESTLE / PEST / ETPS; five forces / Porter; SWOT / strengths weaknesses; conflict / dispute / mediation / arbitration; situational / Hersey Blanchard; transformational / transformative; SMART objectives / goals. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "note": "Exam preparation for KASNEB CPA Advanced Level, paper CA31 Leadership and Management. Each topic bubble is a door (tap the arrow) into that topic's map: sections follow the tutorial notes, every point is a flashcard (Study → flashcards or quiz), and an Exam practice branch shows likely questions with how to structure the answer. Search words: leadership / leader / leading; management / manager; PESTEL / PESTLE / PEST / ETPS; five forces / Porter; SWOT / strengths weaknesses; conflict / dispute / mediation / arbitration; situational / Hersey Blanchard; transformational / transformative; SMART objectives / goals; intrapreneur / intrapreneurship / corporate entrepreneurship / Pinchot; entrepreneur types / Fabian / drone / Schumpeter / creative destruction; creativity / innovation / Wallas / divergent; brainstorming / Osborn / synectics / nominal group; disruptive / Christensen / diffusion / Rogers / adopters; patent / trademark / trade mark / copyright / passing off / KIPI / KECOBO / TRIPS; scenario planning / Shell / Kahn; CATWOE / soft systems / Checkland; critical success factor / CSF / KPI. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
      "children": [
       {
        "id": "cpa31-o01",
@@ -145,8 +145,8 @@
    "look": "ocean",
    "layout": "side",
    "lines": "curved",
-   "created": 1793764556656,
-   "updated": 1793764556656,
+   "created": 1794974230967,
+   "updated": 1794974230967,
    "library": "cpa31",
    "data": {
     "direction": 2,
@@ -156,7 +156,7 @@
      "icons": [
       "🔭"
      ],
-     "note": "How an organisation reads the world around it: the nature and importance of the business environment, micro and macro factors, environmental scanning, and the analytical tools (SWOT, PESTEL, Porter's five forces and others). Examiners ask you to list and explain factors, apply SWOT, PESTEL and the five forces to a case, and advise on responding to each force. Structure follows the CA31 tutorial notes shared by the reviewer (Chapter 5); explanations are Manas's own words. Deeper points added 4 Nov 2026 checked against: PEST analysis and Porter's five forces analysis (en.wikipedia.org, read 4 Nov 2026). Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "note": "How an organisation reads the world around it: the nature and importance of the business environment, micro and macro factors, environmental scanning, and the analytical tools (SWOT, PESTEL, Porter's five forces and others). Examiners ask you to list and explain factors, apply SWOT, PESTEL and the five forces to a case, and advise on responding to each force. Structure follows the CA31 tutorial notes shared by the reviewer (Chapter 5); explanations are Manas's own words. Deeper points added 4 Nov 2026 checked against: PEST analysis and Porter's five forces analysis (en.wikipedia.org, read 4 Nov 2026). Deeper points 18 Nov 2026: Scenario planning, Soft systems methodology (CATWOE), Critical success factor, Global Competitiveness Report (en.wikipedia.org, read 18 Nov 2026). Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
      "children": [
       {
        "id": "cpa31-t05-s1",
@@ -810,6 +810,54 @@
            "Emerging issues"
           ]
          }
+        },
+        {
+         "id": "cpa31-t05-s5-7",
+         "topic": "Why scan continuously",
+         "note": "The environment is dynamic, so a one-off scan dates quickly. Regular scanning gives early warning: the sooner a trend is spotted, the more choices the firm has and the cheaper the response.",
+         "manas": {
+          "q": "Why should environmental scanning be continuous?",
+          "orbit": {
+           "ref": "5.5",
+           "tag": "Scanning"
+          },
+          "topics": [
+           "Scanning",
+           "Why scan continuously"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s5-8",
+         "topic": "Worked example: a private clinic",
+         "note": "Illustration: event: a new county levy is announced; trend: more patients pay by mobile money; issue: patients expect cashless payment; expectation: patient groups demand it. Strategy: add mobile payment and adjust prices before rivals do.",
+         "manas": {
+          "q": "Apply the four scanning focuses to a private clinic.",
+          "orbit": {
+           "ref": "5.5",
+           "tag": "Scanning"
+          },
+          "topics": [
+           "Scanning",
+           "Worked example: a private clinic"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s5-9",
+         "topic": "Common mistake: events vs trends",
+         "note": "An event is one occurrence; a trend is a pattern of related events moving one way. Do not call a single news item a trend: look for repetition over time before treating it as strategic.",
+         "manas": {
+          "q": "Distinguish an event from a trend in environmental scanning.",
+          "orbit": {
+           "ref": "5.5",
+           "tag": "Scanning"
+          },
+          "topics": [
+           "Scanning",
+           "Common mistake: events vs trends"
+          ]
+         }
         }
        ],
        "manas": {
@@ -921,6 +969,38 @@
           "topics": [
            "Relationship",
            "Three responses"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s6-7",
+         "topic": "Worked example: three responses",
+         "note": "Illustration: a dairy hit by cheap imports. Administrative: reorganise milk collection to cut costs. Competitive: launch a cheaper pack or a branded yoghurt. Collective: join a processors' association to lobby for import standards.",
+         "manas": {
+          "q": "Apply the three types of response to a dairy facing imports.",
+          "orbit": {
+           "ref": "5.6",
+           "tag": "Relationship"
+          },
+          "topics": [
+           "Relationship",
+           "Worked example: three responses"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s6-8",
+         "topic": "Common mistake: competitive vs collective",
+         "note": "Competitive responses act against rivals; collective ones work with others, even rivals, through alliances, associations, bargaining or co-opting. If the firm is acting together with others, it is collective.",
+         "manas": {
+          "q": "How do competitive and collective responses differ?",
+          "orbit": {
+           "ref": "5.6",
+           "tag": "Relationship"
+          },
+          "topics": [
+           "Relationship",
+           "Common mistake: competitive vs collective"
           ]
          }
         }
@@ -1583,6 +1663,102 @@
            "CATWOE"
           ]
          }
+        },
+        {
+         "id": "cpa31-t05-s10-7",
+         "topic": "GCI: dated, check current rule",
+         "note": "The Global Competitiveness Report of the World Economic Forum ranked countries on the GCI (built by Sala-i-Martin and Artadi) from 2004 to 2020, when it was discontinued. Explain the concept; do not quote a current ranking (checked 18 Nov 2026).",
+         "manas": {
+          "q": "Who published the Global Competitiveness Index and is it still issued?",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "GCI: dated, check current rule"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-8",
+         "topic": "Scenario planning: origin",
+         "note": "Herman Kahn developed scenarios at RAND in the 1950s as stories about the future. Pierre Wack brought them into business at Shell from 1971, and the 1973 oil shock made the method popular.",
+         "manas": {
+          "q": "Who pioneered scenario planning, in defence and in business?",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "Scenario planning: origin"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-9",
+         "topic": "Scenario planning: why and limits",
+         "note": "Scenarios are not forecasts: they prepare flexible plans for several futures and stop managers betting on only the most likely one. Limit: evidence of their value is mostly anecdotal, much of it from Shell.",
+         "manas": {
+          "q": "What is the purpose of scenario planning and one limitation?",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "Scenario planning: why and limits"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-10",
+         "topic": "CSF vs KPI",
+         "note": "A critical success factor is what must go right for the mission (e.g. user involvement in an IT project). Success criteria are the outcomes, often measured by KPIs. Do not mix the two.",
+         "manas": {
+          "q": "Distinguish a critical success factor from a KPI.",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "CSF vs KPI"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-11",
+         "topic": "CATWOE: origin",
+         "note": "In 1975 David Smyth, in Checkland's department at Lancaster, noticed soft systems methodology worked best when the root definition covered six elements; CATWOE is the mnemonic for them.",
+         "manas": {
+          "q": "Where did the CATWOE mnemonic come from?",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "CATWOE: origin"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t05-s10-12",
+         "topic": "Worked example: CATWOE",
+         "note": "Illustration, outpatient queue: Customers: patients. Actors: reception and nurses. Transformation: waiting patient to patient seen. World view: short waits keep patients loyal. Owners: management. Environment: space, staff numbers, rules.",
+         "manas": {
+          "q": "Apply CATWOE to a hospital outpatient queue.",
+          "orbit": {
+           "ref": "5.10",
+           "tag": "Tools"
+          },
+          "topics": [
+           "Tools",
+           "Worked example: CATWOE"
+          ]
+         }
         }
        ],
        "manas": {
@@ -1709,8 +1885,8 @@
    "look": "ocean",
    "layout": "side",
    "lines": "curved",
-   "created": 1793764556656,
-   "updated": 1793764556656,
+   "created": 1794974230967,
+   "updated": 1794974230967,
    "library": "cpa31",
    "data": {
     "direction": 2,
@@ -3142,8 +3318,8 @@
    "look": "ocean",
    "layout": "side",
    "lines": "curved",
-   "created": 1793764556656,
-   "updated": 1793764556656,
+   "created": 1794974230967,
+   "updated": 1794974230967,
    "library": "cpa31",
    "data": {
     "direction": 2,
@@ -3153,7 +3329,7 @@
      "icons": [
       "💡"
      ],
-     "note": "How new ventures start and grow: entrepreneurs and their types, intrapreneurship, the entrepreneurial development process, creativity versus innovation, sourcing and generating business ideas, writing a business plan (structure and critical risks) and protecting ideas through intellectual property in Kenya. Examiners ask for lists of six, process steps, and compare-and-contrast answers. Structure follows the CA31 tutorial notes shared by the reviewer (Chapter 7); explanations are Manas's own words. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
+     "note": "How new ventures start and grow: entrepreneurs and their types, intrapreneurship, the entrepreneurial development process, creativity versus innovation, sourcing and generating business ideas, writing a business plan (structure and critical risks) and protecting ideas through intellectual property in Kenya. Examiners ask for lists of six, process steps, and compare-and-contrast answers. Structure follows the CA31 tutorial notes shared by the reviewer (Chapter 7); explanations are Manas's own words. Deeper points added 18 Nov 2026 checked against: Intrapreneurship, Creative destruction, Creativity, Brainstorming, Synectics, Disruptive innovation, Diffusion of innovations, TRIPS Agreement, Passing off, Kenya Industrial Property Institute (en.wikipedia.org) and KIPI's Patents and FAQs pages (kipi.go.ke), read 18 Nov 2026. Explanations are Manas's own words, drafted with AI from CA31 tutorial notes shared by a practising accountant; his review is in progress. Spot a mistake? Select the bubble and tap Report.",
      "children": [
       {
        "id": "cpa31-t07-s1",
@@ -3273,6 +3449,54 @@
           "topics": [
            "Entrepreneur",
            "Four types"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s1-8",
+         "topic": "Origin: Schumpeter, 1942",
+         "note": "Joseph Schumpeter (Capitalism, Socialism and Democracy, 1942) popularised 'creative destruction': new innovations push older ones out of use. The innovative entrepreneur is the person who drives that process, which is why the type sits at the top of the list.",
+         "manas": {
+          "q": "What did Schumpeter mean by creative destruction?",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Origin: Schumpeter, 1942"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s1-9",
+         "topic": "Common mistake: Fabian vs drone",
+         "note": "Both resist new ideas, but differently. The Fabian changes late, once survival is clearly at stake; the drone refuses to change even when its methods are outdated and losses follow. Write the difference in one line to earn the mark.",
+         "manas": {
+          "q": "How does a Fabian entrepreneur differ from a drone?",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Common mistake: Fabian vs drone"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s1-10",
+         "topic": "Worked example: four types",
+         "note": "Illustration: a founder launches an app for booking boda-boda rides (innovative); a firm copies it in another town (imitating); a taxi firm adds booking only after losing customers (Fabian); a taxi firm that never adopts it, whatever happens (drone).",
+         "manas": {
+          "q": "Give an example of each of the four types of entrepreneur.",
+          "orbit": {
+           "ref": "7.1",
+           "tag": "Entrepreneur"
+          },
+          "topics": [
+           "Entrepreneur",
+           "Worked example: four types"
           ]
          }
         }
@@ -3549,6 +3773,86 @@
            "Ownership and independence"
           ]
          }
+        },
+        {
+         "id": "cpa31-t07-s3-7",
+         "topic": "Origin: Pinchot, 1985",
+         "note": "Gifford Pinchot popularised the word intrapreneur in 1985, describing intrapreneurs as 'dreamers who do': staff who own the job of turning a new idea, of whatever kind, into reality within their employer. Dictionaries adopted the word by 1992.",
+         "manas": {
+          "q": "Who popularised the term intrapreneur, and how did he describe one?",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Origin: Pinchot, 1985"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s3-8",
+         "topic": "Intrapreneurship vs corporate entrepreneurship",
+         "note": "Corporate entrepreneurship is the wider, firm-level term for entrepreneurial action inside an existing organisation. Intrapreneurship is narrower: the behaviour and activities of the individual employee who drives the idea.",
+         "manas": {
+          "q": "Distinguish intrapreneurship from corporate entrepreneurship.",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Intrapreneurship vs corporate entrepreneurship"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s3-9",
+         "topic": "Real examples",
+         "note": "3M gives staff freedom and funds for their own projects; Google has let staff give as much as a fifth of working hours to self-chosen projects; Lockheed's secret 'Skunk Works' unit, led by Kelly Johnson, is a classic protected intrapreneurial team.",
+         "manas": {
+          "q": "Give three examples of firms that encourage intrapreneurship.",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Real examples"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s3-10",
+         "topic": "Worked example: a bank",
+         "note": "Illustration: a branch officer proposes opening accounts by phone. The bank funds a pilot, lends its IT staff and brand, and she leads the project; if it succeeds the bank owns the product and she gains promotion or a bonus. This shows the resources and ownership points.",
+         "manas": {
+          "q": "Use an example to show how resources and ownership differ for an intrapreneur.",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Worked example: a bank"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s3-11",
+         "topic": "Common mistake: who carries the risk",
+         "note": "Do not write that the intrapreneur risks their own capital. The firm carries the financial risk; the intrapreneur risks reputation and career. The entrepreneur carries both the money and the personal risk.",
+         "manas": {
+          "q": "Who carries the financial risk in intrapreneurship?",
+          "orbit": {
+           "ref": "7.3",
+           "tag": "Intrapreneur"
+          },
+          "topics": [
+           "Intrapreneur",
+           "Common mistake: who carries the risk"
+          ]
+         }
         }
        ],
        "manas": {
@@ -3775,6 +4079,70 @@
            "Six ways to inspire creativity"
           ]
          }
+        },
+        {
+         "id": "cpa31-t07-s5-6",
+         "topic": "Wallas's stages, 1926",
+         "note": "Graham Wallas (The Art of Thought, 1926) offered an early model of how creative work unfolds: preparation, incubation, intimation, illumination and verification. Why it matters: rest and time away from a problem are part of creativity, not a waste.",
+         "manas": {
+          "q": "Name the stages of Wallas's model of the creative process.",
+          "orbit": {
+           "ref": "7.5",
+           "tag": "Creativity"
+          },
+          "topics": [
+           "Creativity",
+           "Wallas's stages, 1926"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s5-7",
+         "topic": "Divergent and convergent thinking",
+         "note": "Divergent thinking produces many possible answers; convergent thinking narrows them to the best one. Creativity needs both, in that order: brainstorming is divergent, screening and choosing ideas is convergent.",
+         "manas": {
+          "q": "Distinguish divergent from convergent thinking.",
+          "orbit": {
+           "ref": "7.5",
+           "tag": "Creativity"
+          },
+          "topics": [
+           "Creativity",
+           "Divergent and convergent thinking"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s5-8",
+         "topic": "Worked example: a pharmacy",
+         "note": "Illustration: a pharmacist notices patients forget repeat prescriptions and imagines SMS reminders (creativity). When the reminders are built, priced, sent and raise repeat sales, the idea has become an innovation.",
+         "manas": {
+          "q": "Use an example to show the step from creativity to innovation.",
+          "orbit": {
+           "ref": "7.5",
+           "tag": "Creativity"
+          },
+          "topics": [
+           "Creativity",
+           "Worked example: a pharmacy"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s5-9",
+         "topic": "Common mistake: invention is not innovation",
+         "note": "An invention or idea that is never put to use or sold is not yet an innovation. Innovation is judged by successful application and value created, so answers should always mention commercial or practical use.",
+         "manas": {
+          "q": "Why is an unused invention not an innovation?",
+          "orbit": {
+           "ref": "7.5",
+           "tag": "Creativity"
+          },
+          "topics": [
+           "Creativity",
+           "Common mistake: invention is not innovation"
+          ]
+         }
         }
        ],
        "manas": {
@@ -3870,6 +4238,38 @@
           "topics": [
            "Ideas",
            "Eight sources of ideas"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s6-6",
+         "topic": "Worked example: from hobby to business",
+         "note": "Illustration: a keen baker (hobbies as a source) sees offices buying cakes for events. The idea becomes a business idea once it solves that problem, is clear to customers, and the price covers ingredients, delivery and her time with a profit left.",
+         "manas": {
+          "q": "Show, with an example, how a hobby becomes a business idea.",
+          "orbit": {
+           "ref": "7.6",
+           "tag": "Ideas"
+          },
+          "topics": [
+           "Ideas",
+           "Worked example: from hobby to business"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s6-7",
+         "topic": "Common mistake: liking an idea",
+         "note": "Being excited about an idea is not evidence of demand. Test it first, for example by asking likely buyers or pre-selling, before spending heavily; this links to the uncertain-sales risk in the business plan (7.11).",
+         "manas": {
+          "q": "What should an entrepreneur do before investing in a business idea?",
+          "orbit": {
+           "ref": "7.6",
+           "tag": "Ideas"
+          },
+          "topics": [
+           "Ideas",
+           "Common mistake: liking an idea"
           ]
          }
         }
@@ -3999,6 +4399,54 @@
           "topics": [
            "Techniques",
            "Improving a session"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s7-8",
+         "topic": "Origin: Osborn, 1953",
+         "note": "Advertising executive Alex Osborn began group idea sessions in 1939 and popularised brainstorming in Applied Imagination (1953). His two principles were to defer judgement and to aim for quantity; the four rules follow from them.",
+         "manas": {
+          "q": "Who popularised brainstorming and what were his two principles?",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Origin: Osborn, 1953"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s7-9",
+         "topic": "Synectics: Gordon and Prince",
+         "note": "Developed by William Gordon and George Prince at Arthur D. Little in the 1950s. It holds that creativity can be described and taught, and uses analogies to make the strange familiar and the familiar strange.",
+         "manas": {
+          "q": "Who developed synectics and how does it work?",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Synectics: Gordon and Prince"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s7-10",
+         "topic": "Nominal group technique",
+         "note": "A variation of brainstorming: members write ideas alone and anonymously, the facilitator collects them, and the group votes to rank them. Useful when a few loud members would otherwise dominate.",
+         "manas": {
+          "q": "How does the nominal group technique work and when is it useful?",
+          "orbit": {
+           "ref": "7.7",
+           "tag": "Techniques"
+          },
+          "topics": [
+           "Techniques",
+           "Nominal group technique"
           ]
          }
         }
@@ -4144,6 +4592,54 @@
           "topics": [
            "Innovation",
            "Highest risk"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-9",
+         "topic": "Disruptive innovation, Christensen",
+         "note": "Clayton Christensen (1995) described innovations that start at the bottom of a market or create a new one and later displace the leaders. Sustaining innovations improve products for existing customers. Not every revolutionary product is disruptive: early cars were luxuries.",
+         "manas": {
+          "q": "Distinguish disruptive from sustaining innovation.",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Disruptive innovation, Christensen"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-10",
+         "topic": "Diffusion of innovations, Rogers",
+         "note": "Everett Rogers (1962) explained how new ideas spread. Five adopter groups in order: innovators, early adopters, early majority, late majority, laggards. The hardest jump, later called the chasm, is from early adopters to the early majority.",
+         "manas": {
+          "q": "Name Rogers's five categories of adopters.",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Diffusion of innovations, Rogers"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s8-11",
+         "topic": "Worked example: newness matrix",
+         "note": "Illustration: a clinic opening a familiar service in a new town faces a new market with known technology (moderate risk). Launching an untested device to customers it has never served combines new technology and new market: the highest risk.",
+         "manas": {
+          "q": "Use an example to show the riskiest combination of newness.",
+          "orbit": {
+           "ref": "7.8",
+           "tag": "Innovation"
+          },
+          "topics": [
+           "Innovation",
+           "Worked example: newness matrix"
           ]
          }
         }
@@ -4788,6 +5284,150 @@
           "topics": [
            "IP",
            "Why register a mark"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-12",
+         "topic": "Who registers what in Kenya",
+         "note": "KIPI registers patents, utility models, industrial designs and trademarks under the Industrial Property Act 2001 and the Trade Marks Act. Copyright and related rights sit with KECOBO under the Copyright Act 2001, helped by bodies such as MCSK, KOPIKEN and PRISK.",
+         "manas": {
+          "q": "Which Kenyan bodies handle patents and trademarks, and copyright?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Who registers what in Kenya"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-13",
+         "topic": "KIPI history",
+         "note": "KIPO was set up in 1990 under the old Industrial Property Act (Cap 509). KIPI replaced it on 2 May 2002 after the Industrial Property Act 2001, which aligned Kenya's law with the WTO's TRIPS Agreement.",
+         "manas": {
+          "q": "When was KIPI established and under which Act?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "KIPI history"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-14",
+         "topic": "Patent term: check current rule",
+         "note": "Under TRIPS, patent protection must last a minimum of 20 years, and Kenya's 2001 Act follows TRIPS. Check KIPI for the current term, fees and filing rules before quoting figures (checked 18 Nov 2026).",
+         "manas": {
+          "q": "What minimum patent term does TRIPS require?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Patent term: check current rule"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-15",
+         "topic": "Copyright is automatic",
+         "note": "Under TRIPS and the Berne Convention copyright arises without registration. Software and apps are protected as literary works, so in Kenya they fall under copyright (KECOBO); an app's name can also be registered as a trademark at KIPI.",
+         "manas": {
+          "q": "Must copyright be registered? How is software protected in Kenya?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Copyright is automatic"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-16",
+         "topic": "Use it or lose it",
+         "note": "A registered trademark left unused for five years can be removed from the register on application to the Registrar. An unregistered mark gives no right to sue for infringement under the Trade Marks Act; the owner must rely on passing off.",
+         "manas": {
+          "q": "What happens to a trademark not used for five years?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Use it or lose it"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-17",
+         "topic": "Passing off",
+         "note": "A common-law tort that protects a trader's goodwill against misrepresentation: another trader may not present goods as yours or imply a link that does not exist. It is the remedy for unregistered marks, but harder to prove than infringement.",
+         "manas": {
+          "q": "What does the tort of passing off protect?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Passing off"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-18",
+         "topic": "Trademarks are territorial",
+         "note": "Registration protects a mark only in the countries chosen. KIPI's example: Disney has held a US trademark for Hakuna Matata since 1994, renewed every ten years, but that registration covers the US, not Kenya.",
+         "manas": {
+          "q": "Why does a US trademark not automatically apply in Kenya?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Trademarks are territorial"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-19",
+         "topic": "Protect before you reveal",
+         "note": "Before showing an invention to partners or investors, file with KIPI first or have them sign a non-disclosure agreement (NDA); public disclosure can destroy novelty and weaken protection.",
+         "manas": {
+          "q": "What should an inventor do before revealing an invention to partners?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Protect before you reveal"
+          ]
+         }
+        },
+        {
+         "id": "cpa31-t07-s12-20",
+         "topic": "Common mistake: the kiondo myth",
+         "note": "Claims that foreigners 'patented' the kiondo are a myth, says KIPI: the kiondo is public-domain traditional knowledge that nobody can own exclusively. Traditional designs differ from new inventions.",
+         "manas": {
+          "q": "Can a traditional design like the kiondo be owned exclusively?",
+          "orbit": {
+           "ref": "7.12",
+           "tag": "IP"
+          },
+          "topics": [
+           "IP",
+           "Common mistake: the kiondo myth"
           ]
          }
         }
