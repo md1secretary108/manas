@@ -9292,7 +9292,12 @@
         }
        ],
        "note": "Correct tubes, order of draw and handling, and how sampling errors produce misleading results.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hhp203-specimen-collection-preanalytical",
+        "part": "y2",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhhp203-1",
@@ -11814,7 +11819,12 @@
         }
        ],
        "note": "How bacterial cell walls, capsules and spores differ, and how Gram and Ziehl–Neelsen stains exploit these differences.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hmm200-bacterial-structure-staining",
+        "part": "y2",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhmm200-1",
@@ -14774,7 +14784,12 @@
         }
        ],
        "note": "Innate versus adaptive, active versus passive immunity and the principles of immune memory.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hhp202-overview-immune-system",
+        "part": "y2",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhhp202-1",
@@ -16842,7 +16857,12 @@
         }
        ],
        "note": "How medicines are named, developed through preclinical and clinical trial phases, and regulated in Kenya.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hcp200-drug-development-nomenclature",
+        "part": "y2",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhcp200-1",
@@ -22630,7 +22650,12 @@
         }
        ],
        "note": "How cells respond to stress by changing size, number or type, and when adaptation becomes pre-malignant.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hhp200-cellular-adaptations",
+        "part": "y2",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhhp200-1",
@@ -24933,7 +24958,12 @@
         }
        ],
        "note": "Where and how blood cells are made, and the growth factors that control production.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hhp201-haematopoiesis",
+        "part": "y2",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhhp201-1",
@@ -74845,6 +74875,3662 @@
     }
    },
    "part": "y3"
+  },
+  {
+   "id": "med-hcp200-drug-development-nomenclature",
+   "title": "HCP 200 · In depth: Drug development and nomenclature",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794997059177,
+   "updated": 1794997059177,
+   "library": "mbchb",
+   "deepOf": "med-hcp200",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhcp200ddn-drug-development-and-nomenclature-in-depth",
+     "topic": "Drug development and nomenclature in depth",
+     "note": "From a new molecule to a licensed, named medicine: discovery, trials, regulation and how drugs get their names. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhcp200ddn-overview",
+       "topic": "Overview",
+       "note": "The big picture of how a medicine reaches patients.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-definition",
+         "topic": "Definition",
+         "note": "Drug development is the staged process of discovering a compound, testing it in the lab and in people, licensing it and monitoring it after launch.",
+         "manas": {
+          "q": "What are the main stages of drug development?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-order-of-stages",
+         "topic": "Order of stages",
+         "note": "Discovery → preclinical testing → clinical trial phases I–III → regulatory approval → phase IV post-marketing surveillance.",
+         "manas": {
+          "q": "Put the stages of drug development in order."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-high-attrition",
+         "topic": "High attrition",
+         "note": "Most candidate compounds fail during development, mainly because of poor efficacy or unacceptable toxicity; the process is long and costly.",
+         "manas": {
+          "q": "Why do most candidate drugs never reach the market?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-discovery-and-sources",
+       "topic": "Discovery and sources",
+       "note": "Where new drugs come from.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-target-identification",
+         "topic": "Target identification",
+         "note": "A molecular target linked to disease (receptor, enzyme, ion channel, transporter) is chosen, and compounds are screened against it.",
+         "manas": {
+          "q": "What is the first step in rational drug discovery?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-lead-optimisation",
+         "topic": "Lead optimisation",
+         "note": "A promising 'lead' compound is chemically modified to improve potency, selectivity and drug-like properties before testing.",
+         "manas": {
+          "q": "What is a lead compound?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-plant-sources",
+         "topic": "Plant sources",
+         "note": "Many drugs began as plant products, e.g. morphine from the opium poppy, digoxin from foxglove, quinine from cinchona bark.",
+         "manas": {
+          "q": "Name a drug derived from a plant and its source."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-synthetic-and-biotechnology",
+         "topic": "Synthetic and biotechnology",
+         "note": "Most modern drugs are synthetic; biologics such as recombinant human insulin and monoclonal antibodies are made by biotechnology.",
+         "manas": {
+          "q": "How is modern human insulin produced?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-preclinical-testing",
+       "topic": "Preclinical testing",
+       "note": "Lab and animal work before any human dose.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-in-vitro-and-animal-studies",
+         "topic": "In vitro and animal studies",
+         "note": "Tests pharmacology, pharmacokinetics and toxicity in cells, tissues and animals to judge whether human testing is reasonably safe.",
+         "manas": {
+          "q": "What does preclinical testing assess?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-toxicology-studies",
+         "topic": "Toxicology studies",
+         "note": "Include acute and repeat-dose toxicity, genotoxicity, carcinogenicity and reproductive toxicity testing.",
+         "manas": {
+          "q": "Name types of preclinical toxicology study."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-limits-of-animal-data",
+         "topic": "Limits of animal data",
+         "note": "Animal results do not always predict human responses, so the first human doses are small and closely watched.",
+         "manas": {
+          "q": "Why are first human doses kept small?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-clinical-trial-phases",
+       "topic": "Clinical trial phases",
+       "note": "Testing in people, step by step.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-phase-0-microdosing",
+         "topic": "Phase 0 microdosing",
+         "note": "Optional, very small sub-therapeutic doses in a few people to study pharmacokinetics early; no therapeutic aim.",
+         "manas": {
+          "q": "What is a phase 0 study?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-phase-i-details",
+         "topic": "Phase I details",
+         "note": "Usually healthy volunteers; finds a safe dose range. Exception: toxic drugs such as anticancer agents are first given to patients.",
+         "manas": {
+          "q": "When is phase I done in patients instead of healthy volunteers?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-phase-ii",
+         "topic": "Phase II",
+         "note": "Small groups of patients with the target disease; first evidence of efficacy and the dose to take forward.",
+         "manas": {
+          "q": "What is the purpose of phase II trials?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-phase-iii-details",
+         "topic": "Phase III details",
+         "note": "Large, often multicentre randomised trials in patients; confirm efficacy and safety against placebo or standard care.",
+         "manas": {
+          "q": "What is the typical design of a phase III trial?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-phase-iv-details",
+         "topic": "Phase IV details",
+         "note": "After licensing; spontaneous reporting systems and observational studies pick up rare, delayed and interaction effects.",
+         "manas": {
+          "q": "Why are rare adverse effects often found only in phase IV?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-trial-design-and-ethics",
+       "topic": "Trial design and ethics",
+       "note": "How trials are made fair and safe.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-randomisation",
+         "topic": "Randomisation",
+         "note": "Random allocation to groups balances known and unknown confounders and reduces selection bias.",
+         "manas": {
+          "q": "What bias does randomisation reduce?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-blinding",
+         "topic": "Blinding",
+         "note": "In double-blind trials neither participants nor investigators know the allocation, reducing performance and assessment bias.",
+         "manas": {
+          "q": "What does double-blind mean?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-placebo-and-active-controls",
+         "topic": "Placebo and active controls",
+         "note": "Placebo controls show true drug effect; when good treatment exists, comparing with standard therapy is more ethical.",
+         "manas": {
+          "q": "When is an active comparator preferred to placebo?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-intention-to-treat-analysis",
+         "topic": "Intention-to-treat analysis",
+         "note": "Participants are analysed in the group they were randomised to, whatever happened later, preserving randomisation.",
+         "manas": {
+          "q": "What is intention-to-treat analysis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-informed-consent",
+         "topic": "Informed consent",
+         "note": "Participants must freely agree after understanding risks, benefits and their right to withdraw at any time.",
+         "manas": {
+          "q": "What must participants understand before giving informed consent?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-ethics-committee-approval",
+         "topic": "Ethics committee approval",
+         "note": "An independent research ethics committee must approve a trial before it starts and oversee it.",
+         "manas": {
+          "q": "Who must approve a clinical trial before it begins?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-declaration-of-helsinki",
+         "topic": "Declaration of Helsinki",
+         "note": "World Medical Association statement of ethical principles for medical research involving humans.",
+         "manas": {
+          "q": "Which document sets ethical principles for human research?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-good-clinical-practice",
+         "topic": "Good Clinical Practice",
+         "note": "International standard (ICH-GCP) for designing, running, recording and reporting trials ethically and reliably.",
+         "manas": {
+          "q": "What is Good Clinical Practice?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-regulation-and-approval",
+       "topic": "Regulation and approval",
+       "note": "Licensing and watching medicines.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-marketing-authorisation",
+         "topic": "Marketing authorisation",
+         "note": "A regulator licenses a medicine after reviewing evidence of quality, safety and efficacy and judging benefit outweighs risk.",
+         "manas": {
+          "q": "What three things must a regulator be satisfied about?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-pharmacovigilance",
+         "topic": "Pharmacovigilance",
+         "note": "Detecting, assessing, understanding and preventing adverse effects of medicines after they are in use.",
+         "manas": {
+          "q": "Define pharmacovigilance."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-reporting-in-kenya",
+         "topic": "Reporting in Kenya",
+         "note": "Health workers report suspected adverse drug reactions and poor-quality medicines to the Pharmacy and Poisons Board.",
+         "manas": {
+          "q": "To whom are suspected adverse drug reactions reported in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-patents-and-generics",
+         "topic": "Patents and generics",
+         "note": "After the patent expires, other makers can sell generics, usually much cheaper, which widens access.",
+         "manas": {
+          "q": "When can generic versions of a drug be marketed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-bioequivalence",
+         "topic": "Bioequivalence",
+         "note": "A generic must show bioequivalence: similar rate and extent of absorption to the original product.",
+         "manas": {
+          "q": "What must a generic drug show to be approved?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-prescription-only-vs-otc",
+         "topic": "Prescription-only vs OTC",
+         "note": "Regulators classify medicines as prescription-only or available over the counter according to their risk.",
+         "manas": {
+          "q": "On what basis are medicines classed as prescription-only?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-drug-names",
+       "topic": "Drug names",
+       "note": "One drug, several names.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-chemical-name",
+         "topic": "Chemical name",
+         "note": "Describes the exact chemical structure; long and rarely used clinically.",
+         "manas": {
+          "q": "What does a drug's chemical name describe?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-code-name",
+         "topic": "Code name",
+         "note": "A letters-and-numbers label a company gives a compound during development.",
+         "manas": {
+          "q": "What is a drug's code name?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-generic-inn-name",
+         "topic": "Generic (INN) name",
+         "note": "Non-proprietary name chosen by the WHO INN Programme; unique and recognised worldwide.",
+         "manas": {
+          "q": "Who assigns International Nonproprietary Names?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-proprietary-brand-name",
+         "topic": "Proprietary (brand) name",
+         "note": "Trademark name chosen by a manufacturer, written with a capital letter; one drug can have many brands.",
+         "manas": {
+          "q": "How is a brand name written and who chooses it?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-paracetamol-example",
+         "topic": "Paracetamol example",
+         "note": "INN paracetamol is called acetaminophen in the USA; it is sold under many brand names.",
+         "manas": {
+          "q": "What is the US name for paracetamol?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-why-prescribe-generically",
+         "topic": "Why prescribe generically",
+         "note": "Clearer communication, less confusion between brands, and usually cheaper medicines.",
+         "manas": {
+          "q": "Give two reasons to prescribe by generic name."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-look-alike-sound-alike-names",
+         "topic": "Look-alike, sound-alike names",
+         "note": "Drug names that look or sound similar are a known cause of medication errors; write clearly and check.",
+         "manas": {
+          "q": "Why are look-alike, sound-alike drug names dangerous?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-name-stems",
+       "topic": "Name stems",
+       "note": "Common endings that reveal the drug class.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-olol",
+         "topic": "-olol",
+         "note": "Beta-adrenoceptor blockers, e.g. propranolol, atenolol.",
+         "manas": {
+          "q": "Which drug class ends in -olol?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-pril",
+         "topic": "-pril",
+         "note": "ACE inhibitors, e.g. enalapril, captopril.",
+         "manas": {
+          "q": "Which drug class ends in -pril?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-sartan",
+         "topic": "-sartan",
+         "note": "Angiotensin II receptor blockers, e.g. losartan.",
+         "manas": {
+          "q": "Which drug class ends in -sartan?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-statin",
+         "topic": "-statin",
+         "note": "HMG-CoA reductase inhibitors that lower cholesterol, e.g. atorvastatin.",
+         "manas": {
+          "q": "What do drugs ending in -statin inhibit?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-prazole",
+         "topic": "-prazole",
+         "note": "Proton pump inhibitors, e.g. omeprazole.",
+         "manas": {
+          "q": "Which drug class ends in -prazole?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-cillin",
+         "topic": "-cillin",
+         "note": "Penicillin antibiotics, e.g. amoxicillin.",
+         "manas": {
+          "q": "Which antibiotic group ends in -cillin?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-caine",
+         "topic": "-caine",
+         "note": "Local anaesthetics, e.g. lidocaine.",
+         "manas": {
+          "q": "Which drug class ends in -caine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-vir",
+         "topic": "-vir",
+         "note": "Antiviral drugs, e.g. aciclovir, tenofovir.",
+         "manas": {
+          "q": "What kind of drug ends in -vir?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-classification-and-prodrugs",
+       "topic": "Classification and prodrugs",
+       "note": "Grouping drugs and drugs that need activating.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-ways-to-classify",
+         "topic": "Ways to classify",
+         "note": "By therapeutic use, by mechanism or pharmacological action, or by chemical structure.",
+         "manas": {
+          "q": "Name three ways drugs are classified."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-prototype-drug",
+         "topic": "Prototype drug",
+         "note": "The well-known representative of a class, used to learn the class's actions and adverse effects.",
+         "manas": {
+          "q": "What is a prototype drug?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-levodopa",
+         "topic": "Levodopa",
+         "note": "Prodrug that crosses the blood–brain barrier and is converted to dopamine in the brain.",
+         "manas": {
+          "q": "Why is levodopa given instead of dopamine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-clopidogrel",
+         "topic": "Clopidogrel",
+         "note": "Prodrug activated in the liver, mainly by CYP2C19; poor metabolisers get less antiplatelet effect.",
+         "manas": {
+          "q": "Which enzyme activates clopidogrel?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-problems-and-lessons",
+       "topic": "Problems and lessons",
+       "note": "When development fails patients.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-thalidomide",
+         "topic": "Thalidomide",
+         "note": "Used in pregnancy in the late 1950s–early 1960s, it caused limb defects (phocomelia) and led to much stricter drug regulation.",
+         "manas": {
+          "q": "What birth defect did thalidomide cause?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-trials-too-small",
+         "topic": "Trials too small",
+         "note": "Pre-licensing trials cannot detect very rare adverse reactions, so post-marketing surveillance is essential.",
+         "manas": {
+          "q": "Why can't phase III trials detect very rare adverse effects?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-under-studied-groups",
+         "topic": "Under-studied groups",
+         "note": "Children, pregnant women and older people are often excluded from trials, so evidence for them is limited.",
+         "manas": {
+          "q": "Which groups are often under-represented in drug trials?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-substandard-and-falsified",
+         "topic": "Substandard and falsified",
+         "note": "Medicines that fail quality standards or deliberately misrepresent identity or source harm patients and drive resistance.",
+         "manas": {
+          "q": "What are falsified medicines?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Bodies a student should recognise.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-kenya-ppb",
+         "topic": "Kenya: PPB",
+         "note": "The Pharmacy and Poisons Board registers medicines, licenses premises and runs pharmacovigilance.",
+         "manas": {
+          "q": "What does Kenya's Pharmacy and Poisons Board do?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-who-prequalification",
+         "topic": "WHO prequalification",
+         "note": "WHO assesses medicines' quality, safety and efficacy so UN agencies and countries can buy them with confidence.",
+         "manas": {
+          "q": "What is WHO prequalification for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-usa-fda",
+         "topic": "USA: FDA",
+         "note": "The Food and Drug Administration licenses medicines in the United States.",
+         "manas": {
+          "q": "Which body licenses medicines in the USA?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-eu-ema",
+         "topic": "EU: EMA",
+         "note": "The European Medicines Agency evaluates medicines for authorisation across the European Union.",
+         "manas": {
+          "q": "Which agency evaluates medicines for the EU?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-ich",
+         "topic": "ICH",
+         "note": "The International Council for Harmonisation aligns technical requirements, e.g. GCP, across regulators.",
+         "manas": {
+          "q": "What does the ICH harmonise?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-18.",
+       "manas": {
+        "checked": "2026-11-18"
+       },
+       "children": [
+        {
+         "id": "mdhcp200ddn-african-medicines-agency-progress",
+         "topic": "African Medicines Agency progress",
+         "note": "A review notes the AU's African Medicines Agency has a treaty signed by 37 states and a chosen headquarters, but weak financing and laws in some states slow it.",
+         "manas": {
+          "q": "What slows the African Medicines Agency, per a 2024 review?",
+          "ref": "Health Care Sci 2024"
+         },
+         "hyperLink": "https://doi.org/10.1002/hcs2.117",
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-new-antibody-name-stems",
+         "topic": "New antibody name stems",
+         "note": "WHO stopped using -mab for new antibody INNs in 2021, replacing it with four stems: -tug, -bart, -mig and -ment.",
+         "manas": {
+          "q": "Which four stems replaced -mab for new antibody names?",
+          "ref": "MAbs 2022"
+         },
+         "hyperLink": "https://doi.org/10.1080/19420862.2022.2075078",
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-expedited-approval-pathways",
+         "topic": "Expedited approval pathways",
+         "note": "A 2023 review found expedited development and approval pathways for drugs of high unmet need are increasingly available across ICH countries, so sponsors must rethink submission strategy.",
+         "manas": {
+          "q": "What trend in approval pathways did a 2023 review describe?",
+          "ref": "Ther Innov Regul Sci 2023"
+         },
+         "hyperLink": "https://doi.org/10.1007/s43441-022-00480-3",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhcp200ddn-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins.",
+       "children": [
+        {
+         "id": "mdhcp200ddn-phase-purposes",
+         "topic": "Phase purposes",
+         "note": "I = safety and PK; II = efficacy and dose; III = confirm against comparator; IV = post-marketing safety.",
+         "manas": {
+          "q": "State the main purpose of each trial phase."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-healthy-volunteers",
+         "topic": "Healthy volunteers",
+         "note": "Phase I usually; phases II–III always use patients.",
+         "manas": {
+          "q": "Which trial phase usually uses healthy volunteers?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-inn-vs-brand",
+         "topic": "INN vs brand",
+         "note": "Generic (INN) name is lower case and global; brand name is capitalised and company-owned.",
+         "manas": {
+          "q": "How do you tell a generic name from a brand name?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhcp200ddn-stems-decode-class",
+         "topic": "Stems decode class",
+         "note": "Learn -olol, -pril, -sartan, -statin, -prazole; they reveal the class from the name.",
+         "manas": {
+          "q": "What does the stem of a drug name tell you?"
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y2"
+  },
+  {
+   "id": "med-hhp200-cellular-adaptations",
+   "title": "HHP 200 · In depth: Cellular adaptations",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794997059199,
+   "updated": 1794997059199,
+   "library": "mbchb",
+   "deepOf": "med-hhp200",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhhp200ca-cellular-adaptations-in-depth",
+     "topic": "Cellular adaptations in depth",
+     "note": "How cells change size, number or type under stress, why it happens, and when adaptation turns pre-malignant. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhhp200ca-overview",
+       "topic": "Overview",
+       "note": "Where adaptation sits in the response to stress.",
+       "children": [
+        {
+         "id": "mdhhp200ca-definition",
+         "topic": "Definition",
+         "note": "Reversible changes in cell size, number, type or function that let cells survive altered demands or harmful stimuli.",
+         "manas": {
+          "q": "What is a cellular adaptation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-spectrum-of-response",
+         "topic": "Spectrum of response",
+         "note": "Normal cell → adaptation → reversible injury → irreversible injury and cell death, as stress rises or persists.",
+         "manas": {
+          "q": "Describe the spectrum of cell responses to increasing stress."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-physiological-vs-pathological",
+         "topic": "Physiological vs pathological",
+         "note": "Physiological adaptations answer normal demands (hormones, exercise); pathological ones answer disease or injury.",
+         "manas": {
+          "q": "What separates physiological from pathological adaptation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-four-main-types",
+         "topic": "Four main types",
+         "note": "Hypertrophy, hyperplasia, atrophy and metaplasia; dysplasia is disordered growth, not a true adaptation.",
+         "manas": {
+          "q": "Name the four main cellular adaptations."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp200ca-hypertrophy",
+       "topic": "Hypertrophy",
+       "note": "Bigger cells, bigger organ.",
+       "children": [
+        {
+         "id": "mdhhp200ca-definition-2",
+         "topic": "Definition",
+         "note": "Increase in cell size from more structural proteins and organelles, enlarging the organ without new cells.",
+         "manas": {
+          "q": "What causes organ enlargement in hypertrophy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-non-dividing-cells",
+         "topic": "Non-dividing cells",
+         "note": "Cardiac and skeletal muscle cells divide little, so they adapt to load mainly by hypertrophy.",
+         "manas": {
+          "q": "Why do cardiac myocytes adapt by hypertrophy rather than hyperplasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-mechanism",
+         "topic": "Mechanism",
+         "note": "Mechanical stretch sensors, growth factors and vasoactive agents switch on signalling that boosts muscle protein synthesis.",
+         "manas": {
+          "q": "What triggers hypertrophy signalling in muscle?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-fetal-gene-programme",
+         "topic": "Fetal gene programme",
+         "note": "Hypertrophied heart muscle re-expresses fetal genes, e.g. atrial natriuretic peptide and β-myosin heavy chain.",
+         "manas": {
+          "q": "Which fetal genes are re-expressed in cardiac hypertrophy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-physiological-examples",
+         "topic": "Physiological examples",
+         "note": "Skeletal muscle in weight training; uterine smooth muscle in pregnancy (with hyperplasia).",
+         "manas": {
+          "q": "Give a physiological example of hypertrophy."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-pathological-examples",
+         "topic": "Pathological examples",
+         "note": "Left ventricular hypertrophy from pressure overload, e.g. systemic hypertension or aortic stenosis.",
+         "manas": {
+          "q": "Name two causes of pathological left ventricular hypertrophy."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-limit-of-adaptation",
+         "topic": "Limit of adaptation",
+         "note": "Beyond a limit, hypertrophied myocardium degenerates and fails, leading to heart failure.",
+         "manas": {
+          "q": "What happens when cardiac hypertrophy exceeds its limit?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp200ca-hyperplasia",
+       "topic": "Hyperplasia",
+       "note": "More cells.",
+       "children": [
+        {
+         "id": "mdhhp200ca-definition-3",
+         "topic": "Definition",
+         "note": "Increase in cell number from proliferation; only possible in tissues whose cells can divide.",
+         "manas": {
+          "q": "What does hyperplasia require of a tissue?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-mechanism-2",
+         "topic": "Mechanism",
+         "note": "Growth factors drive proliferation of mature cells and new cells from tissue stem cells.",
+         "manas": {
+          "q": "What drives cell proliferation in hyperplasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-hormonal-hyperplasia",
+         "topic": "Hormonal hyperplasia",
+         "note": "Breast glandular tissue at puberty and in pregnancy; endometrium in the proliferative phase.",
+         "manas": {
+          "q": "Give an example of physiological hormonal hyperplasia."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-compensatory-hyperplasia",
+         "topic": "Compensatory hyperplasia",
+         "note": "Liver regrows after partial resection or living-donor liver donation.",
+         "manas": {
+          "q": "What is compensatory hyperplasia? Give an example."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-endometrial-hyperplasia",
+         "topic": "Endometrial hyperplasia",
+         "note": "Excess or unopposed oestrogen causes abnormal endometrial hyperplasia; it raises endometrial cancer risk.",
+         "manas": {
+          "q": "What causes pathological endometrial hyperplasia and what is the risk?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-benign-prostatic-hyperplasia",
+         "topic": "Benign prostatic hyperplasia",
+         "note": "Androgen-driven (via dihydrotestosterone) growth of the prostate in older men; not itself a precursor of prostate cancer.",
+         "manas": {
+          "q": "Which hormone drives benign prostatic hyperplasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-viral-hyperplasia",
+         "topic": "Viral hyperplasia",
+         "note": "Papillomaviruses cause epithelial hyperplasia seen as skin warts.",
+         "manas": {
+          "q": "Which virus causes warts through epithelial hyperplasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-still-controlled",
+         "topic": "Still controlled",
+         "note": "Hyperplasia stops when the stimulus is removed, unlike cancer, but it is fertile ground for later malignancy.",
+         "manas": {
+          "q": "How does hyperplasia differ from neoplasia?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp200ca-atrophy",
+       "topic": "Atrophy",
+       "note": "Shrinkage of cells, and of the organ, from loss of cell substance.",
+       "children": [
+        {
+         "id": "mdhhp200ca-definition-4",
+         "topic": "Definition",
+         "note": "Reduced cell size from loss of substance; the organ shrinks when enough cells are affected.",
+         "manas": {
+          "q": "Define atrophy."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-protein-balance",
+         "topic": "Protein balance",
+         "note": "Less protein synthesis plus more breakdown, mainly by the ubiquitin–proteasome pathway.",
+         "manas": {
+          "q": "Which pathway breaks down proteins in atrophy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-autophagy-and-lipofuscin",
+         "topic": "Autophagy and lipofuscin",
+         "note": "Autophagic vacuoles digest cell parts; undigested residue stays as brown lipofuscin pigment ('brown atrophy').",
+         "manas": {
+          "q": "What pigment accumulates in atrophic cells?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-physiological-causes",
+         "topic": "Physiological causes",
+         "note": "Embryonic structures (e.g. thyroglossal duct) and the uterus shrinking after childbirth.",
+         "manas": {
+          "q": "Give a physiological example of atrophy."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-disuse-and-denervation",
+         "topic": "Disuse and denervation",
+         "note": "Immobilised limb or nerve damage causes skeletal muscle atrophy.",
+         "manas": {
+          "q": "How does denervation affect skeletal muscle?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-ischaemia-and-pressure",
+         "topic": "Ischaemia and pressure",
+         "note": "Slowly reduced blood supply (e.g. ageing brain) or prolonged pressure from a mass causes atrophy.",
+         "manas": {
+          "q": "Name two vascular or mechanical causes of atrophy."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-nutrition-and-hormones",
+         "topic": "Nutrition and hormones",
+         "note": "Severe malnutrition (marasmus) wastes muscle; loss of oestrogen after menopause atrophies endometrium and breast.",
+         "manas": {
+          "q": "Why does the endometrium atrophy after menopause?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp200ca-metaplasia",
+       "topic": "Metaplasia",
+       "note": "One adult cell type replaced by another.",
+       "children": [
+        {
+         "id": "mdhhp200ca-mechanism-3",
+         "topic": "Mechanism",
+         "note": "Reprogramming of stem or reserve cells, not mature cells changing type, driven by cytokines, growth factors and matrix signals.",
+         "manas": {
+          "q": "Which cells are reprogrammed in metaplasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-respiratory-squamous-metaplasia",
+         "topic": "Respiratory squamous metaplasia",
+         "note": "In smokers, ciliated columnar epithelium becomes squamous; tougher but loses mucus and ciliary clearance.",
+         "manas": {
+          "q": "What protective function is lost in bronchial squamous metaplasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-cervical-transformation-zone",
+         "topic": "Cervical transformation zone",
+         "note": "Squamous metaplasia of endocervical columnar epithelium is normal here, and is where most cervical cancers arise.",
+         "manas": {
+          "q": "Where on the cervix does squamous metaplasia occur?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-vitamin-a-deficiency",
+         "topic": "Vitamin A deficiency",
+         "note": "Lack of vitamin A causes squamous metaplasia of respiratory and conjunctival epithelium.",
+         "manas": {
+          "q": "Which vitamin deficiency causes squamous metaplasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-connective-tissue-metaplasia",
+         "topic": "Connective tissue metaplasia",
+         "note": "Bone forming in soft tissue after injury, e.g. myositis ossificans in muscle.",
+         "manas": {
+          "q": "What is myositis ossificans an example of?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-cancer-risk",
+         "topic": "Cancer risk",
+         "note": "Persistent stimulus can push metaplasia to dysplasia and carcinoma.",
+         "manas": {
+          "q": "What can persistent metaplasia lead to?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp200ca-dysplasia",
+       "topic": "Dysplasia",
+       "note": "Disordered growth, pre-malignant.",
+       "children": [
+        {
+         "id": "mdhhp200ca-cell-features",
+         "topic": "Cell features",
+         "note": "Variation in cell and nuclear size, dark large nuclei, more mitoses and loss of normal layering (polarity).",
+         "manas": {
+          "q": "List the cell features of dysplasia."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-grading",
+         "topic": "Grading",
+         "note": "Graded low or high depending on how much of the epithelium is involved and how atypical it is.",
+         "manas": {
+          "q": "How is dysplasia graded?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-carcinoma-in-situ",
+         "topic": "Carcinoma in situ",
+         "note": "Full-thickness dysplasia with an intact basement membrane; not yet invasive.",
+         "manas": {
+          "q": "What is carcinoma in situ?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-reversibility",
+         "topic": "Reversibility",
+         "note": "Low-grade dysplasia may regress if the cause is removed; high-grade lesions carry much higher cancer risk.",
+         "manas": {
+          "q": "Can dysplasia regress?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp200ca-investigations",
+       "topic": "Investigations",
+       "note": "How adaptations are found.",
+       "children": [
+        {
+         "id": "mdhhp200ca-biopsy-and-histology",
+         "topic": "Biopsy and histology",
+         "note": "Tissue biopsy with routine staining confirms hyperplasia, metaplasia or dysplasia.",
+         "manas": {
+          "q": "What test confirms metaplasia or dysplasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-lvh-ecg-and-echo",
+         "topic": "LVH: ECG and echo",
+         "note": "ECG voltage criteria suggest left ventricular hypertrophy; echocardiography measures wall thickness directly.",
+         "manas": {
+          "q": "Which investigations detect left ventricular hypertrophy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-barrett-endoscopy",
+         "topic": "Barrett: endoscopy",
+         "note": "Upper GI endoscopy with biopsies diagnoses Barrett oesophagus and detects dysplasia.",
+         "manas": {
+          "q": "How is Barrett oesophagus diagnosed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-cervical-screening",
+         "topic": "Cervical screening",
+         "note": "HPV testing (WHO's preferred primary test), cytology or VIA screen for cervical precancer (CIN) before invasive cancer.",
+         "manas": {
+          "q": "Which tests screen for cervical precancer (CIN)?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp200ca-complications",
+       "topic": "Complications",
+       "note": "When adaptation goes wrong.",
+       "children": [
+        {
+         "id": "mdhhp200ca-lvh-outcomes",
+         "topic": "LVH outcomes",
+         "note": "Pathological LVH can progress to heart failure and predisposes to arrhythmia.",
+         "manas": {
+          "q": "What complications follow pathological LVH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-metaplasia-to-cancer",
+         "topic": "Metaplasia to cancer",
+         "note": "Metaplasia → dysplasia → carcinoma, e.g. Barrett to adenocarcinoma, bronchial squamous metaplasia to squamous carcinoma.",
+         "manas": {
+          "q": "Which cancer arises from Barrett oesophagus?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-bph-obstruction",
+         "topic": "BPH obstruction",
+         "note": "Prostatic enlargement compresses the urethra, causing urinary outflow obstruction.",
+         "manas": {
+          "q": "What is the main complication of BPH?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp200ca-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-18.",
+       "manas": {
+        "checked": "2026-11-18"
+       },
+       "children": [
+        {
+         "id": "mdhhp200ca-reversing-cardiac-hypertrophy",
+         "topic": "Reversing cardiac hypertrophy",
+         "note": "Pathological LVH can regress with existing therapies, linked to better outcomes, but under half of patients respond well; exercise and pregnancy hypertrophy fully reverse.",
+         "manas": {
+          "q": "Is pathological LVH reversible, per a 2023 review?",
+          "ref": "Nat Rev Cardiol 2023"
+         },
+         "hyperLink": "https://doi.org/10.1038/s41569-022-00806-6",
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-metabolism-shapes-hypertrophy",
+         "topic": "Metabolism shapes hypertrophy",
+         "note": "In cardiac hypertrophy, rewired metabolism makes metabolites that directly regulate signalling, transcription and epigenetics, not just energy.",
+         "manas": {
+          "q": "Beyond energy, what do metabolites do in cardiac hypertrophy?",
+          "ref": "Nat Rev Cardiol 2023"
+         },
+         "hyperLink": "https://doi.org/10.1038/s41569-023-00887-x",
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-barrett-progression",
+         "topic": "Barrett progression",
+         "note": "Barrett is linked to older age, male sex, smoking and reflux; about 0.2–0.5% a year develop adenocarcinoma; endoscopic therapy treats most dysplasia.",
+         "manas": {
+          "q": "Name risk factors for Barrett oesophagus from a 2022 review.",
+          "ref": "JAMA 2022"
+         },
+         "hyperLink": "https://doi.org/10.1001/jama.2022.13298",
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-disuse-muscle-atrophy",
+         "topic": "Disuse muscle atrophy",
+         "note": "Muscle mass depends mainly on synthesis vs breakdown balance; older people show anabolic resistance, so disuse hits them harder.",
+         "manas": {
+          "q": "Why are older people more affected by disuse atrophy?",
+          "ref": "Am J Physiol Cell Physiol 2022"
+         },
+         "hyperLink": "https://doi.org/10.1152/ajpcell.00425.2021",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp200ca-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins.",
+       "children": [
+        {
+         "id": "mdhhp200ca-pregnant-uterus",
+         "topic": "Pregnant uterus",
+         "note": "Shows both hypertrophy and hyperplasia of smooth muscle, driven by oestrogen.",
+         "manas": {
+          "q": "Which two adaptations occur in the pregnant uterus?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-barrett-vs-bronchus",
+         "topic": "Barrett vs bronchus",
+         "note": "Barrett = squamous to columnar (→ adenocarcinoma); smoker's bronchus = columnar to squamous (→ squamous carcinoma).",
+         "manas": {
+          "q": "Contrast the metaplasia in Barrett oesophagus and in a smoker's bronchus."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-atrophy-vs-hypoplasia",
+         "topic": "Atrophy vs hypoplasia",
+         "note": "Atrophy is shrinkage of a once normal organ; hypoplasia is failure to develop fully.",
+         "manas": {
+          "q": "How does atrophy differ from hypoplasia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp200ca-dysplasia-isn-t-invasive",
+         "topic": "Dysplasia isn't invasive",
+         "note": "Even carcinoma in situ has an intact basement membrane; invasion through it defines carcinoma.",
+         "manas": {
+          "q": "What feature separates carcinoma in situ from invasive carcinoma?"
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y2"
+  },
+  {
+   "id": "med-hhp201-haematopoiesis",
+   "title": "HHP 201 · In depth: Haematopoiesis",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794997059203,
+   "updated": 1794997059203,
+   "library": "mbchb",
+   "deepOf": "med-hhp201",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhhp201hae-haematopoiesis-in-depth",
+     "topic": "Haematopoiesis in depth",
+     "note": "From the stem cell to every blood cell: the lineages, the growth factors, the marrow tests and what goes wrong. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhhp201hae-definition-and-basics",
+       "topic": "Definition and basics",
+       "note": "What haematopoiesis is and why it matters.",
+       "children": [
+        {
+         "id": "mdhhp201hae-definition",
+         "topic": "Definition",
+         "note": "The continuous production of all blood cells (red cells, white cells, platelets) from haematopoietic stem cells.",
+         "manas": {
+          "q": "What is haematopoiesis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-daily-output",
+         "topic": "Daily output",
+         "note": "Production is huge and constant because most blood cells live only days to weeks and must be replaced.",
+         "manas": {
+          "q": "Why must haematopoiesis run continuously?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-marrow-with-age",
+         "topic": "Marrow with age",
+         "note": "At birth almost all marrow is red (active); with age long-bone marrow turns to fatty yellow marrow.",
+         "manas": {
+          "q": "How does the distribution of red marrow change with age?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-yellow-marrow-reserve",
+         "topic": "Yellow marrow reserve",
+         "note": "Yellow marrow can turn back into active red marrow when demand rises, e.g. chronic haemolysis.",
+         "manas": {
+          "q": "Can yellow marrow become active again?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-stem-cells-and-lineages",
+       "topic": "Stem cells and lineages",
+       "note": "The family tree of blood cells.",
+       "children": [
+        {
+         "id": "mdhhp201hae-haematopoietic-stem-cell",
+         "topic": "Haematopoietic stem cell",
+         "note": "Rare marrow cell that can both self-renew and give rise to every blood lineage (multipotent).",
+         "manas": {
+          "q": "What two properties define a haematopoietic stem cell?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-two-main-branches",
+         "topic": "Two main branches",
+         "note": "Stem cells give a common myeloid progenitor and a common lymphoid progenitor.",
+         "manas": {
+          "q": "Which two progenitors arise from the haematopoietic stem cell?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-myeloid-progeny",
+         "topic": "Myeloid progeny",
+         "note": "Myeloid progenitor gives red cells, platelets (via megakaryocytes), granulocytes, monocytes and mast cells.",
+         "manas": {
+          "q": "Which cells come from the common myeloid progenitor?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-lymphoid-progeny",
+         "topic": "Lymphoid progeny",
+         "note": "Lymphoid progenitor gives B cells, T cells and NK cells.",
+         "manas": {
+          "q": "Which cells come from the common lymphoid progenitor?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-t-cells-mature-in-thymus",
+         "topic": "T cells mature in thymus",
+         "note": "T-cell precursors leave the marrow and mature in the thymus; B cells mature in the marrow.",
+         "manas": {
+          "q": "Where do T cells and B cells mature?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-marrow-niche",
+         "topic": "Marrow niche",
+         "note": "Stromal cells, osteoblasts, blood vessels and signals such as CXCL12 hold and regulate stem cells.",
+         "manas": {
+          "q": "What is the haematopoietic stem cell niche?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-erythropoiesis",
+       "topic": "Erythropoiesis",
+       "note": "Making red cells.",
+       "children": [
+        {
+         "id": "mdhhp201hae-stages",
+         "topic": "Stages",
+         "note": "Proerythroblast → basophilic → polychromatic → orthochromatic normoblast → reticulocyte → mature red cell.",
+         "manas": {
+          "q": "List the stages of erythropoiesis in order."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-changes-on-maturing",
+         "topic": "Changes on maturing",
+         "note": "Cells shrink, fill with haemoglobin and the nucleus condenses then is extruded.",
+         "manas": {
+          "q": "What happens to the nucleus during red cell maturation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-erythropoietin-feedback",
+         "topic": "Erythropoietin feedback",
+         "note": "Low tissue oxygen → kidney makes more EPO → marrow raises red cell output → oxygen restored.",
+         "manas": {
+          "q": "Describe the erythropoietin feedback loop."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-raw-materials",
+         "topic": "Raw materials",
+         "note": "Needs iron for haem, and vitamin B12 and folate for DNA synthesis in dividing precursors.",
+         "manas": {
+          "q": "Which nutrients does erythropoiesis need, and why?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-granulopoiesis-and-monocytes",
+       "topic": "Granulopoiesis and monocytes",
+       "note": "Making neutrophils and other phagocytes.",
+       "children": [
+        {
+         "id": "mdhhp201hae-neutrophil-stages",
+         "topic": "Neutrophil stages",
+         "note": "Myeloblast → promyelocyte → myelocyte → metamyelocyte → band (stab) → segmented neutrophil.",
+         "manas": {
+          "q": "List the stages of neutrophil development."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-marrow-reserve-pool",
+         "topic": "Marrow reserve pool",
+         "note": "Marrow holds mature neutrophils ready for release; infection releases them, raising band forms (left shift).",
+         "manas": {
+          "q": "What is a 'left shift' on a blood film?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-monocytes-to-macrophages",
+         "topic": "Monocytes to macrophages",
+         "note": "Monocytes leave the blood and become tissue macrophages.",
+         "manas": {
+          "q": "What do monocytes become in tissues?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-megakaryopoiesis",
+       "topic": "Megakaryopoiesis",
+       "note": "Making platelets.",
+       "children": [
+        {
+         "id": "mdhhp201hae-endomitosis",
+         "topic": "Endomitosis",
+         "note": "Megakaryocytes copy DNA without dividing, becoming large polyploid cells with lobed nuclei.",
+         "manas": {
+          "q": "What is endomitosis in megakaryocytes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-platelet-release",
+         "topic": "Platelet release",
+         "note": "Platelets are cytoplasmic fragments shed from megakaryocyte extensions into marrow sinusoids.",
+         "manas": {
+          "q": "How are platelets released from megakaryocytes?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-growth-factors",
+       "topic": "Growth factors",
+       "note": "Signals that steer production.",
+       "children": [
+        {
+         "id": "mdhhp201hae-g-csf",
+         "topic": "G-CSF",
+         "note": "Drives neutrophil production and release from the marrow.",
+         "manas": {
+          "q": "Which growth factor drives neutrophil production?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-gm-csf",
+         "topic": "GM-CSF",
+         "note": "Stimulates granulocyte and monocyte progenitors.",
+         "manas": {
+          "q": "Which cells does GM-CSF stimulate?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-il-3-and-stem-cell-factor",
+         "topic": "IL-3 and stem cell factor",
+         "note": "Act early on multipotent progenitors; stem cell factor binds c-KIT (CD117).",
+         "manas": {
+          "q": "Which receptor does stem cell factor bind?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-il-7",
+         "topic": "IL-7",
+         "note": "Key for early lymphoid (B and T) development.",
+         "manas": {
+          "q": "Which cytokine is key for early lymphocyte development?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-clinical-uses",
+       "topic": "Clinical uses",
+       "note": "Haematopoiesis at the bedside.",
+       "children": [
+        {
+         "id": "mdhhp201hae-epo-in-kidney-disease",
+         "topic": "EPO in kidney disease",
+         "note": "Recombinant EPO (or similar agents) treats the anaemia of chronic kidney disease once iron is replete.",
+         "manas": {
+          "q": "Why is erythropoietin given in chronic kidney disease?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-g-csf-uses",
+         "topic": "G-CSF uses",
+         "note": "Shortens neutropenia after chemotherapy and mobilises stem cells into blood for collection.",
+         "manas": {
+          "q": "Give two clinical uses of G-CSF."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-stem-cell-transplant",
+         "topic": "Stem cell transplant",
+         "note": "Autologous uses the patient's own cells; allogeneic uses a donor's and risks graft-versus-host disease.",
+         "manas": {
+          "q": "What is the difference between autologous and allogeneic stem cell transplant?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-investigations",
+       "topic": "Investigations",
+       "note": "How we judge marrow output.",
+       "children": [
+        {
+         "id": "mdhhp201hae-full-blood-count",
+         "topic": "Full blood count",
+         "note": "Hb, red cell indices, white count with differential and platelets show which lineage is affected.",
+         "manas": {
+          "q": "What does an FBC tell you about the marrow?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-reticulocyte-count",
+         "topic": "Reticulocyte count",
+         "note": "High after bleeding or haemolysis (marrow responding); low when production fails.",
+         "manas": {
+          "q": "How does the reticulocyte count separate production failure from blood loss or haemolysis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-blood-film",
+         "topic": "Blood film",
+         "note": "Shows cell shape, polychromasia (young red cells), blasts, nucleated red cells and left shift.",
+         "manas": {
+          "q": "What does polychromasia on a film indicate?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-leukoerythroblastic-film",
+         "topic": "Leukoerythroblastic film",
+         "note": "Nucleated red cells plus immature myeloid cells: suggests marrow infiltration or fibrosis.",
+         "manas": {
+          "q": "What does a leukoerythroblastic blood film suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-marrow-aspirate",
+         "topic": "Marrow aspirate",
+         "note": "Usually from the posterior iliac crest; smears show cell morphology and lineage proportions.",
+         "manas": {
+          "q": "What is the usual site for bone marrow aspiration in adults?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-trephine-biopsy",
+         "topic": "Trephine biopsy",
+         "note": "Core of bone showing marrow architecture, cellularity, fibrosis and infiltration.",
+         "manas": {
+          "q": "What does a trephine biopsy show that an aspirate cannot?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-dry-tap",
+         "topic": "Dry tap",
+         "note": "Aspirate fails to draw marrow, typical of myelofibrosis or packed infiltration; trephine needed.",
+         "manas": {
+          "q": "What causes a 'dry tap' on marrow aspiration?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-disorders",
+       "topic": "Disorders",
+       "note": "When production fails or runs wild.",
+       "children": [
+        {
+         "id": "mdhhp201hae-aplastic-anaemia",
+         "topic": "Aplastic anaemia",
+         "note": "Stem cell failure: pancytopenia with a hypocellular, fatty marrow.",
+         "manas": {
+          "q": "What marrow finding defines aplastic anaemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-megaloblastic-anaemia",
+         "topic": "Megaloblastic anaemia",
+         "note": "B12 or folate lack impairs DNA synthesis: large red cells and hypersegmented neutrophils.",
+         "manas": {
+          "q": "Which blood film finding is typical of megaloblastic anaemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-ineffective-erythropoiesis",
+         "topic": "Ineffective erythropoiesis",
+         "note": "Precursors die in the marrow, e.g. thalassaemia; marrow expands and can widen skull and facial bones.",
+         "manas": {
+          "q": "What is ineffective erythropoiesis? Give an example."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-marrow-infiltration",
+         "topic": "Marrow infiltration",
+         "note": "Leukaemia, lymphoma, myeloma or metastatic cancer crowd out normal cells, causing cytopenias.",
+         "manas": {
+          "q": "How does marrow infiltration cause cytopenias?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-acute-leukaemia",
+         "topic": "Acute leukaemia",
+         "note": "Clonal blasts build up in the marrow and fail to mature, causing marrow failure.",
+         "manas": {
+          "q": "Why does acute leukaemia cause anaemia, infections and bleeding?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-myeloproliferative-neoplasms",
+         "topic": "Myeloproliferative neoplasms",
+         "note": "Clonal overproduction of mature cells, e.g. polycythaemia vera, often with a JAK2 V617F mutation.",
+         "manas": {
+          "q": "Which mutation is common in polycythaemia vera?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-myelofibrosis",
+         "topic": "Myelofibrosis",
+         "note": "Marrow scarring, teardrop red cells, dry tap and big spleen from extramedullary blood formation.",
+         "manas": {
+          "q": "Name three features of myelofibrosis."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins.",
+       "children": [
+        {
+         "id": "mdhhp201hae-pancytopenia-think-marrow",
+         "topic": "Pancytopenia: think marrow",
+         "note": "Low all three lines points to marrow failure, infiltration or hypersplenism.",
+         "manas": {
+          "q": "Give three broad causes of pancytopenia."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-nucleated-red-cells",
+         "topic": "Nucleated red cells",
+         "note": "Normal in newborns; in adult blood they signal marrow stress or infiltration.",
+         "manas": {
+          "q": "When are nucleated red cells in blood abnormal?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-low-retic-anaemia",
+         "topic": "Low retic + anaemia",
+         "note": "Means the marrow is not responding: check iron, B12, folate, kidneys and the marrow itself.",
+         "manas": {
+          "q": "What should you check if anaemia comes with a low reticulocyte count?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Points that are standard and certain.",
+       "children": [
+        {
+         "id": "mdhhp201hae-who-anaemia-cut-offs",
+         "topic": "WHO anaemia cut-offs",
+         "note": "WHO cut-offs: Hb below 13 g/dL in men, 12 in non-pregnant women, 11 in pregnancy; WHO's 2024 update uses 10.5 in the second trimester.",
+         "manas": {
+          "q": "What are the WHO haemoglobin cut-offs for anaemia in men, women and pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-altitude-adjustment",
+         "topic": "Altitude adjustment",
+         "note": "WHO adjusts Hb thresholds upward at altitude; relevant in highland Kenya, including Nairobi.",
+         "manas": {
+          "q": "Why are haemoglobin cut-offs adjusted at altitude?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-iron-and-folic-acid",
+         "topic": "Iron and folic acid",
+         "note": "WHO recommends daily iron and folic acid supplements in pregnancy to prevent anaemia.",
+         "manas": {
+          "q": "What supplement does WHO recommend in pregnancy to prevent anaemia?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp201hae-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-18.",
+       "manas": {
+        "checked": "2026-11-18"
+       },
+       "children": [
+        {
+         "id": "mdhhp201hae-clonal-haematopoiesis",
+         "topic": "Clonal haematopoiesis",
+         "note": "With age, mutated stem cell clones make an outsized share of blood; this predicts blood cancers and is linked to higher overall death. Mutant cells can release more inflammatory cytokines.",
+         "manas": {
+          "q": "What does clonal haematopoiesis predict, per a 2023 review?",
+          "ref": "Blood 2023"
+         },
+         "hyperLink": "https://doi.org/10.1182/blood.2023022222",
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-stem-cells-across-life",
+         "topic": "Stem cells across life",
+         "note": "Stem cells expand in fetal life, stay quiet (quiescent) in adults and decline with ageing, shaped by cell-cycle, inflammatory, epigenetic and metabolic control.",
+         "manas": {
+          "q": "How does stem cell behaviour change from fetal life to old age?",
+          "ref": "Cell Stem Cell 2023"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.stem.2023.09.013",
+         "children": []
+        },
+        {
+         "id": "mdhhp201hae-stem-cell-gene-therapy",
+         "topic": "Stem cell gene therapy",
+         "note": "Meta-analysis of 55 trials (406 patients) for inherited disorders: lentiviral vectors engrafted better than gammaretroviral ones, and all 21 genotoxic events were in gammaretroviral trials.",
+         "manas": {
+          "q": "Which vector type engrafted better and more safely in stem cell gene therapy trials?",
+          "ref": "Nat Commun 2022"
+         },
+         "hyperLink": "https://doi.org/10.1038/s41467-022-28762-2",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y2"
+  },
+  {
+   "id": "med-hhp202-overview-immune-system",
+   "title": "HHP 202 · In depth: Overview of the immune system",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794997059209,
+   "updated": 1794997059209,
+   "library": "mbchb",
+   "deepOf": "med-hhp202",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhhp202ois-immune-system-overview-in-depth",
+     "topic": "Immune system overview in depth",
+     "note": "Organs, cells and molecules of immunity, self versus non-self, basic tests and main disorders. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhhp202ois-definition-and-layout",
+       "topic": "Definition and layout",
+       "note": "What the immune system is and how it is organised.",
+       "children": [
+        {
+         "id": "mdhhp202ois-definition",
+         "topic": "Definition",
+         "note": "A network of organs, cells and molecules that defends against infection and abnormal cells while sparing self.",
+         "manas": {
+          "q": "What is the immune system?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-three-lines-of-defence",
+         "topic": "Three lines of defence",
+         "note": "Barriers (skin, mucosa), then innate responses, then adaptive responses.",
+         "manas": {
+          "q": "What are the three lines of defence?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-lymphoid-organs",
+       "topic": "Lymphoid organs",
+       "note": "Where immune cells are made, trained and meet antigen.",
+       "children": [
+        {
+         "id": "mdhhp202ois-primary-lymphoid-organs",
+         "topic": "Primary lymphoid organs",
+         "note": "Bone marrow and thymus: lymphocytes are produced and mature there.",
+         "manas": {
+          "q": "Name the primary lymphoid organs."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-secondary-lymphoid-organs",
+         "topic": "Secondary lymphoid organs",
+         "note": "Lymph nodes, spleen and mucosa-associated lymphoid tissue (MALT): naive lymphocytes meet antigen.",
+         "manas": {
+          "q": "Name the secondary lymphoid organs."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-thymus",
+         "topic": "Thymus",
+         "note": "T cells mature in the cortex and medulla; the thymus is largest in childhood and shrinks after puberty.",
+         "manas": {
+          "q": "How does the thymus change with age?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-lymph-node-zones",
+         "topic": "Lymph node zones",
+         "note": "Cortex follicles hold B cells (germinal centres); paracortex holds T cells; medulla holds plasma cells.",
+         "manas": {
+          "q": "Where are B cells and T cells found in a lymph node?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-spleen",
+         "topic": "Spleen",
+         "note": "White pulp holds lymphocytes; red pulp filters blood and removes old red cells and encapsulated bacteria.",
+         "manas": {
+          "q": "What are the functions of red and white pulp of the spleen?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-malt",
+         "topic": "MALT",
+         "note": "Lymphoid tissue in gut, airways and tonsils, e.g. Peyer's patches in the ileum.",
+         "manas": {
+          "q": "Give an example of mucosa-associated lymphoid tissue."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-cells-of-the-immune-system",
+       "topic": "Cells of the immune system",
+       "note": "Who does what (all arise from marrow stem cells).",
+       "children": [
+        {
+         "id": "mdhhp202ois-neutrophils",
+         "topic": "Neutrophils",
+         "note": "Most numerous white cell; first to arrive; phagocytose and kill bacteria and fungi.",
+         "manas": {
+          "q": "Which white cell is first to arrive at acute bacterial infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-macrophages",
+         "topic": "Macrophages",
+         "note": "Tissue phagocytes from monocytes; eat microbes, present antigen and release cytokines.",
+         "manas": {
+          "q": "Name three roles of macrophages."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-dendritic-cells",
+         "topic": "Dendritic cells",
+         "note": "Most powerful antigen-presenting cells; carry antigen to lymph nodes to activate naive T cells.",
+         "manas": {
+          "q": "Which cells best activate naive T cells?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-eosinophils-basophils-mast-cells",
+         "topic": "Eosinophils, basophils, mast cells",
+         "note": "Eosinophils fight helminths; mast cells and basophils release histamine in allergy.",
+         "manas": {
+          "q": "Which cells release histamine in allergic reactions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-b-cells",
+         "topic": "B cells",
+         "note": "Make antibody; activated B cells become plasma cells and memory B cells.",
+         "manas": {
+          "q": "What do activated B cells become?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-t-cells",
+         "topic": "T cells",
+         "note": "CD4 helper cells coordinate responses; CD8 cytotoxic cells kill infected or abnormal cells.",
+         "manas": {
+          "q": "What are the roles of CD4 and CD8 T cells?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-nk-cells",
+         "topic": "NK cells",
+         "note": "Innate lymphocytes that kill virus-infected and tumour cells lacking normal MHC class I.",
+         "manas": {
+          "q": "Which cells do NK cells kill?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-recognising-antigen",
+       "topic": "Recognising antigen",
+       "note": "How self is told from non-self.",
+       "children": [
+        {
+         "id": "mdhhp202ois-antigen-and-epitope",
+         "topic": "Antigen and epitope",
+         "note": "Antigen: a molecule the immune system recognises; epitope: the exact part bound by antibody or receptor.",
+         "manas": {
+          "q": "What is the difference between an antigen and an epitope?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-mhc-class-i",
+         "topic": "MHC class I",
+         "note": "On all nucleated cells; shows internal (e.g. viral) peptides to CD8 T cells.",
+         "manas": {
+          "q": "Which cells express MHC class I and which T cells read it?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-mhc-class-ii",
+         "topic": "MHC class II",
+         "note": "On antigen-presenting cells; shows peptides from engulfed antigen to CD4 T cells.",
+         "manas": {
+          "q": "Which cells express MHC class II and which T cells read it?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-hla",
+         "topic": "HLA",
+         "note": "Human MHC is called HLA; it is highly variable and matters in transplant matching.",
+         "manas": {
+          "q": "Why is HLA matching important in transplantation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-receptor-diversity",
+         "topic": "Receptor diversity",
+         "note": "Gene segment rearrangement (V(D)J) gives each lymphocyte a unique receptor.",
+         "manas": {
+          "q": "How do lymphocytes generate receptor diversity?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-antibodies",
+       "topic": "Antibodies",
+       "note": "Structure and basic actions.",
+       "children": [
+        {
+         "id": "mdhhp202ois-structure",
+         "topic": "Structure",
+         "note": "Two heavy and two light chains; Fab arms bind antigen, Fc stem binds cells and complement.",
+         "manas": {
+          "q": "Describe the basic structure of an antibody."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-five-classes",
+         "topic": "Five classes",
+         "note": "IgG, IgA, IgM, IgD and IgE, set by the heavy chain constant region.",
+         "manas": {
+          "q": "Name the five antibody classes."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-class-switching",
+         "topic": "Class switching",
+         "note": "Helped by CD4 T cells, B cells switch from IgM to IgG, IgA or IgE without changing specificity.",
+         "manas": {
+          "q": "What is antibody class switching?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-cytokines",
+       "topic": "Cytokines",
+       "note": "Chemical messengers between cells.",
+       "children": [
+        {
+         "id": "mdhhp202ois-what-cytokines-do",
+         "topic": "What cytokines do",
+         "note": "Small proteins that signal between cells to start, steer and stop immune responses.",
+         "manas": {
+          "q": "What are cytokines?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-fever-and-acute-phase",
+         "topic": "Fever and acute phase",
+         "note": "IL-1, IL-6 and TNF cause fever; IL-6 drives the liver to make CRP.",
+         "manas": {
+          "q": "Which cytokine drives hepatic CRP production?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-il-2",
+         "topic": "IL-2",
+         "note": "T-cell growth factor that expands activated T cells.",
+         "manas": {
+          "q": "What is the main action of IL-2?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-tolerance",
+       "topic": "Tolerance",
+       "note": "Not attacking self.",
+       "children": [
+        {
+         "id": "mdhhp202ois-central-tolerance",
+         "topic": "Central tolerance",
+         "note": "Strongly self-reactive lymphocytes are removed, mainly by deletion, while developing in the thymus (T cells) and bone marrow (B cells).",
+         "manas": {
+          "q": "What is central tolerance?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-peripheral-tolerance",
+         "topic": "Peripheral tolerance",
+         "note": "Regulatory T cells and lack of co-stimulation keep escaped self-reactive cells in check.",
+         "manas": {
+          "q": "Name two mechanisms of peripheral tolerance."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-regulatory-t-cells",
+         "topic": "Regulatory T cells",
+         "note": "CD4 cells expressing FOXP3 that suppress immune responses.",
+         "manas": {
+          "q": "Which transcription factor marks regulatory T cells?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-basic-investigations",
+       "topic": "Basic investigations",
+       "note": "First tests of immune function.",
+       "children": [
+        {
+         "id": "mdhhp202ois-fbc-and-differential",
+         "topic": "FBC and differential",
+         "note": "Counts of neutrophils, lymphocytes, eosinophils and monocytes point to the type of problem.",
+         "manas": {
+          "q": "What does a white cell differential tell you?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-crp-and-esr",
+         "topic": "CRP and ESR",
+         "note": "Non-specific markers of inflammation; CRP rises and falls faster than ESR.",
+         "manas": {
+          "q": "Which inflammatory marker changes faster, CRP or ESR?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-immunoglobulin-levels",
+         "topic": "Immunoglobulin levels",
+         "note": "Serum IgG, IgA and IgM screen for antibody deficiency.",
+         "manas": {
+          "q": "Which test screens for antibody deficiency?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-cd4-count",
+         "topic": "CD4 count",
+         "note": "Measured by flow cytometry; tracks immune damage in HIV.",
+         "manas": {
+          "q": "How is the CD4 count measured and why is it used in HIV?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-complement-c3-and-c4",
+         "topic": "Complement C3 and C4",
+         "note": "Low levels suggest consumption, e.g. in active lupus.",
+         "manas": {
+          "q": "What do low C3 and C4 suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-hiv-test",
+         "topic": "HIV test",
+         "note": "Every patient with recurrent or unusual infections should be offered an HIV test.",
+         "manas": {
+          "q": "Which test should be offered to anyone with recurrent unusual infections?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-disorders",
+       "topic": "Disorders",
+       "note": "When the system fails or overreacts.",
+       "children": [
+        {
+         "id": "mdhhp202ois-immunodeficiency",
+         "topic": "Immunodeficiency",
+         "note": "Too little response: primary (inherited) or secondary (HIV, malnutrition, drugs, cancer).",
+         "manas": {
+          "q": "Give three causes of secondary immunodeficiency."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-hypersensitivity-type-i",
+         "topic": "Hypersensitivity type I",
+         "note": "IgE and mast cells, immediate: anaphylaxis, asthma, hay fever.",
+         "manas": {
+          "q": "What mediates type I hypersensitivity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-hypersensitivity-type-ii",
+         "topic": "Hypersensitivity type II",
+         "note": "Antibody against cell or tissue antigens: haemolytic transfusion reaction, autoimmune haemolysis.",
+         "manas": {
+          "q": "Give an example of type II hypersensitivity."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-hypersensitivity-type-iii",
+         "topic": "Hypersensitivity type III",
+         "note": "Immune complexes deposit in vessels and tissues: SLE, post-streptococcal glomerulonephritis.",
+         "manas": {
+          "q": "What causes damage in type III hypersensitivity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-hypersensitivity-type-iv",
+         "topic": "Hypersensitivity type IV",
+         "note": "Delayed, T-cell mediated: tuberculin reaction, contact dermatitis.",
+         "manas": {
+          "q": "Which cells mediate type IV hypersensitivity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-autoimmunity",
+         "topic": "Autoimmunity",
+         "note": "Loss of tolerance, e.g. type 1 diabetes, Graves' disease, rheumatoid arthritis.",
+         "manas": {
+          "q": "What is autoimmunity? Give an example."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-transplant-rejection",
+         "topic": "Transplant rejection",
+         "note": "Recipient's immune system attacks donor tissue, mainly against mismatched HLA.",
+         "manas": {
+          "q": "What is the main target in transplant rejection?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins.",
+       "children": [
+        {
+         "id": "mdhhp202ois-mhc-rule-of-eight",
+         "topic": "MHC rule of eight",
+         "note": "CD4 × MHC II = 8; CD8 × MHC I = 8.",
+         "manas": {
+          "q": "Which MHC class does CD8 recognise?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-asplenia-risk",
+         "topic": "Asplenia risk",
+         "note": "No spleen means risk from encapsulated bacteria: pneumococcus, meningococcus, Haemophilus influenzae b.",
+         "manas": {
+          "q": "Which organisms threaten people without a spleen?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-acid-mnemonic",
+         "topic": "ACID mnemonic",
+         "note": "Hypersensitivity types I–IV: Anaphylactic, Cytotoxic, Immune complex, Delayed.",
+         "manas": {
+          "q": "What does the ACID mnemonic stand for?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Standard and certain points.",
+       "children": [
+        {
+         "id": "mdhhp202ois-kenya-kepi-bcg-at-birth",
+         "topic": "Kenya: BCG at birth",
+         "note": "Kenya's national immunisation programme (NVIP, formerly KEPI) gives BCG at birth, in line with WHO advice for high-TB countries.",
+         "manas": {
+          "q": "When is BCG given in Kenya's immunisation programme?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp202ois-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-18.",
+       "manas": {
+        "checked": "2026-11-18"
+       },
+       "children": [
+        {
+         "id": "mdhhp202ois-innate-and-adaptive-interplay",
+         "topic": "Innate and adaptive interplay",
+         "note": "Innate immunity senses microbes via receptors such as Toll-like receptors; its links with adaptive immunity are more complex than simple activation, with cGAS-STING key in infection and cancer.",
+         "manas": {
+          "q": "Which innate pathway does a 2024 review highlight in infection and cancer?",
+          "ref": "MedComm 2024"
+         },
+         "hyperLink": "https://doi.org/10.1002/mco2.714",
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-innate-immune-memory",
+         "topic": "Innate immune memory",
+         "note": "Innate cells can respond more strongly after a past stimulus through epigenetic and metabolic reprogramming; this helps vaccines but may feed heart and inflammatory disease.",
+         "manas": {
+          "q": "What is trained immunity, per a 2023 review?",
+          "ref": "Physiol Rev 2023"
+         },
+         "hyperLink": "https://doi.org/10.1152/physrev.00031.2021",
+         "children": []
+        },
+        {
+         "id": "mdhhp202ois-bcg-beyond-tb",
+         "topic": "BCG beyond TB",
+         "note": "BCG also gives non-specific protection through monocytes, macrophages and NK cells, with reported benefit in bladder cancer and respiratory viruses; mechanisms not fully clear.",
+         "manas": {
+          "q": "Which cells mediate BCG's non-specific protection, per a 2023 review?",
+          "ref": "J Transl Med 2023"
+         },
+         "hyperLink": "https://doi.org/10.1186/s12967-023-03944-8",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y2"
+  },
+  {
+   "id": "med-hhp203-specimen-collection-preanalytical",
+   "title": "HHP 203 · In depth: Specimen collection and pre-analytical errors",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794997059214,
+   "updated": 1794997059214,
+   "library": "mbchb",
+   "deepOf": "med-hhp203",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhhp203spe-specimen-collection-in-depth",
+     "topic": "Specimen collection and pre-analytical errors in depth",
+     "note": "From test request to analyser: the right sample from the right patient, in the right tube, in good condition. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhhp203spe-overview",
+       "topic": "Overview",
+       "note": "What the pre-analytical phase is and why it matters.",
+       "children": [
+        {
+         "id": "mdhhp203spe-definition",
+         "topic": "Definition",
+         "note": "Pre-analytical phase: every step before the sample is analysed — test request, patient preparation, identification, collection, labelling, transport, receipt and processing.",
+         "manas": {
+          "q": "What steps make up the pre-analytical phase?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-total-testing-process",
+         "topic": "Three phases of testing",
+         "note": "Total testing process: pre-analytical (before testing), analytical (the measurement) and post-analytical (reporting and interpreting the result).",
+         "manas": {
+          "q": "What are the three phases of the total testing process?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-brain-to-brain-loop",
+         "topic": "Brain-to-brain loop",
+         "note": "The idea that testing starts in the clinician's mind (choosing the test) and ends there (acting on the result); errors can enter at any point of the loop.",
+         "manas": {
+          "q": "What does the 'brain-to-brain loop' describe in laboratory medicine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-why-it-matters",
+         "topic": "Why it matters",
+         "note": "A sampling error gives a result that looks real but is not, leading to wrong diagnosis or treatment, repeat sampling and delay.",
+         "manas": {
+          "q": "Why are pre-analytical errors dangerous to patients?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-patient-preparation",
+       "topic": "Patient preparation",
+       "note": "The patient's state when sampled changes the result.",
+       "children": [
+        {
+         "id": "mdhhp203spe-fasting",
+         "topic": "Fasting",
+         "note": "Some tests need fasting, e.g. fasting glucose and triglycerides; a recent meal raises these and can make serum turbid (lipaemic).",
+         "manas": {
+          "q": "Name two tests for which the patient should fast."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-timing",
+         "topic": "Time of day",
+         "note": "Some analytes follow a daily rhythm; cortisol is highest in the early morning, so the sampling time must be recorded and standardised.",
+         "manas": {
+          "q": "Why does the sampling time matter for cortisol?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-drug-levels",
+         "topic": "Drug level timing",
+         "note": "For therapeutic drug monitoring the timing relative to the dose matters; trough levels are taken just before the next dose.",
+         "manas": {
+          "q": "When is a trough drug level taken?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-posture",
+         "topic": "Posture",
+         "note": "Standing up shifts fluid out of vessels, so proteins and protein-bound analytes (e.g. calcium) read higher than when lying down.",
+         "manas": {
+          "q": "How does posture affect protein and calcium results?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-exercise",
+         "topic": "Recent exercise",
+         "note": "Strenuous exercise releases muscle enzymes; creatine kinase can be raised after heavy exertion.",
+         "manas": {
+          "q": "Which enzyme may be falsely raised after strenuous exercise?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-identification-labelling",
+       "topic": "Identification and labelling",
+       "note": "Wrong patient errors are the most dangerous.",
+       "children": [
+        {
+         "id": "mdhhp203spe-two-identifiers",
+         "topic": "Two identifiers",
+         "note": "Confirm at least two identifiers (e.g. full name and date of birth or hospital number), asking the patient where possible; never rely on bed number.",
+         "manas": {
+          "q": "How should a patient be identified before sampling?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-label-at-bedside",
+         "topic": "Label at the bedside",
+         "note": "Label tubes in front of the patient straight after filling; never pre-label empty tubes or label later at the desk.",
+         "manas": {
+          "q": "When and where should sample tubes be labelled?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-wrong-blood-in-tube",
+         "topic": "Wrong blood in tube",
+         "note": "Blood from one patient labelled as another; in a crossmatch sample it can lead to an ABO-incompatible transfusion.",
+         "manas": {
+          "q": "Why is 'wrong blood in tube' especially dangerous for crossmatch samples?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-form-match",
+         "topic": "Request form match",
+         "note": "Details on tube and form must match; labs reject unlabelled or mismatched samples rather than guess.",
+         "manas": {
+          "q": "What does the lab do with an unlabelled or mismatched sample?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-venepuncture-technique",
+       "topic": "Venepuncture technique",
+       "note": "Small habits that protect sample quality.",
+       "children": [
+        {
+         "id": "mdhhp203spe-fist-clenching",
+         "topic": "Fist clenching",
+         "note": "Repeated fist pumping during venepuncture releases potassium from muscle and can falsely raise potassium.",
+         "manas": {
+          "q": "How can fist clenching affect a potassium result?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-site-choice",
+         "topic": "Choosing the site",
+         "note": "Avoid an arm with a drip, an arteriovenous fistula, a haematoma or lymphoedema; take from the other arm or below the drip.",
+         "manas": {
+          "q": "Which arms or sites should be avoided for venepuncture?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-needle-and-syringe",
+         "topic": "Needle and syringe",
+         "note": "Very fine needles and forcing blood through a syringe needle into the tube damage red cells and cause haemolysis.",
+         "manas": {
+          "q": "How can needle and syringe use cause haemolysis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-let-antiseptic-dry",
+         "topic": "Let antiseptic dry",
+         "note": "Let the skin antiseptic dry before puncture; wet alcohol stings and can haemolyse the sample, and for cultures drying aids skin decontamination.",
+         "manas": {
+          "q": "Why should the skin antiseptic dry before venepuncture?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-fill-and-invert",
+         "topic": "Fill and mix",
+         "note": "Fill additive tubes to the line and invert gently the recommended number of times; do not shake (haemolysis).",
+         "manas": {
+          "q": "How should additive tubes be filled and mixed?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-tubes-additives",
+       "topic": "Tubes and additives",
+       "note": "Know the additive, not just the colour: cap colours differ between manufacturers and countries — check your lab's chart.",
+       "children": [
+        {
+         "id": "mdhhp203spe-citrate",
+         "topic": "Sodium citrate",
+         "note": "Binds calcium reversibly; used for coagulation tests (PT/INR, APTT). Blood-to-citrate ratio is 9:1, so the tube must be filled correctly.",
+         "manas": {
+          "q": "Which additive is used for coagulation tests and why must the tube be full?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-serum-tube",
+         "topic": "Plain or clot-activator tube",
+         "note": "Blood is allowed to clot, then spun; the fluid is serum. A gel layer, if present, separates serum from cells.",
+         "manas": {
+          "q": "What is collected from a plain or clot-activator tube?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-lithium-heparin",
+         "topic": "Lithium heparin",
+         "note": "Heparin works through antithrombin to stop clotting; gives plasma for chemistry. Cannot be used to measure a lithium level.",
+         "manas": {
+          "q": "Why can a lithium heparin tube not be used for a lithium level?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-edta",
+         "topic": "EDTA",
+         "note": "Chelates calcium to stop clotting and preserves cell shape; used for full blood count and film, HbA1c and blood bank samples.",
+         "manas": {
+          "q": "Name three tests done on EDTA blood."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-fluoride-oxalate",
+         "topic": "Fluoride oxalate",
+         "note": "Fluoride inhibits enolase, slowing glycolysis; it takes 1–2 hours to act fully, so glucose still falls a little early on. Oxalate is the anticoagulant. Used for glucose and lactate.",
+         "manas": {
+          "q": "How does fluoride preserve glucose in a sample?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-serum-vs-plasma",
+         "topic": "Serum vs plasma",
+         "note": "Plasma still contains fibrinogen and clotting factors; serum does not. Serum potassium is slightly higher because platelets release it during clotting.",
+         "manas": {
+          "q": "What is the difference between serum and plasma?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-order-of-draw",
+       "topic": "Order of draw — the why",
+       "note": "The sequence prevents additive carry-over from one tube to the next.",
+       "children": [
+        {
+         "id": "mdhhp203spe-cultures-first",
+         "topic": "Blood cultures first",
+         "note": "Culture bottles come first to keep them sterile and free of additives.",
+         "manas": {
+          "q": "Why are blood culture bottles drawn first?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-edta-late",
+         "topic": "EDTA near the end",
+         "note": "EDTA carry-over adds potassium and removes calcium, so it is drawn after serum and heparin tubes.",
+         "manas": {
+          "q": "Why is the EDTA tube drawn after serum and heparin tubes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-discard-tube",
+         "topic": "Discard tube",
+         "note": "With a winged (butterfly) set, a coagulation tube drawn first may underfill because of air in the tubing; a discard tube is drawn first.",
+         "manas": {
+          "q": "When is a discard tube needed before a citrate tube?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-hil-interference",
+       "topic": "Haemolysis, lipaemia, icterus",
+       "note": "The three common sample-quality problems (HIL).",
+       "children": [
+        {
+         "id": "mdhhp203spe-in-vitro-haemolysis",
+         "topic": "Causes of in-vitro haemolysis",
+         "note": "Fine needle, difficult draw, shaking, forcing through a syringe, freezing or long delay of whole blood.",
+         "manas": {
+          "q": "List causes of in-vitro haemolysis."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-in-vivo-haemolysis",
+         "topic": "In-vivo vs in-vitro",
+         "note": "Haemolysis in the body (e.g. haemolytic anaemia) is real disease; a repeat careful sample that is again haemolysed suggests in-vivo haemolysis.",
+         "manas": {
+          "q": "How can you tell in-vivo from in-vitro haemolysis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-lipaemia",
+         "topic": "Lipaemia",
+         "note": "Turbid sample from high triglycerides (e.g. after a meal) scatters light and can cause false results, e.g. pseudohyponatraemia with indirect ion-selective methods.",
+         "manas": {
+          "q": "What false electrolyte result can severe lipaemia cause?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-icterus",
+         "topic": "Icterus",
+         "note": "High bilirubin colours the sample and can interfere with some colour-based (photometric) assays.",
+         "manas": {
+          "q": "How does icterus interfere with lab tests?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-serum-indices",
+         "topic": "Serum indices",
+         "note": "Analysers measure haemolysis, lipaemia and icterus indices and flag or withhold affected results.",
+         "manas": {
+          "q": "What do automated serum indices measure?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-transport-storage",
+       "topic": "Transport and storage",
+       "note": "Time, temperature and packaging.",
+       "children": [
+        {
+         "id": "mdhhp203spe-cold-potassium",
+         "topic": "Fridge raises potassium",
+         "note": "Refrigerating unseparated blood slows the sodium–potassium pump, so potassium leaks out of cells and reads falsely high.",
+         "manas": {
+          "q": "Why does refrigerating unseparated blood raise potassium?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-blood-gas",
+         "topic": "Blood gases",
+         "note": "Expel air bubbles and analyse promptly; air in the syringe and delay change the oxygen and carbon dioxide values.",
+         "manas": {
+          "q": "How should a blood gas sample be handled?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-ammonia",
+         "topic": "Ammonia",
+         "note": "Ammonia rises in standing blood; send on ice and analyse quickly.",
+         "manas": {
+          "q": "How should an ammonia sample be transported?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-light-sensitive",
+         "topic": "Light-sensitive analytes",
+         "note": "Bilirubin breaks down in light; protect the sample (e.g. neonatal bilirubin) from light.",
+         "manas": {
+          "q": "Which common analyte must be protected from light?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-blood-culture-storage",
+         "topic": "Blood culture bottles",
+         "note": "Do not refrigerate; send to the lab promptly for incubation.",
+         "manas": {
+          "q": "Should blood culture bottles be refrigerated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-triple-packaging",
+         "topic": "Safe packaging",
+         "note": "Leak-proof primary tube, secondary leak-proof container with absorbent, and a rigid outer package (triple packaging) for transport between sites.",
+         "manas": {
+          "q": "What is triple packaging for specimen transport?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-microbiology-samples",
+       "topic": "Microbiology samples",
+       "note": "Good cultures start at the bedside.",
+       "children": [
+        {
+         "id": "mdhhp203spe-before-antibiotics",
+         "topic": "Before antibiotics",
+         "note": "Take cultures before the first antibiotic dose where possible; antibiotics reduce the chance of growing the organism.",
+         "manas": {
+          "q": "Why take cultures before antibiotics?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-culture-volume",
+         "topic": "Blood culture volume",
+         "note": "Yield depends on volume of blood cultured; fill bottles adequately and take more than one set from separate venepunctures.",
+         "manas": {
+          "q": "What most improves blood culture yield?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-pus-over-swabs",
+         "topic": "Pus or tissue over swabs",
+         "note": "Pus, fluid or tissue gives better yield than a swab of the surface.",
+         "manas": {
+          "q": "Which is better for culture: a swab or pus/tissue?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-urine-samples",
+         "topic": "Urine for culture",
+         "note": "Clean-catch midstream urine; send promptly or refrigerate, as bacteria multiply in urine left at room temperature.",
+         "manas": {
+          "q": "Why must urine for culture be sent promptly or refrigerated?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-errors-relevance",
+       "topic": "Spotting errors in results",
+       "note": "When a result does not fit the patient, think sample first.",
+       "children": [
+        {
+         "id": "mdhhp203spe-pseudohyperkalaemia",
+         "topic": "Pseudohyperkalaemia",
+         "note": "High potassium without ECG changes or a cause: think haemolysis, delay, cold storage, EDTA, fist clenching or very high platelets or white cells.",
+         "manas": {
+          "q": "List causes of a falsely high potassium."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-spurious-hypoglycaemia",
+         "topic": "Falsely low glucose",
+         "note": "Unseparated blood without fluoride, especially with very high white cell counts, consumes glucose before analysis.",
+         "manas": {
+          "q": "What can make a glucose result falsely low?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-clotted-edta",
+         "topic": "Clotted EDTA sample",
+         "note": "Clots in an EDTA tube trap platelets and give a falsely low platelet count; poor mixing is a common cause.",
+         "manas": {
+          "q": "What does a clotted EDTA sample do to the platelet count?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-delta-check",
+         "topic": "Delta check",
+         "note": "Comparing a result with the patient's previous one; a large unexplained change raises suspicion of a sample or identity error.",
+         "manas": {
+          "q": "What is a delta check?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-rejection",
+         "topic": "Sample rejection",
+         "note": "Common reasons: unlabelled or mismatched, wrong tube, clotted, underfilled citrate, haemolysed (for potassium), leaking.",
+         "manas": {
+          "q": "Give common reasons for a lab to reject a sample."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Standards that shape specimen collection.",
+       "children": [
+        {
+         "id": "mdhhp203spe-iso-15189",
+         "topic": "ISO 15189",
+         "note": "International standard for quality and competence of medical laboratories; covers the pre-examination process as well as testing and reporting.",
+         "manas": {
+          "q": "What does ISO 15189 cover?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-clsi",
+         "topic": "CLSI order of draw",
+         "note": "The US Clinical and Laboratory Standards Institute (CLSI) venepuncture standard sets the widely used order of draw.",
+         "manas": {
+          "q": "Which body's standard sets the widely used order of draw?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-eflm",
+         "topic": "EFLM venous blood guideline",
+         "note": "The EFLM Working Group on the Preanalytical Phase (founded 2011) produced a European consensus guideline on venous blood collection.",
+         "manas": {
+          "q": "Which EFLM group produced the European venous blood collection guideline?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-who-phlebotomy",
+         "topic": "WHO phlebotomy guidelines",
+         "note": "WHO guidelines on drawing blood: best practices in phlebotomy (2010) cover safe venepuncture for patients and health workers.",
+         "manas": {
+          "q": "Which WHO guideline covers best practice in phlebotomy?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-18.",
+       "manas": {
+        "checked": "2026-11-18"
+       },
+       "children": [
+        {
+         "id": "mdhhp203spe-sources-and-controls",
+         "topic": "Sources and control measures",
+         "note": "A 2024 review lists error sources — wrong test requests, poor patient preparation, collection, handling and transport lapses — and controls: harmonisation, training, automated quality checks, lab–clinician teamwork.",
+         "manas": {
+          "q": "Name two control measures for pre-analytical errors from a 2024 review.",
+          "ref": "Cureus 2024"
+         },
+         "hyperLink": "https://doi.org/10.7759/cureus.57243",
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-test-selection",
+         "topic": "Test choice now included",
+         "note": "A 2023 review notes the pre-analytical phase is now defined to include test selection, to tackle misuse of lab testing, possibly with AI support.",
+         "manas": {
+          "q": "Which step has recently been added to the definition of the pre-analytical phase?",
+          "ref": "Clin Chem Lab Med 2023"
+         },
+         "hyperLink": "https://doi.org/10.1515/cclm-2022-1036",
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-scoping-review",
+         "topic": "Scoping review of 83 studies",
+         "note": "Pre-analytical errors affected care, costs, length of stay and efficiency; standard definitions and education strategies were lacking, and real-world evidence for AI tools was missing.",
+         "manas": {
+          "q": "What gaps did a 2025 scoping review find in pre-analytical quality work?",
+          "ref": "Clin Chem Lab Med 2025"
+         },
+         "hyperLink": "https://doi.org/10.1515/cclm-2024-1277",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhhp203spe-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins for OSCEs and MCQs.",
+       "children": [
+        {
+         "id": "mdhhp203spe-pearl-k-ca",
+         "topic": "High K, very low Ca",
+         "note": "Think EDTA contamination before treating; repeat the sample.",
+         "manas": {
+          "q": "High potassium with very low calcium in a well patient suggests what?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-pearl-citrate",
+         "topic": "Underfilled citrate tube",
+         "note": "Too much citrate for the blood volume falsely prolongs PT and APTT.",
+         "manas": {
+          "q": "What does an underfilled citrate tube do to clotting times?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-pearl-lithium",
+         "topic": "Lithium level tube",
+         "note": "Never use a lithium heparin tube for a lithium level.",
+         "manas": {
+          "q": "Which tube must not be used for a lithium level?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhhp203spe-pearl-label",
+         "topic": "Label in front of patient",
+         "note": "Two identifiers, label at the bedside, never pre-label.",
+         "manas": {
+          "q": "What are the two golden rules of sample labelling?"
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y2"
+  },
+  {
+   "id": "med-hmm200-bacterial-structure-staining",
+   "title": "HMM 200 · In depth: Bacterial structure and staining",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1794997059269,
+   "updated": 1794997059269,
+   "library": "mbchb",
+   "deepOf": "med-hmm200",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhmm200bss-bacterial-structure-in-depth",
+     "topic": "Bacterial structure and staining in depth",
+     "note": "How a bacterium is built, why each part matters for disease and antibiotics, and how stains reveal it. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhmm200bss-overview",
+       "topic": "Overview",
+       "note": "The prokaryotic cell plan.",
+       "children": [
+        {
+         "id": "mdhmm200bss-prokaryote",
+         "topic": "Prokaryote basics",
+         "note": "No nucleus and no membrane-bound organelles; DNA lies free in the cytoplasm as a nucleoid.",
+         "manas": {
+          "q": "What two features define a prokaryotic cell?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-shapes",
+         "topic": "Shapes",
+         "note": "Cocci (spheres), bacilli (rods), coccobacilli, curved rods (e.g. Vibrio) and spirals or spirochaetes (e.g. Treponema).",
+         "manas": {
+          "q": "Name the main bacterial shapes."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-arrangements",
+         "topic": "Arrangements",
+         "note": "Clusters (staphylococci), chains (streptococci), pairs or diplococci (Neisseria, pneumococcus).",
+         "manas": {
+          "q": "Which cocci form clusters and which form chains?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-cell-envelope",
+       "topic": "Cell envelope",
+       "note": "Membrane, wall and, in Gram-negatives, an outer membrane.",
+       "children": [
+        {
+         "id": "mdhmm200bss-cytoplasmic-membrane",
+         "topic": "Cytoplasmic membrane",
+         "note": "Phospholipid bilayer without sterols (Mycoplasma is the exception); bacteria have no mitochondria, so respiration happens here.",
+         "manas": {
+          "q": "Where does energy generation occur in bacteria?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-peptidoglycan",
+         "topic": "Peptidoglycan",
+         "note": "Sugar chains of alternating NAG and NAM cross-linked by short peptides; gives shape and stops the cell bursting from osmotic pressure.",
+         "manas": {
+          "q": "What is peptidoglycan made of and what does it do?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-drug-targets-wall",
+         "topic": "Wall as a drug target",
+         "note": "Beta-lactams block penicillin-binding proteins (transpeptidases) that cross-link peptidoglycan; vancomycin binds D-Ala-D-Ala ends.",
+         "manas": {
+          "q": "How do beta-lactams and vancomycin damage the cell wall?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-lysozyme",
+         "topic": "Lysozyme",
+         "note": "Enzyme in tears and saliva that cuts the NAM–NAG bond in peptidoglycan — part of innate defence.",
+         "manas": {
+          "q": "What bond does lysozyme cut?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-gram-positive-wall",
+         "topic": "Gram-positive wall",
+         "note": "Thick peptidoglycan with teichoic and lipoteichoic acids; no outer membrane.",
+         "manas": {
+          "q": "Which acids are unique to the Gram-positive wall?"
+         },
+         "children": [
+          {
+           "id": "mdhmm200bss-lipoteichoic",
+           "topic": "Lipoteichoic acid",
+           "note": "Anchored in the membrane; can trigger inflammation and septic shock, in a similar way to LPS.",
+           "manas": {
+            "q": "Which Gram-positive wall component can trigger septic shock?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhmm200bss-gram-negative-wall",
+         "topic": "Gram-negative wall",
+         "note": "Thin peptidoglycan in the periplasm between the inner membrane and an outer membrane carrying LPS and porins.",
+         "manas": {
+          "q": "Describe the layers of the Gram-negative envelope."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-periplasm",
+         "topic": "Periplasmic space",
+         "note": "Gap between the two membranes of Gram-negatives; holds enzymes including beta-lactamases.",
+         "manas": {
+          "q": "Where are beta-lactamases found in Gram-negative bacteria?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-lps",
+         "topic": "Lipopolysaccharide (LPS)",
+         "note": "Three parts: lipid A (endotoxin), core polysaccharide and the O antigen.",
+         "manas": {
+          "q": "What are the three parts of LPS?"
+         },
+         "children": [
+          {
+           "id": "mdhmm200bss-o-antigen",
+           "topic": "O antigen",
+           "note": "Variable outer sugar chain used to serotype bacteria, e.g. E. coli O157.",
+           "manas": {
+            "q": "What is the O antigen used for?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhmm200bss-endo-vs-exotoxin",
+           "topic": "Endotoxin vs exotoxin",
+           "note": "Endotoxin: lipid A, part of the Gram-negative wall, heat-stable. Exotoxins: proteins secreted by Gram-positives or negatives, often heat-labile.",
+           "manas": {
+            "q": "How do endotoxins differ from exotoxins?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhmm200bss-acid-fast-wall",
+         "topic": "Acid-fast wall",
+         "note": "Mycobacteria have waxy mycolic acids in the wall; they stain poorly with Gram and resist drying and many chemicals.",
+         "manas": {
+          "q": "What makes the mycobacterial wall acid-fast?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-surface-structures",
+       "topic": "Surface structures",
+       "note": "Parts outside the wall that help bacteria stick, move and hide.",
+       "children": [
+        {
+         "id": "mdhmm200bss-capsule-detection",
+         "topic": "Detecting capsules",
+         "note": "Quellung reaction: capsule swells when mixed with type-specific antiserum (classically pneumococcus).",
+         "manas": {
+          "q": "What is the Quellung reaction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-anthrax-capsule",
+         "topic": "Anthrax capsule exception",
+         "note": "Most capsules are polysaccharide; Bacillus anthracis has a polypeptide (poly-D-glutamate) capsule.",
+         "manas": {
+          "q": "Which bacterium has a polypeptide rather than polysaccharide capsule?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-biofilm",
+         "topic": "Slime and biofilm",
+         "note": "Loose sugar layer lets bacteria form biofilms on lines, catheters and prosthetic valves (e.g. Staphylococcus epidermidis); biofilms resist antibiotics.",
+         "manas": {
+          "q": "Why are device infections with biofilms hard to treat?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-flagella",
+         "topic": "Flagella",
+         "note": "Protein (flagellin) whips for motility; the H antigen. May be single (polar) or all around the cell (peritrichous).",
+         "manas": {
+          "q": "What are flagella made of and which antigen do they carry?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-endoflagella",
+         "topic": "Spirochaete endoflagella",
+         "note": "Spirochaetes move by axial filaments (endoflagella) lying under the outer sheath, giving corkscrew motion.",
+         "manas": {
+          "q": "How do spirochaetes move?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-pili",
+         "topic": "Pili (fimbriae)",
+         "note": "Hair-like protein rods for attachment, e.g. uropathogenic E. coli to bladder cells and N. gonorrhoeae to mucosa.",
+         "manas": {
+          "q": "What is the main role of common pili?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-sex-pilus",
+         "topic": "Sex pilus",
+         "note": "Specialised pilus that joins two bacteria for conjugation (DNA transfer).",
+         "manas": {
+          "q": "What does the sex pilus do?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-inside-the-cell",
+       "topic": "Inside the cell",
+       "note": "Genetic material, storage granules and spores.",
+       "children": [
+        {
+         "id": "mdhmm200bss-nucleoid",
+         "topic": "Nucleoid",
+         "note": "Usually a single circular chromosome, no nuclear membrane.",
+         "manas": {
+          "q": "How is the bacterial chromosome organised?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-plasmids",
+         "topic": "Plasmids",
+         "note": "Small circular DNA that copies itself apart from the chromosome; can carry antibiotic resistance or toxin genes.",
+         "manas": {
+          "q": "What clinically important genes can plasmids carry?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-gene-transfer",
+         "topic": "Gene transfer",
+         "note": "Transformation (taking up free DNA), transduction (via bacteriophage), conjugation (via sex pilus).",
+         "manas": {
+          "q": "Name the three ways bacteria exchange genes."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-volutin-granules",
+         "topic": "Metachromatic granules",
+         "note": "Volutin (polyphosphate) granules typical of Corynebacterium diphtheriae; shown by Albert stain.",
+         "manas": {
+          "q": "Which bacterium has metachromatic granules?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-spores",
+         "topic": "Endospores",
+         "note": "Formed under nutrient stress, one spore per cell — survival, not reproduction. Core contains calcium dipicolinate, adding heat resistance.",
+         "manas": {
+          "q": "Is sporulation a form of reproduction?"
+         },
+         "children": [
+          {
+           "id": "mdhmm200bss-spore-diseases",
+           "topic": "Spore-related diseases",
+           "note": "Tetanus, botulism, gas gangrene, C. difficile infection and anthrax.",
+           "manas": {
+            "q": "Name diseases caused by spore-forming bacteria."
+           },
+           "children": []
+          },
+          {
+           "id": "mdhmm200bss-c-diff-hands",
+           "topic": "C. difficile and hands",
+           "note": "Alcohol hand rub does not kill spores; wash hands with soap and water after caring for C. difficile patients.",
+           "manas": {
+            "q": "Why use soap and water rather than alcohol gel for C. difficile?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhmm200bss-autoclave-check",
+           "topic": "Testing autoclaves",
+           "note": "Spores of Geobacillus stearothermophilus are used as biological indicators to confirm autoclave sterilisation.",
+           "manas": {
+            "q": "Which spores test whether an autoclave works?"
+           },
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-gram-stain-practice",
+       "topic": "Gram stain in practice",
+       "note": "Beyond the four reagents.",
+       "children": [
+        {
+         "id": "mdhmm200bss-smear-prep",
+         "topic": "Making the smear",
+         "note": "Thin smear on a slide, air-dried, then heat-fixed before staining.",
+         "manas": {
+          "q": "How is a smear prepared for Gram staining?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-decolouriser-step",
+         "topic": "Critical step: decolouriser",
+         "note": "Over-decolourising makes Gram-positives look negative; under-decolourising makes Gram-negatives look positive.",
+         "manas": {
+          "q": "What error does over-decolourising cause?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-old-cultures",
+         "topic": "Old cultures",
+         "note": "Gram-positives from old cultures or after antibiotics may stain variably as walls weaken.",
+         "manas": {
+          "q": "Why may Gram-positives look Gram-variable?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-reading-report",
+         "topic": "Reading the slide",
+         "note": "Report the Gram reaction, shape and arrangement, plus pus cells; gives a fast clue before culture.",
+         "manas": {
+          "q": "What does a Gram stain report include?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-clinical-patterns",
+         "topic": "Classic patterns",
+         "note": "Clinical pictures from Gram stains.",
+         "children": [
+          {
+           "id": "mdhmm200bss-gnd-urethral",
+           "topic": "Urethral pus",
+           "note": "Gram-negative diplococci inside pus cells suggest gonorrhoea.",
+           "manas": {
+            "q": "What do intracellular Gram-negative diplococci in urethral pus suggest?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhmm200bss-csf-patterns",
+           "topic": "CSF in meningitis",
+           "note": "Gram-positive diplococci suggest pneumococcus; Gram-negative diplococci suggest meningococcus.",
+           "manas": {
+            "q": "Which organism do Gram-positive diplococci in CSF suggest?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhmm200bss-poor-gram-stainers",
+         "topic": "Poor Gram stainers",
+         "note": "Mycobacteria (waxy wall), Treponema (too thin), Mycoplasma (no wall), Chlamydia (intracellular).",
+         "manas": {
+          "q": "Name bacteria that are not seen well on Gram stain."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-acid-fast-staining",
+       "topic": "Acid-fast staining",
+       "note": "Finding mycobacteria.",
+       "children": [
+        {
+         "id": "mdhmm200bss-zn-steps",
+         "topic": "ZN steps",
+         "note": "Hot carbol fuchsin, then acid-alcohol decolouriser, then methylene blue counterstain; AFB stay red.",
+         "manas": {
+          "q": "What are the steps of the Ziehl–Neelsen stain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-fluorescent-stain",
+         "topic": "Fluorescence (auramine)",
+         "note": "Auramine stains AFB, which glow against a dark background; slides can be scanned faster at lower power, and it is more sensitive than ZN.",
+         "manas": {
+          "q": "What advantage does auramine fluorescence have over ZN?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-modified-zn",
+         "topic": "Modified ZN",
+         "note": "Uses a weaker acid decolouriser to show weakly acid-fast organisms such as Nocardia and Cryptosporidium oocysts.",
+         "manas": {
+          "q": "Which organisms are shown with the modified ZN stain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-smear-limits",
+         "topic": "Limits of smear",
+         "note": "Smear needs many bacilli to turn positive and cannot tell TB from other mycobacteria or show drug resistance.",
+         "manas": {
+          "q": "What are the limits of sputum smear microscopy?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-other-stains",
+       "topic": "Other stains and methods",
+       "note": "Choose the stain for the organism.",
+       "children": [
+        {
+         "id": "mdhmm200bss-simple-vs-differential",
+         "topic": "Simple vs differential",
+         "note": "Simple stains use one dye (e.g. methylene blue) to show shape; differential stains (Gram, ZN) sort bacteria into groups.",
+         "manas": {
+          "q": "What is the difference between a simple and a differential stain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-albert-stain",
+         "topic": "Albert stain",
+         "note": "Shows the metachromatic granules of C. diphtheriae.",
+         "manas": {
+          "q": "What does Albert stain show?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-spore-stain",
+         "topic": "Spore stain",
+         "note": "Malachite green driven in with heat, safranin counterstain: spores green, cells pink.",
+         "manas": {
+          "q": "What colours are spores and cells in a malachite green spore stain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-india-ink",
+         "topic": "India ink (negative stain)",
+         "note": "Stains the background so a capsule shows as a clear halo; classically for Cryptococcus (a yeast) in CSF.",
+         "manas": {
+          "q": "What does India ink staining show?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-dark-ground",
+         "topic": "Dark-ground microscopy",
+         "note": "Shows live, motile Treponema pallidum in fluid from a syphilitic chancre.",
+         "manas": {
+          "q": "How can Treponema pallidum be seen in chancre fluid?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-clinical-relevance",
+       "topic": "Clinical relevance",
+       "note": "Structure explains disease and treatment.",
+       "children": [
+        {
+         "id": "mdhmm200bss-vanc-gram-neg",
+         "topic": "Vancomycin and Gram-negatives",
+         "note": "Vancomycin is too large to cross the outer membrane, so it does not work on Gram-negatives.",
+         "manas": {
+          "q": "Why is vancomycin inactive against Gram-negative bacteria?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-polymyxins",
+         "topic": "Polymyxins",
+         "note": "Colistin and polymyxin B bind LPS and disrupt bacterial membranes, so they act on Gram-negatives.",
+         "manas": {
+          "q": "What do polymyxins bind?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-asplenia",
+         "topic": "Asplenia and capsules",
+         "note": "Without a spleen, encapsulated bacteria are cleared poorly; vaccinate against pneumococcus, Hib and meningococcus.",
+         "manas": {
+          "q": "Which infections threaten asplenic patients and how are they prevented?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "TB microscopy in practice.",
+       "children": [
+        {
+         "id": "mdhmm200bss-who-led",
+         "topic": "WHO: LED microscopy",
+         "note": "WHO recommends LED fluorescence microscopy as an alternative to conventional ZN microscopy for TB smears.",
+         "manas": {
+          "q": "Which microscopy does WHO recommend as an alternative to ZN?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-who-rapid-test",
+         "topic": "Rapid molecular tests first",
+         "note": "WHO recommends rapid molecular tests (e.g. Xpert MTB/RIF) as the first test for TB; smear microscopy still helps monitor treatment.",
+         "manas": {
+          "q": "What does WHO recommend as the initial test for TB diagnosis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-18.",
+       "manas": {
+        "checked": "2026-11-18"
+       },
+       "children": [
+        {
+         "id": "mdhmm200bss-outer-membrane-barrier",
+         "topic": "Outer membrane blocks drugs",
+         "note": "A 2023 review notes most current antibiotics target Gram-positives because the Gram-negative outer membrane strongly restricts drug entry; it reviews ways to get past it.",
+         "manas": {
+          "q": "Why do many antibiotics fail against Gram-negatives, per a 2023 review?",
+          "ref": "NPJ Antimicrob Resist 2023"
+         },
+         "hyperLink": "https://doi.org/10.1038/s44259-023-00016-1",
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-porins-resistance",
+         "topic": "Porins and resistance",
+         "note": "Outer membrane porins (e.g. OmpC, OmpF) let in nutrients and some antibiotics; changes in porins reduce entry and contribute to resistance.",
+         "manas": {
+          "q": "How do porin changes contribute to antibiotic resistance?",
+          "ref": "Microorganisms 2023"
+         },
+         "hyperLink": "https://doi.org/10.3390/microorganisms11071690",
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-staph-hydrolases",
+         "topic": "S. aureus wall hydrolases",
+         "note": "S. aureus carries at least 18 peptidoglycan hydrolases that keep opening its thick wall for growth and division; they aid virulence and are possible new drug and vaccine targets.",
+         "manas": {
+          "q": "What role do peptidoglycan hydrolases play in S. aureus?",
+          "ref": "FEMS Microbiol Rev 2022"
+         },
+         "hyperLink": "https://doi.org/10.1093/femsre/fuac025",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmm200bss-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins for MCQs and practicals.",
+       "children": [
+        {
+         "id": "mdhmm200bss-pearl-purple-pink",
+         "topic": "Purple positive, pink negative",
+         "note": "Gram-positive = purple (crystal violet); Gram-negative = pink (safranin).",
+         "manas": {
+          "q": "What colour are Gram-positive and Gram-negative bacteria?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-pearl-red-afb",
+         "topic": "AFB are red",
+         "note": "On ZN, acid-fast bacilli are red on a blue background.",
+         "manas": {
+          "q": "What colour are AFB on ZN stain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-pearl-lps",
+         "topic": "Lipid A = endotoxin",
+         "note": "Lipid A is the toxic (endotoxin) part of LPS; only Gram-negatives have LPS.",
+         "manas": {
+          "q": "Which part of LPS is the endotoxin?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmm200bss-pearl-spores",
+         "topic": "Spores need autoclaving",
+         "note": "Spores survive boiling and alcohol; autoclaving reliably kills them.",
+         "manas": {
+          "q": "What reliably kills bacterial spores?"
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y2"
   }
  ]
 }
