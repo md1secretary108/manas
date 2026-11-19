@@ -101,7 +101,7 @@
   },
   {
    "id": "acc",
-   "title": "Accounting — from basics to CPA",
+   "title": "Accounting — from scratch to CPA and beyond",
    "subtitle": "Basics to CPA final, step by step: worked examples in KES, flashcards, exam practice and videos. Also for working accountants: iTax, eTIMS, payroll, Excel. New maps every day.",
    "icon": "🧮",
    "file": "lib-acc.json",
@@ -112,10 +112,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New: Business Data Analytics CA35P — 1. Data analytics for accountants (CRISP-DM, cleaning data, pivots, dashboards, audit analytics, ethics). Every CPA paper now has its maps: the course is complete (Mon 16 Nov)",
-   "meta": "127 maps · 10,017 ideas · 2.2 MB · 4 subjects",
-   "parts": 4,
-   "v": 1794821711,
+   "whatsNew": "New: Start here · Accounting from zero — 1. Why keep records at all, 2. Money in, money out: a cash book, 3. Receipts, invoices and vouchers, 4. Profit is not the same as cash, 5. Your own budget and household accounts. For complete beginners (Thu 19 Nov)",
+   "meta": "138 maps · 10,565 ideas · 2.4 MB · 6 subjects",
+   "parts": 6,
+   "v": 1795068124,
    "split": "lib-acc-index.json",
    "short": "Acc"
   },
