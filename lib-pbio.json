@@ -488,7 +488,10 @@
             "label": "📖 Līlāmṛta ch. 4",
             "url": "https://vedabase.io/en/library/spl/1/4/#bb1561791"
            }
-          ]
+          ],
+          "map": "pbio-spl-1-4-deep",
+          "part": "course",
+          "library": "pbio"
          }
         },
         {
@@ -11841,7 +11844,7 @@
    "layout": "side",
    "lines": "curved",
    "created": 1794821571922,
-   "updated": 1794821571922,
+   "updated": 1795060721356,
    "library": "pbio",
    "deepOf": "pbio-ix-sections",
    "data": {
@@ -13002,12 +13005,1533 @@
         },
         {
          "id": "pbio13-ta-next",
-         "topic": "Next: Chapter 4, initiation (1932)",
-         "note": "The story continues with his formal initiation in Allahabad (course event).",
+         "topic": "Next: Chapter 4, “How shall I serve you?” (1932–1937)",
+         "note": "The in-depth map of his initiation, the years close to his guru, Bombay, and the orders to print books and preach in English.",
+         "manas": {
+          "goto": {
+           "map": "pbio-spl-1-4-deep",
+           "node": "pbio14-root"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "course"
+  },
+  {
+   "id": "pbio-spl-1-4-deep",
+   "title": "Līlāmṛta 4 · “How shall I serve you?” in depth",
+   "look": "paper",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795060721362,
+   "updated": 1795060721362,
+   "library": "pbio",
+   "deepOf": "pbio-ix-sections",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "pbio14-root",
+     "topic": "Chapter 4 · “How shall I serve you?” (1932–1937)",
+     "note": "In-depth map of Śrīla Prabhupāda-līlāmṛta, Volume 1, Chapter 4: the 1932 Vraja parikrama at Kosi, initiation in Allahabad as Abhay Charanaravinda, his guru’s bold preaching and sayings, business losses and the move to Bombay, the Bombay centre, the 1935 Vyāsa-pūjā poem, the Rādhā-kuṇḍa order to print books, the 1936 letter to preach in English and Śrīla Bhaktisiddhānta’s passing on 1 January 1937. Facts from the Līlāmṛta on vedabase.io; own words. Draft · review in progress. Search words: initiation, diksha, diksa, harinama, Abhay Charanaravinda, Bhaktisiddhanta, Saraswati, Gaudiya Math, Kosi, parikrama, Vrindavan, Radha Kunda, Radhakund, Bombay, Mumbai, Gawlia Tank, Sridhar Maharaj, Bhaktisaranga Goswami, kavi, Vyasa Puja, Harmonist, print books, English preacher, letter, Subhas Chandra Bose, Baghbazar, yukta vairagya.",
+     "hyperLink": "https://vedabase.io/en/library/spl/1/4/",
+     "children": [
+      {
+       "id": "pbio14-kosi",
+       "topic": "🌾 Kosi, October 1932: one evening of hearing",
+       "note": "Abhay joins his guru’s Vraja pilgrimage for a single day.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561751",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Vraja"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-parikrama",
+         "topic": "A month-long Vraja parikrama",
+         "note": "In October 1932 Śrīla Bhaktisiddhānta led hundreds of disciples and pilgrims for a month round the holy places of Vṛndāvana. Abhay’s work kept him away, but on the twentieth day he came from Allahabad hoping to join for a day at Kosi.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561751",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Vraja"
+          },
+          "q": "Where did Abhay join his spiritual master’s 1932 Vraja parikrama, and for how long?",
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-pl-vrndavana"
+          }
+         }
+        },
+        {
+         "id": "pbio14-mass",
+         "topic": "Pilgrimage as mass preaching",
+         "note": "Earlier Vaiṣṇavas kept to quiet holy places and lived as poor mendicants. Śrīla Bhaktisiddhānta’s stress, from 1918, was on preaching, so he used a huge parikrama to reach many people at once.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561752",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Preaching"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio14-camp",
+           "topic": "A tent town that ran like clockwork",
+           "note": "An advance team pitched tents and kitchens ahead; the main party carried Lord Caitanya’s Deity with kīrtana. Men and women camped apart, guards patrolled at night, and everyone gathered in the evening to hear him.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561763",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Devotees"
+            }
+           }
+          },
+          {
+           "id": "pbio14-harmonist-ad",
+           "topic": "Open to every nationality",
+           "note": "The Harmonist, his English paper, advertised the parikrama and invited people of any nation, caste, colour, age or sex to walk where Lord Caitanya had walked in 1514.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561760",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Preaching"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-opposition",
+         "topic": "Temples shut, stones thrown",
+         "note": "Local temple owners objected that he gave the sacred thread to men not born brāhmaṇas. The pilgrims found the seven main temples closed and some people threw stones, but the party went on cheerfully and reached Kosi on 28 October.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561767",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Leaders"
+          },
+          "q": "Why did some Vṛndāvana temple owners oppose the 1932 parikrama?"
+         },
+         "children": [
+          {
+           "id": "pbio14-qualities",
+           "topic": "Why: a brāhmaṇa by qualities",
+           "note": "He showed from scripture that qualities, not birth, make a brāhmaṇa: like base metal turned to gold, a person rightly initiated is changed. Nārada tells Yudhiṣṭhira the same in the Bhāgavatam.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561766",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Knowledge"
+            }
+           }
+          },
+          {
+           "id": "pbio14-sb71135",
+           "topic": "SB 7.11.35: judged by symptoms",
+           "note": "Nārada’s rule that a person is known by his qualities and conduct, whatever family he was born in.",
+           "hyperLink": "https://vedabase.io/en/library/sb/7/11/35/",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Knowledge"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-road",
+         "topic": "The road to Kosi",
+         "note": "He came by train to Mathurā and then by rickshaw through forest and fields full of peacocks, kadamba flowers and Kārttika pilgrims. More than the scenery, he was longing to see his guru again.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561768",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Vraja"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-pl-mathura"
+          }
+         }
+        },
+        {
+         "id": "pbio14-choice",
+         "topic": "Darśana trip or the last lecture?",
+         "note": "At camp Keśava Mahārāja announced a visit to the Śeṣaśāyī Viṣṇu temple, or a last talk by Śrīla Bhaktisiddhānta, who was leaving next day. Only about ten or twelve stayed, Śrīdhara Mahārāja among them, and Abhay chose to hear.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561772",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Questions"
+          },
+          "q": "At Kosi, what choice did Abhay make that evening?"
+         },
+         "children": [
+          {
+           "id": "pbio14-choice-why",
+           "topic": "Why this choice mattered",
+           "note": "Picking hearing over sightseeing is the very quality his guru would soon praise in him. (Our link to the initiation, below.)",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561772",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Guru"
+            },
+            "goto": {
+             "map": "pbio-ix-topics",
+             "node": "pbio-ix-topics-p-keshava-maharaja"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-hearing",
+         "topic": "Hours of hearing, a curtain drawn back",
+         "note": "He spoke for hours in Bengali and some English, full of Sanskrit, on sambandha, abhidheya and prayojana. The room thinned to a few leaders; Abhay, not yet initiated, stayed, absorbed, with no questions, only wanting more.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561775",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Knowledge"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio14-three",
+           "topic": "Sambandha, abhidheya, prayojana",
+           "note": "Three stages he often explained: waking to our relation with God, acting on it in loving service, and the goal, pure love of God. Synonyms: relationship, means, goal.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561774",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Knowledge"
+            },
+            "q": "What do sambandha, abhidheya and prayojana mean?"
+           }
+          },
+          {
+           "id": "pbio14-sun",
+           "topic": "His guru at the centre",
+           "note": "That night the single memory of the Calcutta rooftop grew into a living relationship; everything else in Abhay’s life now seemed to circle round his guru, like planets round the sun.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561778",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Guru"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-farewell",
+         "topic": "The farewell wave",
+         "note": "Next morning, after early chanting, Abhay stood with the others as his guru, in plain saffron, drove off in a car, looking back and waving.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561779",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Devotees"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio14-vision",
+       "topic": "🏛️ His guru’s way: everything for Kṛṣṇa",
+       "note": "How Śrīla Bhaktisiddhānta used the modern world for preaching.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561753",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Preaching"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-baghbazar",
+         "topic": "A marble temple in Baghbazar (1930)",
+         "note": "Knowing Westerners could not live like the Gosvāmīs under trees, he accepted a merchant’s large gift and in 1930 built a marble temple in Calcutta’s Baghbazar, moving there from the rented Ultadanga rooms.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561753",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Wealth"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-pl-calcutta"
+          }
+         }
+        },
+        {
+         "id": "pbio14-yukta",
+         "topic": "Why use money and machines?",
+         "note": "Not a cent for one’s own pleasure, but millions for Kṛṣṇa. Following Rūpa Gosvāmī, real renunciation is to engage everything in Kṛṣṇa’s service, so presses, cars and fine buildings could all serve preaching. (Also called yukta-vairāgya.)",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561754",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Wealth"
+          },
+          "q": "According to Rūpa Gosvāmī, what is real renunciation?"
+         }
+        },
+        {
+         "id": "pbio14-exhibit",
+         "topic": "A theistic exhibition of clay dioramas",
+         "note": "At Baghbazar nearly a hundred scenes of painted clay figures showed Vaiṣṇava philosophy and Kṛṣṇa’s pastimes. Nothing like it had been seen, and thousands came each day.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561755",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Preaching"
+          }
+         }
+        },
+        {
+         "id": "pbio14-presses",
+         "topic": "Three presses, six journals",
+         "note": "By 1932 his mission ran three printing presses across India, turning out six journals in various Indian languages.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561756",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Preaching"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-t-writing"
+          }
+         }
+        },
+        {
+         "id": "pbio14-daily",
+         "topic": "Why a spiritual daily paper?",
+         "note": "Asked how he could print Nadiyā Prakāśa every day, he compared Calcutta’s many dailies with the endless spiritual world: news from there could fill a paper every moment, if only there were readers.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561757",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Knowledge"
+          },
+          "q": "How did Śrīla Bhaktisiddhānta answer a politician who asked how he could print a daily spiritual newspaper?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio14-initiation",
+       "topic": "📿 Initiation in Allahabad, 21 November 1932",
+       "note": "Abhay becomes Abhay Charanaravinda.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561781",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Guru"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-cornerstone",
+         "topic": "A cornerstone and an initiation",
+         "note": "About a month later his guru came to Allahabad to lay the foundation of the Śrī Rūpa Gaudiya Math, with the governor of the United Provinces as guest. Hearing there would be initiations too, Abhay asked to be included, and Atulānanda promised to present him.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561781",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Devotees"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-pl-allahabad"
+          }
+         }
+        },
+        {
+         "id": "pbio14-why-guru",
+         "topic": "Why a pious life was not enough",
+         "note": "His wife saw no need: they already worshipped the Deity and lived peacefully. For Abhay, avoiding sin was good but not spiritual life itself; the soul’s goal is love of Kṛṣṇa, which needs a pure devotee’s shelter.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561783",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Surrender"
+          },
+          "q": "Why did Abhay feel a pious home life was not enough, and seek initiation?"
+         },
+         "children": [
+          {
+           "id": "pbio14-family-guru",
+           "topic": "The family priest was not a guru",
+           "note": "At twelve a family priest had given him a ritual initiation, which he never took seriously. A guru teaches bhakti and links one to Kṛṣṇa through disciplic succession; his new guru stood twelfth in line from Lord Caitanya.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561785",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Guru"
+            }
+           }
+          },
+          {
+           "id": "pbio14-caitanya-guru",
+           "topic": "Even Lord Caitanya took a guru",
+           "note": "Scripture tells the seeker of truth to approach a guru in disciplic succession, and Lord Caitanya, though Kṛṣṇa Himself, accepted one. (Our summary of the reasoning.)",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561784",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Guru"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-marked",
+         "topic": "“He likes to hear … I have marked him”",
+         "note": "When Atulānanda presented the candidates, his guru recognised Abhay at once and said he would accept him, because he listens and does not go away. The other disciples wondered when he had formed this view.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561787",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Guru"
+          },
+          "q": "What reason did Śrīla Bhaktisiddhānta give for accepting Abhay as his disciple?"
+         },
+         "children": [
+          {
+           "id": "pbio14-sravanam",
+           "topic": "Why hearing pleased him",
+           "note": "Hearing (śravaṇam) is the first of the nine practices of devotion, and kīrtana comes after it. Abhay resolved to keep hearing well so that he could later speak well; he was not praised for money or austerity.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561790",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Knowledge"
+            }
+           }
+          },
+          {
+           "id": "pbio14-marked-why",
+           "topic": "Why it matters",
+           "note": "Patient hearing at Kosi became the door to initiation, a lesson for any student. (Our reflection.)",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561790",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Purpose"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-fire",
+         "topic": "The fire ceremony",
+         "note": "Candidates sat round a mound of earth while a sannyāsī offered grains and fruit into the fire and all chanted. His sister and brother came; his wife did not.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561789",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Family"
+          }
+         }
+        },
+        {
+         "id": "pbio14-both",
+         "topic": "Both initiations at once",
+         "note": "He received japa beads (hari-nāma) and the sacred thread together, though second initiation normally came only after some time. Now a brāhmaṇa, he could worship the Deity and was expected to preach.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561791",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Guru"
+          },
+          "q": "What was unusual about Abhay’s initiation in 1932?"
+         }
+        },
+        {
+         "id": "pbio14-name",
+         "topic": "His new name: Abhay Charanaravinda",
+         "note": "His guru lengthened his name with “aravinda”, meaning lotus, so he became Abhay Charanaravinda. (Spellings: Abhaya Caranaravinda, Abhay Charan.)",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561791",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Guru"
+          },
+          "q": "What name did Abhay receive at initiation?"
+         }
+        },
+        {
+         "id": "pbio14-brs",
+         "topic": "His assignment: study Bhakti-rasāmṛta-sindhu",
+         "note": "His guru asked him to study Bhakti-rasāmṛta-sindhu by Rūpa Gosvāmī, a lawbook of devotional service on the exchanges of love between Kṛṣṇa and His devotees. (Our note: he later gave it in English as The Nectar of Devotion.)",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561792",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Knowledge"
+          },
+          "q": "Which book was Abhay told to study at initiation?"
+         }
+        },
+        {
+         "id": "pbio14-preach-home",
+         "topic": "Preaching at home, a wife who preferred quiet",
+         "note": "He wanted to bring guests home for prasādam and talks on Kṛṣṇa. Radharani loved Kṛṣṇa too, he later said, but wanted only home worship and peace; his idea was preaching.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561793",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Family"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-p-radharani-de"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio14-close",
+       "topic": "🙏 Close to his guru, 1932–1936",
+       "note": "About a dozen meetings in four years, each one treasured.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561795",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Guru"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-visits",
+         "topic": "Business trips timed to his guru",
+         "note": "He planned Calcutta business trips for when his guru was there, staying about five days at the maṭha. Nityānanda Brahmacārī met him at Howrah with the maṭha’s carriage and found him humble and tolerant.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561796",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Devotees"
+          },
+          "q": "Roughly how often did Abhay see his guru between 1932 and 1936?"
+         }
+        },
+        {
+         "id": "pbio14-householder",
+         "topic": "Never a manager, always a householder",
+         "note": "Eighteen sannyāsīs led the mission; Abhay stayed a family man with his own business and did not seek a role in the maṭha’s management. Even so, a close bond grew.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561797",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Family"
+          }
+         }
+        },
+        {
+         "id": "pbio14-snake",
+         "topic": "The snake at Māyāpur",
+         "note": "At the Chaitanya Math a poisonous snake appeared and no one acted until his guru called from the veranda to kill it. Abhay was puzzled until he later read a Bhāgavatam verse that saints are glad when a snake is killed.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561798",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Stories"
+          },
+          "q": "What puzzled Abhay about the snake at Māyāpur, and what settled it?",
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-pl-mayapur"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio14-sb7914",
+           "topic": "SB 7.9.14: a snake or scorpion",
+           "note": "Prahlāda’s words that even saints are pleased when a dangerous creature like a snake or scorpion is killed.",
+           "hyperLink": "https://vedabase.io/en/library/sb/7/9/14/",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Knowledge"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-affection",
+         "topic": "Affection, and “I am your servant”",
+         "note": "His guru was feared for his austerity and sharp arguments, yet always treated Abhay kindly. When Abhay bowed, he returned it with “dāso ’smi”, I am your servant; Godbrothers teased him for talking too freely.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561801",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "pbio14-seat",
+         "topic": "Lesson of the seat, learned without a word",
+         "note": "Once Abhay sat beside his guru on the couch, then saw every other disciple seated lower. Nothing was said, but he never sat on an equal level again.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561802",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "pbio14-rebuke",
+         "topic": "A rebuke he treasured",
+         "note": "When an old man next to him whispered during a talk, his guru rebuked them both: the donor for thinking money bought him, and Abhay by asking why he did not come up and speak instead. Abhay felt ashamed but cherished it.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561803",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Guru"
+          }
+         }
+        },
+        {
+         "id": "pbio14-one-q",
+         "topic": "Only one question: “How shall I serve you?”",
+         "note": "He rarely asked philosophical questions and preferred to listen. Later he said the only thing he ever asked his guru was how he could serve him. That line is the chapter’s title.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561828",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Surrender"
+          },
+          "q": "What was the one question Śrīla Prabhupāda said he ever asked his spiritual master?",
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-t-guru"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio14-lion",
+       "topic": "🦁 The lion guru: bold, no compromise",
+       "note": "What Abhay saw of his guru’s preaching and character.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561805",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Leaders"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-caste",
+         "topic": "He defeated caste Brahmanism",
+         "note": "Following Lord Caitanya, he taught that whoever knows the science of Kṛṣṇa can be a guru, whatever his birth or order. Śrīla Prabhupāda called this his guru’s great contribution, and it drew fierce protest.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561805",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Knowledge"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio14-cc8128",
+           "topic": "CC Madhya 8.128: who can be a guru",
+           "note": "Lord Caitanya’s verse that knowledge of Kṛṣṇa, not caste or āśrama, qualifies a teacher.",
+           "hyperLink": "https://vedabase.io/en/library/cc/madhya/8/128/",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Guru"
+            },
+            "q": "Which Caitanya-caritāmṛta verse says anyone who knows Kṛṣṇa can be a guru?"
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-plot",
+         "topic": "A plot to kill him, refused by a policeman",
+         "note": "Opponents offered a local police officer 25,000 rupees to look away while they harmed him. The officer refused, saying he would not do it to a sādhu, and warned him; his guru told Abhay this himself.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561808",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Stories"
+          },
+          "q": "What happened when opponents tried to bribe a police officer against Śrīla Bhaktisiddhānta?"
+         }
+        },
+        {
+         "id": "pbio14-bold",
+         "topic": "Pleased by boldness, not compromise",
+         "note": "A disciple who called a famous impersonalist monk foolish in public was praised, “he has done well”; what displeased him was compromise. Critics called it a chopping technique.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561809",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Preaching"
+          }
+         }
+        },
+        {
+         "id": "pbio14-encyclopedia",
+         "topic": "A “living encyclopedia”, the siṁha guru",
+         "note": "So learned he could talk on any subject, he was called a living encyclopedia and the lion (siṁha) guru. He told disciples to speak plain truth without flattery; money would come anyway.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561811",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Leaders"
+          },
+          "q": "What two nicknames did Śrīla Bhaktisiddhānta have, and why?"
+         }
+        },
+        {
+         "id": "pbio14-sayings",
+         "topic": "Memorable sayings",
+         "note": "Abhay never forgot some of his phrasings, short and practical.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561812",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Knowledge"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio14-god-sees",
+           "topic": "Let God see you",
+           "note": "Instead of trying to see God, act so that God notices you: service before seeking visions.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561812",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Surrender"
+            },
+            "q": "What did Śrīla Bhaktisiddhānta say instead of “try to see God”?"
+           }
+          },
+          {
+           "id": "pbio14-nuts",
+           "topic": "Cracking nuts with the śālagrāma",
+           "note": "Showing the Deity only to earn a living uses the Lord like a nut-cracking stone; sweeping streets is more honourable.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561813",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Wealth"
+            }
+           }
+          },
+          {
+           "id": "pbio14-honey",
+           "topic": "Licking the honey bottle",
+           "note": "Scholars who try to know God by senses and speculation are like someone licking the outside of a honey jar. Philosophy without religion is dry; religion without philosophy is sentiment.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561819",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Knowledge"
+            }
+           }
+          },
+          {
+           "id": "pbio14-cheaters",
+           "topic": "A world of cheaters and cheated",
+           "note": "He called this world a meeting of cheaters and the cheated, no place for a gentleman to stay, so one should aim to go back to Godhead.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561820",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Liberation"
+            }
+           }
+          },
+          {
+           "id": "pbio14-four-walls",
+           "topic": "“The four walls will hear you”",
+           "note": "When preachers found no audience, he told them not to lose heart and keep chanting; even the walls hear. A preacher must be alive in spirit; a dead man cannot preach.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561825",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Preaching"
+            },
+            "q": "What did Śrīla Bhaktisiddhānta tell preachers whose meeting nobody attended?"
+           }
+          },
+          {
+           "id": "pbio14-krsna-desires",
+           "topic": "“If Kṛṣṇa desires”",
+           "note": "Asked about the future, he never promised; he said it may happen if Kṛṣṇa wishes, though he had once been an expert astrologer.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561821",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Faith"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-bose",
+         "topic": "Subhas Chandra Bose’s complaint",
+         "note": "Bose, Abhay’s old schoolmate, complained the maṭha took young men away from nationalism. His guru joked that these thin men were too weak for politics; better let them eat and chant.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561816",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Leaders"
+          },
+          "q": "How did Śrīla Bhaktisiddhānta answer Subhas Chandra Bose?"
+         }
+        },
+        {
+         "id": "pbio14-judges",
+         "topic": "Success: judges wearing tilaka",
+         "note": "He said the mission would be succeeding when high court judges were Kṛṣṇa devotees with tilaka on their foreheads.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561817",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "pbio14-jesus",
+         "topic": "Jesus, an empowered incarnation",
+         "note": "He called Jesus Christ a śaktyāveśa-avatāra, empowered by God, because he gave up everything for God.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561818",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "pbio14-strict",
+         "topic": "Strict with himself, warm on family life",
+         "note": "A lifelong brahmacārī, he would not meet any woman alone. He wept when a sannyāsī disciple was dragged home, yet spoke well of raising Kṛṣṇa conscious children.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561822",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Family"
+          }
+         }
+        },
+        {
+         "id": "pbio14-cities",
+         "topic": "Preach in the cities, not in seclusion",
+         "note": "He disliked “ease-loving” disciples and solitary bhajana that hides worldly thoughts; his song “Duṣṭa mana” mocks it. So he opened centres only in populated places, and loved even small book sales.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561826",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Preaching"
+          },
+          "q": "Why did Śrīla Bhaktisiddhānta open Gaudiya Math centres only in populated places?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio14-business",
+       "topic": "📉 Business falls, then Bombay",
+       "note": "His plan to get rich first and serve later does not work.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561830",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Wealth"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-rich-first",
+         "topic": "“First let me become rich”",
+         "note": "Śrīla Prabhupāda later admitted that when ordered to preach he thought he would first make money, rather than beg door to door like his sannyāsī Godbrothers.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561831",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Wealth"
+          },
+          "q": "What did Abhay plan to do before taking up his guru’s order fully?"
+         }
+        },
+        {
+         "id": "pbio14-debt",
+         "topic": "Unpaid accounts and a 10,000-rupee debt",
+         "note": "He turned down an offer from Bengal Chemical (later regretted). Chemists he had given credit failed to pay, his debt to Bose’s Laboratory reached 10,000 rupees, and a rival manager hinted he was disloyal.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561833",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Wealth"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio14-honest",
+           "topic": "Dr Ghosh: an honest man",
+           "note": "Investigating, Dr Kartick Bose heard from Dr Ghosh that Abhay was honest and had simply trusted his customers. Bose took over Prayag Pharmacy and the accounts, so Abhay was free of debt but out of work.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561834",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Stories"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-come-math",
+         "topic": "“Now you are free, come to the maṭha”",
+         "note": "Atulānanda and the brahmacārīs urged him to give up the world and preach full time. With a wife and now three children, Abhay could not take that seriously.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561835",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Family"
+          }
+         }
+        },
+        {
+         "id": "pbio14-bombay",
+         "topic": "A factory in Bombay",
+         "note": "Leaving the family in Allahabad and a small unit there with his nephew Tulasi, he and his brother went to Bombay. He rented on Grant Road, started a factory and also became sales agent for Smith Institute.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561838",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Wealth"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-pl-bombay"
+          }
+         }
+        },
+        {
+         "id": "pbio14-smith",
+         "topic": "Lost the Smith agency by intrigue",
+         "note": "His supervisor and the supervisor’s son claimed he pushed his own goods, and the son took his place. Spiritual efforts kept succeeding while business kept failing.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561873",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Wealth"
+          }
+         }
+        },
+        {
+         "id": "pbio14-wife",
+         "topic": "Opposition at home",
+         "note": "Radharani was upset by the losses, uninterested in his spiritual successes and refused initiation. When he spoke on the Gītā at home she stayed in another room with the children, drinking tea.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561876",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Family"
+          },
+          "q": "Who did the chapter call Abhay’s strongest competitor, and why?"
+         }
+        },
+        {
+         "id": "pbio14-sb10888",
+         "topic": "A startling verse: SB 10.88.8",
+         "note": "He read that Kṛṣṇa, when especially merciful, slowly takes away a devotee’s wealth and the relatives then turn away. He wondered if this explained his failures; Śrīdhara Mahārāja said it might.",
+         "hyperLink": "https://vedabase.io/en/library/sb/10/88/8/",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Mercy"
+          },
+          "q": "Which Bhāgavatam verse made Abhay wonder whether Kṛṣṇa was taking away his wealth?"
+         }
+        },
+        {
+         "id": "pbio14-bg241",
+         "topic": "BG 2.41: the guru’s order as life and soul",
+         "note": "In Viśvanātha Cakravartī’s comment on this verse he read that a disciple should take the guru’s order as his very life, and his resolve grew stronger.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/41/",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Guru"
+          },
+          "q": "Which commentary taught Abhay to take his guru’s order as his life and soul?",
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-t-guru-order"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio14-bombay-math",
+       "topic": "🛕 Building the Bombay centre",
+       "note": "A householder helping two sannyāsī Godbrothers.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561839",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Devotees"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-godbros",
+         "topic": "Meeting Śrīdhara Mahārāja and Gosvāmī Mahārāja",
+         "note": "In Bombay he met Bhaktirakṣaka Śrīdhara Mahārāja and Bhaktisāraṅga Gosvāmī, senior sannyāsīs going door to door for a Bombay branch. Both sides saw the chance meeting as auspicious.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561839",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "pbio14-team",
+         "topic": "A team: 500 rupees in two days",
+         "note": "Abhay introduced them to his doctor and chemist friends: Śrīdhara Mahārāja spoke, Abhay introduced, Gosvāmī Mahārāja asked. They raised 500 rupees in two days and Gosvāmī Mahārāja asked why he did not live with them.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561841",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Preaching"
+          },
+          "q": "How did Abhay help the sannyāsīs raise funds in Bombay?"
+         }
+        },
+        {
+         "id": "pbio14-gawlia",
+         "topic": "A house on Gawlia Tank Road",
+         "note": "He found and rented a two-storey building on Gawlia Tank Road, arranged repairs and moved the sannyāsīs in from Proctor Road.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561874",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "pbio14-he-will-do",
+         "topic": "July 1935: “He will do everything himself”",
+         "note": "When his guru came to install the Deity, Bhaktisāraṅga said Abhay should be centre president. His guru replied it was better he lived outside; when the time came he would do everything himself.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561883",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Purpose"
+          },
+          "q": "What did Śrīla Bhaktisiddhānta say in 1935 when it was suggested Abhay run the Bombay centre?"
+         },
+         "children": [
+          {
+           "id": "pbio14-he-will-do-why",
+           "topic": "Why it matters",
+           "note": "Decades later he did build a worldwide mission on his own, as later chapters tell. (Our link, not in this chapter.)",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561884",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Purpose"
+            },
+            "goto": {
+             "map": "pbio-ix-sections",
+             "node": "pbio-ix-sections-s-s3"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio14-kavi",
+       "topic": "✍️ February 1935: the poet (kavi)",
+       "note": "His first publication, for his guru’s 62nd birthday.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561843",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Guru"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-poem",
+         "topic": "A Vyāsa-pūjā poem in English",
+         "note": "For the birthday on 25 February 1935, celebrated at the small Bombay centre, Abhay wrote an English poem of praise to his guru, signed Abhay Charan das.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561843",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Guru"
+          },
+          "q": "What did Abhay write for his guru’s birthday in February 1935?",
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-e-1935-print-books"
+          }
+         }
+        },
+        {
+         "id": "pbio14-couplet",
+         "topic": "The couplet his guru loved",
+         "note": "One stanza, on his guru proving the Absolute is a person and removing the “impersonal calamity”, so pleased Śrīla Bhaktisiddhānta that he showed it to his guests.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561870",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Knowledge"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio14-couplet-why",
+           "topic": "Why it pleased him",
+           "note": "It caught the heart of his preaching against impersonalism; a Godbrother likened it to Rūpa Gosvāmī voicing Lord Caitanya’s inner mood.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561870",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Guru"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-speech",
+         "topic": "The speech: one guru for all",
+         "note": "He also read an address: the guru is not sectarian; there is one guru appearing in many forms, and his guru is the jagat-guru, though some follow him fully and some do not.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561856",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Guru"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio14-parampara",
+           "topic": "Knowledge comes down a line",
+           "note": "He traced the line from Kṛṣṇa to Brahmā, Nārada, Vyāsa and Madhva, and said that with imperfect senses we can know the absolute only by surrendering to Vyāsa’s representative.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561857",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Knowledge"
+            }
+           }
+          },
+          {
+           "id": "pbio14-bombs",
+           "topic": "Bombs from planes are not progress",
+           "note": "Modern weapons, he argued, are no advance on stones dropped from hills; India’s real gift is the knowledge that we are eternal spiritual servants of God.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561861",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Science"
+            }
+           }
+          },
+          {
+           "id": "pbio14-prayer",
+           "topic": "A humble closing prayer",
+           "note": "He ended by praying to accept whatever suffering was due, but always to remember he is a tiny servant of God, by his guru’s mercy.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561866",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Surrender"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-publish",
+         "topic": "“Whatever he writes, publish it”",
+         "note": "Both appeared in The Harmonist. Its editor Bhaktipradīpa Tīrtha dubbed him kavi, and his guru told the editor to print anything Abhay wrote.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561871",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Preaching"
+          },
+          "q": "What instruction did Śrīla Bhaktisiddhānta give The Harmonist’s editor about Abhay?",
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-t-writing"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio14-radhakunda",
+       "topic": "🌊 Rādhā-kuṇḍa, November 1935: “print books”",
+       "note": "A private walk by the sacred lake.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561886",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Vraja"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-setting",
+         "topic": "A month at Rādhā-kuṇḍa",
+         "note": "His guru spent Kārttika at Rādhā-kuṇḍa, in the house Bhaktivinoda Ṭhākura had built, after radio talks, sending preachers back from Europe and finishing his Bhāgavatam commentary. Abhay came from Bombay with his son.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561887",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Vraja"
+          }
+         }
+        },
+        {
+         "id": "pbio14-place",
+         "topic": "Why Rādhā-kuṇḍa is special",
+         "note": "The lake of Rādhā and Kṛṣṇa’s pastimes, found again by Lord Caitanya, where Raghunātha dāsa Gosvāmī lived and Kṛṣṇadāsa Kavirāja wrote the Caitanya-caritāmṛta.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561889",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Vraja"
+          }
+         }
+        },
+        {
+         "id": "pbio14-jacket",
+         "topic": "A small jacket for his son",
+         "note": "Now a known disciple, “the kavi”, Abhay met him alone; his guru remembered the boy and gave him a little jacket (bandhī).",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561890",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "pbio14-fire-warning",
+         "topic": "“There will be fire”",
+         "note": "Walking by the lake, he told Abhay that disciples in Calcutta were quarrelling over rooms at the headquarters, and warned that fire would one day break out and spread through the Gaudiya Math.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561892",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Leaders"
+          },
+          "q": "What warning did Śrīla Bhaktisiddhānta give Abhay at Rādhā-kuṇḍa in 1935?"
+         },
+         "children": [
+          {
+           "id": "pbio14-marble",
+           "topic": "Better to sell the marble",
+           "note": "They were happier in rented rooms, he said; since the marble palace came there was friction. It would be better to strip the marble, raise money and print books.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561894",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Wealth"
+            }
+           }
+          },
+          {
+           "id": "pbio14-fire-why",
+           "topic": "Why it mattered",
+           "note": "Quarrels over buildings showed that disciples had missed his teaching; envy and love of position would break his mission apart. (Our summary.)",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561892",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Attachment"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio14-books",
+         "topic": "“If you ever get money, print books”",
+         "note": "Then he told Abhay directly of his wish to print books, and asked him to print books if he ever had money. The words went deep into Abhay’s life.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561896",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Purpose"
+          },
+          "q": "What did Śrīla Bhaktisiddhānta ask Abhay to do “if you ever get money”?",
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-e-1935-print-books"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio14-books-why",
+           "topic": "Why it matters",
+           "note": "Printing and spreading books later became the centre of his own mission. (Our link to later chapters; see the course theme on writing.)",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561896",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.4",
+             "tag": "Purpose"
+            },
+            "goto": {
+             "map": "pbio-ix-topics",
+             "node": "pbio-ix-topics-t-writing"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio14-letter",
+       "topic": "✉️ December 1936: the last letter",
+       "note": "A householder asks how he can serve.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561898",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Guru"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-ask",
+         "topic": "His letter: what service can I do?",
+         "note": "With his guru ill in Purī, Abhay wrote that others served him directly as brahmacārīs and sannyāsīs, while he could only give money; was there some particular service for him?",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561900",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Surrender"
+          },
+          "q": "What did Abhay ask his spiritual master in his letter of December 1936?"
+         }
+        },
+        {
+         "id": "pbio14-reply",
+         "topic": "The reply: preach in English",
+         "note": "Two weeks later the answer came: explain our thoughts and arguments in English to those who do not know the other members’ languages; it will benefit you and your listeners. The chapter opens with this letter.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561902",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Preaching"
+          },
+          "q": "What service did Śrīla Bhaktisiddhānta give Abhay in his reply?",
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-e-1936-letter"
+          }
+         }
+        },
+        {
+         "id": "pbio14-same",
+         "topic": "The same order as in 1922",
+         "note": "Abhay saw it was the same instruction as at their first meeting in Calcutta: neither the meeting nor the order had been chance. His life’s purpose was now settled.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561905",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Purpose"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-t-guru-order"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio14-passing",
+       "topic": "🕯️ 1 January 1937: his guru departs",
+       "note": "The end of the chapter and of an era.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561907",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.4",
+         "tag": "Guru"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio14-last-days",
+         "topic": "Last days: chanting, reading, no injection",
+         "note": "To the end he read the Caitanya-caritāmṛta and chanted on his beads. To a doctor wanting to inject him he said not to disturb him, just chant Hare Kṛṣṇa.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561907",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Chanting"
+          }
+         }
+        },
+        {
+         "id": "pbio14-instructions",
+         "topic": "Final instructions",
+         "note": "Preach Rūpa and Raghunātha’s teachings with all energy, work together without quarrel, never give up chanting, be tolerant like a tree and humble like straw.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561908",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Devotees"
+          },
+          "q": "Name two of Śrīla Bhaktisiddhānta’s final instructions to his disciples."
+         }
+        },
+        {
+         "id": "pbio14-gbc",
+         "topic": "A twelve-man governing body",
+         "note": "He openly ordered that the Gaudiya Math be run by a governing body of twelve chosen by the devotees. He left this world at 5:30 am on 1 January 1937.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561909",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Leaders"
+          },
+          "q": "How did Śrīla Bhaktisiddhānta want the Gaudiya Math to be run after him?"
+         }
+        },
+        {
+         "id": "pbio14-grief",
+         "topic": "Abhay’s grief, and the letter",
+         "note": "In Bombay Abhay wept: both his greatest well-wishers, his father and his guru, had now left. But the letter had reached him just two weeks before his guru left, and by following it he would stay linked to his guru and to Kṛṣṇa.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/4/#bb1561910",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.4",
+           "tag": "Attachment"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-p-bhaktisiddhanta"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio14-takeaway",
+       "topic": "🎯 Take-away: why this chapter matters",
+       "note": "What a newcomer should carry forward from Chapter 4.",
+       "manas": {},
+       "children": [
+        {
+         "id": "pbio14-ta-hear",
+         "topic": "Hearing opens the door",
+         "note": "He was accepted because he listened patiently; hearing comes before speaking.",
+         "manas": {}
+        },
+        {
+         "id": "pbio14-ta-serve",
+         "topic": "Ask only how to serve",
+         "note": "His one question to his guru shows the mood of a real disciple.",
+         "manas": {}
+        },
+        {
+         "id": "pbio14-ta-order",
+         "topic": "The order, twice given",
+         "note": "Preach in English (1922, 1936) and print books (1935): the two orders that shaped the rest of his life.",
+         "manas": {}
+        },
+        {
+         "id": "pbio14-ta-loss",
+         "topic": "Losses that pushed him forward",
+         "note": "Business failures and opposition at home turned him towards his guru’s mission (SB 10.88.8).",
+         "manas": {}
+        },
+        {
+         "id": "pbio14-ta-course",
+         "topic": "Course event: Initiated in Allahabad",
+         "note": "The course’s short version of the 1932 initiation.",
          "manas": {
           "goto": {
            "map": "pbio-ix-sections",
            "node": "pbio-ix-sections-e-1932-initiation"
+          }
+         }
+        },
+        {
+         "id": "pbio14-ta-print",
+         "topic": "Course event: “If you ever get money, print books”",
+         "note": "The course’s short version of 1935.",
+         "manas": {
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-e-1935-print-books"
+          }
+         }
+        },
+        {
+         "id": "pbio14-ta-letter",
+         "topic": "Course event: the 1936 letter",
+         "note": "The course’s short version of the last letter.",
+         "manas": {
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-e-1936-letter"
+          }
+         }
+        },
+        {
+         "id": "pbio14-ta-back",
+         "topic": "Back: Chapter 3, meeting his spiritual master",
+         "note": "The in-depth map of the first meeting and the Allahabad years.",
+         "manas": {
+          "goto": {
+           "map": "pbio-spl-1-3-deep",
+           "node": "pbio13-root"
+          }
+         }
+        },
+        {
+         "id": "pbio14-ta-next",
+         "topic": "Next: period 3, preaching alone in India (1936–1959)",
+         "note": "The story continues after his guru’s departure (course period).",
+         "manas": {
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-s-s3"
           }
          }
         }
