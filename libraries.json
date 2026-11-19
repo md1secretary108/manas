@@ -46,16 +46,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "299 maps · 19,986 ideas · 14.4 MB · 15 series + index",
-   "parts": 16,
+   "meta": "318 maps · 21,172 ideas · 15.3 MB · 16 series + index",
+   "parts": 17,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1794997226,
-   "whatsNew": "New series: Teachings of Lord Rsabhadeva — 25 classes (SB 5.5, Rsabhadeva's instructions to his sons, Vrindavan, Jun–Aug 2024), each a map",
+   "v": 1795063973,
+   "whatsNew": "New series: Bhramara-gita (The Song of the Bee) — 18 classes (SB 10.47: Uddhava in Vrindavan, Radharani speaks to the bee, the gopis' reply; Vrindavan, Aug 2023), each a map",
    "split": "lib-bdds-index.json",
    "short": "Maharaj"
   },
