@@ -1014,7 +1014,12 @@
         }
        ],
        "note": "The anatomical position, body planes, relational terms and joint movements used to describe every structure precisely.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hha100-anatomical-terminology-movements",
+        "part": "y1",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhha100-1",
@@ -3604,7 +3609,12 @@
         }
        ],
        "note": "How the body keeps its internal environment stable and how water and solutes are distributed between compartments.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hmp100-homeostasis-body-fluids",
+        "part": "y1",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhmp100-1",
@@ -5086,7 +5096,12 @@
         }
        ],
        "note": "Renal blood flow, glomerular filtration and the clearance concept used to assess kidney function.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hmp200-glomerular-filtration-clearance",
+        "part": "y2",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhmp200-1",
@@ -6592,7 +6607,12 @@
         }
        ],
        "note": "Properties of water, body fluid compartments and the buffer systems that keep blood pH within narrow limits.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hbc100-water-ph-buffers",
+        "part": "y1",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhbc100-1",
@@ -53215,7 +53235,7 @@
    "layout": "side",
    "lines": "curved",
    "created": 1792138280636,
-   "updated": 1792138280636,
+   "updated": 1795167028054,
    "library": "mbchb",
    "deepOf": "med-hch500",
    "data": {
@@ -53760,9 +53780,9 @@
       {
        "id": "mdhch500hs-72",
        "topic": "🆕 Latest research",
-       "note": "Recent papers on resilience, UHC and primary care coordination.",
+       "note": "Recent papers on resilience, UHC and primary care coordination; updated 2026-11-20.",
        "manas": {
-        "checked": "2026-10-16"
+        "checked": "2026-11-20"
        },
        "children": [
         {
@@ -53794,6 +53814,39 @@
           "q": "At which three levels did a 2023 scoping review analyse PHC care coordination?"
          },
          "hyperLink": "https://doi.org/10.1186/s12913-023-09718-8"
+        },
+        {
+         "id": "mdhch500hs-r26-1",
+         "topic": "Resilience levers for UHC",
+         "note": "A 2024 review of 57 studies found redistributing health workers, task-shifting and results-based financing helped build resilient systems; infrastructure and staff alone were not enough.",
+         "manas": {
+          "q": "What helped build resilient health systems in a 2024 review of 57 studies?",
+          "ref": "Glob Health Res Policy 2024"
+         },
+         "hyperLink": "https://doi.org/10.1186/s41256-023-00340-z",
+         "children": []
+        },
+        {
+         "id": "mdhch500hs-r26-2",
+         "topic": "What makes a system resilient",
+         "note": "A 2024 concept analysis named resources and funds, adaptive and transformative capacity, learning and advocacy, and progressive leadership as attributes; decentralisation and staff motivation were antecedents.",
+         "manas": {
+          "q": "Name two attributes of health system resilience from a 2024 concept analysis.",
+          "ref": "Health Res Policy Syst 2024"
+         },
+         "hyperLink": "https://doi.org/10.1186/s12961-024-01114-w",
+         "children": []
+        },
+        {
+         "id": "mdhch500hs-r26-3",
+         "topic": "Kenya diabetes care by building block",
+         "note": "A 2026 narrative review of 28 Kenyan studies found uneven policy implementation, staff shortages, supply disruptions, weak financing and weak information systems reinforce each other.",
+         "manas": {
+          "q": "Which building-block problems weaken diabetes care in Kenya, per a 2026 review?",
+          "ref": "J Hum Nutr Diet 2026"
+         },
+         "hyperLink": "https://doi.org/10.1111/jhn.70241",
+         "children": []
         }
        ]
       },
@@ -53852,7 +53905,7 @@
    "layout": "side",
    "lines": "curved",
    "created": 1792138280640,
-   "updated": 1792138280640,
+   "updated": 1795167028081,
    "library": "mbchb",
    "deepOf": "med-hdr600",
    "data": {
@@ -54371,9 +54424,9 @@
       {
        "id": "mdhdr600ct-new",
        "topic": "🆕 Latest research",
-       "note": "Papers read on 2026-10-16.",
+       "note": "Papers read on 2026-10-16; updated 2026-11-20.",
        "manas": {
-        "checked": "2026-10-16"
+        "checked": "2026-11-20"
        },
        "children": [
         {
@@ -54407,6 +54460,28 @@
           "q": "How has AI-assisted chest X-ray helped TB case finding in LMICs?"
          },
          "hyperLink": "https://doi.org/10.1093/bjro/tzag007",
+         "children": []
+        },
+        {
+         "id": "mdhdr600ct-new26-1",
+         "topic": "CAD for TB in diabetes",
+         "note": "A 2025 review of 5 Asian studies found computer-aided CXR reading detected TB in people with diabetes with pooled sensitivity 0.94 and specificity 0.77; results varied and data are scarce.",
+         "manas": {
+          "q": "How accurate was CAD chest X-ray reading for TB in people with diabetes (2025 review)?",
+          "ref": "Trop Med Int Health 2025"
+         },
+         "hyperLink": "https://doi.org/10.1111/tmi.14103",
+         "children": []
+        },
+        {
+         "id": "mdhdr600ct-new26-2",
+         "topic": "Handheld X-ray plus AI",
+         "note": "A 2026 narrative review from India of ultra-portable, battery-run CXR units with AI reading found high reported sensitivity for TB screening, but specificity and independent validation vary.",
+         "manas": {
+          "q": "What did a 2026 review conclude about ultra-portable CXR with AI for TB screening?",
+          "ref": "Indian J Tuberc 2026"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.ijtb.2026.07.006",
          "children": []
         }
        ]
@@ -78522,6 +78597,2507 @@
          "note": "Spores survive boiling and alcohol; autoclaving reliably kills them.",
          "manas": {
           "q": "What reliably kills bacterial spores?"
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y2"
+  },
+  {
+   "id": "med-hbc100-water-ph-buffers",
+   "title": "HBC 100 · In depth: Water, pH and buffers",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795167028031,
+   "updated": 1795167028031,
+   "library": "mbchb",
+   "deepOf": "med-hbc100",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhbc100wpb-root",
+     "topic": "Water, pH and buffers in depth",
+     "note": "Water, pH and pKa, body buffers, lung and kidney control, and blood gas basics. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhbc100wpb-water",
+       "topic": "Properties of water",
+       "note": "Why water suits life, beyond being a good solvent.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/2-4-inorganic-compounds-essential-to-human-functioning",
+       "children": [
+        {
+         "id": "mdhbc100wpb-polarity",
+         "topic": "Polarity and hydrogen bonds",
+         "note": "Oxygen pulls electrons from the two hydrogens, giving a bent, polar molecule; each water molecule can hydrogen bond with neighbours.",
+         "manas": {
+          "q": "Why is the water molecule polar?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-heat-of-vaporisation",
+         "topic": "High heat of vaporisation",
+         "note": "Evaporating water takes a lot of heat, so sweating is an effective way to lose body heat.",
+         "manas": {
+          "q": "Which property of water makes sweating an effective cooling method?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-hydration-shells",
+         "topic": "Hydration shells",
+         "note": "Water molecules surround dissolved ions and polar groups, orienting their partial charges toward them and keeping them in solution.",
+         "manas": {
+          "q": "How does water keep ions in solution?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-hydrophobic-effect",
+         "topic": "Hydrophobic effect",
+         "note": "Non-polar groups cluster together away from water; this drives lipid bilayer and micelle formation and helps proteins fold.",
+         "manas": {
+          "q": "What drives formation of lipid bilayers in water?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-self-ionisation",
+         "topic": "Self-ionisation and Kw",
+         "note": "Water dissociates slightly into H+ and OH−; Kw = [H+][OH−] = 10⁻¹⁴ at 25 °C, so neutral pH is 7 at that temperature.",
+         "manas": {
+          "q": "What is the ion product of water at 25 °C?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-ecf-split",
+         "topic": "ECF subdivisions",
+         "note": "Extracellular fluid is mostly interstitial fluid (about three quarters), with plasma making up about one quarter.",
+         "manas": {
+          "q": "How is extracellular fluid divided between plasma and interstitial fluid?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc100wpb-acids-bases",
+       "topic": "pH, acids and pKa",
+       "note": "The language of acid–base chemistry.",
+       "children": [
+        {
+         "id": "mdhbc100wpb-bronsted",
+         "topic": "Brønsted definitions",
+         "note": "An acid donates H+; a base accepts H+. Each acid has a conjugate base formed when it loses H+.",
+         "manas": {
+          "q": "How does the Brønsted–Lowry theory define acids and bases?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-ph-definition",
+         "topic": "Definition of pH",
+         "note": "pH = −log10[H+]. Because the scale is logarithmic, a fall of 1 pH unit means a tenfold rise in [H+].",
+         "manas": {
+          "q": "By how much does [H+] change when pH falls by one unit?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-strong-weak",
+         "topic": "Strong vs weak acids",
+         "note": "Strong acids dissociate almost completely in water; weak acids only partly, setting up an equilibrium with their conjugate base.",
+         "manas": {
+          "q": "What is the difference between strong and weak acids?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-pka",
+         "topic": "pKa",
+         "note": "pKa = −log Ka; it is the pH at which an acid is half dissociated, so acid and conjugate base are present in equal amounts.",
+         "manas": {
+          "q": "At what pH is a weak acid half dissociated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-acid-load",
+         "topic": "Daily acid load",
+         "note": "Metabolism makes a large amount of volatile acid as CO2 (cleared by lungs) and a smaller fixed acid load, e.g. sulphuric and phosphoric acids (cleared by kidneys).",
+         "manas": {
+          "q": "Which organ clears volatile acid and which clears fixed acid?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc100wpb-buffer-basics",
+       "topic": "How buffers work",
+       "note": "Principles that apply to every buffer.",
+       "children": [
+        {
+         "id": "mdhbc100wpb-buffer-definition",
+         "topic": "Buffer definition",
+         "note": "A mixture of a weak acid and its conjugate base (or weak base and its acid) that limits pH change when acid or alkali is added.",
+         "manas": {
+          "q": "What is a buffer?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-titration-curve",
+         "topic": "Titration curve",
+         "note": "The curve is flattest around the pKa, which is where adding acid or base changes pH least.",
+         "manas": {
+          "q": "Where on a titration curve is buffering most effective?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-buffer-capacity",
+         "topic": "Buffer capacity",
+         "note": "Depends on total buffer concentration and on how close the pKa is to the working pH.",
+         "manas": {
+          "q": "What two factors determine buffer capacity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-buffers-are-temporary",
+         "topic": "Buffers are only a first line",
+         "note": "Buffers bind H+ within seconds but do not remove acid from the body; lungs and kidneys must finally excrete it.",
+         "manas": {
+          "q": "Why can buffers alone not correct an acid load?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc100wpb-bicarbonate",
+       "topic": "Bicarbonate buffer system",
+       "note": "The main extracellular buffer in detail.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/26-4-acid-base-balance",
+       "children": [
+        {
+         "id": "mdhbc100wpb-reaction",
+         "topic": "Key reaction",
+         "note": "CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3−; carbonic anhydrase speeds the first step.",
+         "manas": {
+          "q": "Which enzyme speeds the hydration of CO2?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-hh-bicarbonate",
+         "topic": "Henderson–Hasselbalch for blood",
+         "note": "pH = 6.1 + log([HCO3−] ÷ (0.03 × PCO2 in mmHg)); 0.03 converts PCO2 into dissolved CO2.",
+         "manas": {
+          "q": "Write the Henderson–Hasselbalch equation for the bicarbonate buffer."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-twenty-to-one",
+         "topic": "The 20:1 ratio",
+         "note": "Normal HCO3− 24 mmol/L and dissolved CO2 1.2 mmol/L give a 20:1 ratio; log 20 ≈ 1.3, and 6.1 + 1.3 = 7.4.",
+         "manas": {
+          "q": "What ratio of bicarbonate to dissolved CO2 gives a pH of 7.4?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-open-system",
+         "topic": "Why low pKa still works",
+         "note": "Its pKa of 6.1 is far from 7.4, but CO2 is removed by the lungs and HCO3− is set by the kidneys, so the system stays powerful.",
+         "manas": {
+          "q": "Why is the bicarbonate buffer effective despite its pKa of 6.1?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc100wpb-other-buffers",
+       "topic": "Phosphate, protein and haemoglobin",
+       "note": "Buffers that matter inside cells and in urine.",
+       "children": [
+        {
+         "id": "mdhbc100wpb-phosphate",
+         "topic": "Phosphate buffer",
+         "note": "H2PO4− ⇌ H+ + HPO4²−, pKa about 6.8; important inside cells and in urine, where it carries titratable acid.",
+         "manas": {
+          "q": "What is the approximate pKa of the phosphate buffer?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-proteins",
+         "topic": "Protein buffers",
+         "note": "Histidine imidazole side chains have a pKa near physiological pH; amino and carboxyl groups also contribute.",
+         "manas": {
+          "q": "Which amino acid side chain makes proteins good buffers at body pH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-haemoglobin",
+         "topic": "Haemoglobin buffer",
+         "note": "Abundant in red cells and rich in histidine; it buffers H+ formed when CO2 enters red cells.",
+         "manas": {
+          "q": "Why is haemoglobin an important blood buffer?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-deoxy-hb",
+         "topic": "Deoxyhaemoglobin binds more H+",
+         "note": "Deoxygenated haemoglobin is a better H+ acceptor than oxyhaemoglobin, so it buffers more acid in the tissues where CO2 is added.",
+         "manas": {
+          "q": "Which form of haemoglobin is the better buffer, oxy or deoxy?"
+         },
+         "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-5-transport-of-gases",
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-chloride-shift",
+         "topic": "Chloride shift",
+         "note": "HCO3− made in red cells moves out to plasma in exchange for Cl−, carrying much of the CO2 to the lungs as plasma bicarbonate.",
+         "manas": {
+          "q": "What is the chloride shift?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-ammonia",
+         "topic": "Ammonia/ammonium",
+         "note": "Tubule cells make NH4+ from glutamine; in the collecting duct NH3 picks up secreted H+ and is trapped as NH4+. Each NH4+ excreted adds a new HCO3− to blood.",
+         "manas": {
+          "q": "How does ammonia help the kidney excrete acid?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc100wpb-compensation",
+       "topic": "Respiratory and renal control",
+       "note": "The organs that finally set pH.",
+       "children": [
+        {
+         "id": "mdhbc100wpb-respiratory",
+         "topic": "Respiratory control",
+         "note": "Chemoreceptors sense rising PCO2 and H+ and increase ventilation, blowing off CO2; this acts within minutes.",
+         "manas": {
+          "q": "How quickly does respiratory compensation act?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-central-chemo",
+         "topic": "Central chemoreceptors",
+         "note": "In the medulla; CO2 crosses into CSF and lowers its pH, which drives breathing.",
+         "manas": {
+          "q": "How do central chemoreceptors detect a rise in arterial CO2?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-renal-reclaim",
+         "topic": "Renal reclamation of HCO3−",
+         "note": "Most filtered HCO3− is reclaimed in the proximal tubule via H+ secretion and carbonic anhydrase.",
+         "manas": {
+          "q": "Where is most filtered bicarbonate reabsorbed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-renal-new-hco3",
+         "topic": "Making new bicarbonate",
+         "note": "For each H+ excreted as titratable acid or as NH4+, the kidney adds a new HCO3− to blood; this takes hours to days.",
+         "manas": {
+          "q": "How does the kidney generate new bicarbonate?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-intercalated",
+         "topic": "Type A intercalated cells",
+         "note": "In the collecting duct, they secrete H+ into urine via an H+-ATPase and return HCO3− to blood.",
+         "manas": {
+          "q": "Which collecting duct cells secrete H+?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc100wpb-abg",
+       "topic": "ABG interpretation basics",
+       "note": "A stepwise way to read an arterial blood gas.",
+       "children": [
+        {
+         "id": "mdhbc100wpb-normal-values",
+         "topic": "Normal values",
+         "note": "pH 7.35–7.45; PaCO2 4.7–6.0 kPa (35–45 mmHg); HCO3− about 22–26 mmol/L; base excess about −2 to +2.",
+         "manas": {
+          "q": "What is the normal range of arterial PaCO2?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-step-1",
+         "topic": "Step 1: acidaemia or alkalaemia",
+         "note": "Look at the pH first: below 7.35 is acidaemia, above 7.45 alkalaemia.",
+         "manas": {
+          "q": "What is the first step in reading an ABG?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-step-2",
+         "topic": "Step 2: find the primary cause",
+         "note": "If PCO2 moves in the direction that explains the pH, it is respiratory; if HCO3− does, it is metabolic.",
+         "manas": {
+          "q": "How do you decide if an acid–base disorder is respiratory or metabolic?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-step-3",
+         "topic": "Step 3: check compensation",
+         "note": "No. The other value moves the same way to limit the pH change, but compensation never takes pH past normal (no overcorrection).",
+         "manas": {
+          "q": "Does compensation ever return pH past normal?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-anion-gap",
+         "topic": "Anion gap",
+         "note": "Na+ − (Cl− + HCO3−); in metabolic acidosis it separates added acids (high gap) from bicarbonate loss (normal gap). Normal range is lab-dependent.",
+         "manas": {
+          "q": "How is the anion gap calculated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-winters",
+         "topic": "Winter's formula",
+         "note": "In metabolic acidosis, expected PaCO2 (mmHg) = 1.5 × HCO3− + 8 ± 2; a value outside this suggests a second disorder.",
+         "manas": {
+          "q": "What is Winter's formula used for?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc100wpb-disorders",
+       "topic": "Acid–base disorders overview",
+       "note": "The four primary disorders and common causes.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/26-4-acid-base-balance",
+       "children": [
+        {
+         "id": "mdhbc100wpb-met-acidosis-high-ag",
+         "topic": "High anion gap acidosis",
+         "note": "Low HCO3− from added acid: diabetic ketoacidosis, lactic acidosis, kidney failure, toxic alcohols, salicylate poisoning.",
+         "manas": {
+          "q": "Give causes of high anion gap metabolic acidosis."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-met-acidosis-normal-ag",
+         "topic": "Normal anion gap acidosis",
+         "note": "Bicarbonate loss or poor renal acid excretion, e.g. diarrhoea and renal tubular acidosis; chloride rises.",
+         "manas": {
+          "q": "Give two causes of normal anion gap metabolic acidosis."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-met-alkalosis",
+         "topic": "Metabolic alkalosis",
+         "note": "Raised HCO3−. Vomiting loses gastric HCl, leaving HCO3− behind; volume and chloride loss then make the kidney keep it. Loop and thiazide diuretics also cause it.",
+         "manas": {
+          "q": "Why does prolonged vomiting cause metabolic alkalosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-resp-acidosis",
+         "topic": "Respiratory acidosis",
+         "note": "Raised PCO2 from hypoventilation: COPD, opioid overdose, neuromuscular weakness, chest wall disease.",
+         "manas": {
+          "q": "What causes respiratory acidosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-resp-alkalosis",
+         "topic": "Respiratory alkalosis",
+         "note": "Low PCO2 from hyperventilation: anxiety, pulmonary embolism, high altitude, early salicylate poisoning.",
+         "manas": {
+          "q": "Give causes of respiratory alkalosis."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc100wpb-clinical",
+       "topic": "Clinical relevance",
+       "note": "Bedside effects of pH changes.",
+       "children": [
+        {
+         "id": "mdhbc100wpb-kussmaul",
+         "topic": "Kussmaul breathing",
+         "note": "Deep, rapid breathing in severe metabolic acidosis such as DKA; it lowers PCO2 to compensate.",
+         "manas": {
+          "q": "What is Kussmaul breathing and why does it occur?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-potassium",
+         "topic": "Acidosis and potassium",
+         "note": "In acidosis, H+ enters cells in exchange for K+, which can raise plasma potassium.",
+         "manas": {
+          "q": "Why can acidosis cause hyperkalaemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-calcium",
+         "topic": "Alkalosis and calcium",
+         "note": "Alkalosis makes albumin bind more calcium, lowering ionised calcium and causing tingling and tetany (e.g. in hyperventilation).",
+         "manas": {
+          "q": "Why can hyperventilation cause tingling and tetany?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhbc100wpb-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-20.",
+       "children": [
+        {
+         "id": "mdhbc100wpb-stewart-vs-physiological",
+         "topic": "Three ways to assess acid–base",
+         "note": "A 2022 review compares the traditional bicarbonate-based approach, the base excess approach and Stewart's model, where strong ion difference, weak acids and PCO2 set [H+].",
+         "manas": {
+          "q": "Which three variables set [H+] in the Stewart approach?",
+          "ref": "Adv Chronic Kidney Dis 2022"
+         },
+         "hyperLink": "https://doi.org/10.1053/j.ackd.2022.04.008",
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-primer",
+         "topic": "Acid–base primer",
+         "note": "A 2022 primer stresses that acid–base physiology matters for nutrition support and drug therapy, and gives a stepwise approach to reading arterial blood gases.",
+         "manas": {
+          "q": "Why does a 2022 primer say clinicians in nutrition support need acid–base knowledge?",
+          "ref": "Nutr Clin Pract 2022"
+         },
+         "hyperLink": "https://doi.org/10.1002/ncp.10881",
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-carbonate-transport",
+         "topic": "Carbonate, not only bicarbonate",
+         "note": "A 2023 review notes data suggesting carbonate, rather than bicarbonate, crosses the proximal tubule basolateral membrane, while the collecting duct moves bicarbonate.",
+         "manas": {
+          "q": "Which base species may cross the proximal tubule basolateral membrane, per a 2023 review?",
+          "ref": "J Am Soc Nephrol 2023"
+         },
+         "hyperLink": "https://doi.org/10.1681/asn.0000000000000008",
+         "children": []
+        }
+       ],
+       "manas": {
+        "checked": "2026-11-20"
+       }
+      },
+      {
+       "id": "mdhbc100wpb-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins.",
+       "children": [
+        {
+         "id": "mdhbc100wpb-pearl-log",
+         "topic": "Log scale trap",
+         "note": "pH 7.1 vs 7.4 is roughly double the [H+], not a small change.",
+         "manas": {
+          "q": "Roughly how much higher is [H+] at pH 7.1 than at 7.4?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-pearl-pka",
+         "topic": "Best buffer pKa",
+         "note": "Pick the buffer whose pKa is closest to the pH you need to hold.",
+         "manas": {
+          "q": "How do you choose the best buffer for a given pH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-pearl-direction",
+         "topic": "Same-direction rule",
+         "note": "In simple disorders PCO2 and HCO3− move in the same direction; opposite directions suggest a mixed disorder.",
+         "manas": {
+          "q": "What does it suggest if PCO2 and HCO3− move in opposite directions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhbc100wpb-pearl-speed",
+         "topic": "Speed of each defence",
+         "note": "Buffers: seconds. Lungs: minutes. Kidneys: hours to days, but most complete.",
+         "manas": {
+          "q": "Order buffers, lungs and kidneys by speed of response."
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y1"
+  },
+  {
+   "id": "med-hha100-anatomical-terminology-movements",
+   "title": "HHA 100 · In depth: Anatomical terminology and movements",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795167028088,
+   "updated": 1795167028088,
+   "library": "mbchb",
+   "deepOf": "med-hha100",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhha100atm-root",
+     "topic": "Anatomical terminology and movements in depth",
+     "note": "Position, planes, directional terms, regions, cavities and joint movements. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhha100atm-anatomical-position",
+       "topic": "Anatomical position",
+       "note": "The single agreed reference posture behind every anatomical description.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology",
+       "children": [
+        {
+         "id": "mdhha100atm-why-one-reference-posture",
+         "topic": "Why one reference posture",
+         "note": "Terms are always applied as if the body were in the anatomical position, whether the patient is lying, sitting or standing, so a description never changes with posture.",
+         "manas": {
+          "q": "Why are terms described relative to the anatomical position?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-palms-forward-forearm-supinated",
+         "topic": "Palms forward: forearm supinated",
+         "note": "With palms facing forward the radius and ulna lie side by side, so the thumb points laterally and the little finger medially.",
+         "manas": {
+          "q": "Why is the thumb lateral in the anatomical position?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-supine-and-prone",
+         "topic": "Supine and prone",
+         "note": "Supine means lying on the back, face up; prone means lying face down. Both are still described using anatomical-position terms.",
+         "manas": {
+          "q": "What do supine and prone mean?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-planes-and-sections",
+       "topic": "Planes and sections",
+       "note": "Beyond the three main planes: how body parts and images are cut.",
+       "children": [
+        {
+         "id": "mdhha100atm-median-vs-parasagittal-planes",
+         "topic": "Median vs parasagittal planes",
+         "note": "There is only one median plane, through the midline; parasagittal planes are any sagittal planes parallel to it but off the midline.",
+         "manas": {
+          "q": "How does a parasagittal plane differ from the median plane?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-longitudinal-and-transverse-sections",
+         "topic": "Longitudinal and transverse sections",
+         "note": "A longitudinal section runs along the long axis of a structure; a transverse (cross) section cuts it at right angles to that axis.",
+         "manas": {
+          "q": "What is a transverse section of a limb or organ?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-oblique-sections",
+         "topic": "Oblique sections",
+         "note": "An oblique section is cut at an angle that is not one of the main planes, so structures look stretched or oval.",
+         "manas": {
+          "q": "What is an oblique section?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-reading-axial-scans",
+         "topic": "Reading axial scans",
+         "note": "Axial CT and MRI images are viewed as if looking up from the patient's feet, so the patient's right appears on the viewer's left.",
+         "manas": {
+          "q": "On an axial CT image, which side is the patient's right?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-directional-terms",
+       "topic": "Directional terms",
+       "note": "Paired words that state where one structure lies relative to another.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology",
+       "children": [
+        {
+         "id": "mdhha100atm-superior-inferior-cranial-caudal",
+         "topic": "Superior/inferior, cranial/caudal",
+         "note": "Superior means nearer the head and inferior nearer the feet; cranial and caudal carry the same meaning and suit the trunk and embryo.",
+         "manas": {
+          "q": "What do cranial and caudal mean?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-rostral",
+         "topic": "Rostral",
+         "note": "Rostral means towards the front of the head (the nose end); it is used mainly within the brain instead of cranial.",
+         "manas": {
+          "q": "Where is the term rostral mainly used?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-anterior-posterior-ventral-dorsal",
+         "topic": "Anterior/posterior, ventral/dorsal",
+         "note": "Anterior (ventral) refers to the front of the body and posterior (dorsal) to the back; in humans each pair is used interchangeably on the trunk.",
+         "manas": {
+          "q": "What are the synonyms for anterior and posterior?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-medial-and-lateral",
+         "topic": "Medial and lateral",
+         "note": "Medial means nearer the median plane, lateral farther from it. The thumb is lateral and the little finger medial in the hand.",
+         "manas": {
+          "q": "Is the little finger medial or lateral to the thumb?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-superficial-and-deep",
+         "topic": "Superficial and deep",
+         "note": "Superficial means nearer the body surface; deep means farther from it. The skin is superficial to muscle.",
+         "manas": {
+          "q": "What do superficial and deep describe?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-ipsilateral-and-contralateral",
+         "topic": "Ipsilateral and contralateral",
+         "note": "Ipsilateral means on the same side of the body; contralateral means on the opposite side, e.g. each motor cortex controls contralateral limbs.",
+         "manas": {
+          "q": "What is the difference between ipsilateral and contralateral?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-proximal-distal-along-tubes",
+         "topic": "Proximal/distal along tubes",
+         "note": "Proximal and distal also apply along tubes, vessels and nerves, measured from their origin; the duodenum is proximal small bowel.",
+         "manas": {
+          "q": "How are proximal and distal used for the gut or vessels?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-palmar-plantar-dorsal",
+         "topic": "Palmar, plantar, dorsal",
+         "note": "Palmar (volar) is the palm surface of the hand, plantar the sole of the foot; dorsal is the opposite surface (back of hand, top of foot).",
+         "manas": {
+          "q": "Which surface of the foot is the dorsum?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-body-regions-and-cavities",
+       "topic": "Body regions and cavities",
+       "note": "Large divisions used to locate organs.",
+       "children": [
+        {
+         "id": "mdhha100atm-axial-vs-appendicular",
+         "topic": "Axial vs appendicular",
+         "note": "The axial part is the head, neck and trunk; the appendicular part is the upper and lower limbs.",
+         "manas": {
+          "q": "Which body parts form the axial region?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-dorsal-body-cavity",
+         "topic": "Dorsal body cavity",
+         "note": "The cranial cavity holds the brain and is continuous with the vertebral canal, which holds the spinal cord.",
+         "manas": {
+          "q": "What does the dorsal body cavity contain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-ventral-body-cavity",
+         "topic": "Ventral body cavity",
+         "note": "Made of the thoracic cavity above and the abdominopelvic cavity below, separated by the diaphragm.",
+         "manas": {
+          "q": "What separates the thoracic and abdominopelvic cavities?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-thoracic-subdivisions",
+         "topic": "Thoracic subdivisions",
+         "note": "Two pleural cavities, one around each lung, flank the central mediastinum, which contains the heart within the pericardial cavity.",
+         "manas": {
+          "q": "What are the subdivisions of the thoracic cavity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-serous-membranes",
+         "topic": "Serous membranes",
+         "note": "Parietal layer lines the cavity wall, visceral layer covers the organ, with a thin film of fluid between: pleura, pericardium, peritoneum.",
+         "manas": {
+          "q": "How do parietal and visceral serous layers differ?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-abdominal-quadrants-and-regions",
+       "topic": "Abdominal quadrants and regions",
+       "note": "Two ways of mapping the abdominal surface.",
+       "children": [
+        {
+         "id": "mdhha100atm-four-quadrants",
+         "topic": "Four quadrants",
+         "note": "The median plane and the transumbilical plane divide the abdomen into right and left upper and lower quadrants.",
+         "manas": {
+          "q": "Which two planes create the four abdominal quadrants?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-lines-for-nine-regions",
+         "topic": "Lines for nine regions",
+         "note": "Two vertical midclavicular lines cross two horizontal planes: the subcostal plane above and the transtubercular plane below.",
+         "manas": {
+          "q": "Which lines and planes create the nine abdominal regions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-names-of-nine-regions",
+         "topic": "Names of nine regions",
+         "note": "Top row: right hypochondriac, epigastric, left hypochondriac. Middle: right lumbar (flank), umbilical, left lumbar. Bottom: right inguinal, hypogastric, left inguinal.",
+         "manas": {
+          "q": "Name the nine abdominal regions."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-use-in-abdominal-pain",
+         "topic": "Use in abdominal pain",
+         "note": "Naming the region of pain narrows the likely organs; in appendicitis pain often starts around the umbilicus and moves to the right iliac fossa.",
+         "manas": {
+          "q": "How does pain classically move in appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-patient-s-right-not-yours",
+         "topic": "Patient's right, not yours",
+         "note": "Right and left always refer to the patient's own sides, never the examiner's.",
+         "manas": {
+          "q": "Whose right and left are used in anatomical descriptions?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-movements-at-joints",
+       "topic": "Movements at joints",
+       "note": "Named movements, each tied to a plane and an axis.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+       "children": [
+        {
+         "id": "mdhha100atm-sagittal-and-coronal-movements",
+         "topic": "Sagittal and coronal movements",
+         "note": "Bending and side-to-side movements.",
+         "children": [
+          {
+           "id": "mdhha100atm-hyperextension",
+           "topic": "Hyperextension",
+           "note": "Extension carried beyond the anatomical position, e.g. tilting the head backwards to look at the sky.",
+           "manas": {
+            "q": "What is hyperextension?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhha100atm-lateral-flexion",
+           "topic": "Lateral flexion",
+           "note": "Bending the trunk or neck sideways in the coronal plane.",
+           "manas": {
+            "q": "In which plane does lateral flexion of the trunk occur?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhha100atm-abduction-of-the-arm",
+           "topic": "Abduction of the arm",
+           "note": "Abduction raises the arm sideways away from the trunk in the coronal plane; adduction returns it towards the median plane.",
+           "manas": {
+            "q": "In which plane is the arm abducted?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhha100atm-dorsiflexion-and-plantarflexion",
+           "topic": "Dorsiflexion and plantarflexion",
+           "note": "At the ankle, dorsiflexion lifts the top of the foot towards the shin; plantarflexion points the foot and toes down, as on tiptoe.",
+           "manas": {
+            "q": "What is dorsiflexion of the foot?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhha100atm-rotation-and-circumduction",
+         "topic": "Rotation and circumduction",
+         "note": "Turning about an axis and circling.",
+         "children": [
+          {
+           "id": "mdhha100atm-medial-and-lateral-rotation",
+           "topic": "Medial and lateral rotation",
+           "note": "Rotation turns a bone about its long axis: medial (internal) rotation turns its front towards the midline, lateral (external) away from it.",
+           "manas": {
+            "q": "What is medial rotation of a limb?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhha100atm-circumduction",
+           "topic": "Circumduction",
+           "note": "A sequence of flexion, abduction, extension and adduction so the distal end traces a circle, e.g. at the shoulder or hip.",
+           "manas": {
+            "q": "What is circumduction?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhha100atm-pronation-radius-crosses-ulna",
+           "topic": "Pronation: radius crosses ulna",
+           "note": "In pronation the radius rotates around the fixed ulna and crosses over it; in supination the two bones lie parallel again.",
+           "manas": {
+            "q": "What happens to the radius during pronation?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhha100atm-special-movements",
+         "topic": "Special movements",
+         "note": "Movements with their own names.",
+         "children": [
+          {
+           "id": "mdhha100atm-inversion-and-eversion",
+           "topic": "Inversion and eversion",
+           "note": "Inversion turns the sole to face medially; eversion turns it laterally. They occur mainly at the subtalar and transverse tarsal joints.",
+           "manas": {
+            "q": "At which joints do inversion and eversion mainly occur?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhha100atm-protraction-and-retraction",
+           "topic": "Protraction and retraction",
+           "note": "Moving a part forwards or backwards, e.g. jutting the jaw out or moving the scapula forwards around the chest wall.",
+           "manas": {
+            "q": "Give an example of protraction."
+           },
+           "children": []
+          },
+          {
+           "id": "mdhha100atm-elevation-and-depression",
+           "topic": "Elevation and depression",
+           "note": "Raising or lowering a part, e.g. shrugging the shoulders (scapular elevation) or opening the mouth (mandibular depression).",
+           "manas": {
+            "q": "Give examples of elevation and depression."
+           },
+           "children": []
+          },
+          {
+           "id": "mdhha100atm-opposition-and-reposition",
+           "topic": "Opposition and reposition",
+           "note": "Opposition brings the thumb pad to meet the pad of another digit, mainly at the thumb's carpometacarpal joint; reposition returns it.",
+           "manas": {
+            "q": "What is opposition of the thumb?"
+           },
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-special-cases",
+       "topic": "Special cases",
+       "note": "Where the usual rules need care.",
+       "children": [
+        {
+         "id": "mdhha100atm-thumb-planes-rotated-90",
+         "topic": "Thumb planes rotated 90°",
+         "note": "The thumb lies at right angles to the fingers: its flexion and extension occur in the coronal plane, abduction and adduction in the sagittal plane.",
+         "manas": {
+          "q": "In which plane does thumb flexion occur?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-knee-flexes-backwards",
+         "topic": "Knee flexes backwards",
+         "note": "Knee flexion moves the leg posteriorly, the opposite of the elbow, because the lower limb rotates medially during development.",
+         "manas": {
+          "q": "Why does the knee flex in the opposite direction to the elbow?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-ankle-uses-special-terms",
+         "topic": "Ankle uses special terms",
+         "note": "At the ankle, dorsiflexion and plantarflexion replace flexion and extension because those words are ambiguous there.",
+         "manas": {
+          "q": "Why are dorsiflexion and plantarflexion used at the ankle?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-full-arm-elevation-needs-scapula",
+         "topic": "Full arm elevation needs scapula",
+         "note": "Raising the arm above the head needs rotation of the scapula on the chest wall as well as movement at the shoulder joint itself.",
+         "manas": {
+          "q": "Which bone must rotate for full elevation of the arm?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-terminology-and-eponyms",
+       "topic": "Terminology and eponyms",
+       "note": "Where the official words come from.",
+       "children": [
+        {
+         "id": "mdhha100atm-terminologia-anatomica",
+         "topic": "Terminologia Anatomica",
+         "note": "The international standard list of anatomical terms, in Latin with English equivalents; first published in 1998.",
+         "manas": {
+          "q": "What is Terminologia Anatomica?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-eponyms-vs-descriptive-names",
+         "topic": "Eponyms vs descriptive names",
+         "note": "Eponyms honour people but say nothing about the structure; e.g. Achilles tendon = calcaneal tendon, Eustachian tube = pharyngotympanic tube.",
+         "manas": {
+          "q": "What is the descriptive name for the Achilles tendon?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-latin-and-greek-roots",
+         "topic": "Latin and Greek roots",
+         "note": "Many names describe shape or place: deltoid (triangular), brachium (arm), pollex (thumb), hallux (great toe).",
+         "manas": {
+          "q": "What do pollex and hallux mean?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-prefixes-for-position",
+         "topic": "Prefixes for position",
+         "note": "Supra- means above, infra- below, inter- between, sub- beneath, peri- around.",
+         "manas": {
+          "q": "What do the prefixes supra-, infra- and inter- mean?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-clinical-use",
+       "topic": "Clinical use",
+       "note": "Turning terms into clear notes and safe practice.",
+       "children": [
+        {
+         "id": "mdhha100atm-describing-a-lesion",
+         "topic": "Describing a lesion",
+         "note": "State the body region, surface and side, the distance from a fixed landmark, then size and depth, so any reader can find it.",
+         "manas": {
+          "q": "What details locate a wound precisely in clinical notes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-surface-landmarks",
+         "topic": "Surface landmarks",
+         "note": "Palpable bony points mark deeper structures; the sternal angle lies at the level of the 2nd costal cartilage.",
+         "manas": {
+          "q": "Which costal cartilage lies at the level of the sternal angle?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-inversion-ankle-sprain",
+         "topic": "Inversion ankle sprain",
+         "note": "The common ankle sprain happens in inversion and stretches the lateral ligaments, most often the anterior talofibular ligament.",
+         "manas": {
+          "q": "Which ligament is most often injured in an inversion sprain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-recording-range-of-motion",
+         "topic": "Recording range of motion",
+         "note": "Joint movement is recorded in degrees, starting from the anatomical position taken as zero (neutral-zero method).",
+         "manas": {
+          "q": "What is the starting point for measuring joint range?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-20.",
+       "manas": {
+        "checked": "2026-11-20"
+       },
+       "children": [
+        {
+         "id": "mdhha100atm-ta2-lost-single-preferred-terms",
+         "topic": "TA2 lost single preferred terms",
+         "note": "Anatomists from FIPAT's gross anatomy group argue TA2 offers several names for one structure, unlike TA1, losing the goal of one agreed international standard.",
+         "manas": {
+          "q": "What criticism of TA2 did anatomists raise in 2024?",
+          "ref": "Anat Sci Int 2024"
+         },
+         "hyperLink": "https://doi.org/10.1007/s12565-024-00767-5",
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-free-anatomical-term-look-up-site",
+         "topic": "Free anatomical term look-up site",
+         "note": "AnatomicalTerms.info is a free site linking each Terminologia Anatomica term to synonyms, eponyms and other-language terms, with short open definitions to ease learning.",
+         "manas": {
+          "q": "What does the AnatomicalTerms.info site offer students?",
+          "ref": "Anat Sci Int 2024"
+         },
+         "hyperLink": "https://doi.org/10.1007/s12565-024-00761-x",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhha100atm-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins.",
+       "children": [
+        {
+         "id": "mdhha100atm-soup-bowl-mnemonic",
+         "topic": "Soup-bowl mnemonic",
+         "note": "Supination turns the palm up as if holding a bowl of soup; pronation turns it down.",
+         "manas": {
+          "q": "What memory aid helps recall supination?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-sole-direction-in-inversion",
+         "topic": "Sole direction in inversion",
+         "note": "Inversion = sole faces in (medially); eversion = sole faces out.",
+         "manas": {
+          "q": "Which way does the sole face in inversion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-digit-reference-lines",
+         "topic": "Digit reference lines",
+         "note": "Fingers abduct from the middle finger; toes from the second toe.",
+         "manas": {
+          "q": "What is the reference line for abduction of the toes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-medial-bone-of-forearm",
+         "topic": "Medial bone of forearm",
+         "note": "In anatomical position the ulna is medial and the radius lateral (thumb side).",
+         "manas": {
+          "q": "Which forearm bone is lateral in the anatomical position?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhha100atm-nine-regions-by-row",
+         "topic": "Nine regions by row",
+         "note": "Remember the rows: hypochondriac–epigastric, lumbar–umbilical, inguinal–hypogastric.",
+         "manas": {
+          "q": "List the nine abdominal regions row by row."
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y1"
+  },
+  {
+   "id": "med-hmp100-homeostasis-body-fluids",
+   "title": "HMP 100 · In depth: Homeostasis and body fluids",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795167028194,
+   "updated": 1795167028194,
+   "library": "mbchb",
+   "deepOf": "med-hmp100",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhmp100hbf-root",
+     "topic": "Homeostasis and body fluids in depth",
+     "note": "Feedback control, fluid compartments, osmolality, water shifts and basic regulation. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhmp100hbf-homeostasis-basics",
+       "topic": "Homeostasis basics",
+       "note": "Keeping the internal environment steady.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-5-homeostasis",
+       "children": [
+        {
+         "id": "mdhmp100hbf-definition",
+         "topic": "Definition",
+         "note": "Homeostasis is keeping the internal environment (the ECF bathing cells) relatively constant despite outside change; Walter Cannon coined the term.",
+         "manas": {
+          "q": "What is homeostasis and who coined the term?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-parts-of-a-control-system",
+         "topic": "Parts of a control system",
+         "note": "A sensor detects the variable, a control centre compares it with the set point, and an effector corrects it, linked by afferent and efferent paths.",
+         "manas": {
+          "q": "Name the three parts of a homeostatic control system."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-set-point-and-normal-range",
+         "topic": "Set point and normal range",
+         "note": "The set point is the value the system defends; the variable swings within a narrow range around it. Set points can reset, e.g. raised in fever.",
+         "manas": {
+          "q": "What happens to the temperature set point in fever?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-feedback-and-feedforward",
+       "topic": "Feedback and feedforward",
+       "note": "How control systems respond to change.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-negative-feedback-in-action",
+         "topic": "Negative feedback in action",
+         "note": "A rise in blood pressure stretches baroreceptors, the brainstem cuts sympathetic and boosts vagal output, and heart rate and vessel tone fall.",
+         "manas": {
+          "q": "Outline the baroreceptor reflex response to a rise in BP."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-gain-of-a-control-system",
+         "topic": "Gain of a control system",
+         "note": "Gain = correction achieved ÷ error that remains; the higher the gain, the more completely the disturbance is corrected.",
+         "manas": {
+          "q": "How is the gain of a control system calculated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-positive-feedback-needs-an-end",
+         "topic": "Positive feedback needs an end",
+         "note": "Positive feedback amplifies a change until an outside event stops it, e.g. delivery of the baby ends the oxytocin loop of labour.",
+         "manas": {
+          "q": "What ends the positive feedback loop of labour?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-harmful-vicious-cycles",
+         "topic": "Harmful vicious cycles",
+         "note": "Positive feedback can be deadly: in severe haemorrhage, low pressure starves the heart muscle, the heart weakens and pressure falls further.",
+         "manas": {
+          "q": "Give an example of harmful positive feedback."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-feedforward-control",
+         "topic": "Feedforward control",
+         "note": "An anticipatory response before the variable changes, e.g. saliva and gastric acid secreted at the sight or smell of food.",
+         "manas": {
+          "q": "What is feedforward control? Give an example."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-fluid-compartments",
+       "topic": "Fluid compartments",
+       "note": "Where body water sits and what divides it.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/26-1-body-fluids-and-fluid-compartments",
+       "children": [
+        {
+         "id": "mdhmp100hbf-why-tbw-varies",
+         "topic": "Why TBW varies",
+         "note": "Fat holds little water, so the fraction of body weight that is water falls with obesity; it is also lower in women and older adults.",
+         "manas": {
+          "q": "Why is total body water lower in obese people?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-transcellular-fluid",
+         "topic": "Transcellular fluid",
+         "note": "A small specialised part of ECF in epithelial-lined spaces: CSF, synovial, pleural, peritoneal and intraocular fluid, and gut secretions.",
+         "manas": {
+          "q": "Give examples of transcellular fluid."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-blood-volume",
+         "topic": "Blood volume",
+         "note": "About 7% of body weight, roughly 5 L in a 70 kg adult; plasma makes up a little over half of it.",
+         "manas": {
+          "q": "What is the normal blood volume of a 70 kg adult?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-barriers-between-compartments",
+         "topic": "Barriers between compartments",
+         "note": "The capillary wall separates plasma from interstitial fluid; the cell membrane separates ECF from ICF.",
+         "manas": {
+          "q": "What barrier separates plasma from interstitial fluid?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-measuring-compartments",
+       "topic": "Measuring compartments",
+       "note": "The indicator-dilution method.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-indicator-dilution-principle",
+         "topic": "Indicator-dilution principle",
+         "note": "Volume = amount of indicator given (minus any excreted or metabolised) ÷ its concentration once evenly mixed.",
+         "manas": {
+          "q": "State the indicator-dilution formula for volume."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-ideal-indicator",
+         "topic": "Ideal indicator",
+         "note": "Spreads evenly only within the compartment measured, is not toxic or metabolised, and is easy to measure.",
+         "manas": {
+          "q": "List properties of an ideal indicator for volume."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-derived-volumes",
+         "topic": "Derived volumes",
+         "note": "ICF and interstitial fluid cannot be measured directly: ICF = TBW − ECF; interstitial = ECF − plasma volume.",
+         "manas": {
+          "q": "How are ICF and interstitial volumes obtained?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-blood-volume-from-plasma",
+         "topic": "Blood volume from plasma",
+         "note": "Blood volume = plasma volume ÷ (1 − haematocrit).",
+         "manas": {
+          "q": "How is blood volume calculated from plasma volume?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-ionic-composition",
+       "topic": "Ionic composition",
+       "note": "Different solutes inside and outside cells.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-main-ecf-anions",
+         "topic": "Main ECF anions",
+         "note": "Chloride and bicarbonate are the main extracellular anions.",
+         "manas": {
+          "q": "What are the main anions of ECF?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-main-icf-anions-and-mg",
+         "topic": "Main ICF anions and Mg",
+         "note": "Phosphates and proteins are the main intracellular anions; magnesium is an important intracellular cation after potassium.",
+         "manas": {
+          "q": "What are the main intracellular anions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-plasma-vs-interstitial-fluid",
+         "topic": "Plasma vs interstitial fluid",
+         "note": "Ion levels are similar, but plasma has much more protein because capillary walls let little protein through.",
+         "manas": {
+          "q": "How does plasma differ from interstitial fluid?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-calcium-gradient",
+         "topic": "Calcium gradient",
+         "note": "Free calcium is far lower in the cytosol than in ECF, so calcium entry can act as a signal.",
+         "manas": {
+          "q": "Is free calcium higher inside or outside cells?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-electroneutrality",
+         "topic": "Electroneutrality",
+         "note": "In every compartment total positive charges equal total negative charges.",
+         "manas": {
+          "q": "What is the principle of electroneutrality?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-osmolality-and-tonicity",
+       "topic": "Osmolality and tonicity",
+       "note": "How solutes pull water.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-osmolality-vs-osmolarity",
+         "topic": "Osmolality vs osmolarity",
+         "note": "Osmolality = osmoles per kg of water; osmolarity = per litre of solution. In dilute body fluids the two are almost the same.",
+         "manas": {
+          "q": "What is the difference between osmolality and osmolarity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-osmolal-gap",
+         "topic": "Osmolal gap",
+         "note": "Measured minus calculated osmolality; a raised gap points to unmeasured osmoles such as ethanol, methanol or ethylene glycol.",
+         "manas": {
+          "q": "What does a raised osmolal gap suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-effective-vs-ineffective-osmoles",
+         "topic": "Effective vs ineffective osmoles",
+         "note": "Only solutes that cannot cross the membrane move water. Urea crosses cells freely, so it adds to osmolality but not tonicity.",
+         "manas": {
+          "q": "Why does urea not contribute to tonicity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-tonicity",
+         "topic": "Tonicity",
+         "note": "A solution's effect on cell volume: in isotonic fluid cells keep their size, in hypotonic they swell, in hypertonic they shrink.",
+         "manas": {
+          "q": "What happens to red cells in a hypotonic solution?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-0-9-saline",
+         "topic": "0.9% saline",
+         "note": "0.9% sodium chloride is about isotonic with plasma, so red cells keep their volume in it.",
+         "manas": {
+          "q": "Why is 0.9% sodium chloride called isotonic saline?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-water-shifts",
+       "topic": "Water shifts",
+       "note": "Predicting which compartment changes.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-core-rule",
+         "topic": "Core rule",
+         "note": "Water crosses cell membranes freely until ICF and ECF osmolality match; sodium stays mainly in the ECF.",
+         "manas": {
+          "q": "What determines water movement between ICF and ECF?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-isotonic-gain-or-loss",
+         "topic": "Isotonic gain or loss",
+         "note": "Adding or losing isotonic fluid changes ECF volume only; osmolality is unchanged so no water enters or leaves cells.",
+         "manas": {
+          "q": "What happens to ICF volume after isotonic fluid loss?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-pure-water-gain",
+         "topic": "Pure water gain",
+         "note": "Extra water lowers ECF osmolality, water moves into cells, and both compartments expand; cells swell.",
+         "manas": {
+          "q": "What happens to cells after a large pure water load?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-hypertonic-saline-gain",
+         "topic": "Hypertonic saline gain",
+         "note": "Raised ECF osmolality draws water out of cells: ECF expands and ICF shrinks.",
+         "manas": {
+          "q": "How does hypertonic saline change ICF and ECF volumes?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-starling-forces-and-oedema",
+       "topic": "Starling forces and oedema",
+       "note": "Fluid exchange across capillaries.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-four-starling-forces",
+         "topic": "Four Starling forces",
+         "note": "Capillary hydrostatic pressure and interstitial oncotic pressure push fluid out; plasma oncotic and interstitial hydrostatic pressure oppose it.",
+         "manas": {
+          "q": "Which Starling forces favour filtration out of capillaries?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-plasma-oncotic-pressure",
+         "topic": "Plasma oncotic pressure",
+         "note": "Mostly due to albumin; a fall in plasma albumin lets more fluid stay in the tissues.",
+         "manas": {
+          "q": "Which plasma protein provides most oncotic pressure?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-role-of-lymphatics",
+         "topic": "Role of lymphatics",
+         "note": "Lymph vessels return excess filtered fluid and leaked protein to the blood.",
+         "manas": {
+          "q": "What is the role of lymphatics in fluid balance?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-causes-of-oedema",
+         "topic": "Causes of oedema",
+         "note": "Raised capillary pressure (heart failure), low albumin (nephrotic syndrome, liver disease, kwashiorkor), leaky capillaries (inflammation), blocked lymph (filariasis).",
+         "manas": {
+          "q": "List four mechanisms of oedema with examples."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-daily-water-balance",
+       "topic": "Daily water balance",
+       "note": "Intake must match losses.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-sources-of-water",
+         "topic": "Sources of water",
+         "note": "Drinks, water in food and a small amount of metabolic water from oxidation of nutrients.",
+         "manas": {
+          "q": "What are the sources of body water intake?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-routes-of-loss",
+         "topic": "Routes of loss",
+         "note": "Urine (the largest route and the one adjusted to keep water balance), insensible loss from skin and lungs, sweat and faeces.",
+         "manas": {
+          "q": "Which route of water loss is adjusted to keep water balance?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-insensible-loss",
+         "topic": "Insensible loss",
+         "note": "Evaporation from skin and airways that we do not feel; it rises with fever, heat and fast breathing.",
+         "manas": {
+          "q": "What increases insensible water loss?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-regulation-of-water-and-salt",
+       "topic": "Regulation of water and salt",
+       "note": "The basic hormonal controls.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-adh-vasopressin",
+         "topic": "ADH (vasopressin)",
+         "note": "Made in the hypothalamus, released from the posterior pituitary when osmolality rises or volume falls; adds aquaporin-2 channels in collecting ducts.",
+         "manas": {
+          "q": "How does ADH increase water reabsorption?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-thirst",
+         "topic": "Thirst",
+         "note": "Driven by raised osmolality, low blood volume and angiotensin II acting on hypothalamic centres.",
+         "manas": {
+          "q": "What stimulates thirst?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-raas",
+         "topic": "RAAS",
+         "note": "Low renal perfusion releases renin; angiotensin II constricts vessels and triggers aldosterone, which makes the kidney retain sodium and water.",
+         "manas": {
+          "q": "Outline the renin–angiotensin–aldosterone system."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-natriuretic-peptides",
+         "topic": "Natriuretic peptides",
+         "note": "ANP from atria and BNP from ventricles are released on stretch; they increase sodium and water excretion and oppose RAAS.",
+         "manas": {
+          "q": "What do natriuretic peptides do?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-volume-vs-concentration",
+         "topic": "Volume vs concentration",
+         "note": "Total body sodium sets ECF volume; water balance sets the sodium concentration.",
+         "manas": {
+          "q": "Which controls ECF volume: sodium content or water?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-clinical-relevance",
+       "topic": "Clinical relevance",
+       "note": "Applying fluid physiology at the bedside.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-signs-of-dehydration",
+         "topic": "Signs of dehydration",
+         "note": "Thirst, dry mucous membranes, reduced skin turgor, fast pulse and low urine output.",
+         "manas": {
+          "q": "List clinical signs of dehydration."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-hyponatraemia-basics",
+         "topic": "Hyponatraemia basics",
+         "note": "Serum sodium below 135 mmol/L, usually too much water for the sodium; brain cells swell, causing confusion or seizures.",
+         "manas": {
+          "q": "Why can hyponatraemia cause seizures?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-hypernatraemia-basics",
+         "topic": "Hypernatraemia basics",
+         "note": "Serum sodium above 145 mmol/L, usually a water deficit; cells, including brain cells, shrink.",
+         "manas": {
+          "q": "What happens to cells in hypernatraemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-where-saline-goes",
+         "topic": "Where saline goes",
+         "note": "Isotonic crystalloid spreads through the ECF, so only about a quarter of it stays in the plasma.",
+         "manas": {
+          "q": "What fraction of infused isotonic saline stays in plasma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-where-5-dextrose-goes",
+         "topic": "Where 5% dextrose goes",
+         "note": "The glucose is metabolised, leaving free water that spreads through all body water; little stays in plasma, so it is poor for resuscitation.",
+         "manas": {
+          "q": "Why is 5% dextrose poor for restoring blood volume?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Guidance on IV maintenance fluids in children.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-guidelines-favour-isotonic-fluids",
+         "topic": "Guidelines favour isotonic fluids",
+         "note": "A 2024 viewpoint found international guidelines agree that isotonic fluids are the standard for IV maintenance in ill children.",
+         "manas": {
+          "q": "What fluid type do guidelines agree on for paediatric maintenance?",
+          "ref": "Lancet Child Adolesc Health 2024"
+         },
+         "hyperLink": "https://doi.org/10.1016/s2352-4642(23)00288-2",
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-espnic-balanced-glucose-restricted",
+         "topic": "ESPNIC: balanced, glucose, restricted",
+         "note": "ESPNIC (European paediatric intensive care) advises isotonic balanced fluid with glucose, restricted volumes in most children, and regular electrolyte and glucose checks.",
+         "manas": {
+          "q": "What did ESPNIC 2022 recommend for paediatric IV maintenance?",
+          "ref": "Intensive Care Med 2022"
+         },
+         "hyperLink": "https://doi.org/10.1007/s00134-022-06882-z",
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-holliday-segar-4-2-1-rule",
+         "topic": "Holliday–Segar 4-2-1 rule",
+         "note": "Per hour: 4 mL/kg for the first 10 kg, 2 mL/kg for the next 10 kg, 1 mL/kg for each kg above 20. Many guidelines now restrict volumes; follow local guidance.",
+         "manas": {
+          "q": "State the Holliday–Segar 4-2-1 rule for maintenance fluid."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-20.",
+       "manas": {
+        "checked": "2026-11-20"
+       },
+       "children": [
+        {
+         "id": "mdhmp100hbf-espnic-maintenance-fluid-guideline",
+         "topic": "ESPNIC maintenance fluid guideline",
+         "note": "A systematic review gave 16 recommendations: isotonic balanced fluids providing glucose, restricted volumes for most children, and regular electrolyte, glucose and fluid checks.",
+         "manas": {
+          "q": "What were key ESPNIC 2022 maintenance fluid advice points?",
+          "ref": "Intensive Care Med 2022"
+         },
+         "hyperLink": "https://doi.org/10.1007/s00134-022-06882-z",
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-prescribe-iv-fluids-like-drugs",
+         "topic": "Prescribe IV fluids like drugs",
+         "note": "A viewpoint says IV fluids need choice, rate, duration and de-escalation like drugs; most evidence is from rich countries, so fit for LMICs is uncertain.",
+         "manas": {
+          "q": "Why did a 2024 viewpoint urge caution applying fluid evidence to LMICs?",
+          "ref": "Lancet Child Adolesc Health 2024"
+         },
+         "hyperLink": "https://doi.org/10.1016/s2352-4642(23)00288-2",
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-fluids-and-kidney-injury-risk",
+         "topic": "Fluids and kidney injury risk",
+         "note": "A review notes hospital AKI is common, with risks such as surgery, CKD and heart failure; IV fluid timing, type, amount and rate matter.",
+         "manas": {
+          "q": "Which patients are at higher risk of hospital-acquired AKI?",
+          "ref": "Clin Kidney J 2023"
+         },
+         "hyperLink": "https://doi.org/10.1093/ckj/sfac270",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp100hbf-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins.",
+       "children": [
+        {
+         "id": "mdhmp100hbf-60-40-20-rule",
+         "topic": "60-40-20 rule",
+         "note": "TBW ≈ 60% of body weight, ICF ≈ 40%, ECF ≈ 20%.",
+         "manas": {
+          "q": "State the 60-40-20 rule."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-osmolality-formula",
+         "topic": "Osmolality formula",
+         "note": "2[Na+] + glucose + urea, all in mmol/L; normal about 285–295 mOsm/kg.",
+         "manas": {
+          "q": "Give the formula for calculated plasma osmolality."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-positive-feedback-examples",
+         "topic": "Positive feedback examples",
+         "note": "Labour (oxytocin), LH surge, clotting.",
+         "manas": {
+          "q": "Name three positive feedback loops."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp100hbf-marker-pairs",
+         "topic": "Marker pairs",
+         "note": "ECF: inulin; plasma: Evans blue or labelled albumin; TBW: heavy water.",
+         "manas": {
+          "q": "Which marker measures plasma volume?"
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y1"
+  },
+  {
+   "id": "med-hmp200-glomerular-filtration-clearance",
+   "title": "HMP 200 · In depth: Glomerular filtration and clearance",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795167028201,
+   "updated": 1795167028201,
+   "library": "mbchb",
+   "deepOf": "med-hmp200",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhmp200gfc-root",
+     "topic": "Glomerular filtration and clearance in depth",
+     "note": "How the glomerulus filters plasma, how GFR is controlled, measured and estimated, and how it is used to stage CKD. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhmp200gfc-overview",
+       "topic": "Definition and filtration barrier",
+       "note": "What GFR is and the sieve that makes the filtrate.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-5-physiology-of-urine-formation",
+       "children": [
+        {
+         "id": "mdhmp200gfc-definition",
+         "topic": "Definition of GFR",
+         "note": "GFR is the volume of plasma filtered from all glomerular capillaries into Bowman's space per unit time, usually given in mL/min.",
+         "manas": {
+          "q": "What is the glomerular filtration rate?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-barrier-layers",
+         "topic": "Three layers of the barrier",
+         "note": "Fenestrated capillary endothelium, the glomerular basement membrane, and podocyte foot processes joined by slit diaphragms.",
+         "manas": {
+          "q": "Name the three layers of the glomerular filtration barrier."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-size-and-charge",
+         "topic": "Size and charge selectivity",
+         "note": "Small solutes pass freely; large molecules are held back. Negative charges in the barrier repel anionic proteins such as albumin.",
+         "manas": {
+          "q": "Why is albumin normally kept out of the filtrate?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-ultrafiltrate",
+         "topic": "The ultrafiltrate",
+         "note": "Filtrate is almost protein-free plasma: water, ions, glucose, amino acids, urea and creatinine at roughly plasma concentrations.",
+         "manas": {
+          "q": "What is the composition of glomerular filtrate?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-starling",
+       "topic": "Starling forces at the glomerulus",
+       "note": "Pressures that push fluid out of, or pull it back into, glomerular capillaries.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-pgc",
+         "topic": "Glomerular capillary hydrostatic pressure",
+         "note": "The main force favouring filtration; about 60 mmHg in classic textbook figures, kept high because the efferent arteriole adds resistance downstream.",
+         "manas": {
+          "q": "What is the main force driving glomerular filtration?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-pbs",
+         "topic": "Bowman's space hydrostatic pressure",
+         "note": "Opposes filtration (about 18 mmHg in textbook figures); rises sharply if the urinary tract is obstructed.",
+         "manas": {
+          "q": "Which Starling force rises in urinary tract obstruction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-pigc",
+         "topic": "Glomerular oncotic pressure",
+         "note": "Plasma protein pull opposing filtration; it rises along the capillary as protein-free fluid leaves, so filtration falls toward the efferent end.",
+         "manas": {
+          "q": "Why does oncotic pressure rise along the glomerular capillary?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-pibs",
+         "topic": "Bowman's space oncotic pressure",
+         "note": "Close to zero, because the filtrate contains almost no protein.",
+         "manas": {
+          "q": "Why is oncotic pressure in Bowman's space near zero?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-nfp",
+         "topic": "Net filtration pressure",
+         "note": "Net pressure = (PGC − PBS) − (πGC − πBS); with textbook figures this is roughly 10 mmHg.",
+         "manas": {
+          "q": "How is net filtration pressure across the glomerulus calculated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-kf",
+         "topic": "Filtration coefficient (Kf)",
+         "note": "GFR = Kf × net filtration pressure. Kf reflects permeability and surface area; it is very high in glomeruli and falls when glomeruli are lost or scarred.",
+         "manas": {
+          "q": "What two factors multiply to give GFR?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-determinants",
+       "topic": "Arteriolar control of GFR",
+       "note": "How afferent and efferent tone change GFR and plasma flow.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-afferent-constriction",
+         "topic": "Afferent constriction",
+         "note": "Lowers glomerular pressure and renal plasma flow, so GFR falls. Afferent dilation does the opposite.",
+         "manas": {
+          "q": "What does afferent arteriole constriction do to GFR?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-efferent-constriction",
+         "topic": "Efferent constriction",
+         "note": "Raises glomerular pressure so GFR rises modestly, while plasma flow falls; filtration fraction therefore rises.",
+         "manas": {
+          "q": "What happens to filtration fraction when the efferent arteriole constricts?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-plasma-protein",
+         "topic": "Plasma protein changes",
+         "note": "Low plasma protein lowers oncotic pressure and tends to raise GFR; high plasma protein tends to lower it.",
+         "manas": {
+          "q": "How does low plasma protein affect GFR?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-angiotensin-ii",
+         "topic": "Angiotensin II",
+         "note": "Constricts efferent more than afferent arterioles at low levels, helping preserve GFR when renal perfusion falls.",
+         "manas": {
+          "q": "How does angiotensin II help preserve GFR in low perfusion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-prostaglandins",
+         "topic": "Prostaglandins",
+         "note": "Dilate the afferent arteriole, protecting GFR when perfusion is poor; NSAIDs block this.",
+         "manas": {
+          "q": "Which local mediators dilate the afferent arteriole?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-sympathetic",
+         "topic": "Strong sympathetic activity",
+         "note": "Marked sympathetic activation (e.g. haemorrhage) constricts afferent arterioles and lowers renal blood flow and GFR.",
+         "manas": {
+          "q": "What does strong sympathetic activation do to GFR?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-autoregulation",
+       "topic": "Autoregulation in depth",
+       "note": "Keeps GFR and renal blood flow steady despite everyday blood pressure changes.",
+       "hyperLink": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-7-regulation-of-renal-blood-flow",
+       "children": [
+        {
+         "id": "mdhmp200gfc-myogenic",
+         "topic": "Myogenic mechanism",
+         "note": "Raised pressure stretches the afferent arteriole wall; smooth muscle contracts in response, limiting the rise in glomerular pressure.",
+         "manas": {
+          "q": "How does the myogenic mechanism protect the glomerulus?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-tgf",
+         "topic": "Tubuloglomerular feedback",
+         "note": "Macula densa cells sense NaCl reaching the end of the thick ascending limb; more NaCl triggers afferent constriction (adenosine is a key mediator), bringing GFR back down.",
+         "manas": {
+          "q": "What does the macula densa sense in tubuloglomerular feedback?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-jga",
+         "topic": "Juxtaglomerular apparatus",
+         "note": "Macula densa, granular (juxtaglomerular) cells that release renin, and extraglomerular mesangial cells, sitting where the distal tubule meets its own glomerulus.",
+         "manas": {
+          "q": "What are the parts of the juxtaglomerular apparatus?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-limits",
+         "topic": "Limits of autoregulation",
+         "note": "Below the autoregulatory range, GFR falls with blood pressure, so severe hypotension reduces urine output.",
+         "manas": {
+          "q": "Why does urine output fall in severe hypotension?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-clearance",
+       "topic": "Clearance concepts and calculations",
+       "note": "Turning urine and plasma measurements into kidney function numbers.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-clearance-meaning",
+         "topic": "Meaning of clearance",
+         "note": "The volume of plasma completely cleared of a substance per minute; it is a virtual volume, not a real one.",
+         "manas": {
+          "q": "What does renal clearance of a substance represent?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-worked-example",
+         "topic": "Worked example",
+         "note": "Urine creatinine 10 mmol/L, plasma 0.1 mmol/L, urine flow 1 mL/min: clearance = (10 × 1) ÷ 0.1 = 100 mL/min.",
+         "manas": {
+          "q": "Urine creatinine 10 mmol/L, plasma 0.1 mmol/L, flow 1 mL/min: what is the clearance?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-filtered-load",
+         "topic": "Filtered load",
+         "note": "Filtered load = GFR × plasma concentration of a freely filtered substance; compare it with excretion to see if the tubule reabsorbs or secretes.",
+         "manas": {
+          "q": "How do you calculate the filtered load of a substance?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-compare-to-gfr",
+         "topic": "Clearance compared with GFR",
+         "note": "Equal to GFR: filtered only (inulin). Less than GFR: net reabsorption (urea; glucose normally zero). More than GFR: net secretion (PAH).",
+         "manas": {
+          "q": "What does a clearance greater than GFR tell you?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-filtration-fraction",
+         "topic": "Filtration fraction",
+         "note": "FF = GFR ÷ renal plasma flow; normally about 20%, so most plasma leaves via the efferent arteriole unfiltered.",
+         "manas": {
+          "q": "How is filtration fraction calculated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-rbf-from-rpf",
+         "topic": "Blood flow from plasma flow",
+         "note": "Renal blood flow = renal plasma flow ÷ (1 − haematocrit).",
+         "manas": {
+          "q": "How do you convert renal plasma flow to renal blood flow?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-glucose-threshold",
+         "topic": "Glucose and transport maximum",
+         "note": "Proximal tubule glucose carriers saturate; above a plasma level of roughly 10 mmol/L glucose spills into urine (glycosuria).",
+         "manas": {
+          "q": "Why does glucose appear in urine when plasma glucose is high?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-free-water",
+         "topic": "Free water clearance",
+         "note": "CH2O = urine flow − osmolar clearance. Positive when urine is dilute, negative when urine is concentrated.",
+         "manas": {
+          "q": "What does a positive free water clearance mean?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-markers",
+       "topic": "Markers of GFR",
+       "note": "Substances used to measure or estimate GFR.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-ideal-marker",
+         "topic": "Ideal marker",
+         "note": "Freely filtered, not reabsorbed, secreted or metabolised by the tubule, not toxic, and easy to measure.",
+         "manas": {
+          "q": "List the properties of an ideal GFR marker."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-measured-gfr",
+         "topic": "Measured GFR in practice",
+         "note": "Exogenous markers such as iohexol or radiolabelled agents (e.g. 51Cr-EDTA, 99mTc-DTPA) measure GFR when an estimate is not reliable enough.",
+         "manas": {
+          "q": "Name exogenous markers used to measure GFR."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-creatinine",
+         "topic": "Creatinine",
+         "note": "Made from muscle creatine at a fairly steady rate; output depends on muscle mass, so sex, age, body build and diet affect serum levels.",
+         "manas": {
+          "q": "Why does serum creatinine depend on muscle mass?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-creatinine-curve",
+         "topic": "Creatinine–GFR curve",
+         "note": "The relation is inverse: halving GFR roughly doubles serum creatinine, so early GFR loss may leave creatinine within the normal range.",
+         "manas": {
+          "q": "Why can serum creatinine stay normal despite early loss of GFR?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-secretion-blockers",
+         "topic": "Drugs blocking creatinine secretion",
+         "note": "Trimethoprim, cimetidine and dolutegravir reduce tubular creatinine secretion, raising serum creatinine slightly without a true fall in GFR.",
+         "manas": {
+          "q": "Which drugs raise serum creatinine without lowering true GFR?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-cystatin-c",
+         "topic": "Cystatin C",
+         "note": "A small protein made by all nucleated cells; less affected by muscle mass than creatinine, but influenced by thyroid status, steroids and inflammation.",
+         "manas": {
+          "q": "Why is cystatin C useful when muscle mass is unusual?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-urea",
+         "topic": "Urea",
+         "note": "Poor GFR marker: partly reabsorbed and changed by protein intake, GI bleeding, catabolism and dehydration.",
+         "manas": {
+          "q": "Why is urea a poor marker of GFR?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-timed-collection",
+         "topic": "24-hour creatinine clearance",
+         "note": "Measures creatinine clearance from a timed urine collection; incomplete collections are a common source of error.",
+         "manas": {
+          "q": "What is the main pitfall of 24-hour urine creatinine clearance?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-egfr",
+       "topic": "eGFR equations",
+       "note": "Formulas that estimate GFR from blood markers and patient factors.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-cockcroft-gault",
+         "topic": "Cockcroft–Gault",
+         "note": "Estimates creatinine clearance (mL/min) from age, weight, sex and serum creatinine; not indexed to body surface area.",
+         "manas": {
+          "q": "Which variables does the Cockcroft–Gault equation use?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-mdrd-ckdepi",
+         "topic": "MDRD and CKD-EPI",
+         "note": "Estimate GFR indexed to 1.73 m² body surface area; CKD-EPI is more accurate than MDRD at higher GFR values.",
+         "manas": {
+          "q": "What body surface area are MDRD and CKD-EPI results indexed to?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-not-steady-state",
+         "topic": "Needs steady state",
+         "note": "eGFR assumes stable creatinine; in acute kidney injury creatinine lags behind the real change, so eGFR misleads.",
+         "manas": {
+          "q": "Why is eGFR unreliable in acute kidney injury?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-other-limits",
+         "topic": "Other limits of eGFR",
+         "note": "Less reliable at extremes of muscle mass or body size, after amputation, and in pregnancy.",
+         "manas": {
+          "q": "Name situations where creatinine-based eGFR is less reliable."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-ckd-staging",
+       "topic": "CKD staging basics",
+       "note": "Staging chronic kidney disease by GFR and albuminuria.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-ckd-definition",
+         "topic": "CKD definition",
+         "note": "Abnormal kidney structure or function lasting more than 3 months, with implications for health.",
+         "manas": {
+          "q": "How long must kidney abnormalities last to define CKD?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-g-stages",
+         "topic": "GFR categories",
+         "note": "G1 ≥90, G2 60–89, G3a 45–59, G3b 30–44, G4 15–29, G5 <15 mL/min/1.73 m².",
+         "manas": {
+          "q": "Give the GFR range for CKD stage G3b."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-g1-g2",
+         "topic": "G1 and G2 need damage",
+         "note": "With GFR ≥60, CKD needs another marker of damage, such as albuminuria or structural change.",
+         "manas": {
+          "q": "What is needed to diagnose CKD when GFR is above 60?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-a-stages",
+         "topic": "Albuminuria categories",
+         "note": "By urine albumin:creatinine ratio: A1 <3, A2 3–30, A3 >30 mg/mmol.",
+         "manas": {
+          "q": "What albumin:creatinine ratio defines albuminuria category A3?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-clinical",
+       "topic": "Clinical relevance",
+       "note": "Where GFR physiology meets the ward.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-prerenal",
+         "topic": "Prerenal kidney injury",
+         "note": "Low renal perfusion (e.g. dehydration, haemorrhage) lowers GFR; at first the tubules still work and the change can reverse with restored perfusion.",
+         "manas": {
+          "q": "Why does GFR fall in dehydration or haemorrhage?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-renal-artery-stenosis",
+         "topic": "ACE inhibitors and renal artery stenosis",
+         "note": "With bilateral renal artery stenosis, GFR depends on angiotensin II efferent tone; ACE inhibitors can then cause a sharp fall in GFR.",
+         "manas": {
+          "q": "Why can ACE inhibitors drop GFR in bilateral renal artery stenosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-drug-dosing",
+         "topic": "Drug dosing",
+         "note": "Many renally cleared drugs need dose changes when GFR is low; check the drug's prescribing guidance.",
+         "manas": {
+          "q": "Why must renal function be checked before prescribing some drugs?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-pregnancy",
+         "topic": "Pregnancy",
+         "note": "GFR rises by about 50% in normal pregnancy, so serum creatinine is normally lower than outside pregnancy.",
+         "manas": {
+          "q": "What happens to GFR in normal pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-diabetic-hyperfiltration",
+         "topic": "Diabetic hyperfiltration",
+         "note": "Early diabetes can raise GFR above normal (hyperfiltration) before later decline; albuminuria is an early sign of diabetic kidney disease.",
+         "manas": {
+          "q": "What happens to GFR early in diabetic kidney disease?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-ageing",
+         "topic": "Ageing",
+         "note": "GFR tends to fall with age, while low muscle mass in older people can hide this behind a normal creatinine.",
+         "manas": {
+          "q": "Why may older people have a normal creatinine despite low GFR?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-around-world",
+       "topic": "🌍 Around the world",
+       "note": "How eGFR is reported and used in different places.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-kdigo",
+         "topic": "KDIGO staging",
+         "note": "International KDIGO guidance stages CKD by cause, GFR category and albuminuria category together.",
+         "manas": {
+          "q": "Which three elements does KDIGO use to classify CKD?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-us-race-free",
+         "topic": "United States: race-free eGFR",
+         "note": "The US NKF–ASN task force (2021) recommended the race-free CKD-EPI 2021 creatinine equation and wider use of cystatin C.",
+         "manas": {
+          "q": "Which eGFR equation did the US task force recommend in 2021?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-europe-ekfc",
+         "topic": "Europe: EKFC equation",
+         "note": "The European Kidney Function Consortium equation is designed to work across ages from children to older adults, with creatinine or cystatin C.",
+         "manas": {
+          "q": "What is the EKFC equation?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhmp200gfc-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-20.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-ekfc-review",
+         "topic": "Creatinine, cystatin C and EKFC",
+         "note": "A 2024 review covers how creatinine and cystatin C are measured, their pros and cons, age-related reference ranges and their use in eGFR equations, focusing on EKFC.",
+         "manas": {
+          "q": "Which two serum markers are most used to calculate eGFR?",
+          "ref": "Ann Lab Med 2024"
+         },
+         "hyperLink": "https://doi.org/10.3343/alm.2023.0237",
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-race-free-equity",
+         "topic": "Race-free CKD-EPI 2021",
+         "note": "After an NKF–ASN task force reviewed over 20 approaches, it backed the race-free CKD-EPI 2021 equation and more cystatin C testing; authors say this aids equity.",
+         "manas": {
+          "q": "What did the NKF–ASN task force recommend for eGFR?",
+          "ref": "Health Equity 2024"
+         },
+         "hyperLink": "https://doi.org/10.1089/heq.2023.0038",
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-us-meta-analysis",
+         "topic": "Bias of US eGFR equations",
+         "note": "A meta-analysis of 12 studies found race-corrected and creatinine-based equations tended to overestimate GFR in Black people; cystatin C-only equations showed small bias.",
+         "manas": {
+          "q": "Which eGFR equations tended to overestimate GFR in Black populations?",
+          "ref": "JAMA Netw Open 2024"
+         },
+         "hyperLink": "https://doi.org/10.1001/jamanetworkopen.2024.1127",
+         "children": []
+        }
+       ],
+       "manas": {
+        "checked": "2026-11-20"
+       }
+      },
+      {
+       "id": "mdhmp200gfc-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "Quick wins.",
+       "children": [
+        {
+         "id": "mdhmp200gfc-pearl-arterioles",
+         "topic": "Afferent vs efferent",
+         "note": "Afferent constriction: GFR and flow both fall. Efferent constriction: GFR up, flow down, filtration fraction up.",
+         "manas": {
+          "q": "Contrast the effects of afferent and efferent constriction on GFR."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-pearl-clearance-ladder",
+         "topic": "Clearance ladder",
+         "note": "Glucose (≈0) < urea < inulin (= GFR) < PAH (≈ renal plasma flow).",
+         "manas": {
+          "q": "Rank glucose, urea, inulin and PAH by clearance."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-pearl-creat-overestimates",
+         "topic": "Creatinine overestimates GFR",
+         "note": "Because some creatinine is secreted, its clearance runs slightly above true GFR.",
+         "manas": {
+          "q": "Why does creatinine clearance overestimate GFR?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhmp200gfc-pearl-obstruction",
+         "topic": "Obstruction lowers GFR",
+         "note": "Back-pressure raises Bowman's space pressure and opposes filtration.",
+         "manas": {
+          "q": "How does ureteric obstruction reduce GFR?"
          },
          "children": []
         }

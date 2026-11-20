@@ -86,7 +86,7 @@
    "icon": "🩺",
    "file": "lib-mbchb.json",
    "root": "med-root",
-   "meta": "92 maps · 9,218 ideas · 3.2 MB · 6 years",
+   "meta": "96 maps · 9,501 ideas · 3.3 MB · 6 years",
    "about": {
     "by": "Manas, for Kenyan MBChB students (University of Nairobi course structure)",
     "from": "Course list from the UoN programme; key facts drafted with AI and checked twice by AI; OpenStax, Kenya MoH and WHO links",
@@ -94,8 +94,8 @@
     "date": "28 Sep 2026"
    },
    "parts": 6,
-   "v": 1794997059,
-   "whatsNew": "6 new in-depth topics (Year 2): drug development and drug names, cellular adaptations, haematopoiesis, the immune system, specimen collection and lab errors, bacterial structure and staining — 19 new research papers",
+   "v": 1795167028,
+   "whatsNew": "4 new in-depth topics (Year 1–2): glomerular filtration and clearance; water, pH and buffers; anatomical terms and movements; homeostasis and body fluids — plus 5 new research papers on health systems and chest X-ray for TB",
    "split": "lib-mbchb-index.json",
    "short": "Med"
   },
