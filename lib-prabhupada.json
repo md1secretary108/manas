@@ -211,7 +211,7 @@
         {
          "id": "lib-root-poy",
          "topic": "The Perfection of Yoga",
-         "note": "What the Gita says about yoga: rejected by Arjuna, then defined as devotion — the highest yogi thinks of Krishna within.",
+         "note": "What the Gita says about yoga: rejected by Arjuna, then defined as devotion — the highest yogi thinks of Krishna within. All eight chapters now have in-depth maps.",
          "hyperLink": "https://vedabase.io/en/library/poy/",
          "icons": [
           "🧘"
@@ -30398,45 +30398,77 @@
       {
        "id": "lib-poy-1",
        "topic": "1 · Yoga as Rejected by Arjuna",
-       "hyperLink": "https://vedabase.io/en/library/poy/1/"
+       "hyperLink": "https://vedabase.io/en/library/poy/1/",
+       "manas": {
+        "map": "lib-poy-1-deep"
+       },
+       "note": "Arjuna turns down sitting meditation as too hard (Gita 6.33–34); in this age the same goal comes by chanting Hare Krishna."
       },
       {
        "id": "lib-poy-2",
        "topic": "2 · Yoga as Work in Devotion",
-       "hyperLink": "https://vedabase.io/en/library/poy/2/"
+       "hyperLink": "https://vedabase.io/en/library/poy/2/",
+       "manas": {
+        "map": "lib-poy-2-deep"
+       },
+       "note": "Renunciation and yoga are one: keep working, but for Krishna; the yogas are steps of one staircase; remembering Krishna is the essence."
       },
       {
        "id": "lib-poy-3",
        "topic": "3 · Yoga as Meditation on Krsna",
-       "hyperLink": "https://vedabase.io/en/library/poy/3/"
+       "hyperLink": "https://vedabase.io/en/library/poy/3/",
+       "manas": {
+        "map": "lib-poy-3-deep"
+       },
+       "note": "Meditate on Vishnu, not a void; the nine practices of bhakti; chanting purifies because the name is Krishna; His abode is not empty."
       },
       {
        "id": "lib-poy-4",
        "topic": "4 · Yoga as Body and Mind Control",
-       "hyperLink": "https://vedabase.io/en/library/poy/4/"
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "map": "lib-poy-4-deep"
+       },
+       "note": "Practice and detachment, moderate eating and sleep, the four rules, the steady lamp, desire redirected, and the mind as friend or enemy."
       },
       {
        "id": "lib-poy-5",
        "topic": "5 · Yoga as Freedom from Duality and Designation",
-       "hyperLink": "https://vedabase.io/en/library/poy/5/"
+       "hyperLink": "https://vedabase.io/en/library/poy/5/",
+       "manas": {
+        "map": "lib-poy-5-deep"
+       },
+       "note": "Tolerating dualities, theory vs realised knowledge (jnana and vijnana), and equal vision beyond bodily labels (Gita 6.8–9)."
       },
       {
        "id": "lib-poy-6",
        "topic": "6 · The Fate of the Unsuccessful Yogī",
-       "hyperLink": "https://vedabase.io/en/library/poy/6/"
+       "hyperLink": "https://vedabase.io/en/library/poy/6/",
+       "manas": {
+        "map": "lib-poy-6-deep"
+       },
+       "note": "No sincere effort is lost: the failed yogi’s next life, Visvamitra and Menaka, and picking up where one left off (Gita 6.37–44)."
       },
       {
        "id": "lib-poy-7",
        "topic": "7 · Yoga as Reestablishing Relations with Kṛṣṇa",
-       "hyperLink": "https://vedabase.io/en/library/poy/7/"
+       "hyperLink": "https://vedabase.io/en/library/poy/7/",
+       "manas": {
+        "map": "lib-poy-7-deep"
+       },
+       "note": "We are always servants — of illusion or of Krishna; the five rasas; worldly bonds as reflections; Bali and the dwarf."
       },
       {
        "id": "lib-poy-8",
        "topic": "8 · The Perfection of Yoga",
-       "hyperLink": "https://vedabase.io/en/library/poy/8/"
+       "hyperLink": "https://vedabase.io/en/library/poy/8/",
+       "manas": {
+        "map": "lib-poy-8-deep"
+       },
+       "note": "The ladder from karma-yoga to bhakti-yoga; the highest yogi (Gita 6.47); Krishna consciousness as the last link."
       }
      ],
-     "note": "What the Gita says about yoga: rejected by Arjuna, then defined as devotion — the highest yogi thinks of Krishna within.",
+     "note": "What the Gita says about yoga: rejected by Arjuna, then defined as devotion — the highest yogi thinks of Krishna within. In depth (20 Nov 2026): every chapter opens its own idea-by-idea map — tap the arrow on a chapter. Search words: yoga, meditation, dhyana, astanga / ashtanga, mind control, restless mind, Kali-yuga, chanting, kirtana, karma yoga, jnana yoga, bhakti yoga, renunciation / sannyasa, four regulative principles, samadhi, duality, unsuccessful yogi, Visvamitra, rasa, Bali Maharaja, highest yogi.",
      "hyperLink": "https://vedabase.io/en/library/poy/",
      "icons": [
       "🧘"
@@ -34526,6 +34558,17 @@
            "node": "lib-owk-1"
           }
          }
+        },
+        {
+         "id": "uywk6en3ahil-see-poy",
+         "topic": "↪ See also: The Perfection of Yoga",
+         "note": "The Perfection of Yoga explains this whole chapter: Arjuna’s refusal (6.33–34), the seat and the rules (6.10–19), the failed yogi (6.37–44) and the highest yogi (6.47).",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-1"
+          }
+         }
         }
        ],
        "expanded": false
@@ -35366,6 +35409,17 @@
           "goto": {
            "map": "lib-owk",
            "node": "lib-owk-3"
+          }
+         }
+        },
+        {
+         "id": "uft5ocj9ahil-see-poy",
+         "topic": "↪ See also: The Perfection of Yoga",
+         "note": "Chapters 7–8 of The Perfection of Yoga explain verse 7.19: surrender after many births as the end of the yoga ladder.",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-8"
           }
          }
         }
@@ -62614,6 +62668,3466 @@
           "goto": {
            "map": "lib-bg-1-deep",
            "node": "lib-bg-1-deep-root"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-poy-1-deep",
+   "title": "The Perfection of Yoga 1 · In depth",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795166638993,
+   "updated": 1795166638993,
+   "library": "prabhupada",
+   "deepOf": "lib-poy",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-poy-1-deep-root",
+     "topic": "The Perfection of Yoga 1 · Yoga as Rejected by Arjuna",
+     "note": "Chapter 1 of Srila Prabhupada’s The Perfection of Yoga, idea by idea, in our own words, with every verse he cites linked on vedabase.io. Review in progress. Search words: yoga, meditation, dhyana, astanga yoga, ashtanga, mind control, restless mind, Madhusudana, Arjuna, Kali-yuga, kali yuga, ages, yugas, hari-kirtana, mantra-yoga, chanting, Hare Krishna, Gita 6.33, 6.34.",
+     "hyperLink": "https://vedabase.io/en/library/poy/1/",
+     "manas": {
+      "orbit": {
+       "ref": "POY 1"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-poy-1-deep-s1",
+       "topic": "1 · Yoga taught on a battlefield",
+       "note": "The complete teaching on yoga is not in the popular Western schools but in the Gita, where Krishna gives it to Arjuna Himself.",
+       "hyperLink": "https://vedabase.io/en/library/poy/1/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 1",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-1-deep-s1a",
+         "topic": "Many schools, little perfection",
+         "note": "Plenty of yoga systems spread in the West, yet Prabhupada says none of them gave the goal; for that we go to Krishna’s own words.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s1b",
+         "topic": "An hour, with armies waiting",
+         "note": "Both sides stood ready to fight, so the whole Gita was spoken in perhaps an hour — and at its end Arjuna’s doubts were gone and he fought.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Context"
+          },
+          "q": "Roughly how long, says The Perfection of Yoga, could the Gita have taken to speak, and why?"
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s1c",
+         "topic": "Why it was spoken at all",
+         "note": "Arjuna’s refusal to fight his relatives came from illusion born of sentiment; the Gita was given to remove that illusion.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Context"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-1-deep-s2",
+       "topic": "2 · Arjuna: “I cannot do this”",
+       "note": "After hearing the sitting method of meditation, Arjuna frankly declines it.",
+       "hyperLink": "https://vedabase.io/en/library/poy/1/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 1",
+         "tag": "Questions"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-1-deep-s2v",
+         "topic": "Arjuna turns down sitting meditation",
+         "note": "Having heard about the posture, the gaze and the lonely place, Arjuna says the method is beyond him because his mind will not stay still.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/33/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.33",
+           "tag": "Questions"
+          },
+          "q": "In which verse does Arjuna say the meditation Krishna described is too hard for him?"
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s2a",
+         "topic": "The world is built to unsettle",
+         "note": "We keep hoping the next change of job, place or partner will end our anxiety, but material life is arranged so such fixes never last.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s2b",
+         "topic": "An honest student",
+         "note": "Arjuna does not pretend. He openly admits he cannot follow the method — Prabhupada praises him for not being a cheater.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Faith"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-1-deep-s3",
+       "topic": "3 · Why call Him “Madhusudana”?",
+       "note": "Arjuna uses the name “killer of the demon Madhu” on purpose.",
+       "hyperLink": "https://vedabase.io/en/library/poy/1/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 1",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-1-deep-s3a",
+         "topic": "Names come from deeds",
+         "note": "God has endless activities and therefore endless names; we cannot even recall all our own deeds since childhood. Krishna is the chief name.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s3b",
+         "topic": "The mind as a demon",
+         "note": "Arjuna feels his mind is a demon stronger than Madhu, and in effect asks Krishna, who killed Madhu, to kill this one too.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "Why does Arjuna address Krishna as Madhusudana when he speaks about the mind?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-1-deep-s4",
+       "topic": "4 · Harder than stopping the wind",
+       "note": "The mind keeps ordering us here and there; taming it is the whole point of yoga.",
+       "hyperLink": "https://vedabase.io/en/library/poy/1/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 1",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-1-deep-s4v",
+         "topic": "Restless, stubborn, strong",
+         "note": "Arjuna lists how wild the mind is and says holding it is harder than holding the wind.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/34/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.34",
+           "tag": "Questions"
+          },
+          "q": "To what does Arjuna compare the difficulty of controlling the mind?"
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s4a",
+         "topic": "Picture: arms against a hurricane",
+         "note": "Imagine someone standing with arms spread, trying to stop a storm — that is how Arjuna sees mind control.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s4b",
+         "topic": "The aim of meditation",
+         "note": "In the meditation system the mind is steadied by fixing it on the Supersoul within; everything else is preparation for that.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-1-deep-s5",
+       "topic": "5 · If not Arjuna, then who?",
+       "note": "Prabhupada asks us to measure ourselves honestly against Arjuna.",
+       "hyperLink": "https://vedabase.io/en/library/poy/1/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 1",
+         "tag": "Devotees"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-1-deep-s5a",
+         "topic": "Arjuna’s standing",
+         "note": "Krishna’s personal friend, a famous warrior and ruler, able to grasp the Gita in one hour when scholars struggle for a lifetime.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s5b",
+         "topic": "A better age, a better man",
+         "note": "If this was impossible for him in a higher age, it is unrealistic for us in a fallen one; we should not place ourselves in his class.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s5v",
+         "topic": "His real qualification",
+         "note": "There is no record of Arjuna ever practising sitting yoga, yet Krishna chose him because he was His devotee and dear friend.",
+         "hyperLink": "https://vedabase.io/en/library/bg/4/3/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 4.3",
+           "tag": "Devotees"
+          },
+          "q": "What qualification made Arjuna fit to hear the Gita, according to Krishna?"
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s5c",
+         "topic": "So the mind can be won",
+         "note": "No need to despair: when the mind is kept on Krishna it is controlled, and that absorption is already yoga’s perfection.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Surrender"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-1-deep-s6",
+       "topic": "6 · Each age has its method",
+       "note": "The Bhagavatam names a different main practice for each of the four ages.",
+       "hyperLink": "https://vedabase.io/en/library/poy/1/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 1",
+         "tag": "Chanting"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-1-deep-s6v",
+         "topic": "Four ages, four practices",
+         "note": "Meditation on Vishnu in Satya, great sacrifices in Treta, temple worship in Dvapara — and in Kali the same result comes by chanting the Lord’s names.",
+         "hyperLink": "https://vedabase.io/en/library/sb/12/3/52/",
+         "manas": {
+          "orbit": {
+           "ref": "SB 12.3.52",
+           "tag": "Chanting"
+          },
+          "q": "What does SB 12.3.52 give as the method of each age?"
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s6a",
+         "topic": "Satya-yuga: very long lives",
+         "note": "People then lived for about a hundred thousand years, so long, steady meditation was practical.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s6b",
+         "topic": "Kali-yuga: short, anxious lives",
+         "note": "Now we live fifty to a hundred years, troubled by war, disease and famine, and we are less intelligent and less fortunate.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s6c",
+         "topic": "Mantra-yoga for today",
+         "note": "Chanting Hare Krishna, taught by Sri Caitanya and backed by scripture, holds the full result of yoga for this age.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s6v2",
+         "topic": "Great souls always glorify Him",
+         "note": "The Gita says the mahatmas are always chanting the Lord’s glories; to be a great soul, take up that practice.",
+         "hyperLink": "https://vedabase.io/en/library/bg/9/14/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 9.14",
+           "tag": "Chanting"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-1-deep-s7",
+       "topic": "7 · Imitation yoga",
+       "note": "What is often sold as yoga is not what the Gita describes.",
+       "hyperLink": "https://vedabase.io/en/library/poy/1/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 1",
+         "tag": "Desire"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-1-deep-s7a",
+         "topic": "Exercise and breathing classes",
+         "note": "People pay to stretch and breathe deeply hoping for a few extra years or better sex life — useful perhaps, but not the Gita’s yoga.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s7b",
+         "topic": "A stage show of trance",
+         "note": "Sitting stiffly and putting on a trance like a performer is, in Prabhupada’s word, a “show-bottle” — display without substance.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-s7c",
+         "topic": "Example: real medicine",
+         "note": "The disease of material life is not cured by a fake remedy; the cure has to come from Krishna Himself.",
+         "hyperLink": "https://vedabase.io/en/library/poy/1/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What does the example of artificial medicine say about imitation yoga?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-1-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 1.",
+       "children": [
+        {
+         "id": "lib-poy-1-deep-t1",
+         "topic": "Be as honest as Arjuna",
+         "note": "Admit what you cannot do, then take the method that works for this age."
+        },
+        {
+         "id": "lib-poy-1-deep-t2",
+         "topic": "Keep the mind on Krishna",
+         "note": "That is the control the meditator seeks — reached by chanting His names."
+        },
+        {
+         "id": "lib-poy-1-deep-see1",
+         "topic": "See also: Gita Chapter 6",
+         "note": "Verses 6.33–6.34, Arjuna’s refusal, are the starting point of this book.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uywk6en3ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-1-deep-next",
+         "topic": "Next: Chapter 2",
+         "note": "Open the next chapter of The Perfection of Yoga.",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-2"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-poy-2-deep",
+   "title": "The Perfection of Yoga 2 · In depth",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795166638998,
+   "updated": 1795166638998,
+   "library": "prabhupada",
+   "deepOf": "lib-poy",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-poy-2-deep-root",
+     "topic": "The Perfection of Yoga 2 · Yoga as Work in Devotion",
+     "note": "Chapter 2 of Srila Prabhupada’s The Perfection of Yoga, idea by idea, in our own words, with every verse he cites linked on vedabase.io. Review in progress. Search words: karma yoga, karma-yoga, work, duty, sannyasa, renunciation, yogi, sannyasi, staircase of yoga, jnana yoga, bhakti yoga, devotional service, always thinking of Krishna, idleness, ISKCON, Gita 6.2, 6.47.",
+     "hyperLink": "https://vedabase.io/en/library/poy/2/",
+     "manas": {
+      "orbit": {
+       "ref": "POY 2"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-poy-2-deep-s1",
+       "topic": "1 · The real yogi has surrendered",
+       "note": "Krishna defines the true yogi as one fully given to Him.",
+       "hyperLink": "https://vedabase.io/en/library/poy/2/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 2",
+         "tag": "Surrender"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-2-deep-s1v",
+         "topic": "Renunciation = yoga",
+         "note": "Giving up the urge for sense pleasure is what both the renunciant and the yogi must do, so the two are the same thing.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/2/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.2",
+           "tag": "Surrender"
+          },
+          "q": "Which verse says renunciation and yoga are one and the same?"
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s1a",
+         "topic": "Yoga for profit is not yoga",
+         "note": "Some teach or practise yoga to make money; Prabhupada says that is not the real thing — everything must go to the Lord’s service.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-2-deep-s2",
+       "topic": "2 · A staircase of yogas",
+       "note": "The Gita’s yogas are steps on one stair, not rival roads.",
+       "hyperLink": "https://vedabase.io/en/library/poy/2/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 2",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-2-deep-s2a",
+         "topic": "Three main yogas",
+         "note": "The Gita sets out karma-yoga (work), jnana-yoga (knowledge) and bhakti-yoga (devotion).",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s2b",
+         "topic": "Example: the staircase",
+         "note": "One person is on the bottom step, one halfway, one at the top: the service to the Lord is the same, only the height differs.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What example does The Perfection of Yoga use for the relation between karma, jnana and bhakti yoga?"
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s2c",
+         "topic": "Named by the step you are on",
+         "note": "A person is called a karma-yogi or jnana-yogi according to the level reached; chapter 8 returns to this ladder.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          },
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-8"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-2-deep-s3",
+       "topic": "3 · A warrior and the highest yogi",
+       "note": "The puzzle of the Gita: Krishna asks Arjuna to be a yogi and to keep fighting.",
+       "hyperLink": "https://vedabase.io/en/library/poy/2/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 2",
+         "tag": "Purpose"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-2-deep-s3a",
+         "topic": "Never told to stop fighting",
+         "note": "Krishna urges Arjuna to become a yogi, but nowhere asks him to leave the battle; quite the opposite.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s3b",
+         "topic": "The secret: do it for Krishna",
+         "note": "Fight, work, eat and sleep for Krishna — then even a soldier is the highest yogi and renunciant.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Surrender"
+          },
+          "q": "How can a man fighting a war also be the highest yogi?"
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s3c",
+         "topic": "Beginners should keep working",
+         "note": "Starting yoga is no reason to quit one’s work; on the first step of the stair, the practice is work offered to the Lord.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s3d",
+         "topic": "Common mistake",
+         "note": "Thinking yoga means only a straight back, crossed legs and staring at the nose in a lonely spot misses what Krishna actually asks.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-2-deep-s4",
+       "topic": "4 · Remembering Krishna is the essence",
+       "note": "Why Arjuna is called the top yogi though he turned down meditation.",
+       "hyperLink": "https://vedabase.io/en/library/poy/2/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 2",
+         "tag": "Love"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-2-deep-s4v",
+         "topic": "“You are always thinking of Me”",
+         "note": "Krishna ranks highest the yogi who keeps Him in mind with faith and serves Him — and that is why Arjuna qualifies.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/47/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.47",
+           "tag": "Love"
+          },
+          "q": "Why does Krishna call Arjuna the highest yogi even though he rejected meditation?"
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s4a",
+         "topic": "Where every path ends",
+         "note": "Hatha, karma, jnana, bhakti, sacrifice and charity all culminate in thinking of Krishna constantly.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s4b",
+         "topic": "Life’s perfection",
+         "note": "To stay aware of Krishna while doing every kind of activity is, for Prabhupada, the perfection of human life.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-2-deep-s5",
+       "topic": "5 · Always engaged",
+       "note": "Practical advice for the early stage of yoga.",
+       "hyperLink": "https://vedabase.io/en/library/poy/2/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 2",
+         "tag": "Devotees"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-2-deep-s5a",
+         "topic": "Idleness is a bad policy",
+         "note": "Always look for some service; staying idle even for a moment gives the mind room to wander.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s5b",
+         "topic": "Later, service goes inward",
+         "note": "An advanced devotee may not work with the body all the time but is inwardly busy remembering Krishna; beginners engage the senses.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s5c",
+         "topic": "Why the Society exists",
+         "note": "ISKCON was formed to guide aspiring devotees in these many kinds of service, day and night.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Preaching"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s5d",
+         "topic": "Work without fatigue",
+         "note": "Material work wears us out; chanting and service on the spiritual level can go on all day without tiring, because spirit is absolute.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          },
+          "q": "Why does work in Krishna consciousness not make one tired, according to chapter 2?"
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-s5e",
+         "topic": "No hunger for the fruit",
+         "note": "Worldly workers spend their earnings on the senses; the real yogi wants nothing but Krishna, and Krishna is already present.",
+         "hyperLink": "https://vedabase.io/en/library/poy/2/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-2-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 2.",
+       "children": [
+        {
+         "id": "lib-poy-2-deep-t1",
+         "topic": "Keep your work",
+         "note": "Change the motive, not the job: offer it to Krishna."
+        },
+        {
+         "id": "lib-poy-2-deep-t2",
+         "topic": "Stay busy in service",
+         "note": "Fill the day with something for Krishna; the mind then has nowhere else to go."
+        },
+        {
+         "id": "lib-poy-2-deep-see1",
+         "topic": "See also: Gita Chapter 6",
+         "note": "Verses 6.2 and 6.47 frame this chapter.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uywk6en3ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-see2",
+         "topic": "See also: Gita Chapter 2",
+         "note": "Chapter 2 of the Gita first gives the idea of work without attachment.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "olklkua2ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-2-deep-next",
+         "topic": "Next: Chapter 3",
+         "note": "Open the next chapter of The Perfection of Yoga.",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-3"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-poy-3-deep",
+   "title": "The Perfection of Yoga 3 · In depth",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795166639002,
+   "updated": 1795166639002,
+   "library": "prabhupada",
+   "deepOf": "lib-poy",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-poy-3-deep-root",
+     "topic": "The Perfection of Yoga 3 · Yoga as Meditation on Krsna",
+     "note": "Chapter 3 of Srila Prabhupada’s The Perfection of Yoga, idea by idea, in our own words, with every verse he cites linked on vedabase.io. Review in progress. Search words: meditation, dhyana, kirtana, kirtan, sankirtana, nine processes, navadha bhakti, sravanam kirtanam, hearing and chanting, Vishnu, Visnu, void, sunyavada, purification, harer nama, forest fire, lunatic asylum, Gita 6.7, 6.15.",
+     "hyperLink": "https://vedabase.io/en/library/poy/3/",
+     "manas": {
+      "orbit": {
+       "ref": "POY 3"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-poy-3-deep-s1",
+       "topic": "1 · Alone, or all together?",
+       "note": "Sitting meditation needs solitude; chanting thrives in a crowd.",
+       "hyperLink": "https://vedabase.io/en/library/poy/3/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 3",
+         "tag": "Chanting"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-3-deep-s1a",
+         "topic": "Meditation needs a lonely holy place",
+         "note": "The Gita’s method asks the meditator to go to a secluded, sacred spot — in effect to leave home.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/10/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.10",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s1b",
+         "topic": "Kirtana: the more the better",
+         "note": "Five centuries ago Sri Caitanya arranged parties with sixteen lead singers each, and thousands chanted with them.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          },
+          "q": "How did Sri Caitanya organise public kirtana, according to chapter 3?"
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s1c",
+         "topic": "Solitude is scarce today",
+         "note": "In crowded modern life a truly secluded place is hard to find; bhakti-yoga does not depend on one.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s1d",
+         "topic": "Common mistake",
+         "note": "Practising sitting meditation in a busy city or club is our own invention, not the method the Gita lays down.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-3-deep-s2",
+       "topic": "2 · The nine limbs of bhakti",
+       "note": "Devotional yoga has nine practices; two lead the rest.",
+       "hyperLink": "https://vedabase.io/en/library/poy/3/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 3",
+         "tag": "Chanting"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-3-deep-s2v",
+         "topic": "The nine practices",
+         "note": "Hearing, chanting, remembering, serving, Deity worship, prayer, carrying out orders, friendship with Krishna and offering Him everything.",
+         "hyperLink": "https://vedabase.io/en/library/sb/7/5/23-24/",
+         "manas": {
+          "orbit": {
+           "ref": "SB 7.5.23–24",
+           "tag": "Knowledge"
+          },
+          "q": "Name the nine practices of bhakti-yoga."
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s2a",
+         "topic": "Hearing and chanting come first",
+         "note": "Sravanam and kirtanam are the most important of the nine.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s2b",
+         "topic": "Call and response",
+         "note": "One person sings the mantra and the group answers, so hearing and chanting pass back and forth — at home with friends or in a big public place.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-3-deep-s3",
+       "topic": "3 · What purification means",
+       "note": "All yoga aims to purify; purity means knowing who we really are.",
+       "hyperLink": "https://vedabase.io/en/library/poy/3/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 3",
+         "tag": "Soul"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-3-deep-s3a",
+         "topic": "“I am spirit, not matter”",
+         "note": "Contact with matter makes us think we are the body; real yoga starts by seeing ourselves as distinct from it.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          },
+          "q": "According to chapter 3, what is the purification that yoga aims at?"
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s3b",
+         "topic": "Why go to a lonely place",
+         "note": "The solitude of the meditator is meant to bring this one realisation; done wrongly, the method cannot give it.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s3v",
+         "topic": "Harer nama: no other way",
+         "note": "Sri Caitanya’s verse says three times that in this age the holy name is the only path.",
+         "hyperLink": "https://vedabase.io/en/library/cc/adi/17/21/",
+         "manas": {
+          "orbit": {
+           "ref": "CC Adi 17.21",
+           "tag": "Chanting"
+          },
+          "q": "Which verse says three times that there is no other way in this age than the holy name?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-3-deep-s4",
+       "topic": "4 · Meditate on Vishnu, not on nothing",
+       "note": "The Vedas never ask us to meditate on a void.",
+       "hyperLink": "https://vedabase.io/en/library/poy/3/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 3",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-3-deep-s4a",
+         "topic": "Not on emptiness",
+         "note": "A common Western idea is that yoga means fixing the mind on a void; Vedic texts and the Gita say the object is Vishnu.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s4b",
+         "topic": "Why half the class falls asleep",
+         "note": "With eyes shut and nothing to think of, many meditators simply doze off.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "Why, says Prabhupada, do many in a meditation class fall asleep?"
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s4v",
+         "topic": "Eyes half-closed, gaze on the nose",
+         "note": "Krishna’s posture — body straight, eyes half open on the nose tip — is there to keep the meditator awake.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/13-14/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.13–14",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s4c",
+         "topic": "Other conditions",
+         "note": "Undisturbed, without fear, fully celibate and with no demands on him: then the meditator can control the mind.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s4d",
+         "topic": "Then think of Krishna",
+         "note": "Having met every condition, the meditator moves all thought to Krishna; Krishna calls such a yogi one who thinks of Him.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-3-deep-s5",
+       "topic": "5 · Why chanting purifies",
+       "note": "Chanting gives the meditator’s result without the meditator’s hardship.",
+       "hyperLink": "https://vedabase.io/en/library/poy/3/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 3",
+         "tag": "Chanting"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-3-deep-s5a",
+         "topic": "The sound is Krishna",
+         "note": "The holy name is not different from Krishna; when we chant with devotion He is with us, so impurity cannot stay.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          },
+          "q": "Why does chanting Hare Krishna purify, according to chapter 3?"
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s5b",
+         "topic": "Highest yoga, less trouble",
+         "note": "One who chants and serves gets the fruit of the highest yoga without the strain of the sitting process.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Mercy"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s5c",
+         "topic": "Hours vs minutes",
+         "note": "People can chant in kirtana for hours without tiring, but few can hold a perfect lotus posture for more than minutes.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-3-deep-s6",
+       "topic": "6 · Peace in a burning forest",
+       "note": "Real peace comes only to the one who has risen above matter.",
+       "hyperLink": "https://vedabase.io/en/library/poy/3/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 3",
+         "tag": "Liberation"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-3-deep-s6v",
+         "topic": "Mind conquered, Supersoul reached",
+         "note": "Whoever has mastered the mind has in effect reached the Supersoul, because he is at peace.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/7/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.7",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s6a",
+         "topic": "Example: the forest fire",
+         "note": "Like a forest fire that starts by itself, trouble flares up in this world however peaceful we try to be.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What does the example of the forest fire describe?"
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s6b",
+         "topic": "Three routes to peace",
+         "note": "Meditation, philosophical study or devotion can all lift one above it; chanting is the most effective in this age.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-3-deep-s7",
+       "topic": "7 · Not a void but a kingdom",
+       "note": "When material life ends, the yogi enters Krishna’s abode, not nothingness.",
+       "hyperLink": "https://vedabase.io/en/library/poy/3/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 3",
+         "tag": "Liberation"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-3-deep-s7v",
+         "topic": "The yogi reaches My abode",
+         "note": "Meditating in this way, the controlled yogi ends material existence and attains Krishna’s kingdom.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/15/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.15",
+           "tag": "Liberation"
+          },
+          "q": "Which verse says the successful yogi enters Krishna’s abode rather than a void?"
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s7a",
+         "topic": "Like a busy establishment",
+         "note": "Krishna’s abode is full of variety and activity, not an empty light.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Vraja"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s7b",
+         "topic": "Example: the asylum",
+         "note": "Forgetting our real identity, we became “crazy” and were put here, as a madman is put in an asylum; little here is done sanely.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "Why does Prabhupada compare the material world to a lunatic asylum?"
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-s7c",
+         "topic": "A sane person uses the map",
+         "note": "The Gita explains who Krishna is, who we are and how to go home; a sensible person takes that information seriously.",
+         "hyperLink": "https://vedabase.io/en/library/poy/3/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-3-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 3.",
+       "children": [
+        {
+         "id": "lib-poy-3-deep-t1",
+         "topic": "Fix the mind on a Person",
+         "note": "Meditation has an object — Vishnu, Krishna — not a void."
+        },
+        {
+         "id": "lib-poy-3-deep-t2",
+         "topic": "Chant together",
+         "note": "Kirtana gives the meditator’s goal in a crowd, at home, any time."
+        },
+        {
+         "id": "lib-poy-3-deep-see1",
+         "topic": "See also: Gita Chapter 6",
+         "note": "Verses 6.7, 6.10–15 are the meditation instructions discussed here.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uywk6en3ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-3-deep-next",
+         "topic": "Next: Chapter 4",
+         "note": "Open the next chapter of The Perfection of Yoga.",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-4"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-poy-4-deep",
+   "title": "The Perfection of Yoga 4 · In depth",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795166639007,
+   "updated": 1795166639007,
+   "library": "prabhupada",
+   "deepOf": "lib-poy",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-poy-4-deep-root",
+     "topic": "The Perfection of Yoga 4 · Yoga as Body and Mind Control",
+     "note": "Chapter 4 of Srila Prabhupada’s The Perfection of Yoga, idea by idea, in our own words, with every verse he cites linked on vedabase.io. Review in progress. Search words: mind control, body control, abhyasa, vairagya, practice and detachment, regulation, eating, sleeping, four regulative principles, celibacy, brahmacari, brahmachari, samadhi, prasadam, desire, friend and enemy, atma, association, sadhu, Gita 6.4–6.7, 6.10–12, 6.16–23, 6.35–36.",
+     "hyperLink": "https://vedabase.io/en/library/poy/4/",
+     "manas": {
+      "orbit": {
+       "ref": "POY 4"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-poy-4-deep-s1",
+       "topic": "1 · Practice and detachment",
+       "note": "Krishna admits the mind is hard to tame, then names two tools.",
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 4",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-4-deep-s1v",
+         "topic": "Hard, but possible",
+         "note": "Krishna agrees the restless mind is difficult, yet says it can be held by steady practice and by detachment.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/35/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.35",
+           "tag": "Knowledge"
+          },
+          "q": "What two means does Krishna give in BG 6.35 for controlling the mind?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s1a",
+         "topic": "Why detachment is hard today",
+         "note": "We are so used to many sense pleasures that we can hardly give up anything; many cannot drop even a smoking habit.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s1b",
+         "topic": "Common mistake",
+         "note": "Living without restraint and still expecting success from a weekly yoga class.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-4-deep-s2",
+       "topic": "2 · Moderation for the body",
+       "note": "The Gita’s meditation demands a disciplined body.",
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 4",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-4-deep-s2v1",
+         "topic": "Neither feast nor fast",
+         "note": "Yoga fails for one who eats far too much or far too little.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/16/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.16",
+           "tag": "Knowledge"
+          },
+          "q": "What does BG 6.16 say about eating and yoga?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s2a",
+         "topic": "Eat to live, not for the tongue",
+         "note": "Food is for keeping the body going; we tend to take one dish, then a second and a third, because the tongue is never content.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s2b",
+         "topic": "Example: a spoon of rice",
+         "note": "In India one can still see a yogi who lives on a small spoonful of rice a day.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s2c",
+         "topic": "Sleep: enough, not more",
+         "note": "Too much sleep — and every sleep has dreams — hinders yoga, and so does insomnia; Prabhupada suggests no more than six hours.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          },
+          "q": "How many hours of sleep does Prabhupada suggest for one practising yoga?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s2v2",
+         "topic": "Regulated habits ease suffering",
+         "note": "Moderation in eating, sleeping, recreation and work lessens material pain through yoga.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/17/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.17",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s2d",
+         "topic": "The four basic rules",
+         "note": "No illicit sex, no intoxication, no meat-eating, no gambling — the minimum for any yoga. Test yourself by them.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          },
+          "q": "What are the four basic regulations Prabhupada names for any yoga practice?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-4-deep-s3",
+       "topic": "3 · Alone, desireless, owning nothing",
+       "note": "The conditions for the meditator in Krishna’s own words.",
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 4",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-4-deep-s3v",
+         "topic": "Live alone, want nothing",
+         "note": "The meditator keeps to a lonely place, controls the mind and gives up desires and possessiveness.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/10/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.10",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s3a",
+         "topic": "Example: the Kumbha Mela",
+         "note": "Thousands of yogis still gather about once in twelve years at places like Allahabad — much as businessmen hold conventions.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s3b",
+         "topic": "No powers, no gifts",
+         "note": "The meditator should not seek mystic powers or accept favours from people, and must stay clear why he became a yogi.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s3c",
+         "topic": "Never really alone",
+         "note": "The Supersoul is always with him, so the solitary yogi does not feel lonely.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s3d",
+         "topic": "Why it suits few today",
+         "note": "Modern life in Kali-yuga makes being alone, desireless and without possessions almost impossible.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Context"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-4-deep-s4",
+       "topic": "4 · The seat",
+       "note": "Krishna even describes what the meditator sits on.",
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 4",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-4-deep-s4v",
+         "topic": "Kusa grass, deerskin, cloth",
+         "note": "A firm seat in a sacred spot, not too high or low, layered with kusa grass, a skin and a cloth; then fix the mind on one point.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/11-12/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.11–12",
+           "tag": "Knowledge"
+          },
+          "q": "What seat does Krishna describe for meditation in BG 6.11–12?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s4a",
+         "topic": "Why a skin?",
+         "note": "Snakes are said to avoid tiger or deer skins, so the meditator is not disturbed — everything in creation has some use.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s4b",
+         "topic": "Powers are not the goal",
+         "note": "Yogis sometimes gain siddhis, but real yogis do not show them off; the aim is to clean oneself of material contamination.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-4-deep-s5",
+       "topic": "5 · Regulate, don’t abolish",
+       "note": "Body needs remain while we have a body; the Vedas regulate them.",
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 4",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-4-deep-s5a",
+         "topic": "Eat, sleep, mate — within limits",
+         "note": "Sex desire, hunger and sleep stay as long as the body does; Vedic guidelines set limits so the senses do not run wild.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s5b",
+         "topic": "Samadhi, redefined",
+         "note": "Samadhi is not stopping all activity; it is doing regulated work while absorbed in thought of Krishna.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          },
+          "q": "How does chapter 4 define samadhi?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s5v",
+         "topic": "Unbridled mind, hard work",
+         "note": "For one whose mind is unchecked, self-realisation is difficult; for one who tries by the right means, success is sure.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/36/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.36",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s5c",
+         "topic": "Example: the unbridled horse",
+         "note": "A horse without reins can bolt anywhere and harm the rider; so does an untrained mind.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s5d",
+         "topic": "“Right means” explained",
+         "note": "Follow the four regulative principles and do your work absorbed in Krishna.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s5e",
+         "topic": "Yoga at home",
+         "note": "A householder who wants yoga keeps work, food and pleasure moderate and life as free from anxiety as possible.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Family"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-4-deep-s6",
+       "topic": "6 · The sign of success",
+       "note": "How to tell that someone has reached yoga.",
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 4",
+         "tag": "Desire"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-4-deep-s6v",
+         "topic": "Mind settled, desires gone",
+         "note": "When the disciplined mind rests in the transcendent, free from material desire, one is said to be in yoga.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/18/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.18",
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s6a",
+         "topic": "Transfer desire — you cannot kill it",
+         "note": "Desire always goes with the living being; we purify it by wanting things for Krishna instead of for our senses.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          },
+          "q": "Can desire be killed, according to chapter 4? What is done instead?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s6b",
+         "topic": "Example: cooking for Krishna",
+         "note": "We still cook tasty vegetarian food, but for Krishna, offer it, then honour the prasadam — same action, changed consciousness.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "How does cooking for Krishna illustrate the purification of desire?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s6c",
+         "topic": "The tongue is the hardest sense",
+         "note": "The prayer said before eating prasadam names the tongue as the greediest sense, conquered by spiritual food.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Mercy"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s6d",
+         "topic": "More than breathing",
+         "note": "Deep breathing and exercises alone are not yoga by the Gita’s standard; a full cleaning of consciousness is needed.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-4-deep-s7",
+       "topic": "7 · The steady lamp",
+       "note": "An unmoving flame pictures the controlled mind.",
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 4",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-4-deep-s7v",
+         "topic": "A flame where no wind blows",
+         "note": "The controlled yogi’s meditation stays as steady as a lamp sheltered from the wind.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/19/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.19",
+           "tag": "Knowledge"
+          },
+          "q": "Which image does BG 6.19 use for the steady mind of a yogi?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s7a",
+         "topic": "A little wind changes everything",
+         "note": "The mind, like a flame, flickers at the slightest desire, and a small flicker can shift the whole consciousness.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Desire"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s7b",
+         "topic": "Two kinds of brahmacari",
+         "note": "Full celibacy, or a married man faithful to his wife with strictly regulated relations — both keep the mind calm.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Family"
+          },
+          "q": "What are the two kinds of brahmacari described in chapter 4?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s7c",
+         "topic": "Drag it back",
+         "note": "Whenever the mind strays from Vishnu, the yogi pulls it back; this takes long practice.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-4-deep-s8",
+       "topic": "8 · Real enjoyment",
+       "note": "Yoga does not kill pleasure; it gives the real kind.",
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 4",
+         "tag": "Love"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-4-deep-s8a",
+         "topic": "Ramante yogino anante",
+         "note": "Yogis delight in the unlimited; that spiritual joy is what “Rama” in Hare Rama refers to.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          },
+          "q": "What does “Rama” in the Hare Krishna mantra mean, according to chapter 4?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s8b",
+         "topic": "Example: the sick man",
+         "note": "A sick person cannot really enjoy, and eating freely may kill him; more material enjoyment only ties us tighter.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s8v",
+         "topic": "Boundless, unshakable happiness",
+         "note": "In samadhi the self is seen by the pure mind and enjoyed through spiritual senses; nothing is felt as a greater gain, and no trouble can shake it.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/20-23/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.20–23",
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s8c",
+         "topic": "Without conviction, a fall",
+         "note": "One who is not sure that sense pleasure is not real happiness will be disturbed and fall down.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Faith"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-4-deep-s9",
+       "topic": "9 · Your own friend — or enemy",
+       "note": "The trained mind lifts us; the untrained one drags us down.",
+       "hyperLink": "https://vedabase.io/en/library/poy/4/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 4",
+         "tag": "Soul"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-4-deep-s9v1",
+         "topic": "Lift yourself by the mind",
+         "note": "Free of sense desire one is established in yoga; we must raise ourselves by our own mind and not degrade ourselves.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/4/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.4–5",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s9a",
+         "topic": "Canakya: friend by behaviour",
+         "note": "No one is born a friend or an enemy; behaviour shows which one is. The same holds in how we treat ourselves.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s9v2",
+         "topic": "Conquered mind, best friend",
+         "note": "For one who has won over the mind it is the best friend; for one who has not, it is the worst enemy.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/6/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.6",
+           "tag": "Soul"
+          },
+          "q": "Which verse says the mind can be our best friend or worst enemy?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s9b",
+         "topic": "Atma: three meanings",
+         "note": "The word atma can mean body, mind or soul depending on one’s level; the Nirukti dictionary gives all three, and in this verse it means mind.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          },
+          "q": "What three things can the word “atma” mean?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s9c",
+         "topic": "The mind follows its company",
+         "note": "The mind’s job is to desire, and we desire according to the company we keep — so good association trains it.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s9d",
+         "topic": "Sat and asat",
+         "note": "A sadhu is engaged in what lasts (sat); chasing bodily pleasure engages us in what passes (asat).",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s9e",
+         "topic": "Sharp words cut attachment",
+         "note": "A real teacher speaks plainly to cut the student’s attachments, as Krishna did when He told Arjuna he spoke learnedly yet grieved foolishly.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/11/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.11",
+           "tag": "Guru"
+          },
+          "q": "Why does a genuine spiritual master sometimes use sharp words?"
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s9f",
+         "topic": "Example: Krishna in the fort",
+         "note": "A fort guarded by a great general is safe; put Krishna in the fort of the mind and no enemy gets in.",
+         "hyperLink": "https://vedabase.io/en/library/poy/4/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-s9v3",
+         "topic": "Calm through heat and cold",
+         "note": "For the one who has won the mind, heat and cold, joy and sorrow, praise and insult are all the same.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/7/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.7",
+           "tag": "Liberation"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-4-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 4.",
+       "children": [
+        {
+         "id": "lib-poy-4-deep-t1",
+         "topic": "Moderate, not extreme",
+         "note": "Eat, sleep and work in measure; follow the four basic rules."
+        },
+        {
+         "id": "lib-poy-4-deep-t2",
+         "topic": "Redirect desire",
+         "note": "Do the same things for Krishna — cooking, working, enjoying."
+        },
+        {
+         "id": "lib-poy-4-deep-t3",
+         "topic": "Choose your company",
+         "note": "The mind becomes like the people it keeps company with."
+        },
+        {
+         "id": "lib-poy-4-deep-see1",
+         "topic": "See also: Gita Chapter 6",
+         "note": "This chapter walks through verses 6.4–6.7, 6.10–12, 6.16–23 and 6.35–36.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uywk6en3ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-seex1",
+         "topic": "See also: On the Way to Krsna 1",
+         "note": "That book’s first chapter explains the same verses on boundless happiness (Gita 6.20–28).",
+         "manas": {
+          "goto": {
+           "map": "lib-owk",
+           "node": "lib-owk-1"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-4-deep-next",
+         "topic": "Next: Chapter 5",
+         "note": "Open the next chapter of The Perfection of Yoga.",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-5"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-poy-5-deep",
+   "title": "The Perfection of Yoga 5 · In depth",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795166639011,
+   "updated": 1795166639011,
+   "library": "prabhupada",
+   "deepOf": "lib-poy",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-poy-5-deep-root",
+     "topic": "The Perfection of Yoga 5 · Yoga as Freedom from Duality and Designation",
+     "note": "Chapter 5 of Srila Prabhupada’s The Perfection of Yoga, idea by idea, in our own words, with every verse he cites linked on vedabase.io. Review in progress. Search words: duality, dualities, opposites, tolerance, titiksha, happiness and distress, jnana and vijnana, theory and practice, equal vision, sama-darshana, designations, upadhi, friend and enemy, stage play, Gita 2.14, 6.8, 6.9.",
+     "hyperLink": "https://vedabase.io/en/library/poy/5/",
+     "manas": {
+      "orbit": {
+       "ref": "POY 5"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-poy-5-deep-s1",
+       "topic": "1 · A world of opposites",
+       "note": "Here every experience comes with its opposite.",
+       "hyperLink": "https://vedabase.io/en/library/poy/5/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 5",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-5-deep-s1a",
+         "topic": "We know one by the other",
+         "note": "Heat and cold, joy and sorrow, honour and insult: we cannot understand one side without having tasted the other.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s1v",
+         "topic": "They come from the body",
+         "note": "Krishna tells Arjuna that happiness and distress come and go with the body, so learn to bear them.",
+         "hyperLink": "https://vedabase.io/en/library/bg/2/14/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 2.14",
+           "tag": "Knowledge"
+          },
+          "q": "Which verse says the pairs of happiness and distress come from the body and should be tolerated?"
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s1b",
+         "topic": "Example: an itch",
+         "note": "Like a skin itch, dualities nag at us; we should not go mad scratching, nor abandon our duty because mosquitoes bite.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What example does chapter 5 use for putting up with dualities?"
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s1c",
+         "topic": "Out of the bodily idea, not the body",
+         "note": "While the body lasts dualities remain; what we leave behind is the idea that we are the body.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s1d",
+         "topic": "Small with Krishna in mind",
+         "note": "When the mind is fixed on Krishna, all these ups and downs look minor.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Surrender"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-5-deep-s2",
+       "topic": "2 · Knowledge you can see",
+       "note": "Realisation shows in how one lives.",
+       "hyperLink": "https://vedabase.io/en/library/poy/5/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 5",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-5-deep-s2v",
+         "topic": "Pebbles, stones and gold alike",
+         "note": "One satisfied by knowledge and realisation, self-controlled and transcendent, sees a pebble and gold with the same eye.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/8/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.8",
+           "tag": "Knowledge"
+          },
+          "q": "In BG 6.8, what does the self-realised yogi see as equal?"
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s2a",
+         "topic": "Jnana and vijnana",
+         "note": "Jnana is theory, vijnana is applied knowledge — like a science student who must also do the practical.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          },
+          "q": "What is the difference between jnana and vijnana?"
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s2b",
+         "topic": "Common mistake: philosophy and cigarettes",
+         "note": "Groups that discuss Vedanta while smoking, drinking and indulging show knowledge that has not been put into practice.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s2c",
+         "topic": "The test: fewer bodily demands",
+         "note": "One who really knows “I am not this body” cuts bodily needs to a minimum; adding demands shows the knowledge is only talk.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s2d",
+         "topic": "A calm mind is the sign",
+         "note": "Attending classes for life while staying the same is not yoga; the sign of progress is a mind no longer pulled by worldly glitter.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s2e",
+         "topic": "Gadgets as street rubbish",
+         "note": "The yogi sees the endless products made for the senses as no more valuable than rubbish in the road.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Wealth"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-5-deep-s3",
+       "topic": "3 · An equal eye for people",
+       "note": "A further stage: the same mind toward friend and foe.",
+       "hyperLink": "https://vedabase.io/en/library/poy/5/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 5",
+         "tag": "Love"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-5-deep-s3v",
+         "topic": "Friend, foe, saint, sinner",
+         "note": "One who looks with an equal mind on well-wishers, friends, the neutral, the envious, the pious and the sinful is still more advanced.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/9/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.9",
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s3a",
+         "topic": "Kinds of relation named",
+         "note": "Suhrt (natural well-wisher), mitra (friend), udasina (neutral), madhya-stha (go-between), and the envious.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          },
+          "q": "What do suhrt, mitra, udasina and madhya-stha mean?"
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s3b",
+         "topic": "Example: actors on a stage",
+         "note": "On stage one plays the villain, one the hero; backstage all are friends. Our bodily roles are a similar play on nature’s stage.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What does the stage-play example teach about bodily relationships?"
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s3c",
+         "topic": "We beget bodies, not souls",
+         "note": "A father can produce only a body; the soul is placed in it from above, as the Bhagavatam explains — so “my son” is a bodily label.",
+         "hyperLink": "https://vedabase.io/en/library/sb/3/31/1/",
+         "manas": {
+          "orbit": {
+           "ref": "SB 3.31.1",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-s3d",
+         "topic": "Designations fall away",
+         "note": "The realised yogi stops seeing bodily labels — father, enemy, saint — and sees living beings.",
+         "hyperLink": "https://vedabase.io/en/library/poy/5/",
+         "manas": {
+          "orbit": {
+           "tag": "Liberation"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-5-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 5.",
+       "children": [
+        {
+         "id": "lib-poy-5-deep-t1",
+         "topic": "Tolerate, don’t scratch",
+         "note": "Bear the ups and downs and keep doing your duty."
+        },
+        {
+         "id": "lib-poy-5-deep-t2",
+         "topic": "Show it in life",
+         "note": "Knowledge counts when bodily demands go down and the mind grows calm."
+        },
+        {
+         "id": "lib-poy-5-deep-t3",
+         "topic": "See the soul",
+         "note": "Treat friend and foe alike — the roles are a stage play."
+        },
+        {
+         "id": "lib-poy-5-deep-see1",
+         "topic": "See also: Gita Chapter 6",
+         "note": "Verses 6.8–6.9 are explained in this chapter.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uywk6en3ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-see2",
+         "topic": "See also: Gita Chapter 2",
+         "note": "BG 2.14 on tolerating dualities is cited here.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "olklkua2ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-5-deep-next",
+         "topic": "Next: Chapter 6",
+         "note": "Open the next chapter of The Perfection of Yoga.",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-6"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-poy-6-deep",
+   "title": "The Perfection of Yoga 6 · In depth",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795166639015,
+   "updated": 1795166639015,
+   "library": "prabhupada",
+   "deepOf": "lib-poy",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-poy-6-deep-root",
+     "topic": "The Perfection of Yoga 6 · The Fate of the Unsuccessful Yogi",
+     "note": "Chapter 6 of Srila Prabhupada’s The Perfection of Yoga, idea by idea, in our own words, with every verse he cites linked on vedabase.io. Review in progress. Search words: unsuccessful yogi, fallen yogi, yoga-bhrashta, failure, falling down, rebirth, reincarnation, next life, heavenly planets, Visvamitra, Vishvamitra, Menaka, Sakuntala, Shakuntala, six opulences, Bhagavan, Gita 6.37–6.44.",
+     "hyperLink": "https://vedabase.io/en/library/poy/6/",
+     "manas": {
+      "orbit": {
+       "ref": "POY 6"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-poy-6-deep-s1",
+       "topic": "1 · Arjuna’s question",
+       "note": "What happens to someone who starts yoga and gives up?",
+       "hyperLink": "https://vedabase.io/en/library/poy/6/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 6",
+         "tag": "Questions"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-6-deep-s1a",
+         "topic": "Meditation is real — but dropped",
+         "note": "The Gita accepts the meditation path as genuine, yet indicates it is not practical now, so Krishna and Arjuna move on quickly.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s1v1",
+         "topic": "The one who does not finish",
+         "note": "Arjuna asks the destination of a faithful person whose mind wandered off before reaching perfection.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/37/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.37",
+           "tag": "Questions"
+          },
+          "q": "Which verse contains Arjuna’s question about the unsuccessful yogi?"
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s1b",
+         "topic": "Example: the dropout",
+         "note": "It is like a student who leaves before getting the degree.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s1v2",
+         "topic": "Few strive, fewer succeed",
+         "note": "Out of thousands only some try for perfection, and few of those succeed — so Arjuna is asking about the many who fail.",
+         "hyperLink": "https://vedabase.io/en/library/bg/7/3/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 7.3",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s1v3",
+         "topic": "A torn cloud?",
+         "note": "Does such a person vanish like a cloud ripped apart by wind, with no place anywhere?",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/38/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.38",
+           "tag": "Questions"
+          },
+          "q": "What image does Arjuna use for the failed yogi in BG 6.38?"
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s1v4",
+         "topic": "Only You can clear it",
+         "note": "Arjuna says no one but Krishna can remove this doubt — he asks so that later seekers will not lose heart.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/39/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.39",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s1c",
+         "topic": "All yogis included",
+         "note": "The question covers the hatha-yogi, the philosopher and the devotee alike.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-6-deep-s2",
+       "topic": "2 · Who is answering: Bhagavan",
+       "note": "The answer comes from the one who knows everything.",
+       "hyperLink": "https://vedabase.io/en/library/poy/6/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 6",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-6-deep-s2a",
+         "topic": "Six opulences in full",
+         "note": "Bhagavan owns all beauty, wealth, power, fame, knowledge and renunciation; we have only fragments of these.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          },
+          "q": "What are the six opulences of Bhagavan?"
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s2b",
+         "topic": "Example: fame",
+         "note": "Leaders are famous for a few years; Krishna appeared five thousand years ago and is still worshipped.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s2c",
+         "topic": "No one taught Krishna the Gita",
+         "note": "He gave it to the sun-god and to Arjuna, but nobody gave it to Him — a sign of complete knowledge.",
+         "hyperLink": "https://vedabase.io/en/library/bg/4/1/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 4.1",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s2d",
+         "topic": "Receive, don’t research",
+         "note": "Arjuna simply hears from the complete source; when we hear it as Arjuna heard it, we too get complete knowledge — this is disciplic succession.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Guru"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-6-deep-s3",
+       "topic": "3 · No loss, here or hereafter",
+       "note": "Krishna’s reassuring answer.",
+       "hyperLink": "https://vedabase.io/en/library/poy/6/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 6",
+         "tag": "Mercy"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-6-deep-s3v",
+         "topic": "The doer of good is never ruined",
+         "note": "One engaged in auspicious work meets no destruction in this world or the next; such effort is never lost.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/40/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.40",
+           "tag": "Mercy"
+          },
+          "q": "Which verse promises that one who does good is never overcome by evil?"
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s3a",
+         "topic": "Even one percent counts",
+         "note": "Sincerely gaining even a little spiritual knowledge keeps one from sinking back into the material whirlpool.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Mercy"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s3b",
+         "topic": "Falling is not unusual",
+         "note": "New devotees sometimes break the rules, take intoxicants or are caught by attraction — Arjuna’s question is a practical one.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s3c",
+         "topic": "Declaring war on maya",
+         "note": "Taking up spiritual life is like declaring war on material energy; she then tests our sincerity with stronger temptations.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Faith"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s3d",
+         "topic": "Story: Visvamitra and Menaka",
+         "note": "King Visvamitra became a yogi; Indra, afraid for his post, sent Menaka. Hearing her bangles, the sage looked up and fell; Sakuntala was born, and he left anyway.",
+         "hyperLink": "https://vedabase.io/en/library/sb/9/20/",
+         "manas": {
+          "orbit": {
+           "ref": "SB 9.20",
+           "tag": "Stories"
+          },
+          "q": "Why did Indra send Menaka to Visvamitra, and what came of it?"
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s3e",
+         "topic": "Failure as a pillar",
+         "note": "Visvamitra took up yoga again; we too should start again after a fall. As the proverb says, failure supports success.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Faith"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-6-deep-s4",
+       "topic": "4 · Where the failed yogi goes",
+       "note": "Krishna describes the next life.",
+       "hyperLink": "https://vedabase.io/en/library/poy/6/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 6",
+         "tag": "Soul"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-6-deep-s4v1",
+         "topic": "Heaven, then a good family",
+         "note": "After a long stay on higher planets of the pious, the unsuccessful yogi is born among the righteous or the wealthy.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/41/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.41",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s4a",
+         "topic": "A day there = six months here",
+         "note": "Life on higher planets is longer and more comfortable; Vedic texts speak of lifetimes of ten thousand years — but the stay ends when the merit is used up.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s4b",
+         "topic": "Human birth assured",
+         "note": "One who sincerely begins spiritual life is guaranteed a human birth next time, with good facilities given by the Lord.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Mercy"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s4c",
+         "topic": "Duty vs approaching God",
+         "note": "The Bhagavatam says one who leaves ordinary duty to take shelter of Krishna loses nothing even if he falls; doing duty perfectly without God gains nothing.",
+         "hyperLink": "https://vedabase.io/en/library/sb/1/5/17/",
+         "manas": {
+          "orbit": {
+           "ref": "SB 1.5.17",
+           "tag": "Surrender"
+          },
+          "q": "According to SB 1.5.17, who loses and who gains: the dutiful man without God or the immature devotee who falls?"
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s4v2",
+         "topic": "Best: a family of yogis",
+         "note": "Better still is birth in a family of wise transcendentalists — a birth that is very rare.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/42/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.42",
+           "tag": "Family"
+          },
+          "q": "Which birth does Krishna call best for the unsuccessful yogi?"
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s4d",
+         "topic": "Why not rich or brahmin?",
+         "note": "Rich sons may turn to drink and pleasure; sons of pious brahmins may grow proud. A devotee family gives the best chance to resume.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Family"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-6-deep-s5",
+       "topic": "5 · Picking up where you left off",
+       "note": "Spiritual progress carries over; money does not.",
+       "hyperLink": "https://vedabase.io/en/library/poy/6/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 6",
+         "tag": "Soul"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-6-deep-s5v1",
+         "topic": "The old consciousness revives",
+         "note": "In that birth he recovers the spiritual awareness of the last life and strives further.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/43/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.43",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s5v2",
+         "topic": "Drawn without trying",
+         "note": "By past practice he is pulled toward yoga even without looking for it — so a serious new devotee is no ordinary person.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/44/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.44",
+           "tag": "Soul"
+          },
+          "q": "Why are some people drawn to spiritual life without searching for it, according to BG 6.44?"
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s5a",
+         "topic": "Example: the bank balance",
+         "note": "Millions in the bank stay behind at death for someone else, but even a little spiritual progress goes with us.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "How does the bank balance example contrast material and spiritual assets?"
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s5b",
+         "topic": "Finish it this time",
+         "note": "Do not leave the balance for another birth; resolve to complete the journey in this life.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s5c",
+         "topic": "“Not fit for a gentleman”",
+         "note": "Bhaktisiddhanta Sarasvati used to say this world is no place for a gentleman — a devotee sees it as full of danger.",
+         "hyperLink": "https://vedabase.io/en/library/poy/6/",
+         "manas": {
+          "orbit": {
+           "tag": "Guru"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-s5v3",
+         "topic": "He gives remembrance",
+         "note": "Krishna in the heart guides one who wants to remember Him, and lets one who wants to forget, forget.",
+         "hyperLink": "https://vedabase.io/en/library/bg/15/15/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 15.15",
+           "tag": "Mercy"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-6-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 6.",
+       "children": [
+        {
+         "id": "lib-poy-6-deep-t1",
+         "topic": "No effort is wasted",
+         "note": "Every bit of sincere practice is kept and carried forward."
+        },
+        {
+         "id": "lib-poy-6-deep-t2",
+         "topic": "After a fall, start again",
+         "note": "Like Visvamitra — failure is a pillar of success."
+        },
+        {
+         "id": "lib-poy-6-deep-t3",
+         "topic": "Finish in this life",
+         "note": "Do not count on another chance."
+        },
+        {
+         "id": "lib-poy-6-deep-see1",
+         "topic": "See also: Gita Chapter 6",
+         "note": "Verses 6.37–6.44 are explained in this chapter.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uywk6en3ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-see2",
+         "topic": "See also: Gita Chapter 7",
+         "note": "BG 7.3 — few succeed — is the background to Arjuna’s question.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uft5ocj9ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-6-deep-next",
+         "topic": "Next: Chapter 7",
+         "note": "Open the next chapter of The Perfection of Yoga.",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-7"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-poy-7-deep",
+   "title": "The Perfection of Yoga 7 · In depth",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795166639020,
+   "updated": 1795166639020,
+   "library": "prabhupada",
+   "deepOf": "lib-poy",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-poy-7-deep-root",
+     "topic": "The Perfection of Yoga 7 · Yoga as Reestablishing Relations with Krsna",
+     "note": "Chapter 7 of Srila Prabhupada’s The Perfection of Yoga, idea by idea, in our own words, with every verse he cites linked on vedabase.io. Review in progress. Search words: relationship with Krishna, rasa, rasas, five rasas, svarupa-siddhi, sannyasa, sannyasi, renunciation, asrama, ashrama, four stages of life, servant, service, surrender, love, Bali Maharaja, Vamana, dwarf, reflection, Brahman Paramatma Bhagavan, Gita 6.1, 7.19.",
+     "hyperLink": "https://vedabase.io/en/library/poy/7/",
+     "manas": {
+      "orbit": {
+       "ref": "POY 7"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-poy-7-deep-s1",
+       "topic": "1 · Three aims of yoga",
+       "note": "The Gita’s yoga is above all for purification.",
+       "hyperLink": "https://vedabase.io/en/library/poy/7/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 7",
+         "tag": "Purpose"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-7-deep-s1a",
+         "topic": "Control, purify, connect",
+         "note": "Its aim is threefold: control the senses, purify our actions, and link ourselves with Krishna in a two-way relationship.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          },
+          "q": "What are the three aims of yoga named at the start of chapter 7?"
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s1b",
+         "topic": "Brahman, Paramatma, Bhagavan",
+         "note": "The Absolute is realised in three stages: the impersonal light, the Supersoul in every heart and atom, and finally the Supreme Person.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s1c",
+         "topic": "Fully rich and fully detached",
+         "note": "Krishna has every opulence yet can renounce it all and remain complete — unlike rich people here, who cling.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s1d",
+         "topic": "The teacher as instrument",
+         "note": "A genuine spiritual master explaining the Gita is not giving his own opinion; the real speaker is Krishna.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Guru"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-7-deep-s2",
+       "topic": "2 · Who is the real sannyasi?",
+       "note": "Renunciation is defined by duty, not by giving up work.",
+       "hyperLink": "https://vedabase.io/en/library/poy/7/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 7",
+         "tag": "Surrender"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-7-deep-s2v",
+         "topic": "Work done as duty, without the fruit",
+         "note": "The one who does what he must without clinging to results is the real renunciant and yogi — not one who just stops all work.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/1/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.1",
+           "tag": "Surrender"
+          },
+          "q": "According to BG 6.1, who is the real sannyasi and yogi?"
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s2a",
+         "topic": "Four stages of life",
+         "note": "Student (brahmacari), householder (grhastha), retired pilgrim with wife from about fifty (vanaprastha), then full renunciation (sannyasa).",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Family"
+          },
+          "q": "What are the four asramas, the stages of life in Vedic culture?"
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s2b",
+         "topic": "A sannyasi still has a duty",
+         "note": "Giving up family is not enough; the renunciant’s duty is the most serious one — to work for Krishna, and that is everyone’s real duty.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-7-deep-s3",
+       "topic": "3 · Servant of illusion or of reality",
+       "note": "We are always serving someone; the choice is whom.",
+       "hyperLink": "https://vedabase.io/en/library/poy/7/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 7",
+         "tag": "Soul"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-7-deep-s3a",
+         "topic": "Always a servant",
+         "note": "The head of a family serves wife, children and business; a president serves the country. Our nature is to serve, not to rule.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Soul"
+          },
+          "q": "What examples show that everyone is a servant?"
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s3b",
+         "topic": "Two kinds of service",
+         "note": "Serving the senses and passing things is serving illusion; serving God is serving reality. Serving illusion wastes life.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s3c",
+         "topic": "Sannyasa is a realisation",
+         "note": "Renunciation means having understood this — a matter of knowledge, not of social rank or dress.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-7-deep-s4",
+       "topic": "4 · Surrender comes from love",
+       "note": "Why wait many lifetimes to surrender?",
+       "hyperLink": "https://vedabase.io/en/library/poy/7/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 7",
+         "tag": "Love"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-7-deep-s4v",
+         "topic": "After many births: Vasudeva is all",
+         "note": "The wise surrender after many lives, knowing Krishna is everything; souls like that are hard to find.",
+         "hyperLink": "https://vedabase.io/en/library/bg/7/19/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 7.19",
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s4a",
+         "topic": "Why delay?",
+         "note": "If an intelligent person sees surrender is the goal, why wait many births? Do it now.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Surrender"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s4b",
+         "topic": "Love cannot be forced",
+         "note": "Krishna never forces surrender; love needs freedom. A mother loves her child freely, not for a salary.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          },
+          "q": "Why does Krishna never force anyone to surrender?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-7-deep-s5",
+       "topic": "5 · Our eternal relationship",
+       "note": "Each soul has a personal bond with Krishna, now forgotten.",
+       "hyperLink": "https://vedabase.io/en/library/poy/7/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 7",
+         "tag": "Love"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-7-deep-s5a",
+         "topic": "Five rasas",
+         "note": "We can love Krishna as servant to master, friend to friend, parent to child, spouse, or lover to beloved. Knowing our own is svarupa-siddhi.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          },
+          "q": "What are the five basic rasas, and what is svarupa-siddhi?"
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s5b",
+         "topic": "Reviving it is yoga’s perfection",
+         "note": "The whole process of spiritual life is to wake up our awareness of this relationship.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s5c",
+         "topic": "Twisted copies here",
+         "note": "Worldly servants stay only while paid; friends become foes after a quarrel; sons leave home; couples divorce. No relation here lasts.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s5d",
+         "topic": "Example: a reflection in glass",
+         "note": "A reflection looks real until you touch it and feel only glass; our worldly bonds reflect the real ones we have with God.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What does the example of a reflection in a mirror teach about worldly relationships?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-7-deep-s6",
+       "topic": "6 · He repays beyond measure",
+       "note": "We should not serve for reward, yet Krishna always repays.",
+       "hyperLink": "https://vedabase.io/en/library/poy/7/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 7",
+         "tag": "Mercy"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-7-deep-s6a",
+         "topic": "Story: Bali and the dwarf",
+         "note": "The Lord came as a dwarf brahmana and asked King Bali for three steps of land; two steps covered the universe, and Bali offered his head for the third.",
+         "hyperLink": "https://vedabase.io/en/library/sb/8/19/",
+         "manas": {
+          "orbit": {
+           "ref": "SB 8.19–22",
+           "tag": "Stories"
+          },
+          "q": "How did Bali Maharaja give everything to the Lord as Vamana?"
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s6b",
+         "topic": "The Lord becomes his doorman",
+         "note": "Pleased, the Lord offered to stand at Bali’s door as a servant — the return for Bali’s surrender.",
+         "hyperLink": "https://vedabase.io/en/library/sb/8/22/",
+         "manas": {
+          "orbit": {
+           "ref": "SB 8.22",
+           "tag": "Mercy"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-s6c",
+         "topic": "Returned millions of times",
+         "note": "Whatever we offer comes back multiplied — but expecting it is not the spirit; seeing service as our duty is perfect knowledge.",
+         "hyperLink": "https://vedabase.io/en/library/poy/7/",
+         "manas": {
+          "orbit": {
+           "tag": "Mercy"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-7-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 7.",
+       "children": [
+        {
+         "id": "lib-poy-7-deep-t1",
+         "topic": "Choose whom you serve",
+         "note": "You will serve anyway — serve the reality, not the illusion."
+        },
+        {
+         "id": "lib-poy-7-deep-t2",
+         "topic": "Serve without a price",
+         "note": "Love that asks for payment is the reflection, not the original."
+        },
+        {
+         "id": "lib-poy-7-deep-see1",
+         "topic": "See also: Gita Chapter 6",
+         "note": "BG 6.1 opens this chapter.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uywk6en3ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-see2",
+         "topic": "See also: Gita Chapter 7",
+         "note": "BG 7.19 on surrender after many births is explained here.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uft5ocj9ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-7-deep-next",
+         "topic": "Next: Chapter 8",
+         "note": "Open the next chapter of The Perfection of Yoga.",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-8"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "lib-poy-8-deep",
+   "title": "The Perfection of Yoga 8 · In depth",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795166639024,
+   "updated": 1795166639024,
+   "library": "prabhupada",
+   "deepOf": "lib-poy",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "lib-poy-8-deep-root",
+     "topic": "The Perfection of Yoga 8 · The Perfection of Yoga",
+     "note": "Chapter 8 of Srila Prabhupada’s The Perfection of Yoga, idea by idea, in our own words, with every verse he cites linked on vedabase.io. Review in progress. Search words: perfection of yoga, highest yogi, bhakti yoga, devotional service, yoga ladder, karma yoga, jnana yoga, astanga yoga, ashtanga, dhyana, raja yoga, hatha yoga, last link, love of Krishna, prema, Gita 6.45, 6.47, 7.19.",
+     "hyperLink": "https://vedabase.io/en/library/poy/8/",
+     "manas": {
+      "orbit": {
+       "ref": "POY 8"
+      }
+     },
+     "children": [
+      {
+       "id": "lib-poy-8-deep-s1",
+       "topic": "1 · After many births",
+       "note": "Progress over lifetimes ends in Krishna consciousness.",
+       "hyperLink": "https://vedabase.io/en/library/poy/8/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 8",
+         "tag": "Soul"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-8-deep-s1a",
+         "topic": "A good birth gives a push",
+         "note": "Being born among yogis or devotees is a real gift, a special push toward perfection.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Family"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s1v1",
+         "topic": "Cleaned, then the highest goal",
+         "note": "The sincere yogi, washed of all impurity after many lives of practice, reaches the supreme destination.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/45/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.45",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s1v2",
+         "topic": "The rare great soul",
+         "note": "The one in knowledge finally surrenders, seeing Krishna as the cause of all; Prabhupada links this to the perfection of yoga.",
+         "hyperLink": "https://vedabase.io/en/library/bg/7/19/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 7.19",
+           "tag": "Surrender"
+          },
+          "q": "Which two verses does chapter 8 join to show where many lives of practice lead?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-8-deep-s2",
+       "topic": "2 · The highest yogi",
+       "note": "Krishna’s closing verse on yoga in chapter 6.",
+       "hyperLink": "https://vedabase.io/en/library/poy/8/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 8",
+         "tag": "Love"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-8-deep-s2v",
+         "topic": "Most united with Me",
+         "note": "Of all yogis, the one who with great faith abides in Krishna and worships Him in loving service is the highest.",
+         "hyperLink": "https://vedabase.io/en/library/bg/6/47/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 6.47",
+           "tag": "Love"
+          },
+          "q": "Who is the highest of all yogis according to BG 6.47?"
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s2a",
+         "topic": "Bhakti is the summit",
+         "note": "So every yoga in the Gita ends in bhakti-yoga; Krishna is the destination of all of them.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-8-deep-s3",
+       "topic": "3 · The ladder of yoga",
+       "note": "From karma-yoga to bhakti-yoga is a long road, step by step.",
+       "hyperLink": "https://vedabase.io/en/library/poy/8/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 8",
+         "tag": "Knowledge"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-8-deep-s3a",
+         "topic": "Step 1: karma-yoga",
+         "note": "Work done without craving its fruits is the start.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s3b",
+         "topic": "Step 2: jnana-yoga",
+         "note": "When such work grows in knowledge and detachment, it is called the yoga of knowledge.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s3c",
+         "topic": "Step 3: astanga-yoga",
+         "note": "When knowledge adds meditation on the Supersoul through bodily disciplines, it is the eightfold yoga.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s3d",
+         "topic": "Step 4: bhakti-yoga",
+         "note": "Going beyond that to worship Krishna, the Supreme Person, is bhakti-yoga — the top.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          },
+          "q": "List the four steps of the yoga ladder in chapter 8, from first to last."
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s3e",
+         "topic": "Stuck on a step",
+         "note": "One who stops at a level gets its name — karma-yogi, jnana-yogi, raja-yogi, hatha-yogi; reaching bhakti passes them all.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s3f",
+         "topic": "Why learn the lower steps",
+         "note": "To understand bhakti in detail one studies the other paths too; the progressive yogi is on the road to lasting good fortune.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-8-deep-s4",
+       "topic": "4 · The last link",
+       "note": "Krishna consciousness completes the chain.",
+       "hyperLink": "https://vedabase.io/en/library/poy/8/",
+       "manas": {
+        "orbit": {
+         "ref": "POY 8",
+         "tag": "Purpose"
+        }
+       },
+       "children": [
+        {
+         "id": "lib-poy-8-deep-s4a",
+         "topic": "Example: a chain without its last link",
+         "note": "A chain missing its last link cannot hold anything; Krishna consciousness is what finally ties us to Krishna.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Stories"
+          },
+          "q": "What is the “last link” in the yoga chain, and why does it matter?"
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s4b",
+         "topic": "What to do now",
+         "note": "Chant Hare Krishna, study the Gita and serve Krishna in the company of devotees.",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Chanting"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s4v",
+         "topic": "Known only by devotion",
+         "note": "Krishna can be understood as He is only through devotional service — the same goal of love the book ends with.",
+         "hyperLink": "https://vedabase.io/en/library/bg/18/55/",
+         "manas": {
+          "orbit": {
+           "ref": "BG 18.55",
+           "tag": "Love"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-s4c",
+         "topic": "The goal: love of Krishna",
+         "note": "All yoga finally aims at pure love for Krishna (prema).",
+         "hyperLink": "https://vedabase.io/en/library/poy/8/",
+         "manas": {
+          "orbit": {
+           "tag": "Love"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "lib-poy-8-deep-take",
+       "topic": "🎯 Take-away",
+       "note": "What to carry from Chapter 8.",
+       "children": [
+        {
+         "id": "lib-poy-8-deep-t1",
+         "topic": "Keep climbing",
+         "note": "Do not settle on a lower step of yoga; go on to bhakti."
+        },
+        {
+         "id": "lib-poy-8-deep-t2",
+         "topic": "Add the last link",
+         "note": "Without Krishna consciousness the rest of the chain cannot hold."
+        },
+        {
+         "id": "lib-poy-8-deep-see1",
+         "topic": "See also: Gita Chapter 6",
+         "note": "Verses 6.45–6.47 close the Gita’s chapter on yoga.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uywk6en3ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-see2",
+         "topic": "See also: Gita Chapter 7",
+         "note": "BG 7.19 is quoted again here.",
+         "manas": {
+          "goto": {
+           "map": "m53vwhp2ahiz",
+           "node": "uft5ocj9ahil"
+          }
+         }
+        },
+        {
+         "id": "lib-poy-8-deep-next",
+         "topic": "Back to the start: Chapter 1",
+         "note": "Read the book again from \"Yoga as Rejected by Arjuna\".",
+         "manas": {
+          "goto": {
+           "map": "lib-poy",
+           "node": "lib-poy-1"
           }
          }
         }
