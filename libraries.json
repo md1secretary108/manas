@@ -224,7 +224,7 @@
   {
    "id": "eng",
    "title": "Engineering — first year foundations · draft",
-   "subtitle": "Draft for review: the first-year engineering core in plain words — units and dimensional analysis, statics with free-body diagrams and worked examples — every bubble linked to a free OpenStax textbook page; more subjects (dynamics, materials, circuits, thermodynamics, fluids, drawing, computing, ethics) added on Saturdays.",
+   "subtitle": "Draft for review: the first-year engineering core in plain words — units, vectors and trigonometry, statics and dynamics (Newton's laws) with worked examples — every bubble linked to a free OpenStax textbook page; more subjects (work and energy, materials, circuits, thermodynamics, fluids, drawing, computing, ethics) added on Saturdays.",
    "icon": "⚙️",
    "file": "lib-eng.json",
    "root": "eng-root",
@@ -236,9 +236,9 @@
     "date": "7 Nov 2026"
    },
    "parts": 2,
-   "v": 1794051162,
-   "meta": "5 maps · 171 ideas · 80 KB · 2 subjects",
-   "whatsNew": "New library: Units, dimensions and estimation; Statics with free-body diagrams — 144 ideas, every bubble linked to OpenStax (Sat 7 Nov)",
+   "v": 1795260231,
+   "meta": "7 maps · 335 ideas · 155 KB · 2 subjects",
+   "whatsNew": "New: Vectors and trigonometry for engineers; Dynamics — Newton's second law with worked problems (lift, Atwood, friction, braking distance) — 146 ideas, every bubble linked to OpenStax (Sat 21 Nov)",
    "split": "lib-eng-index.json",
    "short": "Eng"
   },
