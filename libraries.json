@@ -166,7 +166,7 @@
    "icon": "🤖",
    "file": "lib-ai.json",
    "root": "ai-root",
-   "whatsNew": "New: Graphs and graph neural networks, and Engineering reliable AI agents; news refreshed: GPT-6.2 Astra and Sol, Gemini 4 Hydrogen, Gemini 4 Carbon for all paying users, AI self-improvement risk rating, AlphaGenome 2, AlphaProof Code proves Signal's code, open weather datasets, free ChatGPT for researchers (18 Nov)",
+   "whatsNew": "New: Explaining AI decisions (XAI) and AI and robots in the physical world; news refreshed: Gemini 4 Neon, Genie 4 for Ultra users, Gemini Robotics 2.5, OpenAI's layered safety plan, MedChemBench drug-chemistry test (21 Nov)",
    "about": {
     "by": "Manas, for anyone learning AI — beginners and students",
     "from": "Wikipedia, research papers (Europe PMC), free courses; YouTube videos from universities and well-known teachers",
@@ -174,8 +174,8 @@
     "date": "14 Oct 2026"
    },
    "parts": 9,
-   "v": 1794996961,
-   "meta": "67 maps · 4,139 ideas · 971 KB · 9 subjects",
+   "v": 1795240181,
+   "meta": "69 maps · 4,326 ideas · 1.0 MB · 9 subjects",
    "split": "lib-ai-index.json",
    "short": "AI"
   },
