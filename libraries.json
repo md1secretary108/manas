@@ -46,16 +46,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "329 maps · 21,863 ideas · 15.8 MB · 17 series + index",
-   "parts": 18,
+   "meta": "333 maps · 22,143 ideas · 16.0 MB · 18 series + index",
+   "parts": 19,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1795166947,
-   "whatsNew": "New series: Sri Isopanisad — 10 classes (Bhakti Shastri course, Mayapur Institute 2024: the Invocation and Mantras 1–12 — everything belongs to the Lord, the inconceivable Lord, real knowledge and real worship), each a map",
+   "v": 1795235892,
+   "whatsNew": "New series: Govardhana-lila — 3 classes (Vrindavan, July 2023: SB 10.24–25 — Krishna questions Nanda Maharaja, the Vrajavasis worship Govardhana, Krishna lifts the hill), each a map",
    "split": "lib-bdds-index.json",
    "short": "Maharaj"
   },
