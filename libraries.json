@@ -112,10 +112,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New: Start here · 6. Everyday accounting words, 7. A short history of accounting, 8. What accountants do: careers (Start here now complete); The world of accounting · Branches 1. The branches of accounting at a glance; At work · 9. Petty cash (Fri 20 Nov)",
-   "meta": "143 maps · 11,088 ideas · 2.5 MB · 6 subjects",
+   "whatsNew": "New: The world of accounting · Branches 2. Cost accounting, 3. Tax accounting, 4. Internal audit, 5. Forensic accounting and fraud, 6. Government and public sector accounting (Sat 21 Nov)",
+   "meta": "148 maps · 11,575 ideas · 2.6 MB · 6 subjects",
    "parts": 6,
-   "v": 1795166524,
+   "v": 1795240834,
    "split": "lib-acc-index.json",
    "short": "Acc"
   },
