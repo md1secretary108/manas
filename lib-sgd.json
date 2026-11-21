@@ -1404,7 +1404,10 @@
         "orbit": {
          "ref": "Day 2 · 08:43",
          "tag": "Soul"
-        }
+        },
+        "map": "gw-day02-soul",
+        "part": "gitaweek",
+        "library": "sgd"
        },
        "icons": [
         "🫵"
@@ -1788,7 +1791,10 @@
          "The soul",
          "Kings and leaders",
          "BG 2.37"
-        ]
+        ],
+        "map": "gw-day02-work",
+        "part": "gitaweek",
+        "library": "sgd"
        },
        "icons": [
         "⚖️"
@@ -25070,9 +25076,21 @@
         {
          "id": "sgd-ixk-B-1",
          "topic": "Bhagavad-gita",
-         "note": "48 places in 14 classes. Tap one, then ↪ Go to this point.",
+         "note": "49 places in 14 classes. Tap one, then ↪ Go to this point.",
          "expanded": false,
          "children": [
+          {
+           "id": "sgd-ixk-B-gita-deep",
+           "topic": "📘 In depth: Why read the Gita (Gita Mahatmya)",
+           "note": "Gita Week · Day 01 · Why Read the Gita · in depth",
+           "manas": {
+            "goto": {
+             "map": "gw-day01-mahatmya",
+             "node": "gwd01mah-root",
+             "part": "gitaweek"
+            }
+           }
+          },
           {
            "id": "sgd-ixk-B-1-1",
            "topic": "An overview: the ocean in seven days",
@@ -26796,6 +26814,38 @@
        "note": "2 keywords",
        "children": [
         {
+         "id": "sgd-ixk-G-mahatmya",
+         "topic": "Gita Mahatmya",
+         "expanded": false,
+         "note": "2 places in 1 class. Tap one, then ↪ Go to this point. Also searched as: glories of the Gita / Gita-mahatmya / why read the Gita.",
+         "children": [
+          {
+           "id": "sgd-ixk-G-mahatmya-1",
+           "topic": "📘 In depth: Why read the Gita (Gita Mahatmya)",
+           "note": "Gita Week · Day 01 · Why Read the Gita · in depth",
+           "manas": {
+            "goto": {
+             "map": "gw-day01-mahatmya",
+             "node": "gwd01mah-root",
+             "part": "gitaweek"
+            }
+           }
+          },
+          {
+           "id": "sgd-ixk-G-mahatmya-2",
+           "topic": "Gita Mahatmya: why we should read",
+           "note": "Gita Week · Day 01 · Why Read the Gita · 08:03",
+           "manas": {
+            "goto": {
+             "map": "gw-day01",
+             "node": "gw-d01-2",
+             "part": "gitaweek"
+            }
+           }
+          }
+         ]
+        },
+        {
          "id": "sgd-ixk-G-0",
          "topic": "Govardhana",
          "note": "4 places in 3 classes. Tap one, then ↪ Go to this point.",
@@ -26854,9 +26904,21 @@
         {
          "id": "sgd-ixk-G-1",
          "topic": "Guru and disciple",
-         "note": "29 places in 10 classes. Tap one, then ↪ Go to this point.",
+         "note": "30 places in 10 classes. Tap one, then ↪ Go to this point.",
          "expanded": false,
          "children": [
+          {
+           "id": "sgd-ixk-G-guru-deep",
+           "topic": "📘 In depth: BG 2.7 — \"You tell me\"",
+           "note": "Gita Week · Day 01 · Why Read the Gita · in depth",
+           "manas": {
+            "goto": {
+             "map": "gw-day01-surrender",
+             "node": "gwd01sur-root",
+             "part": "gitaweek"
+            }
+           }
+          },
           {
            "id": "sgd-ixk-G-1-1",
            "topic": "2.7 — Surrender: 'You tell me'",
@@ -27614,6 +27676,94 @@
              "map": "sgs-day05",
              "node": "sgs-d05-5-4",
              "part": "sb2026"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "sgd-ixk-K-karma",
+         "topic": "Karma, vikarma, akarma",
+         "expanded": false,
+         "note": "4 places in 2 classes. Tap one, then ↪ Go to this point. Also searched as: kinds of action / karma-yoga / buddhi-yoga / buddhi yoga / work without reaction / nishkama karma / yajna / sacrifice.",
+         "children": [
+          {
+           "id": "sgd-ixk-K-karma-1",
+           "topic": "📘 In depth: Work with no reaction",
+           "note": "Gita Week · Day 02 · You Are the Soul, So Work · in depth",
+           "manas": {
+            "goto": {
+             "map": "gw-day02-work",
+             "node": "gwd02wrk-root",
+             "part": "gitaweek"
+            }
+           }
+          },
+          {
+           "id": "sgd-ixk-K-karma-2",
+           "topic": "Work with no reaction",
+           "note": "Gita Week · Day 02 · You Are the Soul, So Work · 40:28",
+           "manas": {
+            "goto": {
+             "map": "gw-day02",
+             "node": "gw-d02-5-2",
+             "part": "gitaweek"
+            }
+           }
+          },
+          {
+           "id": "sgd-ixk-K-karma-3",
+           "topic": "Quiz: karma, vikarma, akarma",
+           "note": "Gita Week · Day 02 · You Are the Soul, So Work · 67:46",
+           "manas": {
+            "goto": {
+             "map": "gw-day02",
+             "node": "gw-d02-7-4",
+             "part": "gitaweek"
+            }
+           }
+          },
+          {
+           "id": "sgd-ixk-K-karma-4",
+           "topic": "Sacrifice: work to please Krishna",
+           "note": "Gita Week · Day 03 · Knowledge That Frees Our Work",
+           "manas": {
+            "goto": {
+             "map": "gw-day03",
+             "node": "gw-d03-4",
+             "part": "gitaweek"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "sgd-ixk-K-karpanya",
+         "topic": "Karpanya dosha (miserly weakness)",
+         "expanded": false,
+         "note": "2 places in 1 class. Tap one, then ↪ Go to this point. Also searched as: kaarpanya / miser / miserly / BG 2.7.",
+         "children": [
+          {
+           "id": "sgd-ixk-K-karpanya-1",
+           "topic": "📘 In depth: BG 2.7 — \"You tell me\"",
+           "note": "Gita Week · Day 01 · Why Read the Gita · in depth",
+           "manas": {
+            "goto": {
+             "map": "gw-day01-surrender",
+             "node": "gwd01sur-root",
+             "part": "gitaweek"
+            }
+           }
+          },
+          {
+           "id": "sgd-ixk-K-karpanya-2",
+           "topic": "Karpanya dosha: miserly weakness",
+           "note": "Gita Week · Day 01 · Why Read the Gita · 58:43",
+           "manas": {
+            "goto": {
+             "map": "gw-day01-surrender",
+             "node": "gwd01sur-8",
+             "part": "gitaweek"
             }
            }
           }
@@ -29918,9 +30068,21 @@
         {
          "id": "sgd-ixk-S-3",
          "topic": "Selfless desire",
-         "note": "2 places in 1 classes. Tap one, then ↪ Go to this point.",
+         "note": "3 places in 1 classes. Tap one, then ↪ Go to this point.",
          "expanded": false,
          "children": [
+          {
+           "id": "sgd-ixk-S-selfless-deep",
+           "topic": "📘 In depth: Work with no reaction",
+           "note": "Gita Week · Day 02 · You Are the Soul, So Work · in depth",
+           "manas": {
+            "goto": {
+             "map": "gw-day02-work",
+             "node": "gwd02wrk-root",
+             "part": "gitaweek"
+            }
+           }
+          },
           {
            "id": "sgd-ixk-S-3-1",
            "topic": "From 'ours' to 'mine'",
@@ -30634,9 +30796,21 @@
         {
          "id": "sgd-ixk-T-2",
          "topic": "The soul",
-         "note": "23 places in 10 classes. Tap one, then ↪ Go to this point.",
+         "note": "24 places in 10 classes. Tap one, then ↪ Go to this point.",
          "expanded": false,
          "children": [
+          {
+           "id": "sgd-ixk-T-soul-deep",
+           "topic": "📘 In depth: You are the soul, not the body",
+           "note": "Gita Week · Day 02 · You Are the Soul, So Work · in depth",
+           "manas": {
+            "goto": {
+             "map": "gw-day02-soul",
+             "node": "gwd02soul-root",
+             "part": "gitaweek"
+            }
+           }
+          },
           {
            "id": "sgd-ixk-T-2-1",
            "topic": "Five topics",
@@ -39280,6 +39454,2005 @@
          "note": "The whole course in one map.",
          "manas": {
           "map": "gita-week-first-map"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "gitaweek"
+  },
+  {
+   "id": "gw-day02-soul",
+   "title": "Day 02 · In depth: You are the soul, not the body",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795233634452,
+   "updated": 1795233634452,
+   "library": "sgd",
+   "deepOf": "gw-day02",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "gwd02soul-root",
+     "topic": "You are the soul, not the body (BG 2.11–2.30)",
+     "note": "In depth: how Prabhu opens Krishna's first teaching — we are the conscious soul inside the body — with a touch exercise, everyday examples and the verses Krishna speaks on the soul. Notes are our own summary of the class. Search words: soul / atma / atman / jiva / jeeva / self / body / deha / consciousness / transmigration / reincarnation / rebirth / identity / lamentation / grief / Bg 2.13 / Bg 2.20 / Bg 2.22 / Bg 2.23.",
+     "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=516s",
+     "manas": {
+      "links": [
+       {
+        "label": "📝 Read what Prabhu says",
+        "url": "gw-transcript-02.html#t=516"
+       },
+       {
+        "label": "📖 BG 2.13",
+        "url": "https://vedabase.io/en/library/bg/2/13/"
+       }
+      ],
+      "orbit": {
+       "ref": "Day 2 · 08:36",
+       "tag": "Soul"
+      },
+      "topics": [
+       "The soul",
+       "BG 2.13"
+      ]
+     },
+     "children": [
+      {
+       "id": "gwd02soul-1",
+       "topic": "2.11 — Krishna's first words",
+       "note": "Arjuna has at last asked what he should do. Krishna answers that wise people do not mourn over either the living or the departed, so his learned-sounding arguments miss the point.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=187s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=187"
+         },
+         {
+          "label": "📖 BG 2.11",
+          "url": "https://vedabase.io/en/library/bg/2/11/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 03:07",
+         "tag": "Knowledge"
+        },
+        "topics": [
+         "BG 2.11"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd02soul-2",
+         "topic": "Arjuna stands in our place",
+         "note": "Prabhu reminds us that Arjuna plays our part here: when Krishna calls him unwise, the lesson is for everyone who forgets who they are.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=244s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=244"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 04:04",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-3",
+         "topic": "Crisis makes us forget",
+         "note": "Seeing his family across the field, Arjuna lost sight of his identity and his duty, like a student who feels one exam decides the whole of life.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=269s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=269"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 04:29",
+           "tag": "Context"
+          },
+          "q": "According to Prabhu, what two things did Arjuna forget in his crisis?"
+         }
+        },
+        {
+         "id": "gwd02soul-4",
+         "topic": "Why \"Sri Bhagavan uvaca\"?",
+         "note": "Every other speaker in the Gita is named. Krishna is called Bhagavan: the one who has all six opulences, namely strength, knowledge, beauty, fame, renunciation and wealth.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=318s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=318"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 05:18",
+           "tag": "Knowledge"
+          },
+          "q": "Which six opulences make Krishna \"Bhagavan\"?"
+         }
+        },
+        {
+         "id": "gwd02soul-5",
+         "topic": "No room for a false Krishna",
+         "note": "A practical reason Prabhu gives: many people carry the name Krishna, so the title Bhagavan leaves no room for anyone later to claim he spoke the Gita.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=398s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=398"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 06:38",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-6",
+         "topic": "Hear it every day",
+         "note": "Krishna explains the soul in this one stretch of the Gita. Arjuna understood at one hearing; Prabhu says we need to hear \"you are not the body\" daily.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=471s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=471"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 07:51",
+           "tag": "Soul"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-7",
+       "topic": "Touch yourself: where are we?",
+       "note": "Prabhu has the hall touch nose, ear, elbow and chin, then asks them to touch \"yourself\". Hands go to the chest or the heart; nobody can really point to the self.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=523s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=523"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 08:43",
+         "tag": "Questions"
+        },
+        "q": "What does Prabhu's \"touch yourself\" exercise show?"
+       },
+       "children": [
+        {
+         "id": "gwd02soul-8",
+         "topic": "The child whose father is gone",
+         "note": "Srila Prabhupada's story: a child weeps that his father has gone while the body lies right there. What has gone is the one who lived in that body.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=597s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=597"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 09:57",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-9",
+         "topic": "We have never seen ourselves",
+         "note": "We look in the mirror every day, Prabhu says, yet we only ever see the body, never the self who is looking.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=647s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=647"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 10:47",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-10",
+         "topic": "Consciousness is the difference",
+         "note": "What separates a living body from a dead one is consciousness, the sign of the soul. The body is matter; the soul is what moves it.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=697s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=697"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 11:37",
+           "tag": "Soul"
+          },
+          "q": "In Prabhu's answer, what is the difference between a living body and a dead one?"
+         }
+        },
+        {
+         "id": "gwd02soul-11",
+         "topic": "A phone with no battery",
+         "note": "The newest phone is useless without its battery; the strongest, most attractive body is useless once the soul has left.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=724s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=724"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 12:04",
+           "tag": "Science"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-12",
+       "topic": "AI versus a human being",
+       "note": "Pairs discuss the difference. One answer: a person has feeling, emotion and judgement, while a machine only runs on its track. Prabhu adds that AI has no sense of \"I am alive\".",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=765s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=765"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 12:45",
+         "tag": "Science"
+        }
+       },
+       "children": [
+        {
+         "id": "gwd02soul-13",
+         "topic": "Chatbots make things up",
+         "note": "Prabhu warns that AI chatbots invent answers and some have given dangerous advice to people in despair; he is grateful we have the Gita as our guide.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=875s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=875"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 14:35",
+           "tag": "Science"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-14",
+       "topic": "Not the body — so why the pain?",
+       "note": "Our language already knows it: we say \"my hand\", never \"I hand\". Then why do we suffer? The audience answers: through the senses, and through attachment.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=930s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=930"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 15:30",
+         "tag": "Attachment"
+        }
+       },
+       "children": [
+        {
+         "id": "gwd02soul-15",
+         "topic": "\"Why did you hit me?\"",
+         "note": "When someone dents our car we shout \"why did you hit me?\" Not a hair of ours was touched, yet every blow to the headlight hurts, because we identify with what we own.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1013s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1013"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 16:53",
+           "tag": "Stories"
+          },
+          "q": "What does the dented-car example teach about suffering?"
+         }
+        },
+        {
+         "id": "gwd02soul-16",
+         "topic": "Street children and my child",
+         "note": "We pass many street children in Nairobi; if our own child were on the street we could not rest. The stronger the bodily link, the deeper the pain.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1157s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1157"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 19:17",
+           "tag": "Family"
+          },
+          "q": "Why do we feel pain for our own child but not for other street children, in Prabhu's example?"
+         }
+        },
+        {
+         "id": "gwd02soul-17",
+         "topic": "Arjuna's \"my relatives\"",
+         "note": "Arjuna dreads the pain because these are his people. Krishna's answer: they are related through the body; as souls they are not his relatives in that bodily sense.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1200s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1200"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 20:00",
+           "tag": "Family"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-18",
+       "topic": "Feed the bird, not just the cage",
+       "note": "Does this mean we neglect the body? No: eat well and sleep on time. But Prabhu lists early gym sessions, shakes and outfit checks and asks where our care really goes.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1217s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=1217"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 20:17",
+         "tag": "Purpose"
+        }
+       },
+       "children": [
+        {
+         "id": "gwd02soul-19",
+         "topic": "The polished golden cage",
+         "note": "Srila Prabhupada's story: a lady polished her golden cage until it shone like a mirror, then found that the bird inside had starved.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1295s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1295"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 21:35",
+           "tag": "Stories"
+          },
+          "q": "In the golden-cage story, what do the cage and the bird stand for?"
+         }
+        },
+        {
+         "id": "gwd02soul-20",
+         "topic": "Car washed, driver hungry",
+         "note": "The same lesson with a new car: engine wash, tyre wash, everything wash, and the driver skips breakfast. The body matters; the soul matters more.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1370s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1370"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 22:50",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-21",
+         "topic": "Saving the drowning man's shirt",
+         "note": "A rescuer dives in and comes up proudly holding only the shirt. Caring for the body, cage or car more than for the self is the same mistake.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1420s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1420"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 23:40",
+           "tag": "Stories"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-22",
+       "topic": "2.13 — Same person, changing bodies",
+       "note": "The soul passes through childhood, youth and old age in this body, and at death into another; the wise are not confused by this.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1491s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=1491"
+         },
+         {
+          "label": "📖 BG 2.13",
+          "url": "https://vedabase.io/en/library/bg/2/13/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 24:51",
+         "tag": "Soul"
+        },
+        "topics": [
+         "BG 2.13"
+        ],
+        "q": "Which verse says the soul passes from boyhood to youth to old age, and then into another body?"
+       },
+       "children": [
+        {
+         "id": "gwd02soul-23",
+         "topic": "The family album",
+         "note": "Grandchildren compare an old photo with grandfather and ask where his hair went. The bodies look nothing alike, yet everyone knows it is the same person.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1505s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1505"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 25:05",
+           "tag": "Family"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-24",
+         "topic": "Two things the seers concluded",
+         "note": "Prabhu sums up what the wise have established: the soul cannot be destroyed, and no body can be preserved for ever. Arjuna was trying to save bodies that would go anyway.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1539s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1539"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 25:39",
+           "tag": "Knowledge"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-25",
+         "topic": "Time will do it anyway",
+         "note": "If Arjuna does not fight, others will take those bodies, or time will. No amount of gym hours or diet food buys a fixed extra span of life.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1560s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1560"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 26:00",
+           "tag": "Soul"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-26",
+       "topic": "2.20 — Never born, never dies",
+       "note": "There is no moment when the soul comes into being or ends. Only the body changes.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1596s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=1596"
+         },
+         {
+          "label": "📖 BG 2.20",
+          "url": "https://vedabase.io/en/library/bg/2/20/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 26:36",
+         "tag": "Soul"
+        },
+        "topics": [
+         "BG 2.20"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd02soul-27",
+         "topic": "2.22 — Changing clothes",
+         "note": "As we drop worn clothes and put on new ones, the soul leaves an old body and accepts a new one.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1613s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1613"
+           },
+           {
+            "label": "📖 BG 2.22",
+            "url": "https://vedabase.io/en/library/bg/2/22/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 26:53",
+           "tag": "Soul"
+          },
+          "topics": [
+           "BG 2.22"
+          ],
+          "q": "Which verse compares taking a new body to putting on new clothes?"
+         }
+        },
+        {
+         "id": "gwd02soul-28",
+         "topic": "Bad news, good news",
+         "note": "Prabhu's summary for Arjuna: the bad news is that the body never truly lives; the good news is that the soul never dies. So Arjuna must not abandon his duty.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1633s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1633"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 27:13",
+           "tag": "Soul"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-29",
+         "topic": "Audit your day",
+         "note": "Exercise: write down how much of your day goes to the body and how much to who you really are. Sometimes, Prabhu says, the second is zero.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1656s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1656"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 27:36",
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-30",
+       "topic": "2.14 — Bear it, and do your duty",
+       "note": "Arjuna might still want to keep these relationships while the bodies last. Krishna says joys and sorrows come and go like seasons: tolerate them and keep to your duty.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1757s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=1757"
+         },
+         {
+          "label": "📖 BG 2.14",
+          "url": "https://vedabase.io/en/library/bg/2/14/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 29:17",
+         "tag": "Attachment"
+        },
+        "topics": [
+         "BG 2.14"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd02soul-31",
+         "topic": "Winter bath, summer kitchen",
+         "note": "We still bathe when it is cold and cook by the fire when it is hot; in the same way we can bear separation from those we love.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1762s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1762"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 29:22",
+           "tag": "Attachment"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-32",
+         "topic": "School friends forever?",
+         "note": "No class vows never to leave school. Best friends then, we hardly remember the names now; we already know how to bear separation and move on.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1805s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1805"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 30:05",
+           "tag": "Attachment"
+          },
+          "q": "What school example does Prabhu use for tolerating separation (BG 2.14)?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-33",
+       "topic": "2.23 — No weapon touches the soul",
+       "note": "Krishna speaks a warrior's language: the soul cannot be cut, burned, wetted or dried by wind.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1902s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=1902"
+         },
+         {
+          "label": "📖 BG 2.23",
+          "url": "https://vedabase.io/en/library/bg/2/23/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 31:42",
+         "tag": "Soul"
+        },
+        "topics": [
+         "BG 2.23"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd02soul-34",
+         "topic": "Astra and shastra",
+         "note": "Prabhu explains Arjuna's two kinds of weapons: shastra are physical, like swords and maces; astra are elemental, like fire, water or wind weapons. Neither can reach the soul.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1919s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1919"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 31:59",
+           "tag": "Knowledge"
+          },
+          "q": "What is the difference between astra and shastra, as Prabhu explains it?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-35",
+       "topic": "2.27 — Every body changes",
+       "note": "Whoever is born must die, and after death comes birth again. Every body, human, animal, plant or aquatic, goes through the same changes.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1961s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=1961"
+         },
+         {
+          "label": "📖 BG 2.27",
+          "url": "https://vedabase.io/en/library/bg/2/27/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 32:41",
+         "tag": "Soul"
+        },
+        "topics": [
+         "BG 2.27"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd02soul-36",
+         "topic": "Six changes, birth to death",
+         "note": "Birth, growth, staying for a time, producing by-products, dwindling and death. The audience found four; Prabhu completes the list (it is also given in the purport to BG 2.20).",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2039s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2039"
+           },
+           {
+            "label": "📖 BG 2.20",
+            "url": "https://vedabase.io/en/library/bg/2/20/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 33:59",
+           "tag": "Science"
+          },
+          "q": "What are the six changes every body goes through?"
+         }
+        },
+        {
+         "id": "gwd02soul-37",
+         "topic": "Bud, bloom, seed, wither",
+         "note": "A flower shows all six: it appears as a bud, blooms, stays a while, sets seed or fruit, withers and dies.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2055s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2055"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 34:15",
+           "tag": "Science"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-38",
+       "topic": "2.30 — Krishna's last word on the soul",
+       "note": "Whoever resides within the body is beyond killing, so there is no need to grieve for any being. After this Krishna does not explain the soul again.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2115s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=2115"
+         },
+         {
+          "label": "📖 BG 2.30",
+          "url": "https://vedabase.io/en/library/bg/2/30/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 35:15",
+         "tag": "Soul"
+        },
+        "topics": [
+         "BG 2.30"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd02soul-39",
+         "topic": "Nobody mourns moving house",
+         "note": "When people move it is usually an upgrade, and no one weeps for the old house. Arjuna's elders have old bodies and will receive new ones.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2130s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2130"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 35:30",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-40",
+         "topic": "Say it to your neighbour",
+         "note": "Prabhu has each person tell the next the two-line conclusion: the body is never alive; the soul is ever alive.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2219s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2219"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 36:59",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "gwd02soul-41",
+         "topic": "What drives birth and death",
+         "note": "Birth means the soul taking a body; death means the soul leaving it. What keeps the cycle going is karma, the subject of the second half of the class.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2256s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2256"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 37:36",
+           "tag": "Soul"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-42",
+       "topic": "Take-away",
+       "note": "Four points to carry from this part of the class (our summary).",
+       "children": [
+        {
+         "id": "gwd02soul-43",
+         "topic": "Remember who you are",
+         "note": "Krishna's first lesson: I am the soul; the body is the vehicle I live in."
+        },
+        {
+         "id": "gwd02soul-44",
+         "topic": "Care for the cage, feed the bird",
+         "note": "Keep the body healthy, but give daily time to the self as well; Prabhu's day audit shows where the time really goes."
+        },
+        {
+         "id": "gwd02soul-45",
+         "topic": "Bear separations, keep your duty",
+         "note": "People come and go like seasons; tolerate it and do what is ours to do."
+        },
+        {
+         "id": "gwd02soul-46",
+         "topic": "Grief has a remedy",
+         "note": "Knowing the soul cannot be killed removes the root of lamenting, as Krishna tells Arjuna."
+        }
+       ]
+      },
+      {
+       "id": "gwd02soul-47",
+       "topic": "🔗 See also",
+       "note": "Other maps on the same subject. Tap a bubble to open it.",
+       "children": [
+        {
+         "id": "gwd02soul-48",
+         "topic": "Day 02 · In depth: Work with no reaction",
+         "note": "The second half of this class: duty, buddhi-yoga, the three kinds of action, and work as sacrifice.",
+         "manas": {
+          "map": "gw-day02-work",
+          "part": "gitaweek",
+          "library": "sgd"
+         }
+        },
+        {
+         "id": "gwd02soul-49",
+         "topic": "Day 06 · The body is the field",
+         "note": "Prabhu returns to body and soul in Chapter 13: the field and its knowers.",
+         "manas": {
+          "map": "gw-day06",
+          "part": "gitaweek",
+          "library": "sgd"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "gitaweek"
+  },
+  {
+   "id": "gw-day02-work",
+   "title": "Day 02 · In depth: Work with no reaction",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795233634456,
+   "updated": 1795233634456,
+   "library": "sgd",
+   "deepOf": "gw-day02",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "gwd02wrk-root",
+     "topic": "Work with no reaction: duty, buddhi-yoga, sacrifice",
+     "note": "In depth: after the soul, Krishna turns to action — why Arjuna must still fight, how to work with no good or bad reaction (buddhi-yoga), why no one can stop working, and work as sacrifice. Our own summary of the class. Search words: karma / vikarma / akarma / buddhi yoga / buddhi-yoga / karma-yoga / karma yoga / nishkama karma / niskama / detachment / duty / dharma / svadharma / yajna / yajña / yagya / sacrifice / prasadam / prasad / Bg 2.48 / Bg 3.9.",
+     "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2274s",
+     "manas": {
+      "links": [
+       {
+        "label": "📝 Read what Prabhu says",
+        "url": "gw-transcript-02.html#t=2274"
+       },
+       {
+        "label": "📖 BG 2.48",
+        "url": "https://vedabase.io/en/library/bg/2/48/"
+       },
+       {
+        "label": "📖 BG 3.9",
+        "url": "https://vedabase.io/en/library/bg/3/9/"
+       }
+      ],
+      "orbit": {
+       "ref": "Day 2 · 37:54",
+       "tag": "Surrender"
+      },
+      "topics": [
+       "Selfless desire",
+       "BG 2.48",
+       "BG 3.9"
+      ]
+     },
+     "children": [
+      {
+       "id": "gwd02wrk-1",
+       "topic": "Knowledge first, then action",
+       "note": "Having shown Arjuna that he is the soul, Krishna now moves him through his own duty as a warrior, which holds even if he is not yet convinced about the soul.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2274s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=2274"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 37:54",
+         "tag": "Context"
+        }
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-2",
+         "topic": "2.33 — Sin either way",
+         "note": "Arjuna feared sin from killing his relatives; Krishna answers that neglecting his duty is what would bring sin.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=1866s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=1866"
+           },
+           {
+            "label": "📖 BG 2.33",
+            "url": "https://vedabase.io/en/library/bg/2/33/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 31:06",
+           "tag": "Knowledge"
+          },
+          "topics": [
+           "BG 2.33"
+          ]
+         }
+        },
+        {
+         "id": "gwd02wrk-3",
+         "topic": "2.34 — Dishonour worse than death",
+         "note": "His own side would call him a coward who ran home. For a respected warrior, Krishna says, disgrace is worse than dying.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2305s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2305"
+           },
+           {
+            "label": "📖 BG 2.34",
+            "url": "https://vedabase.io/en/library/bg/2/34/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 38:25",
+           "tag": "Leaders"
+          },
+          "topics": [
+           "BG 2.34"
+          ]
+         }
+        },
+        {
+         "id": "gwd02wrk-4",
+         "topic": "Then and now",
+         "note": "Prabhu contrasts this with today: once a student who turned back at the exam-hall door was mocked; now walking away from commitments carries little shame.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2312s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2312"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 38:32",
+           "tag": "Context"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-5",
+       "topic": "2.37 — Lose-lose becomes win-win",
+       "note": "Arjuna saw only loss: family, piety, happiness. Krishna reframes it: win and rule the earth, or fall and reach heaven. Either way, fight.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2356s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=2356"
+         },
+         {
+          "label": "📖 BG 2.37",
+          "url": "https://vedabase.io/en/library/bg/2/37/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 39:16",
+         "tag": "Purpose"
+        },
+        "topics": [
+         "BG 2.37"
+        ],
+        "q": "How does Krishna turn Arjuna's lose-lose into a win-win (BG 2.37)?"
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-6",
+         "topic": "The Gita gives perspective",
+         "note": "Prabhu links back to Day 1: the Gita puts our situation in perspective, so a choice that looks hopeless can be seen as it really is.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2375s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2375"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 39:35",
+           "tag": "Knowledge"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-7",
+       "topic": "2.39 — Work with no reaction",
+       "note": "Krishna now offers more than a kingdom or heaven: a way of acting that brings no reaction at all, good or bad. This is buddhi-yoga, action in Krishna consciousness.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2428s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=2428"
+         },
+         {
+          "label": "📖 BG 2.39",
+          "url": "https://vedabase.io/en/library/bg/2/39/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 40:28",
+         "tag": "Knowledge"
+        },
+        "topics": [
+         "BG 2.39"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-8",
+         "topic": "Why good reactions bind too",
+         "note": "Good and bad results both have consequences, and both heaven and hell end; either way one comes back to take another body.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2448s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2448"
+           },
+           {
+            "label": "📖 BG 2.50",
+            "url": "https://vedabase.io/en/library/bg/2/50/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 40:48",
+           "tag": "Liberation"
+          }
+         }
+        },
+        {
+         "id": "gwd02wrk-9",
+         "topic": "Help one, ten more arrive",
+         "note": "Help someone and you feel proud and start looking for more people to help; in Kenya, Prabhu jokes, ten more come asking. Good deeds create ties too.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2543s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2543"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 42:23",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "gwd02wrk-10",
+         "topic": "Win the contest, marry the bride",
+         "note": "A prince who wins a svayamvara wins a bride, and with her new duties. Even a good result brings obligations.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2556s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2556"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 42:36",
+           "tag": "Stories"
+          },
+          "q": "What does Prabhu's svayamvara example show about good results?"
+         }
+        },
+        {
+         "id": "gwd02wrk-11",
+         "topic": "Refusing is attachment too",
+         "note": "Arjuna's \"I will not fight\" is not freedom: he is holding on to protecting his family. Krishna asks him to do his prescribed work in the right way instead.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2656s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2656"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 44:16",
+           "tag": "Attachment"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-12",
+       "topic": "Karma, vikarma, akarma",
+       "note": "Prabhu names three kinds of action: karma, prescribed work that brings good results; vikarma, forbidden work that brings bad results; akarma, work that brings no reaction. Krishna explains them further in Chapter 4.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2619s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=2619"
+         },
+         {
+          "label": "📖 BG 4.17",
+          "url": "https://vedabase.io/en/library/bg/4/17/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 43:39",
+         "tag": "Knowledge"
+        },
+        "topics": [
+         "BG 4.17"
+        ],
+        "q": "What do karma, vikarma and akarma mean, in Prabhu's simple definitions?"
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-13",
+         "topic": "The six-case quiz",
+         "note": "Near the end Prabhu tests the hall with six cases and asks which kind each is. His answers follow.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=4100s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=4100"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 68:20",
+           "tag": "Questions"
+          }
+         },
+         "children": [
+          {
+           "id": "gwd02wrk-14",
+           "topic": "Studying for marks and a career",
+           "note": "Karma: it harms nobody, yet it is done for a result she wants (admiration, marks, pay).",
+           "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=4100s",
+           "manas": {
+            "links": [
+             {
+              "label": "📝 Read what Prabhu says",
+              "url": "gw-transcript-02.html#t=4100"
+             }
+            ],
+            "orbit": {
+             "ref": "Day 2 · 68:20",
+             "tag": "Questions"
+            }
+           }
+          },
+          {
+           "id": "gwd02wrk-15",
+           "topic": "A false expense claim",
+           "note": "Vikarma: cheating for gain brings a bad reaction even if nobody notices. Prabhu mentions allowances claimed but never used.",
+           "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=4125s",
+           "manas": {
+            "links": [
+             {
+              "label": "📝 Read what Prabhu says",
+              "url": "gw-transcript-02.html#t=4125"
+             }
+            ],
+            "orbit": {
+             "ref": "Day 2 · 68:45",
+             "tag": "Wealth"
+            }
+           }
+          },
+          {
+           "id": "gwd02wrk-16",
+           "topic": "Cooking and offering to Krishna",
+           "note": "Akarma: food made with care, offered with devotion and then served to the family brings no reaction.",
+           "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=4135s",
+           "manas": {
+            "links": [
+             {
+              "label": "📝 Read what Prabhu says",
+              "url": "gw-transcript-02.html#t=4135"
+             }
+            ],
+            "orbit": {
+             "ref": "Day 2 · 68:55",
+             "tag": "Devotees"
+            }
+           }
+          },
+          {
+           "id": "gwd02wrk-17",
+           "topic": "Giving in order to be praised",
+           "note": "Karma: charity done mainly for admiration is still done for a result.",
+           "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=4145s",
+           "manas": {
+            "links": [
+             {
+              "label": "📝 Read what Prabhu says",
+              "url": "gw-transcript-02.html#t=4145"
+             }
+            ],
+            "orbit": {
+             "ref": "Day 2 · 69:05",
+             "tag": "Wealth"
+            }
+           }
+          },
+          {
+           "id": "gwd02wrk-18",
+           "topic": "Honest work, offered",
+           "note": "Akarma: honest effort and its results offered to Krishna, with success or failure accepted without resentment.",
+           "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=4163s",
+           "manas": {
+            "links": [
+             {
+              "label": "📝 Read what Prabhu says",
+              "url": "gw-transcript-02.html#t=4163"
+             }
+            ],
+            "orbit": {
+             "ref": "Day 2 · 69:23",
+             "tag": "Surrender"
+            }
+           }
+          },
+          {
+           "id": "gwd02wrk-19",
+           "topic": "Dodging duty out of fear",
+           "note": "Vikarma: avoiding family or work responsibilities for fear of criticism or discomfort is neglect of duty, and it has a bad reaction.",
+           "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=4177s",
+           "manas": {
+            "links": [
+             {
+              "label": "📝 Read what Prabhu says",
+              "url": "gw-transcript-02.html#t=4177"
+             }
+            ],
+            "orbit": {
+             "ref": "Day 2 · 69:37",
+             "tag": "Questions"
+            },
+            "q": "Avoiding duty for fear of criticism: karma, vikarma or akarma?"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-20",
+       "topic": "2.48 — Do your best, leave the rest",
+       "note": "Do your duty evenly, without attachment to success or failure; that evenness is what Krishna calls yoga.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2698s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=2698"
+         },
+         {
+          "label": "📖 BG 2.48",
+          "url": "https://vedabase.io/en/library/bg/2/48/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 44:58",
+         "tag": "Surrender"
+        },
+        "topics": [
+         "BG 2.48"
+        ],
+        "q": "Which verse defines yoga as doing one's duty evenly in success and failure?"
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-21",
+         "topic": "Nobody sits an exam not caring",
+         "note": "No one goes to an exam or interview hoping to fail. Even Arjuna found detachment from results hard, yet Krishna makes it simple: give your best and leave the outcome.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2719s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2719"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 45:19",
+           "tag": "Surrender"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-22",
+       "topic": "Four results of such work",
+       "note": "Prabhu lists what work without attachment brings: no reaction, indifference to the rewards scripture promises, freedom from birth and death, and trance (samadhi).",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2808s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=2808"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 46:48",
+         "tag": "Liberation"
+        },
+        "q": "What four results of detached work does Prabhu list?"
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-23",
+         "topic": "1 · No reaction",
+         "note": "Good and bad reactions are both left behind, even in this life.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2813s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2813"
+           },
+           {
+            "label": "📖 BG 2.50",
+            "url": "https://vedabase.io/en/library/bg/2/50/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 46:53",
+           "tag": "Liberation"
+          },
+          "topics": [
+           "BG 2.50"
+          ]
+         }
+        },
+        {
+         "id": "gwd02wrk-24",
+         "topic": "2 · Past the promised rewards",
+         "note": "What has been heard, or will be heard, about rewards for rituals stops pulling at the mind.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2819s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2819"
+           },
+           {
+            "label": "📖 BG 2.52",
+            "url": "https://vedabase.io/en/library/bg/2/52/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 46:59",
+           "tag": "Liberation"
+          },
+          "topics": [
+           "BG 2.52"
+          ]
+         }
+        },
+        {
+         "id": "gwd02wrk-25",
+         "topic": "3 · Free from birth and death",
+         "note": "By working this way the wise are released from repeated birth and death.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2828s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2828"
+           },
+           {
+            "label": "📖 BG 2.51",
+            "url": "https://vedabase.io/en/library/bg/2/51/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 47:08",
+           "tag": "Liberation"
+          },
+          "topics": [
+           "BG 2.51"
+          ]
+         }
+        },
+        {
+         "id": "gwd02wrk-26",
+         "topic": "4 · Fixed in trance",
+         "note": "When the mind is no longer drawn by flowery promises, it rests steady in self-realisation.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2833s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2833"
+           },
+           {
+            "label": "📖 BG 2.53",
+            "url": "https://vedabase.io/en/library/bg/2/53/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 47:13",
+           "tag": "Liberation"
+          },
+          "topics": [
+           "BG 2.53"
+          ]
+         }
+        },
+        {
+         "id": "gwd02wrk-27",
+         "topic": "The rich who still go to work",
+         "note": "Prabhu's example: the world's richest people still go to the office though the salary changes nothing for them. They work, but not for the money.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2836s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2836"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 47:16",
+           "tag": "Wealth"
+          }
+         }
+        },
+        {
+         "id": "gwd02wrk-28",
+         "topic": "Confectioners who skip sweets",
+         "note": "Indian sweet-makers spend all day among gulab jamun, rasmalai and laddus, yet many do not eat them. Being surrounded by results need not mean craving them.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=2964s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=2964"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 49:24",
+           "tag": "Stories"
+          },
+          "q": "What do Prabhu's confectioners show about working without attachment?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-29",
+       "topic": "3.5 — Everyone is forced to act",
+       "note": "Arjuna reasons: if all are souls and bodies die anyway, why fight at all? Krishna answers that no embodied being can stop acting even for a moment.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3147s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=3147"
+         },
+         {
+          "label": "📖 BG 3.5",
+          "url": "https://vedabase.io/en/library/bg/3/5/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 52:27",
+         "tag": "Purpose"
+        },
+        "topics": [
+         "BG 3.5"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-30",
+         "topic": "Bills, bodies and families",
+         "note": "The real question Prabhu raises: we still have bodies, relations and bills. How do we live as souls without stress or bad karma? Krishna explains next.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3054s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3054"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 50:54",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "gwd02wrk-31",
+         "topic": "Sit still for two minutes",
+         "note": "Prabhu asks teens and adults to sit still for two minutes; they fidget and reach for their phones. If we cannot manage two minutes, how could we stop working?",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3164s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3164"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 52:44",
+           "tag": "Questions"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-32",
+       "topic": "3.6 — The pretender",
+       "note": "Holding the body still while the mind dwells on sense objects is self-deception; Krishna calls such a person a pretender.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3224s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=3224"
+         },
+         {
+          "label": "📖 BG 3.6",
+          "url": "https://vedabase.io/en/library/bg/3/6/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 53:44",
+         "tag": "Desire"
+        },
+        "topics": [
+         "BG 3.6"
+        ],
+        "q": "What does Krishna call someone who restrains the body but keeps thinking of sense objects (BG 3.6)?"
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-33",
+         "topic": "The marshmallow test",
+         "note": "Children were told a second marshmallow would come if they waited five minutes. They licked, poked and pocketed it, and most ate it. Not touching is not the same as not wanting.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3253s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3253"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 54:13",
+           "tag": "Science"
+          }
+         }
+        },
+        {
+         "id": "gwd02wrk-34",
+         "topic": "Purity before giving up",
+         "note": "Prabhu explains: stopping activity artificially, before the heart is purified, is only pretence. Better to keep working.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3341s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3341"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 55:41",
+           "tag": "Desire"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-35",
+       "topic": "3.8 — \"I have a stomach\"",
+       "note": "Working is better than not working; even keeping the body alive needs work.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3370s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=3370"
+         },
+         {
+          "label": "📖 BG 3.8",
+          "url": "https://vedabase.io/en/library/bg/3/8/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 56:10",
+         "tag": "Purpose"
+        },
+        "topics": [
+         "BG 3.8"
+        ]
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-36",
+         "topic": "A prince cannot beg",
+         "note": "Arjuna talks of begging in the Himalayas; Krishna knows a palace-raised prince would not last the first day on small alms.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3376s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3376"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 56:16",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "gwd02wrk-37",
+         "topic": "The Indian saying",
+         "note": "In India people shrug, \"what to do, I have a stomach\": whatever job comes, we do it, because the stomach must be fed.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3417s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3417"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 56:57",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "gwd02wrk-38",
+         "topic": "When you want to run away",
+         "note": "Note down a time you wanted to walk out. Everyone has; running away solves nothing. Today's names for it include quiet quitting. Krishna's answer: learn how to work.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3465s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3465"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 57:45",
+           "tag": "Questions"
+          },
+          "q": "What is Prabhu's answer to the urge to run away from our work?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-39",
+       "topic": "3.9 — Work as a sacrifice",
+       "note": "The art Krishna teaches: work done as an offering (yajna) for Vishnu sets us free; work done only for ourselves binds.",
+       "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3539s",
+       "manas": {
+        "links": [
+         {
+          "label": "📝 Read what Prabhu says",
+          "url": "gw-transcript-02.html#t=3539"
+         },
+         {
+          "label": "📖 BG 3.9",
+          "url": "https://vedabase.io/en/library/bg/3/9/"
+         }
+        ],
+        "orbit": {
+         "ref": "Day 2 · 58:59",
+         "tag": "Surrender"
+        },
+        "topics": [
+         "BG 3.9"
+        ],
+        "q": "Which verse says work must be done as a sacrifice for Vishnu, or else it binds?"
+       },
+       "children": [
+        {
+         "id": "gwd02wrk-40",
+         "topic": "Medal or jail",
+         "note": "A soldier who kills in battle on his country's orders receives a medal; if he kills his neighbour over a fallen apple, he goes to jail. The act is alike; the authority differs.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3580s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3580"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 59:40",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "gwd02wrk-41",
+         "topic": "Tonight: offer your food",
+         "note": "Every meal involves killing, of animals and even of carrots, so eating carries reaction. Food offered to Krishna becomes prasadam and frees us from it.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3748s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3748"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 62:28",
+           "tag": "Devotees"
+          },
+          "q": "What practical sacrifice does Prabhu suggest everyone can do tonight?"
+         },
+         "children": [
+          {
+           "id": "gwd02wrk-42",
+           "topic": "Prasadam-eaters",
+           "note": "Prabhu's label: we are neither vegetarians nor non-vegetarians but prasadam-eaters, eating what was first offered.",
+           "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3878s",
+           "manas": {
+            "links": [
+             {
+              "label": "📝 Read what Prabhu says",
+              "url": "gw-transcript-02.html#t=3878"
+             }
+            ],
+            "orbit": {
+             "ref": "Day 2 · 64:38",
+             "tag": "Devotees"
+            }
+           }
+          },
+          {
+           "id": "gwd02wrk-43",
+           "topic": "9.26 — Leaf, flower, fruit, water",
+           "note": "Krishna names what He accepts when offered with love, which is why devotees offer only vegetarian food.",
+           "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3912s",
+           "manas": {
+            "links": [
+             {
+              "label": "📝 Read what Prabhu says",
+              "url": "gw-transcript-02.html#t=3912"
+             },
+             {
+              "label": "📖 BG 9.26",
+              "url": "https://vedabase.io/en/library/bg/9/26/"
+             }
+            ],
+            "orbit": {
+             "ref": "Day 2 · 65:12",
+             "tag": "Love"
+            },
+            "topics": [
+             "BG 9.26"
+            ]
+           }
+          },
+          {
+           "id": "gwd02wrk-44",
+           "topic": "3.13 — Eating only for oneself",
+           "note": "Devotees are freed from sin by eating what was offered in sacrifice; food cooked only for oneself, Prabhu says, is a mouthful of sin.",
+           "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3956s",
+           "manas": {
+            "links": [
+             {
+              "label": "📝 Read what Prabhu says",
+              "url": "gw-transcript-02.html#t=3956"
+             },
+             {
+              "label": "📖 BG 3.13",
+              "url": "https://vedabase.io/en/library/bg/3/13/"
+             }
+            ],
+            "orbit": {
+             "ref": "Day 2 · 65:56",
+             "tag": "Devotees"
+            },
+            "topics": [
+             "BG 3.13"
+            ]
+           }
+          }
+         ]
+        },
+        {
+         "id": "gwd02wrk-45",
+         "topic": "Using the company printer",
+         "note": "Printing party posters at the office, or using the company phone and fuel privately, is stealing. Earth, water, light and air are Krishna's; using them only for ourselves is the same.",
+         "hyperLink": "https://www.youtube.com/watch?v=THCon-rSN_M&t=3968s",
+         "manas": {
+          "links": [
+           {
+            "label": "📝 Read what Prabhu says",
+            "url": "gw-transcript-02.html#t=3968"
+           },
+           {
+            "label": "📖 BG 3.12",
+            "url": "https://vedabase.io/en/library/bg/3/12/"
+           }
+          ],
+          "orbit": {
+           "ref": "Day 2 · 66:08",
+           "tag": "Wealth"
+          },
+          "topics": [
+           "BG 3.12"
+          ]
+         }
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-46",
+       "topic": "Take-away",
+       "note": "Four points to carry from this part of the class (our summary).",
+       "children": [
+        {
+         "id": "gwd02wrk-47",
+         "topic": "Don't run away; learn how to work",
+         "note": "Escaping duty solves nothing and is itself attachment; Krishna teaches the art of action instead."
+        },
+        {
+         "id": "gwd02wrk-48",
+         "topic": "Give your best, leave the result",
+         "note": "Work with full effort and stay even in success and failure (BG 2.48)."
+        },
+        {
+         "id": "gwd02wrk-49",
+         "topic": "Offer before you eat",
+         "note": "The simplest daily sacrifice: offer vegetarian food to Krishna and honour it as prasadam."
+        },
+        {
+         "id": "gwd02wrk-50",
+         "topic": "Check the kind of action",
+         "note": "Before acting, ask: is this karma, vikarma or akarma? Aim for work offered to Krishna."
+        }
+       ]
+      },
+      {
+       "id": "gwd02wrk-51",
+       "topic": "🔗 See also",
+       "note": "Other maps on the same subject. Tap a bubble to open it.",
+       "children": [
+        {
+         "id": "gwd02wrk-52",
+         "topic": "Day 02 · In depth: You are the soul",
+         "note": "The first half of this class: Krishna's teaching on the soul, BG 2.11–2.30.",
+         "manas": {
+          "map": "gw-day02-soul",
+          "part": "gitaweek",
+          "library": "sgd"
+         }
+        },
+        {
+         "id": "gwd02wrk-53",
+         "topic": "Day 03 · Knowledge that frees our work",
+         "note": "The next class: Chapter 4, knowledge and action without reaction.",
+         "manas": {
+          "map": "gw-day03",
+          "part": "gitaweek",
+          "library": "sgd"
          }
         }
        ]
