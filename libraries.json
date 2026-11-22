@@ -346,7 +346,7 @@
   {
    "id": "gita-ml",
    "title": "Bhagavad-gita in your language — chapter summaries · draft",
-   "subtitle": "Draft for review: the Bhagavad-gita one verse at a time in ten languages (Hindi, Swahili, Gujarati, Bengali, Tamil, Telugu, Kannada, Marathi, Spanish, French) — our own one-line summaries, each linked to the verse on vedabase.io. Chapter 1 so far; native reviewers wanted.",
+   "subtitle": "Draft for review: the Bhagavad-gita one verse at a time in ten languages (Hindi, Swahili, Gujarati, Bengali, Tamil, Telugu, Kannada, Marathi, Spanish, French) — our own one-line summaries, each linked to the verse on vedabase.io. Chapters 1–2 so far; native reviewers wanted.",
    "icon": "🌍",
    "file": "lib-gita-ml.json",
    "root": "gita-ml-root",
@@ -357,11 +357,11 @@
     "review": "Draft · translations unreviewed · native reviewers wanted",
     "date": "18 Nov 2026"
    },
-   "whatsNew": "New library: Chapter 1 (46 verses) in all ten languages, each verse linked to vedabase.io (Wed 18 Nov)",
+   "whatsNew": "New: Chapter 2 (72 verses — the soul, duty, work without attachment, the steady mind) in all ten languages, each verse linked to vedabase.io (Sun 22 Nov)",
    "short": "Gita 🌍",
    "parts": 10,
-   "v": 1794997500,
-   "meta": "21 maps · 492 ideas · 230 KB · 10 subjects",
+   "v": 1795357904,
+   "meta": "31 maps · 1,292 ideas · 596 KB · 10 subjects",
    "split": "lib-gita-ml-index.json"
   }
  ]
