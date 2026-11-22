@@ -90,7 +90,7 @@
    "about": {
     "by": "Manas, for Kenyan MBChB students (University of Nairobi course structure)",
     "from": "Course list from the UoN programme; key facts drafted with AI and checked twice by AI; OpenStax, Kenya MoH and WHO links",
-    "review": "review in progress",
+    "review": "Study aid, not medical advice · AI-drafted, doctor review in progress",
     "date": "28 Sep 2026"
    },
    "parts": 6,
@@ -112,10 +112,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New: The world of accounting · Branches 2. Cost accounting, 3. Tax accounting, 4. Internal audit, 5. Forensic accounting and fraud, 6. Government and public sector accounting (Sat 21 Nov)",
-   "meta": "148 maps · 11,575 ideas · 2.6 MB · 6 subjects",
+   "whatsNew": "New: The world of accounting · Branches 7. Environmental and carbon accounting, 8. Social and impact accounting, 9. Islamic accounting and finance, 10. Accounting information systems (Branches complete); At work · 10. Fixed asset register (Sun 22 Nov)",
+   "meta": "153 maps · 12,057 ideas · 2.7 MB · 6 subjects",
    "parts": 6,
-   "v": 1795240834,
+   "v": 1795327585,
    "split": "lib-acc-index.json",
    "short": "Acc"
   },
@@ -190,7 +190,7 @@
    "about": {
     "by": "Manas, for Kenyan LLB students",
     "from": "Own-words notes; Constitution Articles from klrc.go.ke; classic cases from Wikipedia; YouTube teachers",
-    "review": "Draft · review in progress",
+    "review": "Study aid, not legal advice · Draft, review in progress",
     "date": "23 Oct 2026"
    },
    "whatsNew": "Deeper: Law of Torts — 7 Kenyan cases from Kenya Law (incl. KWS v Rift Valley, Supreme Court 2018), 4 practice problems, time limits, occupiers and defamation linked to their sections of the Kenyan Acts (Tue 17 Nov)",
@@ -211,7 +211,7 @@
    "about": {
     "by": "Manas, for students, citizens and anyone who wants to read the Katiba",
     "from": "Own-words notes from the official text on the Kenya Law Reform Commission site (klrc.go.ke); Kenyan cases from Kenya Law (new.kenyalaw.org)",
-    "review": "Draft · review in progress",
+    "review": "Study aid, not legal advice · Draft, review in progress",
     "date": "6 Nov 2026"
    },
    "parts": 6,
