@@ -5,7 +5,7 @@
 <meta name="author" content="Kewal Bhatt (Keval Krishna Das), Nairobi">
 <meta name="generator" content="Manas by Kewal Bhatt (origin KKD-MANAS-NBO-20260914-7c3e)">
 <meta name="copyright" content="© 2026 Kewal Bhatt (Keval Krishna Das), Nairobi. All rights reserved.">
-<meta name="manas-stamp" content="7.30-8c1edf741f086eec4b9fe866"><meta name="theme-color" content="#22203A"><meta name="manas-build" content="7f1a08ec8e2e"><meta name="manas-catalog" content="https://md1secretary108.github.io/manas/libraries.json"><style>body::after{content:"BETA 10";position:fixed;left:6px;bottom:4px;font:600 10px/1 system-ui,sans-serif;letter-spacing:.08em;color:#F0A030;opacity:.75;pointer-events:none;z-index:2147483000}</style>
+<meta name="manas-stamp" content="7.30-8c1edf741f086eec4b9fe866"><meta name="theme-color" content="#22203A"><meta name="manas-build" content="17f1dc67a62a"><meta name="manas-catalog" content="https://md1secretary108.github.io/manas/libraries.json"><style>body::after{content:"BETA 11";position:fixed;left:6px;bottom:4px;font:600 10px/1 system-ui,sans-serif;letter-spacing:.08em;color:#F0A030;opacity:.75;pointer-events:none;z-index:2147483000}</style>
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -35,6 +35,14 @@
   --ink:#ECE9F7; --paper:#16152A; --surface:#221F3A; --muted:#A39FBF; --line:#332F52;
   --shadow:0 8px 28px rgba(0,0,0,.45); --bar:rgba(34,31,58,.94); --hl:rgba(240,160,48,.22); color-scheme:dark;
 }
+:root[data-look="horizon"]{   /* 21 Nov 2026: Horizon — the night-sky look. Tokens only, so every screen follows; no blur or animation (cheap phones). */
+  --ink:#ECE9F7; --paper:#0B0A18; --surface:#17152E; --muted:#A9A5C6; --line:#2C2950;
+  --shadow:0 10px 30px rgba(0,0,0,.55),0 0 0 1px rgba(143,124,255,.06); --bar:rgba(20,18,44,.96); --hl:rgba(240,160,48,.24); color-scheme:dark;
+}
+html[data-look="horizon"] body{background-color:var(--paper);background-image:radial-gradient(900px 520px at 85% -8%,rgba(143,124,255,.20),transparent 62%),radial-gradient(700px 480px at -12% 108%,rgba(240,160,48,.10),transparent 60%);background-attachment:fixed}
+html[data-look="horizon"] .new-map{background:linear-gradient(135deg,#2A2258,#1A1638 60%,#2A1E1A);color:var(--ink);border:1px solid rgba(240,160,48,.35);box-shadow:0 0 0 1px rgba(240,160,48,.08),0 14px 34px -12px rgba(240,160,48,.35)}
+html[data-look="horizon"] .new-map .plus{box-shadow:0 0 18px rgba(240,160,48,.55)}
+html[data-look="horizon"] :is(.card,.shelf-card,.lib-row,.recent-chip,.sheet){border-color:var(--line);background-image:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,0))}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html,body{height:100%;margin:0;overscroll-behavior:none}
@@ -593,9 +601,11 @@ const uid = () => Math.random().toString(36).slice(2,10) + Date.now().toString(3
 let settings = Object.assign({ lastLook:'sunrise', lastLayout:'side', seenHelp:false }, loadSettings());
 /* Light / dark: one tap on the home screen (sun/moon), or Light · Dark · Phone in the menu. Saved on the device. */
 const DARK_MQ = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
-function themeNow(){ return settings.theme === 'dark' || settings.theme === 'light' ? settings.theme : (DARK_MQ && DARK_MQ.matches ? 'dark' : 'light'); }
-function applyTheme(){ const r = document.documentElement; if (settings.theme === 'dark' || settings.theme === 'light') r.setAttribute('data-theme', settings.theme); else r.removeAttribute('data-theme');
-  const dark = themeNow() === 'dark'; const tc = document.querySelector('meta[name="theme-color"]'); if (tc){ if (!tc.dataset.light) tc.dataset.light = tc.content; tc.content = dark ? '#16152A' : tc.dataset.light; }
+/* 21 Nov 2026: Horizon = the night-sky look (concept "Manas Horizon"): dark map colours + data-look="horizon" on <html>; CSS tokens do the rest. */
+function themeNow(){ return settings.theme === 'horizon' ? 'dark' : settings.theme === 'dark' || settings.theme === 'light' ? settings.theme : (DARK_MQ && DARK_MQ.matches ? 'dark' : 'light'); }
+function applyTheme(){ const r = document.documentElement, hz = settings.theme === 'horizon'; if (hz || settings.theme === 'dark' || settings.theme === 'light') r.setAttribute('data-theme', hz ? 'dark' : settings.theme); else r.removeAttribute('data-theme');
+  if (hz) r.setAttribute('data-look', 'horizon'); else r.removeAttribute('data-look');
+  const dark = themeNow() === 'dark'; const tc = document.querySelector('meta[name="theme-color"]'); if (tc){ if (!tc.dataset.light) tc.dataset.light = tc.content; tc.content = hz ? '#0B0A18' : dark ? '#16152A' : tc.dataset.light; }
   const b = document.getElementById('theme-toggle'); if (b){ b.innerHTML = dark ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>' : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>';
     b.setAttribute('aria-label', dark ? t('Light mode') : t('Dark mode')); b.title = b.getAttribute('aria-label'); } }
 function setTheme(v){ settings.theme = v; saveSettings(settings); applyTheme(); rethemeOpenMap(); }
@@ -802,7 +812,7 @@ $('#home-menu-btn').addEventListener('click', () => sheet(`
     <button id="s-tour">${ico('help')}<span>${t('Take the tour')}<br><small style="color:var(--muted)">${t('A one-minute walk through the app')}</small></span></button>
     <button id="s-help">${ico('help')}<span>${t('How it works')}</span></button>
     <button id="s-guide">${ico('help')}<span>${t('Open the guide map')}<br><small style="color:var(--muted)">${t('"How to use Manas" — comes back if you deleted it')}</small></span></button>
-    <div class="lbl" style="margin:10px 8px 4px">${t('Appearance')}</div><div class="seg">${[['light','Light'],['dark','Dark'],['auto','Follow phone']].map(([k,v]) => `<button data-theme-pick="${k}" class="${(settings.theme || 'auto') === k ? 'on' : ''}">${t(v)}</button>`).join('')}</div>
+    <div class="lbl" style="margin:10px 8px 4px">${t('Appearance')}</div><div class="seg">${[['light','Light'],['dark','Dark'],['horizon','Horizon'],['auto','Follow phone']].map(([k,v]) => `<button data-theme-pick="${k}" class="${(settings.theme || 'auto') === k ? 'on' : ''}">${t(v)}</button>`).join('')}</div>
     <div class="lbl" style="margin:10px 8px 4px">${t('Movement')}</div><div class="seg">${[['lively','Lively'],['calm','Calm']].map(([k,v]) => `<button data-motion-pick="${k}" class="${(motionOn() ? 'lively' : 'calm') === k ? 'on' : ''}">${t(v)}</button>`).join('')}</div>
     <button id="s-ai">${ico('spark')}<span>${t('AI helper')}<br><small style="color:var(--muted)">${settings.geminiKey ? t('On · your own Google AI key') : t('Free with your own Google key — talk or type to build maps')}</small></span></button>
     <button id="s-lang">${ico('globe')}<span>${t('Language')} · ${LANG_NAMES[LANG]}</span></button>
@@ -4989,8 +4999,8 @@ async function adminLibraries(body){
   const info = {}; for (const r of (j.items || [])) info[r.id] = r;
   const libs = ((catalog && catalog.libraries) || []).filter(l => l.file);
   const LV = [['open', '🔓 ' + t('Open')], ['request', '🔒 ' + t('By request')], ['private', '🔐 ' + t('Private')]];
-  body.innerHTML = `<p class="tips" style="margin:0 0 8px">${t('Private: the library file is encrypted before it is published, and only approved people’s phones receive the key. After removing someone, tap 🔑 New key — the next publish locks the file with it.')}</p><div class="libs">${libs.map(e => { const r = info[e.id] || {}; const lv = r.level || libLevel(e);
-    return `<div class="lib-row" data-l="${esc(e.id)}"><span class="lib-ico">${esc(e.icon || '📚')}</span><span class="lib-txt"><b>${esc(e.title)}</b><small>${r.members || 0} ${t('people approved')}${r.pending ? ' · ' + r.pending + ' ' + t('waiting') : ''}${lv === 'private' ? ' · 🔑 ' + t('key') + ' ' + (r.keyVersion || '—') : ''}</small></span>${lv === 'private' && j.v >= 6 ? `<button class="btn small" data-rot="${esc(e.id)}">🔑 ${t('New key')}</button>` : ''}
+  body.innerHTML = `<p class="tips" style="margin:0 0 8px">${t('Private: only approved people’s phones receive the key. The file on the website is encrypted at the next publish from the laptop; until then anyone with the link can still read it. After removing someone, tap 🔑 New key — the next publish locks the file with it.')}</p><div class="libs">${libs.map(e => { const r = info[e.id] || {}; const lv = r.level || libLevel(e);
+    return `<div class="lib-row" data-l="${esc(e.id)}"><span class="lib-ico">${esc(e.icon || '📚')}</span><span class="lib-txt"><b>${esc(e.title)}</b><small>${r.members || 0} ${t('people approved')}${r.pending ? ' · ' + r.pending + ' ' + t('waiting') : ''}${lv === 'private' ? ' · 🔑 ' + t('key') + ' ' + (r.keyVersion || '—') : ''}${lv === 'private' && String(e.access || '').toLowerCase() !== 'private' ? '<br><span style="color:var(--danger);font-weight:700">⚠ ' + t('Not encrypted on the website yet: publish from the laptop') + '</span>' : ''}</small></span>${lv === 'private' && j.v >= 6 ? `<button class="btn small" data-rot="${esc(e.id)}">🔑 ${t('New key')}</button>` : ''}
       <div class="seg" style="flex:1 1 100%;padding:0">${LV.map(([k, v]) => `<button data-lv="${k}" data-lib="${esc(e.id)}" class="${lv === k ? 'on' : ''}">${v}</button>`).join('')}</div></div>`; }).join('')}</div>`;
   body.querySelectorAll('[data-lv]').forEach(b => b.onclick = async () => { const lib = b.getAttribute('data-lib'), lv = b.getAttribute('data-lv');
     const r = await adminDo('admin.setLevel', { library: lib, level: lv }); if (r){ const a = acc(); a.levels = Object.assign({}, a.levels, { [lib]: lv }); saveSettings(settings);
