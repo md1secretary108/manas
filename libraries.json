@@ -46,16 +46,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "344 maps · 23,000 ideas · 16.6 MB · 19 series + index",
-   "parts": 20,
+   "meta": "346 maps · 23,074 ideas · 16.6 MB · 20 series + index",
+   "parts": 21,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1795322486,
-   "whatsNew": "New series: After Krishna Left — 10 classes (ISKCON Ujjain, Aug 2024: SB 1.14–18 — Arjuna's grief, the Pandavas depart, Pariksit meets Kali, the boy's curse), each a map",
+   "v": 1795408333,
+   "whatsNew": "New series: Vidagdha-madhava (1 class, Mayapur, Feb 2025) — Krishna disguises himself as the goddess Gauri at Govardhana to keep Radharani in Vraja; questions on why pure devotees faint and why material eyes cannot see Krishna.",
    "split": "lib-bdds-index.json",
    "short": "Maharaj",
    "reviewCap": 4000
