@@ -87,7 +87,7 @@
    "icon": "🩺",
    "file": "lib-mbchb.json",
    "root": "med-root",
-   "meta": "96 maps · 9,501 ideas · 3.3 MB · 6 years",
+   "meta": "102 maps · 9,911 ideas · 3.4 MB · 6 years",
    "about": {
     "by": "Manas, for Kenyan MBChB students (University of Nairobi course structure)",
     "from": "Course list from the UoN programme; key facts drafted with AI and checked twice by AI; OpenStax, Kenya MoH and WHO links",
@@ -95,8 +95,8 @@
     "date": "28 Sep 2026"
    },
    "parts": 6,
-   "v": 1795167028,
-   "whatsNew": "4 new in-depth topics (Year 1–2): glomerular filtration and clearance; water, pH and buffers; anatomical terms and movements; homeostasis and body fluids — plus 5 new research papers on health systems and chest X-ray for TB",
+   "v": 1795411623,
+   "whatsNew": "6 new in-depth topics: biopsychosocial model (Yr 1); health policy and law, antepartum haemorrhage, preterm and low birth weight (Yr 5); cardiac and mediastinal imaging, death and post-mortem changes (Yr 6)",
    "split": "lib-mbchb-index.json",
    "short": "Med"
   },

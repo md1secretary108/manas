@@ -2567,7 +2567,12 @@
         }
        ],
        "note": "How biological, psychological and social factors together shape health and illness, contrasted with the biomedical model.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hps100-biopsychosocial",
+        "part": "y1",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhps100-1",
@@ -27178,7 +27183,12 @@
         }
        ],
        "note": "Diagnosing death and the early changes used to interpret the scene and estimate time since death.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hhp604-death-postmortem",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhhp604-2",
@@ -38974,7 +38984,12 @@
         }
        ],
        "note": "Heart failure, pericardial effusion, rheumatic valve disease and mediastinal masses.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hdr600-cardiac-mediastinal",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhdr600-2",
@@ -45449,7 +45464,12 @@
         }
        ],
        "note": "Definitions, complications and care of small and preterm babies, including kangaroo mother care.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hpd500-preterm-lbw",
+        "part": "y5",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhpd500-2",
@@ -47819,7 +47839,12 @@
         }
        ],
        "note": "Bleeding from the genital tract after viability: placenta praevia, placental abruption and other causes.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hog500-antepartum-haemorrhage",
+        "part": "y5",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhog500-2",
@@ -50558,7 +50583,12 @@
         }
        ],
        "note": "How health policy is made, and the key Kenyan laws and policies that shape public health practice.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hch500-health-policy-legal",
+        "part": "y5",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhch500-2",
@@ -81107,6 +81137,3672 @@
     }
    },
    "part": "y2"
+  },
+  {
+   "id": "med-hch500-health-policy-legal",
+   "title": "HCH 500 · In depth: Health policy and legal framework",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795411623346,
+   "updated": 1795411623346,
+   "library": "mbchb",
+   "deepOf": "med-hch500",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhch500pl-root",
+     "topic": "Health policy and legal framework",
+     "note": "How policy is made and analysed, the Constitution and laws behind Kenyan practice, and global legal tools. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhch500pl-6",
+       "topic": "Definitions",
+       "note": "Key words used in policy and law questions.",
+       "children": [
+        {
+         "id": "mdhch500pl-1",
+         "topic": "Health policy",
+         "note": "Decisions, plans and actions taken to reach defined health goals in a society, set by government and other actors.",
+         "manas": {
+          "q": "Define health policy."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-2",
+         "topic": "Public vs healthy public policy",
+         "note": "Healthy public policy (Ottawa Charter, 1986) means policies in any sector, such as transport or housing, judged by their effect on health.",
+         "manas": {
+          "q": "What is healthy public policy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-3",
+         "topic": "Policy, law, strategy, guideline",
+         "note": "Policy states direction; law binds and is enforced; a strategy plans how to act; guidelines advise practice and are usually not law.",
+         "manas": {
+          "q": "How does a policy differ from a law?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-4",
+         "topic": "Act vs regulations",
+         "note": "An Act is passed by Parliament or a county assembly; regulations (subsidiary legislation) are detailed rules made under an Act by a minister or body it names.",
+         "manas": {
+          "q": "What is subsidiary legislation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-5",
+         "topic": "Policy analysis: of vs for",
+         "note": "Analysis of policy explains how and why a policy came about; analysis for policy gives evidence to shape a new one.",
+         "manas": {
+          "q": "Distinguish analysis of policy from analysis for policy."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch500pl-14",
+       "topic": "Constitution of Kenya 2010",
+       "note": "The supreme law; any law inconsistent with it is void.",
+       "children": [
+        {
+         "id": "mdhch500pl-7",
+         "topic": "Right to health, Article 43",
+         "note": "Article 43(1)(a): everyone has the right to the highest attainable standard of health, including reproductive health care.",
+         "manas": {
+          "q": "Which Article of Kenya's Constitution gives the right to health?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-8",
+         "topic": "Children's rights, Article 53",
+         "note": "Every child has a right to basic nutrition, shelter and health care, and the child's best interests are paramount.",
+         "manas": {
+          "q": "Which Article protects children's right to health care in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-9",
+         "topic": "Healthy environment, Article 42",
+         "note": "Every person has the right to a clean and healthy environment, which links law to sanitation and pollution control.",
+         "manas": {
+          "q": "Which Article gives the right to a clean and healthy environment?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-10",
+         "topic": "Treaties as Kenyan law",
+         "note": "Article 2(6): any treaty or convention Kenya ratifies forms part of Kenyan law, e.g. WHO tobacco convention.",
+         "manas": {
+          "q": "How do ratified treaties become part of Kenyan law?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-11",
+         "topic": "Fourth Schedule split",
+         "note": "National: health policy and national referral facilities. Counties: county health services, including facilities and pharmacies.",
+         "manas": {
+          "q": "How does the Fourth Schedule divide health functions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-12",
+         "topic": "Public participation",
+         "note": "Article 10 national values include participation of the people; they bind everyone who makes or implements laws or public policy decisions.",
+         "manas": {
+          "q": "Which Article lists participation of the people as a national value?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-13",
+         "topic": "Adult at 18",
+         "note": "The Constitution defines an adult as a person aged 18 or over, relevant to consent for treatment and research.",
+         "manas": {
+          "q": "At what age is a person an adult under Kenya's Constitution?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch500pl-25",
+       "topic": "Other key Kenyan statutes",
+       "note": "Laws a doctor meets in practice, beyond those on the course map.",
+       "children": [
+        {
+         "id": "mdhch500pl-15",
+         "topic": "Medical Practitioners and Dentists Act",
+         "note": "The Medical Practitioners and Dentists Act (Cap 253) sets up the Kenya Medical Practitioners and Dentists Council to register, license and discipline doctors and dentists.",
+         "manas": {
+          "q": "Which Act creates the KMPDC?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-16",
+         "topic": "Pharmacy and Poisons Act",
+         "note": "The Pharmacy and Poisons Board, under the Pharmacy and Poisons Act (Cap 244), regulates medicines, pharmacies and poisons.",
+         "manas": {
+          "q": "Which body regulates medicines in Kenya, and under which Act?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-17",
+         "topic": "Food, Drugs and Chemical Substances",
+         "note": "The Food, Drugs and Chemical Substances Act (Cap 254) controls safety, quality and labelling of food, drugs and chemicals, guarding against adulteration.",
+         "manas": {
+          "q": "What does Cap 254 regulate?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-18",
+         "topic": "Mental Health Act",
+         "note": "The Mental Health Act (Cap 248) governs admission, including involuntary admission, and treatment of people with mental illness; it has since been amended.",
+         "manas": {
+          "q": "Which Kenyan law governs involuntary psychiatric admission?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-19",
+         "topic": "HIV and AIDS Act 2006",
+         "note": "HIV and AIDS Prevention and Control Act: protects against discrimination, sets consent and confidentiality rules for testing, creates an HIV tribunal.",
+         "manas": {
+          "q": "What special body does the HIV and AIDS Prevention and Control Act create?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-20",
+         "topic": "Alcoholic Drinks Control Act 2010",
+         "note": "Regulates making, sale and advertising of alcohol; sale to people under 18 is prohibited.",
+         "manas": {
+          "q": "Which 2010 law controls alcohol sale in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-21",
+         "topic": "Occupational Safety and Health Act",
+         "note": "OSHA 2007 sets duties of employers to protect the safety, health and welfare of workers.",
+         "manas": {
+          "q": "Which law sets employer duties for worker safety in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-22",
+         "topic": "Sexual Offences Act 2006",
+         "note": "Defines sexual offences such as rape and defilement and sets their penalties; doctors often examine survivors and give evidence.",
+         "manas": {
+          "q": "Which Act governs sexual offences in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-23",
+         "topic": "Data Protection Act 2019",
+         "note": "Health data is sensitive personal data; collecting and sharing it needs a lawful basis and safeguards.",
+         "manas": {
+          "q": "How is health data classed under Kenya's Data Protection Act 2019?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-24",
+         "topic": "Births and Deaths Registration",
+         "note": "Cap 149 requires registration of births and deaths; doctors certify cause of death.",
+         "manas": {
+          "q": "Which law requires registration of deaths in Kenya?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch500pl-33",
+       "topic": "Institutions and actors",
+       "note": "Who makes, passes, enforces and shapes health policy.",
+       "children": [
+        {
+         "id": "mdhch500pl-26",
+         "topic": "Ministry of Health",
+         "note": "Sets national policy, standards and regulation, and runs national referral services; the Cabinet Secretary leads it.",
+         "manas": {
+          "q": "What are the Ministry of Health's main roles after devolution?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-27",
+         "topic": "Parliament and Senate",
+         "note": "The National Assembly makes most national laws and approves the budget; the Senate protects county interests, considers Bills concerning counties and revenue sharing, including health.",
+         "manas": {
+          "q": "What role does the Senate play in health?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-28",
+         "topic": "County governments",
+         "note": "County executive (health CEC member) runs services; the county assembly passes county laws and budgets.",
+         "manas": {
+          "q": "Who passes county health laws?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-29",
+         "topic": "Intergovernmental Relations Act 2012",
+         "note": "Sets up forums for cooperation between national and county governments, including on shared functions like health.",
+         "manas": {
+          "q": "Which law creates forums for national–county cooperation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-30",
+         "topic": "Professional councils",
+         "note": "KMPDC, Nursing Council of Kenya and Clinical Officers Council license practitioners and handle complaints.",
+         "manas": {
+          "q": "Name three Kenyan health professional councils."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-31",
+         "topic": "Research and evidence bodies",
+         "note": "KEMRI does health research; universities and ethics committees review studies; NACOSTI licenses research.",
+         "manas": {
+          "q": "Which body licenses research in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-32",
+         "topic": "Non-state actors",
+         "note": "Donors, NGOs, faith-based providers, professional unions, industry and the media all lobby and shape policy.",
+         "manas": {
+          "q": "Name non-state actors that influence health policy."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch500pl-40",
+       "topic": "How policy is made",
+       "note": "Models and steps beyond the policy cycle and triangle.",
+       "children": [
+        {
+         "id": "mdhch500pl-34",
+         "topic": "How a Bill becomes law",
+         "note": "Publication, first reading, committee stage with public views, second reading, committee of whole House, third reading, Senate if it concerns counties, then presidential assent.",
+         "manas": {
+          "q": "List the stages of a Bill in Kenya's Parliament."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-35",
+         "topic": "Rational vs incremental",
+         "note": "Rational model: weigh all options and pick the best. Incrementalism (Lindblom): small changes from the status quo, more realistic.",
+         "manas": {
+          "q": "Contrast rational and incremental models of policy-making."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-36",
+         "topic": "Kingdon's multiple streams",
+         "note": "Problem, policy and politics streams run separately; when they meet, a 'policy window' opens for change.",
+         "manas": {
+          "q": "Name the three streams in Kingdon's model."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-37",
+         "topic": "Top-down vs bottom-up",
+         "note": "Top-down: implement as designed centrally. Bottom-up: frontline workers and context reshape how policy works.",
+         "manas": {
+          "q": "Contrast top-down and bottom-up implementation."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-38",
+         "topic": "Street-level bureaucrats",
+         "note": "Lipsky: nurses, doctors and clerks use discretion daily, so they in effect make policy as they deliver it.",
+         "manas": {
+          "q": "What is a street-level bureaucrat?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-39",
+         "topic": "Evidence and politics",
+         "note": "Evidence is one input; values, interests, money and timing often decide the outcome.",
+         "manas": {
+          "q": "Why does good evidence not always change policy?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch500pl-46",
+       "topic": "Policy analysis tools",
+       "note": "Methods to study or plan a policy.",
+       "children": [
+        {
+         "id": "mdhch500pl-41",
+         "topic": "Stakeholder analysis",
+         "note": "List actors, their position, power and interest; then plan how to engage, persuade or neutralise them.",
+         "manas": {
+          "q": "What does stakeholder analysis map?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-42",
+         "topic": "Power–interest grid",
+         "note": "High power, high interest: manage closely. High power, low interest: keep satisfied. Low power, high interest: keep informed.",
+         "manas": {
+          "q": "How should high-power, high-interest stakeholders be handled?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-43",
+         "topic": "SWOT and PESTLE",
+         "note": "SWOT reviews internal strengths and weaknesses plus external opportunities and threats; PESTLE scans political, economic, social, technological, legal, environmental context.",
+         "manas": {
+          "q": "What does PESTLE stand for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-44",
+         "topic": "Health impact assessment",
+         "note": "Judges the likely health effects of a proposed policy or project before it is adopted.",
+         "manas": {
+          "q": "What is a health impact assessment?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-45",
+         "topic": "Health in All Policies",
+         "note": "Approach that builds health into decisions of every sector; promoted at WHO's 2013 Helsinki health promotion conference.",
+         "manas": {
+          "q": "Where was Health in All Policies promoted by WHO in 2013?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch500pl-51",
+       "topic": "Law at the bedside",
+       "note": "Legal duties every doctor needs.",
+       "children": [
+        {
+         "id": "mdhch500pl-47",
+         "topic": "Valid consent",
+         "note": "Must be informed, voluntary and given by a person with capacity; for minors usually a parent or guardian, except in emergency.",
+         "manas": {
+          "q": "What three elements make consent valid?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-48",
+         "topic": "Confidentiality and limits",
+         "note": "Duty to keep patient information private; exceptions include consent, court order, legal notification and serious risk to others.",
+         "manas": {
+          "q": "Give exceptions to medical confidentiality."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-49",
+         "topic": "Negligence: four elements",
+         "note": "Duty of care, breach of that duty, causation, and resulting harm must all be shown.",
+         "manas": {
+          "q": "What four elements prove clinical negligence?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-50",
+         "topic": "Bolam and Montgomery",
+         "note": "Bolam (UK, 1957): standard is a responsible body of doctors. Montgomery (UK, 2015): disclose material risks the patient would want.",
+         "manas": {
+          "q": "What did the Montgomery case change about consent?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch500pl-58",
+       "topic": "🌍 Around the world",
+       "note": "Global instruments and other countries' legal routes.",
+       "children": [
+        {
+         "id": "mdhch500pl-52",
+         "topic": "International Health Regulations (2005)",
+         "note": "Binding WHO rules requiring countries to build core capacities and report public health emergencies of international concern.",
+         "manas": {
+          "q": "What do the International Health Regulations (2005) require?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-53",
+         "topic": "WHO tobacco convention",
+         "note": "The Framework Convention on Tobacco Control, adopted 2003 and in force 2005, was WHO's first treaty; Kenya is a party.",
+         "manas": {
+          "q": "What was WHO's first international health treaty?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-54",
+         "topic": "WHO Pandemic Agreement",
+         "note": "Adopted by the World Health Assembly in 2025 to improve pandemic prevention, preparedness and response.",
+         "manas": {
+          "q": "When did the World Health Assembly adopt the Pandemic Agreement?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-55",
+         "topic": "UK NHS Act 1946",
+         "note": "Created the National Health Service, funded by taxes and free at point of use, from 1948.",
+         "manas": {
+          "q": "Which law created the UK's NHS?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-56",
+         "topic": "US Affordable Care Act 2010",
+         "note": "Widened insurance coverage in the USA through subsidised marketplaces and Medicaid expansion.",
+         "manas": {
+          "q": "What did the US Affordable Care Act (2010) aim to do?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-57",
+         "topic": "Thailand's UHC law",
+         "note": "Thailand's universal coverage scheme, legislated in 2002, is often cited as a middle-income UHC success.",
+         "manas": {
+          "q": "Which Asian country is a common example of UHC by law in 2002?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch500pl-62",
+       "topic": "🆕 Latest research",
+       "note": "Recent papers on policy-making and UHC in Africa, from Europe PMC.",
+       "manas": {
+        "checked": "2026-11-23"
+       },
+       "children": [
+        {
+         "id": "mdhch500pl-59",
+         "topic": "Politics often beats evidence",
+         "note": "A scoping review of 43 studies found political interests often outweighed research evidence in African health policy, with weak consultation and fragmentation as barriers.",
+         "hyperLink": "https://doi.org/10.1186/s12961-024-01129-3",
+         "manas": {
+          "q": "What did the 2024 scoping review find about politics and evidence in African health policy?",
+          "ref": "Health Res Policy Syst 2024"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-60",
+         "topic": "UHC in Africa: barriers",
+         "note": "A review of 167 papers found most work focused on insurance schemes or PHC, rarely both; money and supply gaps such as staff shortages were main barriers.",
+         "hyperLink": "https://doi.org/10.3390/ijerph22010086",
+         "manas": {
+          "q": "What were the main barriers to UHC in Africa in the 2025 scoping review?",
+          "ref": "Int J Environ Res Public Health 2025"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-61",
+         "topic": "Digital tools for financing",
+         "note": "A narrative review suggests digital tools such as Kenya's M-TIBA can widen financial access and improve data, and gives policy advice for scale-up.",
+         "hyperLink": "https://doi.org/10.3389/fdgth.2025.1391500",
+         "manas": {
+          "q": "Which Kenyan digital health-financing platform was a case study in the 2025 review?",
+          "ref": "Front Digit Health 2025"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhch500pl-67",
+       "topic": "Exam pearls",
+       "note": "Quick points examiners like.",
+       "children": [
+        {
+         "id": "mdhch500pl-63",
+         "topic": "Quote the Article",
+         "note": "Name the Article: 43 health, 42 environment, 53 children, 2(6) treaties, Fourth Schedule for functions.",
+         "manas": {
+          "q": "Match Articles 42, 43 and 53 to the rights they protect."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-64",
+         "topic": "Policy is not law",
+         "note": "A policy has no legal force until put into an Act or regulations; guidelines guide, laws bind.",
+         "manas": {
+          "q": "Is a national policy legally binding on its own?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-65",
+         "topic": "Use a framework",
+         "note": "Structure analysis answers with the policy triangle plus stakeholder analysis or Kingdon's streams.",
+         "manas": {
+          "q": "Which frameworks help structure a policy analysis answer?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhch500pl-66",
+         "topic": "Link to devolution",
+         "note": "Many Kenyan policy problems arise at the national–county interface; mention coordination forums.",
+         "manas": {
+          "q": "Why is devolution central to Kenyan health policy answers?"
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y5"
+  },
+  {
+   "id": "med-hdr600-cardiac-mediastinal",
+   "title": "HDR 600 · In depth: Cardiac and mediastinal imaging",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795411623370,
+   "updated": 1795411623370,
+   "library": "mbchb",
+   "deepOf": "med-hdr600",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhdr600cm-root",
+     "topic": "Cardiac and mediastinal imaging",
+     "note": "Film anatomy, choosing X-ray, echo, CT or MRI, cardiac signs and mediastinal masses. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhdr600cm-4",
+       "topic": "Key terms",
+       "children": [
+        {
+         "id": "mdhdr600cm-1",
+         "topic": "Cardiothoracic ratio",
+         "children": [],
+         "note": "Widest heart diameter divided by widest internal chest diameter on a PA film; above 0.5 suggests cardiomegaly.",
+         "manas": {
+          "q": "How is the cardiothoracic ratio measured and what value suggests cardiomegaly?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-2",
+         "topic": "PA versus AP film",
+         "children": [],
+         "note": "On an AP (often supine) film the heart is further from the detector and looks magnified, so do not call cardiomegaly on AP alone.",
+         "manas": {
+          "q": "Why should cardiomegaly not be diagnosed on an AP chest film?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-3",
+         "topic": "The mediastinum",
+         "children": [],
+         "note": "Central chest space between the two pleural sacs, from sternum to vertebral bodies and thoracic inlet to diaphragm.",
+         "manas": {
+          "q": "What are the boundaries of the mediastinum?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhdr600cm-10",
+       "topic": "Anatomy on the film",
+       "children": [
+        {
+         "id": "mdhdr600cm-5",
+         "topic": "Right mediastinal border",
+         "children": [],
+         "note": "From above: SVC, then right atrium forming the right heart border.",
+         "manas": {
+          "q": "Which structure forms the right heart border on a PA chest X-ray?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-6",
+         "topic": "Left mediastinal border",
+         "children": [],
+         "note": "From above: aortic knuckle, pulmonary trunk, left atrial appendage, then left ventricle.",
+         "manas": {
+          "q": "List the structures of the left mediastinal border from top to bottom."
+         }
+        },
+        {
+         "id": "mdhdr600cm-7",
+         "topic": "Lateral film landmarks",
+         "children": [],
+         "note": "Right ventricle lies behind the sternum (retrosternal space); left atrium and ventricle form the posterior heart border.",
+         "manas": {
+          "q": "Which chamber lies directly behind the sternum on a lateral film?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-8",
+         "topic": "Mediastinal compartments",
+         "children": [],
+         "note": "Classic X-ray split: anterior, middle, posterior. The ITMIG CT scheme names them prevascular, visceral and paravertebral.",
+         "manas": {
+          "q": "What are the three CT-based (ITMIG) mediastinal compartments?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-9",
+         "topic": "Right paratracheal stripe",
+         "children": [],
+         "note": "Thin line of tissue beside the right trachea, normally only a few millimetres (about 4 mm or less); widening suggests nodes or a mass.",
+         "manas": {
+          "q": "What does widening of the right paratracheal stripe suggest?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhdr600cm-18",
+       "topic": "Choosing the modality",
+       "children": [
+        {
+         "id": "mdhdr600cm-11",
+         "topic": "Chest X-ray first",
+         "children": [],
+         "note": "Cheap, everywhere: heart size, oedema, effusions, mediastinal contour, calcification, lines and tubes.",
+         "manas": {
+          "q": "What can a chest X-ray show in cardiac disease?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-12",
+         "topic": "Transthoracic echo (TTE)",
+         "children": [],
+         "note": "First-line for chambers, ejection fraction, valves and pericardial effusion; bedside, no radiation.",
+         "manas": {
+          "q": "What is the first-line imaging test for heart structure and function?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-13",
+         "topic": "Transoesophageal echo (TOE)",
+         "children": [],
+         "note": "Closer view of the back of the heart: left atrial appendage thrombus, vegetations, prosthetic valves, aortic dissection.",
+         "manas": {
+          "q": "Give three indications where TOE beats TTE."
+         }
+        },
+        {
+         "id": "mdhdr600cm-14",
+         "topic": "Focused cardiac ultrasound",
+         "children": [],
+         "note": "Bedside POCUS in shock or arrest: effusion, tamponade, gross LV function, RV dilatation; the FAST scan includes a subxiphoid view.",
+         "manas": {
+          "q": "What can focused cardiac ultrasound answer in a shocked patient?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-15",
+         "topic": "CT angiography",
+         "children": [],
+         "note": "CT pulmonary angiography for pulmonary embolism; CT aortography for dissection; contrast CT to characterise mediastinal masses.",
+         "manas": {
+          "q": "Which CT test confirms suspected pulmonary embolism?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-16",
+         "topic": "Cardiac MRI (CMR)",
+         "children": [],
+         "note": "Reference standard for ventricular volumes and EF; tissue characterisation and late gadolinium enhancement for myocarditis, cardiomyopathy, pericardium.",
+         "manas": {
+          "q": "What does late gadolinium enhancement on cardiac MRI show?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-17",
+         "topic": "Nuclear and PET",
+         "children": [],
+         "note": "Myocardial perfusion scans show ischaemia; FDG PET-CT stages and follows lymphoma.",
+         "manas": {
+          "q": "Which nuclear test stages lymphoma?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhdr600cm-25",
+       "topic": "Cardiac signs beyond heart failure",
+       "children": [
+        {
+         "id": "mdhdr600cm-19",
+         "topic": "Left ventricular enlargement",
+         "children": [],
+         "note": "Apex displaced down and to the left, e.g. aortic regurgitation, dilated cardiomyopathy.",
+         "manas": {
+          "q": "What does a left ventricular enlargement look like on a PA film?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-20",
+         "topic": "Right ventricular enlargement",
+         "children": [],
+         "note": "Fills the retrosternal clear space on the lateral film; apex may look upturned on PA.",
+         "manas": {
+          "q": "Which lateral-film sign suggests right ventricular enlargement?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-21",
+         "topic": "Pulmonary arterial hypertension",
+         "children": [],
+         "note": "Enlarged central pulmonary arteries with rapid tapering (pruning) of peripheral vessels.",
+         "manas": {
+          "q": "What are the chest X-ray signs of pulmonary arterial hypertension?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-22",
+         "topic": "Pericardial calcification",
+         "children": [],
+         "note": "Curvilinear calcium around the heart, best seen on lateral film or CT; suggests constrictive pericarditis, often after TB.",
+         "manas": {
+          "q": "What does pericardial calcification suggest, and what is a common cause in Kenya?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-23",
+         "topic": "Valve calcification",
+         "children": [],
+         "note": "Calcified aortic or mitral valve or annulus is easier to place on the lateral film; it points to significant valve disease, confirmed by echo.",
+         "manas": {
+          "q": "What does valve calcification on a chest film prompt?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-24",
+         "topic": "Pneumomediastinum",
+         "children": [],
+         "note": "Air outlining mediastinal structures; continuous diaphragm sign; causes include asthma, vomiting (oesophageal rupture) and trauma.",
+         "manas": {
+          "q": "What is the continuous diaphragm sign?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhdr600cm-31",
+       "topic": "Echo findings to know",
+       "children": [
+        {
+         "id": "mdhdr600cm-26",
+         "topic": "Tamponade on echo",
+         "children": [],
+         "note": "Effusion with right atrial systolic and right ventricular diastolic collapse and a dilated IVC; tamponade remains a clinical diagnosis.",
+         "manas": {
+          "q": "Name echo signs of cardiac tamponade."
+         }
+        },
+        {
+         "id": "mdhdr600cm-27",
+         "topic": "Grading effusion size",
+         "children": [],
+         "note": "Echo-free space in diastole: under 10 mm small, 10–20 mm moderate, over 20 mm large.",
+         "manas": {
+          "q": "How is pericardial effusion size graded on echo?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-28",
+         "topic": "Rheumatic mitral valve",
+         "children": [],
+         "note": "Thickened leaflets, restricted posterior leaflet, 'hockey-stick' anterior leaflet in stenosis; World Heart Federation criteria standardise screening.",
+         "manas": {
+          "q": "What echo features suggest rheumatic mitral stenosis?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-29",
+         "topic": "Dilated cardiomyopathy",
+         "children": [],
+         "note": "Dilated, poorly contracting LV with low EF; in Africa think also of peripartum and alcohol-related causes.",
+         "manas": {
+          "q": "What does dilated cardiomyopathy look like on echo?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-30",
+         "topic": "Endomyocardial fibrosis",
+         "children": [],
+         "note": "Tropical restrictive disease: fibrosis obliterating ventricular apices with large atria.",
+         "manas": {
+          "q": "What is the typical echo finding in endomyocardial fibrosis?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhdr600cm-43",
+       "topic": "Mediastinal masses by compartment",
+       "children": [
+        {
+         "id": "mdhdr600cm-35",
+         "topic": "Localise it first",
+         "children": [
+          {
+           "id": "mdhdr600cm-32",
+           "topic": "Lateral film",
+           "children": [],
+           "note": "Place the mass in front of, within, or behind the heart and trachea before naming a differential.",
+           "manas": {
+            "q": "What is the first step in assessing a mediastinal mass?"
+           }
+          },
+          {
+           "id": "mdhdr600cm-33",
+           "topic": "Hilum overlay sign",
+           "children": [],
+           "note": "If hilar vessels are still seen through a mass, the mass is not hilar; it lies in front of or behind the hilum (classically anterior mediastinal).",
+           "manas": {
+            "q": "What does the hilum overlay sign tell you?"
+           }
+          },
+          {
+           "id": "mdhdr600cm-34",
+           "topic": "Cervicothoracic sign",
+           "children": [],
+           "note": "A mass with a sharp edge above the clavicles lies posteriorly; an anterior mass blurs at the clavicles.",
+           "manas": {
+            "q": "What does a sharp mass edge above the clavicles imply?"
+           }
+          }
+         ]
+        },
+        {
+         "id": "mdhdr600cm-36",
+         "topic": "Middle (visceral) masses",
+         "children": [],
+         "note": "Lymph nodes (TB, lymphoma, metastases, sarcoidosis), foregut or bronchogenic cysts, aortic aneurysm, oesophageal lesions and hiatus hernia.",
+         "manas": {
+          "q": "List causes of a middle mediastinal mass."
+         }
+        },
+        {
+         "id": "mdhdr600cm-37",
+         "topic": "Posterior (paravertebral) masses",
+         "children": [],
+         "note": "Neurogenic tumours (nerve-sheath tumours in adults, neuroblastoma in children), TB spine paravertebral abscess, extramedullary haematopoiesis.",
+         "manas": {
+          "q": "Which tumours are typical in the posterior mediastinum?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-38",
+         "topic": "Thymoma",
+         "children": [],
+         "note": "Anterior mass mainly in adults over about 40; linked with myasthenia gravis.",
+         "manas": {
+          "q": "Which autoimmune disease is associated with thymoma?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-39",
+         "topic": "Germ cell tumours",
+         "children": [],
+         "note": "Young adults, mostly men; teratoma may contain fat, fluid and calcium on CT; check AFP and beta-hCG.",
+         "manas": {
+          "q": "Which tumour markers are checked for a mediastinal germ cell tumour?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-40",
+         "topic": "Lymphoma",
+         "children": [],
+         "note": "Bulky anterior or middle nodes in young adults; risk of airway and SVC compression; PET-CT for staging.",
+         "manas": {
+          "q": "Why is a bulky mediastinal lymphoma an anaesthetic risk?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-41",
+         "topic": "Retrosternal goitre",
+         "children": [],
+         "note": "Anterior mass continuous with the neck, often pushing the trachea aside.",
+         "manas": {
+          "q": "How does a retrosternal goitre usually present on a chest X-ray?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-42",
+         "topic": "SVC obstruction",
+         "children": [],
+         "note": "Face and arm swelling, distended chest veins; most often malignancy (lung cancer, lymphoma); CT venography shows cause and level.",
+         "manas": {
+          "q": "What is the commonest cause of superior vena cava obstruction?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhdr600cm-47",
+       "topic": "Vascular emergencies",
+       "children": [
+        {
+         "id": "mdhdr600cm-44",
+         "topic": "Aortic dissection on CT",
+         "children": [],
+         "note": "Intimal flap with true and false lumens; Stanford A involves the ascending aorta (surgery), B does not (usually medical).",
+         "manas": {
+          "q": "How does the Stanford classification guide aortic dissection treatment?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-45",
+         "topic": "Traumatic aortic injury",
+         "children": [],
+         "note": "After deceleration: widened mediastinum, lost aortic knuckle, trachea or NG tube pushed right, left apical cap; CT angiography confirms.",
+         "manas": {
+          "q": "List chest X-ray signs of traumatic aortic injury."
+         }
+        },
+        {
+         "id": "mdhdr600cm-46",
+         "topic": "Pulmonary embolism",
+         "children": [],
+         "note": "CXR is often normal (helps exclude other causes); CTPA shows filling defects; echo may show RV strain in massive PE.",
+         "manas": {
+          "q": "What is the role of the chest X-ray in suspected pulmonary embolism?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhdr600cm-52",
+       "topic": "Pitfalls",
+       "children": [
+        {
+         "id": "mdhdr600cm-48",
+         "topic": "False cardiomegaly",
+         "children": [],
+         "note": "AP or supine film, poor inspiration, pectus excavatum and pericardial fat pads can all enlarge the heart shadow.",
+         "manas": {
+          "q": "Name causes of false cardiomegaly on a chest film."
+         }
+        },
+        {
+         "id": "mdhdr600cm-49",
+         "topic": "Normal thymus in infants",
+         "children": [],
+         "note": "Large thymus can look like a mass; the 'sail sign' is normal in babies.",
+         "manas": {
+          "q": "What is the thymic sail sign?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-50",
+         "topic": "A normal X-ray excludes little",
+         "children": [],
+         "note": "Dissection, PE and small effusions can all have a normal chest film; image further if suspicion is high.",
+         "manas": {
+          "q": "Which serious conditions can have a normal chest X-ray?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-51",
+         "topic": "Contrast safety",
+         "children": [],
+         "note": "Before CT contrast check kidney function, prior reactions and pregnancy; weigh radiation dose, especially in the young.",
+         "manas": {
+          "q": "What should be checked before giving iodinated CT contrast?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhdr600cm-58",
+       "topic": "🌍 Around the world",
+       "children": [
+        {
+         "id": "mdhdr600cm-53",
+         "topic": "Kenya MoH cardiovascular guidelines",
+         "children": [],
+         "note": "Kenya MoH national cardiovascular disease guidelines are the local reference for heart failure and rheumatic heart disease work-up; use the current edition.",
+         "manas": {
+          "q": "Which Kenyan guideline covers cardiovascular disease management?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-54",
+         "topic": "WHO / World Health Assembly",
+         "children": [],
+         "note": "A 2018 World Health Assembly resolution called on countries to prevent and control rheumatic heart disease.",
+         "manas": {
+          "q": "What did the 2018 World Health Assembly resolution address?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-55",
+         "topic": "ESC pericardial guidance",
+         "children": [],
+         "note": "ESC guidance makes echo first-line for suspected pericardial disease, with CT and CMR as second-level tests.",
+         "manas": {
+          "q": "What is the first-line imaging test for pericardial disease in ESC guidance?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-56",
+         "topic": "NICE heart failure (UK)",
+         "children": [],
+         "note": "NICE NG106 (2018): measure NT-proBNP first, then refer for echo, faster when the level is very high.",
+         "manas": {
+          "q": "In UK NICE heart failure guidance, what test comes before echo?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-57",
+         "topic": "ACR Appropriateness Criteria",
+         "children": [],
+         "note": "US scenario-based ratings, e.g. CT angiography as the usual test for suspected acute aortic syndrome.",
+         "manas": {
+          "q": "What do the ACR Appropriateness Criteria provide?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhdr600cm-62",
+       "topic": "🆕 Latest research",
+       "children": [
+        {
+         "id": "mdhdr600cm-59",
+         "topic": "CMR in pericardial disease",
+         "children": [],
+         "note": "Review: one CMR scan shows pericardial thickening, effusion and inflammation; accurate for constriction, often avoiding catheterisation; enhancement may predict recurrence (small cohorts).",
+         "manas": {
+          "q": "What can cardiac MRI add in pericardial disease (2023 review)?",
+          "ref": "Eur Heart J Cardiovasc Imaging 2023"
+         },
+         "hyperLink": "https://doi.org/10.1093/ehjci/jead092"
+        },
+        {
+         "id": "mdhdr600cm-60",
+         "topic": "Mediastinal germ cell tumours",
+         "children": [],
+         "note": "Review: these rare tumours of young adults differ from testicular ones; mediastinal non-seminomas have the poorest survival, while seminomas do about as well as testicular seminomas.",
+         "manas": {
+          "q": "Which mediastinal germ cell tumour type has the poorest prognosis?",
+          "ref": "Biomedicines 2023"
+         },
+         "hyperLink": "https://doi.org/10.3390/biomedicines11020487"
+        },
+        {
+         "id": "mdhdr600cm-61",
+         "topic": "Paediatric CMR guideline",
+         "children": [],
+         "note": "Multi-society guideline on using CMR in children with congenital and acquired heart disease for diagnosis, planning interventions and follow-up.",
+         "manas": {
+          "q": "What does the 2022 multi-society guideline cover?",
+          "ref": "Circ Cardiovasc Imaging 2022"
+         },
+         "hyperLink": "https://doi.org/10.1161/circimaging.122.014415"
+        }
+       ],
+       "note": "Papers read on 2026-11-23.",
+       "manas": {
+        "checked": "2026-11-23"
+       }
+      },
+      {
+       "id": "mdhdr600cm-66",
+       "topic": "Exam pearls",
+       "children": [
+        {
+         "id": "mdhdr600cm-63",
+         "topic": "Localise, then list",
+         "children": [],
+         "note": "For any mediastinal mass: compartment first, then age, then CT features (fat, calcium, fluid, enhancement).",
+         "manas": {
+          "q": "What is the stepwise approach to a mediastinal mass?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-64",
+         "topic": "Echo answers most heart questions",
+         "children": [],
+         "note": "Size, function, valves and effusion — echo is the usual next test after the chest film.",
+         "manas": {
+          "q": "What is usually the next test after a chest film in suspected heart disease?"
+         }
+        },
+        {
+         "id": "mdhdr600cm-65",
+         "topic": "Water-bottle heart plus HIV",
+         "children": [],
+         "note": "Think TB pericarditis; echo confirms effusion and guides drainage.",
+         "manas": {
+          "q": "A globular heart in an HIV-positive patient: what cause comes first in Kenya?"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hhp604-death-postmortem",
+   "title": "HHP 604 · In depth: Death and early post-mortem changes",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795411623424,
+   "updated": 1795411623424,
+   "library": "mbchb",
+   "deepOf": "med-hhp604",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhhp604dp-root",
+     "topic": "Death and early post-mortem changes",
+     "note": "Confirming death; livor, rigor, algor mortis; timing death. Times are approximate; they vary with heat and body. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhhp604dp-5",
+       "topic": "Key terms",
+       "children": [
+        {
+         "id": "mdhhp604dp-1",
+         "topic": "Somatic (clinical) death",
+         "children": [],
+         "note": "Irreversible loss of the person as a whole: circulation and breathing stop, or the brainstem has irreversibly failed.",
+         "manas": {
+          "q": "What is somatic death?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-2",
+         "topic": "Cellular (molecular) death",
+         "children": [],
+         "note": "Cells die after somatic death at different speeds — brain within minutes, muscle over hours; this lag allows supravital reactions.",
+         "manas": {
+          "q": "Why do tissues die at different times after somatic death?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-3",
+         "topic": "Suspended animation",
+         "children": [],
+         "note": "Life signs so faint they seem absent, e.g. hypothermia, cold-water drowning, sedative overdose, electrocution; resuscitate and re-examine.",
+         "manas": {
+          "q": "Name conditions that can mimic death (suspended animation)."
+         }
+        },
+        {
+         "id": "mdhhp604dp-4",
+         "topic": "Post-mortem interval (PMI)",
+         "children": [],
+         "note": "Time since death; always given as a range, never a single hour.",
+         "manas": {
+          "q": "Why is the post-mortem interval given as a range?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-11",
+       "topic": "Confirming death",
+       "children": [
+        {
+         "id": "mdhhp604dp-6",
+         "topic": "Circulatory death",
+         "children": [],
+         "note": "No central pulse, heart sounds or breathing over a period of observation (UK practice: at least 5 minutes); ECG asystole supports it.",
+         "manas": {
+          "q": "How is death confirmed after cardiorespiratory arrest?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-7",
+         "topic": "Brainstem testing preconditions",
+         "children": [],
+         "note": "Known cause of irreversible brain damage; exclude sedatives, neuromuscular blockers, hypothermia and metabolic or endocrine causes first.",
+         "manas": {
+          "q": "What must be excluded before brainstem death tests?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-8",
+         "topic": "Early eye signs",
+         "children": [],
+         "note": "Loss of corneal reflex, corneal clouding within hours, and segmentation ('trucking') of retinal blood columns soon after death.",
+         "manas": {
+          "q": "What retinal sign appears soon after death?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-9",
+         "topic": "Tache noire",
+         "children": [],
+         "note": "Brown-black band of drying sclera when the eyelids stay open after death; not an injury.",
+         "manas": {
+          "q": "What is tache noire?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-10",
+         "topic": "'Not dead until warm and dead'",
+         "children": [],
+         "note": "A cold patient without signs of life is rewarmed before death is confirmed.",
+         "manas": {
+          "q": "Why is a hypothermic patient rewarmed before confirming death?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-19",
+       "topic": "Livor mortis in depth",
+       "children": [
+        {
+         "id": "mdhhp604dp-12",
+         "topic": "Mechanism",
+         "children": [],
+         "note": "After circulation stops, gravity pools blood in dependent capillaries and venules, giving purple-red skin.",
+         "manas": {
+          "q": "What causes livor mortis?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-13",
+         "topic": "Contact pallor",
+         "children": [],
+         "note": "Skin pressed on a firm surface stays pale (shoulder blades, buttocks when supine); tight clothing leaves pale marks.",
+         "manas": {
+          "q": "Why are pressure areas pale within lividity?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-14",
+         "topic": "Blanching then fixed",
+         "children": [],
+         "note": "Early lividity blanches and shifts if the body is turned; it fixes after roughly 8–12 h (varies). Two patterns suggest the body was moved after partial fixing.",
+         "manas": {
+          "q": "What does a body with two lividity patterns suggest?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-15",
+         "topic": "Telling colours",
+         "children": [],
+         "note": "Cherry-pink: CO, cyanide, cold. Chocolate-brown: methaemoglobin (e.g. nitrites, chlorates). Colour points the way for toxicology.",
+         "manas": {
+          "q": "Which poisoning gives chocolate-brown lividity?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-16",
+         "topic": "Lividity vs bruise",
+         "children": [],
+         "note": "Cut the skin: lividity is blood within vessels and washes away; a bruise is blood in the tissue and does not.",
+         "manas": {
+          "q": "How is lividity told apart from a bruise at autopsy?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-17",
+         "topic": "Hanging pattern",
+         "children": [],
+         "note": "In a body suspended for hours, lividity collects in the legs, forearms and hands, sometimes with petechiae.",
+         "manas": {
+          "q": "Where does lividity collect in a hanging body?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-18",
+         "topic": "Internal hypostasis",
+         "children": [],
+         "note": "Blood also pools in dependent organs, e.g. back of the lungs, which can mimic pneumonia or congestion.",
+         "manas": {
+          "q": "What lung finding can hypostasis mimic?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-28",
+       "topic": "Rigor mortis in depth",
+       "children": [
+        {
+         "id": "mdhhp604dp-20",
+         "topic": "Mechanism",
+         "children": [],
+         "note": "ATP runs out, so actin–myosin cross-bridges stay locked; rigor resolves as proteins break down in decomposition.",
+         "manas": {
+          "q": "What is the biochemical basis of rigor mortis?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-21",
+         "topic": "Primary flaccidity first",
+         "children": [],
+         "note": "Muscles relax right after death; jaw drops, sphincters may relax, pupils dilate.",
+         "manas": {
+          "q": "What happens to muscles immediately after death?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-22",
+         "topic": "Order noticed",
+         "children": [],
+         "note": "Usually seen first in small muscles (eyelids, jaw, neck), then limbs and trunk; all muscles start together but small ones show it sooner.",
+         "manas": {
+          "q": "Where is rigor mortis usually noticed first?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-23",
+         "topic": "Speeding and slowing",
+         "children": [],
+         "note": "Faster onset and shorter course with heat, fever, exertion or convulsions before death; slower in cold. Textbook times assume temperate rooms.",
+         "manas": {
+          "q": "Which factors speed the onset of rigor mortis?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-24",
+         "topic": "Broken rigor",
+         "children": [],
+         "note": "Once established rigor is forcibly broken, it does not come back in that joint.",
+         "manas": {
+          "q": "Does rigor return after it is broken?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-25",
+         "topic": "Heat stiffening",
+         "children": [],
+         "note": "High heat coagulates muscle protein; burnt bodies flex into the pugilistic attitude — not a sign of fighting.",
+         "manas": {
+          "q": "What causes the pugilistic attitude in burnt bodies?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-26",
+         "topic": "Cold stiffening",
+         "children": [],
+         "note": "Freezing hardens tissues; true rigor follows after thawing.",
+         "manas": {
+          "q": "What is cold stiffening?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-27",
+         "topic": "Spasm versus rigor",
+         "children": [],
+         "note": "Cadaveric spasm has no preceding flaccidity, affects one muscle group and follows sudden death in intense activity, e.g. clutching weeds when drowning.",
+         "manas": {
+          "q": "How does cadaveric spasm differ from rigor mortis?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-35",
+       "topic": "Algor mortis in depth",
+       "children": [
+        {
+         "id": "mdhhp604dp-29",
+         "topic": "How bodies cool",
+         "children": [],
+         "note": "Heat leaves by conduction, convection, radiation and evaporation until the body matches its surroundings.",
+         "manas": {
+          "q": "By which routes does a body lose heat after death?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-30",
+         "topic": "Initial plateau",
+         "children": [],
+         "note": "Core temperature may hold for some hours before falling, so the cooling curve is S-shaped, not straight.",
+         "manas": {
+          "q": "Why is the post-mortem cooling curve sigmoid?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-31",
+         "topic": "Measuring core temperature",
+         "children": [],
+         "note": "Rectal or other deep temperature with a long thermometer, repeated over time, plus ambient temperature at the scene.",
+         "manas": {
+          "q": "How is post-mortem core temperature measured?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-32",
+         "topic": "What changes the rate",
+         "children": [],
+         "note": "Body size and fat, clothing, wind, wetness (water cools faster), ambient heat, and fever or hypothermia at death.",
+         "manas": {
+          "q": "List factors that change the rate of body cooling."
+         }
+        },
+        {
+         "id": "mdhhp604dp-33",
+         "topic": "Henssge nomogram inputs",
+         "children": [],
+         "note": "Uses rectal and ambient temperature and body weight, with correction factors for clothing and conditions; gives a range with error limits.",
+         "manas": {
+          "q": "What inputs does the Henssge nomogram use?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-34",
+         "topic": "Hot climates",
+         "children": [],
+         "note": "When ambient temperature is near body temperature, cooling is slight and of little use; the body may even gain heat.",
+         "manas": {
+          "q": "Why is algor mortis less useful in hot climates?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-40",
+       "topic": "Other early changes",
+       "children": [
+        {
+         "id": "mdhhp604dp-36",
+         "topic": "Vitreous potassium",
+         "children": [],
+         "note": "Rises after death as cells leak; used to estimate PMI but with wide error.",
+         "manas": {
+          "q": "Which vitreous chemical rises steadily after death?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-37",
+         "topic": "Supravital muscle reactions",
+         "children": [],
+         "note": "Muscles can still contract to mechanical or electrical stimulation in the first hours.",
+         "manas": {
+          "q": "What are supravital reactions?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-38",
+         "topic": "Skin and mucosa",
+         "children": [],
+         "note": "Pallor and loss of elasticity; lips and scrotum dry to a brown parchment look that can mimic abrasion.",
+         "manas": {
+          "q": "What can post-mortem drying of the lips mimic?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-39",
+         "topic": "Stomach contents",
+         "children": [],
+         "note": "Show the last meal, but emptying time varies so widely that it is weak evidence of time.",
+         "manas": {
+          "q": "Why are stomach contents unreliable for timing death?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-44",
+       "topic": "Estimating time since death",
+       "children": [
+        {
+         "id": "mdhhp604dp-41",
+         "topic": "Rough bedside guide",
+         "children": [],
+         "note": "Warm and flaccid: under ~3 h; warm and stiff: ~3–8 h; cold and stiff: ~8–36 h; cold and flaccid: over ~36 h. Temperate figures; heat shortens them.",
+         "manas": {
+          "q": "Give the rough warm/cold, stiff/flaccid guide to time since death."
+         }
+        },
+        {
+         "id": "mdhhp604dp-42",
+         "topic": "Combine methods",
+         "children": [],
+         "note": "Use temperature, rigor, lividity and eye changes together, then check against scene evidence such as last sighting, mail and food.",
+         "manas": {
+          "q": "Why should several PMI methods be combined?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-43",
+         "topic": "Hand over to decomposition",
+         "children": [],
+         "note": "Once green abdominal discolouration and bloating begin, use the decomposition map's methods.",
+         "manas": {
+          "q": "Which signs mark the move from early changes to decomposition?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-48",
+       "topic": "Forensic uses",
+       "children": [
+        {
+         "id": "mdhhp604dp-45",
+         "topic": "Position and movement",
+         "children": [],
+         "note": "Fixed lividity that does not match the body's position shows it was moved after death.",
+         "manas": {
+          "q": "What does lividity inconsistent with position mean?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-46",
+         "topic": "Last act in life",
+         "children": [],
+         "note": "Cadaveric spasm gripping a weapon supports a self-inflicted act; it cannot be produced after death.",
+         "manas": {
+          "q": "Why is cadaveric spasm forensically valuable?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-47",
+         "topic": "Clues to poisoning",
+         "children": [],
+         "note": "Unusual lividity colour prompts blood for carbon monoxide, cyanide or methaemoglobin testing.",
+         "manas": {
+          "q": "What does cherry-pink lividity prompt you to test for?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-52",
+       "topic": "Pitfalls",
+       "children": [
+        {
+         "id": "mdhhp604dp-49",
+         "topic": "Lividity called bruising",
+         "children": [],
+         "note": "Mistaking lividity for injury can wrongly suggest assault; cut and look.",
+         "manas": {
+          "q": "What wrong conclusion can misreading lividity lead to?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-50",
+         "topic": "Face-down bodies",
+         "children": [],
+         "note": "Intense head and neck lividity with petechiae can mimic strangulation or asphyxia.",
+         "manas": {
+          "q": "What can lividity in a face-down body mimic?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-51",
+         "topic": "Single-method certainty",
+         "children": [],
+         "note": "No single sign gives an exact time of death; ranges overlap and depend on body and surroundings.",
+         "manas": {
+          "q": "Can one post-mortem sign give the exact time of death?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-58",
+       "topic": "🌍 Around the world",
+       "children": [
+        {
+         "id": "mdhhp604dp-53",
+         "topic": "Kenya",
+         "children": [],
+         "note": "Warm conditions speed rigor and decay relative to temperate textbook tables; Kenyan legal steps are in the medicolegal map.",
+         "manas": {
+          "q": "Why must textbook post-mortem times be adjusted in Kenya?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-54",
+         "topic": "WHO death certificate",
+         "children": [],
+         "note": "WHO's international certificate: Part I is the chain of causes with the underlying cause on the lowest used line; Part II lists other contributing conditions.",
+         "manas": {
+          "q": "Where does the underlying cause go on the WHO death certificate?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-55",
+         "topic": "UK: brainstem standard",
+         "children": [],
+         "note": "The Academy of Medical Royal Colleges code accepts irreversible loss of brainstem function as death.",
+         "manas": {
+          "q": "Which brain death standard does the UK use?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-56",
+         "topic": "US: whole-brain standard",
+         "children": [],
+         "note": "The Uniform Determination of Death Act (1981) defines death as irreversible loss of circulation and breathing, or of all brain function including brainstem.",
+         "manas": {
+          "q": "How does the US define death under the Uniform Determination of Death Act?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-57",
+         "topic": "World Brain Death Project",
+         "children": [],
+         "note": "A 2020 international consensus set minimum standards for determining brain death.",
+         "manas": {
+          "q": "What did the 2020 World Brain Death Project produce?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "mdhhp604dp-62",
+       "topic": "🆕 Latest research",
+       "children": [
+        {
+         "id": "mdhhp604dp-59",
+         "topic": "Late PMI: no precise method",
+         "children": [],
+         "note": "Review: for late intervals and skeletal remains only carbon-14 dating is well recognised; other methods give mixed results.",
+         "manas": {
+          "q": "What is the only well-recognised method for dating skeletal remains (2023 review)?",
+          "ref": "Biology (Basel) 2023"
+         },
+         "hyperLink": "https://doi.org/10.3390/biology12060783"
+        },
+        {
+         "id": "mdhhp604dp-60",
+         "topic": "Machine learning for PMI",
+         "children": [],
+         "note": "Systematic review of 18 studies: machine-learning models looked accurate but studies were small, selected and too varied to pool.",
+         "manas": {
+          "q": "What limited the 2022 review of machine learning for PMI?",
+          "ref": "Forensic Sci Int 2022"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.forsciint.2022.111473"
+        },
+        {
+         "id": "mdhhp604dp-61",
+         "topic": "Microbes as a clock",
+         "children": [],
+         "note": "Review of 14 papers: microbial communities around a decomposing body change in a predictable order, a possible future PMI tool.",
+         "manas": {
+          "q": "How might microbes help estimate time since death?",
+          "ref": "Forensic Sci Med Pathol 2024"
+         },
+         "hyperLink": "https://doi.org/10.1007/s12024-023-00733-z"
+        }
+       ],
+       "note": "Papers read on 2026-11-23.",
+       "manas": {
+        "checked": "2026-11-23"
+       }
+      },
+      {
+       "id": "mdhhp604dp-66",
+       "topic": "Exam pearls",
+       "children": [
+        {
+         "id": "mdhhp604dp-63",
+         "topic": "Cut to tell",
+         "children": [],
+         "note": "Lividity versus bruise is decided by incision, not by look.",
+         "manas": {
+          "q": "How do you decide lividity versus bruise?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-64",
+         "topic": "Spasm: no flaccid phase",
+         "children": [],
+         "note": "Cadaveric spasm starts at the instant of death; rigor follows primary flaccidity.",
+         "manas": {
+          "q": "Which comes first, flaccidity or rigor?"
+         }
+        },
+        {
+         "id": "mdhhp604dp-65",
+         "topic": "Always a range",
+         "children": [],
+         "note": "Write the PMI as a range and state the factors that widen it.",
+         "manas": {
+          "q": "How should time since death be written in a report?"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hog500-antepartum-haemorrhage",
+   "title": "HOG 500 · In depth: Antepartum haemorrhage",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795411623478,
+   "updated": 1795411623478,
+   "library": "mbchb",
+   "deepOf": "med-hog500",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhog500aph-root",
+     "topic": "Antepartum haemorrhage in depth",
+     "note": "Grading, praevia, accreta, abruption, vasa praevia, work-up, management and complications. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhog500aph-1",
+       "topic": "Definition and scale",
+       "note": "What counts as APH and how big the bleed is.",
+       "children": [
+        {
+         "id": "mdhog500aph-2",
+         "topic": "Gestation cut-off varies",
+         "note": "Kenyan teaching commonly uses bleeding after 28 weeks; RCOG (UK) uses from 24 weeks. Bleeding before the cut-off is treated as early pregnancy bleeding.",
+         "manas": {
+          "q": "From what gestation does the UK (RCOG) define antepartum haemorrhage?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-3",
+         "topic": "Grading by blood loss",
+         "note": "RCOG grades: spotting; minor <50 mL; major 50–1000 mL without shock; massive >1000 mL and/or signs of shock.",
+         "manas": {
+          "q": "What blood loss defines massive APH in the RCOG grading?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-4",
+         "topic": "Visible loss underestimates",
+         "note": "Concealed bleeding in abruption means maternal shock may be far worse than the blood seen. Judge by pulse, BP, urine output.",
+         "manas": {
+          "q": "Why can visible blood loss mislead in placental abruption?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-5",
+         "topic": "Main causes",
+         "note": "Placental: praevia, abruption, vasa praevia. Local: cervix or vagina. Others: uterine rupture, show, and unexplained.",
+         "manas": {
+          "q": "Name the three placental causes of APH."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-6",
+         "topic": "Unexplained APH still matters",
+         "note": "When no cause is found, the pregnancy is still higher risk (preterm birth, growth restriction); many units add growth scans.",
+         "manas": {
+          "q": "Is unexplained APH a low-risk finding?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-7",
+       "topic": "Placenta praevia: deeper",
+       "note": "Beyond painless bleeding and 'no VE'.",
+       "children": [
+        {
+         "id": "mdhog500aph-8",
+         "topic": "Definition",
+         "note": "Placenta implanted partly or wholly in the lower uterine segment, over or close to the internal cervical os.",
+         "manas": {
+          "q": "What is placenta praevia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-9",
+         "topic": "Modern terms (RCOG 2018)",
+         "note": "RCOG 2018: 'placenta praevia' = placenta lies directly over the os; 'low-lying' = edge less than 20 mm from the os on transvaginal scan.",
+         "manas": {
+          "q": "How does RCOG define a low-lying placenta?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-10",
+         "topic": "Old grades I–IV",
+         "note": "I: lower segment, not reaching os; II: reaches os (marginal); III: partly covers os; IV: completely covers os.",
+         "manas": {
+          "q": "What is grade IV placenta praevia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-11",
+         "topic": "Risk factors",
+         "note": "Previous caesarean, previous praevia, multiparity, older age, multiple pregnancy, IVF, smoking, prior uterine surgery.",
+         "manas": {
+          "q": "Give four risk factors for placenta praevia."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-12",
+         "topic": "Why it bleeds",
+         "note": "In the third trimester the lower segment forms and stretches; the attached placenta shears off, opening maternal sinuses.",
+         "manas": {
+          "q": "Why does placenta praevia bleed in late pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-13",
+         "topic": "Transvaginal scan is safe",
+         "note": "TVS is safe in praevia and more accurate than abdominal scan for locating the placental edge.",
+         "manas": {
+          "q": "Is transvaginal ultrasound safe in suspected placenta praevia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-14",
+         "topic": "Placental 'migration'",
+         "note": "Most low placentas at the 20-week scan move away as the lower segment grows; re-scan around 32 weeks.",
+         "manas": {
+          "q": "When is a low placenta seen at 20 weeks usually re-scanned?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-15",
+         "topic": "Delivery by caesarean",
+         "note": "Placenta over the os: caesarean by a senior team, blood ready. Edge under 20 mm: caesarean more likely, labour only after senior discussion; 20 mm or more: labour usually possible.",
+         "manas": {
+          "q": "Which placental position needs caesarean delivery?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-16",
+         "topic": "High PPH risk",
+         "note": "The lower segment contracts poorly over the placental bed, so postpartum haemorrhage is common after praevia.",
+         "manas": {
+          "q": "Why is PPH common after placenta praevia?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-17",
+       "topic": "Placenta accreta spectrum",
+       "note": "Abnormally adherent placenta: the hidden danger behind praevia.",
+       "children": [
+        {
+         "id": "mdhog500aph-18",
+         "topic": "Three depths",
+         "note": "Accreta: villi on myometrium; increta: into myometrium; percreta: through serosa, possibly into bladder.",
+         "manas": {
+          "q": "What distinguishes percreta from accreta?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-19",
+         "topic": "Biggest risk: praevia + scar",
+         "note": "Praevia over a previous caesarean scar carries the highest risk, rising with each extra caesarean.",
+         "manas": {
+          "q": "What combination gives the highest risk of placenta accreta spectrum?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-20",
+         "topic": "Ultrasound signs",
+         "note": "Loss of the clear zone, placental lacunae, bladder wall interruption and increased vascularity; MRI can help.",
+         "manas": {
+          "q": "Name two ultrasound signs of placenta accreta spectrum."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-21",
+         "topic": "Planned specialist delivery",
+         "note": "Planned caesarean in a centre with blood bank and senior team; caesarean hysterectomy with placenta left in situ is often preferred, as pulling it off causes massive bleeding.",
+         "manas": {
+          "q": "Why should an accreta placenta not be pulled off?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-22",
+       "topic": "Abruption: deeper",
+       "note": "Extends the course bubbles on signs, risks and DIC.",
+       "children": [
+        {
+         "id": "mdhog500aph-23",
+         "topic": "Definition",
+         "note": "Premature separation of a normally sited placenta from the uterine wall before birth of the baby.",
+         "manas": {
+          "q": "Define placental abruption."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-24",
+         "topic": "Revealed, concealed, mixed",
+         "note": "Blood may drain vaginally (revealed), stay trapped behind the placenta (concealed), or both (mixed).",
+         "manas": {
+          "q": "What is a concealed abruption?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-25",
+         "topic": "Couvelaire uterus",
+         "note": "Blood tracks into the myometrium, giving a bruised, purple uterus at caesarean; it usually still contracts.",
+         "manas": {
+          "q": "What is a Couvelaire uterus?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-26",
+         "topic": "Ultrasound often normal",
+         "note": "Scan misses many abruptions; diagnosis is clinical. A normal scan does not exclude it.",
+         "manas": {
+          "q": "Does a normal ultrasound exclude placental abruption?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-27",
+         "topic": "CTG clues",
+         "note": "Frequent contractions or a hypertonic uterus with fetal tachycardia, reduced variability, decelerations or bradycardia.",
+         "manas": {
+          "q": "What CTG and uterine findings suggest abruption?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-28",
+         "topic": "Why DIC happens",
+         "note": "Damaged placenta and decidua release tissue factor; clotting factors and fibrinogen are consumed. Low fibrinogen predicts heavy bleeding.",
+         "manas": {
+          "q": "Why does abruption cause DIC?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-29",
+         "topic": "Fetus alive and distressed",
+         "note": "Resuscitate the mother and deliver urgently, usually by caesarean, unless vaginal birth is imminent.",
+         "manas": {
+          "q": "How is abruption with a live distressed fetus managed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-30",
+         "topic": "Fetus has died",
+         "note": "Vaginal birth is usually preferred (amniotomy, oxytocin) with blood and clotting support; caesarean only for maternal reasons.",
+         "manas": {
+          "q": "What is the preferred mode of birth after abruption with fetal death?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-31",
+         "topic": "Recurs in later pregnancy",
+         "note": "A previous abruption raises the risk substantially in later pregnancies; plan closer antenatal care.",
+         "manas": {
+          "q": "Does abruption recur?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-32",
+       "topic": "Vasa praevia",
+       "note": "Fetal, not maternal, bleeding — the baby can die in minutes.",
+       "children": [
+        {
+         "id": "mdhog500aph-33",
+         "topic": "Definition",
+         "note": "Unprotected fetal vessels run in the membranes over or close to the internal os, not covered by cord or placenta.",
+         "manas": {
+          "q": "What is vasa praevia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-34",
+         "topic": "Two types",
+         "note": "Type 1: velamentous cord insertion; type 2: vessels running between lobes of a bilobed or succenturiate placenta.",
+         "manas": {
+          "q": "What are the two types of vasa praevia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-35",
+         "topic": "Classic picture",
+         "note": "Painless bleeding when membranes rupture, then sudden fetal bradycardia or death, while the mother stays stable.",
+         "manas": {
+          "q": "What is the classic presentation of vasa praevia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-36",
+         "topic": "Why so lethal",
+         "note": "The bleeding is fetal blood; a term baby has only a few hundred mL, so a small loss is catastrophic.",
+         "manas": {
+          "q": "Why is a small bleed from vasa praevia so dangerous?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-37",
+         "topic": "Diagnosis antenatally",
+         "note": "Transvaginal scan with colour Doppler; suspect with low placenta, velamentous cord, bilobed placenta, IVF or twins.",
+         "manas": {
+          "q": "How is vasa praevia diagnosed before labour?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-38",
+         "topic": "Planned caesarean",
+         "note": "Deliver by planned caesarean before labour and membrane rupture; avoid amniotomy.",
+         "manas": {
+          "q": "How should known vasa praevia be delivered?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-39",
+       "topic": "Other causes",
+       "note": "Not every APH is placental.",
+       "children": [
+        {
+         "id": "mdhog500aph-40",
+         "topic": "Local causes",
+         "note": "Cervical ectropion, polyp, cervicitis, cervical cancer, vaginal infection or trauma.",
+         "manas": {
+          "q": "Name three local causes of APH."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-41",
+         "topic": "Speculum, not fingers",
+         "note": "Gentle speculum exam is allowed to see the cervix; digital exam waits until praevia is excluded.",
+         "manas": {
+          "q": "Is speculum examination allowed before praevia is excluded?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-42",
+         "topic": "Uterine rupture",
+         "note": "Usually a scarred uterus in labour: pain, shock, abnormal CTG, loss of station, palpable fetal parts.",
+         "manas": {
+          "q": "Name features of uterine rupture."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-43",
+         "topic": "Show of labour",
+         "note": "Blood-stained mucus with contractions; small amount, but rule out other causes first.",
+         "manas": {
+          "q": "What is a 'show'?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-44",
+       "topic": "Assessment and investigations",
+       "note": "Mother first, then baby, then the cause.",
+       "children": [
+        {
+         "id": "mdhog500aph-45",
+         "topic": "ABC and two cannulas",
+         "note": "Assess airway, breathing, circulation; two large-bore cannulas; call senior obstetrician, anaesthetist and midwife.",
+         "manas": {
+          "q": "What is the first step in a heavy APH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-46",
+         "topic": "Bloods",
+         "note": "FBC, group and crossmatch, clotting screen with fibrinogen, urea, electrolytes; Kleihauer if Rh-negative.",
+         "manas": {
+          "q": "What bloods are sent in APH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-47",
+         "topic": "Bedside clotting test",
+         "note": "Where labs are slow, blood that fails to clot in a plain tube suggests coagulopathy.",
+         "manas": {
+          "q": "What bedside test screens for coagulopathy in APH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-48",
+         "topic": "Fetal check",
+         "note": "Fetal heart by Doppler or CTG; fetal distress guides urgency of delivery.",
+         "manas": {
+          "q": "How is fetal wellbeing assessed in APH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-49",
+         "topic": "Ultrasound role",
+         "note": "Locates the placenta, checks fetal life, growth and presentation; poor at excluding abruption.",
+         "manas": {
+          "q": "What is ultrasound best for in APH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-50",
+         "topic": "Praevia vs abruption",
+         "note": "Praevia: painless, soft uterus, malpresentation. Abruption: pain, tender tense uterus, fetal distress, shock out of proportion.",
+         "manas": {
+          "q": "Contrast the uterus in praevia and abruption."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-51",
+       "topic": "Management",
+       "note": "Stabilise, decide on timing, prepare for PPH.",
+       "children": [
+        {
+         "id": "mdhog500aph-52",
+         "topic": "Resuscitate first",
+         "note": "Warmed fluids and early blood; activate massive haemorrhage protocol; tilt the undelivered woman left to relieve aortocaval compression by the uterus.",
+         "manas": {
+          "q": "Why tilt an undelivered pregnant woman to the left?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-53",
+         "topic": "Expectant care if stable",
+         "note": "Preterm, minor bleeding, stable mother and fetus: admit, observe, steroids if early birth likely.",
+         "manas": {
+          "q": "When can APH be managed expectantly?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-54",
+         "topic": "Corticosteroids if preterm",
+         "note": "Give antenatal corticosteroids when preterm birth is likely within 7 days, usually up to 34 weeks (WHO: from 24 weeks), to mature fetal lungs.",
+         "manas": {
+          "q": "When are antenatal steroids given in APH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-55",
+         "topic": "Anti-D and Kleihauer",
+         "note": "Rh-negative woman: give anti-D within 72 hours of the bleed; Kleihauer test guides extra doses after 20 weeks.",
+         "manas": {
+          "q": "What does the Kleihauer test add for anti-D after APH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-56",
+         "topic": "Avoid tocolysis in abruption",
+         "note": "Tocolytics are generally avoided in suspected abruption or heavy bleeding.",
+         "manas": {
+          "q": "Are tocolytics used in suspected abruption?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-57",
+         "topic": "Prepare for PPH",
+         "note": "Active third stage with oxytocin; uterotonics and blood ready, especially after praevia or abruption.",
+         "manas": {
+          "q": "Why prepare for PPH after APH?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-58",
+       "topic": "Complications and prognosis",
+       "note": "Mother and baby both at risk.",
+       "children": [
+        {
+         "id": "mdhog500aph-59",
+         "topic": "Maternal",
+         "note": "Shock, DIC, acute kidney injury, PPH, hysterectomy, transfusion reactions and death.",
+         "manas": {
+          "q": "List maternal complications of APH."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-60",
+         "topic": "Sheehan syndrome",
+         "note": "Pituitary necrosis after massive obstetric haemorrhage: failed lactation, amenorrhoea, later hypopituitarism.",
+         "manas": {
+          "q": "What is Sheehan syndrome?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-61",
+         "topic": "Fetal",
+         "note": "Hypoxia, preterm birth, growth restriction, stillbirth; neonatal anaemia after vasa praevia.",
+         "manas": {
+          "q": "List fetal complications of APH."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-62",
+       "topic": "Exam pearls",
+       "note": "Quick patterns examiners love.",
+       "children": [
+        {
+         "id": "mdhog500aph-63",
+         "topic": "Painless + malpresentation",
+         "note": "Think placenta praevia — scan before any vaginal examination.",
+         "manas": {
+          "q": "Painless bleeding with breech at 34 weeks: what diagnosis first?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-64",
+         "topic": "Pain + woody uterus",
+         "note": "Think abruption, even with little visible blood; check clotting.",
+         "manas": {
+          "q": "Pain, tender uterus, little blood, shocked mother: diagnosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-65",
+         "topic": "Bleed at membrane rupture",
+         "note": "Bleeding with sudden fetal bradycardia at ROM = vasa praevia until proved otherwise.",
+         "manas": {
+          "q": "Fresh bleed at ROM with fetal bradycardia: diagnosis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-66",
+         "topic": "Praevia + old scar",
+         "note": "Always look for placenta accreta spectrum.",
+         "manas": {
+          "q": "What must you exclude with praevia over a caesarean scar?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-67",
+       "topic": "🌍 Around the world",
+       "note": "Kenya and WHO first, then where others differ.",
+       "children": [
+        {
+         "id": "mdhog500aph-68",
+         "topic": "Kenya MoH",
+         "note": "Kenyan clinical guidelines and teaching define APH from 28 weeks; no VE, resuscitate and refer to a unit with theatre and blood.",
+         "manas": {
+          "q": "From what gestation do Kenyan guidelines define APH?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-69",
+         "topic": "WHO",
+         "note": "WHO emergency obstetric care manuals: stabilise, no digital exam until praevia excluded, deliver if bleeding is heavy.",
+         "manas": {
+          "q": "What does WHO advise before vaginal examination in late-pregnancy bleeding?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-70",
+         "topic": "RCOG (UK)",
+         "note": "APH from 24 weeks with volume grading; praevia and low-lying defined by the 20 mm rule on transvaginal scan.",
+         "manas": {
+          "q": "How does RCOG's APH definition differ from Kenya's?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-71",
+         "topic": "ACOG (USA)",
+         "note": "ACOG suggests planned birth at 36+0 to 37+6 weeks for uncomplicated praevia, and 34+0 to 35+6 weeks for suspected accreta spectrum.",
+         "manas": {
+          "q": "When does ACOG suggest delivery for suspected accreta?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-72",
+         "topic": "SOGC (Canada)",
+         "note": "2023 guideline gives dedicated advice on diagnosing and managing vasa praevia (see research).",
+         "manas": {
+          "q": "Which body published a 2023 vasa praevia guideline?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhog500aph-73",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-23.",
+       "manas": {
+        "checked": "2026-11-23"
+       },
+       "children": [
+        {
+         "id": "mdhog500aph-74",
+         "topic": "Abruption review",
+         "note": "Abruption affects about 0.6–1.2% of pregnancies, nearly half at term; it mixes chronic vasculopathy with acute shear. Proposes a management algorithm.",
+         "hyperLink": "https://doi.org/10.1016/j.ajog.2022.06.059",
+         "manas": {
+          "q": "About what share of pregnancies are affected by abruption?",
+          "ref": "Am J Obstet Gynecol 2023"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-75",
+         "topic": "SOGC vasa praevia guideline",
+         "note": "GRADE-based Canadian guideline: vasa praevia raises the risk of adverse outcomes, so fetal vessels near the cervix need careful scanning; it weighs hospital vs home care and caesarean timing.",
+         "hyperLink": "https://doi.org/10.1016/j.jogc.2023.05.009",
+         "manas": {
+          "q": "Why does vasa praevia need careful ultrasound characterisation?",
+          "ref": "J Obstet Gynaecol Can 2023"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhog500aph-76",
+         "topic": "Accreta without praevia",
+         "note": "Meta-analysis (7 studies): accreta without praevia linked more to IVF, prior D&C and myomectomy, less to caesarean; less often found antenatally; better maternal outcomes.",
+         "hyperLink": "https://doi.org/10.1097/aog.0000000000004923",
+         "manas": {
+          "q": "Which risk factor is linked more with accreta without praevia?",
+          "ref": "Obstet Gynecol 2022"
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y5"
+  },
+  {
+   "id": "med-hpd500-preterm-lbw",
+   "title": "HPD 500 · In depth: Preterm and low birth weight",
+   "look": "sunrise",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795411623506,
+   "updated": 1795411623506,
+   "library": "mbchb",
+   "deepOf": "med-hpd500",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhpd500plbw-root",
+     "topic": "Preterm and low birth weight in depth",
+     "note": "Definitions, causes, immature physiology, signs, work-up, antenatal/newborn care, complications and prevention. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhpd500plbw-1",
+       "topic": "Definitions and size",
+       "note": "Beyond the course's weight and age cut-offs.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-2",
+         "topic": "Late and moderate preterm",
+         "note": "Moderate-to-late preterm is 32 to <37 weeks; late preterm is 34 to <37 weeks. Most preterm babies fall here.",
+         "manas": {
+          "q": "What gestation range is 'late preterm'?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-3",
+         "topic": "Small for gestational age",
+         "note": "Birth weight below the 10th centile for gestational age, at any gestation.",
+         "manas": {
+          "q": "How is small for gestational age defined?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-4",
+         "topic": "LBW is not the same",
+         "note": "A low birth weight baby may be preterm, small for gestational age (often from growth restriction), or both; each has different risks.",
+         "manas": {
+          "q": "Name the two ways a baby can be low birth weight."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-5",
+         "topic": "Asymmetric growth restriction",
+         "note": "Usually late placental insufficiency: head spared, abdomen and weight small.",
+         "manas": {
+          "q": "Which part is spared in asymmetric growth restriction?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-6",
+         "topic": "Symmetric growth restriction",
+         "note": "Early insult (chromosomal, congenital infection, severe early insufficiency): head, length and weight all small.",
+         "manas": {
+          "q": "Give causes of symmetric growth restriction."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-7",
+         "topic": "Dating gestation",
+         "note": "Best by first-trimester ultrasound; after birth, the New Ballard score uses neuromuscular and physical signs.",
+         "manas": {
+          "q": "What score estimates gestational age after birth?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-8",
+         "topic": "Global burden",
+         "note": "About 1 in 10 babies is born preterm; prematurity complications are the leading cause of death in under-5s.",
+         "manas": {
+          "q": "What is the leading cause of death in children under 5?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-9",
+       "topic": "Causes and risk factors",
+       "note": "Why babies arrive early or small.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-10",
+         "topic": "Spontaneous preterm labour",
+         "note": "Infection or chorioamnionitis, previous preterm birth, short cervix, twins, polyhydramnios, uterine anomaly, cervical surgery.",
+         "manas": {
+          "q": "Give four causes of spontaneous preterm labour."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-11",
+         "topic": "Preterm prelabour rupture",
+         "note": "PPROM: membranes rupture before 37 weeks and before labour; raises infection and preterm birth risk.",
+         "manas": {
+          "q": "What does PPROM stand for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-12",
+         "topic": "Provider-initiated birth",
+         "note": "Early delivery for mother or baby: pre-eclampsia, APH, growth restriction, fetal distress.",
+         "manas": {
+          "q": "Name two reasons for provider-initiated preterm birth."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-13",
+         "topic": "Maternal factors",
+         "note": "Teenage pregnancy, undernutrition, anaemia, malaria, HIV, urinary infection, smoking, short pregnancy interval.",
+         "manas": {
+          "q": "Name maternal factors that raise preterm and LBW risk."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-14",
+         "topic": "Causes of growth restriction",
+         "note": "Placental insufficiency, hypertension, malaria in pregnancy, smoking, congenital infection, chromosomal disorders, twins.",
+         "manas": {
+          "q": "Give three causes of fetal growth restriction."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-15",
+       "topic": "Why preterm babies struggle",
+       "note": "Organ immaturity explains each complication.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-16",
+         "topic": "Heat loss",
+         "note": "Large surface area for weight, thin skin and little brown fat or subcutaneous fat.",
+         "manas": {
+          "q": "Why do preterm babies lose heat quickly?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-17",
+         "topic": "Low glucose",
+         "note": "Small glycogen and fat stores, poor feeding and high needs; SGA babies are also at risk.",
+         "manas": {
+          "q": "Why are preterm and SGA babies prone to hypoglycaemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-18",
+         "topic": "Infection",
+         "note": "Less maternal IgG crosses before term, skin barrier is weak, and invasive devices add risk.",
+         "manas": {
+          "q": "Why are preterm babies more prone to infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-19",
+         "topic": "Jaundice",
+         "note": "Immature liver conjugation and shorter red cell life; treat at lower bilirubin levels than term babies.",
+         "manas": {
+          "q": "Why are phototherapy thresholds lower in preterm babies?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-20",
+         "topic": "Feeding",
+         "note": "Coordinated suck, swallow and breathing matures around 32–34 weeks; earlier babies need tube or cup feeds.",
+         "manas": {
+          "q": "Around what gestation does coordinated suck-swallow develop?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-21",
+       "topic": "Clinical features",
+       "note": "Look of a preterm baby.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-22",
+         "topic": "Skin and hair",
+         "note": "Thin, shiny, red skin with visible veins; fine lanugo hair.",
+         "manas": {
+          "q": "Describe the skin of a preterm baby."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-23",
+         "topic": "Ears, soles, breasts",
+         "note": "Soft flat ear cartilage, few sole creases, small or absent breast bud.",
+         "manas": {
+          "q": "Name three physical signs of prematurity."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-24",
+         "topic": "Genitalia",
+         "note": "Boys: testes undescended, few scrotal rugae. Girls: prominent clitoris and labia minora.",
+         "manas": {
+          "q": "What genital signs suggest prematurity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-25",
+         "topic": "Tone and posture",
+         "note": "Low tone with extended limbs ('frog-like'); weak cry and suck.",
+         "manas": {
+          "q": "What posture does a very preterm baby show?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-26",
+       "topic": "Investigations",
+       "note": "Monitor, screen and look for complications.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-27",
+         "topic": "Weight and gestation",
+         "note": "Weigh every baby at birth and plot on a growth chart; score gestation.",
+         "manas": {
+          "q": "What must be recorded for every newborn?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-28",
+         "topic": "Glucose checks",
+         "note": "Check blood glucose early and regularly in preterm, LBW and SGA babies, especially before feeds.",
+         "manas": {
+          "q": "Which babies need routine glucose checks?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-29",
+         "topic": "Sepsis screen",
+         "note": "FBC, CRP, blood culture; lumbar puncture if meningitis suspected.",
+         "manas": {
+          "q": "What tests make up a neonatal sepsis screen?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-30",
+         "topic": "Serum bilirubin",
+         "note": "Measure when jaundice appears; use gestation-specific phototherapy charts.",
+         "manas": {
+          "q": "How is jaundice treatment decided in preterm babies?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-31",
+         "topic": "Cranial ultrasound",
+         "note": "Through the anterior fontanelle to detect bleeding or white matter injury in very preterm babies.",
+         "manas": {
+          "q": "How is IVH detected in preterm babies?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-32",
+         "topic": "Chest X-ray in RDS",
+         "note": "Ground-glass lungs with air bronchograms; low volumes.",
+         "manas": {
+          "q": "What does RDS look like on chest X-ray?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-33",
+       "topic": "Antenatal management",
+       "note": "What helps before the baby is born.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-34",
+         "topic": "Antenatal corticosteroids",
+         "note": "Speed lung maturity; cut neonatal death, RDS and IVH. WHO: 24–34 weeks when birth is likely within 7 days.",
+         "manas": {
+          "q": "At what gestation does WHO recommend antenatal steroids?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-35",
+         "topic": "Steroid regimen",
+         "note": "Dexamethasone 6 mg IM 12-hourly ×4 doses, or betamethasone 12 mg IM 24-hourly ×2 doses.",
+         "manas": {
+          "q": "What is the dexamethasone regimen for fetal lung maturity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-36",
+         "topic": "Magnesium for neuroprotection",
+         "note": "Magnesium sulfate before very preterm birth lowers the risk of cerebral palsy.",
+         "manas": {
+          "q": "Why give magnesium sulfate before very preterm birth?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-37",
+         "topic": "Antibiotics in PPROM",
+         "note": "Give antibiotics (erythromycin often first choice); not routinely in preterm labour with intact membranes.",
+         "manas": {
+          "q": "Which preterm women should get routine antibiotics?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-38",
+         "topic": "Tocolysis buys time",
+         "note": "Short delay only, e.g. to finish steroids or transfer; no proven baby benefit on its own.",
+         "manas": {
+          "q": "What is the main purpose of tocolysis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-39",
+         "topic": "Birth in the right place",
+         "note": "Transfer in utero to a unit with newborn care is safer than moving a sick baby after birth.",
+         "manas": {
+          "q": "Why is in-utero transfer preferred?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-40",
+       "topic": "Newborn care",
+       "note": "After stabilisation (resuscitation has its own map).",
+       "children": [
+        {
+         "id": "mdhpd500plbw-41",
+         "topic": "Delayed cord clamping",
+         "note": "Wait at least 1 minute in babies not needing resuscitation; less transfusion and IVH in preterms.",
+         "manas": {
+          "q": "How long does WHO advise waiting before clamping the cord?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-42",
+         "topic": "Keep warm",
+         "note": "KMC, warm room, hat, incubator if needed; check temperature often.",
+         "manas": {
+          "q": "Name ways to keep a LBW baby warm."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-43",
+         "topic": "Breast milk first",
+         "note": "Mother's own milk by breast, cup or nasogastric tube; donor milk if unavailable. Protects against NEC and infection.",
+         "manas": {
+          "q": "Why is breast milk vital for preterm babies?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-44",
+         "topic": "Small frequent feeds",
+         "note": "Start early and increase daily as tolerated; IV fluids if too sick to feed.",
+         "manas": {
+          "q": "How are feeds given to a baby too immature to suck?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-45",
+         "topic": "Vitamin K at birth",
+         "note": "Give to all newborns to prevent haemorrhagic disease; smaller dose by local protocol in very small babies.",
+         "manas": {
+          "q": "What prevents haemorrhagic disease of the newborn?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-46",
+         "topic": "Careful oxygen",
+         "note": "Give enough oxygen but avoid excess; too much raises the risk of retinopathy of prematurity.",
+         "manas": {
+          "q": "Why avoid excess oxygen in preterm babies?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-47",
+         "topic": "Discharge readiness",
+         "note": "Feeding well, keeping warm, gaining weight, no active illness, and a confident mother.",
+         "manas": {
+          "q": "List criteria for discharging a LBW baby."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-48",
+       "topic": "Complications in depth",
+       "note": "Mechanisms behind the course's list.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-49",
+         "topic": "Intraventricular haemorrhage",
+         "note": "Fragile germinal matrix bleeds, mostly in the first 72 hours and in babies <32 weeks.",
+         "manas": {
+          "q": "When do most intraventricular haemorrhages occur?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-50",
+         "topic": "Periventricular leukomalacia",
+         "note": "White matter injury around the ventricles; leads to spastic diplegic cerebral palsy.",
+         "manas": {
+          "q": "Which cerebral palsy type follows periventricular leukomalacia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-51",
+         "topic": "Necrotising enterocolitis",
+         "note": "Feed intolerance, distension, bloody stools; X-ray shows pneumatosis intestinalis. Nil by mouth, antibiotics, surgery if perforation.",
+         "manas": {
+          "q": "What is the classic X-ray sign of NEC?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-52",
+         "topic": "Retinopathy of prematurity",
+         "note": "Abnormal retinal vessel growth; can blind. Screen at-risk babies; treat with laser or anti-VEGF injection.",
+         "manas": {
+          "q": "How is severe retinopathy of prematurity treated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-53",
+         "topic": "Bronchopulmonary dysplasia",
+         "note": "Chronic lung disease: still needing oxygen at 36 weeks' postmenstrual age.",
+         "manas": {
+          "q": "How is bronchopulmonary dysplasia defined?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-54",
+         "topic": "Patent ductus arteriosus",
+         "note": "Commoner in preterms: murmur, bounding pulses, wide pulse pressure, heart failure.",
+         "manas": {
+          "q": "Name signs of a PDA in a preterm baby."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-55",
+         "topic": "Anaemia and bone disease",
+         "note": "Low iron stores and frequent sampling cause anaemia; low calcium and phosphate cause metabolic bone disease.",
+         "manas": {
+          "q": "Why do preterm babies become anaemic?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-56",
+         "topic": "SGA-specific problems",
+         "note": "Hypoglycaemia, hypothermia and polycythaemia.",
+         "manas": {
+          "q": "Name three problems typical of SGA babies."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-57",
+         "topic": "Long-term outlook",
+         "note": "Higher risk of developmental delay, learning, vision and hearing problems; growth-restricted babies have more adult heart disease and diabetes.",
+         "manas": {
+          "q": "What adult diseases are linked to growth restriction?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-58",
+       "topic": "Prevention",
+       "note": "Stopping preterm birth before it starts.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-59",
+         "topic": "Good antenatal care",
+         "note": "Treat urinary infection and anaemia, malaria prevention in pregnancy, nutrition, HIV care, birth spacing.",
+         "manas": {
+          "q": "Name antenatal measures that lower preterm and LBW births."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-60",
+         "topic": "Vaginal progesterone",
+         "note": "For singleton pregnancy with short cervix or previous spontaneous preterm birth (see research).",
+         "manas": {
+          "q": "Who benefits from vaginal progesterone to prevent preterm birth?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-61",
+         "topic": "Cervical cerclage",
+         "note": "Stitch for selected women with a history of preterm loss or a short cervix.",
+         "manas": {
+          "q": "What is cervical cerclage?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-62",
+       "topic": "Exam pearls",
+       "note": "Quick hits.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-63",
+         "topic": "Corrected age",
+         "note": "Assess development by corrected age (subtract weeks born early) until about 2 years.",
+         "manas": {
+          "q": "How is corrected age worked out?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-64",
+         "topic": "Steroids save most",
+         "note": "Antenatal steroids are among the most effective single interventions for preterm survival.",
+         "manas": {
+          "q": "Which antenatal intervention most improves preterm survival?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-65",
+         "topic": "Preterm vs SGA",
+         "note": "Always state both gestation and weight centile; their problems and causes differ.",
+         "manas": {
+          "q": "Why record both gestation and weight centile?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-66",
+       "topic": "🌍 Around the world",
+       "note": "Kenya and WHO first, then where others differ.",
+       "children": [
+        {
+         "id": "mdhpd500plbw-67",
+         "topic": "Kenya MoH",
+         "note": "Kenya Basic Paediatric Protocols: KMC for small babies, bubble CPAP for respiratory distress, breast milk feeding; check the current edition for apnoea treatment.",
+         "manas": {
+          "q": "Which CPAP type do Kenyan protocols use for small babies?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-68",
+         "topic": "WHO 2022 preterm care",
+         "note": "KMC from birth for all preterm/LBW babies who are not critically ill; consider CPAP from birth under 32 weeks.",
+         "manas": {
+          "q": "Which preterm babies may get CPAP immediately after birth per WHO?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-69",
+         "topic": "WHO steroid limits",
+         "note": "Steroids only when gestation is reliable, birth likely, no maternal infection and adequate newborn care exists.",
+         "manas": {
+          "q": "What conditions does WHO set for antenatal steroids?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-70",
+         "topic": "ACOG late preterm steroids",
+         "note": "ACOG allows a steroid course at 34–36 weeks for selected women; WHO does not routinely recommend after 34 weeks.",
+         "manas": {
+          "q": "Does WHO recommend antenatal steroids after 34 weeks?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-71",
+         "topic": "UK ROP screening",
+         "note": "UK screens babies born before 31 weeks or under 1501 g; US uses similar but slightly different cut-offs.",
+         "manas": {
+          "q": "Which babies does the UK screen for ROP?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhpd500plbw-72",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-23.",
+       "manas": {
+        "checked": "2026-11-23"
+       },
+       "children": [
+        {
+         "id": "mdhpd500plbw-73",
+         "topic": "New WHO preterm care recommendations",
+         "note": "WHO made 25 recommendations (11 new): KMC immediately after birth, caffeine for apnoea, family involvement in care and home visits after discharge.",
+         "hyperLink": "https://doi.org/10.1016/j.eclinm.2023.102155",
+         "manas": {
+          "q": "How many new recommendations did WHO make for preterm/LBW care?",
+          "ref": "EClinicalMedicine 2023"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-74",
+         "topic": "KMC meta-analysis",
+         "note": "31 RCTs, 15,559 babies: KMC cut deaths by about a third vs usual care; starting within 24 h and ≥8 h/day worked best.",
+         "hyperLink": "https://doi.org/10.1136/bmjgh-2022-010728",
+         "manas": {
+          "q": "How many hours a day of KMC gave greater benefit?",
+          "ref": "BMJ Glob Health 2023"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhpd500plbw-75",
+         "topic": "Preventing preterm birth",
+         "note": "Network meta-analysis of 61 RCTs: vaginal progesterone should be considered first choice in singleton pregnancy at risk from previous spontaneous preterm birth or short cervix.",
+         "hyperLink": "https://doi.org/10.1136/bmj-2021-064547",
+         "manas": {
+          "q": "Which treatment was favoured to prevent preterm birth in high-risk singletons?",
+          "ref": "BMJ 2022"
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y5"
+  },
+  {
+   "id": "med-hps100-biopsychosocial",
+   "title": "HPS 100 · In depth: Biopsychosocial Model of Health",
+   "look": "ocean",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795411623509,
+   "updated": 1795411623509,
+   "library": "mbchb",
+   "deepOf": "med-hps100",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhps100bps-root",
+     "topic": "Biopsychosocial Model of Health",
+     "note": "Engel's model in depth: roots, three domains, how they interact, clinical use, critiques. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhps100bps-6",
+       "topic": "Definition and roots",
+       "note": "What the model claims and the ideas it grew from.",
+       "children": [
+        {
+         "id": "mdhps100bps-1",
+         "topic": "Core claim",
+         "note": "Health and illness result from biological, psychological and social systems acting on each other at the same time, so all three must be assessed in every patient.",
+         "manas": {
+          "q": "What is the core claim of the biopsychosocial model?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-2",
+         "topic": "Engel's paper in Science",
+         "note": "Engel argued in Science (1977) that medicine needed a new model; the biomedical model left no room for the person or their life context.",
+         "manas": {
+          "q": "In which journal did Engel set out the biopsychosocial model in 1977?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-3",
+         "topic": "General systems theory",
+         "note": "Engel drew on systems theory: nature as a hierarchy of linked systems, from cells and organs to the person, family, community and society.",
+         "manas": {
+          "q": "Which theory underpins Engel's biopsychosocial model?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-4",
+         "topic": "Hierarchy of systems",
+         "note": "A change at one level (e.g. job loss) can travel up or down the hierarchy and alter others (mood, sleep, blood pressure).",
+         "manas": {
+          "q": "How does the hierarchy of systems explain illness in the biopsychosocial model?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-5",
+         "topic": "Health as a continuum",
+         "note": "Health is not simply present or absent; people move along a continuum as the three domains shift over time.",
+         "manas": {
+          "q": "Is health seen as a yes/no state in the biopsychosocial model?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps100bps-11",
+       "topic": "Biomedical model contrasted",
+       "note": "The older model the BPS model was built to complete, not to discard.",
+       "children": [
+        {
+         "id": "mdhps100bps-7",
+         "topic": "Reductionism",
+         "note": "Explains illness by reducing it to the smallest biological parts, such as cells, molecules or a single pathogen.",
+         "manas": {
+          "q": "What is reductionism in the biomedical model?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-8",
+         "topic": "Mind–body dualism",
+         "note": "Treats mind and body as separate (traced to Descartes), so psychological complaints are seen as outside 'real' medicine.",
+         "manas": {
+          "q": "Which philosopher is linked to the mind–body dualism behind the biomedical model?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-9",
+         "topic": "Strengths kept",
+         "note": "Great successes: germ theory, antibiotics, vaccines, surgery. The BPS model keeps biology and adds the person and context.",
+         "manas": {
+          "q": "Does the biopsychosocial model reject the biomedical model?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-10",
+         "topic": "Doctor-centred care",
+         "note": "The biomedical approach puts the doctor as expert and patient as passive; BPS care moves towards shared, patient-centred decisions.",
+         "manas": {
+          "q": "How does the role of the patient differ between biomedical and BPS models?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps100bps-16",
+       "topic": "The three domains",
+       "note": "Typical factors in each domain, used when building a full case formulation.",
+       "children": [
+        {
+         "id": "mdhps100bps-12",
+         "topic": "Biological factors",
+         "note": "Genes, age, sex, pathogens, physiology, organ damage, nutrition, drug effects and comorbidities.",
+         "manas": {
+          "q": "List examples of biological factors in the BPS model."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-13",
+         "topic": "Psychological factors",
+         "note": "Beliefs, emotions, mood, personality, coping style, cognition, health behaviours and past experiences of illness.",
+         "manas": {
+          "q": "List examples of psychological factors in the BPS model."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-14",
+         "topic": "Social factors",
+         "note": "Family, social support, income, work, education, housing, culture, religion, stigma and access to services.",
+         "manas": {
+          "q": "List examples of social factors in the BPS model."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-15",
+         "topic": "Predisposing, precipitating, perpetuating",
+         "note": "The 3 Ps grid crossed with the three domains: what made the person vulnerable, what triggered it, what keeps it going. Some add protective factors.",
+         "manas": {
+          "q": "What are the 3 Ps used in a biopsychosocial formulation?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps100bps-24",
+       "topic": "How the domains interact",
+       "note": "Pathways that link mind, body and social world.",
+       "children": [
+        {
+         "id": "mdhps100bps-17",
+         "topic": "Stress and the HPA axis",
+         "note": "Perceived stress activates the hypothalamic–pituitary–adrenal axis, raising cortisol; chronic activation affects immunity, metabolism and mood.",
+         "manas": {
+          "q": "Which hormonal axis links psychological stress to bodily change?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-18",
+         "topic": "Sympathetic arousal",
+         "note": "Acute stress triggers sympathetic activation and adrenaline release: raised heart rate, blood pressure and blood glucose.",
+         "manas": {
+          "q": "What does sympathetic activation do during acute stress?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-19",
+         "topic": "Psychoneuroimmunology",
+         "note": "Study of how mind, nervous, endocrine and immune systems interact; e.g. chronic stress can slow wound healing.",
+         "manas": {
+          "q": "What does psychoneuroimmunology study?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-20",
+         "topic": "Behavioural pathway",
+         "note": "Stress, mood and social setting shape behaviours (smoking, alcohol, diet, exercise, adherence) that then change biology.",
+         "manas": {
+          "q": "Give the behavioural pathway by which social factors affect disease."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-21",
+         "topic": "Gate control theory of pain",
+         "note": "Melzack and Wall (1965): spinal 'gates' modulate pain signals, and mood, attention and expectation can open or close them.",
+         "manas": {
+          "q": "Who proposed the gate control theory of pain and what does it show?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-22",
+         "topic": "Placebo and nocebo",
+         "note": "Expectation alone can improve (placebo) or worsen (nocebo) symptoms, showing belief has measurable bodily effects.",
+         "manas": {
+          "q": "What do placebo and nocebo effects show about mind and body?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-23",
+         "topic": "Social support buffering",
+         "note": "Good social support is linked to better health and is thought to cushion the harmful effects of stress.",
+         "manas": {
+          "q": "What is the buffering effect of social support?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps100bps-34",
+       "topic": "Clinical use",
+       "note": "Turning the model into everyday practice.",
+       "children": [
+        {
+         "id": "mdhps100bps-25",
+         "topic": "Biopsychosocial history",
+         "note": "Beyond symptoms, ask about mood, beliefs, work, family, money, culture and supports, then link them to the problem.",
+         "manas": {
+          "q": "What extra areas does a biopsychosocial history cover?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-26",
+         "topic": "Ideas, concerns, expectations",
+         "note": "ICE = Ideas, Concerns, Expectations: asking about these reveals the patient's own view of the illness and helps agree a plan.",
+         "manas": {
+          "q": "What does ICE stand for in consultation skills?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-27",
+         "topic": "Patient-centred care",
+         "note": "The BPS model underlies patient-centred care: seeing the person, sharing power and building the relationship.",
+         "manas": {
+          "q": "Which care approach is built on the biopsychosocial model?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-28",
+         "topic": "Multidisciplinary team",
+         "note": "Doctors, nurses, psychologists, physiotherapists, social workers and community health workers each cover different domains.",
+         "manas": {
+          "q": "Why does BPS care often need a multidisciplinary team?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-29",
+         "topic": "Chronic pain and yellow flags",
+         "note": "In back pain, psychosocial 'yellow flags' (fear-avoidance, low mood, poor recovery expectations) are linked to a higher risk of long-term disability.",
+         "manas": {
+          "q": "What are yellow flags in low back pain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-30",
+         "topic": "Diabetes and hypertension",
+         "note": "Control depends on biology plus understanding, mood, diet, cost of drugs and family support, not prescriptions alone.",
+         "manas": {
+          "q": "Why is the BPS model useful in diabetes care?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-31",
+         "topic": "HIV care in Kenya",
+         "note": "Viral suppression depends on drugs and on stigma, disclosure, food security, transport costs and support groups.",
+         "manas": {
+          "q": "How do social factors affect HIV treatment outcomes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-32",
+         "topic": "Depression and physical illness",
+         "note": "Depression is common in chronic illness and worsens adherence and outcomes, so screening for mood is part of good care.",
+         "manas": {
+          "q": "Why screen for depression in chronic physical illness?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-33",
+         "topic": "Culture and traditional healers",
+         "note": "Many Kenyans use traditional or faith healing alongside clinics; asking respectfully about this is part of the social domain.",
+         "manas": {
+          "q": "Why ask Kenyan patients about traditional or faith healing?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps100bps-39",
+       "topic": "Critiques and limits",
+       "note": "Why some call the model vague, and how it has been extended.",
+       "children": [
+        {
+         "id": "mdhps100bps-35",
+         "topic": "Too vague to test",
+         "note": "Critics say it lists factors without saying how they combine or which matters most for a given patient.",
+         "manas": {
+          "q": "What is the main theoretical criticism of the biopsychosocial model?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-36",
+         "topic": "Risk of psychologising",
+         "note": "Wrongly blaming symptoms on stress can delay diagnosis of physical disease; biology must still be investigated properly.",
+         "manas": {
+          "q": "What is the danger of over-applying the psychological domain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-37",
+         "topic": "Time and resources",
+         "note": "Full BPS assessment takes time, training and team support that busy clinics may lack.",
+         "manas": {
+          "q": "Name a practical barrier to using the BPS model."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-38",
+         "topic": "Spiritual dimension added",
+         "note": "Some add a spiritual domain (bio-psycho-social-spiritual), important in palliative care and in many Kenyan communities.",
+         "manas": {
+          "q": "What fourth domain do some add to the BPS model?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps100bps-45",
+       "topic": "🌍 Around the world",
+       "note": "How the model shows up in global frameworks.",
+       "children": [
+        {
+         "id": "mdhps100bps-40",
+         "topic": "WHO ICF (2001)",
+         "note": "The International Classification of Functioning, Disability and Health uses a biopsychosocial approach: body, activity, participation and context.",
+         "manas": {
+          "q": "Which WHO classification uses a biopsychosocial approach to disability?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-41",
+         "topic": "Disability: medical vs social",
+         "note": "The medical model locates disability in the body; the social model in barriers in society. The ICF combines both.",
+         "manas": {
+          "q": "How does the ICF combine the medical and social models of disability?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-42",
+         "topic": "WHO mhGAP",
+         "note": "WHO's Mental Health Gap Action Programme supports non-specialists in primary care to manage common mental disorders.",
+         "manas": {
+          "q": "What is the aim of WHO's mhGAP programme?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-43",
+         "topic": "Ottawa Charter (1986)",
+         "note": "WHO health promotion charter: health is created and lived by people in the settings of everyday life, shaped by social conditions, so action goes beyond the health sector.",
+         "manas": {
+          "q": "What did the Ottawa Charter say about where health is created?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-44",
+         "topic": "Back pain guidance",
+         "note": "UK and other national guidelines advise assessing psychosocial factors and favour exercise and self-management over imaging for most low back pain.",
+         "manas": {
+          "q": "What do major low back pain guidelines advise beyond biology?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps100bps-49",
+       "topic": "🆕 Latest research",
+       "note": "Recent papers on the model, from Europe PMC.",
+       "manas": {
+        "checked": "2026-11-23"
+       },
+       "children": [
+        {
+         "id": "mdhps100bps-46",
+         "topic": "Giving the model a theory",
+         "note": "Authors propose rebuilding the model on general scientific theories (causation as regulation, dysfunction as dysregulation), citing psychotherapy and social epidemiology findings as support.",
+         "hyperLink": "https://doi.org/10.1017/s0033291723002660",
+         "manas": {
+          "q": "What core idea does the 2023 'revitalized' BPS model use for dysfunction?",
+          "ref": "Psychol Med 2023"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-47",
+         "topic": "Model lost in translation",
+         "note": "A narrative review in musculoskeletal pain finds the model is often used narrowly or reductively, in two parallel versions, 'humanistic' and 'causation'; an 'enactive' approach could unite them.",
+         "hyperLink": "https://doi.org/10.1080/09593985.2022.2080130",
+         "manas": {
+          "q": "What two versions of the BPS model did the 2023 review describe?",
+          "ref": "Physiother Theory Pract 2023"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-48",
+         "topic": "Back pain chronicity factors",
+         "note": "An umbrella review linked worse long-term outcome in acute–subacute back pain to high pain and disability, distress, negative expectations and heavy physical work.",
+         "hyperLink": "https://doi.org/10.3390/ijerph191610145",
+         "manas": {
+          "q": "Which factors were linked to poor outcome in acute low back pain in the 2022 umbrella review?",
+          "ref": "Int J Environ Res Public Health 2022"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps100bps-54",
+       "topic": "Exam pearls",
+       "note": "Quick points examiners like.",
+       "children": [
+        {
+         "id": "mdhps100bps-50",
+         "topic": "Three Ps by three domains",
+         "note": "For any case, draw a 3×3 grid: predisposing, precipitating, perpetuating against bio, psycho, social.",
+         "manas": {
+          "q": "How would you structure a biopsychosocial formulation in an exam?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-51",
+         "topic": "Not anti-biology",
+         "note": "Always state the model adds to, rather than replaces, biomedical diagnosis and treatment.",
+         "manas": {
+          "q": "Does the BPS model replace biomedical treatment?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-52",
+         "topic": "Name a mechanism",
+         "note": "Strong answers cite a pathway: HPA axis, gate control, behaviour, or social support buffering.",
+         "manas": {
+          "q": "Name two mechanisms that link psychological stress to disease."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps100bps-53",
+         "topic": "Use a Kenyan example",
+         "note": "Illustrate with HIV, diabetes or TB care where cost, stigma and support shape outcomes.",
+         "manas": {
+          "q": "Give a Kenyan example showing all three BPS domains."
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y1"
   }
  ]
 }
