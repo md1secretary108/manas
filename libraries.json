@@ -167,7 +167,7 @@
    "icon": "🤖",
    "file": "lib-ai.json",
    "root": "ai-root",
-   "whatsNew": "New: Explaining AI decisions (XAI) and AI and robots in the physical world; news refreshed: Gemini 4 Neon, Genie 4 for Ultra users, Gemini Robotics 2.5, OpenAI's layered safety plan, MedChemBench drug-chemistry test (21 Nov)",
+   "whatsNew": "New: AI security (attacks and defences) and Small models on your own machine; news refreshed: Anthropic shares listed on Nasdaq, OpenAI's shared progress yardstick (perplexity), Shirudo AI shields for servers, DeepMind agents improving quantum algorithms (24 Nov)",
    "about": {
     "by": "Manas, for anyone learning AI — beginners and students",
     "from": "Wikipedia, research papers (Europe PMC), free courses; YouTube videos from universities and well-known teachers",
@@ -175,8 +175,8 @@
     "date": "14 Oct 2026"
    },
    "parts": 9,
-   "v": 1795240181,
-   "meta": "69 maps · 4,326 ideas · 1.0 MB · 9 subjects",
+   "v": 1795497790,
+   "meta": "71 maps · 4,521 ideas · 1.1 MB · 9 subjects",
    "split": "lib-ai-index.json",
    "short": "AI"
   },
