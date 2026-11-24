@@ -81,6 +81,26 @@
    "short": "SGD"
   },
   {
+   "id": "bps",
+   "title": "HH Bhakti Padma Saurabha Pracharaka Swami",
+   "subtitle": "His classes as mind maps, each point linked to the recording and the transcript. First series: Journey of Self Discovery (six sessions, given as HG Kamal Lochan Prabhu).",
+   "icon": "🪔",
+   "file": "lib-bps.json",
+   "root": "bps-root",
+   "meta": "11 maps · 1,089 ideas · 708 KB · 1 series + index",
+   "parts": 2,
+   "about": {
+    "by": "HH Bhakti Padma Saurabha Pracharaka Swami, formerly HG Kamal Lochan Prabhu (classes); maps by Manas with his agreement",
+    "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
+    "review": "more on the way · summaries: review in progress",
+    "date": "24 Nov 2026"
+   },
+   "v": 1795541432,
+   "whatsNew": "New teacher: HH Bhakti Padma Saurabha Pracharaka Swami (formerly HG Kamal Lochan Prabhu) — Journey of Self Discovery, six sessions, 434 ideas: inquiry and the Vedas, the soul, the science of God, who God is, karma and the three modes, five do's and four don'ts (24 Nov)",
+   "split": "lib-bps-index.json",
+   "short": "BPS"
+  },
+  {
    "id": "mbchb",
    "title": "Medicine — Kenyan MBChB",
    "subtitle": "All six years as taught at the University of Nairobi: 45 courses, 4,133 key facts as flashcards, free lectures and Kenya MoH guidelines. Study notes: AI-drafted and checked, doctor review in progress",
