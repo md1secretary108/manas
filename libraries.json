@@ -46,16 +46,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "346 maps · 23,074 ideas · 16.6 MB · 20 series + index",
-   "parts": 21,
+   "meta": "368 maps · 24,443 ideas · 17.7 MB · 21 series + index",
+   "parts": 22,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1795408333,
-   "whatsNew": "New series: Vidagdha-madhava (1 class, Mayapur, Feb 2025) — Krishna disguises himself as the goddess Gauri at Govardhana to keep Radharani in Vraja; questions on why pure devotees faint and why material eyes cannot see Krishna.",
+   "v": 1795495273,
+   "whatsNew": "New series: Mukunda-mala-stotra (21 classes, mostly Mauritius, Dec 2022 – Jan 2025) — King Kulasekhara's prayers to Lord Mukunda, Texts 1–22: asking only for devotion, remembering Krishna at death, and the senses and mind given to his service; questions and answers in many classes.",
    "split": "lib-bdds-index.json",
    "short": "Maharaj",
    "reviewCap": 4000
@@ -113,10 +113,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New: The world of accounting · Accounting by industry 1. SACCOs and cooperatives, 2. Banks and microfinance, 3. Insurance companies, 4. Farming and agriculture, 5. Hospitals and clinics (Mon 23 Nov)",
-   "meta": "158 maps · 12,546 ideas · 2.8 MB · 6 subjects",
+   "whatsNew": "New: The world of accounting · Accounting by industry 6. Hotels and restaurants, 7. Construction and real estate, 8. NGOs and charities, 9. Schools and colleges; At work · 11. Stock take: counting inventory (Tue 24 Nov)",
+   "meta": "163 maps · 13,072 ideas · 2.9 MB · 6 subjects",
    "parts": 6,
-   "v": 1795414031,
+   "v": 1795500425,
    "split": "lib-acc-index.json",
    "short": "Acc"
   },
