@@ -95,10 +95,31 @@
     "review": "more on the way · summaries: review in progress",
     "date": "24 Nov 2026"
    },
-   "v": 1795541432,
-   "whatsNew": "New teacher: HH Bhakti Padma Saurabha Pracharaka Swami (formerly HG Kamal Lochan Prabhu) — Journey of Self Discovery, six sessions, 434 ideas: inquiry and the Vedas, the soul, the science of God, who God is, karma and the three modes, five do's and four don'ts (24 Nov)",
+   "v": 1795599474,
+   "whatsNew": "Library rebuilt",
    "split": "lib-bps-index.json",
    "short": "BPS"
+  },
+  {
+   "id": "rgs",
+   "title": "श्री श्रीमद् राधा गोविंद दास गोस्वामी महाराज",
+   "subtitle": "HH Radha Govinda Das Goswami Maharaj: उनकी हिंदी कथाएँ मानचित्र के रूप में, हर बिंदु रिकॉर्डिंग और प्रतिलेख से जुड़ा। पहली श्रृंखला: दामोदर लीला (वृंदावन, 2012)।",
+   "icon": "🪷",
+   "file": "lib-rgs.json",
+   "root": "rgs-root",
+   "meta": "11 maps · 1,128 ideas · 1.3 MB · 1 series + index",
+   "parts": 2,
+   "about": {
+    "by": "HH Radha Govinda Das Goswami Maharaj (कथा); मानचित्र Manas द्वारा, उनकी सहमति से",
+    "from": "ISKCON Desire Tree का ऑडियो संग्रह; स्वचालित हिंदी प्रतिलेख; टिप्पणियाँ Manas के अपने शब्दों में",
+    "review": "हिंदी · more on the way · summaries: review in progress",
+    "date": "25 Nov 2026"
+   },
+   "v": 1795602697,
+   "whatsNew": "Library rebuilt",
+   "split": "lib-rgs-index.json",
+   "short": "RGS",
+   "lang": "hi"
   },
   {
    "id": "mbchb",
