@@ -46,16 +46,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "368 maps · 24,443 ideas · 17.7 MB · 21 series + index",
-   "parts": 22,
+   "meta": "376 maps · 24,918 ideas · 18.1 MB · 22 series + index",
+   "parts": 23,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1795495273,
-   "whatsNew": "New series: Mukunda-mala-stotra (21 classes, mostly Mauritius, Dec 2022 – Jan 2025) — King Kulasekhara's prayers to Lord Mukunda, Texts 1–22: asking only for devotion, remembering Krishna at death, and the senses and mind given to his service; questions and answers in many classes.",
+   "v": 1795581394,
+   "whatsNew": "New series: Sri Siksastakam — 7 classes on Mahaprabhu's prayers (Verse 1 in Dehradun 2026; Verses 2–5 in Brazil 2019). Tap Maharaj → Sri Siksastakam.",
    "split": "lib-bdds-index.json",
    "short": "Maharaj",
    "reviewCap": 4000
@@ -107,7 +107,7 @@
    "icon": "🩺",
    "file": "lib-mbchb.json",
    "root": "med-root",
-   "meta": "102 maps · 9,911 ideas · 3.4 MB · 6 years",
+   "meta": "108 maps · 10,346 ideas · 3.6 MB · 6 years",
    "about": {
     "by": "Manas, for Kenyan MBChB students (University of Nairobi course structure)",
     "from": "Course list from the UoN programme; key facts drafted with AI and checked twice by AI; OpenStax, Kenya MoH and WHO links",
@@ -115,8 +115,8 @@
     "date": "28 Sep 2026"
    },
    "parts": 6,
-   "v": 1795411623,
-   "whatsNew": "6 new in-depth topics: biopsychosocial model (Yr 1); health policy and law, antepartum haemorrhage, preterm and low birth weight (Yr 5); cardiac and mediastinal imaging, death and post-mortem changes (Yr 6)",
+   "v": 1795584844,
+   "whatsNew": "6 new in-depth topics (Year 6): cardiac arrhythmias and ECG, eczema and dermatitis, therapeutic drug monitoring, polytrauma and pelvic fractures, treatment-resistant illness and ECT, acute appendicitis — 435 ideas, 18 new research papers",
    "split": "lib-mbchb-index.json",
    "short": "Med"
   },
@@ -133,10 +133,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New: The world of accounting · Accounting by industry 6. Hotels and restaurants, 7. Construction and real estate, 8. NGOs and charities, 9. Schools and colleges; At work · 11. Stock take: counting inventory (Tue 24 Nov)",
-   "meta": "163 maps · 13,072 ideas · 2.9 MB · 6 subjects",
+   "whatsNew": "New: The world of accounting · Accounting by industry 10. Religious organisations, 11. Shops and supermarkets, 12. Transport and matatu businesses (industries complete); Qualifications and career paths 1. KASNEB Accounting Technicians Diploma (ATD), 2. ACCA (Wed 25 Nov)",
+   "meta": "168 maps · 13,562 ideas · 3.0 MB · 6 subjects",
    "parts": 6,
-   "v": 1795500425,
+   "v": 1795586866,
    "split": "lib-acc-index.json",
    "short": "Acc"
   },

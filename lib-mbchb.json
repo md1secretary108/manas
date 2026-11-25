@@ -19495,7 +19495,12 @@
         }
        ],
        "note": "When and how to measure drug levels to balance efficacy and toxicity in individual patients.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hme602-therapeutic-drug-monitoring",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhme602-2",
@@ -29421,7 +29426,12 @@
         }
        ],
        "note": "ECG interpretation and management of common tachy- and bradyarrhythmias, including atrial fibrillation and resuscitation rhythms.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hme600-cardiac-arrhythmias-ecg",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhme600-2",
@@ -30705,7 +30715,12 @@
         }
        ],
        "note": "Atopic, contact and seborrhoeic dermatitis: features, triggers and topical therapy.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hme601-eczema-dermatitis",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhme601-2",
@@ -32822,7 +32837,12 @@
         }
        ],
        "note": "Approach to treatment resistance, clozapine use and electroconvulsive therapy.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hps600-treatment-resistant-illness-ect",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhps600-2",
@@ -35105,7 +35125,12 @@
         }
        ],
        "note": "Diagnosis, scoring, special groups and management of appendicitis and its complications.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hsu600-acute-appendicitis",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhsu600-2",
@@ -37344,7 +37369,12 @@
         }
        ],
        "note": "Pelvic ring injuries, damage control orthopaedics, crush syndrome and the mangled limb.",
-       "expanded": false
+       "expanded": false,
+       "manas": {
+        "map": "med-hos600-polytrauma-pelvic-fractures",
+        "part": "y6",
+        "library": "mbchb"
+       }
       },
       {
        "id": "med-medhos600-2",
@@ -84803,6 +84833,3894 @@
     }
    },
    "part": "y1"
+  },
+  {
+   "id": "med-hme600-cardiac-arrhythmias-ecg",
+   "title": "HME 600 · In depth: Cardiac arrhythmias and ECG",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795584843792,
+   "updated": 1795584843792,
+   "library": "mbchb",
+   "deepOf": "med-hme600",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhme600ae-root",
+     "topic": "Cardiac arrhythmias and ECG in depth",
+     "note": "How to read a rhythm strip, sort brady- and tachyarrhythmias, and act on stable versus unstable patients. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhme600ae-definitions",
+       "topic": "Definitions",
+       "note": "The words used for abnormal rhythms.",
+       "children": [
+        {
+         "id": "mdhme600ae-arrhythmia",
+         "topic": "Arrhythmia",
+         "note": "Any rhythm other than normal sinus rhythm, or a sinus rhythm at an abnormal rate: bradycardia below 60/min, tachycardia above 100/min.",
+         "manas": {
+          "q": "What heart rates define bradycardia and tachycardia in adults?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-normal-sinus-rhythm",
+         "topic": "Normal sinus rhythm",
+         "note": "Rate 60–100/min, a P wave before every QRS, P upright in lead II, and a constant PR interval.",
+         "manas": {
+          "q": "What are the ECG features of normal sinus rhythm?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-mechanism",
+       "topic": "Mechanism and conduction",
+       "note": "Where the impulse starts and how rhythms go wrong.",
+       "children": [
+        {
+         "id": "mdhme600ae-conduction-pathway",
+         "topic": "Conduction pathway",
+         "note": "SA node, atria, AV node (where conduction is delayed), bundle of His, left and right bundle branches, then Purkinje fibres.",
+         "manas": {
+          "q": "List the normal cardiac conduction pathway in order."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-escape-rates",
+         "topic": "Back-up pacemaker rates",
+         "note": "If higher centres fail, the AV junction escapes at about 40–60/min and the ventricles at about 20–40/min.",
+         "manas": {
+          "q": "At what rates do junctional and ventricular escape rhythms run?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-three-mechanisms",
+         "topic": "Three mechanisms",
+         "note": "Abnormal automaticity, triggered activity (after-depolarisations, as in torsades) and re-entry.",
+         "manas": {
+          "q": "What are the three basic mechanisms of tachyarrhythmia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-re-entry",
+         "topic": "Re-entry",
+         "note": "Needs two pathways with different conduction and refractoriness plus one-way block; a circuit then loops. It underlies AVNRT, AVRT and atrial flutter.",
+         "manas": {
+          "q": "What conditions are needed for a re-entry circuit?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-ecg-reading",
+       "topic": "Reading the ECG",
+       "note": "Use the same order every time.",
+       "children": [
+        {
+         "id": "mdhme600ae-systematic-order",
+         "topic": "Systematic order",
+         "note": "Rate, rhythm, axis, P waves, PR interval, QRS width, ST segment, T waves, then QT interval.",
+         "manas": {
+          "q": "What is a systematic order for reading an ECG?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-paper-and-squares",
+         "topic": "Paper and squares",
+         "note": "At 25 mm/s one small square is 0.04 s and one large square 0.2 s.",
+         "manas": {
+          "q": "At standard paper speed, how long is one large ECG square?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-working-out-rate",
+         "topic": "Working out rate",
+         "note": "Regular rhythm: 300 divided by large squares between R waves. Irregular: count QRS complexes on a 10-second strip and multiply by 6.",
+         "manas": {
+          "q": "How do you calculate heart rate on an irregular ECG?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-normal-intervals",
+         "topic": "Normal intervals",
+         "note": "PR 0.12–0.20 s. QRS under 0.12 s is narrow; 0.12 s or more is broad.",
+         "manas": {
+          "q": "What are the normal PR interval and the cut-off for a broad QRS?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-qt-interval",
+         "topic": "QT interval",
+         "note": "Correct for heart rate (QTc, e.g. Bazett: QT divided by the square root of RR). A QTc above 500 ms carries a high risk of torsades.",
+         "manas": {
+          "q": "Above what QTc value is torsades risk high?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-approach",
+       "topic": "Stable vs unstable approach",
+       "note": "The first question is always: is the patient unstable?",
+       "children": [
+        {
+         "id": "mdhme600ae-first-steps",
+         "topic": "First steps",
+         "note": "ABCDE, oxygen if hypoxic, cardiac monitor, IV access, 12-lead ECG, and look for causes such as electrolyte problems, ischaemia or drugs.",
+         "manas": {
+          "q": "What are the first steps for a patient with an arrhythmia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-adverse-features",
+         "topic": "Four adverse features",
+         "note": "Shock, syncope, myocardial ischaemia and heart failure. Any one of these makes the arrhythmia unstable.",
+         "manas": {
+          "q": "What are the four adverse features in a peri-arrest arrhythmia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-unstable-tachycardia",
+         "topic": "Unstable tachycardia",
+         "note": "Synchronised DC cardioversion under sedation or anaesthesia, up to three attempts; if it fails, give amiodarone and repeat the shock.",
+         "manas": {
+          "q": "How is an unstable tachycardia with a pulse treated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-unstable-bradycardia",
+         "topic": "Unstable bradycardia",
+         "note": "Give IV atropine; if no response, other drugs or pacing (transcutaneous, then transvenous) with expert help.",
+         "manas": {
+          "q": "What is the first drug for unstable bradycardia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-stable-sorting",
+         "topic": "Stable: sort by two questions",
+         "note": "Is the QRS narrow or broad? Is the rhythm regular or irregular? This gives four groups with different causes.",
+         "manas": {
+          "q": "Which two ECG questions sort a stable tachycardia?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-bradyarrhythmias",
+       "topic": "Bradyarrhythmias and blocks",
+       "note": "Slow rhythms from the sinus node or the AV node.",
+       "children": [
+        {
+         "id": "mdhme600ae-sinus-bradycardia",
+         "topic": "Sinus bradycardia causes",
+         "note": "Fit athletes, sleep, beta-blockers and other rate-slowing drugs, hypothyroidism, hypothermia, raised intracranial pressure and inferior MI.",
+         "manas": {
+          "q": "Give causes of sinus bradycardia."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-sick-sinus",
+         "topic": "Sick sinus syndrome",
+         "note": "Sinus node disease, often in older people: pauses, sinus arrest, or alternating slow and fast rhythms (tachy-brady).",
+         "manas": {
+          "q": "What is the tachy-brady syndrome?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-first-degree",
+         "topic": "First-degree block",
+         "note": "PR above 0.20 s but every P wave is conducted; usually harmless.",
+         "manas": {
+          "q": "What defines first-degree heart block?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-mobitz-1",
+         "topic": "Mobitz I (Wenckebach)",
+         "note": "PR lengthens beat by beat until one P wave is not conducted; usually at the AV node and often benign.",
+         "manas": {
+          "q": "What is the ECG pattern of Mobitz type I block?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-mobitz-2",
+         "topic": "Mobitz II",
+         "note": "Fixed PR with sudden dropped beats; block is below the AV node and can progress to complete block, so pacing is usually needed.",
+         "manas": {
+          "q": "Why is Mobitz II more dangerous than Mobitz I?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-asystole-risk",
+         "topic": "Asystole risk",
+         "note": "Recent asystole, Mobitz II, complete block with broad QRS, or a pause over 3 s: plan pacing even if the patient seems stable now.",
+         "manas": {
+          "q": "Which bradycardia findings signal risk of asystole?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-inferior-mi-block",
+         "topic": "Inferior MI and block",
+         "note": "The right coronary artery supplies the AV node in most people, so inferior MI often causes AV block, frequently temporary.",
+         "manas": {
+          "q": "Why does inferior MI often cause AV block?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-narrow-complex",
+       "topic": "Narrow complex tachycardias",
+       "note": "QRS under 0.12 s: the rhythm starts above the ventricles.",
+       "children": [
+        {
+         "id": "mdhme600ae-sinus-tachycardia",
+         "topic": "Sinus tachycardia",
+         "note": "A response to fever, pain, bleeding, sepsis, hypoxia or thyrotoxicosis; treat the cause, never cardiovert it.",
+         "manas": {
+          "q": "How is sinus tachycardia treated?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-svt",
+         "topic": "Regular SVT",
+         "note": "Usually AVNRT (re-entry in the AV node) or AVRT (via an accessory pathway); sudden onset and end, P waves often hidden.",
+         "manas": {
+          "q": "What are the two commonest types of re-entrant SVT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-vagal-manoeuvres",
+         "topic": "Vagal manoeuvres first",
+         "note": "In a stable patient try a Valsalva manoeuvre; the modified version adds lying flat with legs raised straight after the strain.",
+         "manas": {
+          "q": "What is the first treatment for stable regular SVT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-adenosine",
+         "topic": "Adenosine",
+         "note": "Rapid IV bolus with a flush blocks the AV node briefly: it ends AVNRT and AVRT and unmasks flutter waves. Warn the patient of a brief awful feeling.",
+         "manas": {
+          "q": "How does adenosine help with a regular narrow tachycardia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-wpw",
+         "topic": "Wolff–Parkinson–White",
+         "note": "Accessory pathway: short PR and a slurred QRS upstroke (delta wave) in sinus rhythm.",
+         "manas": {
+          "q": "What are the resting ECG signs of WPW?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-af-flutter",
+       "topic": "Atrial fibrillation and flutter",
+       "note": "The commonest sustained arrhythmia; extends the AF bubbles on the course map.",
+       "children": [
+        {
+         "id": "mdhme600ae-af-types",
+         "topic": "Types of AF",
+         "note": "Paroxysmal (ends by itself or with treatment within 7 days), persistent (over 7 days), long-standing persistent (over 1 year) and permanent (accepted, no further rhythm control).",
+         "manas": {
+          "q": "How is AF classified by duration?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-af-causes",
+         "topic": "Causes of AF",
+         "note": "Hypertension, heart failure, ischaemic and rheumatic valve disease, thyrotoxicosis, alcohol, sepsis and lung disease. Check thyroid function and an echo.",
+         "manas": {
+          "q": "List common causes of atrial fibrillation."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-af-care",
+         "topic": "ESC 2024: AF-CARE",
+         "note": "C: treat comorbidities and risk factors; A: avoid stroke; R: reduce symptoms (rate and rhythm control); E: evaluate and reassess over time.",
+         "manas": {
+          "q": "What does AF-CARE stand for in the 2024 ESC guideline?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-stroke-score-change",
+         "topic": "Stroke score: VASc becomes VA",
+         "note": "The newest guidance changes the score shown on the course map.",
+         "children": [
+          {
+           "id": "mdhme600ae-what-changed",
+           "topic": "What changed",
+           "note": "ESC 2024 and the German 2025 guideline use CHA2DS2-VA: the same score as CHA2DS2-VASc but without the point for female sex.",
+           "manas": {
+            "q": "What is the difference between CHA2DS2-VA and CHA2DS2-VASc?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhme600ae-why-sex-removed",
+           "topic": "Why sex was removed",
+           "note": "Female sex adds stroke risk mainly when other risk factors are present; it behaves as a risk modifier, not a risk factor on its own.",
+           "manas": {
+            "q": "Why was female sex dropped from the AF stroke score?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhme600ae-va-threshold",
+           "topic": "Treatment threshold",
+           "note": "With CHA2DS2-VA, oral anticoagulation is advised at 2 or more and considered at 1, for women and men alike.",
+           "manas": {
+            "q": "At what CHA2DS2-VA score is anticoagulation recommended?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhme600ae-same-decision",
+           "topic": "Same decision, simpler",
+           "note": "Older VASc thresholds were already one point higher for women, so most decisions stay the same. Learn both; use the one your exam and lecturer use.",
+           "manas": {
+            "q": "Do CHA2DS2-VA and CHA2DS2-VASc usually lead to the same decision?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhme600ae-valve-exceptions",
+         "topic": "Scores not used here",
+         "note": "Moderate-to-severe mitral stenosis or a mechanical valve: anticoagulate with warfarin whatever the score; DOACs are not used.",
+         "manas": {
+          "q": "When is the AF stroke score not used?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-doac-vs-warfarin",
+         "topic": "DOAC or warfarin",
+         "note": "In AF without those valve problems, DOACs are preferred over warfarin where available; warfarin needs regular INR checks.",
+         "manas": {
+          "q": "Which anticoagulant class is preferred in non-valvular AF?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-bleeding-risk",
+         "topic": "Bleeding risk",
+         "note": "Fix what can be changed: high BP, alcohol, NSAIDs or antiplatelets, unstable INR. A high bleeding risk alone is not a reason to withhold anticoagulation.",
+         "manas": {
+          "q": "How should bleeding risk be used in AF anticoagulation decisions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-rate-control",
+         "topic": "Rate control",
+         "note": "Beta-blocker or a rate-limiting calcium channel blocker (avoid the latter in reduced ejection fraction); digoxin helps in heart failure or inactive patients.",
+         "manas": {
+          "q": "Which drugs are used for rate control in AF?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-rhythm-control",
+         "topic": "Rhythm control and cardioversion",
+         "note": "Unless onset is clearly recent, anticoagulate for at least 3 weeks (or exclude clot by TOE) before elective cardioversion and continue for at least 4 weeks after.",
+         "manas": {
+          "q": "How long should anticoagulation precede elective cardioversion of AF?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-atrial-flutter",
+         "topic": "Atrial flutter",
+         "note": "Right atrial macro-re-entry: sawtooth flutter waves about 300/min, often 2:1 block giving a regular rate near 150. Anticoagulate as for AF; ablation often cures it.",
+         "manas": {
+          "q": "What ventricular rate suggests flutter with 2:1 block?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-broad-complex",
+       "topic": "Broad complex tachycardias",
+       "note": "QRS 0.12 s or more: dangerous until proven otherwise.",
+       "children": [
+        {
+         "id": "mdhme600ae-assume-vt",
+         "topic": "Assume VT",
+         "note": "A regular broad complex tachycardia is VT until proven otherwise, especially after MI or in structural heart disease.",
+         "manas": {
+          "q": "How should a regular broad complex tachycardia be treated until proven otherwise?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-vt-clues",
+         "topic": "ECG clues to VT",
+         "note": "AV dissociation, capture and fusion beats, very broad QRS, extreme axis and the same QRS direction across all chest leads (concordance).",
+         "manas": {
+          "q": "Name ECG features that favour VT over SVT with aberrancy."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-stable-vt",
+         "topic": "Stable VT",
+         "note": "Amiodarone under monitoring with expert help; synchronised shock if the patient becomes unstable.",
+         "manas": {
+          "q": "What is the treatment for stable monomorphic VT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-irregular-broad",
+         "topic": "Irregular broad",
+         "note": "AF with bundle branch block, pre-excited AF (WPW) or polymorphic VT.",
+         "manas": {
+          "q": "What are the causes of an irregular broad complex tachycardia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-pre-excited-af",
+         "topic": "Pre-excited AF danger",
+         "note": "Avoid AV node blockers (adenosine, verapamil, diltiazem, digoxin, beta-blockers): they can push conduction down the accessory pathway and cause VF.",
+         "manas": {
+          "q": "Why are AV nodal blockers dangerous in pre-excited AF?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-torsades",
+         "topic": "Torsades de pointes",
+         "note": "Polymorphic VT twisting around the baseline, linked to a long QT. Give IV magnesium, stop QT-prolonging drugs and correct potassium.",
+         "manas": {
+          "q": "What is the first drug for torsades de pointes?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-qt-drugs",
+         "topic": "Long QT causes",
+         "note": "Low potassium, magnesium or calcium; drugs such as macrolides, haloperidol, methadone, sotalol, amiodarone and bedaquiline; congenital long QT.",
+         "manas": {
+          "q": "Name drugs and electrolyte problems that prolong the QT."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-complications",
+       "topic": "Complications and prognosis",
+       "note": "Why arrhythmias matter.",
+       "children": [
+        {
+         "id": "mdhme600ae-af-outcomes",
+         "topic": "AF outcomes",
+         "note": "Stroke and systemic emboli, heart failure from fast rates (tachycardia cardiomyopathy) and higher mortality and dementia risk.",
+         "manas": {
+          "q": "What are the main complications of AF?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-stokes-adams",
+         "topic": "Stokes–Adams attacks",
+         "note": "Sudden collapse from a pause or very slow rhythm in heart block, with quick recovery and flushing.",
+         "manas": {
+          "q": "What is a Stokes–Adams attack?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-sudden-death",
+         "topic": "Sudden cardiac death",
+         "note": "VT and VF are the main causes; survivors without a reversible cause are usually offered an implantable defibrillator (ICD).",
+         "manas": {
+          "q": "What device is offered to VF survivors without a reversible cause?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points.",
+       "children": [
+        {
+         "id": "mdhme600ae-rate-150",
+         "topic": "Regular rate of 150",
+         "note": "A regular narrow tachycardia near 150/min: look hard for flutter waves (e.g. in II and V1).",
+         "manas": {
+          "q": "Which arrhythmia should a regular rate of 150 make you suspect?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-hyperkalaemia-ecg",
+         "topic": "Hyperkalaemia ECG",
+         "note": "Tall peaked T waves, flat P waves, broad QRS, then a sine-wave pattern and arrest; give IV calcium to protect the heart.",
+         "manas": {
+          "q": "What are the ECG changes of hyperkalaemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-hypokalaemia-ecg",
+         "topic": "Hypokalaemia ECG",
+         "note": "Flat T waves, U waves and ST depression; it also makes digoxin toxicity and torsades more likely.",
+         "manas": {
+          "q": "What are the ECG changes of hypokalaemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-digoxin-effect",
+         "topic": "Digoxin effect",
+         "note": "Sagging ‘reverse tick’ ST depression shows the drug is present, not that it is toxic.",
+         "manas": {
+          "q": "What does reverse-tick ST depression indicate?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Kenya and WHO first, then where other guidance differs.",
+       "children": [
+        {
+         "id": "mdhme600ae-kenya-moh",
+         "topic": "Kenya MoH guidance",
+         "note": "Kenya MoH national guidelines on cardiovascular disease are the local reference for AF and arrhythmia care; check their stroke score and drug lists with your lecturer.",
+         "manas": {
+          "q": "Which Kenyan guidance should you check for AF and arrhythmia care?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-kenya-rhd",
+         "topic": "Rheumatic AF in Kenya",
+         "note": "Rheumatic mitral valve disease is a common cause of AF in Kenya and the region; DOACs are not used in rheumatic mitral stenosis, so warfarin with INR checks stays central.",
+         "manas": {
+          "q": "Why does warfarin remain central for AF in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-who-rhd",
+         "topic": "WHO on rheumatic heart disease",
+         "note": "The World Health Assembly passed a resolution on rheumatic fever and rheumatic heart disease in 2018 (WHA71.14), urging prevention and control.",
+         "manas": {
+          "q": "Which 2018 WHA resolution addressed rheumatic heart disease?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-esc-2024",
+         "topic": "ESC 2024 (Europe)",
+         "note": "Introduced AF-CARE and CHA2DS2-VA, dropping sex from the stroke score.",
+         "manas": {
+          "q": "Which body introduced CHA2DS2-VA in 2024?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-us-2023",
+         "topic": "US 2023 AF guideline",
+         "note": "The ACC/AHA/ACCP/HRS guideline kept CHA2DS2-VASc and describes AF in stages, from being at risk through to permanent AF.",
+         "manas": {
+          "q": "Which stroke score did the 2023 US AF guideline keep?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-als-algorithms",
+         "topic": "ALS algorithms agree",
+         "note": "European and US resuscitation algorithms share the core: look for adverse features, shock unstable tachycardia, atropine then pacing for unstable bradycardia.",
+         "manas": {
+          "q": "What core steps do peri-arrest arrhythmia algorithms share?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme600ae-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-25.",
+       "manas": {
+        "checked": "2026-11-25"
+       },
+       "children": [
+        {
+         "id": "mdhme600ae-german-af-2025",
+         "topic": "First German AF guideline",
+         "note": "AWMF guideline: use CHA2DS2-VA, anticoagulate at 2 or more; in patients with CV risk factors early rhythm control cut CV events (3.9 vs 5.0 per 100 patient-years); no general screening.",
+         "manas": {
+          "q": "Which stroke score does the 2025 German AF guideline recommend?",
+          "ref": "Dtsch Arztebl Int 2025"
+         },
+         "hyperLink": "https://doi.org/10.3238/arztebl.m2025.0082",
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-chinese-af-2024",
+         "topic": "Chinese AF guideline",
+         "note": "Chinese cardiology societies propose a CHA2DS2-VASc-60 score tuned to Asian patients and stress early rhythm control and ablation. Built on Asian data; score details are not in the abstract.",
+         "manas": {
+          "q": "What stroke score did the 2024 Chinese AF guideline propose?",
+          "ref": "Pacing Clin Electrophysiol 2024"
+         },
+         "hyperLink": "https://doi.org/10.1111/pace.14920",
+         "children": []
+        },
+        {
+         "id": "mdhme600ae-ukka-ckd-af",
+         "topic": "AF with advanced kidney disease",
+         "note": "UK Kidney Association: DOAC trials excluded CrCl under 30 mL/min, so evidence is thin; guidance covers no anticoagulation, DOAC use, monitoring and left atrial appendage occlusion.",
+         "manas": {
+          "q": "Why is anticoagulation in AF with advanced CKD uncertain?",
+          "ref": "BMC Nephrol 2026"
+         },
+         "hyperLink": "https://doi.org/10.1186/s12882-026-05270-9",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hme601-eczema-dermatitis",
+   "title": "HME 601 · In depth: Eczema and dermatitis",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795584843802,
+   "updated": 1795584843802,
+   "library": "mbchb",
+   "deepOf": "med-hme601",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhme601ed-root",
+     "topic": "Eczema and dermatitis in depth",
+     "note": "Types of eczema, why skin flares, how it looks on African skin, and how to treat it step by step. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhme601ed-definition",
+       "topic": "Definition and types",
+       "note": "What eczema is and how it is grouped.",
+       "children": [
+        {
+         "id": "mdhme601ed-eczema-dermatitis",
+         "topic": "Eczema = dermatitis",
+         "note": "The two words are used for the same thing: itchy inflammation of the epidermis with ill-defined redness, scale and sometimes vesicles.",
+         "manas": {
+          "q": "Are eczema and dermatitis different conditions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-endogenous-exogenous",
+         "topic": "Endogenous vs exogenous",
+         "note": "Endogenous (from within): atopic, seborrhoeic, discoid, pompholyx, venous, asteatotic. Exogenous (outside cause): irritant and allergic contact.",
+         "manas": {
+          "q": "Which eczemas are endogenous and which exogenous?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-acute-vs-chronic",
+         "topic": "Acute vs chronic look",
+         "note": "Acute: red, swollen, vesicles, weeping and crusting. Chronic: dry scale, fissures and lichenification (thick skin with exaggerated lines).",
+         "manas": {
+          "q": "How does acute eczema look different from chronic eczema?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-mechanism",
+       "topic": "Mechanism",
+       "note": "Why the skin becomes inflamed and itchy.",
+       "children": [
+        {
+         "id": "mdhme601ed-spongiosis",
+         "topic": "Spongiosis",
+         "note": "The hallmark on histology: fluid between epidermal cells pushes them apart; severe spongiosis forms vesicles.",
+         "manas": {
+          "q": "What is the histological hallmark of eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-type-2-inflammation",
+         "topic": "Type 2 inflammation",
+         "note": "Atopic eczema is driven by Th2 cytokines, mainly IL-4 and IL-13, with IL-31 a key itch signal; this is the target of newer biologics.",
+         "manas": {
+          "q": "Which cytokines drive atopic eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-itch-scratch-cycle",
+         "topic": "Itch–scratch cycle",
+         "note": "Scratching damages the barrier further, raising inflammation and itch; breaking the cycle is a goal of treatment.",
+         "manas": {
+          "q": "What is the itch–scratch cycle?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-staph-aureus",
+         "topic": "Staphylococcus aureus",
+         "note": "Most atopic skin carries S. aureus; it worsens flares and causes infected (impetiginised) eczema.",
+         "manas": {
+          "q": "Which bacterium commonly colonises atopic eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-atopic-march",
+         "topic": "Atopic march",
+         "note": "Eczema in infancy often comes first, followed in some children by food allergy, asthma and allergic rhinitis.",
+         "manas": {
+          "q": "What is the atopic march?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-atopic-features",
+       "topic": "Atopic eczema: clinical features",
+       "note": "How it presents at different ages.",
+       "children": [
+        {
+         "id": "mdhme601ed-onset",
+         "topic": "Onset and course",
+         "note": "Usually starts in infancy or early childhood, relapses and remits, and often improves with age; some continue into adult life.",
+         "manas": {
+          "q": "When does atopic eczema usually start?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-infant-pattern",
+         "topic": "Infant pattern",
+         "note": "Cheeks, scalp, trunk and outer limbs; the nappy area is usually spared.",
+         "manas": {
+          "q": "Which area is usually spared in infant atopic eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-adult-pattern",
+         "topic": "Adult pattern",
+         "note": "Flexures, hands, face, neck and eyelids are common sites; sometimes widespread.",
+         "manas": {
+          "q": "Which sites are commonly involved in adult atopic eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-uk-criteria",
+         "topic": "UK diagnostic criteria",
+         "note": "Itchy skin plus 3 or more: flexural involvement, personal asthma or hay fever, generally dry skin, visible flexural eczema, onset before age 2.",
+         "manas": {
+          "q": "What are the UK Working Party criteria for atopic eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-associated-signs",
+         "topic": "Associated signs",
+         "note": "Extra skin fold under the lower eyelid (Dennie–Morgan), palmar hyperlinearity, keratosis pilaris and ichthyosis vulgaris.",
+         "manas": {
+          "q": "Name signs associated with atopic eczema."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-severity-scores",
+         "topic": "Severity scores",
+         "note": "EASI and SCORAD are scored by clinicians; POEM is a patient-reported score of symptoms over the past week.",
+         "manas": {
+          "q": "Name tools used to score eczema severity."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-skin-of-colour",
+       "topic": "Eczema in African skin",
+       "note": "Standard patterns seen in darker skin.",
+       "children": [
+        {
+         "id": "mdhme601ed-follicular-eczema",
+         "topic": "Follicular (papular) eczema",
+         "note": "Small itchy papules centred on hair follicles, often on the trunk, are common in Black African skin and may be the main sign.",
+         "manas": {
+          "q": "What is follicular eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-lichenification-prurigo",
+         "topic": "Thick skin and nodules",
+         "note": "Lichenification and prurigo-like nodules from chronic rubbing are often prominent.",
+         "manas": {
+          "q": "Which chronic changes are prominent in eczema on darker skin?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-pityriasis-alba",
+         "topic": "Pityriasis alba",
+         "note": "Pale, slightly scaly patches on a child’s face, linked with atopy and more visible on dark skin; harmless and fades slowly.",
+         "manas": {
+          "q": "What is pityriasis alba?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-pigment-counselling",
+         "topic": "Pigment change after flares",
+         "note": "Dark or pale patches after eczema are usually post-inflammatory, not steroid damage, and fade slowly over months; controlling flares is the best prevention.",
+         "manas": {
+          "q": "What usually causes dark or pale patches after eczema heals?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-other-types",
+       "topic": "Other eczemas",
+       "note": "Patterns beyond atopic eczema.",
+       "children": [
+        {
+         "id": "mdhme601ed-seb-derm",
+         "topic": "Seborrhoeic dermatitis",
+         "note": "Greasy yellow scale on scalp, eyebrows, nasolabial folds, ears and central chest; cradle cap in infants. Treat with antifungal (e.g. ketoconazole) shampoo or cream.",
+         "manas": {
+          "q": "Where does seborrhoeic dermatitis typically affect adults?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-discoid",
+         "topic": "Discoid (nummular)",
+         "note": "Coin-shaped, very itchy plaques, often on the limbs; can mimic tinea, so scrape for fungus if unsure.",
+         "manas": {
+          "q": "Which fungal infection can discoid eczema mimic?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-pompholyx",
+         "topic": "Pompholyx",
+         "note": "Deep, itchy vesicles on palms, soles and sides of the fingers.",
+         "manas": {
+          "q": "Where does pompholyx eczema occur?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-venous",
+         "topic": "Venous (stasis) eczema",
+         "note": "Lower legs with venous hypertension: brown haemosiderin staining, oedema, often before leg ulcers; prone to contact allergy to applied creams.",
+         "manas": {
+          "q": "What skin change accompanies venous eczema of the legs?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-asteatotic",
+         "topic": "Asteatotic eczema",
+         "note": "Dry, cracked ‘crazy paving’ skin on the shins of older people, worse in dry weather and with frequent washing.",
+         "manas": {
+          "q": "What is asteatotic eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-lichen-simplex",
+         "topic": "Lichen simplex chronicus",
+         "note": "A single thick, itchy plaque from repeated rubbing, e.g. on the neck or ankle.",
+         "manas": {
+          "q": "What causes lichen simplex chronicus?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-contact-dermatitis",
+       "topic": "Contact dermatitis details",
+       "note": "Extends the irritant vs allergic bubble on the course map.",
+       "children": [
+        {
+         "id": "mdhme601ed-icd-causes",
+         "topic": "Irritant causes",
+         "note": "Wet work, soaps, detergents and solvents; hands of cleaners, health workers, hairdressers and mechanics are typical.",
+         "manas": {
+          "q": "Which jobs carry high risk of irritant hand dermatitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-common-allergens",
+         "topic": "Common allergens",
+         "note": "Nickel (jewellery, belt buckles), fragrances, preservatives, rubber chemicals in gloves, chromate in cement and PPD in hair dye.",
+         "manas": {
+          "q": "Name common causes of allergic contact dermatitis."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-black-henna",
+         "topic": "Hair dye and black henna",
+         "note": "PPD in hair dye and ‘black henna’ tattoos can cause severe facial or scalp swelling.",
+         "manas": {
+          "q": "Which chemical in hair dye commonly causes allergic contact dermatitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-site-clues",
+         "topic": "Site gives the clue",
+         "note": "Earlobes and umbilicus point to nickel; hairline and eyelids to dye or cosmetics; hands and wrists to gloves or cement.",
+         "manas": {
+          "q": "What does dermatitis at the earlobes and umbilicus suggest?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-delay",
+         "topic": "Delay after exposure",
+         "note": "Allergic reactions usually appear 1–3 days after contact (sometimes longer), so patients may not link the cause.",
+         "manas": {
+          "q": "How long after contact does allergic contact dermatitis appear?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-investigations",
+       "topic": "Investigations",
+       "note": "Mostly a clinical diagnosis; tests answer specific questions.",
+       "children": [
+        {
+         "id": "mdhme601ed-patch-test-reading",
+         "topic": "Patch test reading",
+         "note": "Allergens stay on the back for 48 hours; readings are taken at about day 2 and again at day 4.",
+         "manas": {
+          "q": "When are patch tests read?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-swabs",
+         "topic": "Swabs",
+         "note": "Bacterial swab for infected eczema; viral swab (PCR) when eczema herpeticum is suspected.",
+         "manas": {
+          "q": "Which swab is taken if eczema herpeticum is suspected?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-koh-first",
+         "topic": "Scrape before steroids",
+         "note": "If a rash could be tinea, do a KOH scraping; steroids on tinea give ‘tinea incognito’, which looks atypical.",
+         "manas": {
+          "q": "What is tinea incognito?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-ige-tests",
+         "topic": "IgE and prick tests",
+         "note": "Not used to diagnose eczema; reserve for suspected immediate food or other allergy.",
+         "manas": {
+          "q": "When are IgE or skin prick tests useful in eczema?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-management",
+       "topic": "Management in practice",
+       "note": "Extends the course bubble on emollients and steroids.",
+       "children": [
+        {
+         "id": "mdhme601ed-emollient-use",
+         "topic": "Using emollients well",
+         "note": "Apply often and generously, smoothing in the direction of hair growth; keep going when skin is clear. Ointments suit very dry skin.",
+         "manas": {
+          "q": "How should emollients be applied in eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-fire-risk",
+         "topic": "Emollient fire risk",
+         "note": "Emollient soaked into clothing, bandages or bedding makes them catch fire easily; warn patients to keep away from flames.",
+         "manas": {
+          "q": "What safety warning applies to emollients on fabric?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-aqueous-cream",
+         "topic": "Aqueous cream caution",
+         "note": "Contains sodium lauryl sulfate, which can sting and irritate; use only as a wash, not as a leave-on moisturiser.",
+         "manas": {
+          "q": "Why is aqueous cream a poor leave-on emollient?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-steroid-ladder",
+         "topic": "Steroid potency ladder",
+         "note": "Mild: hydrocortisone 1%. Moderate: clobetasone butyrate. Potent: betamethasone valerate 0.1%. Very potent: clobetasol propionate 0.05%.",
+         "manas": {
+          "q": "Give an example of a mild and a very potent topical steroid."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-site-matching",
+         "topic": "Match potency to site",
+         "note": "Mild on face, flexures and genitals; stronger on trunk and limbs; potent often needed on palms and soles.",
+         "manas": {
+          "q": "Which body sites need the mildest topical steroids?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-fingertip-unit",
+         "topic": "Fingertip unit",
+         "note": "Cream squeezed from the fingertip to the first crease (about 0.5 g) covers an area of two adult palms.",
+         "manas": {
+          "q": "What area does one fingertip unit cover?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-proactive",
+         "topic": "Proactive weekend therapy",
+         "note": "After control, applying the steroid (or calcineurin inhibitor) twice a week to usual flare sites helps prevent relapse.",
+         "manas": {
+          "q": "What is proactive therapy in atopic eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-tci",
+         "topic": "Calcineurin inhibitors",
+         "note": "Tacrolimus or pimecrolimus: steroid-free, so no skin thinning; useful on face and eyelids; may burn briefly at first.",
+         "manas": {
+          "q": "What advantage do topical calcineurin inhibitors have over steroids?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-wet-wraps",
+         "topic": "Wet wraps",
+         "note": "Damp then dry tubular bandages over emollient or steroid calm severe flares, usually in children, under specialist advice.",
+         "manas": {
+          "q": "What are wet wraps used for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-infected-eczema",
+         "topic": "Infected eczema",
+         "note": "Weeping, crusting or pustules suggest bacterial infection; treat with an antibiotic per local guideline and keep treating the eczema.",
+         "manas": {
+          "q": "What signs suggest infected eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-antihistamines",
+         "topic": "Antihistamines",
+         "note": "They do not treat eczema itself; a short course of a sedating one may help sleep during a bad flare.",
+         "manas": {
+          "q": "Do antihistamines treat atopic eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-systemic",
+         "topic": "Severe disease",
+         "note": "Specialist options: narrowband UVB phototherapy, ciclosporin, methotrexate, azathioprine, biologics such as dupilumab, and JAK inhibitors. Oral steroids are not advised (rebound flares).",
+         "manas": {
+          "q": "Name systemic treatments for severe atopic eczema."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-contact-management",
+         "topic": "Contact dermatitis care",
+         "note": "Identify and avoid the cause, protect hands (gloves with cotton liners), emollients and a topical steroid; consider job adjustments.",
+         "manas": {
+          "q": "How is contact dermatitis managed?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-complications",
+       "topic": "Complications",
+       "note": "What can go wrong beyond flares.",
+       "children": [
+        {
+         "id": "mdhme601ed-erythroderma",
+         "topic": "Erythroderma",
+         "note": "Eczema covering most of the skin: risk of fluid loss, temperature instability and infection; needs urgent review.",
+         "manas": {
+          "q": "What is erythroderma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-eye-disease",
+         "topic": "Eye problems",
+         "note": "Severe atopic eczema is linked with atopic keratoconjunctivitis and cataract; eyelid eczema is common.",
+         "manas": {
+          "q": "Which eye problems are linked with atopic eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-quality-of-life",
+         "topic": "Sleep and wellbeing",
+         "note": "Night itch disturbs the whole family; eczema is linked to poor sleep, low mood, anxiety and missed school or work.",
+         "manas": {
+          "q": "How does atopic eczema affect quality of life?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-steroid-phobia",
+         "topic": "Steroid fear",
+         "note": "Fear of steroids leads to undertreatment; explain that correct use, with fingertip units, is safe.",
+         "manas": {
+          "q": "Why does steroid fear matter in eczema care?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points.",
+       "children": [
+        {
+         "id": "mdhme601ed-no-itch",
+         "topic": "No itch, rethink",
+         "note": "Eczema itches; a rash without itch should make you reconsider the diagnosis.",
+         "manas": {
+          "q": "What should a non-itchy ‘eczema’ prompt?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-scabies-mimic",
+         "topic": "Think scabies",
+         "note": "Itch in several family members, worse at night, with finger-web or genital lesions suggests scabies rather than eczema.",
+         "manas": {
+          "q": "Which features suggest scabies instead of eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-bleaching-creams",
+         "topic": "Bleaching creams",
+         "note": "Skin-lightening products may contain potent steroids; ask about them in facial rashes, thinning or steroid acne.",
+         "manas": {
+          "q": "Why ask about skin-lightening creams in a facial rash?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Kenya first, then where other guidance differs.",
+       "children": [
+        {
+         "id": "mdhme601ed-kenya-guidelines",
+         "topic": "Kenya MoH clinical guidelines",
+         "note": "The MoH Clinical Guidelines for Management and Referral of Common Conditions, written by facility level, include common skin conditions; follow them for local first-line care.",
+         "manas": {
+          "q": "Which Kenyan MoH guidelines cover common skin conditions?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-kenya-eml",
+         "topic": "Kenya Essential Medicines List",
+         "note": "Check which emollients and steroid strengths are on the national list before prescribing at each facility level.",
+         "manas": {
+          "q": "Where can you check which topical steroids are on Kenya’s national list?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-nice-uk",
+         "topic": "NICE (UK)",
+         "note": "NICE guidance for children under 12 (CG57, 2007) uses a stepped approach, matching steroid potency to severity with emollients always.",
+         "manas": {
+          "q": "What approach does NICE use for childhood eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-aad-us",
+         "topic": "AAD (US)",
+         "note": "American guidelines rate newer creams, biologics and JAK inhibitors, and advise against oral steroids (see research).",
+         "manas": {
+          "q": "What does the AAD advise about systemic steroids in eczema?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-japan",
+         "topic": "Japan",
+         "note": "Japanese guidance includes local topicals such as delgocitinib and difamilast ointments (see research).",
+         "manas": {
+          "q": "Which topical drugs feature in Japan’s eczema guideline?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme601ed-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-25.",
+       "manas": {
+        "checked": "2026-11-25"
+       },
+       "children": [
+        {
+         "id": "mdhme601ed-aad-paediatric-2026",
+         "topic": "AAD children’s guideline",
+         "note": "27 GRADE recommendations: strong for moisturisers, topical steroids and calcineurin inhibitors, newer creams, biologics and JAK inhibitors; strongly against oral steroids. Trials mostly short.",
+         "manas": {
+          "q": "What did the 2026 AAD paediatric guideline say about systemic steroids?",
+          "ref": "J Am Acad Dermatol 2026"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.jaad.2026.02.113",
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-aad-adult-2025",
+         "topic": "AAD adult update",
+         "note": "Four new strong recommendations: tapinarof cream, roflumilast cream, lebrikizumab, and nemolizumab with topical therapy. Short trials limit long-term comparisons.",
+         "manas": {
+          "q": "Which four therapies got new strong AAD recommendations for adults in 2025?",
+          "ref": "J Am Acad Dermatol 2025"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.jaad.2025.05.1386",
+         "children": []
+        },
+        {
+         "id": "mdhme601ed-japan-2024",
+         "topic": "Japanese guideline 2024",
+         "note": "Topical steroids, tacrolimus, delgocitinib and difamilast first; for refractory moderate-to-severe disease add ciclosporin, biologics, JAK inhibitors or phototherapy. Five new drugs added.",
+         "manas": {
+          "q": "Which treatments does Japan’s 2024 guideline add for refractory eczema?",
+          "ref": "J Dermatol 2025"
+         },
+         "hyperLink": "https://doi.org/10.1111/1346-8138.17544",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hme602-therapeutic-drug-monitoring",
+   "title": "HME 602 · In depth: Therapeutic drug monitoring",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795584843817,
+   "updated": 1795584843817,
+   "library": "mbchb",
+   "deepOf": "med-hme602",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhme602tdm-root",
+     "topic": "Therapeutic drug monitoring in depth",
+     "note": "Kinetics behind a level, when and how to sample, reading results, and spotting toxicity. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhme602tdm-definition-and-purpose",
+       "topic": "Definition and purpose",
+       "note": "What TDM is and what it is not.",
+       "children": [
+        {
+         "id": "mdhme602tdm-therapeutic-drug-monitoring",
+         "topic": "Therapeutic drug monitoring",
+         "note": "Measuring a drug concentration (usually in blood) and using it, with the clinical picture, to adjust the dose for one patient.",
+         "manas": {
+          "q": "What is therapeutic drug monitoring (TDM)?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-target-range-not-target-numb",
+         "topic": "Target range, not target number",
+         "note": "A range where most patients benefit with little toxicity; some respond below it and some are toxic within it.",
+         "manas": {
+          "q": "Why is a drug level within range not proof the patient is safe?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-levels-vs-effect-monitoring",
+         "topic": "Levels vs effect monitoring",
+         "note": "When a clear effect can be measured (INR, blood pressure, glucose), follow the effect; levels help most when no such marker exists.",
+         "manas": {
+          "q": "When is measuring drug effect preferred over measuring drug levels?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-pharmacokinetic-basics",
+       "topic": "Pharmacokinetic basics",
+       "note": "The kinetics that explain a level.",
+       "children": [
+        {
+         "id": "mdhme602tdm-peak-cmax",
+         "topic": "Peak (Cmax)",
+         "note": "Highest concentration after a dose, once absorption or infusion and distribution are complete.",
+         "manas": {
+          "q": "What does a peak (Cmax) level represent?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-trough-cmin",
+         "topic": "Trough (Cmin)",
+         "note": "Lowest concentration, taken just before the next dose; rising troughs warn of accumulation.",
+         "manas": {
+          "q": "When is a trough (Cmin) level taken, and what does it warn of?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-auc",
+         "topic": "AUC",
+         "note": "Area under the concentration–time curve: total drug exposure over a period, usually 24 hours (AUC24).",
+         "manas": {
+          "q": "What does the area under the curve (AUC) measure?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-half-life-links-vd-and-clear",
+         "topic": "Half-life links Vd and clearance",
+         "note": "t½ ≈ 0.693 × Vd ÷ clearance: a bigger volume or lower clearance lengthens half-life.",
+         "manas": {
+          "q": "How do volume of distribution and clearance determine half-life?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-sample-at-steady-state",
+         "topic": "Sample at steady state",
+         "note": "Routine levels are only meaningful at steady state (about 4–5 half-lives); a loading dose shortens the wait.",
+         "manas": {
+          "q": "Why should routine drug levels be taken at steady state?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-zero-order-kinetics",
+         "topic": "Zero-order kinetics",
+         "note": "When elimination saturates, a fixed amount is removed per hour; a small dose rise can cause a large level rise. Phenytoin is the classic example.",
+         "manas": {
+          "q": "Why can a small phenytoin dose increase cause toxicity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-protein-binding",
+         "topic": "Protein binding",
+         "note": "Only unbound (free) drug acts and is cleared; most assays report the total (bound + free) concentration.",
+         "manas": {
+          "q": "Which fraction of a protein-bound drug is active, and which does the lab usually report?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-which-drugs-and-why",
+       "topic": "Which drugs and why",
+       "note": "Criteria and the main drugs.",
+       "children": [
+        {
+         "id": "mdhme602tdm-aminoglycosides",
+         "topic": "Aminoglycosides",
+         "note": "Gentamicin, amikacin: killing depends on peak; kidney and ear toxicity relate to sustained exposure (high troughs).",
+         "manas": {
+          "q": "Why are aminoglycoside levels monitored?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-vancomycin",
+         "topic": "Vancomycin",
+         "note": "Narrow window between under-treating serious MRSA infection and kidney injury; exposure varies with renal function.",
+         "manas": {
+          "q": "Why is vancomycin monitored?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-antiepileptics",
+         "topic": "Antiepileptics",
+         "note": "Phenytoin (saturable kinetics, high protein binding) and carbamazepine (induces its own metabolism over weeks).",
+         "manas": {
+          "q": "Why do phenytoin and carbamazepine levels behave unpredictably?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-immunosuppressants",
+         "topic": "Immunosuppressants",
+         "note": "Ciclosporin and tacrolimus after transplant: trough levels on whole blood, as both rejection and toxicity are serious.",
+         "manas": {
+          "q": "Which sample is used to monitor ciclosporin and tacrolimus?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-others",
+         "topic": "Others",
+         "note": "Lithium, digoxin, theophylline; high-dose methotrexate levels guide folinic acid rescue.",
+         "manas": {
+          "q": "What do methotrexate levels guide after high-dose therapy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-also-useful-for",
+         "topic": "Also useful for",
+         "note": "Checking adherence, suspected toxicity, poor response, new interacting drugs, changing kidney function, pregnancy.",
+         "manas": {
+          "q": "Apart from routine dosing, when else is a drug level helpful?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-sampling-well",
+       "topic": "Sampling well",
+       "note": "A level is only as good as its timing.",
+       "children": [
+        {
+         "id": "mdhme602tdm-record-the-times",
+         "topic": "Record the times",
+         "note": "Write the exact time of the last dose and of the sample on the request; without them the result cannot be read.",
+         "manas": {
+          "q": "Which two times must be recorded with every TDM sample?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-trough-timing",
+         "topic": "Trough timing",
+         "note": "Take it just before the next dose is due.",
+         "manas": {
+          "q": "When should a trough level be drawn?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-peak-timing",
+         "topic": "Peak timing",
+         "note": "After distribution is complete, not during the infusion; timing depends on drug and route — follow the local protocol.",
+         "manas": {
+          "q": "Why should a peak level not be drawn during the infusion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-not-from-the-drip-arm",
+         "topic": "Not from the drip arm",
+         "note": "Never sample from a line or arm used to give the drug; contamination gives falsely high levels.",
+         "manas": {
+          "q": "Why must a level not be drawn from the infusion line?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-right-tube-for-lithium",
+         "topic": "Right tube for lithium",
+         "note": "Do not use a lithium heparin tube for a lithium level — it gives a falsely high result.",
+         "manas": {
+          "q": "Which blood tube must never be used for a lithium level?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-toxicity-samples",
+         "topic": "Toxicity samples",
+         "note": "If toxicity is suspected, take a level at once whatever the dose timing, and record the time; a digoxin level under 6 h after a dose reads falsely high.",
+         "manas": {
+          "q": "When toxicity is suspected, when should the level be taken?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-interpreting-levels",
+       "topic": "Interpreting levels",
+       "note": "Treat the patient, not the number.",
+       "children": [
+        {
+         "id": "mdhme602tdm-check-before-acting",
+         "topic": "Check before acting",
+         "note": "Correct timing? At steady state? Taking it as prescribed? Interacting drugs? Kidney and liver function?",
+         "manas": {
+          "q": "What should you check before changing a dose because of a level?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-free-phenytoin-and-low-album",
+         "topic": "Free phenytoin and low albumin",
+         "note": "Low albumin (or uraemia) raises the free fraction: a low or normal total level can hide a toxic free level. Measure free phenytoin.",
+         "manas": {
+          "q": "Why can a normal total phenytoin level be toxic in hypoalbuminaemia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-correction-formulas",
+         "topic": "Correction formulas",
+         "note": "The Sheiner–Tozer equation estimates phenytoin corrected for albumin but is imprecise; a measured free level is better.",
+         "manas": {
+          "q": "What is the limitation of albumin-corrected phenytoin formulas?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-phenytoin-range",
+         "topic": "Phenytoin range",
+         "note": "Total phenytoin usually 10–20 mg/L in adults with normal albumin; confirm the local lab range.",
+         "manas": {
+          "q": "What is the usual total phenytoin target range in adults?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-other-ranges",
+         "topic": "Other ranges",
+         "note": "For lithium, digoxin and others use the local laboratory range and the indication; targets differ by use.",
+         "manas": {
+          "q": "Which reference range should guide lithium and digoxin levels?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-digoxin-and-electrolytes",
+         "topic": "Digoxin and electrolytes",
+         "note": "Low potassium or magnesium and high calcium raise toxicity risk even with a normal level.",
+         "manas": {
+          "q": "Which electrolyte changes increase digoxin toxicity?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-vancomycin-auc-vs-trough",
+       "topic": "Vancomycin: AUC vs trough",
+       "note": "A change in practice.",
+       "children": [
+        {
+         "id": "mdhme602tdm-trough-as-surrogate",
+         "topic": "Trough as surrogate",
+         "note": "Troughs were used for decades but track AUC poorly; high trough targets were linked with more kidney injury.",
+         "manas": {
+          "q": "Why are vancomycin troughs a poor guide to exposure?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-auc-guided-dosing",
+         "topic": "AUC-guided dosing",
+         "note": "For serious MRSA infection, US consensus (2020) targets AUC24/MIC 400–600, estimated from two levels or Bayesian software.",
+         "manas": {
+          "q": "What AUC24/MIC target is recommended for vancomycin in serious MRSA infection?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-where-software-is-lacking",
+         "topic": "Where software is lacking",
+         "note": "Trough-guided dosing remains common where AUC tools are unavailable; follow the local protocol.",
+         "manas": {
+          "q": "When might trough-guided vancomycin dosing still be used?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-toxicity-signs",
+       "topic": "Toxicity signs",
+       "note": "What to look for on the ward.",
+       "children": [
+        {
+         "id": "mdhme602tdm-digoxin-toxicity",
+         "topic": "Digoxin toxicity",
+         "note": "Nausea, vomiting, confusion, blurred or yellow-green vision and any arrhythmia, especially with AV block. Severe cases: digoxin-specific antibody fragments.",
+         "manas": {
+          "q": "List clinical features of digoxin toxicity."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-lithium-toxicity",
+         "topic": "Lithium toxicity",
+         "note": "Vomiting, diarrhoea, coarse tremor, ataxia, slurred speech, confusion, seizures. Triggers: dehydration, NSAIDs, ACE inhibitors, thiazides.",
+         "manas": {
+          "q": "Which drugs and states precipitate lithium toxicity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-lithium-long-term-checks",
+         "topic": "Lithium long-term checks",
+         "note": "Monitor kidney function, thyroid function and calcium: lithium causes hypothyroidism, nephrogenic diabetes insipidus and hypercalcaemia.",
+         "manas": {
+          "q": "Which tests are monitored long term on lithium, and why?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-phenytoin-toxicity",
+         "topic": "Phenytoin toxicity",
+         "note": "Nystagmus, ataxia, slurred speech, drowsiness and confusion.",
+         "manas": {
+          "q": "What are the signs of phenytoin toxicity?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-aminoglycoside-toxicity",
+         "topic": "Aminoglycoside toxicity",
+         "note": "Kidney injury (often reversible) and cochlear or vestibular damage (often permanent); loop diuretics add ear risk.",
+         "manas": {
+          "q": "Which aminoglycoside toxicity is often permanent?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-theophylline-toxicity",
+         "topic": "Theophylline toxicity",
+         "note": "Vomiting, tachyarrhythmias, hypokalaemia and seizures; ciprofloxacin and macrolides raise levels, smoking lowers them.",
+         "manas": {
+          "q": "What are features of theophylline toxicity?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points.",
+       "children": [
+        {
+         "id": "mdhme602tdm-timing-is-everything",
+         "topic": "Timing is everything",
+         "note": "An untimed level is close to useless: no dose time, no interpretation.",
+         "manas": {
+          "q": "What makes a drug level uninterpretable?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-check-albumin-with-phenytoin",
+         "topic": "Check albumin with phenytoin",
+         "note": "Always read a total phenytoin level alongside the albumin.",
+         "manas": {
+          "q": "Which result must you read with a total phenytoin level?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-carbamazepine-autoinduction",
+         "topic": "Carbamazepine autoinduction",
+         "note": "Levels fall over the first weeks as it induces its own metabolism; doses are built up gradually.",
+         "manas": {
+          "q": "Why do carbamazepine levels fall in the first weeks of treatment?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Kenya and WHO first, then where others differ.",
+       "children": [
+        {
+         "id": "mdhme602tdm-kenya",
+         "topic": "Kenya",
+         "note": "Assay access varies between hospitals; check what your lab measures and its turnaround. Without levels, monitor clinical signs and kidney function.",
+         "manas": {
+          "q": "How should you monitor a narrow-margin drug when levels are unavailable?"
+         },
+         "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-who-eml",
+         "topic": "WHO EML",
+         "note": "Gentamicin (Access) and vancomycin (Watch) are on the WHO Model List, as are lithium, digoxin and phenytoin.",
+         "manas": {
+          "q": "In which AWaRe groups are gentamicin and vancomycin?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-united-states",
+         "topic": "United States",
+         "note": "The 2020 ASHP/IDSA-led consensus moved vancomycin monitoring from troughs to AUC for serious MRSA infection.",
+         "manas": {
+          "q": "Which guidance shifted vancomycin monitoring to AUC?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-gentamicin-nomograms",
+         "topic": "Gentamicin nomograms",
+         "note": "Once-daily gentamicin is often adjusted with a nomogram (e.g. Hartford) from one timed level; local charts differ.",
+         "manas": {
+          "q": "How are once-daily gentamicin levels often interpreted?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-25.",
+       "manas": {
+        "checked": "2026-11-25"
+       },
+       "children": [
+        {
+         "id": "mdhme602tdm-auc-guided-vancomycin-less-a",
+         "topic": "AUC-guided vancomycin, less AKI",
+         "note": "Meta-analysis of 57 mostly adult studies: nephrotoxicity 6.2% with AUC-guided vs 17.0% with trough-guided TDM (OR 0.53). Studies 2009–2021; designs not stated in abstract.",
+         "manas": {
+          "q": "How did AUC-guided vancomycin TDM affect nephrotoxicity in the 2023 meta-analysis?",
+          "ref": "Ther Drug Monit 2023"
+         },
+         "hyperLink": "https://doi.org/10.1097/ftd.0000000000001075",
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-pharmacists-improve-vancomyc",
+         "topic": "Pharmacists improve vancomycin TDM",
+         "note": "Meta-analysis of 63 studies: pharmacist input lowered acute kidney injury (RR 0.67) and helped standardise TDM. Abstract truncated; study designs and other results not shown.",
+         "manas": {
+          "q": "What effect did pharmacist intervention have on vancomycin-related AKI?",
+          "ref": "Front Pharmacol 2026"
+         },
+         "hyperLink": "https://doi.org/10.3389/fphar.2026.1805469",
+         "children": []
+        },
+        {
+         "id": "mdhme602tdm-beta-lactam-tdm-weak-evidenc",
+         "topic": "Beta-lactam TDM: weak evidence",
+         "note": "Review of 12 studies in deep-seated infection: 11 poor quality, one with a control group (no outcome difference). TDM often led to dose reductions.",
+         "manas": {
+          "q": "What did the 2026 review conclude about beta-lactam TDM in deep infections?",
+          "ref": "J Antimicrob Chemother 2026"
+         },
+         "hyperLink": "https://doi.org/10.1093/jac/dkag142",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhme602tdm-kenya-clinical-guidelines-l4",
+       "topic": "📋 Kenya clinical guidelines (L4–L6)",
+       "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hos600-polytrauma-pelvic-fractures",
+   "title": "HOS 600 · In depth: Polytrauma and pelvic fractures",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795584843866,
+   "updated": 1795584843866,
+   "library": "mbchb",
+   "deepOf": "med-hos600",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhos600pp-root",
+     "topic": "Polytrauma and pelvic fractures in depth",
+     "note": "Primary survey, pelvic ring patterns, bleeding control, urological injury and resuscitation. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhos600pp-definitions",
+       "topic": "Definitions",
+       "note": "Key terms.",
+       "children": [
+        {
+         "id": "mdhos600pp-polytrauma-berlin-definition",
+         "topic": "Polytrauma (Berlin definition)",
+         "note": "Serious injury (AIS ≥3) in two or more body regions plus at least one: SBP ≤90 mmHg, GCS ≤8, base excess ≤ −6, INR ≥1.4 or PTT ≥40 s, age ≥70.",
+         "manas": {
+          "q": "What does the Berlin definition of polytrauma require?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-pelvic-ring",
+         "topic": "Pelvic ring",
+         "note": "Sacrum and two innominate bones joined by the symphysis and sacroiliac joints; a ring rarely breaks in only one place.",
+         "manas": {
+          "q": "Why should one pelvic ring break prompt a search for a second?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-unstable-pelvis-two-meanings",
+         "topic": "Unstable pelvis: two meanings",
+         "note": "Mechanically unstable (ring can displace) and haemodynamically unstable (bleeding shock); they often but not always go together.",
+         "manas": {
+          "q": "What are the two meanings of an \"unstable\" pelvic fracture?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-anatomy-and-mechanism",
+       "topic": "Anatomy and mechanism",
+       "note": "Why the pelvis bleeds and what else it damages.",
+       "children": [
+        {
+         "id": "mdhos600pp-posterior-complex-holds-the",
+         "topic": "Posterior complex holds the ring",
+         "note": "Strong posterior sacroiliac ligaments give most stability; their disruption makes the ring vertically unstable.",
+         "manas": {
+          "q": "Which ligaments give the pelvic ring most of its stability?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-open-book-enlarges-the-pelvi",
+         "topic": "Open book enlarges the pelvis",
+         "note": "Opening the ring increases pelvic volume, so blood collects without the tamponade a closed ring gives.",
+         "manas": {
+          "q": "Why does an open-book pelvic injury bleed so much?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-posterior-urethra-at-risk",
+         "topic": "Posterior urethra at risk",
+         "note": "In males, pelvic fracture injures the posterior (membranous) urethra; straddle falls injure the anterior (bulbar) urethra.",
+         "manas": {
+          "q": "Which part of the male urethra is injured in pelvic fracture?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-bladder-rupture-types",
+         "topic": "Bladder rupture types",
+         "note": "Extraperitoneal rupture usually accompanies pelvic fracture; intraperitoneal follows a blow to a full bladder.",
+         "manas": {
+          "q": "Which bladder rupture type usually accompanies pelvic fracture?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-rectum-vagina-and-nerves",
+         "topic": "Rectum, vagina and nerves",
+         "note": "Bone fragments can tear rectum or vagina (an open fracture); the lumbosacral plexus is at risk in posterior injuries.",
+         "manas": {
+          "q": "Which structures besides the bladder and urethra are at risk in pelvic fracture?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-classification",
+       "topic": "Classification",
+       "note": "Two systems to know.",
+       "children": [
+        {
+         "id": "mdhos600pp-young-burgess",
+         "topic": "Young–Burgess",
+         "note": "Grouped by force: anteroposterior compression (APC), lateral compression (LC), vertical shear (VS) and combined mechanism.",
+         "manas": {
+          "q": "Name the four Young–Burgess pelvic injury groups."
+         },
+         "children": [
+          {
+           "id": "mdhos600pp-apc-i-iii",
+           "topic": "APC I–III",
+           "note": "I: slight symphysis widening, ligaments intact. II: wider, anterior SI ligaments torn (open book). III: full SI disruption.",
+           "manas": {
+            "q": "How do APC I, II and III pelvic injuries differ?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhos600pp-lc-i-iii",
+           "topic": "LC I–III",
+           "note": "I: sacral compression on the side of impact. II: plus iliac wing (crescent) fracture. III: plus opposite-side open book (\"windswept\").",
+           "manas": {
+            "q": "What is a \"windswept pelvis\" in Young–Burgess terms?"
+           },
+           "children": []
+          },
+          {
+           "id": "mdhos600pp-vertical-shear",
+           "topic": "Vertical shear",
+           "note": "Hemipelvis displaced upwards through the ring, often from a fall from height landing on one leg.",
+           "manas": {
+            "q": "What mechanism typically causes a vertical shear pelvic injury?"
+           },
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "mdhos600pp-tile",
+         "topic": "Tile",
+         "note": "A: stable. B: rotationally unstable, vertically stable (e.g. open book, lateral compression). C: rotationally and vertically unstable.",
+         "manas": {
+          "q": "What do Tile A, B and C pelvic fractures mean?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-apc-ii-iii-and-vs-bleed-most",
+         "topic": "APC II–III and VS bleed most",
+         "note": "Ring-opening and shear patterns carry more haemorrhage risk than LC I.",
+         "manas": {
+          "q": "Which pelvic injury patterns carry the highest bleeding risk?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-primary-survey-c-abcde",
+       "topic": "Primary survey (<C>ABCDE)",
+       "note": "ABCDE order with catastrophic bleeding first, treating as you go.",
+       "children": [
+        {
+         "id": "mdhos600pp-c-catastrophic-haemorrhage",
+         "topic": "<C> Catastrophic haemorrhage",
+         "note": "Stop exsanguinating external bleeding first: direct pressure, packing, tourniquet for limbs.",
+         "manas": {
+          "q": "What does the <C> in <C>ABCDE stand for?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-a-airway-with-spinal-care",
+         "topic": "A: airway with spinal care",
+         "note": "Open and secure the airway while protecting the cervical spine.",
+         "manas": {
+          "q": "What is protected while managing the airway in trauma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-b-breathing",
+         "topic": "B: breathing",
+         "note": "Find and treat tension pneumothorax, open pneumothorax, massive haemothorax and flail chest.",
+         "manas": {
+          "q": "Which chest injuries must be found in the B of the primary survey?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-c-circulation",
+         "topic": "C: circulation",
+         "note": "Two large-bore cannulas, bloods and crossmatch; look for bleeding on the floor and in chest, abdomen, pelvis and long bones.",
+         "manas": {
+          "q": "Where are the five sites of major blood loss in trauma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-d-and-e",
+         "topic": "D and E",
+         "note": "Disability: GCS, pupils, glucose. Exposure: full log-roll check, then keep warm.",
+         "manas": {
+          "q": "What is assessed in D and E of the primary survey?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-pelvis-in-the-primary-survey",
+         "topic": "Pelvis in the primary survey",
+         "note": "Look for perineal bruising, leg shortening or rotation, blood at the meatus. Do not repeatedly spring the pelvis.",
+         "manas": {
+          "q": "Why should the pelvis not be repeatedly sprung?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-bind-on-suspicion",
+         "topic": "Bind on suspicion",
+         "note": "With a high-energy mechanism and shock, apply a binder before imaging confirms a fracture.",
+         "manas": {
+          "q": "When should a pelvic binder be applied in trauma?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-investigations",
+       "topic": "Investigations",
+       "note": "In the resuscitation room and beyond.",
+       "children": [
+        {
+         "id": "mdhos600pp-trauma-x-rays",
+         "topic": "Trauma X-rays",
+         "note": "Chest and pelvic films in the resus room quickly show major ring disruption and chest bleeding.",
+         "manas": {
+          "q": "Which X-rays are taken in the trauma resuscitation room?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-efast-limits",
+         "topic": "eFAST limits",
+         "note": "Detects free fluid in abdomen, pericardium and chest, but is poor at detecting retroperitoneal pelvic bleeding.",
+         "manas": {
+          "q": "Which bleeding source is FAST scanning poor at detecting?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-contrast-ct-if-responding",
+         "topic": "Contrast CT if responding",
+         "note": "CT with contrast defines fractures and organ injury; a contrast blush shows active arterial bleeding.",
+         "manas": {
+          "q": "What does a contrast blush on trauma CT mean?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-retrograde-urethrogram",
+         "topic": "Retrograde urethrogram",
+         "note": "If blood at the meatus, image the urethra before any urethral catheter.",
+         "manas": {
+          "q": "Which test excludes urethral injury before catheterisation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-bloods",
+         "topic": "Bloods",
+         "note": "Crossmatch, FBC, coagulation, lactate and base deficit (shock), and a pregnancy test in women of childbearing age.",
+         "manas": {
+          "q": "Which blood results indicate the severity of shock?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-damage-control-resuscitation",
+       "topic": "Damage control resuscitation",
+       "note": "Resuscitate while bleeding is stopped.",
+       "children": [
+        {
+         "id": "mdhos600pp-lethal-triad",
+         "topic": "Lethal triad",
+         "note": "Hypothermia, acidosis and coagulopathy feed each other and raise mortality; prevent all three from the start.",
+         "manas": {
+          "q": "What is the lethal triad of trauma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-permissive-hypotension",
+         "topic": "Permissive hypotension",
+         "note": "Accept a lower blood pressure until bleeding is controlled; not in head injury, where brain perfusion needs a higher pressure.",
+         "manas": {
+          "q": "In which patients is permissive hypotension avoided?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-blood-not-crystalloid",
+         "topic": "Blood, not crystalloid",
+         "note": "Limit crystalloid; give blood products in balanced ratios (red cells, plasma, platelets) via a massive transfusion protocol.",
+         "manas": {
+          "q": "Why is large-volume crystalloid avoided in bleeding trauma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-tranexamic-acid-within-3-hou",
+         "topic": "Tranexamic acid within 3 hours",
+         "note": "CRASH-2 (2010): 1 g IV over 10 min, then 1 g over 8 h, cut death from bleeding when started within 3 h; started after 3 h it appeared harmful.",
+         "manas": {
+          "q": "Within how many hours of injury should tranexamic acid be started?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-damage-control-surgery",
+         "topic": "Damage control surgery",
+         "note": "Short operation to stop bleeding and contamination, then ICU to correct physiology, then planned definitive surgery.",
+         "manas": {
+          "q": "What are the stages of damage control surgery?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-stopping-pelvic-bleeding",
+       "topic": "Stopping pelvic bleeding",
+       "note": "Options after the binder.",
+       "children": [
+        {
+         "id": "mdhos600pp-binder-care",
+         "topic": "Binder care",
+         "note": "Check skin; remove or loosen once the pelvis is fixed, as prolonged pressure causes sores. An improvised sheet works if none.",
+         "manas": {
+          "q": "What is a risk of leaving a pelvic binder on too long?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-preperitoneal-pelvic-packing",
+         "topic": "Preperitoneal pelvic packing",
+         "note": "Packs placed beside the bladder through a low incision tamponade venous and bone bleeding; fast, needs no radiology.",
+         "manas": {
+          "q": "Which pelvic bleeding sources does preperitoneal packing control?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-angioembolisation",
+         "topic": "Angioembolisation",
+         "note": "Interventional radiology blocks bleeding arteries, often after a CT blush; needs a radiology suite and team.",
+         "manas": {
+          "q": "What finding often prompts pelvic angioembolisation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-external-fixation",
+         "topic": "External fixation",
+         "note": "An anterior frame (or posterior C-clamp) restores ring volume and stability as part of damage control.",
+         "manas": {
+          "q": "How does external fixation reduce pelvic bleeding?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-reboa",
+         "topic": "REBOA",
+         "note": "A balloon in the aorta (zone III for pelvic bleeding, above the bifurcation) temporarily stops inflow; a bridge to definitive control. Benefit is unproven.",
+         "manas": {
+          "q": "Which aortic zone is used for REBOA in pelvic bleeding?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-urological-injury",
+       "topic": "Urological injury",
+       "note": "Do not make it worse.",
+       "children": [
+        {
+         "id": "mdhos600pp-blood-at-meatus-rule",
+         "topic": "Blood at meatus rule",
+         "note": "No urethral catheter until urethral injury is excluded; a blind catheter can complete a partial tear.",
+         "manas": {
+          "q": "What must you not do when there is blood at the urethral meatus?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-other-urethral-signs",
+         "topic": "Other urethral signs",
+         "note": "Inability to void, perineal or scrotal haematoma; a high-riding prostate is an unreliable sign.",
+         "manas": {
+          "q": "Which signs suggest urethral injury after pelvic fracture?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-suprapubic-drainage",
+         "topic": "Suprapubic drainage",
+         "note": "If urethral injury is confirmed and drainage is needed, use a suprapubic catheter.",
+         "manas": {
+          "q": "How is the bladder drained when the urethra is injured?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-bladder-repair-or-drain",
+         "topic": "Bladder repair or drain",
+         "note": "Extraperitoneal rupture: usually catheter drainage. Intraperitoneal rupture: surgical repair.",
+         "manas": {
+          "q": "Which type of bladder rupture needs surgical repair?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-complications-and-prognosis",
+       "topic": "Complications and prognosis",
+       "note": "Early and late.",
+       "children": [
+        {
+         "id": "mdhos600pp-venous-thromboembolism",
+         "topic": "Venous thromboembolism",
+         "note": "Pelvic and polytrauma patients are high risk; start thromboprophylaxis once bleeding is controlled.",
+         "manas": {
+          "q": "When is thromboprophylaxis started after pelvic trauma?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-open-pelvic-fracture",
+         "topic": "Open pelvic fracture",
+         "note": "Wounds into perineum, rectum or vagina mean high mortality and sepsis risk; a diverting colostomy may be needed.",
+         "manas": {
+          "q": "Why may a colostomy be needed in open pelvic fracture?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-morel-lavall-e-lesion",
+         "topic": "Morel-Lavallée lesion",
+         "note": "Closed degloving: fluid collects between skin and fascia, often over the greater trochanter; risks infection near incisions.",
+         "manas": {
+          "q": "What is a Morel-Lavallée lesion?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-late-problems",
+         "topic": "Late problems",
+         "note": "Urethral stricture, erectile dysfunction, nerve injury, chronic sacroiliac pain, limp and leg-length difference.",
+         "manas": {
+          "q": "List late complications of pelvic ring injury."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points.",
+       "children": [
+        {
+         "id": "mdhos600pp-shock-pelvic-fracture",
+         "topic": "Shock + pelvic fracture",
+         "note": "Assume pelvic bleeding once chest and abdomen are cleared; bind and call for bleeding control.",
+         "manas": {
+          "q": "In a shocked patient with a pelvic fracture, what is assumed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-pr-pv-examination",
+         "topic": "PR/PV examination",
+         "note": "Look for bone or blood in rectum or vagina — it turns the injury into an open fracture.",
+         "manas": {
+          "q": "Why is rectal and vaginal examination done in pelvic fracture?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-low-falls-in-older-people",
+         "topic": "Low falls in older people",
+         "note": "Low-energy lateral compression fractures are common in older people and can still bleed.",
+         "manas": {
+          "q": "What pelvic fracture pattern is typical after a low fall in older people?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Kenya and WHO first, then where others differ.",
+       "children": [
+        {
+         "id": "mdhos600pp-kenya-boda-boda-crashes",
+         "topic": "Kenya: boda boda crashes",
+         "note": "Motorcycle taxi crashes are a major source of pelvic and multiple injury; riders and passengers both get hurt.",
+         "manas": {
+          "q": "Which vehicle type drives much road trauma in Kenya?"
+         },
+         "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-where-ir-is-unavailable",
+         "topic": "Where IR is unavailable",
+         "note": "Without angioembolisation or CT, binder, packing and external fixation are the main tools; refer once stable enough.",
+         "manas": {
+          "q": "Which pelvic bleeding controls need no interventional radiology?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-who",
+         "topic": "WHO",
+         "note": "Road traffic injury is the leading cause of death for people aged 5–29. WHO Basic Emergency Care teaches the ABCDE approach; TXA is on the EML.",
+         "manas": {
+          "q": "According to WHO, which age group dies most from road traffic injury?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-atls",
+         "topic": "ATLS",
+         "note": "The American College of Surgeons trauma course teaching the ABCDE primary survey internationally; recent editions put control of exsanguinating bleeding first.",
+         "manas": {
+          "q": "Which organisation runs ATLS?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-25.",
+       "manas": {
+        "checked": "2026-11-25"
+       },
+       "children": [
+        {
+         "id": "mdhos600pp-packing-vs-angioembolisation",
+         "topic": "Packing vs angioembolisation",
+         "note": "Review of 10 studies: similar in-hospital death; packing was quicker with less early transfusion; REBOA a bridge. Mostly retrospective, no RCTs.",
+         "manas": {
+          "q": "How did pelvic packing compare with angioembolisation in the 2026 review?",
+          "ref": "Bull Emerg Trauma 2026"
+         },
+         "hyperLink": "https://doi.org/10.30476/beat.2025.107327.1614",
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-zone-iii-reboa-and-mortality",
+         "topic": "Zone III REBOA and mortality",
+         "note": "Meta-analysis of 7 retrospective cohorts (837 patients): REBOA linked to higher in-hospital (RR 1.44) and 24 h death. Retrospective data only; limited certainty.",
+         "manas": {
+          "q": "What did the 2026 meta-analysis find about zone III REBOA in pelvic fracture?",
+          "ref": "Eur J Trauma Emerg Surg 2026"
+         },
+         "hyperLink": "https://doi.org/10.1007/s00068-026-03105-8",
+         "children": []
+        },
+        {
+         "id": "mdhos600pp-motorcycle-fuel-tank-pelvic",
+         "topic": "Motorcycle fuel-tank pelvic injury",
+         "note": "Scoping review of 27 case patients: most had combined front-and-back ring disruption and all had urinary, genital or perineal injury. Case reports only.",
+         "manas": {
+          "q": "Which injuries accompanied motorcycle fuel-tank pelvic fractures?",
+          "ref": "Injury 2026"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.injury.2026.113923",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhos600pp-13-3-bone-fractures-openstax",
+       "topic": "📖 13.3 Bone Fractures (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/13-3-bone-fractures",
+       "children": []
+      },
+      {
+       "id": "mdhos600pp-kenya-clinical-guidelines-l4",
+       "topic": "📋 Kenya clinical guidelines (L4–L6)",
+       "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hps600-treatment-resistant-illness-ect",
+   "title": "HPS 600 · In depth: Treatment-resistant illness and ECT",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795584843900,
+   "updated": 1795584843900,
+   "library": "mbchb",
+   "deepOf": "med-hps600",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhps600tr-treatment-resistant-illness-and-ect-in-d",
+     "topic": "Treatment-resistant illness and ECT in depth",
+     "note": "Rule out pseudo-resistance, then step up: switch, augment, combine, clozapine and ECT. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhps600tr-definitions",
+       "topic": "Definitions",
+       "note": "Words to use precisely before calling an illness resistant.",
+       "children": [
+        {
+         "id": "mdhps600tr-treatment-resistant-depression",
+         "topic": "Treatment-resistant depression",
+         "note": "Usually: depression that has not responded to at least two adequate antidepressant trials (right dose, long enough, taken) in the current episode.",
+         "manas": {
+          "q": "How is treatment-resistant depression usually defined?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-response-versus-remission",
+         "topic": "Response versus remission",
+         "note": "Response: a large fall (commonly 50% or more) in a depression rating score. Remission: symptoms reduced to minimal, below a set cut-off. Remission is the real goal.",
+         "manas": {
+          "q": "What is the difference between response and remission?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-adequate-antipsychotic-trial",
+         "topic": "Adequate antipsychotic trial",
+         "note": "A therapeutic dose taken for at least about 6 weeks, with adherence confirmed, before judging an antipsychotic to have failed.",
+         "manas": {
+          "q": "How long is an adequate antipsychotic trial?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-adequate-antidepressant-trial",
+         "topic": "Adequate antidepressant trial",
+         "note": "A therapeutic dose for about 4–6 weeks; little or no improvement by then suggests a change is needed.",
+         "manas": {
+          "q": "How long should an antidepressant be tried before judging it?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-pseudo-resistance-checklist",
+       "topic": "Pseudo-resistance checklist",
+       "note": "How to check each item before escalating treatment.",
+       "children": [
+        {
+         "id": "mdhps600tr-is-the-medicine-taken",
+         "topic": "Is the medicine taken?",
+         "note": "Ask without blame, count tablets, involve family, and use drug levels where available (e.g. clozapine, lithium). Partial adherence is a very common cause of apparent failure.",
+         "manas": {
+          "q": "Which very common cause of apparent treatment failure is checked first?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-is-the-diagnosis-right",
+         "topic": "Is the diagnosis right?",
+         "note": "Unipolar depression may really be bipolar; psychosis may be organic. Revisit history, collateral and course before escalating.",
+         "manas": {
+          "q": "Which diagnostic error commonly hides behind resistant depression?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-medical-causes-looked-for",
+         "topic": "Medical causes looked for?",
+         "note": "Screen for hypothyroidism, anaemia, HIV-related brain disease and other medical illness, and review medicines that worsen mood (e.g. corticosteroids).",
+         "manas": {
+          "q": "Which medical causes should be screened in resistant depression?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-substances-and-comorbidity",
+         "topic": "Substances and comorbidity",
+         "note": "Alcohol and cannabis use, anxiety disorders, personality difficulties and ongoing stressors (poverty, violence, grief) all blunt treatment response.",
+         "manas": {
+          "q": "Which comorbidities commonly blunt treatment response?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-smoking-changes-clozapine-levels",
+         "topic": "Smoking changes clozapine levels",
+         "note": "Tobacco smoke induces CYP1A2, lowering clozapine and olanzapine levels; stopping smoking (e.g. on admission) can raise levels sharply and cause toxicity.",
+         "manas": {
+          "q": "Why does stopping smoking matter for a patient on clozapine?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-treatment-resistant-depression-strategie",
+       "topic": "Treatment-resistant depression strategies",
+       "note": "Steps after the first failed antidepressants.",
+       "children": [
+        {
+         "id": "mdhps600tr-optimise-the-dose",
+         "topic": "Optimise the dose",
+         "note": "If partly helped and well tolerated, raise the dose within the usual range before switching.",
+         "manas": {
+          "q": "What is the first step if an antidepressant has partly helped?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-switch",
+         "topic": "Switch",
+         "note": "Change to another SSRI or to a different class, e.g. an SNRI (venlafaxine), mirtazapine or a tricyclic. Cross-taper carefully to avoid interactions.",
+         "manas": {
+          "q": "What switching options exist in resistant depression?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-augment-with-lithium",
+         "topic": "Augment with lithium",
+         "note": "Adding lithium to an antidepressant is a well-established augmentation; needs level, renal and thyroid monitoring and counselling about toxicity.",
+         "manas": {
+          "q": "Which mood stabiliser is a classic antidepressant augmenter?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-augment-with-an-antipsychotic",
+         "topic": "Augment with an antipsychotic",
+         "note": "Second-generation antipsychotics such as aripiprazole or quetiapine can be added; watch weight, glucose, sedation and akathisia.",
+         "manas": {
+          "q": "Which antipsychotics are used to augment antidepressants?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-combine-antidepressants",
+         "topic": "Combine antidepressants",
+         "note": "Adding mirtazapine to an SSRI or SNRI is a common combination; monitor for serotonin toxicity.",
+         "manas": {
+          "q": "Name a common antidepressant combination strategy."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-add-psychological-therapy",
+         "topic": "Add psychological therapy",
+         "note": "Combining medicine with a structured therapy such as CBT helps more than either alone in many patients.",
+         "manas": {
+          "q": "Which non-drug treatment should be added in resistant depression?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-bipolar-depression-caution",
+         "topic": "Bipolar depression caution",
+         "note": "An antidepressant alone can trigger mania or rapid cycling; treat bipolar depression with a mood stabiliser-based plan.",
+         "manas": {
+          "q": "Why avoid antidepressant monotherapy in bipolar depression?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-when-to-consider-ect",
+         "topic": "When to consider ECT",
+         "note": "Consider ECT early when depression is severe, psychotic, life-threatening (not eating, high suicide risk) or after several failed strategies.",
+         "manas": {
+          "q": "When should ECT be considered in depression?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-treatment-resistant-schizophrenia-and-cl",
+       "topic": "Treatment-resistant schizophrenia and clozapine",
+       "note": "The one drug with proven superiority in TRS.",
+       "children": [
+        {
+         "id": "mdhps600tr-why-clozapine",
+         "topic": "Why clozapine",
+         "note": "Clozapine is more effective than other antipsychotics in TRS and reduces suicidal behaviour in schizophrenia; delay in starting it worsens outcome.",
+         "manas": {
+          "q": "Which antipsychotic is best for treatment-resistant schizophrenia?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-baseline-checks",
+         "topic": "Baseline checks",
+         "note": "Before starting: FBC with neutrophil count, weight, BP, pulse, glucose, lipids and an ECG; record smoking status and other drugs.",
+         "manas": {
+          "q": "What baseline tests are needed before clozapine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-slow-titration",
+         "topic": "Slow titration",
+         "note": "Start low and increase gradually to limit hypotension, sedation and seizures. If doses are missed for more than 48 h, re-titrate from the start.",
+         "manas": {
+          "q": "What should happen if clozapine doses are missed for over 48 hours?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-neutropenia-and-agranulocytosis",
+         "topic": "Neutropenia and agranulocytosis",
+         "note": "Rare but potentially fatal, risk highest in the first months. Any sore throat or fever needs an urgent FBC; stop clozapine if neutrophils fall below the scheme’s threshold.",
+         "manas": {
+          "q": "What symptom needs an urgent FBC in a patient on clozapine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-blood-monitoring-schedule",
+         "topic": "Blood monitoring schedule",
+         "note": "Typical scheme (e.g. UK): FBC weekly for the first 18 weeks, then every 2 weeks to one year, then monthly while on treatment.",
+         "manas": {
+          "q": "What is a typical FBC monitoring schedule for clozapine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-benign-ethnic-neutropenia",
+         "topic": "Benign ethnic neutropenia",
+         "note": "Many people of African descent have a naturally lower neutrophil count (linked to the Duffy-null type); this needs adjusted thresholds and haematology advice, not automatic refusal.",
+         "manas": {
+          "q": "Why may baseline neutrophils be low in some African patients?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-myocarditis",
+         "topic": "Myocarditis",
+         "note": "Mostly in the first weeks: fever, tachycardia, chest pain, breathlessness, flu-like illness. Many protocols check troponin and CRP early; stop clozapine if confirmed.",
+         "manas": {
+          "q": "When does clozapine myocarditis usually occur and how does it present?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-constipation-can-kill",
+         "topic": "Constipation can kill",
+         "note": "Clozapine slows the gut; ileus, obstruction and aspiration can be fatal. Ask about bowels at every visit and treat early with softener and stimulant laxatives.",
+         "manas": {
+          "q": "Why is clozapine constipation dangerous?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-seizures",
+         "topic": "Seizures",
+         "note": "Dose- and level-related; risk rises with high doses and fast titration. An anticonvulsant (e.g. valproate) may be added if seizures occur.",
+         "manas": {
+          "q": "What raises the risk of seizures on clozapine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-hypersalivation",
+         "topic": "Hypersalivation",
+         "note": "Common, worse at night; a towel on the pillow, dose review and an anticholinergic such as hyoscine hydrobromide can help.",
+         "manas": {
+          "q": "How is clozapine-induced hypersalivation managed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-other-side-effects",
+         "topic": "Other side effects",
+         "note": "Sedation, weight gain and metabolic syndrome, tachycardia, postural hypotension, early benign fever and nocturnal enuresis.",
+         "manas": {
+          "q": "List other common side effects of clozapine."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-plasma-levels",
+         "topic": "Plasma levels",
+         "note": "Levels guide dosing in non-response or toxicity; a common response threshold is about 0.35 mg/L, taken as a trough level.",
+         "manas": {
+          "q": "What clozapine plasma level is commonly used as a response threshold?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-ect-how-it-may-work",
+       "topic": "ECT: how it may work",
+       "note": "Exact mechanism is unknown; a generalised seizure is needed.",
+       "children": [
+        {
+         "id": "mdhps600tr-seizure-is-essential",
+         "topic": "Seizure is essential",
+         "note": "Benefit depends on a generalised cerebral seizure; a stimulus that fails to cause one is not effective.",
+         "manas": {
+          "q": "What must happen for an ECT treatment to be effective?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-neurotransmitter-theory",
+         "topic": "Neurotransmitter theory",
+         "note": "Repeated seizures change monoamine signalling (serotonin, noradrenaline, dopamine) and raise GABA activity.",
+         "manas": {
+          "q": "Which neurotransmitter changes are proposed for ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-anticonvulsant-theory",
+         "topic": "Anticonvulsant theory",
+         "note": "The seizure threshold rises over an ECT course; this inhibitory, anticonvulsant effect may be part of how it helps.",
+         "manas": {
+          "q": "What happens to seizure threshold over an ECT course?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-neuroendocrine-theory",
+         "topic": "Neuroendocrine theory",
+         "note": "Seizures release hypothalamic and pituitary hormones, which may correct mood-related neuroendocrine changes.",
+         "manas": {
+          "q": "What is the neuroendocrine theory of ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-neuroplasticity-theory",
+         "topic": "Neuroplasticity theory",
+         "note": "ECT raises BDNF and is linked with hippocampal growth on imaging, suggesting repair of brain networks.",
+         "manas": {
+          "q": "Which neuroplastic changes are linked with ECT?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-ect-consent-and-law",
+       "topic": "ECT: consent and law",
+       "note": "Valid consent and legal safeguards.",
+       "children": [
+        {
+         "id": "mdhps600tr-valid-consent",
+         "topic": "Valid consent",
+         "note": "Needs capacity, full information (benefits, risks including memory effects, alternatives), free choice and a signature; it can be withdrawn at any time.",
+         "manas": {
+          "q": "What makes consent for ECT valid?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-kenya-mental-health-act",
+         "topic": "Kenya Mental Health Act",
+         "note": "The Act sets the rights of people with mental illness and safeguards for treatment, including involuntary patients; follow it and hospital policy for ECT decisions.",
+         "manas": {
+          "q": "Which Kenyan law sets safeguards for treatment such as ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-lacking-capacity",
+         "topic": "Lacking capacity",
+         "note": "If a severely ill patient lacks capacity, ECT may proceed only through the legal route the Act and hospital policy set, with documentation and review.",
+         "manas": {
+          "q": "How is ECT approached when a patient lacks capacity?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-ect-contraindications",
+       "topic": "ECT: contraindications",
+       "note": "Few absolute bars; weigh risks against a dangerous illness.",
+       "children": [
+        {
+         "id": "mdhps600tr-raised-intracranial-pressure",
+         "topic": "Raised intracranial pressure",
+         "note": "Modern guidance lists no absolute contraindications; raised ICP is the one usually treated as near-absolute, as ECT raises cerebral blood flow and ICP, risking herniation.",
+         "manas": {
+          "q": "Which condition is usually treated as a near-absolute contraindication to ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-relative-contraindications",
+         "topic": "Relative contraindications",
+         "note": "Recent myocardial infarction or stroke, cerebral aneurysm or vascular malformation, unstable heart disease and high anaesthetic risk.",
+         "manas": {
+          "q": "List relative contraindications to ECT."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-not-contraindications",
+         "topic": "Not contraindications",
+         "note": "Pregnancy and old age are not contraindications; ECT can be safer than drugs in some pregnant or elderly patients.",
+         "manas": {
+          "q": "Are pregnancy and old age contraindications to ECT?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-ect-the-procedure",
+       "topic": "ECT: the procedure",
+       "note": "Modified ECT: anaesthesia, relaxant, monitoring.",
+       "children": [
+        {
+         "id": "mdhps600tr-work-up",
+         "topic": "Work-up",
+         "note": "Physical exam, anaesthetic review, basic bloods and ECG as indicated, fasting, and review of drugs that change seizure threshold.",
+         "manas": {
+          "q": "What work-up is done before ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-drugs-that-interfere",
+         "topic": "Drugs that interfere",
+         "note": "Benzodiazepines and anticonvulsants raise seizure threshold and may blunt ECT; reduce or time them with the team.",
+         "manas": {
+          "q": "Which drugs raise seizure threshold during ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-anaesthesia-and-muscle-relaxant",
+         "topic": "Anaesthesia and muscle relaxant",
+         "note": "A short-acting IV anaesthetic plus a muscle relaxant (usually suxamethonium) with oxygen and a bite block; the relaxant prevents fractures and injury.",
+         "manas": {
+          "q": "Why is a muscle relaxant given during ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-monitoring",
+         "topic": "Monitoring",
+         "note": "ECG, oxygen saturation, BP and EEG; seizure duration is timed and recorded each session.",
+         "manas": {
+          "q": "What is monitored during ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-bilateral-placement",
+         "topic": "Bilateral placement",
+         "note": "Electrodes on both temples: works faster and more reliably, but causes more memory and cognitive effects.",
+         "manas": {
+          "q": "What are the pros and cons of bilateral ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-right-unilateral-placement",
+         "topic": "Right unilateral placement",
+         "note": "Over the non-dominant (right) hemisphere: fewer memory effects, but needs a dose well above seizure threshold to work.",
+         "manas": {
+          "q": "What are the pros and cons of right unilateral ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-dose-and-course",
+         "topic": "Dose and course",
+         "note": "Dose set by seizure-threshold titration or a formula; treatments usually 2–3 times a week, typically a course of about 6–12.",
+         "manas": {
+          "q": "How often is ECT given and how long is a usual course?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-ect-side-effects-and-after-care",
+       "topic": "ECT: side effects and after-care",
+       "note": "Beyond the common early effects.",
+       "children": [
+        {
+         "id": "mdhps600tr-cardiovascular-response",
+         "topic": "Cardiovascular response",
+         "note": "Brief vagal bradycardia, then a surge of tachycardia and hypertension during the seizure; arrhythmia is possible, hence cardiac caution.",
+         "manas": {
+          "q": "What cardiovascular changes occur during ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-memory-effects",
+         "topic": "Memory effects",
+         "note": "Gaps for events around the course (autobiographical memory) are most typical; new learning usually recovers within weeks, but some report lasting gaps.",
+         "manas": {
+          "q": "Which type of memory is most affected by ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-other-effects",
+         "topic": "Other effects",
+         "note": "Muscle aches (suxamethonium), nausea, dental or tongue injury, prolonged seizure, and switch into mania in bipolar illness.",
+         "manas": {
+          "q": "List other adverse effects of ECT."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-relapse-prevention",
+         "topic": "Relapse prevention",
+         "note": "Relapse after a good ECT response is common without follow-on treatment: continue antidepressant (often with lithium) or plan maintenance ECT.",
+         "manas": {
+          "q": "How is relapse prevented after successful ECT?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points.",
+       "children": [
+        {
+         "id": "mdhps600tr-sore-throat-on-clozapine",
+         "topic": "Sore throat on clozapine",
+         "note": "Fever or sore throat on clozapine = urgent FBC for agranulocytosis.",
+         "manas": {
+          "q": "What must you do when a patient on clozapine has a sore throat?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-unilateral-versus-bilateral-trade-off",
+         "topic": "Unilateral versus bilateral trade-off",
+         "note": "Bilateral: speed and efficacy. Right unilateral: fewer memory effects. Choose by urgency and patient priorities.",
+         "manas": {
+          "q": "What is the key trade-off between unilateral and bilateral ECT?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-two-failed-trials",
+         "topic": "Two failed trials",
+         "note": "Both TRD and TRS start from two adequate failed trials — but only after pseudo-resistance is excluded.",
+         "manas": {
+          "q": "How many adequate trials define treatment resistance?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Kenya and WHO first, then where other guidance differs.",
+       "children": [
+        {
+         "id": "mdhps600tr-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "The National Clinical Guidelines for Management of Common Mental Disorders are the local reference; drug choices follow the Kenya Essential Medicines List.",
+         "manas": {
+          "q": "Which Kenyan documents guide resistant illness treatment?"
+         },
+         "hyperLink": "https://mental.health.go.ke/download/national-clinical-guidelines-for-management-of-common-mental-disorders/",
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-who",
+         "topic": "WHO",
+         "note": "WHO guidance opposes unmodified ECT (without anaesthesia and muscle relaxant) and stresses informed consent and human rights.",
+         "manas": {
+          "q": "What form of ECT does WHO guidance oppose?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-trrip-consensus-2017",
+         "topic": "TRRIP consensus 2017",
+         "note": "International working group criteria define TRS by at least two failed adequate antipsychotic trials, with adherence checked and symptoms rated.",
+         "manas": {
+          "q": "What did the TRRIP consensus define?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-nice-psychosis-cg178-2014",
+         "topic": "NICE psychosis CG178 (2014)",
+         "note": "UK advice: offer clozapine after two adequate antipsychotic trials, at least one a non-clozapine second-generation drug.",
+         "manas": {
+          "q": "When does NICE CG178 advise offering clozapine?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-usa-esketamine-fda-2019",
+         "topic": "USA: esketamine (FDA 2019)",
+         "note": "The US FDA approved esketamine nasal spray in 2019 with an oral antidepressant for treatment-resistant depression (use alone approved 2025); given under supervision in certified settings.",
+         "manas": {
+          "q": "Which newer drug is approved in the USA for resistant depression?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-25.",
+       "manas": {
+        "checked": "2026-11-25"
+       },
+       "children": [
+        {
+         "id": "mdhps600tr-ketamine-compared-with-ect",
+         "topic": "Ketamine compared with ECT",
+         "note": "Meta-analysis (6 studies, 676 people): no significant difference in response, remission, relapse or adverse events; heterogeneity high for response and remission, so authors call for validation.",
+         "manas": {
+          "q": "How did ketamine compare with ECT for resistant depression in a 2026 meta-analysis?",
+          "ref": "Int J Psychiatry Clin Pract 2026"
+         },
+         "hyperLink": "https://doi.org/10.1080/13651501.2025.2576205",
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-memory-after-ect",
+         "topic": "Memory after ECT",
+         "note": "Review (12 studies, 837 people): within a month delayed recall and autobiographical memory fell while self-rated memory improved; later recall improved but autobiographical memory stayed lower. Heterogeneous.",
+         "manas": {
+          "q": "Which memory type stayed lower beyond a month after ECT in a 2026 review?",
+          "ref": "J Psychiatr Res 2026"
+         },
+         "hyperLink": "https://doi.org/10.1016/j.jpsychires.2026.09.018",
+         "children": []
+        },
+        {
+         "id": "mdhps600tr-lithium-during-ect",
+         "topic": "Lithium during ECT",
+         "note": "Review (16 studies): no clear rise in confusion or cognitive test decline with lithium during ECT, but one analysis method suggested more confusion; evidence inconclusive.",
+         "manas": {
+          "q": "Does continuing lithium during ECT clearly worsen cognition, per a 2026 review?",
+          "ref": "Acta Psychiatr Scand 2026"
+         },
+         "hyperLink": "https://doi.org/10.1111/acps.70095",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhps600tr-25-biological-theories-and-therapies-ope",
+       "topic": "📖 2.5 Biological theories and therapies (OpenStax)",
+       "hyperLink": "https://openstax.org/books/psychiatric-mental-health/pages/2-5-biological-theories-and-therapies",
+       "children": []
+      },
+      {
+       "id": "mdhps600tr-102-mental-health-legal-issues-openstax",
+       "topic": "📖 10.2 Mental health legal issues (OpenStax)",
+       "hyperLink": "https://openstax.org/books/psychiatric-mental-health/pages/10-2-legal-issues-relating-to-mental-health-nursing",
+       "children": []
+      },
+      {
+       "id": "mdhps600tr-kenya-common-mental-disorders-guidelines",
+       "topic": "📋 Kenya common mental disorders guidelines",
+       "hyperLink": "https://mental.health.go.ke/download/national-clinical-guidelines-for-management-of-common-mental-disorders/",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
+  },
+  {
+   "id": "med-hsu600-acute-appendicitis",
+   "title": "HSU 600 · In depth: Acute appendicitis",
+   "look": "night",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795584843929,
+   "updated": 1795584843929,
+   "library": "mbchb",
+   "deepOf": "med-hsu600",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "mdhsu600ap-acute-appendicitis-in-depth",
+     "topic": "Acute appendicitis in depth",
+     "note": "Anatomy, why it happens, scores, imaging, special groups, operation and complications. Study aid, reviewed by AI; doctor review in progress — confirm with your lecturer and current guidelines.",
+     "children": [
+      {
+       "id": "mdhsu600ap-definition-and-types",
+       "topic": "Definition and types",
+       "note": "What appendicitis is and how it is classed.",
+       "children": [
+        {
+         "id": "mdhsu600ap-acute-appendicitis",
+         "topic": "Acute appendicitis",
+         "note": "Acute inflammation of the vermiform appendix; commonest in older children, teenagers and young adults, but seen at every age.",
+         "manas": {
+          "q": "Which age group most often gets acute appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-uncomplicated-versus-complicated",
+         "topic": "Uncomplicated versus complicated",
+         "note": "Uncomplicated: inflamed, intact appendix. Complicated: gangrene, perforation, abscess or phlegmon/mass. The split drives treatment.",
+         "manas": {
+          "q": "What makes appendicitis complicated?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-anatomy",
+       "topic": "Anatomy",
+       "note": "Where to find it and how it is supplied.",
+       "children": [
+        {
+         "id": "mdhsu600ap-origin",
+         "topic": "Origin",
+         "note": "A blind tube arising from the posteromedial caecum below the ileocaecal junction; its length varies widely.",
+         "manas": {
+          "q": "Where does the appendix arise?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-base-at-taeniae-convergence",
+         "topic": "Base at taeniae convergence",
+         "note": "The base is constant: the three taeniae coli converge on it, so surgeons follow a taenia down the caecum to find it.",
+         "manas": {
+          "q": "How does a surgeon find the base of the appendix?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-positions-of-the-tip",
+         "topic": "Positions of the tip",
+         "note": "The tip varies: retrocaecal is commonest, pelvic next; also subcaecal, pre-ileal, post-ileal and paracaecal.",
+         "manas": {
+          "q": "What is the commonest position of the appendix?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-appendicular-artery",
+         "topic": "Appendicular artery",
+         "note": "A branch of the ileocolic artery (from the superior mesenteric), running in the free edge of the mesoappendix.",
+         "manas": {
+          "q": "From which artery does the appendicular artery arise?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-an-end-artery",
+         "topic": "An end artery",
+         "note": "The appendicular artery has no useful collaterals, so swelling or thrombosis quickly leads to gangrene and perforation.",
+         "manas": {
+          "q": "Why does the inflamed appendix become gangrenous quickly?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-mesoappendix",
+         "topic": "Mesoappendix",
+         "note": "A small triangular fold of peritoneum from the mesentery of the terminal ileum, carrying the appendicular vessels.",
+         "manas": {
+          "q": "What is the mesoappendix and what does it carry?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-lymphoid-tissue",
+         "topic": "Lymphoid tissue",
+         "note": "The wall is rich in lymphoid follicles, most abundant in youth and shrinking with age — fitting the age pattern of appendicitis.",
+         "manas": {
+          "q": "How does appendiceal lymphoid tissue relate to the age of patients?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-pathophysiology",
+       "topic": "Pathophysiology",
+       "note": "From a blocked lumen to perforation.",
+       "children": [
+        {
+         "id": "mdhsu600ap-luminal-obstruction",
+         "topic": "Luminal obstruction",
+         "note": "The usual trigger: the lumen is blocked, mucus builds up and pressure rises inside a closed loop.",
+         "manas": {
+          "q": "What usually starts acute appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-faecolith",
+         "topic": "Faecolith",
+         "note": "A hard faecal stone (appendicolith) is a common cause in adults and is linked with a higher risk of perforation.",
+         "manas": {
+          "q": "What obstructs the appendix most often in adults?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-lymphoid-hyperplasia",
+         "topic": "Lymphoid hyperplasia",
+         "note": "Swollen lymphoid follicles, often after a viral or gut infection, are a common cause in children.",
+         "manas": {
+          "q": "What obstructs the appendix most often in children?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-other-causes",
+         "topic": "Other causes",
+         "note": "Worms (Ascaris, Enterobius), foreign bodies and tumours (neuroendocrine tumour of the appendix, caecal cancer in older adults).",
+         "manas": {
+          "q": "List less common causes of appendiceal obstruction."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-sequence-to-perforation",
+         "topic": "Sequence to perforation",
+         "note": "Distension → venous congestion → arterial ischaemia → bacterial invasion of the wall → gangrene → perforation.",
+         "manas": {
+          "q": "Describe the sequence from obstruction to perforation."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-organisms",
+         "topic": "Organisms",
+         "note": "Mixed gut flora, mainly Gram-negative rods (E. coli) and anaerobes (Bacteroides fragilis).",
+         "manas": {
+          "q": "Which organisms are involved in appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-walled-off-or-generalised",
+         "topic": "Walled off or generalised",
+         "note": "The omentum and loops may wall off a perforation (mass or abscess); in young children the short omentum often fails, giving generalised peritonitis.",
+         "manas": {
+          "q": "Why do young children more often get generalised peritonitis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-clinical-features-by-position",
+       "topic": "Clinical features by position",
+       "note": "The position of the tip changes the picture.",
+       "children": [
+        {
+         "id": "mdhsu600ap-retrocaecal",
+         "topic": "Retrocaecal",
+         "note": "Flank or loin pain, few anterior signs, a positive psoas sign; may cause a few red or white cells in urine.",
+         "manas": {
+          "q": "How does a retrocaecal appendicitis present?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-pelvic",
+         "topic": "Pelvic",
+         "note": "Suprapubic pain, diarrhoea or urinary frequency, little abdominal tenderness but tenderness on rectal or vaginal examination.",
+         "manas": {
+          "q": "How does a pelvic appendicitis present?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-post-ileal",
+         "topic": "Post-ileal",
+         "note": "Vomiting and diarrhoea with poorly localised pain; easily mistaken for gastroenteritis.",
+         "manas": {
+          "q": "Which appendix position mimics gastroenteritis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-fever-pattern",
+         "topic": "Fever pattern",
+         "note": "Low-grade fever is typical; high fever suggests perforation or another diagnosis.",
+         "manas": {
+          "q": "What does a high fever suggest in suspected appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-key-differentials",
+         "topic": "Key differentials",
+         "note": "Mesenteric adenitis, gastroenteritis, Meckel’s diverticulitis, ectopic pregnancy, ovarian cyst or torsion, PID, ureteric colic, UTI and terminal ileitis.",
+         "manas": {
+          "q": "List the main differential diagnoses of appendicitis."
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-investigations",
+       "topic": "Investigations",
+       "note": "Tests, scores and imaging.",
+       "children": [
+        {
+         "id": "mdhsu600ap-pregnancy-test",
+         "topic": "Pregnancy test",
+         "note": "Every woman of childbearing age with RIF pain needs a pregnancy test to exclude ectopic pregnancy.",
+         "manas": {
+          "q": "Which test is mandatory in a woman of childbearing age with RIF pain?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-urinalysis",
+         "topic": "Urinalysis",
+         "note": "Helps exclude UTI and stones, but mild pyuria or haematuria can occur when the appendix lies near the ureter or bladder.",
+         "manas": {
+          "q": "Does pyuria exclude appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-wbc-and-crp",
+         "topic": "WBC and CRP",
+         "note": "Raised white count and CRP support the diagnosis; when both are normal, appendicitis is less likely.",
+         "manas": {
+          "q": "Which blood tests support the diagnosis of appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-using-the-alvarado-score",
+         "topic": "Using the Alvarado score",
+         "note": "Better at ruling out (low score) than ruling in; a high score still benefits from imaging or senior review.",
+         "manas": {
+          "q": "Is the Alvarado score better for ruling in or ruling out appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-air-score",
+         "topic": "AIR score",
+         "note": "Appendicitis Inflammatory Response score: vomiting, RIF pain, graded rebound/guarding, fever, WBC, neutrophil % and CRP. 0–4 low, 5–8 intermediate, 9–12 high risk.",
+         "manas": {
+          "q": "What does the AIR score include, and what are its risk bands?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-paediatric-appendicitis-score",
+         "topic": "Paediatric Appendicitis Score",
+         "note": "A child-specific score that includes pain on coughing, percussion or hopping, plus migration, anorexia, fever, nausea and blood counts.",
+         "manas": {
+          "q": "Which score is designed for children with suspected appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-ultrasound-first",
+         "topic": "Ultrasound first",
+         "note": "First imaging in children, pregnancy and slim young women. Graded compression: a non-compressible, blind-ending tube over 6 mm wide suggests appendicitis.",
+         "manas": {
+          "q": "What ultrasound finding suggests appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-ct-in-adults",
+         "topic": "CT in adults",
+         "note": "Contrast CT is the most accurate test in adults when the diagnosis is unclear; it also shows perforation, abscess and other causes.",
+         "manas": {
+          "q": "What is the most accurate imaging test for appendicitis in adults?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-mri-in-pregnancy",
+         "topic": "MRI in pregnancy",
+         "note": "If ultrasound is inconclusive in pregnancy, MRI without contrast avoids radiation.",
+         "manas": {
+          "q": "What imaging follows an inconclusive ultrasound in pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-diagnostic-laparoscopy",
+         "topic": "Diagnostic laparoscopy",
+         "note": "When doubt remains after assessment and imaging, laparoscopy both diagnoses and treats.",
+         "manas": {
+          "q": "What can be done when the diagnosis remains uncertain?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-special-groups",
+       "topic": "Special groups",
+       "note": "Who is easy to miss.",
+       "children": [
+        {
+         "id": "mdhsu600ap-young-children",
+         "topic": "Young children",
+         "note": "Vague history, rapid progression and high perforation rates, especially under 5; mesenteric adenitis after a sore throat is a key mimic.",
+         "manas": {
+          "q": "Why is appendicitis dangerous in young children?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-pregnancy",
+         "topic": "Pregnancy",
+         "note": "The commonest non-obstetric surgical emergency in pregnancy; pain may sit higher as the uterus displaces the caecum. Perforation threatens the fetus.",
+         "manas": {
+          "q": "What is the commonest non-obstetric surgical emergency in pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-surgery-in-pregnancy",
+         "topic": "Surgery in pregnancy",
+         "note": "Do not delay operation; laparoscopic appendicectomy can be done in pregnancy with obstetric input and fetal monitoring.",
+         "manas": {
+          "q": "Can laparoscopic appendicectomy be done in pregnancy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-older-adults",
+         "topic": "Older adults",
+         "note": "Signs are muted and perforation is more common at presentation; CT helps, and caecal cancer and diverticulitis must be considered.",
+         "manas": {
+          "q": "Which diagnoses must be considered alongside appendicitis in older adults?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-hiv-and-kenyan-mimics",
+         "topic": "HIV and Kenyan mimics",
+         "note": "Ileocaecal TB (weight loss, night sweats, RIF mass, ascites), typhoid with ileal perforation, amoebic colitis/amoeboma, and in advanced HIV CMV colitis and lymphoma.",
+         "manas": {
+          "q": "Which conditions mimic appendicitis in people with HIV in Kenya?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-neutropenic-enterocolitis",
+         "topic": "Neutropenic enterocolitis",
+         "note": "In neutropenic patients (e.g. on chemotherapy) RIF pain may be typhlitis of the caecum, usually managed medically first.",
+         "manas": {
+          "q": "What is typhlitis and who gets it?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-management",
+       "topic": "Management",
+       "note": "From ward to theatre.",
+       "children": [
+        {
+         "id": "mdhsu600ap-before-theatre",
+         "topic": "Before theatre",
+         "note": "Nil by mouth, IV fluids, analgesia, and IV antibiotics before surgery; resuscitate fully if septic or peritonitic.",
+         "manas": {
+          "q": "What are the pre-operative steps in appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-antibiotic-cover",
+         "topic": "Antibiotic cover",
+         "note": "Cover Gram-negatives and anaerobes, e.g. a cephalosporin with metronidazole, following local guidelines.",
+         "manas": {
+          "q": "Which organisms must antibiotics for appendicitis cover?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-simple-appendicitis",
+         "topic": "Simple appendicitis",
+         "note": "Appendicectomy; antibiotics after surgery are usually not needed for an uncomplicated case.",
+         "manas": {
+          "q": "Are postoperative antibiotics needed after simple appendicectomy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-complicated-appendicitis",
+         "topic": "Complicated appendicitis",
+         "note": "Appendicectomy with washout of pus and a short postoperative antibiotic course; generalised peritonitis may need laparotomy.",
+         "manas": {
+          "q": "How is perforated appendicitis managed?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-laparoscopic-approach",
+         "topic": "Laparoscopic approach",
+         "note": "Less wound infection and pain, faster recovery, and a view of the whole abdomen — useful in women and obese patients.",
+         "manas": {
+          "q": "What are the advantages of laparoscopic appendicectomy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-open-approach",
+         "topic": "Open approach",
+         "note": "Safe and effective; still the main option where laparoscopy is unavailable.",
+         "manas": {
+          "q": "Is open appendicectomy still acceptable?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-gridiron-incision",
+         "topic": "Gridiron incision",
+         "note": "Oblique incision through McBurney’s point at right angles to the spino-umbilical line; each muscle layer is split along its fibres.",
+         "manas": {
+          "q": "Describe the gridiron incision."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-lanz-incision",
+         "topic": "Lanz incision",
+         "note": "A transverse skin-crease incision in the RIF, centred near the midclavicular line; better cosmetically, deeper layers split as for gridiron.",
+         "manas": {
+          "q": "How does the Lanz incision differ from the gridiron incision?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-key-operative-steps",
+         "topic": "Key operative steps",
+         "note": "Deliver the caecum, follow a taenia to the base, ligate the mesoappendix (appendicular artery), ligate and divide the base, remove the appendix.",
+         "manas": {
+          "q": "What are the key steps of appendicectomy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-send-for-histology",
+         "topic": "Send for histology",
+         "note": "Every specimen goes to histology: an unexpected neuroendocrine tumour or other neoplasm may be found.",
+         "manas": {
+          "q": "Why is every appendix sent for histology?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-normal-appendix-found",
+         "topic": "Normal appendix found",
+         "note": "Search for another cause: Meckel’s diverticulum, terminal ileum, ovaries and tubes, and mesenteric nodes.",
+         "manas": {
+          "q": "What should you look for if the appendix is normal at operation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-interval-appendicectomy",
+         "topic": "Interval appendicectomy",
+         "note": "Not routine for everyone after a treated mass or abscess; older adults need follow-up imaging or colonoscopy to exclude a tumour.",
+         "manas": {
+          "q": "Is interval appendicectomy routine after an appendix mass?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-complications",
+       "topic": "Complications",
+       "note": "During and after the illness.",
+       "children": [
+        {
+         "id": "mdhsu600ap-perforation-and-peritonitis",
+         "topic": "Perforation and peritonitis",
+         "note": "More likely with delay, faecoliths, young children and older adults.",
+         "manas": {
+          "q": "Which factors raise the risk of perforation?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-pelvic-abscess",
+         "topic": "Pelvic abscess",
+         "note": "Swinging fever, diarrhoea with mucus and a tender boggy mass on rectal examination; drained radiologically or via the rectum.",
+         "manas": {
+          "q": "How does a pelvic abscess after appendicitis present?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-wound-infection",
+         "topic": "Wound infection",
+         "note": "The commonest complication after appendicectomy, more so after perforation.",
+         "manas": {
+          "q": "What is the commonest complication after appendicectomy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-other-postoperative-problems",
+         "topic": "Other postoperative problems",
+         "note": "Intra-abdominal abscess, ileus, later adhesive obstruction, faecal fistula, stump appendicitis and port-site hernia.",
+         "manas": {
+          "q": "List other complications after appendicectomy."
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-pylephlebitis",
+         "topic": "Pylephlebitis",
+         "note": "Rare septic thrombosis of the portal vein: rigors, high fever and jaundice, sometimes with liver abscesses.",
+         "manas": {
+          "q": "What is pylephlebitis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-exam-pearls",
+       "topic": "Exam pearls",
+       "note": "High-yield points.",
+       "children": [
+        {
+         "id": "mdhsu600ap-follow-the-taeniae",
+         "topic": "Follow the taeniae",
+         "note": "The base is where the taeniae coli meet — the tip may be anywhere.",
+         "manas": {
+          "q": "Where is the base of the appendix always found?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-six-millimetres",
+         "topic": "Six millimetres",
+         "note": "On ultrasound, a non-compressible appendix wider than 6 mm suggests appendicitis.",
+         "manas": {
+          "q": "What diameter on ultrasound suggests appendicitis?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-think-tb-and-typhoid",
+         "topic": "Think TB and typhoid",
+         "note": "In Kenya, chronic RIF pain with weight loss, or fever with perforation, should prompt TB and typhoid before calling it appendicitis.",
+         "manas": {
+          "q": "Which two infections must Kenyan doctors consider in RIF disease?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-around-the-world",
+       "topic": "🌍 Around the world",
+       "note": "Kenya first, then how guidance compares.",
+       "children": [
+        {
+         "id": "mdhsu600ap-kenya-moh",
+         "topic": "Kenya MoH",
+         "note": "Follow the MoH Clinical Guidelines for Level 4–6 hospitals and your local surgical protocol for appendicitis.",
+         "manas": {
+          "q": "Which Kenyan guideline covers hospital care of appendicitis?"
+         },
+         "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-who-surgical-safety-checklist",
+         "topic": "WHO Surgical Safety Checklist",
+         "note": "WHO’s checklist (sign in, time out, sign out) applies to every appendicectomy and reduces avoidable errors.",
+         "manas": {
+          "q": "Which WHO tool applies to every appendicectomy?"
+         },
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-wses-jerusalem-guidelines",
+         "topic": "WSES Jerusalem guidelines",
+         "note": "The World Society of Emergency Surgery appendicitis guideline (updated 2020) uses scores and imaging to stratify risk and favours laparoscopy where available.",
+         "manas": {
+          "q": "How do the WSES Jerusalem guidelines approach diagnosis?"
+         },
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-latest-research",
+       "topic": "🆕 Latest research",
+       "note": "Papers read 2026-11-25.",
+       "manas": {
+        "checked": "2026-11-25"
+       },
+       "children": [
+        {
+         "id": "mdhsu600ap-sages-guideline",
+         "topic": "SAGES guideline",
+         "note": "Expert panel (GRADE, review of 2010–2022): conditional advice favouring operative management of uncomplicated and complicated appendicitis, delayed (>12 h) or immediate. Abstract truncated.",
+         "manas": {
+          "q": "What did the 2024 SAGES guideline conditionally advise for appendicitis?",
+          "ref": "Surg Endosc 2024"
+         },
+         "hyperLink": "https://doi.org/10.1007/s00464-024-10813-y",
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-swedish-national-guidelines",
+         "topic": "Swedish national guidelines",
+         "note": "GRADE-based national guidance for adults and children aiming at uniform, safe, cost-efficient care amid wide practice variation (shown by a national survey). Abstract gives no specific advice.",
+         "manas": {
+          "q": "Why were Swedish national appendicitis guidelines written?",
+          "ref": "BJS Open 2025"
+         },
+         "hyperLink": "https://doi.org/10.1093/bjsopen/zrae165",
+         "children": []
+        },
+        {
+         "id": "mdhsu600ap-antibiotics-versus-surgery-in-children",
+         "topic": "Antibiotics versus surgery in children",
+         "note": "Meta-analysis of RCTs (1333 children): complication-free success at 30 days favoured appendicectomy (moderate certainty); 6–24% recurred within a year after antibiotics.",
+         "manas": {
+          "q": "In children, what did a 2026 meta-analysis find for antibiotics versus appendicectomy?",
+          "ref": "World J Surg 2026"
+         },
+         "hyperLink": "https://doi.org/10.1002/wjs.70439",
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "mdhsu600ap-lower-gi-disorders-openstax",
+       "topic": "📖 Lower GI disorders (OpenStax)",
+       "hyperLink": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+       "children": []
+      },
+      {
+       "id": "mdhsu600ap-kenya-clinical-guidelines-l4l6",
+       "topic": "📋 Kenya clinical guidelines (L4–L6)",
+       "hyperLink": "https://health.go.ke/sites/default/files/2025-04/Clinical%20Guidelines%20for%20Management%20Level%204%20Primary%20Care%20Hospitals%20Level%205%20Secondary%20Hospitals%20Level%206%20Tertiary%20Hospitals%20%E2%80%93%20National%20Hospitals.pdf",
+       "children": []
+      }
+     ]
+    }
+   },
+   "part": "y6"
   }
  ]
 }
