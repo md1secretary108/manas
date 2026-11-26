@@ -87,16 +87,16 @@
    "icon": "🪔",
    "file": "lib-bps.json",
    "root": "bps-root",
-   "meta": "11 maps · 1,089 ideas · 708 KB · 1 series + index",
-   "parts": 2,
+   "meta": "14 maps · 1,326 ideas · 852 KB · 2 series + index",
+   "parts": 3,
    "about": {
     "by": "HH Bhakti Padma Saurabha Pracharaka Swami, formerly HG Kamal Lochan Prabhu (classes); maps by Manas with his agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "24 Nov 2026"
    },
-   "v": 1795599474,
-   "whatsNew": "New teacher: HH Bhakti Padma Saurabha Pracharaka Swami (formerly HG Kamal Lochan Prabhu) — Journey of Self Discovery, six sessions, 434 ideas: inquiry and the Vedas, the soul, the science of God, who God is, karma and the three modes, five do's and four don'ts (24 Nov)",
+   "v": 1795678039,
+   "whatsNew": "New series: Srimad Bhagavatam classes given as HG Kamal Lochan Prabhu, 2 classes: SB 4.8.81 (the only shelter, Gopashtami) and SB 4.28.63 (the mirror: one yet different) (26 Nov)",
    "split": "lib-bps-index.json",
    "short": "BPS"
   },
