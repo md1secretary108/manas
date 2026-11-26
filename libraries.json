@@ -46,16 +46,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "376 maps · 24,918 ideas · 18.1 MB · 22 series + index",
-   "parts": 23,
+   "meta": "385 maps · 25,357 ideas · 18.4 MB · 23 series + index",
+   "parts": 24,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1795581394,
-   "whatsNew": "New series: Sri Siksastakam — 7 classes on Mahaprabhu's prayers (Verse 1 in Dehradun 2026; Verses 2–5 in Brazil 2019). Tap Maharaj → Sri Siksastakam.",
+   "v": 1795667869,
+   "whatsNew": "New series: Damodarastakam — 8 classes on the eight prayers to Lord Damodara (Verses 1–6 and 8, 2024; Verse 2 in Lagos 2025). Tap Maharaj → Damodarastakam.",
    "split": "lib-bdds-index.json",
    "short": "Maharaj",
    "reviewCap": 4000
@@ -154,10 +154,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New: The world of accounting · Accounting by industry 10. Religious organisations, 11. Shops and supermarkets, 12. Transport and matatu businesses (industries complete); Qualifications and career paths 1. KASNEB Accounting Technicians Diploma (ATD), 2. ACCA (Wed 25 Nov)",
-   "meta": "168 maps · 13,562 ideas · 3.0 MB · 6 subjects",
+   "whatsNew": "New: The world of accounting · Qualifications and career paths 3. CIMA, 4. ICAEW ACA (Chartered Accountant), 5. US CPA, 6. CIA: Certified Internal Auditor; At work 12. Credit control: collecting debts (Thu 26 Nov)",
+   "meta": "173 maps · 14,051 ideas · 3.1 MB · 6 subjects",
    "parts": 6,
-   "v": 1795586866,
+   "v": 1795673608,
    "split": "lib-acc-index.json",
    "short": "Acc"
   },
