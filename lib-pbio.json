@@ -734,7 +734,10 @@
             "label": "📖 Līlāmṛta ch. 6",
             "url": "https://vedabase.io/en/library/spl/1/6/#bb1562133"
            }
-          ]
+          ],
+          "map": "pbio-spl-1-6-deep",
+          "part": "course",
+          "library": "pbio"
          }
         },
         {
@@ -14554,7 +14557,7 @@
    "layout": "side",
    "lines": "curved",
    "created": 1795406340894,
-   "updated": 1795406340894,
+   "updated": 1795665437946,
    "library": "pbio",
    "deepOf": "pbio-ix-sections",
    "data": {
@@ -16012,12 +16015,1573 @@
         },
         {
          "id": "pbio15-ta-next",
-         "topic": "Next: business lost, manuscript stolen (course)",
-         "note": "The story goes on with the Lucknow years and the losses (course event; next chapter in depth soon).",
+         "topic": "Next: Chapter 6, An unknown friend",
+         "note": "The in-depth map of 1946–1952: partition, the letter to Gandhi, the stolen manuscript and Back to Godhead revived.",
+         "manas": {
+          "goto": {
+           "map": "pbio-spl-1-6-deep",
+           "node": "pbio16-root"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "part": "course"
+  },
+  {
+   "id": "pbio-spl-1-6-deep",
+   "title": "Līlāmṛta 6 · An unknown friend in depth",
+   "look": "paper",
+   "layout": "side",
+   "lines": "curved",
+   "created": 1795665437952,
+   "updated": 1795665437952,
+   "library": "pbio",
+   "deepOf": "pbio-ix-sections",
+   "data": {
+    "direction": 2,
+    "nodeData": {
+     "id": "pbio16-root",
+     "topic": "Chapter 6 · An unknown friend (1946–1952)",
+     "note": "In-depth map of Śrīla Prabhupāda-līlāmṛta, Volume 1, Chapter 6, “An Unknown Friend”: independence and partition, the Geetopanishad manuscript, letters to leaders (Mahendra Pratap, officials), the December 1947 letter to Gandhi and the Gandhi memorial proposal, the stolen manuscript (1948), articles in the Gauḍīya Patrikā (1949), the 1950–51 letter campaign, the loss of the Lucknow business, life as a vānaprastha in Allahabad, and Back to Godhead revived in 1952. Search words: Gandhi letter, Mahatma Gandhi, partition 1947, Geetopanishad, stolen manuscript, Allahabad, vanaprastha, BTG 1952, Gaudiya Patrika, unknown friend. All notes in our own words; read the chapter on vedabase.io.",
+     "hyperLink": "https://vedabase.io/en/library/spl/1/6/",
+     "children": [
+      {
+       "id": "pbio16-partition",
+       "topic": "🇮🇳 1946–47: freedom comes with partition",
+       "note": "He took no part in politics, but like millions he lived through the bloody birth of two nations.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562051",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Context"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-direct-action",
+         "topic": "Calcutta, August 1946: Direct Action Day",
+         "note": "The Muslim League, led by Jinnah, wanted its own state, Pakistan. Its day of protest on 16 August turned into Hindu–Muslim riots in Calcutta: about 4,000 dead in five days.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562052",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Context"
+          },
+          "q": "What happened in Calcutta after Direct Action Day, August 1946?"
+         }
+        },
+        {
+         "id": "pbio16-aug-1947",
+         "topic": "August 1947: India and Pakistan",
+         "note": "Facing the threat of civil war, Congress accepted division. The independence bill passed in July and a month later two free nations stood, with Nehru as India’s first prime minister.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562053",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "pbio16-migration",
+         "topic": "The great migration",
+         "note": "Millions found themselves on the wrong side of the new border. Refugees moving each way clashed, and hundreds of thousands were killed.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562054",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "pbio16-his-memory",
+         "topic": "What Śrīla Prabhupāda later recalled",
+         "note": "In his own later words: a movement meant to unite people ended by dividing the country, and scattered riots became organised war between two states.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562055",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Context"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio16-god-is-god",
+           "topic": "God is not Hindu or Muslim",
+           "note": "Each side smashed the other’s mosque or idol thinking it had beaten the other’s God. He called this ignorance: God belongs to no sect.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562056",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Knowledge"
+            },
+            "q": "What did Śrīla Prabhupāda say about Hindus and Muslims breaking each other’s places of worship?"
+           }
+          },
+          {
+           "id": "pbio16-baghbazar",
+           "topic": "Bodies in Baghbazar",
+           "note": "He remembered heaps of dead in Baghbazar. Once dead, no one could tell who had been Hindu or Muslim; the city simply cleared them off the road.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562057",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Soul"
+            },
+            "goto": {
+             "map": "pbio-ix-topics",
+             "node": "pbio-ix-topics-pl-calcutta"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio16-no-solution",
+         "topic": "Why freedom solved nothing for him",
+         "note": "Without God-conscious leaders, he saw, rule by one’s own countrymen brings the same suffering, only more of it. Prices rose and old neighbours turned on each other.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562058",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Leaders"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio16-blind",
+           "topic": "His guru’s picture: the blind leading the blind",
+           "note": "Śrīla Bhaktisiddhānta had described people attached to sense pleasure following leaders just as attached, so both fall into the ditch of repeated material life.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562060",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Guru"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio16-alone",
+       "topic": "✍️ Preaching with a pen, with no press",
+       "note": "Since 1944 he could not afford to print Back to Godhead, yet he kept writing and wrote to anyone who might listen.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562061",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Preaching"
+        },
+        "goto": {
+         "map": "pbio-ix-topics",
+         "node": "pbio-ix-topics-t-writing"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-torch",
+         "topic": "Carrying the torch",
+         "note": "A Vaiṣṇava thanks the guru who opened his eyes with knowledge and then feels bound to carry that light to others. Abhay wanted it shone on the crises of the day.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562061",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Guru"
+          }
+         }
+        },
+        {
+         "id": "pbio16-geetopanishad",
+         "topic": "Geetopanishad: the Gītā as it is",
+         "note": "His biggest project: a translation and commentary of the Gītā. Leaders like Gandhi quoted it but did not accept Kṛṣṇa as God; Abhay wanted it presented with Kṛṣṇa at the centre.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562062",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Knowledge"
+          },
+          "q": "What was Geetopanishad, and why did Abhay feel it was needed?"
+         },
+         "children": [
+          {
+           "id": "pbio16-geeto-size",
+           "topic": "Three volumes, about 1,200 pages",
+           "note": "He planned three bound, illustrated volumes. He wrote in notebooks and on loose sheets, then typed numbered pages — hundreds by 1948, done in spare hours.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562062",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Knowledge"
+            }
+           }
+          },
+          {
+           "id": "pbio16-geeto-real",
+           "topic": "Already real to him",
+           "note": "To Abhay the books already existed; only time stood between him and them. Search words: Gita translation, Bhagavad-gita As It Is beginnings.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562062",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Faith"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio16-letters",
+         "topic": "Letters as preaching",
+         "note": "He wrote to ministers, officials and writers he read about in the papers, calling himself a humble servant and offering Kṛṣṇa conscious culture as the answer to their problems. Any reply got a fresh letter back.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562063",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Preaching"
+          },
+          "q": "How did Abhay preach in the late 1940s when he could not print his magazine?"
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio16-pratap",
+       "topic": "🌍 Raja Mahendra Pratap and the “Religion of Love”",
+       "note": "An exchange with a reformer who wanted to unite humanity.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562064",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Preaching"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-pratap-who",
+         "topic": "The World Federation",
+         "note": "Mahendra Pratap, a well-known reformer writing from Vṛndāvana, called on all nations to unite. Abhay wrote that the Gītā gives a God-centred science able to unite every faith.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562064",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Preaching"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-pl-vrndavana"
+          }
+         }
+        },
+        {
+         "id": "pbio16-pratap-reply",
+         "topic": "May 1947: “that would be conversion”",
+         "note": "Pratap praised Abhay’s study of the Gītā but refused to put Kṛṣṇa’s name at the base of a union of religions, saying it would mean converting people, not uniting them.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562065",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Questions"
+          },
+          "q": "Why did Mahendra Pratap refuse Abhay’s suggestion?"
+         }
+        },
+        {
+         "id": "pbio16-pratap-answer",
+         "topic": "July 1947: the answer from Kanpur",
+         "note": "Abhay read Pratap’s book while in Kanpur as a medicine salesman, found a typewriter and wrote back.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562066",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Preaching"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio16-pantheism",
+           "topic": "Service of mankind alone is not enough",
+           "note": "He judged the book pantheistic: love of God reached only through serving humanity is partial and unscientific.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562067",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Knowledge"
+            }
+           }
+          },
+          {
+           "id": "pbio16-authority",
+           "topic": "Without authority, only opinion",
+           "note": "The book cited no scripture, so it was one man’s dogma among many. A real approach, he argued, must rest on authority and be scientific and universal.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562068",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Knowledge"
+            },
+            "q": "What two faults did Abhay find in “Religion of Love”?"
+           }
+          },
+          {
+           "id": "pbio16-ten-points",
+           "topic": "The Gītā in ten points",
+           "note": "He closed with a ten-point summary of the Gītā and said the best service to mankind is to teach it everywhere, for all people and all time.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562069",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Bhagavatam"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio16-officials",
+       "topic": "🏛 Doors closed by officials",
+       "note": "Most of the new government simply turned him away, often politely.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562070",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Questions"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-busy",
+         "topic": "“Heavy pressure of work”",
+         "note": "In 1947 he offered a remedy for the riots. The governor of West Bengal was too busy to see him; an assistant of an assistant at the education ministry wrote that the government could not agree.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562070",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "pbio16-pat",
+         "topic": "A pat on the head",
+         "note": "Some replies were kindly but empty: his peace plan would surely interest the Prime Minister, or he should contact someone else.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562071",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "pbio16-dont-come",
+         "topic": "Please do not come",
+         "note": "One local official thanked him for his fine feelings but said joining his proposed body would serve no purpose, so there was no need to visit.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562073",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "pbio16-rehab",
+         "topic": "No interest in kīrtana and prasāda",
+         "note": "After the 1947 Calcutta riots he wrote to the head of the refugee rehabilitation committee, who replied that neither he nor his committee was interested.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562075",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Chanting"
+          },
+          "q": "What did Abhay propose to the refugee rehabilitation committee in 1947, and what was the answer?"
+         }
+        },
+        {
+         "id": "pbio16-asthana",
+         "topic": "One open door: N. P. Asthana",
+         "note": "A high court advocate who studied the Gītā asked to see Abhay’s scheme and said he would be glad of guidance.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562077",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Devotees"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio16-gandhi",
+       "topic": "✉️ “Your unknown friend”: the letter to Gandhi",
+       "note": "The chapter’s title comes from how Abhay signed himself to Gandhi in December 1947.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562079",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Leaders"
+        },
+        "q": "Where does the chapter title “An Unknown Friend” come from?"
+       },
+       "children": [
+        {
+         "id": "pbio16-why-gandhi",
+         "topic": "Why write to Gandhi",
+         "note": "Gandhi could move the whole nation, and Abhay had once followed him. But Gandhi served God through politics and his own methods, not as a mahātmā in the Gītā’s sense.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562079",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Leaders"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio16-mahatma",
+           "topic": "Who is a mahātmā (BG 9.13–14)",
+           "note": "The Gītā’s great souls know Kṛṣṇa as the Supreme Lord, serve Him fully and always chant His glories.",
+           "hyperLink": "https://vedabase.io/en/library/bg/9/13/",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Devotees"
+            }
+           }
+          },
+          {
+           "id": "pbio16-old-friend",
+           "topic": "An old feeling of friendship",
+           "note": "His guru had turned him from Gandhi’s cause to pure devotion, yet Abhay still felt for him, though Gandhi was world-famous and Abhay unknown.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562080",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Love"
+            },
+            "goto": {
+             "map": "pbio-ix-sections",
+             "node": "pbio-ix-sections-e-1920-refuses-degree"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio16-saddest",
+         "topic": "Gandhi at the end of 1947",
+         "note": "Living in Birla House in Delhi, Gandhi was sidelined by Nehru and Patel, saw unity and non-violence failing, had been jeered by crowds, and was 78, weak and very sad.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562081",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "pbio16-bottle",
+         "topic": "A note in a bottle",
+         "note": "Abhay knew the letter, sent from Kanpur on 7 December 1947, would likely be lost among thousands. He sent it anyway.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562082",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Faith"
+          },
+          "q": "When and from where did Abhay write to Gandhi?"
+         }
+        },
+        {
+         "id": "pbio16-message",
+         "topic": "What the letter said",
+         "note": "The heart of it, in our words.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562083",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Preaching"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio16-retire",
+           "topic": "Leave politics, or die without glory",
+           "note": "As a friend he warned Gandhi to quit active politics at once or face an inglorious death.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562084",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Leaders"
+            }
+           }
+          },
+          {
+           "id": "pbio16-maya-honour",
+           "topic": "Fame made by māyā",
+           "note": "All Gandhi’s honours, he wrote, were real enough as honours but temporary, produced by the Lord’s illusory energy, and so in the end false.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562084",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Knowledge"
+            }
+           }
+          },
+          {
+           "id": "pbio16-cut",
+           "topic": "A sādhu cuts, he does not flatter",
+           "note": "The chapter explains: a saint’s friendship means cutting away illusion. Gandhi, deserted and disappointed, was at last in a position to hear it.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562085",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Guru"
+            },
+            "q": "What does the chapter say is the basis of a sādhu’s friendship?"
+           }
+          },
+          {
+           "id": "pbio16-undone",
+           "topic": "His work undone by “friends”",
+           "note": "Gandhi wanted Hindu–Muslim unity, freedom and help for the poorest; he got partition, new dependence and outcastes still suffering. Abhay called these exposures God’s gift.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562088",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Leaders"
+            }
+           }
+          },
+          {
+           "id": "pbio16-duality",
+           "topic": "Nothing absolute in this world",
+           "note": "In a world of pairs, non-violence is followed by violence as light by darkness. Because Gandhi never learned this from the right source, unity led to disunity.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562089",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Knowledge"
+            }
+           }
+          },
+          {
+           "id": "pbio16-no-guru",
+           "topic": "He never took a guru",
+           "note": "Gandhi followed an inner voice and mixed Ruskin, Thoreau, the Bible and the Gītā. The Kaṭha Upaniṣad and the Gītā both say to learn truth from a realised guru.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562090",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Guru"
+            }
+           }
+          },
+          {
+           "id": "pbio16-bg434",
+           "topic": "BG 4.34: approach a teacher",
+           "note": "The verse Abhay quoted: learn the truth by going to a self-realised teacher with humility, questions and service.",
+           "hyperLink": "https://vedabase.io/en/library/bg/4/34/",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Guru"
+            },
+            "q": "Which Gītā verse did Abhay quote to Gandhi about accepting a guru?"
+           }
+          },
+          {
+           "id": "pbio16-use-it",
+           "topic": "Use your austerity for the Absolute",
+           "note": "He granted that Gandhi’s penances had lifted him high, but warned that without seeking the Absolute Truth he would fall.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562095",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Surrender"
+            }
+           }
+          },
+          {
+           "id": "pbio16-one-month",
+           "topic": "Just one month for the Gītā",
+           "note": "His request: step out of politics for one month and discuss the Gītā with him, for Gandhi’s good and the world’s.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562096",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Questions"
+            },
+            "q": "What did Abhay ask Gandhi to do for one month?"
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio16-no-reply",
+         "topic": "No reply — then the assassination",
+         "note": "Gandhi fasted in January to make India pay Pakistan 550 million rupees. On 30 January 1948, on his way to prayers, he was shot and died calling “He Rāma”.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562100",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Context"
+          },
+          "q": "How did Gandhi die, and how did Abhay’s letter look afterwards?"
+         },
+         "children": [
+          {
+           "id": "pbio16-prophecy",
+           "topic": "A warning that read like prophecy",
+           "note": "Abhay’s letter of a month before now read like a prediction — but the man it was written for had never read it.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562100",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Stories"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio16-memorial",
+       "topic": "🕯 A “Gandhian” memorial for Gandhi",
+       "note": "When the Gandhi Memorial Fund asked for ideas, Abhay wrote to its directors and to Deputy Prime Minister Patel.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562102",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Preaching"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-vaisnava-gandhi",
+         "topic": "Gandhi as a Vaiṣṇava",
+         "note": "Abhay stressed a side of Gandhi few spoke of: he never missed his evening prayer meeting and was walking to kīrtana when shot. Without that, he wrote, Gandhi is an ordinary politician.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562104",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Chanting"
+          },
+          "q": "Which side of Gandhi did Abhay stress in his memorial proposal?"
+         }
+        },
+        {
+         "id": "pbio16-readings",
+         "topic": "Idea 1: daily Gītā gatherings",
+         "note": "Since Lord Caitanya began congregational chanting, the fitting memorial would be daily group readings of the Gītā to raise people’s character.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562104",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Chanting"
+          }
+         }
+        },
+        {
+         "id": "pbio16-temples",
+         "topic": "Idea 2: bring the temples back to life",
+         "note": "Gandhi had opened temples to all and installed Rādhā–Kṛṣṇa at Noakhali. Abhay proposed reorganising India’s neglected temples as real centres of spiritual training.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562105",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Preaching"
+          }
+         }
+        },
+        {
+         "id": "pbio16-harijan",
+         "topic": "Idea 3: really raise the “people of God”",
+         "note": "Naming outcastes harijan was not enough; he proposed a step-by-step training from the Gītā under a pure devotee, and offered to run it.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562106",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "pbio16-memory-dies",
+         "topic": "His warning to the board",
+         "note": "If the spiritual side of Gandhi were ignored, Abhay wrote, his memory would soon die like any politician’s.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562106",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "pbio16-servant",
+         "topic": "How he saw himself",
+         "note": "The board may have taken him for a seeker of funds or a sectarian. He saw himself as his guru’s servant using a chance to present his guru’s message.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562107",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Guru"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio16-stolen",
+       "topic": "📜 1948: the Gītā manuscript is stolen",
+       "note": "Just when a sponsor appeared, the only copy vanished.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562109",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Stories"
+        },
+        "goto": {
+         "map": "pbio-ix-sections",
+         "node": "pbio-ix-sections-e-1948-losses"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-chetty",
+         "topic": "A helper met on the road: Mr Chetty",
+         "note": "On a sales trip in Madurai he showed his writing to a fellow medicine salesman, Muthuswamy Chetty, who wanted his rich friend to fund it.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562109",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "pbio16-allagappa",
+         "topic": "Dr Allagappa, “Birla of the South”",
+         "note": "In April 1948 Chetty asked for the full manuscript to show the wealthy Dr Allagappa in Madras, who said he was interested. Abhay was invited to Madras to see it through the press.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562110",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Wealth"
+          },
+          "q": "Who was ready to fund Geetopanishad in 1948?"
+         }
+        },
+        {
+         "id": "pbio16-gone",
+         "topic": "The only copy disappears",
+         "note": "Then the manuscript, kept at home, was stolen. No one admitted anything; months of work were lost.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562111",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Attachment"
+          },
+          "q": "What happened to the Geetopanishad manuscript in 1948?"
+         },
+         "children": [
+          {
+           "id": "pbio16-suspect",
+           "topic": "Never solved",
+           "note": "He suspected a servant or even his son, perhaps for money, but could prove nothing and it stayed a mystery.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562111",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Family"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio16-patrika",
+       "topic": "📰 1949: articles in the Gauḍīya Patrikā",
+       "note": "He wrote Bengali essays for his Godbrother Keśava Mahārāja’s paper.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562113",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Preaching"
+        },
+        "goto": {
+         "map": "pbio-ix-topics",
+         "node": "pbio-ix-topics-p-keshava-maharaja"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-same-theme",
+         "topic": "His guru’s theme from 1922",
+         "note": "At their first meeting his guru had said the world’s real crisis is lack of spiritual knowledge. Abhay built on this: put Kṛṣṇa first and other problems fall into line.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562113",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Guru"
+          },
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-e-1922-meets-guru"
+          }
+         }
+        },
+        {
+         "id": "pbio16-editorial",
+         "topic": "Starting from a newspaper",
+         "note": "His first article opened with an Amrita Bazar editorial lamenting that free India still had troubles as bad as under foreign rule.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562114",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Context"
+          }
+         }
+        },
+        {
+         "id": "pbio16-nature",
+         "topic": "Nature punishes forgetfulness of God",
+         "note": "India fell when its leaders left their spiritual heritage. Meetings, laws and research cannot beat nature’s law, which the Lord controls; the Gītā said so long ago.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562117",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Knowledge"
+          },
+          "q": "Why, in Abhay’s 1949 articles, could free India not escape its troubles?"
+         },
+         "children": [
+          {
+           "id": "pbio16-monkey",
+           "topic": "Aiming for Śiva, making a monkey",
+           "note": "He used a Bengali saying about trying to sculpt Śiva and ending with a monkey: so go human plans made without God.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562117",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Stories"
+            }
+           }
+          },
+          {
+           "id": "pbio16-atom",
+           "topic": "The atom bomb as illusion",
+           "note": "Even the bomb, meant to bring happiness, now frightened its makers — another puzzle of the illusory energy, he wrote.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562118",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Science"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio16-to-west",
+         "topic": "A prophecy: it will reach the West",
+         "note": "He told Indians not to copy the West, yet predicted that India’s real peace formula would one day be heard there.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562119",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Purpose"
+          },
+          "q": "What did Abhay predict in 1949 about the West?"
+         }
+        },
+        {
+         "id": "pbio16-asuras",
+         "topic": "Modern demons, Kṛṣṇa’s words",
+         "note": "Godbrothers liked the essays, which echoed their guru. The Gītā’s asuras became today’s leaders; he said he was only repeating Kṛṣṇa (see BG 16).",
+         "hyperLink": "https://vedabase.io/en/library/bg/16/8/",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Leaders"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio16-campaign",
+       "topic": "📮 1950–51: letters to the world",
+       "note": "He kept writing, alone, as preacher of the Gītā and editor of Back to Godhead.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562123",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Preaching"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-everyone",
+         "topic": "President, pacifists, conferences",
+         "note": "He wrote to the World Pacifist Committee, the President, the education minister, a cultural-freedom group (which thought he had written by mistake) and an all-religions conference.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562123",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Preaching"
+          }
+         }
+        },
+        {
+         "id": "pbio16-bailey",
+         "topic": "The American Reporter, Sept 1951",
+         "note": "An editor at the US embassy’s magazine said they could not give space to the Gītā without giving equal space to all views. Abhay replied that the less informed must be guided by those who know more.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562124",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Questions"
+          },
+          "q": "Why did the American Reporter decline Abhay’s article in 1951?"
+         }
+        },
+        {
+         "id": "pbio16-ford",
+         "topic": "Even the Ford Foundation",
+         "note": "He proposed an association of intelligent people; the Foundation said it had no programme for that.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562125",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Questions"
+          }
+         }
+        },
+        {
+         "id": "pbio16-praise",
+         "topic": "A few kind words",
+         "note": "A professor at Allahabad University and the governor of Uttar Pradesh wrote back with warm appreciation.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562126",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Devotees"
+          }
+         }
+        },
+        {
+         "id": "pbio16-offer",
+         "topic": "Ready to do the work himself",
+         "note": "Given backing, he would teach, manage temples, train worshippers, initiate and organise field preaching. He even urged a factory owner to have workers chant Hare Kṛṣṇa in their club room.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562127",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Preaching"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio16-universal",
+           "topic": "Not sectarian but universal",
+           "note": "People called him sectarian. He answered that the Gītā is for all, and even a secular state cannot leave out God, the father of all beings.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562129",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Knowledge"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio16-never-down",
+         "topic": "Turned down, never discouraged",
+         "note": "He kept copies of every letter and reply; one friendly line was enough for another careful letter.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562130",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Faith"
+          },
+          "q": "How did Abhay respond to repeated rejection of his letters?"
+         }
+        },
+        {
+         "id": "pbio16-no-faction",
+         "topic": "Outside the maṭha quarrels",
+         "note": "He still hoped his Godbrothers would unite to preach, but joining any maṭha meant joining a faction, so he worked alone.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562131",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Devotees"
+          },
+          "goto": {
+           "map": "pbio-spl-1-5-deep",
+           "node": "pbio15-fire"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio16-losses",
+       "topic": "📉 1948–50: business slips away",
+       "note": "Kṛṣṇa, he felt, was taking everything to free him.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562133",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Wealth"
+        },
+        "goto": {
+         "map": "pbio-ix-topics",
+         "node": "pbio-ix-topics-t-struggle"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-lucknow",
+         "topic": "The Lucknow factory closes",
+         "note": "Behind on wages and paying old rent in instalments, he shut the factory when sales fell in 1948. He lost everything.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562133",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Wealth"
+          },
+          "q": "Why did the Lucknow factory close in 1948?",
+          "goto": {
+           "map": "pbio-spl-1-5-deep",
+           "node": "pbio15-lucknow"
+          }
+         }
+        },
+        {
+         "id": "pbio16-golden",
+         "topic": "Looking back on “golden days”",
+         "note": "Later he recalled the Lucknow lab as a time when his business was known to all, and then slowly shrank to nothing.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562134",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Wealth"
+          }
+         }
+        },
+        {
+         "id": "pbio16-allahabad",
+         "topic": "A new start in Allahabad",
+         "note": "Friends helped him open a small factory in Allahabad, where Prayag Pharmacy had failed years before. He moved there with his son Brindaban; the rest stayed in Calcutta.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562135",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Family"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-pl-allahabad"
+          }
+         }
+        },
+        {
+         "id": "pbio16-dream2",
+         "topic": "The sannyāsa dream again",
+         "note": "His guru appeared once more, beckoning him to take sannyāsa. With five children and money to earn, he again put it aside.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562136",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Surrender"
+          },
+          "q": "What did Abhay dream a second time, and why did he set it aside?",
+          "goto": {
+           "map": "pbio-spl-1-5-deep",
+           "node": "pbio15-dream"
+          }
+         }
+        },
+        {
+         "id": "pbio16-poor",
+         "topic": "Results stay meagre",
+         "note": "The Allahabad trade did badly; he told his old servant Gouranga there was no work for him yet.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562137",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Wealth"
+          }
+         }
+        },
+        {
+         "id": "pbio16-mercy",
+         "topic": "Losing wealth as mercy",
+         "note": "He saw it through scripture and his guru’s teaching: Kṛṣṇa was making him helpless so he could preach.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562141",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Mercy"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio16-sb10888",
+           "topic": "SB 10.88.8: “I take away his wealth”",
+           "note": "The Lord says that when He especially favours someone, He slowly removes that person’s wealth, and relatives then desert him. His guru had often quoted it.",
+           "hyperLink": "https://vedabase.io/en/library/sb/10/88/8/",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Mercy"
+            },
+            "q": "Which Bhāgavatam verse did Abhay often think of as his business failed?"
+           }
+          },
+          {
+           "id": "pbio16-kunti",
+           "topic": "SB 1.8.26: Kuntī’s prayer",
+           "note": "Queen Kuntī says the Lord is reached easily by those exhausted by the world, not by those proud of birth, wealth, learning or beauty.",
+           "hyperLink": "https://vedabase.io/en/library/sb/1/8/26/",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Mercy"
+            }
+           }
+          },
+          {
+           "id": "pbio16-forced",
+           "topic": "“Kṛṣṇa forced me”",
+           "note": "He later said his wish to preach grew as the business shrank; by about 1950 he had practically retired.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562142",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Surrender"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio16-family",
+       "topic": "🏠 Family drifts away",
+       "note": "Home life grew harder as his preaching grew stronger.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562145",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Family"
+        },
+        "goto": {
+         "map": "pbio-ix-topics",
+         "node": "pbio-ix-topics-t-family"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-in-laws",
+         "topic": "Back to her father’s house",
+         "note": "Worried about money, his wife moved with the sons to her father’s home on Mahatma Gandhi Road. Her father scolded Abhay for always being away worshipping God.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562146",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Family"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-p-radharani-de"
+          }
+         }
+        },
+        {
+         "id": "pbio16-nephew",
+         "topic": "A nephew remembers",
+         "note": "His nephew Sudhir Kumar Dutta saw him torn between family, business and writing. When people mocked his religious writing, he asked what family had ever given him.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562147",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Family"
+          }
+         }
+        },
+        {
+         "id": "pbio16-dinner",
+         "topic": "The dinner from the market",
+         "note": "At his father-in-law’s, every dish had been bought ready-made because the cook was ill. Feeling she would only be spoiled there, he moved the family to Chetla Street.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562148",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Family"
+          },
+          "q": "Why did Abhay move his family from his father-in-law’s house to Chetla Street?"
+         }
+        },
+        {
+         "id": "pbio16-tea",
+         "topic": "Tea upstairs during his classes",
+         "note": "When friends gathered for his Gītā talks in Calcutta, his wife and sons sat upstairs over tea, showing no interest. He kept trying to draw them in.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562159",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Family"
+          },
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-e-1954-leaves-home"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio16-vanaprastha",
+       "topic": "🧘 Living as a vānaprastha",
+       "note": "At 54, in Allahabad, he lived more like a retired seeker than a householder.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562151",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Surrender"
+        },
+        "goto": {
+         "map": "pbio-ix-topics",
+         "node": "pbio-ix-topics-t-renunciation"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-asramas",
+         "topic": "The four āśramas",
+         "note": "Vedic life has four stages: student (brahmacārī), householder (gṛhastha), retired (vānaprastha) and renounced (sannyāsa), leading a person out of birth and death.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562152",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Knowledge"
+          },
+          "q": "Name the four āśramas of Vedic life."
+         },
+         "children": [
+          {
+           "id": "pbio16-brahmacari",
+           "topic": "His youth matched the student stage",
+           "note": "Though at home, he grew up celibate and devoted, taught by his parents — like a brahmacārī.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562153",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Family"
+            }
+           }
+          },
+          {
+           "id": "pbio16-grhastha",
+           "topic": "Married at the right age",
+           "note": "He married at 21, and his father’s example showed him how to stay devoted in family life.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562153",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Family"
+            },
+            "goto": {
+             "map": "pbio-ix-topics",
+             "node": "pbio-ix-topics-p-gour-mohan"
+            }
+           }
+          },
+          {
+           "id": "pbio16-at-fifty",
+           "topic": "At fifty, step back",
+           "note": "From fifty a couple turns from family duties to spiritual partnership and pilgrimage, getting ready for death.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562154",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Soul"
+            }
+           }
+          },
+          {
+           "id": "pbio16-preaching-sannyasa",
+           "topic": "Sannyāsa for preaching",
+           "note": "In the old way a sannyāsī did penance alone in the Himalayas; Śrīla Bhaktisiddhānta made sannyāsa a life of preaching.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562155",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Preaching"
+            },
+            "goto": {
+             "map": "pbio-ix-sections",
+             "node": "pbio-ix-sections-e-1959-sannyasa"
+            }
+           }
+          }
+         ]
+        },
+        {
+         "id": "pbio16-blessing",
+         "topic": "Failures seen as blessings",
+         "note": "He took his losses and the unhappy home as Kṛṣṇa’s kindness, freeing him for his guru’s order.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562156",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Mercy"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio16-btg",
+       "topic": "📗 1952: Back to Godhead returns",
+       "note": "After eight years, the magazine came out again from Allahabad.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562158",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Preaching"
+        },
+        "goto": {
+         "map": "pbio-ix-sections",
+         "node": "pbio-ix-sections-e-1944-back-to-godhead"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-canning",
+         "topic": "February 1952, 57B Canning Road",
+         "note": "He saved enough to print again from his office-home in Allahabad, and again did everything himself: writing, typing, editing, printing, handing out and mailing.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562158",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Preaching"
+          },
+          "q": "When and where did Back to Godhead reappear after 1944?"
+         }
+        },
+        {
+         "id": "pbio16-real-purpose",
+         "topic": "The best use of money",
+         "note": "This, he felt, was the real reason to live anywhere: to use everything in glorifying the Lord, since all else would soon be lost.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562158",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Purpose"
+          }
+         }
+        },
+        {
+         "id": "pbio16-march",
+         "topic": "March 1952: his guru’s story",
+         "note": "The next issue carried his life sketch of Śrīla Bhaktisiddhānta and Bhaktivinoda Ṭhākura, who gave his son a “power of attorney” to carry on Lord Caitanya’s cause.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562165",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Guru"
+          },
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-p-bhaktisiddhanta"
+          }
+         }
+        },
+        {
+         "id": "pbio16-train",
+         "topic": "Thinking on the night train",
+         "note": "On the 12-hour night train between Allahabad and Calcutta he would read, think or write while others slept, until dawn and the tea sellers’ cries.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562167",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Stories"
+          }
+         }
+        },
+        {
+         "id": "pbio16-westernised",
+         "topic": "India copying the West",
+         "note": "Over twenty years of travel he saw more smoking and Western ways, leaders wanting God’s kingdom without God, and fields lying unused while people went hungry.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562169",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Leaders"
+          }
+         }
+        },
+        {
+         "id": "pbio16-abroad",
+         "topic": "Planning to send BTG abroad",
+         "note": "His guru’s preachers had gone to England and come back having changed nothing. Abhay thought of sending the magazine overseas through his agents, since the message is for everyone.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562170",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Purpose"
+          },
+          "q": "Why did Abhay think of sending Back to Godhead abroad?",
+          "goto": {
+           "map": "pbio-ix-topics",
+           "node": "pbio-ix-topics-t-guru-order"
+          }
+         },
+         "children": [
+          {
+           "id": "pbio16-every-town",
+           "topic": "Every town and village",
+           "note": "The Caitanya-bhāgavata foretold that Lord Caitanya’s name would be known in every town and village; his guru wanted it, and so did he.",
+           "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562170",
+           "manas": {
+            "orbit": {
+             "ref": "Līlāmṛta 1.6",
+             "tag": "Purpose"
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pbio16-madhavendra",
+       "topic": "🌸 Mādhavendra Purī: let them criticise",
+       "note": "The chapter opens and closes with a verse of Mādhavendra Purī.",
+       "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562160",
+       "manas": {
+        "orbit": {
+         "ref": "Līlāmṛta 1.6",
+         "tag": "Surrender"
+        }
+       },
+       "children": [
+        {
+         "id": "pbio16-mp-meaning",
+         "topic": "What the verse says, in short",
+         "note": "Moralists, scholars, relatives and the rich may call the devotee mad, proud or a fool; his mind still will not move from serving Govinda.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562162",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Surrender"
+          },
+          "q": "Which saint’s verse frames this chapter, and what is it about?"
+         }
+        },
+        {
+         "id": "pbio16-mp-abhay",
+         "topic": "How it fits Abhay",
+         "note": "Relatives mocked him, but he saw Back to Godhead as service to the whole human family and family quarrels as small beside the world’s crises.",
+         "hyperLink": "https://vedabase.io/en/library/spl/1/6/#bb1562163",
+         "manas": {
+          "orbit": {
+           "ref": "Līlāmṛta 1.6",
+           "tag": "Purpose"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "pbio16-takeaway",
+       "topic": "🎯 Take-away: why this chapter matters",
+       "note": "What a newcomer should carry forward from Chapter 6.",
+       "manas": {},
+       "children": [
+        {
+         "id": "pbio16-ta-friend",
+         "topic": "A true friend tells the hard truth",
+         "note": "His letter to Gandhi shows the sādhu’s friendship: honest warning, not flattery.",
+         "manas": {}
+        },
+        {
+         "id": "pbio16-ta-reject",
+         "topic": "Rejection did not stop him",
+         "note": "Letters went unanswered and doors closed, yet he kept writing and kept copies, waiting for one sympathetic reader. (Our note.)",
+         "manas": {}
+        },
+        {
+         "id": "pbio16-ta-loss",
+         "topic": "Loss as preparation",
+         "note": "The stolen manuscript, the failed factories and the drifting family cleared the way for full-time preaching.",
+         "manas": {}
+        },
+        {
+         "id": "pbio16-ta-btg",
+         "topic": "Back to Godhead never died",
+         "note": "Eight years without print, then he started again alone in 1952.",
+         "manas": {}
+        },
+        {
+         "id": "pbio16-ta-course",
+         "topic": "Course event: Business lost, manuscript stolen",
+         "note": "The course’s short version of these years.",
          "manas": {
           "goto": {
            "map": "pbio-ix-sections",
            "node": "pbio-ix-sections-e-1948-losses"
+          }
+         }
+        },
+        {
+         "id": "pbio16-ta-period",
+         "topic": "Course period 3: preaching alone in India",
+         "note": "The course’s list of events from 1936 to 1959.",
+         "manas": {
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-s-s3"
+          }
+         }
+        },
+        {
+         "id": "pbio16-ta-back",
+         "topic": "Back: Chapter 5, The war",
+         "note": "The in-depth map of the Gaudiya Math split, wartime and the first Back to Godhead.",
+         "manas": {
+          "goto": {
+           "map": "pbio-spl-1-5-deep",
+           "node": "pbio15-root"
+          }
+         }
+        },
+        {
+         "id": "pbio16-ta-next",
+         "topic": "Next: League of Devotees in Jhansi (course)",
+         "note": "The story goes on with the League of Devotees (course event; next chapter in depth soon).",
+         "manas": {
+          "goto": {
+           "map": "pbio-ix-sections",
+           "node": "pbio-ix-sections-e-1953-league-of-devotees"
           }
          }
         }
