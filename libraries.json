@@ -46,16 +46,16 @@
    "icon": "📿",
    "file": "lib-bdds.json",
    "root": "bdds-root",
-   "meta": "385 maps · 25,357 ideas · 18.4 MB · 23 series + index",
-   "parts": 24,
+   "meta": "390 maps · 25,630 ideas · 18.6 MB · 24 series + index",
+   "parts": 25,
    "about": {
     "by": "HH Bhakti Dhira Damodara Swami (classes, Vrindavan); maps by Manas with Maharaj’s agreement",
     "from": "His recorded classes on YouTube; automatic transcripts; notes in Manas’s own words",
     "review": "more on the way · summaries: review in progress",
     "date": "6 Oct 2026"
    },
-   "v": 1795667869,
-   "whatsNew": "New series: Damodarastakam — 8 classes on the eight prayers to Lord Damodara (Verses 1–6 and 8, 2024; Verse 2 in Lagos 2025). Tap Maharaj → Damodarastakam.",
+   "v": 1795754259,
+   "whatsNew": "New series: Vaisnava Etiquette — 4 classes on how a devotee behaves in the temple: humility, obeisances, darshan, sitting and talking. Tap Maharaj → Vaisnava Etiquette. Also new: Damodarastakam (8 classes).",
    "split": "lib-bdds-index.json",
    "short": "Maharaj",
    "reviewCap": 4000
@@ -154,10 +154,10 @@
     "review": "review in progress — looking for a CPA reviewer",
     "date": "14 Oct 2026"
    },
-   "whatsNew": "New: The world of accounting · Qualifications and career paths 3. CIMA, 4. ICAEW ACA (Chartered Accountant), 5. US CPA, 6. CIA: Certified Internal Auditor; At work 12. Credit control: collecting debts (Thu 26 Nov)",
-   "meta": "173 maps · 14,051 ideas · 3.1 MB · 6 subjects",
+   "whatsNew": "New: The world of accounting · Qualifications and career paths 7. CFE: Certified Fraud Examiner, 8. CFA: investment analysis, 9. Accounting degrees in Kenya; At work 13. Preparing for an audit, 14. When KRA audits you (Fri 27 Nov)",
+   "meta": "178 maps · 14,562 ideas · 3.2 MB · 6 subjects",
    "parts": 6,
-   "v": 1795673608,
+   "v": 1795759815,
    "split": "lib-acc-index.json",
    "short": "Acc"
   },
