@@ -128,7 +128,7 @@
    "icon": "🩺",
    "file": "lib-mbchb.json",
    "root": "med-root",
-   "meta": "108 maps · 10,346 ideas · 3.6 MB · 6 years",
+   "meta": "114 maps · 10,819 ideas · 5.7 MB · 6 years",
    "about": {
     "by": "Manas, for Kenyan MBChB students (University of Nairobi course structure)",
     "from": "Course list from the UoN programme; key facts drafted with AI and checked twice by AI; OpenStax, Kenya MoH and WHO links",
@@ -136,8 +136,8 @@
     "date": "28 Sep 2026"
    },
    "parts": 6,
-   "v": 1795584844,
-   "whatsNew": "6 new in-depth topics (Year 6): cardiac arrhythmias and ECG, eczema and dermatitis, therapeutic drug monitoring, polytrauma and pelvic fractures, treatment-resistant illness and ECT, acute appendicitis — 435 ideas, 18 new research papers",
+   "v": 1795757736,
+   "whatsNew": "6 new in-depth topics (Year 6 and Year 4): retinal vascular disease, otosclerosis and conductive hearing loss, difficult airway management, dental caries, primary health care, radiation protection — each with 🌍 guidance around the world and 🆕 latest research",
    "split": "lib-mbchb-index.json",
    "short": "Med"
   },
