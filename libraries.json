@@ -245,7 +245,7 @@
   {
    "id": "statute",
    "title": "Constitution of Kenya 2010 — article by article · draft",
-   "subtitle": "Draft for review: the Constitution of Kenya 2010 one Article at a time, in plain words, every bubble linked to the official text — Chapters 1–6 so far (sovereignty and supremacy, the Republic, citizenship, the Bill of Rights, land and environment, leadership and integrity), with flashcards and the cases that applied them.",
+   "subtitle": "Draft for review: the Constitution of Kenya 2010 one Article at a time, in plain words, every bubble linked to the official text — Chapters 1–8 so far (sovereignty and supremacy, the Republic, citizenship, the Bill of Rights, land and environment, leadership and integrity, representation of the people, Parliament), with flashcards and the cases that applied them.",
    "icon": "📜",
    "file": "lib-statute.json",
    "root": "statute-root",
@@ -256,10 +256,10 @@
     "review": "Study aid, not legal advice · Draft, review in progress",
     "date": "6 Nov 2026"
    },
-   "parts": 6,
-   "v": 1795174125,
-   "meta": "13 maps · 529 ideas · 232 KB · 6 subjects",
-   "whatsNew": "Deeper: Chapter 2 The Republic and Chapter 3 Citizenship — 24 new ideas (why it matters, worked examples, common mistakes), 2 cases from Kenya Law (BAT v CS Health 2019; Miguna v Matiang'i 2018), 6 index entries (Fri 20 Nov)",
+   "parts": 8,
+   "v": 1795778907,
+   "meta": "17 maps · 748 ideas · 337 KB · 8 subjects",
+   "whatsNew": "New: Chapter 7 Representation of the people (Art. 81–92: elections, IEBC, boundaries, parties) and Chapter 8 The Legislature (Art. 93–128: Parliament, how Bills become law) — 48 Articles, 56 flashcards, Gender Representation case 2012 (Fri 27 Nov)",
    "split": "lib-statute-index.json",
    "short": "Const"
   },
