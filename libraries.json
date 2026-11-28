@@ -67,7 +67,7 @@
    "icon": "🪷",
    "file": "lib-sgd.json",
    "root": "sgd-root",
-   "meta": "31 maps · 2,672 ideas · 1.6 MB · 2 series + index",
+   "meta": "33 maps · 2,751 ideas · 1.6 MB · 2 series + index",
    "parts": 3,
    "about": {
     "by": "HG Sri Gauranga Das (classes, Nairobi); maps by Manas with his blessings",
@@ -75,8 +75,8 @@
     "review": "more on the way · summaries: review in progress",
     "date": "14 Oct 2026"
    },
-   "v": 1795233710,
-   "whatsNew": "Deeper: Gita Week Day 2 — 2 in-depth maps, 104 ideas: You are the soul, not the body · Work with no reaction; index: 3 new subjects (21 Nov)",
+   "v": 1795838202,
+   "whatsNew": "Deeper: Gita Week Day 3 — 2 in-depth maps, Knowledge that comes down and Work without a stain (79 ideas, 21 flashcards) (Sat 28 Nov)",
    "split": "lib-sgd-index.json",
    "short": "SGD"
   },
@@ -168,16 +168,9 @@
    "icon": "📊",
    "file": "lib-cpa31.json",
    "root": "cpa31-root",
-   "meta": "4 maps · 353 ideas · 283 flashcards · 204 KB · 3 of 10 topics",
-   "v": 1794974231,
-   "whatsNew": "Deeper: Enterprise Management (Topic 7) +29 points — intrapreneurship, creativity, innovation types, Kenyan IP (KIPI, KECOBO, passing off); Environmental analysis (Topic 5) +11 — scenario planning, CATWOE, worked examples (18 Nov)",
-   "about": {
-    "by": "Manas, for KASNEB CPA Advanced candidates; tutorial notes from a practising accountant",
-    "from": "CA31 tutorial notes (Topics 5, 6, 7) restated in Manas’s own words; KASNEB paper structure",
-    "review": "review in progress",
-    "date": "6 Oct 2026"
-   },
-   "short": "CA31"
+   "meta": "4 maps · 372 ideas · 302 flashcards · 235 KB · 3 of 10 topics",
+   "v": 1795838460,
+   "whatsNew": "Deeper: Environmental Analysis 5.1–5.3 and Enterprise Management 7.4, 7.11 — 19 new points with worked examples (M-Pesa, Data Protection Act, conversion rate, cash cushion) (Sat 28 Nov) · Review in progress"
   },
   {
    "id": "soil",
