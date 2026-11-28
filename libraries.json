@@ -201,7 +201,7 @@
    "icon": "🤖",
    "file": "lib-ai.json",
    "root": "ai-root",
-   "whatsNew": "New: AI security (attacks and defences) and Small models on your own machine; news refreshed: Anthropic shares listed on Nasdaq, OpenAI's shared progress yardstick (perplexity), Shirudo AI shields for servers, DeepMind agents improving quantum algorithms (24 Nov)",
+   "whatsNew": "New: Search, logic and planning (A*, minimax, timetables, planners) and AI for families: children and parents; news refreshed: Riemann hypothesis proved with Claude and checked in Lean, GPT-6 designing proteins, DeepMind AI reading mass spectra (28 Nov)",
    "about": {
     "by": "Manas, for anyone learning AI — beginners and students",
     "from": "Wikipedia, research papers (Europe PMC), free courses; YouTube videos from universities and well-known teachers",
@@ -209,8 +209,8 @@
     "date": "14 Oct 2026"
    },
    "parts": 9,
-   "v": 1795497790,
-   "meta": "71 maps · 4,521 ideas · 1.1 MB · 9 subjects",
+   "v": 1795843563,
+   "meta": "73 maps · 4,691 ideas · 1.1 MB · 9 subjects",
    "split": "lib-ai-index.json",
    "short": "AI"
   },
